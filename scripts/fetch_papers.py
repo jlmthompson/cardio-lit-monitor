@@ -37,11 +37,20 @@ def pubmed_search(query, max_results=20):
 def pubmed_fetch(ids, webenv, querykey):
     if not ids:
         return []
-    r = requests.get(f"{EUTILS}/efetch.fcgi", params={
-        "db": "pubmed", "webenv": webenv, "query_key": querykey,
-        "rettype": "xml", "retmode": "xml", "retmax": len(ids)
-    }, timeout=30)
-    r.raise_for_status()
+    for attempt in range(3):
+        try:
+            r = requests.get(f"{EUTILS}/efetch.fcgi", params={
+                "db": "pubmed", "webenv": webenv, "query_key": querykey,
+                "rettype": "xml", "retmode": "xml", "retmax": len(ids)
+            }, timeout=30)
+            if r.status_code == 429:
+                time.sleep(5 * (attempt + 1))
+                continue
+            r.raise_for_status()
+            break
+        except Exception:
+            if attempt == 2: return []
+            time.sleep(3)
     root = ET.fromstring(r.content)
     papers = []
     for art in root.findall(".//PubmedArticle"):
@@ -261,10 +270,6 @@ def main():
     digest["sections"]["pgs_new_scores"] = fetch_new_pgs_scores()
 
     # ── Summary ──
-    total = sum(
-        sum(gl["total"] for gl in digest["sections"]["gene_watch"].values()),
-        # prs
-    )
     gene_total  = sum(s["total"] for s in digest["sections"]["gene_watch"].values())
     prs_total   = sum(s["total"] for s in digest["sections"]["prs_watch"].values())
     topic_total = sum(s["total"] for s in digest["sections"]["topic_watch"].values())
