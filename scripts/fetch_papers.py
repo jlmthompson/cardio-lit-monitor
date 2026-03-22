@@ -86,11 +86,23 @@ def pubmed_fetch(ids, webenv, querykey):
     papers = []
     for art in root.findall(".//PubmedArticle"):
         try:
-            pmid  = art.findtext(".//PMID", "")
-            title = art.findtext(".//ArticleTitle", "").strip()
-            title = re.sub(r'<[^>]+>', '', title)
+            pmid = art.findtext(".//PMID", "")
+
+            # Title: use itertext() to capture text inside child elements
+            # (PubMed uses <i>, <b>, <sub>, <sup> etc. for gene names / species)
+            title_elem = art.find(".//ArticleTitle")
+            title = "".join(title_elem.itertext()).strip() if title_elem is not None else ""
+            title = re.sub(r'\s+', ' ', title)  # normalise whitespace
+
+            # Abstract: handle both flat and structured (labelled) abstracts
             abs_texts = art.findall(".//AbstractText")
-            abstract  = " ".join(a.text or "" for a in abs_texts if a.text).strip()
+            abstract_parts = []
+            for a in abs_texts:
+                label = a.get("Label", "")
+                text  = "".join(a.itertext()).strip()
+                if text:
+                    abstract_parts.append(f"{label}: {text}" if label else text)
+            abstract = " ".join(abstract_parts).strip()
             authors = []
             for a in art.findall(".//Author")[:3]:
                 ln = a.findtext("LastName","")
@@ -143,69 +155,119 @@ def make_ris(pmid, title, authors, journal, year, doi, abstract):
 def summarise_abstract(abstract):
     """
     Extract 2-3 bullet-point sentences from a scientific abstract.
-    Prioritises sentences with results/findings signal words.
-    Returns a list of strings (without trailing punctuation added).
+
+    Strategy:
+    1. If the abstract has structured sections (RESULTS:, CONCLUSIONS:, FINDINGS:),
+       extract sentences from those sections directly.
+    2. Otherwise score all sentences by results-signal words and pick the top 2-3.
+
+    Returns a list of clean sentence strings.
     """
     if not abstract:
         return []
 
-    # Split into sentences (handles common abbreviations reasonably)
-    raw = re.split(r'(?<=[.!?])\s+(?=[A-Z])', abstract.strip())
-    sentences = [s.strip() for s in raw if len(s.strip()) > 30]
+    # ── Step 1: try to pull from labelled sections ──
+    PRIORITY_LABELS = re.compile(
+        r'(RESULTS?|CONCLUSIONS?|FINDINGS?|KEY FINDINGS?|MAIN RESULTS?'
+        r'|INTERPRETATION|SIGNIFICANCE|TAKE-?AWAY)\s*:\s*',
+        re.IGNORECASE
+    )
+    labelled_text = []
+    for m in PRIORITY_LABELS.finditer(abstract):
+        # grab text from this label to the next label (or end)
+        start = m.end()
+        next_label = PRIORITY_LABELS.search(abstract, start)
+        end = next_label.start() if next_label else len(abstract)
+        chunk = abstract[start:end].strip()
+        if chunk:
+            labelled_text.append(chunk)
+
+    source = " ".join(labelled_text) if labelled_text else abstract
+
+    # ── Step 2: split into sentences ──
+    # First, split on any internal sub-headers (e.g. "Discovery of X:", "Functional validation:")
+    # These appear in highly structured abstracts within Results/Conclusions sections
+    SUB_HEADER = re.compile(r'(?<=[.!\?])\s+[A-Z][A-Za-z /\-]{3,40}:\s+')
+    sub_parts = SUB_HEADER.split(source)
+    if len(sub_parts) > 3:
+        # Structured sub-sections: treat each as a candidate sentence
+        source = " ".join(sub_parts)  # flatten; sentence splitter will separate
+
+    raw = re.split(r'(?<=[.!?])\s+(?=[A-Z\(])', source.strip())
+    sentences = [s.strip() for s in raw if len(s.strip()) > 25]
     if not sentences:
         return []
 
-    # Score each sentence
+    # ── Step 3: score sentences (only used when no labelled sections found) ──
     RESULTS_SIGNALS = [
         "we found", "we identified", "we show", "we demonstrate", "we report",
-        "we observed", "we detected", "we present", "our results", "our findings",
-        "results show", "results indicate", "results suggest", "findings suggest",
-        "findings indicate", "results demonstrate", "analysis revealed",
+        "we observed", "we detected", "our results", "our findings",
+        "results show", "results indicate", "results suggest",
+        "findings suggest", "findings indicate", "analysis revealed",
         "associated with", "significantly", "were associated", "was associated",
         "increased risk", "decreased risk", "higher risk", "lower risk",
         "identified", "revealed", "demonstrated", "confirmed", "established",
         "pathogenic variant", "de novo", "rare variant", "loss-of-function",
-        "odds ratio", "hazard ratio", "p-value", "p <", "p=", "95% ci",
+        "odds ratio", "hazard ratio", "p <", "p=", "95% ci",
         "genome-wide", "exome", "whole genome", "gwas",
-        "concluded", "conclusion", "in conclusion", "collectively", "together,"
+        "in conclusion", "collectively", "together, these",
     ]
     SKIP_SIGNALS = [
-        "background", "introduction", "aim of", "aims to", "objective",
-        "we sought to", "we aimed to", "the purpose of", "in this study, we",
+        "background:", "introduction:", "methods:", "aim of", "aims to",
+        "we sought to", "we aimed to", "the purpose of",
         "to investigate", "to determine", "to assess", "to evaluate",
-        "is a common", "is a rare", "is characterised", "is characterized",
-        "remains unclear", "remain poorly", "little is known", "has been shown"
+        "is a common", "is a rare", "remains unclear", "remain poorly",
+        "little is known", "registration:", "identifier:", "prospero",
+        "http", "clinicaltrials",
     ]
 
     scored = []
     for i, sent in enumerate(sentences):
         low = sent.lower()
         score = 0
-        for sig in RESULTS_SIGNALS:
-            if sig in low:
-                score += 2
+        # If we extracted from labelled sections, all sentences get base relevance
+        if labelled_text:
+            score = 5
+        else:
+            for sig in RESULTS_SIGNALS:
+                if sig in low:
+                    score += 2
+            # Prefer later sentences
+            score += i * 0.3
         for sig in SKIP_SIGNALS:
-            if low.startswith(sig) or f" {sig}" in low[:60]:
-                score -= 3
-        # Slight preference for later sentences (where results usually live)
-        score += i * 0.3
-        # Penalise very long sentences (likely methods details)
-        if len(sent) > 300:
+            if sig in low:
+                score -= 4
+        # Penalise very long or very short sentences
+        if len(sent) > 350:
             score -= 1
+        if len(sent) < 40:
+            score -= 2
         scored.append((score, i, sent))
 
     scored.sort(key=lambda x: (-x[0], x[1]))
-    # Pick top 3 by score, then re-order by position for readability
     top = sorted(scored[:3], key=lambda x: x[1])
     bullets = [s for _, _, s in top if s]
 
-    # Clean up: strip trailing ellipsis artifact, ensure ends with period
+    # ── Step 4: clean up ──
+    MAX_BULLET = 220  # chars — keeps bullets scannable
     cleaned = []
     for b in bullets:
         b = b.rstrip("…").strip()
-        if b and not b.endswith((".", "!", "?")):
+        # Strip leading label remnants like "RESULTS: "
+        b = PRIORITY_LABELS.sub("", b).strip()
+        b = SUB_HEADER.sub(" ", b).strip()
+        # Truncate at sentence boundary if too long
+        if len(b) > MAX_BULLET:
+            # Find last sentence end within limit
+            cut = b[:MAX_BULLET].rfind(".")
+            if cut > MAX_BULLET // 2:
+                b = b[:cut + 1]
+            else:
+                # Last resort: cut at last space
+                b = b[:MAX_BULLET].rsplit(" ", 1)[0] + "…"
+        if b and not b.endswith((".", "!", "?", "…")):
             b += "."
-        if b:
+        if b and len(b) > 20:
             cleaned.append(b)
 
     return cleaned[:3]
