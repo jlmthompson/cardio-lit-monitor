@@ -1,5 +1,9 @@
 #!/usr/bin/env python3
-"""Generates docs/index.html from the current digest.json."""
+"""
+Generates docs/index.html from the current digest.json.
+Theme: slate blue background, white cards, teal accent — matching the
+Epigenetic Clock Selector site style.
+"""
 
 import json
 from pathlib import Path
@@ -10,64 +14,64 @@ OUT    = Path(__file__).parent.parent / "docs" / "index.html"
 OUT.parent.mkdir(exist_ok=True)
 
 digest = json.loads(DIGEST.read_text())
-s      = digest["summary"]
 week   = datetime.fromisoformat(digest["generated"]).strftime("%d %B %Y")
-SITE   = "https://jlmthompson.github.io/cardio-lit-monitor/"
+summary_text = digest.get("summary_text", "")
+selected     = digest.get("selected_papers", [])
+total_sel    = digest["summary"].get("total_selected", len(selected))
+total_cand   = digest["summary"].get("total_candidates", 0)
+
+SECTION_META = {
+    "disease_genetics": ("CHD / DCM / SCAD Genetics",  "#0d9488"),
+    "prs_disease":      ("PRS in CHD · DCM · SCAD",    "#6366f1"),
+    "prs_methods":      ("PRS & Oligogenic Methods",    "#f59e0b"),
+    "topic_watch":      ("Epigenetics & Methylation",   "#64748b"),
+}
 
 
-def paper_card(p, accent):
-    gene_badge = f'<span class="badge gene">{p["gene"]}</span>' if p.get("gene") else ""
-    doi_link   = f'<a class="ext" href="https://doi.org/{p["doi"]}" target="_blank">DOI ↗</a>' if p.get("doi") else ""
-    ris_btn    = f'<button class="ris-btn" onclick="downloadRIS(this)" data-ris="{p["ris"].replace(chr(10),"|").replace(chr(13),"")}" data-title="{p["pmid"]}">⬇ RIS</button>'
+def paper_card(p):
+    section = p.get("section", "")
+    _, accent = SECTION_META.get(section, ("Other", "#64748b"))
+    doi_link = f'<a class="ext" href="https://doi.org/{p["doi"]}" target="_blank">DOI ↗</a>' if p.get("doi") else ""
+    ris_safe = p["ris"].replace(chr(10), "|").replace(chr(13), "").replace('"', "&quot;")
+    topic_badge = f'<span class="badge topic" style="background:{accent}20;color:{accent}">{p.get("topic","").replace("_"," ")}</span>'
+    type_badge  = f'<span class="badge btype">{p.get("type","")}</span>'
     return f"""
-<div class="card" style="border-left-color:{accent}">
-  <div class="card-meta">
-    <span class="badge type">{p.get("type","")}</span>{gene_badge}
-  </div>
-  <a class="card-title" href="{p["url"]}" target="_blank">{p["title"]}</a>
-  <div class="card-authors">{p.get("authors","")} · <em>{p.get("journal","")}</em> {p.get("year","")}</div>
-  <div class="card-abstract">{p.get("abstract","")}</div>
-  <div class="card-links">
-    <a class="ext" href="{p["url"]}" target="_blank">PubMed ↗</a>
-    {doi_link}
-    {ris_btn}
+<div class="card" data-section="{section}">
+  <div class="card-accent" style="background:{accent}"></div>
+  <div class="card-body">
+    <div class="card-meta">{type_badge}{topic_badge}</div>
+    <a class="card-title" href="{p['url']}" target="_blank">{p['title'] or '(No title)'}</a>
+    <div class="card-authors">{p.get('authors','')} &mdash; <em>{p.get('journal','')}</em> {p.get('year','')}</div>
+    <div class="card-abstract">{p.get('abstract','')}</div>
+    <div class="card-links">
+      <a class="ext" href="{p['url']}" target="_blank">PubMed ↗</a>
+      {doi_link}
+      <button class="ris-btn" onclick="downloadRIS(this)" data-ris="{ris_safe}" data-title="{p['pmid']}">⬇ RIS</button>
+    </div>
   </div>
 </div>"""
 
 
-def section_block(title, icon, accent, papers, max_show=50):
-    if not papers:
-        return f'<div class="section"><div class="section-header" style="border-color:{accent}">{icon} {title}</div><p class="empty">No new papers this week.</p></div>'
-    cards = "".join(paper_card(p, accent) for p in papers[:max_show])
-    extra = f'<p class="more">Showing {min(len(papers),max_show)} of {len(papers)} papers.</p>' if len(papers) > max_show else ""
-    return f"""
-<div class="section">
-  <div class="section-header" style="border-color:{accent};color:{accent}">{icon} {title}
-    <span class="section-count">{len(papers)}</span>
-  </div>
-  {cards}{extra}
-</div>"""
+# Build section legend items
+legend_html = ""
+for sk, (label, accent) in SECTION_META.items():
+    count = sum(1 for p in selected if p.get("section") == sk)
+    if count > 0:
+        legend_html += f'<span class="legend-item"><span class="legend-dot" style="background:{accent}"></span>{label} ({count})</span>'
 
+# Build summary lines for display
+summary_lines = [ln for ln in summary_text.split("\n") if ln.strip()]
+summary_header = summary_lines[0] if summary_lines else ""
+summary_bullets = summary_lines[1:] if len(summary_lines) > 1 else []
+highlight = next((ln for ln in summary_bullets if ln.strip().startswith("Highlight")), "")
+bullets   = [ln for ln in summary_bullets if not ln.strip().startswith("Highlight")]
 
-# Flatten paper lists
-gene_papers  = [p for gl in digest["sections"]["gene_watch"].values()
-                  for papers in gl["results"].values() for p in papers]
-prs_papers   = [p for data in digest["sections"]["prs_watch"].values()  for p in data["papers"]]
-topic_papers = [p for data in digest["sections"]["topic_watch"].values() for p in data["papers"]]
-pgs_scores   = digest["sections"].get("pgs_new_scores", [])
+bullets_html = "".join(f"<li>{b.strip().lstrip('• ')}</li>" for b in bullets if b.strip())
+highlight_html = f'<div class="highlight-line">{highlight.strip()}</div>' if highlight else ""
 
-gene_html  = section_block("Gene Watch",  "🔴", "#e74c3c", gene_papers)
-prs_html   = section_block("PRS Watch",   "💙", "#3498db", prs_papers)
-topic_html = section_block("Topic Watch", "🟢", "#27ae60", topic_papers)
-
-pgs_html = ""
-if pgs_scores:
-    cards = "".join(f"""
-<div class="card" style="border-left-color:#9b59b6">
-  <a class="card-title" href="{sc['url']}" target="_blank">{sc['pgs_id']}: {sc['name']}</a>
-  <div class="card-authors">Trait: {sc['trait']} · {sc['variants']:,} variants · Added {sc['date']}</div>
-</div>""" for sc in pgs_scores)
-    pgs_html = f'<div class="section"><div class="section-header" style="border-color:#9b59b6;color:#9b59b6">🆕 New PGS Catalog Scores <span class="section-count">{len(pgs_scores)}</span></div>{cards}</div>'
+cards_html = "".join(paper_card(p) for p in selected)
+if not selected:
+    cards_html = '<div class="no-papers">No new papers matched your focus areas this week. Check back next Monday.</div>'
 
 OUT.write_text(f"""<!DOCTYPE html>
 <html lang="en">
@@ -76,87 +80,279 @@ OUT.write_text(f"""<!DOCTYPE html>
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Cardio Lit Monitor</title>
   <style>
-    *{{box-sizing:border-box;margin:0;padding:0}}
-    body{{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
-         background:#0f1117;color:#e8eaf6;min-height:100vh}}
-    header{{background:#1a1d2e;padding:20px 32px;border-bottom:1px solid #2d3154}}
-    header h1{{font-size:1.3rem;color:#fff;margin-bottom:4px}}
-    header p{{font-size:0.8rem;color:#8892b0}}
-    .stats-bar{{display:flex;gap:16px;padding:16px 32px;background:#151824;
-               border-bottom:1px solid #2d3154;flex-wrap:wrap}}
-    .stat{{background:#1a1d2e;padding:10px 18px;border-radius:8px;text-align:center}}
-    .stat-n{{font-size:1.5rem;font-weight:700;color:#fff}}
-    .stat-l{{font-size:0.72rem;color:#8892b0;margin-top:2px}}
-    .controls{{padding:12px 32px;background:#1a1d2e;border-bottom:1px solid #2d3154;
-              display:flex;gap:10px;flex-wrap:wrap;align-items:center}}
-    #search{{background:#252840;border:1px solid #3d4266;color:#e8eaf6;
-            padding:6px 12px;border-radius:6px;width:260px;font-size:0.85rem}}
-    #search:focus{{outline:none;border-color:#7c83d3}}
-    .main{{max-width:860px;margin:0 auto;padding:24px 32px}}
-    .section{{margin-bottom:36px}}
-    .section-header{{font-size:1rem;font-weight:700;border-bottom:2px solid;
-                    padding-bottom:8px;margin-bottom:16px;display:flex;
-                    align-items:center;justify-content:space-between}}
-    .section-count{{background:#252840;color:#e8eaf6;font-size:0.75rem;
-                   padding:2px 10px;border-radius:10px;font-weight:400}}
-    .card{{background:#1a1d2e;border-left:3px solid #3d4266;border-radius:6px;
-          padding:14px 16px;margin-bottom:12px}}
-    .card-meta{{margin-bottom:6px}}
-    .badge{{display:inline-block;padding:2px 8px;border-radius:10px;
-            font-size:0.7rem;font-weight:600;margin-right:4px}}
-    .badge.type{{background:#252840;color:#8892b0}}
-    .badge.gene{{background:#2d1a0a;color:#f39c12}}
-    .card-title{{font-size:0.9rem;font-weight:600;color:#c8d6f8;
-                text-decoration:none;line-height:1.4;display:block;margin-bottom:4px}}
-    .card-title:hover{{color:#fff}}
-    .card-authors{{font-size:0.75rem;color:#8892b0;margin-bottom:6px}}
-    .card-abstract{{font-size:0.8rem;color:#a0a8c0;line-height:1.55;margin-bottom:8px}}
-    .card-links{{font-size:0.75rem;display:flex;gap:10px;align-items:center}}
-    .ext{{color:#7c83d3;text-decoration:none}}
-    .ext:hover{{text-decoration:underline}}
-    .ris-btn{{background:#252840;border:1px solid #3d4266;color:#8892b0;
-             padding:2px 8px;border-radius:4px;font-size:0.72rem;cursor:pointer}}
-    .ris-btn:hover{{background:#3d4266}}
-    .empty{{color:#4a5080;font-size:0.85rem;padding:12px 0}}
-    .more{{font-size:0.78rem;color:#4a5080;margin-top:8px}}
-    .hidden{{display:none}}
+    *, *::before, *::after {{ box-sizing: border-box; margin: 0; padding: 0; }}
+
+    body {{
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: #1e2d3e;
+      color: #334155;
+      min-height: 100vh;
+    }}
+
+    /* ── Header ── */
+    .site-header {{
+      background: #162333;
+      border-bottom: 3px solid #0d9488;
+      padding: 28px 24px 20px;
+      text-align: center;
+    }}
+    .site-header h1 {{
+      font-size: 1.7rem;
+      font-weight: 700;
+      color: #ffffff;
+      letter-spacing: -0.02em;
+      margin-bottom: 4px;
+    }}
+    .site-header .subtitle {{
+      font-size: 0.85rem;
+      color: #94a3b8;
+    }}
+    .site-header a {{ color: #0d9488; text-decoration: none; }}
+    .site-header a:hover {{ text-decoration: underline; }}
+
+    /* ── Summary card ── */
+    .summary-wrap {{
+      max-width: 820px;
+      margin: 28px auto 0;
+      padding: 0 20px;
+    }}
+    .summary-card {{
+      background: #ffffff;
+      border-radius: 12px;
+      padding: 20px 24px;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.18);
+      border-top: 4px solid #0d9488;
+    }}
+    .summary-card h2 {{
+      font-size: 0.95rem;
+      font-weight: 700;
+      color: #0d9488;
+      margin-bottom: 10px;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }}
+    .summary-header {{
+      font-size: 0.95rem;
+      font-weight: 600;
+      color: #1e293b;
+      margin-bottom: 8px;
+    }}
+    .summary-card ul {{
+      list-style: none;
+      margin-bottom: 10px;
+    }}
+    .summary-card ul li {{
+      font-size: 0.85rem;
+      color: #475569;
+      padding: 3px 0;
+    }}
+    .summary-card ul li::before {{
+      content: "→ ";
+      color: #0d9488;
+    }}
+    .highlight-line {{
+      font-size: 0.82rem;
+      color: #64748b;
+      border-top: 1px solid #e2e8f0;
+      padding-top: 10px;
+      margin-top: 6px;
+      font-style: italic;
+    }}
+    .legend {{
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 14px;
+      padding-top: 14px;
+      border-top: 1px solid #e2e8f0;
+    }}
+    .legend-item {{
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 0.78rem;
+      color: #475569;
+    }}
+    .legend-dot {{
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      flex-shrink: 0;
+    }}
+
+    /* ── Controls ── */
+    .controls {{
+      max-width: 820px;
+      margin: 16px auto 0;
+      padding: 0 20px;
+      display: flex;
+      gap: 10px;
+      align-items: center;
+    }}
+    #search {{
+      flex: 1;
+      max-width: 320px;
+      background: #ffffff;
+      border: 1px solid #cbd5e1;
+      border-radius: 8px;
+      padding: 8px 14px;
+      font-size: 0.85rem;
+      color: #1e293b;
+    }}
+    #search:focus {{ outline: none; border-color: #0d9488; box-shadow: 0 0 0 2px #0d948820; }}
+    #search::placeholder {{ color: #94a3b8; }}
+    .count-badge {{
+      font-size: 0.8rem;
+      color: #94a3b8;
+    }}
+
+    /* ── Cards ── */
+    .cards-wrap {{
+      max-width: 820px;
+      margin: 16px auto 40px;
+      padding: 0 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+    }}
+    .card {{
+      background: #ffffff;
+      border-radius: 10px;
+      box-shadow: 0 1px 8px rgba(0,0,0,0.12);
+      display: flex;
+      overflow: hidden;
+      transition: box-shadow 0.15s;
+    }}
+    .card:hover {{ box-shadow: 0 4px 16px rgba(0,0,0,0.18); }}
+    .card-accent {{
+      width: 5px;
+      flex-shrink: 0;
+    }}
+    .card-body {{
+      padding: 16px 18px;
+      flex: 1;
+      min-width: 0;
+    }}
+    .card-meta {{
+      margin-bottom: 7px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 5px;
+    }}
+    .badge {{
+      display: inline-block;
+      padding: 2px 9px;
+      border-radius: 20px;
+      font-size: 0.68rem;
+      font-weight: 600;
+      letter-spacing: 0.02em;
+    }}
+    .btype {{
+      background: #f1f5f9;
+      color: #64748b;
+    }}
+    .topic {{
+      /* colour injected inline */
+    }}
+    .card-title {{
+      font-size: 0.92rem;
+      font-weight: 600;
+      color: #0f172a;
+      text-decoration: none;
+      line-height: 1.45;
+      display: block;
+      margin-bottom: 5px;
+    }}
+    .card-title:hover {{ color: #0d9488; }}
+    .card-authors {{
+      font-size: 0.75rem;
+      color: #64748b;
+      margin-bottom: 8px;
+    }}
+    .card-abstract {{
+      font-size: 0.8rem;
+      color: #475569;
+      line-height: 1.6;
+      margin-bottom: 10px;
+    }}
+    .card-links {{
+      display: flex;
+      gap: 12px;
+      align-items: center;
+      font-size: 0.75rem;
+    }}
+    .ext {{
+      color: #0d9488;
+      text-decoration: none;
+      font-weight: 500;
+    }}
+    .ext:hover {{ text-decoration: underline; }}
+    .ris-btn {{
+      background: #f8fafc;
+      border: 1px solid #e2e8f0;
+      color: #475569;
+      padding: 3px 9px;
+      border-radius: 4px;
+      font-size: 0.7rem;
+      cursor: pointer;
+      font-weight: 500;
+    }}
+    .ris-btn:hover {{ background: #e2e8f0; }}
+
+    .no-papers {{
+      background: #ffffff;
+      border-radius: 10px;
+      padding: 28px 24px;
+      text-align: center;
+      color: #64748b;
+      font-size: 0.9rem;
+    }}
+    .hidden {{ display: none !important; }}
   </style>
 </head>
 <body>
-<header>
+
+<header class="site-header">
   <h1>🫀 Cardio Lit Monitor</h1>
-  <p>Weekly digest · {week} · <a class="ext" href="https://github.com/jlmthompson/cardio-lit-monitor" target="_blank">GitHub ↗</a></p>
+  <p class="subtitle">Weekly digest &middot; {week} &middot;
+    <a href="https://github.com/jlmthompson/cardio-lit-monitor" target="_blank">GitHub ↗</a>
+  </p>
 </header>
 
-<div class="stats-bar">
-  <div class="stat"><div class="stat-n">{s['gene_papers']}</div><div class="stat-l">Gene papers</div></div>
-  <div class="stat"><div class="stat-n">{s['prs_papers']}</div><div class="stat-l">PRS papers</div></div>
-  <div class="stat"><div class="stat-n">{s['topic_papers']}</div><div class="stat-l">Topic papers</div></div>
-  <div class="stat"><div class="stat-n">{s['new_pgs']}</div><div class="stat-l">New PGS scores</div></div>
-  <div class="stat"><div class="stat-n">{s['total']}</div><div class="stat-l">Total new papers</div></div>
+<div class="summary-wrap">
+  <div class="summary-card">
+    <h2>This Week</h2>
+    <p class="summary-header">{summary_header}</p>
+    <ul>{bullets_html}</ul>
+    {highlight_html}
+    <div class="legend">{legend_html}</div>
+  </div>
 </div>
 
 <div class="controls">
   <input id="search" type="text" placeholder="Filter papers…" oninput="filterCards(this.value)">
+  <span class="count-badge" id="count-label">{total_sel} of {total_cand} candidate papers selected</span>
 </div>
 
-<div class="main" id="main-content">
-  {gene_html}
-  {prs_html}
-  {topic_html}
-  {pgs_html}
+<div class="cards-wrap" id="cards">
+{cards_html}
 </div>
 
 <script>
 function filterCards(q) {{
   q = q.toLowerCase();
+  let shown = 0;
   document.querySelectorAll('.card').forEach(c => {{
-    const text = c.textContent.toLowerCase();
-    c.classList.toggle('hidden', q.length > 1 && !text.includes(q));
+    const hide = q.length > 1 && !c.textContent.toLowerCase().includes(q);
+    c.classList.toggle('hidden', hide);
+    if (!hide) shown++;
   }});
+  const total = document.querySelectorAll('.card').length;
+  document.getElementById('count-label').textContent =
+    q.length > 1 ? `${{shown}} of ${{total}} papers shown` : `{total_sel} of {total_cand} candidate papers selected`;
 }}
 function downloadRIS(btn) {{
-  const ris   = btn.dataset.ris.replace(/\|/g, '\\n');
+  const ris   = btn.dataset.ris.replace(/\\|/g, '\\n');
   const fname = 'paper_' + btn.dataset.title + '.ris';
   const blob  = new Blob([ris], {{type: 'application/x-research-info-systems'}});
   const a     = Object.assign(document.createElement('a'), {{
@@ -165,6 +361,8 @@ function downloadRIS(btn) {{
   a.click();
 }}
 </script>
+
 </body>
 </html>""")
+
 print(f"Site built → {OUT}")

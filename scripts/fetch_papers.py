@@ -1,6 +1,12 @@
 #!/usr/bin/env python3
 """
-Fetches new papers from PubMed and PGS Catalog.
+Fetches new papers from PubMed focused on:
+  - Disease-level genetics (CHD, DCM, SCAD)
+  - PRS specifically for those diseases
+  - PRS/genetic architecture methods (oligogenic, digenic, multi-locus)
+  - Epigenetic/methylation topics in CHD/DCM
+
+Ranks by relevance and caps at max_papers_total (default 10).
 Generates data/digest.json consumed by the website and email sender.
 """
 
@@ -14,16 +20,41 @@ import xml.etree.ElementTree as ET
 CONFIG  = Path(__file__).parent.parent / "data" / "watch_config.json"
 DIGEST  = Path(__file__).parent.parent / "data" / "digest.json"
 EUTILS  = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils"
-PGSC    = "https://www.pgscatalog.org/rest"
 
 cfg      = json.loads(CONFIG.read_text())
 lookback = cfg["settings"]["lookback_days"]
+max_total = cfg["settings"].get("max_papers_total", 10)
 cutoff   = (datetime.now() - timedelta(days=lookback)).strftime("%Y/%m/%d")
+
+# High-impact cardiovascular/genomics journals (bonus scoring)
+HIGH_IMPACT = {
+    "nature", "science", "cell", "nejm", "new england journal of medicine",
+    "lancet", "jama", "nature genetics", "nature medicine", "nature communications",
+    "nature cardiovascular research", "circulation", "circulation research",
+    "european heart journal", "journal of the american college of cardiology",
+    "american journal of human genetics", "genome research", "genome biology",
+    "cell genomics", "nature human behaviour", "plos genetics",
+    "human molecular genetics", "genetics in medicine", "npj genomic medicine",
+    "european journal of human genetics"
+}
+
+# Keywords that boost relevance score
+DISEASE_KEYWORDS = [
+    "congenital heart disease", "congenital heart defect", "chd", "hlhs",
+    "dilated cardiomyopathy", "dcm",
+    "spontaneous coronary artery dissection", "scad"
+]
+METHODS_KEYWORDS = [
+    "oligogenic", "digenic", "multilocus", "multi-locus",
+    "genetic architecture", "polygenic", "rare variant burden",
+    "whole exome sequencing", "whole genome sequencing", "gwas",
+    "genome-wide association"
+]
 
 
 # ── PubMed helpers ────────────────────────────────────────────────────────────
 
-def pubmed_search(query, max_results=20):
+def pubmed_search(query, max_results=15):
     full_query = f"({query}) AND (\"{cutoff}\"[PDAT]:\"3000\"[PDAT])"
     r = requests.get(f"{EUTILS}/esearch.fcgi", params={
         "db": "pubmed", "term": full_query,
@@ -57,12 +88,9 @@ def pubmed_fetch(ids, webenv, querykey):
         try:
             pmid  = art.findtext(".//PMID", "")
             title = art.findtext(".//ArticleTitle", "").strip()
-            # Remove XML tags from title
             title = re.sub(r'<[^>]+>', '', title)
-            # Abstract
             abs_texts = art.findall(".//AbstractText")
             abstract  = " ".join(a.text or "" for a in abs_texts if a.text).strip()
-            # Authors
             authors = []
             for a in art.findall(".//Author")[:3]:
                 ln = a.findtext("LastName","")
@@ -70,7 +98,6 @@ def pubmed_fetch(ids, webenv, querykey):
                 if ln: authors.append(f"{ln} {fn[0] if fn else ''}".strip())
             if len(art.findall(".//Author")) > 3:
                 authors.append("et al.")
-            # Journal & date
             journal = art.findtext(".//Journal/Title","") or art.findtext(".//ISOAbbreviation","")
             year    = art.findtext(".//PubDate/Year","")
             month   = art.findtext(".//PubDate/Month","")
@@ -81,7 +108,8 @@ def pubmed_fetch(ids, webenv, querykey):
             papers.append({
                 "pmid":     pmid,
                 "title":    title,
-                "abstract": abstract[:400] + ("…" if len(abstract) > 400 else ""),
+                "abstract": abstract[:500] + ("…" if len(abstract) > 500 else ""),
+                "abstract_full": abstract,
                 "authors":  ", ".join(authors),
                 "journal":  journal,
                 "year":     year,
@@ -112,7 +140,6 @@ def make_ris(pmid, title, authors, journal, year, doi, abstract):
 
 
 def classify_paper(title, abstract):
-    """Classify paper type from title/abstract."""
     text = (title + " " + abstract).lower()
     if any(w in text for w in ["review", "meta-analysis", "systematic review"]):
         return "Review"
@@ -120,47 +147,108 @@ def classify_paper(title, abstract):
         return "GWAS"
     if any(w in text for w in ["polygenic risk", "polygenic score", "prs", "pgs"]):
         return "PRS"
-    if any(w in text for w in ["case report", "case series", "proband"]):
+    if any(w in text for w in ["whole exome", "whole genome sequencing", "wgs", "wes"]):
+        return "Sequencing study"
+    if any(w in text for w in ["oligogenic", "digenic", "multilocus", "multi-locus"]):
+        return "Methods"
+    if any(w in text for w in ["methylation", "epigenetic", "histone", "chromatin"]):
+        return "Epigenetics"
+    if any(w in text for w in ["case report", "case series"]):
         return "Case report"
     if any(w in text for w in ["mouse", "zebrafish", "cell line", "in vitro", "functional"]):
         return "Functional study"
-    if any(w in text for w in ["methylation", "epigenetic", "histone"]):
-        return "Epigenetics"
-    if any(w in text for w in ["variant", "mutation", "pathogenic", "sequence"]):
-        return "Variant report"
     return "Research article"
 
 
-# ── PGS Catalog ──────────────────────────────────────────────────────────────
-
-def fetch_new_pgs_scores():
-    """Check PGS Catalog for recently added scores in cardiac/NDD traits."""
-    traits = ["congenital heart disease", "cardiomyopathy", "dilated cardiomyopathy",
-              "atrial fibrillation", "coronary artery disease", "ADHD", "autism"]
-    new_scores = []
-    for trait in traits:
-        try:
-            r = requests.get(f"{PGSC}/score/search/", params={"trait_name": trait, "limit": 5}, timeout=15)
-            if r.status_code != 200:
-                continue
-            for s in r.json().get("results", []):
-                pub_date = s.get("date_released","")
-                if pub_date and pub_date >= (datetime.now() - timedelta(days=lookback*4)).strftime("%Y-%m-%d"):
-                    new_scores.append({
-                        "pgs_id":      s.get("id",""),
-                        "name":        s.get("name",""),
-                        "trait":       trait,
-                        "variants":    s.get("variants_number",0),
-                        "date":        pub_date,
-                        "url":         f"https://www.pgscatalog.org/score/{s.get('id','')}/"
-                    })
-            time.sleep(0.5)
-        except Exception:
-            pass
-    return new_scores
+def relevance_score(paper, section_key):
+    """Score 0-10: higher = more relevant to keep."""
+    text = (paper["title"] + " " + paper.get("abstract_full", "")).lower()
+    score = 0
+    # Journal impact
+    journal_lower = paper.get("journal", "").lower()
+    if any(j in journal_lower for j in HIGH_IMPACT):
+        score += 3
+    # Disease keyword match in title (strong signal)
+    title_lower = paper["title"].lower()
+    for kw in DISEASE_KEYWORDS:
+        if kw in title_lower:
+            score += 2
+            break
+    # Disease keyword in abstract
+    for kw in DISEASE_KEYWORDS:
+        if kw in text:
+            score += 1
+            break
+    # Methods keywords (especially for prs_methods section)
+    if "prs_methods" in section_key or "oligogenic" in section_key.lower():
+        for kw in METHODS_KEYWORDS:
+            if kw in text:
+                score += 2
+                break
+    # Human study bonus (penalise pure animal studies)
+    if any(w in text for w in ["patients", "cohort", "participants", "individuals", "proband", "families"]):
+        score += 1
+    if any(w in text for w in ["mouse model", "zebrafish", "in vitro", "cell line"]) and \
+       not any(w in text for w in ["patients", "cohort", "participants"]):
+        score -= 2
+    return score
 
 
 # ── Main ──────────────────────────────────────────────────────────────────────
+
+def fetch_section(section_name, section_cfg, seen_pmids):
+    """Fetch papers for a named section group. Returns flat list with section tag."""
+    all_papers = []
+    for topic_name, topic in section_cfg.items():
+        for query in topic["queries"]:
+            try:
+                ids, wh, qk = pubmed_search(query)
+                ids = [i for i in ids if i not in seen_pmids]
+                if ids:
+                    papers = pubmed_fetch(ids, wh, qk)
+                    for p in papers:
+                        p["section"] = section_name
+                        p["topic"]   = topic_name
+                        p["type"]    = classify_paper(p["title"], p.get("abstract_full",""))
+                        p["score"]   = relevance_score(p, f"{section_name}_{topic_name}")
+                        seen_pmids.add(p["pmid"])
+                    all_papers.extend(papers)
+                time.sleep(0.35)
+            except Exception as e:
+                print(f"  Error on '{query}': {e}")
+    # Deduplicate within section by PMID
+    seen = set()
+    unique = []
+    for p in all_papers:
+        if p["pmid"] not in seen:
+            unique.append(p)
+            seen.add(p["pmid"])
+    # Sort by score desc
+    unique.sort(key=lambda x: x["score"], reverse=True)
+    return unique
+
+
+def generate_summary(selected_papers, section_counts):
+    """Generate a plain-English top-line summary."""
+    lines = []
+    total = len(selected_papers)
+    if total == 0:
+        return "No new papers matching your focus areas this week."
+    lines.append(f"{total} paper{'s' if total != 1 else ''} selected from this week's literature:")
+    for section, count in section_counts.items():
+        if count > 0:
+            label = {
+                "disease_genetics": "disease genetics (CHD / DCM / SCAD)",
+                "prs_disease": "PRS in CHD/DCM/SCAD",
+                "prs_methods": "PRS & oligogenic methods",
+                "topic_watch": "epigenetics / methylation"
+            }.get(section, section)
+            lines.append(f"  • {count} × {label}")
+    if selected_papers:
+        top = selected_papers[0]
+        lines.append(f"\nHighlight: {top['title']} ({top['journal']}, {top['year']})")
+    return "\n".join(lines)
+
 
 def main():
     digest = {
@@ -171,119 +259,78 @@ def main():
     }
 
     seen_pmids = set()
+    all_candidates = []   # (section_key, paper)
 
-    # ── Gene Watch ──
-    print("Fetching Gene Watch papers...")
-    gene_section = {}
-    for list_name, gl in cfg["gene_lists"].items():
-        list_results = defaultdict(list)
-        genes = gl["genes"]
-        for gene in genes:
-            query = f"{gene}[Gene] AND (cardiac OR heart OR neurodevelopmental OR congenital OR NDD OR autism OR ADHD)"
-            try:
-                ids, wh, qk = pubmed_search(query, max_results=5)
-                ids = [i for i in ids if i not in seen_pmids]
-                if ids:
-                    papers = pubmed_fetch(ids, wh, qk)
-                    for p in papers:
-                        p["gene"]  = gene
-                        p["type"]  = classify_paper(p["title"], p["abstract"])
-                        seen_pmids.add(p["pmid"])
-                    list_results[gene].extend(papers)
-                time.sleep(0.35)
-            except Exception as e:
-                print(f"  Error fetching {gene}: {e}")
-        gene_section[list_name] = {
-            "description": gl["description"],
-            "results": dict(list_results),
-            "total": sum(len(v) for v in list_results.values())
+    section_groups = [
+        ("disease_genetics", cfg.get("disease_genetics", {})),
+        ("prs_disease",      cfg.get("prs_disease", {})),
+        ("prs_methods",      cfg.get("prs_methods", {})),
+        ("topic_watch",      cfg.get("topic_watch", {})),
+    ]
+
+    for section_key, section_cfg in section_groups:
+        if not section_cfg:
+            continue
+        print(f"Fetching {section_key}...")
+        papers = fetch_section(section_key, section_cfg, seen_pmids)
+        digest["sections"][section_key] = {
+            "papers": papers,
+            "total": len(papers)
         }
-    digest["sections"]["gene_watch"] = gene_section
+        for p in papers:
+            all_candidates.append((section_key, p))
+        print(f"  → {len(papers)} unique papers found")
 
-    # ── PRS Topics ──
-    print("Fetching PRS Watch papers...")
-    prs_section = {}
-    for topic_name, topic in cfg["prs_topics"].items():
-        topic_papers = []
-        for query in topic["queries"]:
-            try:
-                ids, wh, qk = pubmed_search(query, max_results=10)
-                ids = [i for i in ids if i not in seen_pmids]
-                if ids:
-                    papers = pubmed_fetch(ids, wh, qk)
-                    for p in papers:
-                        p["query"] = query
-                        p["type"]  = classify_paper(p["title"], p["abstract"])
-                        seen_pmids.add(p["pmid"])
-                    topic_papers.extend(papers)
-                time.sleep(0.35)
-            except Exception as e:
-                print(f"  Error on '{query}': {e}")
-        # Deduplicate within topic
-        seen_in_topic = set()
-        unique_papers = []
-        for p in topic_papers:
-            if p["pmid"] not in seen_in_topic:
-                unique_papers.append(p)
-                seen_in_topic.add(p["pmid"])
-        prs_section[topic_name] = {
-            "description": topic["description"],
-            "papers": unique_papers,
-            "total": len(unique_papers)
-        }
-    digest["sections"]["prs_watch"] = prs_section
+    # ── Global ranking: pick top max_total papers across all sections ──
+    # Sort all candidates by score desc; break ties by section priority
+    section_priority = {
+        "disease_genetics": 4,
+        "prs_disease":      3,
+        "prs_methods":      3,
+        "topic_watch":      2,
+    }
+    all_candidates.sort(
+        key=lambda x: (x[1]["score"], section_priority.get(x[0], 1)),
+        reverse=True
+    )
+    # Ensure we don't exceed max_total; also try to have at least 1 from each section
+    selected = []
+    seen_selected = set()
+    # First pass: one from each section
+    section_done = set()
+    for sk, p in all_candidates:
+        if sk not in section_done and p["pmid"] not in seen_selected:
+            selected.append(p)
+            seen_selected.add(p["pmid"])
+            section_done.add(sk)
+    # Second pass: fill up to max_total by score
+    for sk, p in all_candidates:
+        if len(selected) >= max_total:
+            break
+        if p["pmid"] not in seen_selected:
+            selected.append(p)
+            seen_selected.add(p["pmid"])
+    # Final sort by score
+    selected.sort(key=lambda x: x["score"], reverse=True)
 
-    # ── Topic Watch ──
-    print("Fetching Topic Watch papers...")
-    topic_section = {}
-    for topic_name, topic in cfg["topic_watch"].items():
-        topic_papers = []
-        for query in topic["queries"]:
-            try:
-                ids, wh, qk = pubmed_search(query, max_results=10)
-                ids = [i for i in ids if i not in seen_pmids]
-                if ids:
-                    papers = pubmed_fetch(ids, wh, qk)
-                    for p in papers:
-                        p["query"] = query
-                        p["type"]  = classify_paper(p["title"], p["abstract"])
-                        seen_pmids.add(p["pmid"])
-                    topic_papers.extend(papers)
-                time.sleep(0.35)
-            except Exception as e:
-                print(f"  Error on '{query}': {e}")
-        seen_in_topic = set()
-        unique = []
-        for p in topic_papers:
-            if p["pmid"] not in seen_in_topic:
-                unique.append(p)
-                seen_in_topic.add(p["pmid"])
-        topic_section[topic_name] = {
-            "description": topic.get("description", topic_name),
-            "papers": unique,
-            "total": len(unique)
-        }
-    digest["sections"]["topic_watch"] = topic_section
+    # Count per section
+    section_counts = defaultdict(int)
+    for p in selected:
+        section_counts[p["section"]] += 1
 
-    # ── PGS Catalog ──
-    print("Checking PGS Catalog for new scores...")
-    digest["sections"]["pgs_new_scores"] = fetch_new_pgs_scores()
-
-    # ── Summary ──
-    gene_total  = sum(s["total"] for s in digest["sections"]["gene_watch"].values())
-    prs_total   = sum(s["total"] for s in digest["sections"]["prs_watch"].values())
-    topic_total = sum(s["total"] for s in digest["sections"]["topic_watch"].values())
+    summary_text = generate_summary(selected, dict(section_counts))
+    digest["selected_papers"] = selected
+    digest["summary_text"] = summary_text
     digest["summary"] = {
-        "gene_papers":  gene_total,
-        "prs_papers":   prs_total,
-        "topic_papers": topic_total,
-        "new_pgs":      len(digest["sections"]["pgs_new_scores"]),
-        "total":        gene_total + prs_total + topic_total,
+        "total_selected": len(selected),
+        "total_candidates": len(all_candidates),
+        "section_counts": dict(section_counts),
     }
 
     DIGEST.write_text(json.dumps(digest, indent=2))
-    print(f"\nDone. {digest['summary']['total']} papers found.")
+    print(f"\nDone. {len(selected)} papers selected (from {len(all_candidates)} candidates).")
     print(f"Saved → {DIGEST}")
+    print(f"\nSummary:\n{summary_text}")
 
 
 if __name__ == "__main__":

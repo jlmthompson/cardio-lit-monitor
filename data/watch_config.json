@@ -1,114 +1,74 @@
 {
-  "gene_lists": {
-    "CHD_NDD_Overlap": {
-      "description": "Genes appearing in both CHD and NDD/Autism PanelApp panels",
-      "source": "PanelApp Australia panels 76, 250, 51",
-      "genes": [
-        "ARID1B","ARID1A","ANKRD11","KMT2A","KMT2D","KDM6A","KDM5C",
-        "SETD5","MED13L","FOXP1","FOXP2","ADNP","CHD7","CHD2","CHD8",
-        "DYRK1A","EP300","CREBBP","EHMT1","DNMT3A","KANSL1","KAT6A",
-        "MBD5","MED13","MECP2","PTEN","RAI1","SETBP1","SHANK3","SYNGAP1",
-        "TCF4","TBR1","WAC","ZBTB20","ZMYND11","MYH6","MYH7","NKX2-5",
-        "GATA4","GATA6","TBX1","TBX5","TBX20","NOTCH1","NOTCH2","JAG1",
-        "PTPN11","RAF1","RIT1","BRAF","MAP2K1","MAP2K2","HRAS","KRAS","NRAS",
-        "NF1","RERE","DVL3","BCOR","KAT6B","SETD2","FOXC1","FOXC2",
-        "TWIST1","ZIC3","CITED2","CFC1","ACVR1","LEFTY2","NODAL"
+  "disease_genetics": {
+    "CHD_Genetics": {
+      "description": "Genetic studies in congenital heart disease",
+      "queries": [
+        "congenital heart disease genetics genome-wide association",
+        "congenital heart defect rare variant exome sequencing",
+        "congenital heart disease de novo variant pathogenic",
+        "structural congenital heart disease genomics multi-omics"
       ]
     },
-    "Personal_Genes": {
-      "description": "Genes of personal research interest",
-      "genes": [
-        "ARID1B","MYH6","RERE","MYO7A","ACADM","SPTBN1","INTS6","CNTFR",
-        "HDAC4","GADD45A","CHRNA1","CHD9","COL18A1","TWIST2","GPR179"
+    "DCM_Genetics": {
+      "description": "Dilated cardiomyopathy genetics",
+      "queries": [
+        "dilated cardiomyopathy genetics rare variant pathogenic",
+        "dilated cardiomyopathy whole exome sequencing genome",
+        "dilated cardiomyopathy GWAS association multi-omics"
+      ]
+    },
+    "SCAD_Genetics": {
+      "description": "Spontaneous coronary artery dissection genetics",
+      "queries": [
+        "spontaneous coronary artery dissection genetics genomics",
+        "SCAD spontaneous coronary artery dissection GWAS variant",
+        "spontaneous coronary artery dissection heritable familial"
       ]
     }
   },
-  "prs_topics": {
-    "CHD_PRS": {
-      "description": "Polygenic risk scores in congenital heart disease",
+  "prs_disease": {
+    "CHD_DCM_SCAD_PRS": {
+      "description": "PRS specifically in CHD, DCM, or SCAD",
       "queries": [
         "polygenic risk score congenital heart disease",
-        "PRS congenital heart defect",
-        "polygenic score hypoplastic left heart"
-      ]
-    },
-    "DCM_PRS": {
-      "description": "Dilated cardiomyopathy — PRS and genetics",
-      "queries": [
         "polygenic risk score dilated cardiomyopathy",
-        "PRS dilated cardiomyopathy",
-        "genetic risk dilated cardiomyopathy GWAS",
-        "dilated cardiomyopathy rare variant"
+        "polygenic risk score spontaneous coronary artery dissection"
       ]
-    },
-    "Cardiovascular_PRS": {
-      "description": "Broader cardiovascular PRS",
+    }
+  },
+  "prs_methods": {
+    "Oligogenic_Digenic": {
+      "description": "PRS and genetic architecture methodology: oligogenic, digenic, multi-locus models",
       "queries": [
-        "polygenic risk score coronary artery disease",
-        "polygenic risk score atrial fibrillation",
-        "polygenic risk score hypertension blood pressure",
-        "polygenic risk score heart failure"
-      ]
-    },
-    "NDD_PRS": {
-      "description": "PRS in neurodevelopmental disorders",
-      "queries": [
-        "polygenic risk score ADHD attention deficit",
-        "polygenic risk score autism spectrum disorder",
-        "polygenic risk score intellectual disability",
-        "polygenic risk score neurodevelopmental"
-      ]
-    },
-    "Cardiometabolic_PRS": {
-      "description": "Cardiometabolic comorbidities (per JACC Advances paper)",
-      "queries": [
-        "polygenic risk score type 2 diabetes cardiovascular",
-        "polygenic risk score obesity cardiometabolic",
-        "polygenic risk score hypertension cardiovascular comorbidity"
+        "oligogenic model genetic disease architecture",
+        "digenic inheritance disease genetics genomics",
+        "multilocus polygenic risk score rare variant integration",
+        "beyond polygenic scores oligogenic burden rare variant",
+        "genetic architecture complex disease oligogenic digenic"
       ]
     }
   },
   "topic_watch": {
-    "Episignatures": {
-      "queries": [
-        "DNA methylation episignature neurodevelopmental",
-        "episignature congenital heart disease",
-        "epigenetic signature rare disease diagnosis"
-      ]
-    },
     "CHD_Methylation": {
+      "description": "DNA methylation and epigenetics in CHD",
       "queries": [
-        "DNA methylation congenital heart disease",
-        "epigenetic congenital heart defect methylation",
-        "methylation EPIC array cardiac development"
-      ]
-    },
-    "Epigenetic_Age": {
-      "queries": [
-        "epigenetic age acceleration congenital heart disease",
-        "biological age acceleration cardiovascular",
-        "DNA methylation clock paediatric cardiac"
-      ]
-    },
-    "Multi_omics_CHD": {
-      "queries": [
-        "multi-omics congenital heart disease",
-        "integrative genomics CHD NDD",
-        "WGS RNA-seq methylation congenital heart"
+        "DNA methylation congenital heart disease epigenetic",
+        "epigenetic congenital heart defect methylation array"
       ]
     },
     "DCM_Omics": {
+      "description": "Multi-omics in dilated cardiomyopathy",
       "queries": [
-        "dilated cardiomyopathy multi-omics",
-        "dilated cardiomyopathy transcriptome methylation",
-        "dilated cardiomyopathy whole genome sequencing"
+        "dilated cardiomyopathy transcriptome RNA-seq multi-omics",
+        "dilated cardiomyopathy methylation epigenome"
       ]
     }
   },
   "settings": {
     "lookback_days": 7,
-    "max_results_per_query": 20,
-    "email_to": "jamielee.thompson9@gmail.com",
+    "max_results_per_query": 15,
+    "max_papers_total": 10,
+    "email_to": "j.thompson@victorchang.edu.au",
     "email_from_name": "Cardio Lit Monitor"
   }
 }
