@@ -200,6 +200,26 @@
       line-height: 1.6;
       margin-bottom: 10px;
     }
+    .card-bullets {
+      list-style: none;
+      margin: 0 0 10px;
+      padding: 0;
+    }
+    .card-bullets li {
+      font-size: 0.8rem;
+      color: #334155;
+      line-height: 1.55;
+      padding: 3px 0 3px 14px;
+      position: relative;
+    }
+    .card-bullets li::before {
+      content: "▸";
+      position: absolute;
+      left: 0;
+      color: #0d9488;
+      font-size: 0.7rem;
+      top: 4px;
+    }
     .card-links {
       display: flex;
       gap: 12px;
@@ -267,7 +287,7 @@
     <div class="card-meta"><span class="badge btype">Research article</span><span class="badge topic" style="background:#0d948820;color:#0d9488">DCM Genetics</span></div>
     <a class="card-title" href="https://pubmed.ncbi.nlm.nih.gov/41858107/" target="_blank">Genetic counselling implementation in dilated cardiomyopathy.</a>
     <div class="card-authors">Verdonschot J, van Spaendonck-Zwarts K, Hellebrekers D, et al. &mdash; <em>European heart journal</em> 2026</div>
-    <div class="card-abstract">Genetic testing has become an integral part of the diagnostic workup of patients with dilated cardiomyopathy (DCM). While the initial goal of genetic testing was to identify family members at risk, recent advances have now extended their relevance to clinical decision-making. Our knowledge of the genetic architecture of DCM has expanded significantly, promoting a shift from the monogenic dogma towards a broader polygenic spectrum. However, current genetic testing strategies still primarily rely …</div>
+    <ul class="card-bullets"><li>Identified variants are classified by genetic laboratories, where pathogenic or likely pathogenic variants often have actionable clinical implications.</li><li>When the genetic results are consistent with the patients' broader phenotype, potential clinical implications may include decision for device therapy, recommendations for family screening, and reproductive options.</li><li>A comprehensive approach to integrate genetic testing in the clinical care of patients with DCM is proposed.</li></ul>
     <div class="card-links">
       <a class="ext" href="https://pubmed.ncbi.nlm.nih.gov/41858107/" target="_blank">PubMed ↗</a>
       <a class="ext" href="https://doi.org/10.1093/eurheartj/ehag159" target="_blank">DOI ↗</a>
@@ -281,7 +301,7 @@
     <div class="card-meta"><span class="badge btype">Review</span><span class="badge topic" style="background:#0d948820;color:#0d9488">SCAD Genetics</span></div>
     <a class="card-title" href="https://pubmed.ncbi.nlm.nih.gov/41845085/" target="_blank">Spontaneous coronary artery dissection and vascular Ehlers-Danlos syndrome: a systematic review and case series.</a>
     <div class="card-authors">Ghali N, Angwin C, Liebert S, et al. &mdash; <em>European journal of human genetics : EJHG</em> 2026</div>
-    <div class="card-abstract">Spontaneous coronary artery dissection (SCAD) is a cause of acute myocardial infarction predominantly affecting adult women. A proportion of SCAD cases are associated with rare heritable connective tissue disorders. Vascular EDS (vEDS), due to deleterious variants in COL3A1, is one of the most common of these. Our aim was to identify specific features of SCAD in vEDS which may aid patient selection for genetic testing. A systematic review of published cases of individuals with SCAD and vEDS was …</div>
+    <ul class="card-bullets"><li>Additionally, patients with SCAD and genetically confirmed vEDS (SCAD-vEDS) were identified through the UK national EDS service and UK SCAD registry.</li><li>Fifty-six cases of SCAD-vEDS were identified through systematic review.</li><li>Systematic review registration: https://www.crd.york.ac.uk/prospero/536751 Identifier: 536751.</li></ul>
     <div class="card-links">
       <a class="ext" href="https://pubmed.ncbi.nlm.nih.gov/41845085/" target="_blank">PubMed ↗</a>
       <a class="ext" href="https://doi.org/10.1016/j.matbio.2018.04.013" target="_blank">DOI ↗</a>
@@ -295,7 +315,7 @@
     <div class="card-meta"><span class="badge btype">Review</span><span class="badge topic" style="background:#6366f120;color:#6366f1">CHD DCM SCAD PRS</span></div>
     <a class="card-title" href="https://pubmed.ncbi.nlm.nih.gov/41706057/" target="_blank">Cardiomyopathy Gene Variants and Polygenic Risk Scores in Atrial Fibrillation: Evidence for an Atrial-First Phenotype.</a>
     <div class="card-authors">da Rocha G, Feiner J, Lazarte J, et al. &mdash; <em>Journal of the American College of Cardiology</em> 2026</div>
-    <div class="card-abstract">Atrial fibrillation (AF) is heritable and its complex underlying genetic substrate is gradually being unraveled. We sought to explore the impact of disease-causing cardiomyopathy variants on the risk of AF after adjustment for incident ventricular cardiomyopathy and clinical heart failure in 2 cohort studies (UK Biobank [UKB] and All of Us [AoU]) and evaluate the utility of polygenic risk scores (PRS) to further discern the risk of atrial and ventricular phenotypes in carriers. Cox regression wa…</div>
+    <ul class="card-bullets"><li>Among 655,796 individuals from UKB and AoU, presence of a disease-causing variant was associated with an increased AF hazard (HR: 1.73; 95% CI: 1.59-1.89; P < 0.001), including after adjustment for incident ventricular cardiomyopathy or clinical heart failure (adjusted to HR: 1.55; 95% CI: 1.46-1.64, P < 0.001).</li><li>The cumulative AF risk for study participants with a putative disease-causing rare variant and a PRS Genetic variants that cause cardiomyopathy also increase the risk of AF, even in individuals without heart failure or overt ventricular disease.</li><li>Although discovered as causes of cardiomyopathy, these genes often have an equal or greater impact on the risk of AF.</li></ul>
     <div class="card-links">
       <a class="ext" href="https://pubmed.ncbi.nlm.nih.gov/41706057/" target="_blank">PubMed ↗</a>
       <a class="ext" href="https://doi.org/10.1016/j.jacc.2025.12.014" target="_blank">DOI ↗</a>
@@ -309,7 +329,7 @@
     <div class="card-meta"><span class="badge btype">Research article</span><span class="badge topic" style="background:#0d948820;color:#0d9488">DCM Genetics</span></div>
     <a class="card-title" href="https://pubmed.ncbi.nlm.nih.gov/41797063/" target="_blank">Generation of the human induced pluripotent stem cell (hiPSC) line AUMCi015-A from a heterozygous carrier of the LMNA p.Q493X rare pathogenic variant.</a>
     <div class="card-authors">de Vries D, van den Bout A, de Haan H, et al. &mdash; <em>Stem cell research</em> 2026</div>
-    <div class="card-abstract">Dilated cardiomyopathy (DCM) caused by rare pathogenic variants in LMNA is a severe hereditary heart disease characterized by lethal arrythmias and progressive heart failure. Here, we describe a human induced pluripotent stem cell (hiPSC) line reprogrammed by non-integrative Sendai virus from dermal fibroblasts of a female DCM patient carrying the heterozygous LMNA p.Q493X rare pathogenic variant. The obtained hiPSCs have a normal karyotype, show high expression of pluripotency markers at the mR…</div>
+    <ul class="card-bullets"><li>Dilated cardiomyopathy (DCM) caused by rare pathogenic variants in LMNA is a severe hereditary heart disease characterized by lethal arrythmias and progressive heart failure.</li><li>Here, we describe a human induced pluripotent stem cell (hiPSC) line reprogrammed by non-integrative Sendai virus from dermal fibroblasts of a female DCM patient carrying the heterozygous LMNA p.Q493X rare pathogenic variant.</li><li>Therefore, this newly-generated hiPSC line enables modeling of DCM caused by rare pathogenic variants in LMNA.</li></ul>
     <div class="card-links">
       <a class="ext" href="https://pubmed.ncbi.nlm.nih.gov/41797063/" target="_blank">PubMed ↗</a>
       <a class="ext" href="https://doi.org/10.1016/j.scr.2026.103962" target="_blank">DOI ↗</a>
@@ -323,7 +343,7 @@
     <div class="card-meta"><span class="badge btype">Research article</span><span class="badge topic" style="background:#0d948820;color:#0d9488">DCM Genetics</span></div>
     <a class="card-title" href="https://pubmed.ncbi.nlm.nih.gov/41840602/" target="_blank">From gene to heart: the impact of a novel SGCD variant in familial dilated cardiomyopathy.</a>
     <div class="card-authors">Kalayinia S, Poopak A, Soveizi M, et al. &mdash; <em>BMC medical genomics</em> 2026</div>
-    <div class="card-abstract"></div>
+    <p class="card-abstract"></p>
     <div class="card-links">
       <a class="ext" href="https://pubmed.ncbi.nlm.nih.gov/41840602/" target="_blank">PubMed ↗</a>
       <a class="ext" href="https://doi.org/10.1186/s12920-026-02342-5" target="_blank">DOI ↗</a>
@@ -337,7 +357,7 @@
     <div class="card-meta"><span class="badge btype">Research article</span><span class="badge topic" style="background:#0d948820;color:#0d9488">DCM Genetics</span></div>
     <a class="card-title" href="https://pubmed.ncbi.nlm.nih.gov/41747776/" target="_blank">Inflammatory cardiomyopathy: Position paper of the Italian Society of Cardiology Working Group on cardiomyopathies and pericardial diseases in collaboration with the Italian Society of Cardiology Working Group on cardiac magnetic resonance.</a>
     <div class="card-authors">Imazio M, Jahnsen V, Merlo M, et al. &mdash; <em>International journal of cardiology</em> 2026</div>
-    <div class="card-abstract">Inflammatory cardiomyopathy (iCMP) usually represents the chronic, hypokinetic phenotype within the myocarditis spectrum, characterized by persistent myocardial inflammation, systolic ventricular dysfunction, and adverse remodelling. It frequently evolves from prior acute or subacute myocarditis and is associated with significantly worse outcomes, including progression to dilated cardiomyopathy, heart failure, and arrhythmias. The condition arises from heterogeneous causes-infectious, autoimmune…</div>
+    <ul class="card-bullets"><li>It frequently evolves from prior acute or subacute myocarditis and is associated with significantly worse outcomes, including progression to dilated cardiomyopathy, heart failure, and arrhythmias.</li><li>Prognosis depends on ventricular function, extent of fibrosis, viral persistence, arrhythmic burden, and recurrence of inflammatory "hot phases." Lifelong follow-up is warranted.</li><li>This position paper provides a comprehensive framework for the diagnosis, risk stratification, and management of iCMP, highlighting current evidence, guideline alignment, and remaining gaps.</li></ul>
     <div class="card-links">
       <a class="ext" href="https://pubmed.ncbi.nlm.nih.gov/41747776/" target="_blank">PubMed ↗</a>
       <a class="ext" href="https://doi.org/10.1016/j.ijcard.2026.134249" target="_blank">DOI ↗</a>
@@ -351,7 +371,7 @@
     <div class="card-meta"><span class="badge btype">Review</span><span class="badge topic" style="background:#0d948820;color:#0d9488">SCAD Genetics</span></div>
     <a class="card-title" href="https://pubmed.ncbi.nlm.nih.gov/41864334/" target="_blank">Genome‑Wide Association Studies (GWAS) in 2026: from gene hunting to biological discovery in endocrine and cardiometabolic diseases.</a>
     <div class="card-authors">Berrandou T &mdash; <em>Annales d'endocrinologie</em> 2026</div>
-    <div class="card-abstract">Genome-wide association studies (GWAS) emerged with expectations borrowed from Mendelian genetics, creating a gap between what the method can and cannot deliver. This gap has fuelled both unwarranted dismissal and unwarranted enthusiasm. For endocrine clinicians, the confusion is consequential because GWAS and clinical sequencing answer fundamentally different questions and serve different purposes. This review defines what GWAS is designed to do, clarifies the state of the "missing heritability…</div>
+    <ul class="card-bullets"><li>Large meta-analyses have identified hundreds of robust loci for thyroid-stimulating hormone, age at menarche, age at natural menopause, cortisol binding, primary aldosteronism, and type 2 diabetes subtypes.</li><li>In rare but well-phenotyped vascular conditions such as spontaneous coronary artery dissection and fibromuscular dysplasia, GWAS has identified biologically coherent loci and tested hormonal hypotheses, demonstrating that rigorous phenotyping can partly compensate for modest sample sizes.</li><li>GWAS remains a relevant and productive tool in endocrine genetics in 2026, provided its outputs are interpreted correctly.</li></ul>
     <div class="card-links">
       <a class="ext" href="https://pubmed.ncbi.nlm.nih.gov/41864334/" target="_blank">PubMed ↗</a>
       <a class="ext" href="https://doi.org/10.1016/j.ando.2026.102509" target="_blank">DOI ↗</a>
@@ -365,7 +385,7 @@
     <div class="card-meta"><span class="badge btype">GWAS</span><span class="badge topic" style="background:#64748b20;color:#64748b">DCM Omics</span></div>
     <a class="card-title" href="https://pubmed.ncbi.nlm.nih.gov/41855523/" target="_blank">Global analyses of genomic and epigenomic influences on gene expression reveal</a>
     <div class="card-authors">Lahue C, Ravindran S, Dalal A, et al. &mdash; <em>Epigenetics</em> 2026</div>
-    <div class="card-abstract">Heart failure arises from maladaptive remodelling driven by genetic and epigenetic networks. Using a systems genetics framework, we mapped how DNA variants and CpG methylation shape cardiac transcriptomes during beta adrenergic stress in the Hybrid Mouse Diversity Panel, a cohort of over 100 fully inbred mouse strains. Expression QTLs (eQTLs), methylation QTLs (mQTLs) and methylation-driven eQTLs (emQTLs) were generated from over 13k expressed genes and 200k hypervariable CpGs in left ventricles…</div>
+    <ul class="card-bullets"><li>We discovered hundreds of regulatory 'hotspots' that control large portions of the genome, including several that regulate over 10% of the transcriptome and/or methylome.</li><li>Approximately 16% of these hotspots overlapped with prior GWAS or EWAS signals.</li><li>We focus on a hotspot on chromosome 12 and identify the serpine peptidase inhibitor.</li></ul>
     <div class="card-links">
       <a class="ext" href="https://pubmed.ncbi.nlm.nih.gov/41855523/" target="_blank">PubMed ↗</a>
       <a class="ext" href="https://doi.org/10.1038/s41467-020-19015-1" target="_blank">DOI ↗</a>
@@ -379,7 +399,7 @@
     <div class="card-meta"><span class="badge btype">Research article</span><span class="badge topic" style="background:#0d948820;color:#0d9488">CHD Genetics</span></div>
     <a class="card-title" href="https://pubmed.ncbi.nlm.nih.gov/41834381/" target="_blank">Periodic Genetic Reanalysis Identifies a Novel De Novo</a>
     <div class="card-authors">Aydin E, Bulut A, Yildiz B, et al. &mdash; <em>Journal of child neurology</em> 2026</div>
-    <div class="card-abstract">Periodic reanalysis of genomic data plays a pivotal role in refining variant interpretation and resolving previously undiagnosed cases, particularly in the context of rare diseases. We report a female patient presenting with global developmental delay, drug-resistant epilepsy, optic atrophy, congenital heart defects, and craniofacial dysmorphism. An initially deprioritized heterozygous</div>
+    <ul class="card-bullets"><li>Periodic reanalysis of genomic data plays a pivotal role in refining variant interpretation and resolving previously undiagnosed cases, particularly in the context of rare diseases.</li><li>We report a female patient presenting with global developmental delay, drug-resistant epilepsy, optic atrophy, congenital heart defects, and craniofacial dysmorphism.</li><li>An initially deprioritized heterozygous.</li></ul>
     <div class="card-links">
       <a class="ext" href="https://pubmed.ncbi.nlm.nih.gov/41834381/" target="_blank">PubMed ↗</a>
       <a class="ext" href="https://doi.org/10.1177/08830738261422860" target="_blank">DOI ↗</a>
@@ -393,7 +413,7 @@
     <div class="card-meta"><span class="badge btype">Research article</span><span class="badge topic" style="background:#0d948820;color:#0d9488">CHD Genetics</span></div>
     <a class="card-title" href="https://pubmed.ncbi.nlm.nih.gov/41617498/" target="_blank">Expanding the phenotypic spectrum of</a>
     <div class="card-authors">Welch C, McEntagart M, Moledina S, et al. &mdash; <em>Journal of medical genetics</em> 2026</div>
-    <div class="card-abstract">To test the role of  We identified 15 individuals with  Rare</div>
+    <ul class="card-bullets"><li>To test the role of  We identified 15 individuals with  Rare.</li></ul>
     <div class="card-links">
       <a class="ext" href="https://pubmed.ncbi.nlm.nih.gov/41617498/" target="_blank">PubMed ↗</a>
       <a class="ext" href="https://doi.org/10.1136/jmg-2025-111027" target="_blank">DOI ↗</a>

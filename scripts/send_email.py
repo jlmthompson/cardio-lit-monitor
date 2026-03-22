@@ -35,6 +35,22 @@ SECTION_META = {
 }
 
 
+def _bullets_html(p, colour):
+    bullets = p.get("bullets", [])
+    if bullets:
+        items = "".join(
+            f'<li style="font-size:12px;color:#334155;line-height:1.55;padding:2px 0;">'
+            f'<span style="color:{colour};margin-right:5px;">▸</span>{b}</li>'
+            for b in bullets
+        )
+        return f'<ul style="list-style:none;margin:0 0 8px;padding:0;">{items}</ul>'
+    # Fallback
+    abstract = p.get("abstract","")
+    if abstract:
+        return f'<div style="font-size:12px;color:#475569;line-height:1.55;margin-bottom:8px;">{abstract}</div>'
+    return ""
+
+
 def paper_row(p):
     label, colour = SECTION_META.get(p.get("section",""), ("Other", "#64748b"))
     topic = p.get("topic","").replace("_"," ")
@@ -52,9 +68,8 @@ def paper_row(p):
     <div style="font-size:12px;color:#64748b;margin-bottom:7px;">
       {p.get('authors','')} &mdash; <em>{p.get('journal','')}</em> {p.get('year','')}
     </div>
-    <div style="font-size:12px;color:#475569;line-height:1.55;margin-bottom:8px;">
-      {p.get('abstract','')}
-    </div>
+    {_bullets_html(p, colour)}
+
     <a href="{p['url']}" style="font-size:12px;color:{colour};font-weight:500;">PubMed ↗</a>{doi_link}
   </div>"""
 

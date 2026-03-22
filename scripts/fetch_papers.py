@@ -110,6 +110,7 @@ def pubmed_fetch(ids, webenv, querykey):
                 "title":    title,
                 "abstract": abstract[:500] + ("…" if len(abstract) > 500 else ""),
                 "abstract_full": abstract,
+                "bullets":  summarise_abstract(abstract),
                 "authors":  ", ".join(authors),
                 "journal":  journal,
                 "year":     year,
@@ -137,6 +138,77 @@ def make_ris(pmid, title, authors, journal, year, doi, abstract):
         "ER  - "
     ]
     return "\n".join(lines)
+
+
+def summarise_abstract(abstract):
+    """
+    Extract 2-3 bullet-point sentences from a scientific abstract.
+    Prioritises sentences with results/findings signal words.
+    Returns a list of strings (without trailing punctuation added).
+    """
+    if not abstract:
+        return []
+
+    # Split into sentences (handles common abbreviations reasonably)
+    raw = re.split(r'(?<=[.!?])\s+(?=[A-Z])', abstract.strip())
+    sentences = [s.strip() for s in raw if len(s.strip()) > 30]
+    if not sentences:
+        return []
+
+    # Score each sentence
+    RESULTS_SIGNALS = [
+        "we found", "we identified", "we show", "we demonstrate", "we report",
+        "we observed", "we detected", "we present", "our results", "our findings",
+        "results show", "results indicate", "results suggest", "findings suggest",
+        "findings indicate", "results demonstrate", "analysis revealed",
+        "associated with", "significantly", "were associated", "was associated",
+        "increased risk", "decreased risk", "higher risk", "lower risk",
+        "identified", "revealed", "demonstrated", "confirmed", "established",
+        "pathogenic variant", "de novo", "rare variant", "loss-of-function",
+        "odds ratio", "hazard ratio", "p-value", "p <", "p=", "95% ci",
+        "genome-wide", "exome", "whole genome", "gwas",
+        "concluded", "conclusion", "in conclusion", "collectively", "together,"
+    ]
+    SKIP_SIGNALS = [
+        "background", "introduction", "aim of", "aims to", "objective",
+        "we sought to", "we aimed to", "the purpose of", "in this study, we",
+        "to investigate", "to determine", "to assess", "to evaluate",
+        "is a common", "is a rare", "is characterised", "is characterized",
+        "remains unclear", "remain poorly", "little is known", "has been shown"
+    ]
+
+    scored = []
+    for i, sent in enumerate(sentences):
+        low = sent.lower()
+        score = 0
+        for sig in RESULTS_SIGNALS:
+            if sig in low:
+                score += 2
+        for sig in SKIP_SIGNALS:
+            if low.startswith(sig) or f" {sig}" in low[:60]:
+                score -= 3
+        # Slight preference for later sentences (where results usually live)
+        score += i * 0.3
+        # Penalise very long sentences (likely methods details)
+        if len(sent) > 300:
+            score -= 1
+        scored.append((score, i, sent))
+
+    scored.sort(key=lambda x: (-x[0], x[1]))
+    # Pick top 3 by score, then re-order by position for readability
+    top = sorted(scored[:3], key=lambda x: x[1])
+    bullets = [s for _, _, s in top if s]
+
+    # Clean up: strip trailing ellipsis artifact, ensure ends with period
+    cleaned = []
+    for b in bullets:
+        b = b.rstrip("…").strip()
+        if b and not b.endswith((".", "!", "?")):
+            b += "."
+        if b:
+            cleaned.append(b)
+
+    return cleaned[:3]
 
 
 def classify_paper(title, abstract):

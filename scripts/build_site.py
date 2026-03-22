@@ -35,6 +35,15 @@ def paper_card(p):
     ris_safe = p["ris"].replace(chr(10), "|").replace(chr(13), "").replace('"', "&quot;")
     topic_badge = f'<span class="badge topic" style="background:{accent}20;color:{accent}">{p.get("topic","").replace("_"," ")}</span>'
     type_badge  = f'<span class="badge btype">{p.get("type","")}</span>'
+
+    bullets = p.get("bullets", [])
+    if bullets:
+        bullet_items = "".join(f"<li>{b}</li>" for b in bullets)
+        content_html = f'<ul class="card-bullets">{bullet_items}</ul>'
+    else:
+        # Fallback to plain abstract if no bullets
+        content_html = f'<p class="card-abstract">{p.get("abstract","")}</p>'
+
     return f"""
 <div class="card" data-section="{section}">
   <div class="card-accent" style="background:{accent}"></div>
@@ -42,7 +51,7 @@ def paper_card(p):
     <div class="card-meta">{type_badge}{topic_badge}</div>
     <a class="card-title" href="{p['url']}" target="_blank">{p['title'] or '(No title)'}</a>
     <div class="card-authors">{p.get('authors','')} &mdash; <em>{p.get('journal','')}</em> {p.get('year','')}</div>
-    <div class="card-abstract">{p.get('abstract','')}</div>
+    {content_html}
     <div class="card-links">
       <a class="ext" href="{p['url']}" target="_blank">PubMed ↗</a>
       {doi_link}
@@ -274,6 +283,26 @@ OUT.write_text(f"""<!DOCTYPE html>
       color: #475569;
       line-height: 1.6;
       margin-bottom: 10px;
+    }}
+    .card-bullets {{
+      list-style: none;
+      margin: 0 0 10px;
+      padding: 0;
+    }}
+    .card-bullets li {{
+      font-size: 0.8rem;
+      color: #334155;
+      line-height: 1.55;
+      padding: 3px 0 3px 14px;
+      position: relative;
+    }}
+    .card-bullets li::before {{
+      content: "▸";
+      position: absolute;
+      left: 0;
+      color: #0d9488;
+      font-size: 0.7rem;
+      top: 4px;
     }}
     .card-links {{
       display: flex;

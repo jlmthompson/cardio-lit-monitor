@@ -209,7 +209,12 @@
       "section": "disease_genetics",
       "topic": "DCM_Genetics",
       "type": "Research article",
-      "score": 7
+      "score": 7,
+      "bullets": [
+        "Identified variants are classified by genetic laboratories, where pathogenic or likely pathogenic variants often have actionable clinical implications.",
+        "When the genetic results are consistent with the patients' broader phenotype, potential clinical implications may include decision for device therapy, recommendations for family screening, and reproductive options.",
+        "A comprehensive approach to integrate genetic testing in the clinical care of patients with DCM is proposed."
+      ]
     },
     {
       "pmid": "41845085",
@@ -226,7 +231,12 @@
       "section": "disease_genetics",
       "topic": "SCAD_Genetics",
       "type": "Review",
-      "score": 7
+      "score": 7,
+      "bullets": [
+        "Additionally, patients with SCAD and genetically confirmed vEDS (SCAD-vEDS) were identified through the UK national EDS service and UK SCAD registry.",
+        "Fifty-six cases of SCAD-vEDS were identified through systematic review.",
+        "Systematic review registration: https://www.crd.york.ac.uk/prospero/536751 Identifier: 536751."
+      ]
     },
     {
       "pmid": "41706057",
@@ -243,7 +253,12 @@
       "section": "prs_disease",
       "topic": "CHD_DCM_SCAD_PRS",
       "type": "Review",
-      "score": 5
+      "score": 5,
+      "bullets": [
+        "Among 655,796 individuals from UKB and AoU, presence of a disease-causing variant was associated with an increased AF hazard (HR: 1.73; 95% CI: 1.59-1.89; P < 0.001), including after adjustment for incident ventricular cardiomyopathy or clinical heart failure (adjusted to HR: 1.55; 95% CI: 1.46-1.64, P < 0.001).",
+        "The cumulative AF risk for study participants with a putative disease-causing rare variant and a PRS Genetic variants that cause cardiomyopathy also increase the risk of AF, even in individuals without heart failure or overt ventricular disease.",
+        "Although discovered as causes of cardiomyopathy, these genes often have an equal or greater impact on the risk of AF."
+      ]
     },
     {
       "pmid": "41797063",
@@ -260,7 +275,12 @@
       "section": "disease_genetics",
       "topic": "DCM_Genetics",
       "type": "Research article",
-      "score": 4
+      "score": 4,
+      "bullets": [
+        "Dilated cardiomyopathy (DCM) caused by rare pathogenic variants in LMNA is a severe hereditary heart disease characterized by lethal arrythmias and progressive heart failure.",
+        "Here, we describe a human induced pluripotent stem cell (hiPSC) line reprogrammed by non-integrative Sendai virus from dermal fibroblasts of a female DCM patient carrying the heterozygous LMNA p.Q493X rare pathogenic variant.",
+        "Therefore, this newly-generated hiPSC line enables modeling of DCM caused by rare pathogenic variants in LMNA."
+      ]
     },
     {
       "pmid": "41840602",
@@ -277,7 +297,8 @@
       "section": "disease_genetics",
       "topic": "DCM_Genetics",
       "type": "Research article",
-      "score": 3
+      "score": 3,
+      "bullets": []
     },
     {
       "pmid": "41747776",
@@ -294,7 +315,12 @@
       "section": "disease_genetics",
       "topic": "DCM_Genetics",
       "type": "Research article",
-      "score": 2
+      "score": 2,
+      "bullets": [
+        "It frequently evolves from prior acute or subacute myocarditis and is associated with significantly worse outcomes, including progression to dilated cardiomyopathy, heart failure, and arrhythmias.",
+        "Prognosis depends on ventricular function, extent of fibrosis, viral persistence, arrhythmic burden, and recurrence of inflammatory \"hot phases.\" Lifelong follow-up is warranted.",
+        "This position paper provides a comprehensive framework for the diagnosis, risk stratification, and management of iCMP, highlighting current evidence, guideline alignment, and remaining gaps."
+      ]
     },
     {
       "pmid": "41864334",
@@ -311,7 +337,12 @@
       "section": "disease_genetics",
       "topic": "SCAD_Genetics",
       "type": "Review",
-      "score": 2
+      "score": 2,
+      "bullets": [
+        "Large meta-analyses have identified hundreds of robust loci for thyroid-stimulating hormone, age at menarche, age at natural menopause, cortisol binding, primary aldosteronism, and type 2 diabetes subtypes.",
+        "In rare but well-phenotyped vascular conditions such as spontaneous coronary artery dissection and fibromuscular dysplasia, GWAS has identified biologically coherent loci and tested hormonal hypotheses, demonstrating that rigorous phenotyping can partly compensate for modest sample sizes.",
+        "GWAS remains a relevant and productive tool in endocrine genetics in 2026, provided its outputs are interpreted correctly."
+      ]
     },
     {
       "pmid": "41855523",
@@ -328,7 +359,12 @@
       "section": "topic_watch",
       "topic": "DCM_Omics",
       "type": "GWAS",
-      "score": 1
+      "score": 1,
+      "bullets": [
+        "We discovered hundreds of regulatory 'hotspots' that control large portions of the genome, including several that regulate over 10% of the transcriptome and/or methylome.",
+        "Approximately 16% of these hotspots overlapped with prior GWAS or EWAS signals.",
+        "We focus on a hotspot on chromosome 12 and identify the serpine peptidase inhibitor."
+      ]
     },
     {
       "pmid": "41834381",
@@ -345,7 +381,12 @@
       "section": "disease_genetics",
       "topic": "CHD_Genetics",
       "type": "Research article",
-      "score": 1
+      "score": 1,
+      "bullets": [
+        "Periodic reanalysis of genomic data plays a pivotal role in refining variant interpretation and resolving previously undiagnosed cases, particularly in the context of rare diseases.",
+        "We report a female patient presenting with global developmental delay, drug-resistant epilepsy, optic atrophy, congenital heart defects, and craniofacial dysmorphism.",
+        "An initially deprioritized heterozygous."
+      ]
     },
     {
       "pmid": "41617498",
@@ -362,7 +403,10 @@
       "section": "disease_genetics",
       "topic": "CHD_Genetics",
       "type": "Research article",
-      "score": 1
+      "score": 1,
+      "bullets": [
+        "To test the role of  We identified 15 individuals with  Rare."
+      ]
     }
   ],
   "summary_text": "10 papers selected from this week's literature:\n  \u2022 8 \u00d7 disease genetics (CHD / DCM / SCAD)\n  \u2022 1 \u00d7 PRS in CHD/DCM/SCAD\n  \u2022 1 \u00d7 epigenetics / methylation\n\nHighlight: Genetic counselling implementation in dilated cardiomyopathy. (European heart journal, 2026)",
