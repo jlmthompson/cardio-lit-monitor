@@ -1,42 +1,26 @@
 {
-  "generated": "2026-03-15T21:17:13.084191",
+  "generated": "2026-03-22T21:15:18.285683",
   "lookback_days": 7,
-  "cutoff_date": "2026/03/08",
+  "cutoff_date": "2026/03/15",
   "sections": {
     "gene_watch": {
       "CHD_NDD_Overlap": {
         "description": "Genes appearing in both CHD and NDD/Autism PanelApp panels",
         "results": {
-          "ARID1B": [
+          "KMT2D": [
             {
-              "pmid": "41795723",
-              "title": "Expanding the Coffin-Siris syndrome spectrum: genetic, dysmorphic, and endocrine findings in eight cases.",
-              "abstract": "This study aims to expand the spectrum of Coffin-Siris syndrome (CSS), a rare and heterogeneous disorder, by thoroughly discussing its genetic, dysmorphic, and endocrine features through new cases and contributing to the literature. Eight patients who were referred to the genetics clinic with various complaints and subsequently diagnosed with CSS through microarray or clinical exome sequencing ana\u2026",
-              "authors": "Kolkiran A, Ataseven Kulal\u0131 M, Da\u015far T, et al.",
-              "journal": "European journal of pediatrics",
+              "pmid": "41833451",
+              "title": "A novel",
+              "abstract": "Kabuki syndrome (KS) is a rare, multiple congenital anomaly syndrome, characterized by dysmorphic facial features, skeletal anomalies, dermatoglyphic abnormalities, developmental delay, mild-to-moderate intellectual disability, and postnatal growth restriction. KS type 1 (KS1, OMIM 147920) is caused by autosomal dominant pathogenic mutations in  To identify the genetic etiologies in a fetus with i\u2026",
+              "authors": "Liang Y, Liu T, Zhang C, et al.",
+              "journal": "The journal of maternal-fetal & neonatal medicine : the official journal of the European Association of Perinatal Medicine, the Federation of Asia and Oceania Perinatal Societies, the International Society of Perinatal Obstetricians",
               "year": "2026",
-              "month": "Mar",
-              "doi": "10.1080/13854046.2024.2372879",
-              "url": "https://pubmed.ncbi.nlm.nih.gov/41795723/",
-              "ris": "TY  - JOUR\nAU  - Kolkiran A\nAU  - Ataseven Kulal\u0131 M\nAU  - Da\u015far T\nTI  - Expanding the Coffin-Siris syndrome spectrum: genetic, dysmorphic, and endocrine findings in eight cases.\nJO  - European journal of pediatrics\nPY  - 2026\nDO  - 10.1080/13854046.2024.2372879\nAB  - This study aims to expand the spectrum of Coffin-Siris syndrome (CSS), a rare and heterogeneous disorder, by thoroughly discussing its genetic, dysmorphic, and endocrine features through new cases and contributing to the literature. Eight patients who were referred to the genetics clinic with variou\nUR  - https://pubmed.ncbi.nlm.nih.gov/41795723/\nER  - ",
-              "gene": "ARID1B",
-              "type": "Research article"
-            }
-          ],
-          "FOXP1": [
-            {
-              "pmid": "41827018",
-              "title": "Resolving non\u2011coding splice\u2011altering variants using an integrative genomic and transcriptomic workflow: application to FOXP1.",
-              "abstract": "Genome sequencing (GS) often reveals non-coding variants of uncertain significance, especially those predicted to affect pre-mRNA splicing. We present an integrative workflow combining splice prediction, a minigene assay and long-read RNA sequencing to assess their functional impact. Applied to a de novo heterozygous 17-bp intronic deletion in FOXP1 from a child with a neurodevelopmental disorder,\u2026",
-              "authors": "Plant\u00e9-Bordeneuve P, Jourdain A, Thuillier C, et al.",
-              "journal": "Human genomics",
-              "year": "2026",
-              "month": "Mar",
-              "doi": "10.1186/s40246-026-00946-7",
-              "url": "https://pubmed.ncbi.nlm.nih.gov/41827018/",
-              "ris": "TY  - JOUR\nAU  - Plant\u00e9-Bordeneuve P\nAU  - Jourdain A\nAU  - Thuillier C\nTI  - Resolving non\u2011coding splice\u2011altering variants using an integrative genomic and transcriptomic workflow: application to FOXP1.\nJO  - Human genomics\nPY  - 2026\nDO  - 10.1186/s40246-026-00946-7\nAB  - Genome sequencing (GS) often reveals non-coding variants of uncertain significance, especially those predicted to affect pre-mRNA splicing. We present an integrative workflow combining splice prediction, a minigene assay and long-read RNA sequencing to assess their functional impact. Applied to a de\nUR  - https://pubmed.ncbi.nlm.nih.gov/41827018/\nER  - ",
-              "gene": "FOXP1",
-              "type": "Functional study"
+              "month": "Dec",
+              "doi": "10.1080/14767058.2026.2640649",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/41833451/",
+              "ris": "TY  - JOUR\nAU  - Liang Y\nAU  - Liu T\nAU  - Zhang C\nTI  - A novel\nJO  - The journal of maternal-fetal & neonatal medicine : the official journal of the European Association of Perinatal Medicine, the Federation of Asia and Oceania Perinatal Societies, the International Society of Perinatal Obstetricians\nPY  - 2026\nDO  - 10.1080/14767058.2026.2640649\nAB  - Kabuki syndrome (KS) is a rare, multiple congenital anomaly syndrome, characterized by dysmorphic facial features, skeletal anomalies, dermatoglyphic abnormalities, developmental delay, mild-to-moderate intellectual disability, and postnatal growth restriction. KS type 1 (KS1, OMIM 147920) is caused\nUR  - https://pubmed.ncbi.nlm.nih.gov/41833451/\nER  - ",
+              "gene": "KMT2D",
+              "type": "Variant report"
             }
           ],
           "FOXP2": [
@@ -69,7 +53,53 @@
               "type": "Variant report"
             }
           ],
+          "ADNP": [
+            {
+              "pmid": "41844650",
+              "title": "Genomic modifiers of malignant and neurodevelopmental phenotypes in individuals with PTEN hamartoma tumor syndrome.",
+              "abstract": "PTEN hamartoma tumor syndrome (PHTS), caused by germline PTEN variants, exhibits marked phenotypic heterogeneity, most notably cancer, neurodevelopmental disorders (NDD), or both. The basis for this divergence, even among carriers of identical PTEN variants, remains poorly defined. We performed whole-genome sequencing of 599 individuals with PHTS and family members, complemented by analyses of PTE\u2026",
+              "authors": "Yehia L, Li L, Idumah G, et al.",
+              "journal": "NPJ genomic medicine",
+              "year": "2026",
+              "month": "Mar",
+              "doi": "10.1038/s41525-026-00556-1",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/41844650/",
+              "ris": "TY  - JOUR\nAU  - Yehia L\nAU  - Li L\nAU  - Idumah G\nTI  - Genomic modifiers of malignant and neurodevelopmental phenotypes in individuals with PTEN hamartoma tumor syndrome.\nJO  - NPJ genomic medicine\nPY  - 2026\nDO  - 10.1038/s41525-026-00556-1\nAB  - PTEN hamartoma tumor syndrome (PHTS), caused by germline PTEN variants, exhibits marked phenotypic heterogeneity, most notably cancer, neurodevelopmental disorders (NDD), or both. The basis for this divergence, even among carriers of identical PTEN variants, remains poorly defined. We performed whol\nUR  - https://pubmed.ncbi.nlm.nih.gov/41844650/\nER  - ",
+              "gene": "ADNP",
+              "type": "Variant report"
+            }
+          ],
+          "CHD7": [
+            {
+              "pmid": "41042998",
+              "title": "Comprehensive Molecular Studies in 88 Japanese Patients With Congenital Hypogonadotropic Hypogonadism.",
+              "abstract": "Congenital hypogonadotropic hypogonadism (CHH) is a genetically heterogeneous disorder, with multiple causative and candidate genes identified to date. To clarify underlying genetic factors involved in the development of CHH. We examined 88 Japanese patients with CHH using gene panel analysis (GPA) for 14 representative causative genes and whole-exome sequencing (WES) which was initially focused o\u2026",
+              "authors": "Tanikawa W, Okamoto S, Ohara O, et al.",
+              "journal": "The Journal of clinical endocrinology and metabolism",
+              "year": "2026",
+              "month": "Mar",
+              "doi": "10.1210/clinem/dgaf548",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/41042998/",
+              "ris": "TY  - JOUR\nAU  - Tanikawa W\nAU  - Okamoto S\nAU  - Ohara O\nTI  - Comprehensive Molecular Studies in 88 Japanese Patients With Congenital Hypogonadotropic Hypogonadism.\nJO  - The Journal of clinical endocrinology and metabolism\nPY  - 2026\nDO  - 10.1210/clinem/dgaf548\nAB  - Congenital hypogonadotropic hypogonadism (CHH) is a genetically heterogeneous disorder, with multiple causative and candidate genes identified to date. To clarify underlying genetic factors involved in the development of CHH. We examined 88 Japanese patients with CHH using gene panel analysis (GPA) \nUR  - https://pubmed.ncbi.nlm.nih.gov/41042998/\nER  - ",
+              "gene": "CHD7",
+              "type": "Research article"
+            }
+          ],
           "CHD2": [
+            {
+              "pmid": "41833011",
+              "title": "Temporal and Cell-Specific Regulation of Synaptic Homeostasis by the Chromatin Remodeler Chd1.",
+              "abstract": "Disruptions in chromatin remodelers and synaptic proteins represent major genetic risk factors for autism spectrum disorder (ASD), yet how these distinct gene classes converge to impair circuit function remains unclear. CHD2, a chromatin remodeler linked to ASD, epilepsy, and intellectual disability, regulates gene expression through epigenetic mechanisms. In Drosophila, its homologue Chd1 functio\u2026",
+              "authors": "Morency D, Cui T, Cai Y, et al.",
+              "journal": "Advanced science (Weinheim, Baden-Wurttemberg, Germany)",
+              "year": "2026",
+              "month": "Mar",
+              "doi": "10.1002/advs.202510538",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/41833011/",
+              "ris": "TY  - JOUR\nAU  - Morency D\nAU  - Cui T\nAU  - Cai Y\nTI  - Temporal and Cell-Specific Regulation of Synaptic Homeostasis by the Chromatin Remodeler Chd1.\nJO  - Advanced science (Weinheim, Baden-Wurttemberg, Germany)\nPY  - 2026\nDO  - 10.1002/advs.202510538\nAB  - Disruptions in chromatin remodelers and synaptic proteins represent major genetic risk factors for autism spectrum disorder (ASD), yet how these distinct gene classes converge to impair circuit function remains unclear. CHD2, a chromatin remodeler linked to ASD, epilepsy, and intellectual disability\nUR  - https://pubmed.ncbi.nlm.nih.gov/41833011/\nER  - ",
+              "gene": "CHD2",
+              "type": "Epigenetics"
+            },
             {
               "pmid": "41818656",
               "title": "Early Clinical and EEG Association of Genotype and Outcome in Genetic Epilepsies: A Cohort Study and Hierarchical Clustering Analysis.",
@@ -87,6 +117,20 @@
           ],
           "CHD8": [
             {
+              "pmid": "41864596",
+              "title": "Alpha-lipoic acid attenuates valproic acid-induced autism-like phenotypes in zebrafish by enhancing antioxidant capacity and repressing oxidative stress, inflammation, apoptosis, and HPI-axis signaling.",
+              "abstract": "Autism spectrum disorder (ASD) is a complex neurodevelopmental condition with identified etiological mechanisms, yet effective treatments remain elusive. Individuals with ASD often exhibit compromised antioxidant defenses and are subject to oxidative stress. In this study, we used an established zebrafish (Danio rerio) model of autism with valproic acid (VPA) and subsequently administered 20\u202f\u03bcg/mL\u2026",
+              "authors": "Li Z, Wang J, Feng T, et al.",
+              "journal": "Comparative biochemistry and physiology. Toxicology & pharmacology : CBP",
+              "year": "2026",
+              "month": "Mar",
+              "doi": "10.1016/j.cbpc.2026.110518",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/41864596/",
+              "ris": "TY  - JOUR\nAU  - Li Z\nAU  - Wang J\nAU  - Feng T\nTI  - Alpha-lipoic acid attenuates valproic acid-induced autism-like phenotypes in zebrafish by enhancing antioxidant capacity and repressing oxidative stress, inflammation, apoptosis, and HPI-axis signaling.\nJO  - Comparative biochemistry and physiology. Toxicology & pharmacology : CBP\nPY  - 2026\nDO  - 10.1016/j.cbpc.2026.110518\nAB  - Autism spectrum disorder (ASD) is a complex neurodevelopmental condition with identified etiological mechanisms, yet effective treatments remain elusive. Individuals with ASD often exhibit compromised antioxidant defenses and are subject to oxidative stress. In this study, we used an established zeb\nUR  - https://pubmed.ncbi.nlm.nih.gov/41864596/\nER  - ",
+              "gene": "CHD8",
+              "type": "Functional study"
+            },
+            {
               "pmid": "41309157",
               "title": "CHD8 -Related Neurodevelopmental Disorder Manifesting Adult-Onset Compulsive Behaviors.",
               "abstract": "A patient of intellectual developmental disorder with autism and macrocephaly (IDDAM) caused by a novel CHD8 mutation developed adult-onset compulsive behaviors in addition to the core phenotype in early life. This case expands the clinical and genotypic spectrums of IDDAM which may inspire future studies on genotype-phenotype correlation and the disease course.",
@@ -98,6 +142,66 @@
               "url": "https://pubmed.ncbi.nlm.nih.gov/41309157/",
               "ris": "TY  - JOUR\nAU  - Lan S\nAU  - Lan M\nAU  - Chang Y\nTI  - CHD8 -Related Neurodevelopmental Disorder Manifesting Adult-Onset Compulsive Behaviors.\nJO  - Clinical genetics\nPY  - 2026\nDO  - 10.1111/cge.70117\nAB  - A patient of intellectual developmental disorder with autism and macrocephaly (IDDAM) caused by a novel CHD8 mutation developed adult-onset compulsive behaviors in addition to the core phenotype in early life. This case expands the clinical and genotypic spectrums of IDDAM which may inspire future s\nUR  - https://pubmed.ncbi.nlm.nih.gov/41309157/\nER  - ",
               "gene": "CHD8",
+              "type": "Variant report"
+            }
+          ],
+          "DYRK1A": [
+            {
+              "pmid": "41838920",
+              "title": "Pharmaco-behavioral profiling identifies suppressors of autism gene-associated phenotypes in zebrafish.",
+              "abstract": "Pharmaco-behavioral screens in scalable in vivo systems have critical advantages for drug discovery relevant to large-effect autism spectrum disorder (ASD) genes. Here, we establish a database and open-source website of the behavioral signatures of 520 US Food and Drug Administration (FDA)-approved drugs using high-throughput assays of basic sensory processing and arousal behaviors in larval zebra\u2026",
+              "authors": "Jamadagni P, Dai Y, Liu Y, et al.",
+              "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+              "year": "2026",
+              "month": "Mar",
+              "doi": "10.1073/pnas.2518846123",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/41838920/",
+              "ris": "TY  - JOUR\nAU  - Jamadagni P\nAU  - Dai Y\nAU  - Liu Y\nTI  - Pharmaco-behavioral profiling identifies suppressors of autism gene-associated phenotypes in zebrafish.\nJO  - Proceedings of the National Academy of Sciences of the United States of America\nPY  - 2026\nDO  - 10.1073/pnas.2518846123\nAB  - Pharmaco-behavioral screens in scalable in vivo systems have critical advantages for drug discovery relevant to large-effect autism spectrum disorder (ASD) genes. Here, we establish a database and open-source website of the behavioral signatures of 520 US Food and Drug Administration (FDA)-approved \nUR  - https://pubmed.ncbi.nlm.nih.gov/41838920/\nER  - ",
+              "gene": "DYRK1A",
+              "type": "Functional study"
+            }
+          ],
+          "DNMT3A": [
+            {
+              "pmid": "41840008",
+              "title": "Clonal hematopoiesis, inflammaging, and vascular disease: mechanisms, risk stratification, and therapeutic frontiers in older adults.",
+              "abstract": "Aging is associated with both a chronic pro-inflammatory state (\"inflammaging\") and the accumulation of somatic mutations in hematopoietic stem cells leading to clonal hematopoiesis. Clonal hematopoiesis of indeterminate potential (CHIP) is now recognized as a common phenomenon in older adults, defined by the expansion of blood cell clones bearing leukemia-associated mutations in the absence of ov\u2026",
+              "authors": "Zheng X",
+              "journal": "Acta pharmacologica Sinica",
+              "year": "2026",
+              "month": "Mar",
+              "doi": "10.1038/s41375-020-0896-8",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/41840008/",
+              "ris": "TY  - JOUR\nAU  - Zheng X\nTI  - Clonal hematopoiesis, inflammaging, and vascular disease: mechanisms, risk stratification, and therapeutic frontiers in older adults.\nJO  - Acta pharmacologica Sinica\nPY  - 2026\nDO  - 10.1038/s41375-020-0896-8\nAB  - Aging is associated with both a chronic pro-inflammatory state (\"inflammaging\") and the accumulation of somatic mutations in hematopoietic stem cells leading to clonal hematopoiesis. Clonal hematopoiesis of indeterminate potential (CHIP) is now recognized as a common phenomenon in older adults, defi\nUR  - https://pubmed.ncbi.nlm.nih.gov/41840008/\nER  - ",
+              "gene": "DNMT3A",
+              "type": "Variant report"
+            },
+            {
+              "pmid": "41764803",
+              "title": "DNMT3A R882C variant in a patient with a presumed pineal gland tumor, highlighting potential tumor susceptibility in Tatton-Brown-Rahman syndrome.",
+              "abstract": "Tatton-Brown-Rahman syndrome (TBRS) is a rare overgrowth disorder caused by germline alterations in DNMT3A, a gene essential for DNA methylation and epigenetic regulation. Affected individuals typically present with tall stature, intellectual disability, and neurodevelopmental disorders, and they also demonstrate an increased susceptibility to neoplastic disease. Reported tumors include hematologi\u2026",
+              "authors": "Ferreira L, Sorrell M, Raskin S, et al.",
+              "journal": "Cancer genetics",
+              "year": "2026",
+              "month": "Apr",
+              "doi": "10.1016/j.cancergen.2026.02.005",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/41764803/",
+              "ris": "TY  - JOUR\nAU  - Ferreira L\nAU  - Sorrell M\nAU  - Raskin S\nTI  - DNMT3A R882C variant in a patient with a presumed pineal gland tumor, highlighting potential tumor susceptibility in Tatton-Brown-Rahman syndrome.\nJO  - Cancer genetics\nPY  - 2026\nDO  - 10.1016/j.cancergen.2026.02.005\nAB  - Tatton-Brown-Rahman syndrome (TBRS) is a rare overgrowth disorder caused by germline alterations in DNMT3A, a gene essential for DNA methylation and epigenetic regulation. Affected individuals typically present with tall stature, intellectual disability, and neurodevelopmental disorders, and they al\nUR  - https://pubmed.ncbi.nlm.nih.gov/41764803/\nER  - ",
+              "gene": "DNMT3A",
+              "type": "Epigenetics"
+            },
+            {
+              "pmid": "41294132",
+              "title": "Relevance of Clonal Hematopoiesis in Immune Cells for Degenerative Aortic Valve Stenosis.",
+              "abstract": "Clonal hematopoiesis of indeterminate potential (CHIP), defined as the presence of somatic mutations in subjects without other hematologic abnormalities has been recently associated with several cardiovascular diseases. Degenerative aortic valve stenosis (AVS), a prototypical cardiovascular age-related disorder resulting from calcification and inflammation processes for which no medical treatment \u2026",
+              "authors": "Mas-Peiro S, Dimmeler S, Zeiher A",
+              "journal": "Journal of the American Heart Association",
+              "year": "2026",
+              "month": "Mar",
+              "doi": "10.1161/JAHA.125.044406",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/41294132/",
+              "ris": "TY  - JOUR\nAU  - Mas-Peiro S\nAU  - Dimmeler S\nAU  - Zeiher A\nTI  - Relevance of Clonal Hematopoiesis in Immune Cells for Degenerative Aortic Valve Stenosis.\nJO  - Journal of the American Heart Association\nPY  - 2026\nDO  - 10.1161/JAHA.125.044406\nAB  - Clonal hematopoiesis of indeterminate potential (CHIP), defined as the presence of somatic mutations in subjects without other hematologic abnormalities has been recently associated with several cardiovascular diseases. Degenerative aortic valve stenosis (AVS), a prototypical cardiovascular age-rela\nUR  - https://pubmed.ncbi.nlm.nih.gov/41294132/\nER  - ",
+              "gene": "DNMT3A",
               "type": "Variant report"
             }
           ],
@@ -133,20 +237,6 @@
               "type": "Variant report"
             },
             {
-              "pmid": "41818639",
-              "title": "MECP2-Associated Rett Syndrome Without Developmental Regression-A Case Series.",
-              "abstract": "Clinical phenotype expansion of neurodevelopmental disorders is increasingly important. With accessibility and diagnostic ability of genetic testing expanding, new clinical criteria will continue to be elucidated. Here we describe a case series of 4 female pediatric patients seen for global developmental delay in non-genetic, specialty clinics who received unexpected genetic diagnoses of",
-              "authors": "Morgan A, Pham A, Beeley S, et al.",
-              "journal": "Journal of child neurology",
-              "year": "2026",
-              "month": "Mar",
-              "doi": "10.1177/08830738261420277",
-              "url": "https://pubmed.ncbi.nlm.nih.gov/41818639/",
-              "ris": "TY  - JOUR\nAU  - Morgan A\nAU  - Pham A\nAU  - Beeley S\nTI  - MECP2-Associated Rett Syndrome Without Developmental Regression-A Case Series.\nJO  - Journal of child neurology\nPY  - 2026\nDO  - 10.1177/08830738261420277\nAB  - Clinical phenotype expansion of neurodevelopmental disorders is increasingly important. With accessibility and diagnostic ability of genetic testing expanding, new clinical criteria will continue to be elucidated. Here we describe a case series of 4 female pediatric patients seen for global developm\nUR  - https://pubmed.ncbi.nlm.nih.gov/41818639/\nER  - ",
-              "gene": "MECP2",
-              "type": "Case report"
-            },
-            {
               "pmid": "41724124",
               "title": "Use of fenfluramine in MECP2-related Rett syndrome: Findings from a retrospective multicenter pediatric case series.",
               "abstract": "Rett syndrome (RTT) is a severe neurodevelopmental disorder mainly affecting females. The patients could experience many comorbidities, including gastrointestinal, breathing, cardiovascular disorders, and seizures, which are often drug-resistant. Many antiseizure medications (ASMs) can be utilized as monotherapy or in combination. Fenfluramine (FFA), has a unique mechanism of action that targets t\u2026",
@@ -159,62 +249,48 @@
               "ris": "TY  - JOUR\nAU  - Boeri S\nAU  - Cognolato E\nAU  - Simonetta D\nTI  - Use of fenfluramine in MECP2-related Rett syndrome: Findings from a retrospective multicenter pediatric case series.\nJO  - Epilepsy & behavior : E&B\nPY  - 2026\nDO  - 10.1016/j.yebeh.2026.110920\nAB  - Rett syndrome (RTT) is a severe neurodevelopmental disorder mainly affecting females. The patients could experience many comorbidities, including gastrointestinal, breathing, cardiovascular disorders, and seizures, which are often drug-resistant. Many antiseizure medications (ASMs) can be utilized a\nUR  - https://pubmed.ncbi.nlm.nih.gov/41724124/\nER  - ",
               "gene": "MECP2",
               "type": "Case report"
+            },
+            {
+              "pmid": "41139199",
+              "title": "MECP2 Rare Variants in Boys With Central Precocious Puberty.",
+              "abstract": "Central precocious puberty (CPP) has strong genetic and epigenetic influences. MECP2, an X-linked gene, encodes a DNA methylation reader with a role in gene transcription regulation. MECP2 loss-of-function mutations are linked to neurodevelopmental disorders, particularly with Rett syndrome, a severe disorder that may be associated with early puberty. MECP2 variants were identified in girls with C\u2026",
+              "authors": "Canton A, Mebarak J, Read J, et al.",
+              "journal": "The Journal of clinical endocrinology and metabolism",
+              "year": "2026",
+              "month": "Mar",
+              "doi": "10.1210/clinem/dgaf572",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/41139199/",
+              "ris": "TY  - JOUR\nAU  - Canton A\nAU  - Mebarak J\nAU  - Read J\nTI  - MECP2 Rare Variants in Boys With Central Precocious Puberty.\nJO  - The Journal of clinical endocrinology and metabolism\nPY  - 2026\nDO  - 10.1210/clinem/dgaf572\nAB  - Central precocious puberty (CPP) has strong genetic and epigenetic influences. MECP2, an X-linked gene, encodes a DNA methylation reader with a role in gene transcription regulation. MECP2 loss-of-function mutations are linked to neurodevelopmental disorders, particularly with Rett syndrome, a sever\nUR  - https://pubmed.ncbi.nlm.nih.gov/41139199/\nER  - ",
+              "gene": "MECP2",
+              "type": "Epigenetics"
             }
           ],
           "PTEN": [
             {
-              "pmid": "41825102",
-              "title": "Epilepsy in pediatric patients with PTEN hamartoma tumor syndrome: First step in recommendations for clinical management.",
-              "abstract": "PTEN Hamartoma Tumor Syndrome (PHTS) is an autosomal dominant syndrome caused by a mutation in the PTEN gene. Previous studies have suggested an association between PHTS and epilepsy, but the clinical characteristics of epilepsy in PHTS remain unknown. This study aims to expand knowledge of epilepsy in PHTS and provide insights into its clinical features. A retrospective observational study was co\u2026",
-              "authors": "Jonker R, Schieving J",
-              "journal": "European journal of paediatric neurology : EJPN : official journal of the European Paediatric Neurology Society",
+              "pmid": "41859814",
+              "title": "Phosphoinositide Depletion and Compensatory Phospho-Signaling in Angiotensin II-Induced Heart Disease: Protection Through PTEN Inhibition.",
+              "abstract": "Contractile dysfunction, hypertrophy, and cell death during heart failure are linked to altered Ca Mice received 1-week infusions of AngII, bisperoxovanadium 1,10 phenanthroline, both, or saline via osmotic minipumps. We used mass spectrometry, super-resolution microscopy, electrophysiology, confocal imaging, immunoblot, echocardiography, and histology to assess PI levels, Ca Chronic AngII infusio\u2026",
+              "authors": "Westhoff M, Voelker T, Del Villar S, et al.",
+              "journal": "Circulation research",
               "year": "2026",
               "month": "Mar",
-              "doi": "10.1016/j.ejpn.2026.03.004",
-              "url": "https://pubmed.ncbi.nlm.nih.gov/41825102/",
-              "ris": "TY  - JOUR\nAU  - Jonker R\nAU  - Schieving J\nTI  - Epilepsy in pediatric patients with PTEN hamartoma tumor syndrome: First step in recommendations for clinical management.\nJO  - European journal of paediatric neurology : EJPN : official journal of the European Paediatric Neurology Society\nPY  - 2026\nDO  - 10.1016/j.ejpn.2026.03.004\nAB  - PTEN Hamartoma Tumor Syndrome (PHTS) is an autosomal dominant syndrome caused by a mutation in the PTEN gene. Previous studies have suggested an association between PHTS and epilepsy, but the clinical characteristics of epilepsy in PHTS remain unknown. This study aims to expand knowledge of epilepsy\nUR  - https://pubmed.ncbi.nlm.nih.gov/41825102/\nER  - ",
-              "gene": "PTEN",
-              "type": "Variant report"
-            },
-            {
-              "pmid": "41820375",
-              "title": "Tuberous sclerosis complex.",
-              "abstract": "Tuberous sclerosis complex (TSC) is a rare genetic disease caused by heterozygous loss-of-function variants in TSC1 or TSC2. Patients present with benign tumours known as hamartomas in the brain, eyes, lungs, kidneys, heart and skin. Many hamartomas contain mosaic second hit variants in TSC1 or TSC2. The most disabling features of TSC include epilepsy and TSC-associated neuropsychiatric disorders \u2026",
-              "authors": "Winden K, Bebin E, Jeste S, et al.",
-              "journal": "Nature reviews. Disease primers",
-              "year": "2026",
-              "month": "Mar",
-              "doi": "10.1016/S1474-4422(15)00069-1",
-              "url": "https://pubmed.ncbi.nlm.nih.gov/41820375/",
-              "ris": "TY  - JOUR\nAU  - Winden K\nAU  - Bebin E\nAU  - Jeste S\nTI  - Tuberous sclerosis complex.\nJO  - Nature reviews. Disease primers\nPY  - 2026\nDO  - 10.1016/S1474-4422(15)00069-1\nAB  - Tuberous sclerosis complex (TSC) is a rare genetic disease caused by heterozygous loss-of-function variants in TSC1 or TSC2. Patients present with benign tumours known as hamartomas in the brain, eyes, lungs, kidneys, heart and skin. Many hamartomas contain mosaic second hit variants in TSC1 or TSC2\nUR  - https://pubmed.ncbi.nlm.nih.gov/41820375/\nER  - ",
-              "gene": "PTEN",
-              "type": "Variant report"
-            },
-            {
-              "pmid": "41806200",
-              "title": "Extracellular vesicle-encapsulated microRNA-425 promotes tumor development and serves as a biomarker for pancreatic ductal adenocarcinoma.",
-              "abstract": "MicroRNAs (miRNAs) enclosed within extracellular vesicles (EVs) have emerged as crucial players in carcinogenesis and are increasingly recognized as potential cancer biomarkers. However, their significance in pancreatic ductal adenocarcinoma (PDAC) and their utility for early detection remain unclear. We utilized microarray analysis to identify the miRNAs highly expressed in PDAC cells compared to\u2026",
-              "authors": "Koyama K, Takahashi K, Ono Y, et al.",
-              "journal": "Journal of gastroenterology",
-              "year": "2026",
-              "month": "Mar",
-              "doi": "10.3390/ijms24065081",
-              "url": "https://pubmed.ncbi.nlm.nih.gov/41806200/",
-              "ris": "TY  - JOUR\nAU  - Koyama K\nAU  - Takahashi K\nAU  - Ono Y\nTI  - Extracellular vesicle-encapsulated microRNA-425 promotes tumor development and serves as a biomarker for pancreatic ductal adenocarcinoma.\nJO  - Journal of gastroenterology\nPY  - 2026\nDO  - 10.3390/ijms24065081\nAB  - MicroRNAs (miRNAs) enclosed within extracellular vesicles (EVs) have emerged as crucial players in carcinogenesis and are increasingly recognized as potential cancer biomarkers. However, their significance in pancreatic ductal adenocarcinoma (PDAC) and their utility for early detection remain unclea\nUR  - https://pubmed.ncbi.nlm.nih.gov/41806200/\nER  - ",
+              "doi": "10.1161/CIRCRESAHA.125.327896",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/41859814/",
+              "ris": "TY  - JOUR\nAU  - Westhoff M\nAU  - Voelker T\nAU  - Del Villar S\nTI  - Phosphoinositide Depletion and Compensatory Phospho-Signaling in Angiotensin II-Induced Heart Disease: Protection Through PTEN Inhibition.\nJO  - Circulation research\nPY  - 2026\nDO  - 10.1161/CIRCRESAHA.125.327896\nAB  - Contractile dysfunction, hypertrophy, and cell death during heart failure are linked to altered Ca Mice received 1-week infusions of AngII, bisperoxovanadium 1,10 phenanthroline, both, or saline via osmotic minipumps. We used mass spectrometry, super-resolution microscopy, electrophysiology, confoca\nUR  - https://pubmed.ncbi.nlm.nih.gov/41859814/\nER  - ",
               "gene": "PTEN",
               "type": "Research article"
             },
             {
-              "pmid": "41802265",
-              "title": "AKT is necessary for neuronal hypertrophy and epilepsy caused by Pten knockout.",
-              "abstract": "Phosphatase and tensin homolog on chromosome 10 (PTEN) is a key negative regulator of the AKT/mTOR signaling pathway. Mutations in PTEN are highly implicated in Autism Spectrum Disorder (ASD), epilepsy, congenital hydrocephaly, and macrocephaly. While the conditional genetic knockout of Pten in murine neurons results in hypertrophy, increased migration, excitatory synaptogenesis, hyperexcitability\u2026",
-              "authors": "Prina M, Goyette A, Abdulkareem A, et al.",
-              "journal": "Brain : a journal of neurology",
+              "pmid": "41844650",
+              "title": "Genomic modifiers of malignant and neurodevelopmental phenotypes in individuals with PTEN hamartoma tumor syndrome.",
+              "abstract": "PTEN hamartoma tumor syndrome (PHTS), caused by germline PTEN variants, exhibits marked phenotypic heterogeneity, most notably cancer, neurodevelopmental disorders (NDD), or both. The basis for this divergence, even among carriers of identical PTEN variants, remains poorly defined. We performed whole-genome sequencing of 599 individuals with PHTS and family members, complemented by analyses of PTE\u2026",
+              "authors": "Yehia L, Li L, Idumah G, et al.",
+              "journal": "NPJ genomic medicine",
               "year": "2026",
               "month": "Mar",
-              "doi": "10.1093/brain/awag098",
-              "url": "https://pubmed.ncbi.nlm.nih.gov/41802265/",
-              "ris": "TY  - JOUR\nAU  - Prina M\nAU  - Goyette A\nAU  - Abdulkareem A\nTI  - AKT is necessary for neuronal hypertrophy and epilepsy caused by Pten knockout.\nJO  - Brain : a journal of neurology\nPY  - 2026\nDO  - 10.1093/brain/awag098\nAB  - Phosphatase and tensin homolog on chromosome 10 (PTEN) is a key negative regulator of the AKT/mTOR signaling pathway. Mutations in PTEN are highly implicated in Autism Spectrum Disorder (ASD), epilepsy, congenital hydrocephaly, and macrocephaly. While the conditional genetic knockout of Pten in muri\nUR  - https://pubmed.ncbi.nlm.nih.gov/41802265/\nER  - ",
+              "doi": "10.1038/s41525-026-00556-1",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/41844650/",
+              "ris": "TY  - JOUR\nAU  - Yehia L\nAU  - Li L\nAU  - Idumah G\nTI  - Genomic modifiers of malignant and neurodevelopmental phenotypes in individuals with PTEN hamartoma tumor syndrome.\nJO  - NPJ genomic medicine\nPY  - 2026\nDO  - 10.1038/s41525-026-00556-1\nAB  - PTEN hamartoma tumor syndrome (PHTS), caused by germline PTEN variants, exhibits marked phenotypic heterogeneity, most notably cancer, neurodevelopmental disorders (NDD), or both. The basis for this divergence, even among carriers of identical PTEN variants, remains poorly defined. We performed whol\nUR  - https://pubmed.ncbi.nlm.nih.gov/41844650/\nER  - ",
               "gene": "PTEN",
               "type": "Variant report"
             },
@@ -229,6 +305,20 @@
               "doi": "10.1016/j.freeradbiomed.2026.01.064",
               "url": "https://pubmed.ncbi.nlm.nih.gov/41654147/",
               "ris": "TY  - JOUR\nAU  - Feng Z\nAU  - Xing Y\nAU  - Lou J\nTI  - MOTS-c attenuates cardiac dysfunction following high altitude exposure by promoting mitophagy.\nJO  - Free radical biology & medicine\nPY  - 2026\nDO  - 10.1016/j.freeradbiomed.2026.01.064\nAB  - Prolonged exposure to high altitude (HA) results in a range of systemic changes, some of which, specifically for the heart, particularly cardiac changes, remain difficult to reverse after returning to low altitude. Cardiac de-acclimatization after HA exposure and its underlying mechanisms remain unc\nUR  - https://pubmed.ncbi.nlm.nih.gov/41654147/\nER  - ",
+              "gene": "PTEN",
+              "type": "Research article"
+            },
+            {
+              "pmid": "41628696",
+              "title": "Crocin alleviates doxorubicin-mediated cardiotoxicity by activating PINK1-dependent cardiomyocyte mitophagy.",
+              "abstract": "Doxorubicin (DOX) is a widely used chemotherapeutic agent, but its clinical application is limited by dose-dependent cardiotoxicity. Currently, there are no effective strategies to prevent or reverse DOX-mediated myocardial injury, highlighting the urgent need for novel therapeutic approaches. In this study, the cardioprotective effects of crocin, a natural compound derived from Crocus sativus, we\u2026",
+              "authors": "Su X, Fan T, Liu Z, et al.",
+              "journal": "Free radical biology & medicine",
+              "year": "2026",
+              "month": "Mar",
+              "doi": "10.1016/j.freeradbiomed.2026.01.040",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/41628696/",
+              "ris": "TY  - JOUR\nAU  - Su X\nAU  - Fan T\nAU  - Liu Z\nTI  - Crocin alleviates doxorubicin-mediated cardiotoxicity by activating PINK1-dependent cardiomyocyte mitophagy.\nJO  - Free radical biology & medicine\nPY  - 2026\nDO  - 10.1016/j.freeradbiomed.2026.01.040\nAB  - Doxorubicin (DOX) is a widely used chemotherapeutic agent, but its clinical application is limited by dose-dependent cardiotoxicity. Currently, there are no effective strategies to prevent or reverse DOX-mediated myocardial injury, highlighting the urgent need for novel therapeutic approaches. In th\nUR  - https://pubmed.ncbi.nlm.nih.gov/41628696/\nER  - ",
               "gene": "PTEN",
               "type": "Research article"
             }
@@ -261,23 +351,39 @@
               "ris": "TY  - JOUR\nAU  - Colnaghi L\nAU  - Villa G\nAU  - Marcomini I\nTI  - Knowledge, support, and networking for Phelan-McDermid syndrome: a study protocol.\nJO  - MethodsX\nPY  - 2026\nDO  - 10.1177/0733464814560468\nAB  - Phelan-McDermid syndrome (PMS) is a rare neurodevelopmental disorder caused by deletions in chromosome 22q13.3 or pathogenic variants in the SHANK3 gene. Individuals present with intellectual disability, autism-spectrum traits, seizures, gastrointestinal and motor issues, and sleep disturbances, req\nUR  - https://pubmed.ncbi.nlm.nih.gov/41551253/\nER  - ",
               "gene": "SHANK3",
               "type": "Variant report"
+            },
+            {
+              "pmid": "41203933",
+              "title": "Shank3 related oligodendrocyte alterations in autism are restored by Erk pathway inhibition.",
+              "abstract": "White matter abnormalities are consistently observed in Shank3-related autism spectrum disorders (ASD), yet the mechanisms underlying oligodendrocyte dysfunction and myelination deficits remain poorly characterized. Here, we demonstrate that Shank3 deficiency disrupts oligodendrocyte development by promoting oligodendrocyte precursor cell (OPC) proliferation while impairing functional maturation a\u2026",
+              "authors": "Ma Y, Bauer H, Bockmann J, et al.",
+              "journal": "Molecular psychiatry",
+              "year": "2026",
+              "month": "Apr",
+              "doi": "10.1016/j.cell.2012.06.034",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/41203933/",
+              "ris": "TY  - JOUR\nAU  - Ma Y\nAU  - Bauer H\nAU  - Bockmann J\nTI  - Shank3 related oligodendrocyte alterations in autism are restored by Erk pathway inhibition.\nJO  - Molecular psychiatry\nPY  - 2026\nDO  - 10.1016/j.cell.2012.06.034\nAB  - White matter abnormalities are consistently observed in Shank3-related autism spectrum disorders (ASD), yet the mechanisms underlying oligodendrocyte dysfunction and myelination deficits remain poorly characterized. Here, we demonstrate that Shank3 deficiency disrupts oligodendrocyte development by \nUR  - https://pubmed.ncbi.nlm.nih.gov/41203933/\nER  - ",
+              "gene": "SHANK3",
+              "type": "Functional study"
+            }
+          ],
+          "SYNGAP1": [
+            {
+              "pmid": "41856439",
+              "title": "Genotype-phenotype correlations and putative modifier genes in SYNGAP1 encephalopathy.",
+              "abstract": "Synaptic Ras GTPase-Activating Protein 1 (SynGAP) is a key regulator of synaptic plasticity, neurodevelopment, and neuronal circuit function. It is encoded by the SYNGAP1 gene, in which de novo dominant pathogenic variants are a major cause of SYNGAP1 Encephalopathy, a rare neurodevelopmental disorder characterised by intellectual disability, epilepsy, autistic traits, and other clinical manifesta\u2026",
+              "authors": "Aranda S, Ribeiro-Constante J, Trist\u00e1n-Noguero A, et al.",
+              "journal": "Neurobiology of disease",
+              "year": "2026",
+              "month": "Mar",
+              "doi": "10.1016/j.nbd.2026.107357",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/41856439/",
+              "ris": "TY  - JOUR\nAU  - Aranda S\nAU  - Ribeiro-Constante J\nAU  - Trist\u00e1n-Noguero A\nTI  - Genotype-phenotype correlations and putative modifier genes in SYNGAP1 encephalopathy.\nJO  - Neurobiology of disease\nPY  - 2026\nDO  - 10.1016/j.nbd.2026.107357\nAB  - Synaptic Ras GTPase-Activating Protein 1 (SynGAP) is a key regulator of synaptic plasticity, neurodevelopment, and neuronal circuit function. It is encoded by the SYNGAP1 gene, in which de novo dominant pathogenic variants are a major cause of SYNGAP1 Encephalopathy, a rare neurodevelopmental disord\nUR  - https://pubmed.ncbi.nlm.nih.gov/41856439/\nER  - ",
+              "gene": "SYNGAP1",
+              "type": "Variant report"
             }
           ],
           "TCF4": [
-            {
-              "pmid": "41796236",
-              "title": "Small-molecule LF3 alleviates angiotensin II-induced cardiac dysfunction via attenuating cardiac fibrosis.",
-              "abstract": "Cardiac fibrosis significantly contributes to heart failure progression, yet no currently available agents directly target this pathological process. The Wnt/\u03b2-catenin signaling pathway has emerged as a key mediator of fibrosis, but its upstream inhibition may have unintended broader effects. In this study, we evaluated the therapeutic potential of LF3, a 4-thioureido-benzenesulfonamide derivative\u2026",
-              "authors": "Liu X, Zhang C, Jiang W, et al.",
-              "journal": "Naunyn-Schmiedeberg's archives of pharmacology",
-              "year": "2026",
-              "month": "Mar",
-              "doi": "10.1681/asn.2014010085",
-              "url": "https://pubmed.ncbi.nlm.nih.gov/41796236/",
-              "ris": "TY  - JOUR\nAU  - Liu X\nAU  - Zhang C\nAU  - Jiang W\nTI  - Small-molecule LF3 alleviates angiotensin II-induced cardiac dysfunction via attenuating cardiac fibrosis.\nJO  - Naunyn-Schmiedeberg's archives of pharmacology\nPY  - 2026\nDO  - 10.1681/asn.2014010085\nAB  - Cardiac fibrosis significantly contributes to heart failure progression, yet no currently available agents directly target this pathological process. The Wnt/\u03b2-catenin signaling pathway has emerged as a key mediator of fibrosis, but its upstream inhibition may have unintended broader effects. In thi\nUR  - https://pubmed.ncbi.nlm.nih.gov/41796236/\nER  - ",
-              "gene": "TCF4",
-              "type": "Research article"
-            },
             {
               "pmid": "41690028",
               "title": "Genetic studies of psychosocial disability establish correlations and causal relationships with neuropsychiatric disorders.",
@@ -293,55 +399,125 @@
               "type": "Research article"
             }
           ],
-          "ZMYND11": [
+          "TBR1": [
             {
-              "pmid": "41820311",
-              "title": "ZMYND11 p.Arg600Trp variant associated with a distinctive neurodevelopmental phenotype.",
-              "abstract": "Zinc finger MYND-type containing 11 (ZMYND11)-related neurodevelopmental disorder is an autosomal dominant condition caused by pathogenic variants in ZMYND11. Most previously reported patients harbor loss-of-function (LoF) variants, whereas missense variants are rare and their clinical and mechanistic characteristics remain insufficiently defined. Here we report a patient with a heterozygous ZMYND\u2026",
-              "authors": "Yoshimatsu H, Kido J, Sawada T, et al.",
-              "journal": "Human genome variation",
+              "pmid": "41389578",
+              "title": "Tracing the molecular evolution of Foxp2 proteins in vertebrates from fish to tetrapods: Insights into poly-Q tract variation, structural changes, and interaction networks.",
+              "abstract": "Foxp2 is a transcription factor containing poly-Q repeats, commonly found in brain proteins. It plays essential roles in speech, motor function, cognition, and emotion, and is expressed during embryonic development in the brain, lungs, heart, and intestines. Foxp2 is highly conserved among vertebrates. This study investigated the molecular evolution of Foxp2 by analyzing its sequence, structure, p\u2026",
+              "authors": "K\u00f6seo\u011flu A, Deniz K\u00f6seo\u011flu G, \u00d6zg\u00fcltekin B, et al.",
+              "journal": "Computational biology and chemistry",
               "year": "2026",
-              "month": "Mar",
-              "doi": "10.1038/s41439-026-00339-1",
-              "url": "https://pubmed.ncbi.nlm.nih.gov/41820311/",
-              "ris": "TY  - JOUR\nAU  - Yoshimatsu H\nAU  - Kido J\nAU  - Sawada T\nTI  - ZMYND11 p.Arg600Trp variant associated with a distinctive neurodevelopmental phenotype.\nJO  - Human genome variation\nPY  - 2026\nDO  - 10.1038/s41439-026-00339-1\nAB  - Zinc finger MYND-type containing 11 (ZMYND11)-related neurodevelopmental disorder is an autosomal dominant condition caused by pathogenic variants in ZMYND11. Most previously reported patients harbor loss-of-function (LoF) variants, whereas missense variants are rare and their clinical and mechanist\nUR  - https://pubmed.ncbi.nlm.nih.gov/41820311/\nER  - ",
-              "gene": "ZMYND11",
+              "month": "Apr",
+              "doi": "10.1016/j.compbiolchem.2025.108840",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/41389578/",
+              "ris": "TY  - JOUR\nAU  - K\u00f6seo\u011flu A\nAU  - Deniz K\u00f6seo\u011flu G\nAU  - \u00d6zg\u00fcltekin B\nTI  - Tracing the molecular evolution of Foxp2 proteins in vertebrates from fish to tetrapods: Insights into poly-Q tract variation, structural changes, and interaction networks.\nJO  - Computational biology and chemistry\nPY  - 2026\nDO  - 10.1016/j.compbiolchem.2025.108840\nAB  - Foxp2 is a transcription factor containing poly-Q repeats, commonly found in brain proteins. It plays essential roles in speech, motor function, cognition, and emotion, and is expressed during embryonic development in the brain, lungs, heart, and intestines. Foxp2 is highly conserved among vertebrat\nUR  - https://pubmed.ncbi.nlm.nih.gov/41389578/\nER  - ",
+              "gene": "TBR1",
               "type": "Variant report"
             }
           ],
           "MYH6": [
             {
-              "pmid": "41830141",
-              "title": "LMNA-p.Arg78Trp and MYH6-p.Val893Met Mutations Associated with Left Ventricular Noncompaction.",
-              "abstract": "Left ventricular noncompaction (LVNC), an uncommon myocardial disorder, is pathologically defined by the presence of excessive trabecular meshwork and deep intertrabecular recesses within the ventricular chamber. Despite recognized genetic heterogeneity underlying LVNC pathogenesis, the molecular determinants remain incompletely elucidated. We recruited a multigenerational Chinese LVNC pedigree an\u2026",
-              "authors": "Zhang J, Bu X, Jiang X",
-              "journal": "Combinatorial chemistry & high throughput screening",
+              "pmid": "41855910",
+              "title": "Bimetallic CuCo-based metal-organic framework/graphene oxide composite-modified electrode as an efficient miRNA-208a detection biosensing platform.",
+              "abstract": "MicroRNA-208a (miR-208a), a cardiac-specific miRNA encoded within the Myh6 gene intron, is critically involved in cardiac pathologies such as myocardial remodeling and arrhythmia. Its recent identification in the bloodstream has generated significant clinical interest as a non-invasive biomarker for the early diagnosis of myocardial infarction, underscoring the need for reliable pre-infarction scr\u2026",
+              "authors": "Tan X, Song Y, Shi J, et al.",
+              "journal": "Journal of colloid and interface science",
               "year": "2026",
               "month": "Mar",
-              "doi": "10.2174/0113862073389079251128101041",
-              "url": "https://pubmed.ncbi.nlm.nih.gov/41830141/",
-              "ris": "TY  - JOUR\nAU  - Zhang J\nAU  - Bu X\nAU  - Jiang X\nTI  - LMNA-p.Arg78Trp and MYH6-p.Val893Met Mutations Associated with Left Ventricular Noncompaction.\nJO  - Combinatorial chemistry & high throughput screening\nPY  - 2026\nDO  - 10.2174/0113862073389079251128101041\nAB  - Left ventricular noncompaction (LVNC), an uncommon myocardial disorder, is pathologically defined by the presence of excessive trabecular meshwork and deep intertrabecular recesses within the ventricular chamber. Despite recognized genetic heterogeneity underlying LVNC pathogenesis, the molecular de\nUR  - https://pubmed.ncbi.nlm.nih.gov/41830141/\nER  - ",
+              "doi": "10.1016/j.jcis.2026.140330",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/41855910/",
+              "ris": "TY  - JOUR\nAU  - Tan X\nAU  - Song Y\nAU  - Shi J\nTI  - Bimetallic CuCo-based metal-organic framework/graphene oxide composite-modified electrode as an efficient miRNA-208a detection biosensing platform.\nJO  - Journal of colloid and interface science\nPY  - 2026\nDO  - 10.1016/j.jcis.2026.140330\nAB  - MicroRNA-208a (miR-208a), a cardiac-specific miRNA encoded within the Myh6 gene intron, is critically involved in cardiac pathologies such as myocardial remodeling and arrhythmia. Its recent identification in the bloodstream has generated significant clinical interest as a non-invasive biomarker for\nUR  - https://pubmed.ncbi.nlm.nih.gov/41855910/\nER  - ",
+              "gene": "MYH6",
+              "type": "Research article"
+            },
+            {
+              "pmid": "41851712",
+              "title": "Targeting cardiomyocyte-derived extracellular vesicle miR-574-5p protects against cognitive impairment induced by ischemia-reperfusion.",
+              "abstract": "Acute myocardial ischemia/reperfusion (MI/R) increases risk for cognitive decline, yet the underlying mechanisms mediating heart-brain communication remain poorly understood. Small extracellular vesicles (sEVs) have emerged as novel long-range signaling mediators and may play a critical role. MI/R was induced by transient ligation of the left anterior descending artery. Cognitive performance was a\u2026",
+              "authors": "Chen E, Zhu X, Chang H, et al.",
+              "journal": "BMC medicine",
+              "year": "2026",
+              "month": "Mar",
+              "doi": "10.1186/s12916-026-04792-1",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/41851712/",
+              "ris": "TY  - JOUR\nAU  - Chen E\nAU  - Zhu X\nAU  - Chang H\nTI  - Targeting cardiomyocyte-derived extracellular vesicle miR-574-5p protects against cognitive impairment induced by ischemia-reperfusion.\nJO  - BMC medicine\nPY  - 2026\nDO  - 10.1186/s12916-026-04792-1\nAB  - Acute myocardial ischemia/reperfusion (MI/R) increases risk for cognitive decline, yet the underlying mechanisms mediating heart-brain communication remain poorly understood. Small extracellular vesicles (sEVs) have emerged as novel long-range signaling mediators and may play a critical role. MI/R w\nUR  - https://pubmed.ncbi.nlm.nih.gov/41851712/\nER  - ",
+              "gene": "MYH6",
+              "type": "Research article"
+            },
+            {
+              "pmid": "41845066",
+              "title": "Short-term blockade of E-prostanoid 3 receptor mitigates necroinflammation and ameliorates ischemia/reperfusion- and doxorubicin-induced acute myocardial injury.",
+              "abstract": "E-prostanoid 3 receptor (EP3) plays an important role in maintaining normal heart growth and development, and its activation may drive acute inflammation and influence intracellular Ca",
+              "authors": "He D, Chen Y, Ge J, et al.",
+              "journal": "Basic research in cardiology",
+              "year": "2026",
+              "month": "Mar",
+              "doi": "10.1038/s41467-019-09492-4",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/41845066/",
+              "ris": "TY  - JOUR\nAU  - He D\nAU  - Chen Y\nAU  - Ge J\nTI  - Short-term blockade of E-prostanoid 3 receptor mitigates necroinflammation and ameliorates ischemia/reperfusion- and doxorubicin-induced acute myocardial injury.\nJO  - Basic research in cardiology\nPY  - 2026\nDO  - 10.1038/s41467-019-09492-4\nAB  - E-prostanoid 3 receptor (EP3) plays an important role in maintaining normal heart growth and development, and its activation may drive acute inflammation and influence intracellular Ca\nUR  - https://pubmed.ncbi.nlm.nih.gov/41845066/\nER  - ",
+              "gene": "MYH6",
+              "type": "Research article"
+            },
+            {
+              "pmid": "41838796",
+              "title": "CRLF1 Secreted by Cardiac Fibroblasts Promotes Human Hypertrophic Cardiomyopathy.",
+              "abstract": "Hypertrophic cardiomyopathy (HCM), the most common inherited cardiac disorder and a leading cause of sudden cardiac death in young adults, exhibits substantial genetic and clinical heterogeneity. Although sarcomere gene sequence variations account for a major proportion of HCM cases, nearly half of patients lack identifiable genetic defects, implying the involvement of undiscovered mechanisms that\u2026",
+              "authors": "Lin B, Wang J, Li C, et al.",
+              "journal": "Circulation",
+              "year": "2026",
+              "month": "Mar",
+              "doi": "10.1161/CIRCULATIONAHA.125.075290",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/41838796/",
+              "ris": "TY  - JOUR\nAU  - Lin B\nAU  - Wang J\nAU  - Li C\nTI  - CRLF1 Secreted by Cardiac Fibroblasts Promotes Human Hypertrophic Cardiomyopathy.\nJO  - Circulation\nPY  - 2026\nDO  - 10.1161/CIRCULATIONAHA.125.075290\nAB  - Hypertrophic cardiomyopathy (HCM), the most common inherited cardiac disorder and a leading cause of sudden cardiac death in young adults, exhibits substantial genetic and clinical heterogeneity. Although sarcomere gene sequence variations account for a major proportion of HCM cases, nearly half of \nUR  - https://pubmed.ncbi.nlm.nih.gov/41838796/\nER  - ",
               "gene": "MYH6",
               "type": "Variant report"
+            },
+            {
+              "pmid": "41838190",
+              "title": "BACH2 ameliorates cell apoptosis and autophagy as a molecular switch of BCL-2/Beclin-1 complex in myocardial infarction.",
+              "abstract": "Myocardial infarction is a major cause of death and disability worldwide. Programmed cell death (PCD) of cardiomyocytes is a predominant pathological manifestation. However, the specific PCD subtypes involved in myocardial infarction remain largely elusive, and detailed therapeutic strategies require further exploration. Various forms of PCD were detected in myocardial infarction models in vivo an\u2026",
+              "authors": "Wang X, Zhang H, Liu X, et al.",
+              "journal": "Apoptosis : an international journal on programmed cell death",
+              "year": "2026",
+              "month": "Mar",
+              "doi": "10.1016/j.nutres.2014.12.009",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/41838190/",
+              "ris": "TY  - JOUR\nAU  - Wang X\nAU  - Zhang H\nAU  - Liu X\nTI  - BACH2 ameliorates cell apoptosis and autophagy as a molecular switch of BCL-2/Beclin-1 complex in myocardial infarction.\nJO  - Apoptosis : an international journal on programmed cell death\nPY  - 2026\nDO  - 10.1016/j.nutres.2014.12.009\nAB  - Myocardial infarction is a major cause of death and disability worldwide. Programmed cell death (PCD) of cardiomyocytes is a predominant pathological manifestation. However, the specific PCD subtypes involved in myocardial infarction remain largely elusive, and detailed therapeutic strategies requir\nUR  - https://pubmed.ncbi.nlm.nih.gov/41838190/\nER  - ",
+              "gene": "MYH6",
+              "type": "Research article"
             }
           ],
           "MYH7": [
             {
-              "pmid": "41796331",
-              "title": "Thermal stress responses and heat stress resilience genes in chickens are revealed through genomic and transcriptomic insights.",
-              "abstract": "Climate change creates major challenges in livestock industry, making chickens vulnerable to heat stress because they can tolerate a narrow range of temperatures. Heat stress disrupts metabolic and physiological homeostasis, leading to reduced growth, productivity, reproduction, and immune function, thereby threatening the economic viability of poultry farming. This review explores the multifacete\u2026",
-              "authors": "Hossain M, Ahn J, Choi S, et al.",
-              "journal": "Journal of animal science and biotechnology",
+              "pmid": "41697182",
+              "title": "\"Burned-Out\" Hypertrophic Cardiomyopathy: Overlap on Cardiac MRI With Other Nonischemic Cardiomyopathies.",
+              "abstract": "\"Burned-out\" or end-stage hypertrophic cardiomyopathy (HCM) refers to HCM with a reduced left ventricular ejection fraction (LVEF) of \u226450%. It is an uncommon initial presentation of HCM, and imaging, including cardiac magnetic resonance imaging (CMR), is essential for diagnosis. A 66-year-old man presented to clinic with dyspnea while in atrial fibrillation. His LVEF 7 months prior was normal, and\u2026",
+              "authors": "Wunderly K, Ajluni S, O'Hayer P, et al.",
+              "journal": "JACC. Case reports",
               "year": "2026",
               "month": "Mar",
-              "doi": "10.1080/00071660410001715786",
-              "url": "https://pubmed.ncbi.nlm.nih.gov/41796331/",
-              "ris": "TY  - JOUR\nAU  - Hossain M\nAU  - Ahn J\nAU  - Choi S\nTI  - Thermal stress responses and heat stress resilience genes in chickens are revealed through genomic and transcriptomic insights.\nJO  - Journal of animal science and biotechnology\nPY  - 2026\nDO  - 10.1080/00071660410001715786\nAB  - Climate change creates major challenges in livestock industry, making chickens vulnerable to heat stress because they can tolerate a narrow range of temperatures. Heat stress disrupts metabolic and physiological homeostasis, leading to reduced growth, productivity, reproduction, and immune function,\nUR  - https://pubmed.ncbi.nlm.nih.gov/41796331/\nER  - ",
+              "doi": "10.1016/j.jaccas.2026.106940",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/41697182/",
+              "ris": "TY  - JOUR\nAU  - Wunderly K\nAU  - Ajluni S\nAU  - O'Hayer P\nTI  - \"Burned-Out\" Hypertrophic Cardiomyopathy: Overlap on Cardiac MRI With Other Nonischemic Cardiomyopathies.\nJO  - JACC. Case reports\nPY  - 2026\nDO  - 10.1016/j.jaccas.2026.106940\nAB  - \"Burned-out\" or end-stage hypertrophic cardiomyopathy (HCM) refers to HCM with a reduced left ventricular ejection fraction (LVEF) of \u226450%. It is an uncommon initial presentation of HCM, and imaging, including cardiac magnetic resonance imaging (CMR), is essential for diagnosis. A 66-year-old man pr\nUR  - https://pubmed.ncbi.nlm.nih.gov/41697182/\nER  - ",
               "gene": "MYH7",
-              "type": "Review"
+              "type": "Research article"
             }
           ],
           "NKX2-5": [
+            {
+              "pmid": "41859979",
+              "title": "Generation of tetraploid organs in mice.",
+              "abstract": "Tetraploidy occurs infrequently in mammals but remains widespread in amphibians. Blastocyst complementation using xenogeneic transplantation of tetraploid embryonic stem cells (4  \u56db\u500d\u4f53\u5728\u54fa\u4e73\u52a8\u7269\u4e2d\u8f83\u4e3a\u7f55\u89c1\uff0c\u4f46\u5728\u690d\u7269\u548c\u9c7c\u7c7b\u4e2d\u5374\u5f88\u5e38\u89c1\uff0c\u4e14\u5177\u6709\u663e\u8457\u7684\u8fdb\u5316\u4f18\u52bf\u3002\u4f8b\u5982\uff0c\u8bb8\u591a\u690d\u7269\u901a\u8fc7\u5168\u57fa\u56e0\u7ec4\u590d\u5236\u5f62\u6210\u4e86\u591a\u500d\u4f53\uff0c\u8fd9\u79cd\u57fa\u56e0\u7ec4\u590d\u5236\u4e3a\u7269\u79cd\u63d0\u4f9b\u4e86\u66f4\u597d\u7684\u73af\u5883\u9002\u5e94\u80fd\u529b\uff0c\u5bf9\u690d\u7269\u7684\u6f14\u5316\u8d77\u5230\u4e86\u91cd\u8981\u4f5c\u7528\u3002\u5728\u9c7c\u7c7b\u4e2d\uff0c\u56db\u500d\u4f53\u8d77\u6e90\u7684\u7269\u79cd\u4e5f\u8f83\u4e3a\u5e38\u89c1\uff0c\u5982\u9c91\u79d1\u3001\u767d\u9c91\u79d1\u7b49\uff0c\u8fd9\u4e9b\u591a\u500d\u4f53\u7269\u79cd\u7684\u5b58\u5728\u8fdb\u4e00\u6b65\u8bc1\u660e\u4e86\u56db\u500d\u4f53\u5728\u8fdb\u5316\u4e2d\u7684\u4f18\u52bf\u3002\u5728\u54fa\u4e73\u52a8\u7269\u4e2d\uff0c\u56db\u500d\u4f53\u7ec6\u80de\u81ea\u7136\u5b58\u5728\u4e8e\u809d\u810f\u3001\u5fc3\u810f\u548c\u80f0\u817a\u7b49\u5668\u5b98\u4e2d\u3002\u8fd9\u4e9b\u56db\u500d\u4f53\u7ec6\u80de\u7684\u5f62\u6210\u4e3b\u8981\u901a\u8fc7\u5185\u590d\u5236\u3001\u8c03\u63a7\u7684\u80de\u8d28\u5206\u88c2\u6291\u5236\u548c\u7ec6\u80de\u878d\u5408\u7b49\u673a\u5236\u5b9e\u73b0\u3002\u2026",
+              "authors": "Wei S, Zou G, Zhang Y, et al.",
+              "journal": "Zoological research",
+              "year": "2026",
+              "month": "Mar",
+              "doi": "10.24272/j.issn.2095-8137.2025.663",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/41859979/",
+              "ris": "TY  - JOUR\nAU  - Wei S\nAU  - Zou G\nAU  - Zhang Y\nTI  - Generation of tetraploid organs in mice.\nJO  - Zoological research\nPY  - 2026\nDO  - 10.24272/j.issn.2095-8137.2025.663\nAB  - Tetraploidy occurs infrequently in mammals but remains widespread in amphibians. Blastocyst complementation using xenogeneic transplantation of tetraploid embryonic stem cells (4  \u56db\u500d\u4f53\u5728\u54fa\u4e73\u52a8\u7269\u4e2d\u8f83\u4e3a\u7f55\u89c1\uff0c\u4f46\u5728\u690d\u7269\u548c\u9c7c\u7c7b\u4e2d\u5374\u5f88\u5e38\u89c1\uff0c\u4e14\u5177\u6709\u663e\u8457\u7684\u8fdb\u5316\u4f18\u52bf\u3002\u4f8b\u5982\uff0c\u8bb8\u591a\u690d\u7269\u901a\u8fc7\u5168\u57fa\u56e0\u7ec4\u590d\u5236\u5f62\u6210\u4e86\u591a\u500d\u4f53\uff0c\u8fd9\u79cd\u57fa\u56e0\u7ec4\u590d\u5236\u4e3a\u7269\u79cd\u63d0\u4f9b\u4e86\u66f4\u597d\u7684\u73af\u5883\u9002\u5e94\u80fd\u529b\uff0c\u5bf9\u690d\u7269\u7684\u6f14\u5316\u8d77\u5230\u4e86\u91cd\u8981\u4f5c\u7528\u3002\u5728\u9c7c\u7c7b\u4e2d\uff0c\u56db\u500d\u4f53\u8d77\u6e90\u7684\u7269\u79cd\u4e5f\u8f83\u4e3a\u5e38\u89c1\uff0c\u5982\u9c91\u79d1\u3001\nUR  - https://pubmed.ncbi.nlm.nih.gov/41859979/\nER  - ",
+              "gene": "NKX2-5",
+              "type": "Research article"
+            },
             {
               "pmid": "41687852",
               "title": "HFPO-TA induces cardiac developmental damage in zebrafish by disrupting mitochondrial dynamics through FABP3.",
@@ -373,20 +549,6 @@
               "type": "Research article"
             },
             {
-              "pmid": "41808568",
-              "title": "Doxorubicin-Induced Cardiotoxicity: Comprehensive Pathway Insights and Advanced Preclinical Therapeutics.",
-              "abstract": "Doxorubicin, a secondary metabolite of Streptomyces peucetius var. caesius and a member of the anthracycline family, exerts anticancer effects via DNA intercalation and topoisomerase II inhibition in tumor cells. However, its clinical application is limited by dose-dependent and cumulative cardiotoxicity. The mechanisms underlying doxorubicin-induced cardiotoxicity (DIC) include oxidative stress, \u2026",
-              "authors": "Sharma S, Parashar M, Lal K, et al.",
-              "journal": "Journal of applied toxicology : JAT",
-              "year": "2026",
-              "month": "Mar",
-              "doi": "10.1002/jat.70131",
-              "url": "https://pubmed.ncbi.nlm.nih.gov/41808568/",
-              "ris": "TY  - JOUR\nAU  - Sharma S\nAU  - Parashar M\nAU  - Lal K\nTI  - Doxorubicin-Induced Cardiotoxicity: Comprehensive Pathway Insights and Advanced Preclinical Therapeutics.\nJO  - Journal of applied toxicology : JAT\nPY  - 2026\nDO  - 10.1002/jat.70131\nAB  - Doxorubicin, a secondary metabolite of Streptomyces peucetius var. caesius and a member of the anthracycline family, exerts anticancer effects via DNA intercalation and topoisomerase II inhibition in tumor cells. However, its clinical application is limited by dose-dependent and cumulative cardiotox\nUR  - https://pubmed.ncbi.nlm.nih.gov/41808568/\nER  - ",
-              "gene": "GATA4",
-              "type": "Research article"
-            },
-            {
               "pmid": "41687852",
               "title": "HFPO-TA induces cardiac developmental damage in zebrafish by disrupting mitochondrial dynamics through FABP3.",
               "abstract": "Hexafluoropropylene oxide trimer acid (HFPO-TA), a widely used substitute for perfluorooctanoic acid (PFOA), has raised concerns about potential cardiotoxicity. The study investigated mechanisms underlying HFPO-TA-induced cardiac developmental toxicity. Network toxicology and molecular docking identified the peroxisome proliferator-activated receptor (PPAR) signaling and fatty acid-binding protein\u2026",
@@ -399,57 +561,99 @@
               "ris": "TY  - JOUR\nAU  - Liu X\nAU  - Xia M\nAU  - Wu X\nTI  - HFPO-TA induces cardiac developmental damage in zebrafish by disrupting mitochondrial dynamics through FABP3.\nJO  - Environmental research\nPY  - 2026\nDO  - 10.1016/j.envres.2026.124018\nAB  - Hexafluoropropylene oxide trimer acid (HFPO-TA), a widely used substitute for perfluorooctanoic acid (PFOA), has raised concerns about potential cardiotoxicity. The study investigated mechanisms underlying HFPO-TA-induced cardiac developmental toxicity. Network toxicology and molecular docking ident\nUR  - https://pubmed.ncbi.nlm.nih.gov/41687852/\nER  - ",
               "gene": "GATA4",
               "type": "Functional study"
+            },
+            {
+              "pmid": "41027368",
+              "title": "S100A11/ANXA2 axis mediates electrotransduction to promote electrically-induced contraction in engineered myocardial tissues.",
+              "abstract": "Ischemic heart disease (IHD) manifests impaired myocardial systolic/diastolic and electrophysiological functions due to disrupted electrical integrity. Engineering functional myocardial tissues by modulating extracellular electrical microenvironment represents a promising strategy for cardiac repair; however, the underlying mechanisms driving the maturation of these engineered tissues remain uncle\u2026",
+              "authors": "Xue L, Zhang Q, Wang Y, et al.",
+              "journal": "Biomaterials",
+              "year": "2026",
+              "month": "Apr",
+              "doi": "10.1016/j.biomaterials.2025.123712",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/41027368/",
+              "ris": "TY  - JOUR\nAU  - Xue L\nAU  - Zhang Q\nAU  - Wang Y\nTI  - S100A11/ANXA2 axis mediates electrotransduction to promote electrically-induced contraction in engineered myocardial tissues.\nJO  - Biomaterials\nPY  - 2026\nDO  - 10.1016/j.biomaterials.2025.123712\nAB  - Ischemic heart disease (IHD) manifests impaired myocardial systolic/diastolic and electrophysiological functions due to disrupted electrical integrity. Engineering functional myocardial tissues by modulating extracellular electrical microenvironment represents a promising strategy for cardiac repair\nUR  - https://pubmed.ncbi.nlm.nih.gov/41027368/\nER  - ",
+              "gene": "GATA4",
+              "type": "Functional study"
             }
           ],
-          "TBX1": [
+          "GATA6": [
             {
-              "pmid": "41805077",
-              "title": "Gene-Environment Interaction in the Pathogenesis of Craniofacial Microsomia: A Narrative Review.",
-              "abstract": "Craniofacial microsomia (CFM), a congenital anomaly stemming from first and second branchial arch dysplasia, poses challenges due to its diverse clinical manifestations, necessitating a comprehensive understanding of its complex etiology. We explored gene-environment interactions in CFM, focusing on genetic factors, and environmental influences, aiming to enhance insights into its multifactorial o\u2026",
-              "authors": "Li Z, Qi W, Zang T, et al.",
-              "journal": "The Journal of craniofacial surgery",
+              "pmid": "41006196",
+              "title": "Children With Pancreatic Hypoplasia Experience Poor Weight Gain and Labile Diabetes but Low Incidence of DKA.",
+              "abstract": "Pathogenic variants in GATA6, GATA4, and PDX1 cause pancreatic hypoplasia or agenesis and early onset diabetes mellitus. There is a lack of information about long-term outcomes and clinical management of these complicated patients, including how best to approach their exocrine pancreatic insufficiency (EPI), weight gain, and glycemic management. We investigated clinical features and treatment of p\u2026",
+              "authors": "Denson A, Rodriguez K, Letourneau-Freiberg L, et al.",
+              "journal": "The Journal of clinical endocrinology and metabolism",
               "year": "2026",
               "month": "Mar",
-              "doi": "10.1097/SCS.0000000000012520",
-              "url": "https://pubmed.ncbi.nlm.nih.gov/41805077/",
-              "ris": "TY  - JOUR\nAU  - Li Z\nAU  - Qi W\nAU  - Zang T\nTI  - Gene-Environment Interaction in the Pathogenesis of Craniofacial Microsomia: A Narrative Review.\nJO  - The Journal of craniofacial surgery\nPY  - 2026\nDO  - 10.1097/SCS.0000000000012520\nAB  - Craniofacial microsomia (CFM), a congenital anomaly stemming from first and second branchial arch dysplasia, poses challenges due to its diverse clinical manifestations, necessitating a comprehensive understanding of its complex etiology. We explored gene-environment interactions in CFM, focusing on\nUR  - https://pubmed.ncbi.nlm.nih.gov/41805077/\nER  - ",
-              "gene": "TBX1",
-              "type": "Review"
+              "doi": "10.1210/clinem/dgaf473",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/41006196/",
+              "ris": "TY  - JOUR\nAU  - Denson A\nAU  - Rodriguez K\nAU  - Letourneau-Freiberg L\nTI  - Children With Pancreatic Hypoplasia Experience Poor Weight Gain and Labile Diabetes but Low Incidence of DKA.\nJO  - The Journal of clinical endocrinology and metabolism\nPY  - 2026\nDO  - 10.1210/clinem/dgaf473\nAB  - Pathogenic variants in GATA6, GATA4, and PDX1 cause pancreatic hypoplasia or agenesis and early onset diabetes mellitus. There is a lack of information about long-term outcomes and clinical management of these complicated patients, including how best to approach their exocrine pancreatic insufficien\nUR  - https://pubmed.ncbi.nlm.nih.gov/41006196/\nER  - ",
+              "gene": "GATA6",
+              "type": "Variant report"
             }
           ],
           "NOTCH1": [
             {
-              "pmid": "41796252",
-              "title": "First pilot study of intravenous rAAV-PAX6 gene therapy increases retinal-ganglion-cell-layer thickness and Notch1 transcription in a mouse model of aniridia.",
-              "abstract": "Aniridia is a rare congenital vision-loss disorder that is caused primarily by heterozygous loss-of-function variants in the PAX6 gene. There is currently no curative treatment. Gene therapy has emerged as a powerful strategy for treating inherited retinal diseases. Here, we aim to establish a systemic PAX6 gene-augmentation therapy capable of addressing retinal pathologic phenotypes in a preclini\u2026",
-              "authors": "Djaksigulova D, Kaad S, Korecki A, et al.",
-              "journal": "Gene therapy",
+              "pmid": "41834381",
+              "title": "Periodic Genetic Reanalysis Identifies a Novel De Novo",
+              "abstract": "Periodic reanalysis of genomic data plays a pivotal role in refining variant interpretation and resolving previously undiagnosed cases, particularly in the context of rare diseases. We report a female patient presenting with global developmental delay, drug-resistant epilepsy, optic atrophy, congenital heart defects, and craniofacial dysmorphism. An initially deprioritized heterozygous",
+              "authors": "Aydin E, Bulut A, Yildiz B, et al.",
+              "journal": "Journal of child neurology",
               "year": "2026",
               "month": "Mar",
-              "doi": "10.1038/s41434-026-00605-5",
-              "url": "https://pubmed.ncbi.nlm.nih.gov/41796252/",
-              "ris": "TY  - JOUR\nAU  - Djaksigulova D\nAU  - Kaad S\nAU  - Korecki A\nTI  - First pilot study of intravenous rAAV-PAX6 gene therapy increases retinal-ganglion-cell-layer thickness and Notch1 transcription in a mouse model of aniridia.\nJO  - Gene therapy\nPY  - 2026\nDO  - 10.1038/s41434-026-00605-5\nAB  - Aniridia is a rare congenital vision-loss disorder that is caused primarily by heterozygous loss-of-function variants in the PAX6 gene. There is currently no curative treatment. Gene therapy has emerged as a powerful strategy for treating inherited retinal diseases. Here, we aim to establish a syste\nUR  - https://pubmed.ncbi.nlm.nih.gov/41796252/\nER  - ",
+              "doi": "10.1177/08830738261422860",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/41834381/",
+              "ris": "TY  - JOUR\nAU  - Aydin E\nAU  - Bulut A\nAU  - Yildiz B\nTI  - Periodic Genetic Reanalysis Identifies a Novel De Novo\nJO  - Journal of child neurology\nPY  - 2026\nDO  - 10.1177/08830738261422860\nAB  - Periodic reanalysis of genomic data plays a pivotal role in refining variant interpretation and resolving previously undiagnosed cases, particularly in the context of rare diseases. We report a female patient presenting with global developmental delay, drug-resistant epilepsy, optic atrophy, congeni\nUR  - https://pubmed.ncbi.nlm.nih.gov/41834381/\nER  - ",
               "gene": "NOTCH1",
-              "type": "Functional study"
-            }
-          ],
-          "PTPN11": [
-            {
-              "pmid": "41813603",
-              "title": "Optimizing Diagnostic Accuracy of Clinical Red Flags in RASopathies.",
-              "abstract": "RASopathies are a group of genetic disorders caused by pathogenic variants in the RAS-mitogen-activated protein kinase (RAS-MAPK) signaling pathway, often presenting with congenital heart defects, craniofacial dysmorphisms, and developmental delays. To assess the diagnostic yield of genetic testing in patients with suspected RASopathies and to identify predictive clinical \"red flags\" using machine\u2026",
-              "authors": "Bobbio E, Caiazza M, Monda E, et al.",
-              "journal": "American journal of medical genetics. Part A",
-              "year": "2026",
-              "month": "Mar",
-              "doi": "10.1002/ajmg.a.70119",
-              "url": "https://pubmed.ncbi.nlm.nih.gov/41813603/",
-              "ris": "TY  - JOUR\nAU  - Bobbio E\nAU  - Caiazza M\nAU  - Monda E\nTI  - Optimizing Diagnostic Accuracy of Clinical Red Flags in RASopathies.\nJO  - American journal of medical genetics. Part A\nPY  - 2026\nDO  - 10.1002/ajmg.a.70119\nAB  - RASopathies are a group of genetic disorders caused by pathogenic variants in the RAS-mitogen-activated protein kinase (RAS-MAPK) signaling pathway, often presenting with congenital heart defects, craniofacial dysmorphisms, and developmental delays. To assess the diagnostic yield of genetic testing \nUR  - https://pubmed.ncbi.nlm.nih.gov/41813603/\nER  - ",
-              "gene": "PTPN11",
               "type": "Variant report"
             }
           ],
+          "RAF1": [
+            {
+              "pmid": "41863590",
+              "title": "Pulmonary Hypertension in Pediatric Patients with Noonan Syndrome Undergoing Cardiac Catheterization.",
+              "abstract": "Noonan syndrome (NS) is an autosomal dominant genetic disorder associated with a high incidence of cardiovascular disease. We investigated pulmonary hypertension (PH) in patients with NS, characterizing the prevalence, genetic, and clinical features including hemodynamics, cardiovascular interventions, and transplant-free survival.\u00a0A retrospective, descriptive cohort study was conducted among pedi\u2026",
+              "authors": "Collins S, Critser P, Gauvreau K, et al.",
+              "journal": "Pediatric cardiology",
+              "year": "2026",
+              "month": "Mar",
+              "doi": "10.1086/504394",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/41863590/",
+              "ris": "TY  - JOUR\nAU  - Collins S\nAU  - Critser P\nAU  - Gauvreau K\nTI  - Pulmonary Hypertension in Pediatric Patients with Noonan Syndrome Undergoing Cardiac Catheterization.\nJO  - Pediatric cardiology\nPY  - 2026\nDO  - 10.1086/504394\nAB  - Noonan syndrome (NS) is an autosomal dominant genetic disorder associated with a high incidence of cardiovascular disease. We investigated pulmonary hypertension (PH) in patients with NS, characterizing the prevalence, genetic, and clinical features including hemodynamics, cardiovascular interventio\nUR  - https://pubmed.ncbi.nlm.nih.gov/41863590/\nER  - ",
+              "gene": "RAF1",
+              "type": "Research article"
+            },
+            {
+              "pmid": "41834427",
+              "title": "Correction to 'Congenital Langerhans Cell Histiocytosis With Novel KLC1::RAF1 Gene Fusion Identified Through Routine Whole-Genome Sequencing'.",
+              "abstract": "",
+              "authors": "",
+              "journal": "Pediatric blood & cancer",
+              "year": "2026",
+              "month": "Mar",
+              "doi": "10.1002/1545-5017.70197",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/41834427/",
+              "ris": "TY  - JOUR\nTI  - Correction to 'Congenital Langerhans Cell Histiocytosis With Novel KLC1::RAF1 Gene Fusion Identified Through Routine Whole-Genome Sequencing'.\nJO  - Pediatric blood & cancer\nPY  - 2026\nDO  - 10.1002/1545-5017.70197\nAB  - \nUR  - https://pubmed.ncbi.nlm.nih.gov/41834427/\nER  - ",
+              "gene": "RAF1",
+              "type": "Research article"
+            }
+          ],
           "NF1": [
+            {
+              "pmid": "41864169",
+              "title": "Cardiotoxicity of trametinib monotherapy in adults with neurofibromatosis type 1: Results from the TRAIN study.",
+              "abstract": "MEK1/2 inhibitors are increasingly used in neurofibromatosis type 1 (NF1) and can cause cancer therapy-related cardiac dysfunction (CTRCD). Cardiotoxicity rates of up to 12% have been reported in combination therapy, and up to 7% in monotherapy trials. Cardiac monitoring is recommended, but data on trametinib in NF1 remain limited. Therefore, we evaluated the incidence, timing, and clinical charac\u2026",
+              "authors": "Ditta S, Noordhoek D, Jongbloed F, et al.",
+              "journal": "Biomedicine & pharmacotherapy = Biomedecine & pharmacotherapie",
+              "year": "2026",
+              "month": "Mar",
+              "doi": "10.1016/j.biopha.2026.119251",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/41864169/",
+              "ris": "TY  - JOUR\nAU  - Ditta S\nAU  - Noordhoek D\nAU  - Jongbloed F\nTI  - Cardiotoxicity of trametinib monotherapy in adults with neurofibromatosis type 1: Results from the TRAIN study.\nJO  - Biomedicine & pharmacotherapy = Biomedecine & pharmacotherapie\nPY  - 2026\nDO  - 10.1016/j.biopha.2026.119251\nAB  - MEK1/2 inhibitors are increasingly used in neurofibromatosis type 1 (NF1) and can cause cancer therapy-related cardiac dysfunction (CTRCD). Cardiotoxicity rates of up to 12% have been reported in combination therapy, and up to 7% in monotherapy trials. Cardiac monitoring is recommended, but data on \nUR  - https://pubmed.ncbi.nlm.nih.gov/41864169/\nER  - ",
+              "gene": "NF1",
+              "type": "Research article"
+            },
             {
               "pmid": "41327975",
               "title": "Do Fibular Growth Patterns Change After Tibial-Fibular Fusion in Children With Congenital Pseudarthrosis of the Tibia?",
@@ -465,6 +669,20 @@
               "type": "Research article"
             },
             {
+              "pmid": "41266875",
+              "title": "Shared and divergent alteration of whole-brain connectivity and sensory deficits in multiple autism mouse models.",
+              "abstract": "Autism spectrum disorder (ASD) is a heterogeneous developmental disconnection syndrome. Identifying circuit deficits is crucial for understanding ASD etiology, yet the involvement of multiple brain regions and genetic variations complicates this analysis. Here, using an AI-powered mapping platform, BM-auto (Brain Mapping with Auto-ROI correction), to analyze a Thy1-YFP reporter, we show that diffe\u2026",
+              "authors": "Hsu T, Chen C, Lin M, et al.",
+              "journal": "Molecular psychiatry",
+              "year": "2026",
+              "month": "Apr",
+              "doi": "10.1172/JCI45677",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/41266875/",
+              "ris": "TY  - JOUR\nAU  - Hsu T\nAU  - Chen C\nAU  - Lin M\nTI  - Shared and divergent alteration of whole-brain connectivity and sensory deficits in multiple autism mouse models.\nJO  - Molecular psychiatry\nPY  - 2026\nDO  - 10.1172/JCI45677\nAB  - Autism spectrum disorder (ASD) is a heterogeneous developmental disconnection syndrome. Identifying circuit deficits is crucial for understanding ASD etiology, yet the involvement of multiple brain regions and genetic variations complicates this analysis. Here, using an AI-powered mapping platform, \nUR  - https://pubmed.ncbi.nlm.nih.gov/41266875/\nER  - ",
+              "gene": "NF1",
+              "type": "Functional study"
+            },
+            {
               "pmid": "40908560",
               "title": "Socially oriented attention in young children with neurofibromatosis type 1: An eye-tracking study.",
               "abstract": "To examine visual engagement to social stimuli and response to joint attention in young children with neurofibromatosis type 1 (NF1) and typically developing peers (controls). Forty-five preschool children were studied cross-sectionally (mean age [SD]\u2009=\u20094\u2009years 3\u2009months [10\u2009months]), 25 with NF1 and 20 typically developing controls. Participants passively viewed two eye-tracking paradigms. The fir\u2026",
@@ -476,36 +694,6 @@
               "url": "https://pubmed.ncbi.nlm.nih.gov/40908560/",
               "ris": "TY  - JOUR\nAU  - Haebich K\nAU  - Hocking D\nAU  - Darke H\nTI  - Socially oriented attention in young children with neurofibromatosis type 1: An eye-tracking study.\nJO  - Developmental medicine and child neurology\nPY  - 2026\nDO  - 10.1111/dmcn.16497\nAB  - To examine visual engagement to social stimuli and response to joint attention in young children with neurofibromatosis type 1 (NF1) and typically developing peers (controls). Forty-five preschool children were studied cross-sectionally (mean age [SD]\u2009=\u20094\u2009years 3\u2009months [10\u2009months]), 25 with NF1 and\nUR  - https://pubmed.ncbi.nlm.nih.gov/40908560/\nER  - ",
               "gene": "NF1",
-              "type": "Research article"
-            },
-            {
-              "pmid": "40801272",
-              "title": "Zebrafish neurofibromatosis type 1 mutants show disruption of sleep but not of circadian rhythms.",
-              "abstract": "Neurofibromatosis type 1 (NF1) is a common neurodevelopmental disorder that is associated with several developmental and behavioral phenotypes, including reduced and fragmented sleep at night. Here, we describe the role of NF1 in sleep in zebrafish, a diurnal vertebrate whose mechanisms of sleep control are broadly conserved with those of mammals. The zebrafish genome encodes two neurofibromin 1 (\u2026",
-              "authors": "Lee D, Oikonomou G, Chiu Y, et al.",
-              "journal": "Sleep",
-              "year": "2026",
-              "month": "Mar",
-              "doi": "10.1093/sleep/zsaf236",
-              "url": "https://pubmed.ncbi.nlm.nih.gov/40801272/",
-              "ris": "TY  - JOUR\nAU  - Lee D\nAU  - Oikonomou G\nAU  - Chiu Y\nTI  - Zebrafish neurofibromatosis type 1 mutants show disruption of sleep but not of circadian rhythms.\nJO  - Sleep\nPY  - 2026\nDO  - 10.1093/sleep/zsaf236\nAB  - Neurofibromatosis type 1 (NF1) is a common neurodevelopmental disorder that is associated with several developmental and behavioral phenotypes, including reduced and fragmented sleep at night. Here, we describe the role of NF1 in sleep in zebrafish, a diurnal vertebrate whose mechanisms of sleep con\nUR  - https://pubmed.ncbi.nlm.nih.gov/40801272/\nER  - ",
-              "gene": "NF1",
-              "type": "Functional study"
-            }
-          ],
-          "DVL3": [
-            {
-              "pmid": "41804662",
-              "title": "De Novo 3q27.1 Microdeletion Refines the Critical Region and Implicates PSMD2 Haploinsufficiency in Growth and Neurodevelopmental Abnormalities.",
-              "abstract": "Interstitial deletions involving 3q27.1 define a distinct microdeletion syndrome characterized by prenatal-onset growth restriction, postnatal microcephaly, hypotonia, intellectual disability, and distinctive craniofacial features. While AP2M1 haploinsufficiency has been proposed as the primary driver of this phenotype, the full spectrum of dosage-sensitive genes within the locus remains unclear. \u2026",
-              "authors": "Uctepe E, Esen F, Mancilar H, et al.",
-              "journal": "American journal of medical genetics. Part A",
-              "year": "2026",
-              "month": "Mar",
-              "doi": "10.1002/ajmg.a.70097",
-              "url": "https://pubmed.ncbi.nlm.nih.gov/41804662/",
-              "ris": "TY  - JOUR\nAU  - Uctepe E\nAU  - Esen F\nAU  - Mancilar H\nTI  - De Novo 3q27.1 Microdeletion Refines the Critical Region and Implicates PSMD2 Haploinsufficiency in Growth and Neurodevelopmental Abnormalities.\nJO  - American journal of medical genetics. Part A\nPY  - 2026\nDO  - 10.1002/ajmg.a.70097\nAB  - Interstitial deletions involving 3q27.1 define a distinct microdeletion syndrome characterized by prenatal-onset growth restriction, postnatal microcephaly, hypotonia, intellectual disability, and distinctive craniofacial features. While AP2M1 haploinsufficiency has been proposed as the primary driv\nUR  - https://pubmed.ncbi.nlm.nih.gov/41804662/\nER  - ",
-              "gene": "DVL3",
               "type": "Research article"
             }
           ],
@@ -527,44 +715,16 @@
           ],
           "NODAL": [
             {
-              "pmid": "41824324",
-              "title": "Empiric Slow Pathway Ablation vs. no Ablation in Patients With Non-Inducible Supraventricular Tachycardia.",
-              "abstract": "Paroxysmal supraventricular tachycardia (PSVT) is a common cause of palpitations, with atrioventricular nodal re-entrant tachycardia (AVNRT) accounting for up to 60% of cases. In approximately 5% of patients, tachycardia is non-inducible during electrophysiology (EP) study, despite the presence of dual AV nodal physiology (DAVNP). The optimal management of patients with DAVNP and non-inducible tac\u2026",
-              "authors": "Velayutham R, Bhargav A, Selvaraj R",
-              "journal": "Pacing and clinical electrophysiology : PACE",
+              "pmid": "41842879",
+              "title": "Radiation-Induced Acute Cardiac Injury in Patients With Left-Sided Breast Cancer: A Cardiac Magnetic Resonance Study on the Dose-Response Relation.",
+              "abstract": "Radiation therapy (RT) for breast cancer (BC) increases long-term cardiovascular risk; however, the early identification of acute cardiac injury remains critically underexplored. This study aimed to prospectively assess radiation-induced acute cardiac injury after postoperative left-sided BC RT using cardiac magnetic resonance (CMR) strain analysis. Patients with left-sided BC undergoing RT were p\u2026",
+              "authors": "Zheng L, Yang M, Luo C, et al.",
+              "journal": "International journal of radiation oncology, biology, physics",
               "year": "2026",
               "month": "Mar",
-              "doi": "10.1111/pace.70207",
-              "url": "https://pubmed.ncbi.nlm.nih.gov/41824324/",
-              "ris": "TY  - JOUR\nAU  - Velayutham R\nAU  - Bhargav A\nAU  - Selvaraj R\nTI  - Empiric Slow Pathway Ablation vs. no Ablation in Patients With Non-Inducible Supraventricular Tachycardia.\nJO  - Pacing and clinical electrophysiology : PACE\nPY  - 2026\nDO  - 10.1111/pace.70207\nAB  - Paroxysmal supraventricular tachycardia (PSVT) is a common cause of palpitations, with atrioventricular nodal re-entrant tachycardia (AVNRT) accounting for up to 60% of cases. In approximately 5% of patients, tachycardia is non-inducible during electrophysiology (EP) study, despite the presence of d\nUR  - https://pubmed.ncbi.nlm.nih.gov/41824324/\nER  - ",
-              "gene": "NODAL",
-              "type": "Research article"
-            },
-            {
-              "pmid": "41820097",
-              "title": "Symptomatic 2:1 AV block in a young adult.",
-              "abstract": "A 34-year-old man presented with fatigue and episodic dizziness and was found on surface ECG to have sinus rhythm with second-degree atrioventricular (AV) block manifesting as 2:1 AV conduction. Because 2:1 block precludes reliable Mobitz classification from the surface tracing alone, evaluation focused on identifying reversible causes and localizing the site of block with targeted testing and ele\u2026",
-              "authors": "Kashou A, Sykora D, Patil S, et al.",
-              "journal": "Heart & lung : the journal of critical care",
-              "year": "2026",
-              "month": "Mar",
-              "doi": "10.1016/j.hrtlng.2026.102745",
-              "url": "https://pubmed.ncbi.nlm.nih.gov/41820097/",
-              "ris": "TY  - JOUR\nAU  - Kashou A\nAU  - Sykora D\nAU  - Patil S\nTI  - Symptomatic 2:1 AV block in a young adult.\nJO  - Heart & lung : the journal of critical care\nPY  - 2026\nDO  - 10.1016/j.hrtlng.2026.102745\nAB  - A 34-year-old man presented with fatigue and episodic dizziness and was found on surface ECG to have sinus rhythm with second-degree atrioventricular (AV) block manifesting as 2:1 AV conduction. Because 2:1 block precludes reliable Mobitz classification from the surface tracing alone, evaluation foc\nUR  - https://pubmed.ncbi.nlm.nih.gov/41820097/\nER  - ",
-              "gene": "NODAL",
-              "type": "Research article"
-            },
-            {
-              "pmid": "41817257",
-              "title": "Adjuvant Cilostazol Therapy to Help Restore Atrioventricular Conduction in Lyme Carditis.",
-              "abstract": "Lyme carditis commonly presents with varying degrees of atrioventricular (AV) conduction abnormalities. A 41-year-old man presented with worsening fatigue, dizziness, and shortness of breath and a second-degree AV block. Laboratory testing confirmed an infection with Borrelia burgdorferi. The patient received intravenous ceftriaxone but remained in a 2:1 AV block. Addition of cilostazol, an oral p\u2026",
-              "authors": "Aryal B, Mandal P, Meyer M",
-              "journal": "JACC. Case reports",
-              "year": "2026",
-              "month": "Mar",
-              "doi": "10.1016/j.jaccas.2025.106574",
-              "url": "https://pubmed.ncbi.nlm.nih.gov/41817257/",
-              "ris": "TY  - JOUR\nAU  - Aryal B\nAU  - Mandal P\nAU  - Meyer M\nTI  - Adjuvant Cilostazol Therapy to Help Restore Atrioventricular Conduction in Lyme Carditis.\nJO  - JACC. Case reports\nPY  - 2026\nDO  - 10.1016/j.jaccas.2025.106574\nAB  - Lyme carditis commonly presents with varying degrees of atrioventricular (AV) conduction abnormalities. A 41-year-old man presented with worsening fatigue, dizziness, and shortness of breath and a second-degree AV block. Laboratory testing confirmed an infection with Borrelia burgdorferi. The patien\nUR  - https://pubmed.ncbi.nlm.nih.gov/41817257/\nER  - ",
+              "doi": "10.1016/j.ijrobp.2026.02.214",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/41842879/",
+              "ris": "TY  - JOUR\nAU  - Zheng L\nAU  - Yang M\nAU  - Luo C\nTI  - Radiation-Induced Acute Cardiac Injury in Patients With Left-Sided Breast Cancer: A Cardiac Magnetic Resonance Study on the Dose-Response Relation.\nJO  - International journal of radiation oncology, biology, physics\nPY  - 2026\nDO  - 10.1016/j.ijrobp.2026.02.214\nAB  - Radiation therapy (RT) for breast cancer (BC) increases long-term cardiovascular risk; however, the early identification of acute cardiac injury remains critically underexplored. This study aimed to prospectively assess radiation-induced acute cardiac injury after postoperative left-sided BC RT usin\nUR  - https://pubmed.ncbi.nlm.nih.gov/41842879/\nER  - ",
               "gene": "NODAL",
               "type": "Research article"
             },
@@ -583,22 +743,50 @@
               "type": "Review"
             },
             {
-              "pmid": "41803618",
-              "title": "Characterization of AV Nodal Left Inferior Extension by Use of High-Density Mapping and Voltage-Time Relationship.",
-              "abstract": "High-density three-dimensional (3D) mapping in the Triangle of Koch during sinus rhythm (SR) has demonstrated low amplitude, late activating, multi-component signals suggestive of the AV nodal (AVN) right inferior extension (RIE). Ablation at the site of these signals has been successful for the treatment of typical AV nodal reentrant tachycardia (AVNRT). The leftward inferior extension (LIE) of t\u2026",
-              "authors": "Pickett J, Hirsch J, Tan M, et al.",
-              "journal": "Journal of cardiovascular electrophysiology",
+              "pmid": "41756143",
+              "title": "Inguinal CTV contouring in anal cancer: comparative validation of inguinal lymph nodes contouring guidelines and implications for consensus.",
+              "abstract": "Contouring Inguinal lymph nodes (ILNs) in anal squamous cell cancer (ASCC) remains challenging. Accurate delineation is essential to optimize treatment efficacy with sparing of organs at risk (OaRs). Garda et al. proposed a contouring guideline based on the anatomical distribution of inguinal lymphadenopathy. This study evaluates their effectiveness in ensuring adequate ILNs coverage. We retrospec\u2026",
+              "authors": "De Luca V, Manfrida S, Barogi N, et al.",
+              "journal": "Clinical and translational radiation oncology",
               "year": "2026",
-              "month": "Mar",
-              "doi": "10.1111/jce.70293",
-              "url": "https://pubmed.ncbi.nlm.nih.gov/41803618/",
-              "ris": "TY  - JOUR\nAU  - Pickett J\nAU  - Hirsch J\nAU  - Tan M\nTI  - Characterization of AV Nodal Left Inferior Extension by Use of High-Density Mapping and Voltage-Time Relationship.\nJO  - Journal of cardiovascular electrophysiology\nPY  - 2026\nDO  - 10.1111/jce.70293\nAB  - High-density three-dimensional (3D) mapping in the Triangle of Koch during sinus rhythm (SR) has demonstrated low amplitude, late activating, multi-component signals suggestive of the AV nodal (AVN) right inferior extension (RIE). Ablation at the site of these signals has been successful for the tre\nUR  - https://pubmed.ncbi.nlm.nih.gov/41803618/\nER  - ",
+              "month": "May",
+              "doi": "10.1080/0284186X.2023.2240490",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/41756143/",
+              "ris": "TY  - JOUR\nAU  - De Luca V\nAU  - Manfrida S\nAU  - Barogi N\nTI  - Inguinal CTV contouring in anal cancer: comparative validation of inguinal lymph nodes contouring guidelines and implications for consensus.\nJO  - Clinical and translational radiation oncology\nPY  - 2026\nDO  - 10.1080/0284186X.2023.2240490\nAB  - Contouring Inguinal lymph nodes (ILNs) in anal squamous cell cancer (ASCC) remains challenging. Accurate delineation is essential to optimize treatment efficacy with sparing of organs at risk (OaRs). Garda et al. proposed a contouring guideline based on the anatomical distribution of inguinal lympha\nUR  - https://pubmed.ncbi.nlm.nih.gov/41756143/\nER  - ",
+              "gene": "NODAL",
+              "type": "Research article"
+            },
+            {
+              "pmid": "41529595",
+              "title": "HeartUnloadNet: A cycle-consistent graph network with reduced supervision for predicting unloaded cardiac geometry from diastolic states.",
+              "abstract": "The unloaded cardiac geometry, representing the zero-stress and zero-strain reference state of the heart, is fundamental for personalized biomechanical modeling of cardiac function. However, this state cannot be directly observed in vivo, as clinical imaging only captures pressure-loaded geometries such as those at end-diastole. Traditional inverse finite element solvers are commonly used to recon\u2026",
+              "authors": "Mu S, Chan W, Yap C",
+              "journal": "Computer methods and programs in biomedicine",
+              "year": "2026",
+              "month": "Apr",
+              "doi": "10.1016/j.cmpb.2026.109243",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/41529595/",
+              "ris": "TY  - JOUR\nAU  - Mu S\nAU  - Chan W\nAU  - Yap C\nTI  - HeartUnloadNet: A cycle-consistent graph network with reduced supervision for predicting unloaded cardiac geometry from diastolic states.\nJO  - Computer methods and programs in biomedicine\nPY  - 2026\nDO  - 10.1016/j.cmpb.2026.109243\nAB  - The unloaded cardiac geometry, representing the zero-stress and zero-strain reference state of the heart, is fundamental for personalized biomechanical modeling of cardiac function. However, this state cannot be directly observed in vivo, as clinical imaging only captures pressure-loaded geometries \nUR  - https://pubmed.ncbi.nlm.nih.gov/41529595/\nER  - ",
+              "gene": "NODAL",
+              "type": "Research article"
+            },
+            {
+              "pmid": "41176781",
+              "title": "Locoregional and symptomatic response to neoadjuvant dual HER2 blockade with chemotherapy in HER2-positive breast cancer: a pilot study.",
+              "abstract": "Dual HER2 blockade with trastuzumab and pertuzumab in combination with chemotherapy has improved pathological complete response (pCR) rates in HER2-positive breast cancer in randomized trials. However, real-world pilot data on locoregional and symptomatic outcomes in patients receiving this regimen before surgery are limited. This was a prospective pilot study including 20 patients with HER2-posit\u2026",
+              "authors": "Chowdhary G, Nayyar A, Vasudevan S, et al.",
+              "journal": "Anti-cancer drugs",
+              "year": "2026",
+              "month": "Apr",
+              "doi": "10.1097/CAD.0000000000001780",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/41176781/",
+              "ris": "TY  - JOUR\nAU  - Chowdhary G\nAU  - Nayyar A\nAU  - Vasudevan S\nTI  - Locoregional and symptomatic response to neoadjuvant dual HER2 blockade with chemotherapy in HER2-positive breast cancer: a pilot study.\nJO  - Anti-cancer drugs\nPY  - 2026\nDO  - 10.1097/CAD.0000000000001780\nAB  - Dual HER2 blockade with trastuzumab and pertuzumab in combination with chemotherapy has improved pathological complete response (pCR) rates in HER2-positive breast cancer in randomized trials. However, real-world pilot data on locoregional and symptomatic outcomes in patients receiving this regimen \nUR  - https://pubmed.ncbi.nlm.nih.gov/41176781/\nER  - ",
               "gene": "NODAL",
               "type": "Research article"
             }
           ]
         },
-        "total": 39
+        "total": 52
       },
       "Personal_Genes": {
         "description": "Genes of personal research interest",
@@ -618,9 +806,25 @@
               "gene": "ACADM",
               "type": "Variant report"
             }
+          ],
+          "CHRNA1": [
+            {
+              "pmid": "41841200",
+              "title": "Deficient Cardiolipin Remodelling Alters Muscle Fibre Composition and Neuromuscular Connectivity in Barth Syndrome.",
+              "abstract": "Barth syndrome (BTHS) is a rare X-linked mitochondrial disorder caused by mutations in the TAFAZZIN gene, which disrupts cardiolipin (CL) remodelling and mitochondrial function. While cardiac manifestations of BTHS are well characterized in male patients, the mechanisms underlying skeletal muscle weakness and fatigability are poorly understood. We investigated neuromuscular and mitochondrial alter\u2026",
+              "authors": "Matias C, Snider P, Sierra Potchanant E, et al.",
+              "journal": "Journal of cachexia, sarcopenia and muscle",
+              "year": "2026",
+              "month": "Apr",
+              "doi": "10.1002/jcsm.70246",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/41841200/",
+              "ris": "TY  - JOUR\nAU  - Matias C\nAU  - Snider P\nAU  - Sierra Potchanant E\nTI  - Deficient Cardiolipin Remodelling Alters Muscle Fibre Composition and Neuromuscular Connectivity in Barth Syndrome.\nJO  - Journal of cachexia, sarcopenia and muscle\nPY  - 2026\nDO  - 10.1002/jcsm.70246\nAB  - Barth syndrome (BTHS) is a rare X-linked mitochondrial disorder caused by mutations in the TAFAZZIN gene, which disrupts cardiolipin (CL) remodelling and mitochondrial function. While cardiac manifestations of BTHS are well characterized in male patients, the mechanisms underlying skeletal muscle we\nUR  - https://pubmed.ncbi.nlm.nih.gov/41841200/\nER  - ",
+              "gene": "CHRNA1",
+              "type": "Variant report"
+            }
           ]
         },
-        "total": 1
+        "total": 2
       }
     },
     "prs_watch": {
@@ -633,50 +837,50 @@
         "description": "Dilated cardiomyopathy \u2014 PRS and genetics",
         "papers": [
           {
-            "pmid": "41802732",
-            "title": "Neonatal KLHL24-Associated Epidermolysis Bullosa Simplex: Clinical Presentation and Genetic Confirmation of a Rare Skin Fragility Syndrome.",
-            "abstract": "Epidermolysis bullosa simplex (EBS) with cardiomyopathy is a rare subtype caused by gain-of-function pathogenic variants in the KLHL24 gene, leading to both skin and cardiac involvement. We report a neonate with congenital erosions, scarring, and follicular atrophoderma, but minimal blistering, later confirmed to have a pathogenic KLHL24 variant. This presentation highlights atypical neonatal feat\u2026",
-            "authors": "Warnken S, Kibbie J, Larson A, et al.",
-            "journal": "Pediatric dermatology",
+            "pmid": "41706057",
+            "title": "Cardiomyopathy Gene Variants and Polygenic Risk Scores in Atrial Fibrillation: Evidence for an Atrial-First Phenotype.",
+            "abstract": "Atrial fibrillation (AF) is heritable and its complex underlying genetic substrate is gradually being unraveled. We sought to explore the impact of disease-causing cardiomyopathy variants on the risk of AF after adjustment for incident ventricular cardiomyopathy and clinical heart failure in 2 cohort studies (UK Biobank [UKB] and All of Us [AoU]) and evaluate the utility of polygenic risk scores (\u2026",
+            "authors": "da Rocha G, Feiner J, Lazarte J, et al.",
+            "journal": "Journal of the American College of Cardiology",
             "year": "2026",
             "month": "Mar",
-            "doi": "10.1111/pde.70191",
-            "url": "https://pubmed.ncbi.nlm.nih.gov/41802732/",
-            "ris": "TY  - JOUR\nAU  - Warnken S\nAU  - Kibbie J\nAU  - Larson A\nTI  - Neonatal KLHL24-Associated Epidermolysis Bullosa Simplex: Clinical Presentation and Genetic Confirmation of a Rare Skin Fragility Syndrome.\nJO  - Pediatric dermatology\nPY  - 2026\nDO  - 10.1111/pde.70191\nAB  - Epidermolysis bullosa simplex (EBS) with cardiomyopathy is a rare subtype caused by gain-of-function pathogenic variants in the KLHL24 gene, leading to both skin and cardiac involvement. We report a neonate with congenital erosions, scarring, and follicular atrophoderma, but minimal blistering, late\nUR  - https://pubmed.ncbi.nlm.nih.gov/41802732/\nER  - ",
-            "query": "dilated cardiomyopathy rare variant",
-            "type": "Variant report"
-          },
-          {
-            "pmid": "41747776",
-            "title": "Inflammatory cardiomyopathy: Position paper of the Italian Society of Cardiology Working Group on cardiomyopathies and pericardial diseases in collaboration with the Italian Society of Cardiology Working Group on cardiac magnetic resonance.",
-            "abstract": "Inflammatory cardiomyopathy (iCMP) usually represents the chronic, hypokinetic phenotype within the myocarditis spectrum, characterized by persistent myocardial inflammation, systolic ventricular dysfunction, and adverse remodelling. It frequently evolves from prior acute or subacute myocarditis and is associated with significantly worse outcomes, including progression to dilated cardiomyopathy, h\u2026",
-            "authors": "Imazio M, Jahnsen V, Merlo M, et al.",
-            "journal": "International journal of cardiology",
-            "year": "2026",
-            "month": "May",
-            "doi": "10.1016/j.ijcard.2026.134249",
-            "url": "https://pubmed.ncbi.nlm.nih.gov/41747776/",
-            "ris": "TY  - JOUR\nAU  - Imazio M\nAU  - Jahnsen V\nAU  - Merlo M\nTI  - Inflammatory cardiomyopathy: Position paper of the Italian Society of Cardiology Working Group on cardiomyopathies and pericardial diseases in collaboration with the Italian Society of Cardiology Working Group on cardiac magnetic resonance.\nJO  - International journal of cardiology\nPY  - 2026\nDO  - 10.1016/j.ijcard.2026.134249\nAB  - Inflammatory cardiomyopathy (iCMP) usually represents the chronic, hypokinetic phenotype within the myocarditis spectrum, characterized by persistent myocardial inflammation, systolic ventricular dysfunction, and adverse remodelling. It frequently evolves from prior acute or subacute myocarditis and\nUR  - https://pubmed.ncbi.nlm.nih.gov/41747776/\nER  - ",
-            "query": "dilated cardiomyopathy rare variant",
-            "type": "Research article"
+            "doi": "10.1016/j.jacc.2025.12.014",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/41706057/",
+            "ris": "TY  - JOUR\nAU  - da Rocha G\nAU  - Feiner J\nAU  - Lazarte J\nTI  - Cardiomyopathy Gene Variants and Polygenic Risk Scores in Atrial Fibrillation: Evidence for an Atrial-First Phenotype.\nJO  - Journal of the American College of Cardiology\nPY  - 2026\nDO  - 10.1016/j.jacc.2025.12.014\nAB  - Atrial fibrillation (AF) is heritable and its complex underlying genetic substrate is gradually being unraveled. We sought to explore the impact of disease-causing cardiomyopathy variants on the risk of AF after adjustment for incident ventricular cardiomyopathy and clinical heart failure in 2 cohor\nUR  - https://pubmed.ncbi.nlm.nih.gov/41706057/\nER  - ",
+            "query": "polygenic risk score dilated cardiomyopathy",
+            "type": "PRS"
           }
         ],
-        "total": 2
+        "total": 1
       },
       "Cardiovascular_PRS": {
         "description": "Broader cardiovascular PRS",
         "papers": [
           {
-            "pmid": "41806024",
-            "title": "Abdominal arterial calcification profile in kidney transplant candidates: a comparison between patients with autosomal dominant polycystic kidney disease and\u00a0those with other causes of kidney failure.",
-            "abstract": "Abdominal arterial calcification is a well-established predictor of cardiovascular events and mortality in kidney failure. Autosomal dominant polycystic kidney disease (ADPKD), a common genetic cause of kidney failure, presents with a distinct vascular profile. However, the burden of abdominal arterial calcification in ADPKD remains inadequately characterized. Clarifying these differences may impr\u2026",
-            "authors": "Ghanem R, Yazbek A, Idilbi A, et al.",
-            "journal": "Journal of nephrology",
+            "pmid": "41864334",
+            "title": "Genome\u2011Wide Association Studies (GWAS) in 2026: from gene hunting to biological discovery in endocrine and cardiometabolic diseases.",
+            "abstract": "Genome-wide association studies (GWAS) emerged with expectations borrowed from Mendelian genetics, creating a gap between what the method can and cannot deliver. This gap has fuelled both unwarranted dismissal and unwarranted enthusiasm. For endocrine clinicians, the confusion is consequential because GWAS and clinical sequencing answer fundamentally different questions and serve different purpose\u2026",
+            "authors": "Berrandou T",
+            "journal": "Annales d'endocrinologie",
             "year": "2026",
             "month": "Mar",
-            "doi": "10.1093/joneph/aajaf046",
-            "url": "https://pubmed.ncbi.nlm.nih.gov/41806024/",
-            "ris": "TY  - JOUR\nAU  - Ghanem R\nAU  - Yazbek A\nAU  - Idilbi A\nTI  - Abdominal arterial calcification profile in kidney transplant candidates: a comparison between patients with autosomal dominant polycystic kidney disease and\u00a0those with other causes of kidney failure.\nJO  - Journal of nephrology\nPY  - 2026\nDO  - 10.1093/joneph/aajaf046\nAB  - Abdominal arterial calcification is a well-established predictor of cardiovascular events and mortality in kidney failure. Autosomal dominant polycystic kidney disease (ADPKD), a common genetic cause of kidney failure, presents with a distinct vascular profile. However, the burden of abdominal arter\nUR  - https://pubmed.ncbi.nlm.nih.gov/41806024/\nER  - ",
+            "doi": "10.1016/j.ando.2026.102509",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/41864334/",
+            "ris": "TY  - JOUR\nAU  - Berrandou T\nTI  - Genome\u2011Wide Association Studies (GWAS) in 2026: from gene hunting to biological discovery in endocrine and cardiometabolic diseases.\nJO  - Annales d'endocrinologie\nPY  - 2026\nDO  - 10.1016/j.ando.2026.102509\nAB  - Genome-wide association studies (GWAS) emerged with expectations borrowed from Mendelian genetics, creating a gap between what the method can and cannot deliver. This gap has fuelled both unwarranted dismissal and unwarranted enthusiasm. For endocrine clinicians, the confusion is consequential becau\nUR  - https://pubmed.ncbi.nlm.nih.gov/41864334/\nER  - ",
+            "query": "polygenic risk score coronary artery disease",
+            "type": "GWAS"
+          },
+          {
+            "pmid": "41855749",
+            "title": "Unbiased Discovery of Genetic Determinants of Resilience to CAD: Insights From PROMISE and CATHGEN.",
+            "abstract": "Genetic determinants of resilience remain poorly defined beyond family studies. The purpose of this study was to perform an unbiased study of individuals with discordance between clinical/genetic risk and atherosclerotic burden to discover novel genetic pathways underpinning atherosclerosis. We used 2 genotyped cohorts with well-defined coronary anatomy: PROMISE (Prospective Multicenter Imaging St\u2026",
+            "authors": "Zhbannikov I, Ginsburg G, Ferencik M, et al.",
+            "journal": "JACC. Advances",
+            "year": "2026",
+            "month": "Mar",
+            "doi": "10.1016/j.jacadv.2026.102665",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/41855749/",
+            "ris": "TY  - JOUR\nAU  - Zhbannikov I\nAU  - Ginsburg G\nAU  - Ferencik M\nTI  - Unbiased Discovery of Genetic Determinants of Resilience to CAD: Insights From PROMISE and CATHGEN.\nJO  - JACC. Advances\nPY  - 2026\nDO  - 10.1016/j.jacadv.2026.102665\nAB  - Genetic determinants of resilience remain poorly defined beyond family studies. The purpose of this study was to perform an unbiased study of individuals with discordance between clinical/genetic risk and atherosclerotic burden to discover novel genetic pathways underpinning atherosclerosis. We used\nUR  - https://pubmed.ncbi.nlm.nih.gov/41855749/\nER  - ",
             "query": "polygenic risk score coronary artery disease",
             "type": "Research article"
           },
@@ -709,34 +913,6 @@
             "type": "Research article"
           },
           {
-            "pmid": "41824406",
-            "title": "Unraveling the genetic links between stature and disease in East Asians: A multi-biobank genetic correlation and risk prediction study.",
-            "abstract": "Both genetic and environmental factors affect human stature, including overall height and familial short stature (FSS), and it is associated with various health outcomes. However, the study of genetic connections between stature and health conditions remains lacking in East Asian populations. Hence, we conducted parallel genome-wide association studies (GWAS) of body height and FSS in the Han Taiw\u2026",
-            "authors": "Lin Y, Liu T, Yang J, et al.",
-            "journal": "PLoS genetics",
-            "year": "2026",
-            "month": "Mar",
-            "doi": "10.1371/journal.pgen.1012030",
-            "url": "https://pubmed.ncbi.nlm.nih.gov/41824406/",
-            "ris": "TY  - JOUR\nAU  - Lin Y\nAU  - Liu T\nAU  - Yang J\nTI  - Unraveling the genetic links between stature and disease in East Asians: A multi-biobank genetic correlation and risk prediction study.\nJO  - PLoS genetics\nPY  - 2026\nDO  - 10.1371/journal.pgen.1012030\nAB  - Both genetic and environmental factors affect human stature, including overall height and familial short stature (FSS), and it is associated with various health outcomes. However, the study of genetic connections between stature and health conditions remains lacking in East Asian populations. Hence,\nUR  - https://pubmed.ncbi.nlm.nih.gov/41824406/\nER  - ",
-            "query": "polygenic risk score atrial fibrillation",
-            "type": "GWAS"
-          },
-          {
-            "pmid": "41802848",
-            "title": "Atrial fibrillation: genetic architecture and polygenic risk prediction.",
-            "abstract": "Atrial fibrillation (AF) is a common arrhythmia associated with increased risk of stroke, heart failure and mortality. Advances in genomic research have revealed a complex genetic architecture underlying AF. Genome-wide association studies have identified hundreds of loci of common variants, while sequencing efforts have linked rare variants to cardiomyopathy-related pathways. Polygenic risk score\u2026",
-            "authors": "Yuan S, Levin M, Larsson S",
-            "journal": "Heart (British Cardiac Society)",
-            "year": "2026",
-            "month": "Mar",
-            "doi": "10.1136/heartjnl-2025-326870",
-            "url": "https://pubmed.ncbi.nlm.nih.gov/41802848/",
-            "ris": "TY  - JOUR\nAU  - Yuan S\nAU  - Levin M\nAU  - Larsson S\nTI  - Atrial fibrillation: genetic architecture and polygenic risk prediction.\nJO  - Heart (British Cardiac Society)\nPY  - 2026\nDO  - 10.1136/heartjnl-2025-326870\nAB  - Atrial fibrillation (AF) is a common arrhythmia associated with increased risk of stroke, heart failure and mortality. Advances in genomic research have revealed a complex genetic architecture underlying AF. Genome-wide association studies have identified hundreds of loci of common variants, while s\nUR  - https://pubmed.ncbi.nlm.nih.gov/41802848/\nER  - ",
-            "query": "polygenic risk score atrial fibrillation",
-            "type": "GWAS"
-          },
-          {
             "pmid": "41484026",
             "title": "Novel insights into the causal effects of triglycerides to high density lipoprotein cholesterol ratio on blood pressure.",
             "abstract": "Previous studies have suggested links between the triglycerides to high-density lipoprotein cholesterol (TG:HDL-C) ratio on blood pressure (BP) traits and hypertension (HTN) risk. However, the causal relationships remain unclear. We conducted genome-wide linkage disequilibrium score regression (LDSC), two-sample Mendelian randomization (MR), colocalization, reverse, and multivariable MR (MVMR) ana\u2026",
@@ -749,9 +925,37 @@
             "ris": "TY  - JOUR\nAU  - Wan A\nAU  - Han Y\nAU  - Wu L\nTI  - Novel insights into the causal effects of triglycerides to high density lipoprotein cholesterol ratio on blood pressure.\nJO  - Nutrition, metabolism, and cardiovascular diseases : NMCD\nPY  - 2026\nDO  - 10.1016/j.numecd.2025.104474\nAB  - Previous studies have suggested links between the triglycerides to high-density lipoprotein cholesterol (TG:HDL-C) ratio on blood pressure (BP) traits and hypertension (HTN) risk. However, the causal relationships remain unclear. We conducted genome-wide linkage disequilibrium score regression (LDSC\nUR  - https://pubmed.ncbi.nlm.nih.gov/41484026/\nER  - ",
             "query": "polygenic risk score hypertension blood pressure",
             "type": "Research article"
+          },
+          {
+            "pmid": "41838891",
+            "title": "Machine Learning Prediction of Progression to Dialysis in Patients With Polycystic Kidney Disease: Population-Based Retrospective Cohort Study.",
+            "abstract": "Autosomal dominant polycystic kidney disease (ADPKD), characterized by progressive cyst growth and renal decline, is the leading genetic cause of end-stage renal disease. This study aims to develop and validate machine learning (ML) models for predicting the risk of progression to dialysis in patients with ADPKD using a nationwide administrative database. Early identification of high-risk patients\u2026",
+            "authors": "Chang C, Chen M, Tsai M, et al.",
+            "journal": "JMIR medical informatics",
+            "year": "2026",
+            "month": "Mar",
+            "doi": "10.1159/000474961",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/41838891/",
+            "ris": "TY  - JOUR\nAU  - Chang C\nAU  - Chen M\nAU  - Tsai M\nTI  - Machine Learning Prediction of Progression to Dialysis in Patients With Polycystic Kidney Disease: Population-Based Retrospective Cohort Study.\nJO  - JMIR medical informatics\nPY  - 2026\nDO  - 10.1159/000474961\nAB  - Autosomal dominant polycystic kidney disease (ADPKD), characterized by progressive cyst growth and renal decline, is the leading genetic cause of end-stage renal disease. This study aims to develop and validate machine learning (ML) models for predicting the risk of progression to dialysis in patien\nUR  - https://pubmed.ncbi.nlm.nih.gov/41838891/\nER  - ",
+            "query": "polygenic risk score heart failure",
+            "type": "Research article"
+          },
+          {
+            "pmid": "41717706",
+            "title": "Proteomic Risk Score for Prediction of Incident Hypertension.",
+            "abstract": "Proteomic signatures may enhance the prediction of cardiometabolic diseases for targeted prevention. We evaluated whether a proteomic risk score (ProtRS) improves the prediction of incident hypertension. Within the UK Biobank Proteomics data set, participants at risk for incident hypertension were randomly split into derivation (n=25\u2009158) and test (n=10\u2009781) sets. A ProtRS was trained in the deriv\u2026",
+            "authors": "Kim M, Tavolinejad H, Sarmiento Bustamante M, et al.",
+            "journal": "Hypertension (Dallas, Tex. : 1979)",
+            "year": "2026",
+            "month": "Apr",
+            "doi": "10.1038/s41586-018-0175-2",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/41717706/",
+            "ris": "TY  - JOUR\nAU  - Kim M\nAU  - Tavolinejad H\nAU  - Sarmiento Bustamante M\nTI  - Proteomic Risk Score for Prediction of Incident Hypertension.\nJO  - Hypertension (Dallas, Tex. : 1979)\nPY  - 2026\nDO  - 10.1038/s41586-018-0175-2\nAB  - Proteomic signatures may enhance the prediction of cardiometabolic diseases for targeted prevention. We evaluated whether a proteomic risk score (ProtRS) improves the prediction of incident hypertension. Within the UK Biobank Proteomics data set, participants at risk for incident hypertension were r\nUR  - https://pubmed.ncbi.nlm.nih.gov/41717706/\nER  - ",
+            "query": "polygenic risk score heart failure",
+            "type": "Research article"
           }
         ],
-        "total": 6
+        "total": 7
       },
       "NDD_PRS": {
         "description": "PRS in neurodevelopmental disorders",
@@ -771,46 +975,32 @@
             "type": "GWAS"
           },
           {
-            "pmid": "40928124",
-            "title": "Chronotype and psychopathology: insights from a genetically informative design.",
-            "abstract": "Chronotype has been linked to a wide variety of psychiatric conditions. In particular, evening chronotype could be a transdiagnostic risk factor for different mental health difficulties. In this study, we examine how chronotype relates to psychopathology and whether it can be conceptualized as a part of the global construct of psychopathology (p-factor) by studying the genetic and environmental ov\u2026",
-            "authors": "Madrid-Valero J, Ordo\u00f1ana J, Eley T, et al.",
-            "journal": "Sleep",
+            "pmid": "41854015",
+            "title": "Neurodevelopmental assessment at 24 months in infants with esophageal atresia: A prospective cohort study.",
+            "abstract": "To evaluate neurodevelopment at 24 months in infants surgically treated for esophageal atresia (EA), using the ages and stages questionnaire (ASQ), and identify perinatal and early-life factors associated with developmental delay. Infants with EA were prospectively enrolled in a structured multidisciplinary follow-up program. Total ASQ scores \u2264185 were considered indicative of significant neurodev\u2026",
+            "authors": "Tagmouti J, Midavaine M, Sartorius V, et al.",
+            "journal": "Journal of pediatric gastroenterology and nutrition",
             "year": "2026",
             "month": "Mar",
-            "doi": "10.1093/sleep/zsaf231",
-            "url": "https://pubmed.ncbi.nlm.nih.gov/40928124/",
-            "ris": "TY  - JOUR\nAU  - Madrid-Valero J\nAU  - Ordo\u00f1ana J\nAU  - Eley T\nTI  - Chronotype and psychopathology: insights from a genetically informative design.\nJO  - Sleep\nPY  - 2026\nDO  - 10.1093/sleep/zsaf231\nAB  - Chronotype has been linked to a wide variety of psychiatric conditions. In particular, evening chronotype could be a transdiagnostic risk factor for different mental health difficulties. In this study, we examine how chronotype relates to psychopathology and whether it can be conceptualized as a par\nUR  - https://pubmed.ncbi.nlm.nih.gov/40928124/\nER  - ",
-            "query": "polygenic risk score ADHD attention deficit",
+            "doi": "10.1002/jpn3.70406",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/41854015/",
+            "ris": "TY  - JOUR\nAU  - Tagmouti J\nAU  - Midavaine M\nAU  - Sartorius V\nTI  - Neurodevelopmental assessment at 24 months in infants with esophageal atresia: A prospective cohort study.\nJO  - Journal of pediatric gastroenterology and nutrition\nPY  - 2026\nDO  - 10.1002/jpn3.70406\nAB  - To evaluate neurodevelopment at 24 months in infants surgically treated for esophageal atresia (EA), using the ages and stages questionnaire (ASQ), and identify perinatal and early-life factors associated with developmental delay. Infants with EA were prospectively enrolled in a structured multidisc\nUR  - https://pubmed.ncbi.nlm.nih.gov/41854015/\nER  - ",
+            "query": "polygenic risk score neurodevelopmental",
             "type": "Research article"
           },
           {
-            "pmid": "41826372",
-            "title": "Neuronal and glial networks interact with traumatic brain injury to modulate cognition in ABCD study.",
-            "abstract": "Mild traumatic brain injury (mTBI) disproportionately affects children and adolescents and has been associated with poorer neurocognitive performance, but the biological mechanisms driving symptom variability and severity remain understudied. In accordance with the omnigenic disease model, we integrated gene-by-mTBI interaction genome-wide association studies on neurocognition from the Adolescent \u2026",
-            "authors": "Cheng M, Mao M, Meng W, et al.",
-            "journal": "NPJ systems biology and applications",
+            "pmid": "41852022",
+            "title": "Role of Polygenic Risk Scores in Predicting Cognitive Functioning after Mild Traumatic Brain Injury: A TRACK-TBI Study.",
+            "abstract": "Patients with traumatic brain injury (TBI) and Glasgow Coma Scale scores of 13-15 (historically called mild TBI [mTBI]) commonly experience changes in cognitive functioning, including processing speed, memory, and executive functioning. In a prospective sample (",
+            "authors": "Nelson L, Simons M, Jain S, et al.",
+            "journal": "Journal of neurotrauma",
             "year": "2026",
             "month": "Mar",
-            "doi": "10.1038/s41540-026-00681-8",
-            "url": "https://pubmed.ncbi.nlm.nih.gov/41826372/",
-            "ris": "TY  - JOUR\nAU  - Cheng M\nAU  - Mao M\nAU  - Meng W\nTI  - Neuronal and glial networks interact with traumatic brain injury to modulate cognition in ABCD study.\nJO  - NPJ systems biology and applications\nPY  - 2026\nDO  - 10.1038/s41540-026-00681-8\nAB  - Mild traumatic brain injury (mTBI) disproportionately affects children and adolescents and has been associated with poorer neurocognitive performance, but the biological mechanisms driving symptom variability and severity remain understudied. In accordance with the omnigenic disease model, we integr\nUR  - https://pubmed.ncbi.nlm.nih.gov/41826372/\nER  - ",
+            "doi": "10.1177/08977151261432398",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/41852022/",
+            "ris": "TY  - JOUR\nAU  - Nelson L\nAU  - Simons M\nAU  - Jain S\nTI  - Role of Polygenic Risk Scores in Predicting Cognitive Functioning after Mild Traumatic Brain Injury: A TRACK-TBI Study.\nJO  - Journal of neurotrauma\nPY  - 2026\nDO  - 10.1177/08977151261432398\nAB  - Patients with traumatic brain injury (TBI) and Glasgow Coma Scale scores of 13-15 (historically called mild TBI [mTBI]) commonly experience changes in cognitive functioning, including processing speed, memory, and executive functioning. In a prospective sample (\nUR  - https://pubmed.ncbi.nlm.nih.gov/41852022/\nER  - ",
             "query": "polygenic risk score neurodevelopmental",
-            "type": "GWAS"
-          },
-          {
-            "pmid": "41796365",
-            "title": "Unusual experiences and early-onset psychosis associated to hallucinogen use in adolescents: a systematic review and meta-analysis.",
-            "abstract": "Hallucinogen use among adolescents is increasing worldwide. In this context, in recent years, hallucinogens have re-emerged in scientific and public discourse. However, whether there is an association between hallucinogens use in adolescents and the impact of such use in individuals with Early-Onset Psychosis (EOP), remains unclear. This systematic review and meta-analysis evaluated the prevalence\u2026",
-            "authors": "Armanino-Irigaray M, Catal\u00e1n A, Aymerich C, et al.",
-            "journal": "Child and adolescent psychiatry and mental health",
-            "year": "2026",
-            "month": "Mar",
-            "doi": "10.1186/s13034-026-01060-1",
-            "url": "https://pubmed.ncbi.nlm.nih.gov/41796365/",
-            "ris": "TY  - JOUR\nAU  - Armanino-Irigaray M\nAU  - Catal\u00e1n A\nAU  - Aymerich C\nTI  - Unusual experiences and early-onset psychosis associated to hallucinogen use in adolescents: a systematic review and meta-analysis.\nJO  - Child and adolescent psychiatry and mental health\nPY  - 2026\nDO  - 10.1186/s13034-026-01060-1\nAB  - Hallucinogen use among adolescents is increasing worldwide. In this context, in recent years, hallucinogens have re-emerged in scientific and public discourse. However, whether there is an association between hallucinogens use in adolescents and the impact of such use in individuals with Early-Onset\nUR  - https://pubmed.ncbi.nlm.nih.gov/41796365/\nER  - ",
-            "query": "polygenic risk score neurodevelopmental",
-            "type": "Review"
+            "type": "PRS"
           },
           {
             "pmid": "41592516",
@@ -827,12 +1017,27 @@
             "type": "PRS"
           }
         ],
-        "total": 5
+        "total": 4
       },
       "Cardiometabolic_PRS": {
         "description": "Cardiometabolic comorbidities (per JACC Advances paper)",
-        "papers": [],
-        "total": 0
+        "papers": [
+          {
+            "pmid": "41844147",
+            "title": "Metabolic polygenic risk scores for prediction of obesity, type 2 diabetes, and related morbidities.",
+            "abstract": "Obesity and type 2 diabetes (T2D) are metabolic diseases with shared pathophysiology. Traditional polygenic risk scores (PRSs) have focused on these conditions individually, yet the single-disease approach falls short in capturing the full dimension of metabolic dysfunction. We derived a biologically enriched metabolic PRS (MetPRS), a composite score that uses multi-ancestry genome-wide associatio\u2026",
+            "authors": "Kim M, Chen Q, Sui Y, et al.",
+            "journal": "Cell metabolism",
+            "year": "2026",
+            "month": "Mar",
+            "doi": "10.1016/j.cmet.2026.02.009",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/41844147/",
+            "ris": "TY  - JOUR\nAU  - Kim M\nAU  - Chen Q\nAU  - Sui Y\nTI  - Metabolic polygenic risk scores for prediction of obesity, type 2 diabetes, and related morbidities.\nJO  - Cell metabolism\nPY  - 2026\nDO  - 10.1016/j.cmet.2026.02.009\nAB  - Obesity and type 2 diabetes (T2D) are metabolic diseases with shared pathophysiology. Traditional polygenic risk scores (PRSs) have focused on these conditions individually, yet the single-disease approach falls short in capturing the full dimension of metabolic dysfunction. We derived a biologicall\nUR  - https://pubmed.ncbi.nlm.nih.gov/41844147/\nER  - ",
+            "query": "polygenic risk score type 2 diabetes cardiovascular",
+            "type": "PRS"
+          }
+        ],
+        "total": 1
       }
     },
     "topic_watch": {
@@ -850,32 +1055,32 @@
         "description": "Epigenetic_Age",
         "papers": [
           {
-            "pmid": "41818437",
-            "title": "Biological age acceleration in primary aldosteronism: associations with renin, aldosterone, aldosterone-to-renin ratio, and left ventricular mass index.",
-            "abstract": "To investigate the associations of plasma aldosterone concentration (PAC), plasma renin activity (PRA), and aldosterone-to-renin ratio (ARR) with Gompertz law-based biological age difference (GOLD BioAgeDiff) in patients with primary aldosteronism versus essential hypertension (EHT), and to determine whether GOLD BioAgeDiff relates to cardiac mass. We conducted a retrospective cross-sectional stud\u2026",
-            "authors": "Li N, Liang N, Zhang X, et al.",
-            "journal": "Journal of hypertension",
+            "pmid": "41851819",
+            "title": "Association of accelerated biological aging with obstructive sleep apnea symptoms and identification of a candidate biomarker gene signature.",
+            "abstract": "Obstructive sleep apnea (OSA) is a common sleep-related breathing disorder that is linked to cardiovascular, metabolic, and neurocognitive complications. However, its diagnosis relies on polysomnography, which is complex and resource-intensive, leading to frequent underdiagnosis. Emerging evidence suggests that accelerated biological aging may contribute to OSA pathophysiology, but systematic asse\u2026",
+            "authors": "Wang Y, Wang Y, Zhang Q, et al.",
+            "journal": "Clinical epigenetics",
             "year": "2026",
             "month": "Mar",
-            "doi": "10.1097/HJH.0000000000004295",
-            "url": "https://pubmed.ncbi.nlm.nih.gov/41818437/",
-            "ris": "TY  - JOUR\nAU  - Li N\nAU  - Liang N\nAU  - Zhang X\nTI  - Biological age acceleration in primary aldosteronism: associations with renin, aldosterone, aldosterone-to-renin ratio, and left ventricular mass index.\nJO  - Journal of hypertension\nPY  - 2026\nDO  - 10.1097/HJH.0000000000004295\nAB  - To investigate the associations of plasma aldosterone concentration (PAC), plasma renin activity (PRA), and aldosterone-to-renin ratio (ARR) with Gompertz law-based biological age difference (GOLD BioAgeDiff) in patients with primary aldosteronism versus essential hypertension (EHT), and to determin\nUR  - https://pubmed.ncbi.nlm.nih.gov/41818437/\nER  - ",
+            "doi": "10.1186/s13148-026-02108-x",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/41851819/",
+            "ris": "TY  - JOUR\nAU  - Wang Y\nAU  - Wang Y\nAU  - Zhang Q\nTI  - Association of accelerated biological aging with obstructive sleep apnea symptoms and identification of a candidate biomarker gene signature.\nJO  - Clinical epigenetics\nPY  - 2026\nDO  - 10.1186/s13148-026-02108-x\nAB  - Obstructive sleep apnea (OSA) is a common sleep-related breathing disorder that is linked to cardiovascular, metabolic, and neurocognitive complications. However, its diagnosis relies on polysomnography, which is complex and resource-intensive, leading to frequent underdiagnosis. Emerging evidence s\nUR  - https://pubmed.ncbi.nlm.nih.gov/41851819/\nER  - ",
             "query": "biological age acceleration cardiovascular",
             "type": "Research article"
           },
           {
-            "pmid": "41802024",
-            "title": "Calcific Aortopathy in Response to Aging and Injury.",
-            "abstract": "The arterial vasculature is the second most frequently calcified structure in the human body after the skeleton. Calcification of the aorta and aortic valves occurs in most individuals in westernized societies with advancing age, with abdominal aortic calcification generally preceding ascending thoracic aortic disease. In cardiac valves and the thoracic aorta, however, calcification often arises e\u2026",
-            "authors": "Towler D, Giachelli C, Scatena M, et al.",
-            "journal": "Circulation",
+            "pmid": "41840008",
+            "title": "Clonal hematopoiesis, inflammaging, and vascular disease: mechanisms, risk stratification, and therapeutic frontiers in older adults.",
+            "abstract": "Aging is associated with both a chronic pro-inflammatory state (\"inflammaging\") and the accumulation of somatic mutations in hematopoietic stem cells leading to clonal hematopoiesis. Clonal hematopoiesis of indeterminate potential (CHIP) is now recognized as a common phenomenon in older adults, defined by the expansion of blood cell clones bearing leukemia-associated mutations in the absence of ov\u2026",
+            "authors": "Zheng X",
+            "journal": "Acta pharmacologica Sinica",
             "year": "2026",
             "month": "Mar",
-            "doi": "10.1161/CIRCULATIONAHA.125.072393",
-            "url": "https://pubmed.ncbi.nlm.nih.gov/41802024/",
-            "ris": "TY  - JOUR\nAU  - Towler D\nAU  - Giachelli C\nAU  - Scatena M\nTI  - Calcific Aortopathy in Response to Aging and Injury.\nJO  - Circulation\nPY  - 2026\nDO  - 10.1161/CIRCULATIONAHA.125.072393\nAB  - The arterial vasculature is the second most frequently calcified structure in the human body after the skeleton. Calcification of the aorta and aortic valves occurs in most individuals in westernized societies with advancing age, with abdominal aortic calcification generally preceding ascending thor\nUR  - https://pubmed.ncbi.nlm.nih.gov/41802024/\nER  - ",
+            "doi": "10.1038/s41375-020-0896-8",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/41840008/",
+            "ris": "TY  - JOUR\nAU  - Zheng X\nTI  - Clonal hematopoiesis, inflammaging, and vascular disease: mechanisms, risk stratification, and therapeutic frontiers in older adults.\nJO  - Acta pharmacologica Sinica\nPY  - 2026\nDO  - 10.1038/s41375-020-0896-8\nAB  - Aging is associated with both a chronic pro-inflammatory state (\"inflammaging\") and the accumulation of somatic mutations in hematopoietic stem cells leading to clonal hematopoiesis. Clonal hematopoiesis of indeterminate potential (CHIP) is now recognized as a common phenomenon in older adults, defi\nUR  - https://pubmed.ncbi.nlm.nih.gov/41840008/\nER  - ",
             "query": "biological age acceleration cardiovascular",
-            "type": "Research article"
+            "type": "Variant report"
           },
           {
             "pmid": "41775151",
@@ -932,23 +1137,9 @@
             "ris": "TY  - JOUR\nAU  - Li Z\nAU  - Liu J\nAU  - Dai Y\nTI  - From ageing clocks to organ networks: Biological age-driven organ asynchrony and inter-organ interactions shaping mortality risk.\nJO  - Ageing research reviews\nPY  - 2026\nDO  - 10.1016/j.arr.2026.103056\nAB  - Ageing is a multidimensional and heterogeneous process that progresses asynchronously across organ systems. Advances in multi-omics technologies have led to the development of diverse ageing clocks, including epigenetic, proteomic, metabolomic, and imaging-based models, which extend beyond estimatin\nUR  - https://pubmed.ncbi.nlm.nih.gov/41655608/\nER  - ",
             "query": "biological age acceleration cardiovascular",
             "type": "Epigenetics"
-          },
-          {
-            "pmid": "41360375",
-            "title": "Genetic and environmental risk factors for major depression in UK women and their association with telomere length longitudinally.",
-            "abstract": "Major depressive disorder (MDD) is more prevalent in women and associated with shorter telomere length, a marker of biological ageing, and an increased risk of age-related disease. However, the precise influence of depression-related genetic and environmental risk factors on telomere dynamics remains a topic of debate. We examined leukocyte relative telomere length (RTL) and longitudinal telomere \u2026",
-            "authors": "Wong T, Gillett A, Habiballa L, et al.",
-            "journal": "Journal of affective disorders",
-            "year": "2026",
-            "month": "Mar",
-            "doi": "10.1016/j.jad.2025.120865",
-            "url": "https://pubmed.ncbi.nlm.nih.gov/41360375/",
-            "ris": "TY  - JOUR\nAU  - Wong T\nAU  - Gillett A\nAU  - Habiballa L\nTI  - Genetic and environmental risk factors for major depression in UK women and their association with telomere length longitudinally.\nJO  - Journal of affective disorders\nPY  - 2026\nDO  - 10.1016/j.jad.2025.120865\nAB  - Major depressive disorder (MDD) is more prevalent in women and associated with shorter telomere length, a marker of biological ageing, and an increased risk of age-related disease. However, the precise influence of depression-related genetic and environmental risk factors on telomere dynamics remain\nUR  - https://pubmed.ncbi.nlm.nih.gov/41360375/\nER  - ",
-            "query": "biological age acceleration cardiovascular",
-            "type": "Research article"
           }
         ],
-        "total": 7
+        "total": 6
       },
       "Multi_omics_CHD": {
         "description": "Multi_omics_CHD",
@@ -957,17 +1148,32 @@
       },
       "DCM_Omics": {
         "description": "DCM_Omics",
-        "papers": [],
-        "total": 0
+        "papers": [
+          {
+            "pmid": "41855523",
+            "title": "Global analyses of genomic and epigenomic influences on gene expression reveal",
+            "abstract": "Heart failure arises from maladaptive remodelling driven by genetic and epigenetic networks. Using a systems genetics framework, we mapped how DNA variants and CpG methylation shape cardiac transcriptomes during beta adrenergic stress in the Hybrid Mouse Diversity Panel, a cohort of over 100 fully inbred mouse strains. Expression QTLs (eQTLs), methylation QTLs (mQTLs) and methylation-driven eQTLs \u2026",
+            "authors": "Lahue C, Ravindran S, Dalal A, et al.",
+            "journal": "Epigenetics",
+            "year": "2026",
+            "month": "Dec",
+            "doi": "10.1038/s41467-020-19015-1",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/41855523/",
+            "ris": "TY  - JOUR\nAU  - Lahue C\nAU  - Ravindran S\nAU  - Dalal A\nTI  - Global analyses of genomic and epigenomic influences on gene expression reveal\nJO  - Epigenetics\nPY  - 2026\nDO  - 10.1038/s41467-020-19015-1\nAB  - Heart failure arises from maladaptive remodelling driven by genetic and epigenetic networks. Using a systems genetics framework, we mapped how DNA variants and CpG methylation shape cardiac transcriptomes during beta adrenergic stress in the Hybrid Mouse Diversity Panel, a cohort of over 100 fully i\nUR  - https://pubmed.ncbi.nlm.nih.gov/41855523/\nER  - ",
+            "query": "dilated cardiomyopathy transcriptome methylation",
+            "type": "Functional study"
+          }
+        ],
+        "total": 1
       }
     },
     "pgs_new_scores": []
   },
   "summary": {
-    "gene_papers": 40,
+    "gene_papers": 54,
     "prs_papers": 13,
     "topic_papers": 7,
     "new_pgs": 0,
-    "total": 60
+    "total": 74
   }
 }
