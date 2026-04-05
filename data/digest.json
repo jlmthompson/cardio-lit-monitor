@@ -1,53 +1,31 @@
 {
-  "generated": "2026-03-29T21:24:14.408113",
+  "generated": "2026-04-05T21:19:55.777097",
   "lookback_days": 7,
-  "cutoff_date": "2026/03/22",
+  "cutoff_date": "2026/03/29",
   "sections": {
     "disease_genetics": {
       "papers": [
         {
-          "pmid": "41878807",
-          "title": "Evaluation of Women With Peripartum or Dilated Cardiomyopathy and Their First-Degree Relatives: The DCM Precision Medicine Study.",
-          "abstract": "BACKGROUND: Rare variant genetics have been associated with peripartum cardiomyopathy (PPCM), but the role of genetics remains unsettled. The study sought to compare dilated cardiomyopathy (DCM) genetic risk in first-degree relatives (FDRs) of female patients (probands) with DCM or PPCM to gain causal inference, and to assess DCM-relevant rare variant prevalence in DCM/PPCM probands and population controls. METHODS: Clinical and genetic data were analyzed from the DCM Precision Medicine Study. R\u2026",
-          "abstract_full": "BACKGROUND: Rare variant genetics have been associated with peripartum cardiomyopathy (PPCM), but the role of genetics remains unsettled. The study sought to compare dilated cardiomyopathy (DCM) genetic risk in first-degree relatives (FDRs) of female patients (probands) with DCM or PPCM to gain causal inference, and to assess DCM-relevant rare variant prevalence in DCM/PPCM probands and population controls. METHODS: Clinical and genetic data were analyzed from the DCM Precision Medicine Study. Risk of DCM or partial DCM, where partial DCM was defined as left ventricular enlargement or a left ventricular ejection fraction of <50%, was estimated in 665 FDRs from 452 female probands, all of whom had been pregnant; 67 had PPCM and 385 had DCM; prevalence of pathogenic, likely pathogenic, or uncertain significance variants was estimated among probands. RESULTS: The risk of DCM/partial DCM for FDRs of PPCM probands was similar to that for FDRs of DCM probands (hazard ratio, 0.77 [95% CI, 0.47-1.28]). Estimated DCM prevalence among the lowest-risk FDRs of non-Hispanic European ancestry probands with PPCM (7.0% [95% CI, 0%-14.1%] females, 9.0% [95% CI, 1.6%-16.3%] males) exceeded population estimates from a UK Biobank study (0.30% females, 0.63% males). Estimated prevalences of a pathogenic, likely pathogenic, or uncertain significance variant among African ancestry and European ancestry probands with PPCM were 55.4% (95% CI, 33.1%-77.7%) and 66.0% (95% CI, 38.6%-93.3%), respectively. The estimated prevalence of pathogenic/likely pathogenic variants among European ancestry PPCM probands (26.6% [95% CI, 12.6%-40.6%]) exceeded a population estimate from a UK Biobank study (0.6%). CONCLUSIONS: The risk of DCM/partial DCM among FDRs was similar regardless of whether their probands had PPCM or DCM. Also, DCM-relevant rare variant findings for females with PPCM or DCM were similar and greater than in population controls, suggesting a similar causal basis for PPCM and DCM. These findings underscore the need for genetic evaluations in all patients with PPCM. REGISTRATION: URL: https://www.clinicaltrials.gov; Unique identifier: NCT03037632.",
+          "pmid": "41639596",
+          "title": "Two siblings with CCDC32-related cardiofacioneurodevelopmental syndrome diagnosed by clinical RNA-sequencing and review of literature.",
+          "abstract": "Cardiofacioneurodevelopmental syndrome (CFNDS, MIM:619123) is a rare genetic disorder caused by bi-allelic pathogenic variants in CCDC32. So far, CFNDS has only been described in four living individuals and one terminated fetus from four families, and the clinical phenotype can include microcephaly, facial malformations, developmental delay, cerebellar hypoplasia, and cardiac anomalies. We present a family with two affected individuals who were diagnosed through clinical RNA sequencing (RNA-seq)\u2026",
+          "abstract_full": "Cardiofacioneurodevelopmental syndrome (CFNDS, MIM:619123) is a rare genetic disorder caused by bi-allelic pathogenic variants in CCDC32. So far, CFNDS has only been described in four living individuals and one terminated fetus from four families, and the clinical phenotype can include microcephaly, facial malformations, developmental delay, cerebellar hypoplasia, and cardiac anomalies. We present a family with two affected individuals who were diagnosed through clinical RNA sequencing (RNA-seq) after conventional DNA diagnostics did not yield a molecular cause. Skipping of two exons in CCDC32 transcript was identified, consistent with a bi-allelic deletion including exons 3 and 4 of CCDC32. This deletion was not detected in previous SNP array analyses and trio exome sequencing focusing on genes related to intellectual disability and congenital malformations, highlighting the complementary value of RNA-seq. Furthermore, we review the clinical phenotype of this rare disorder and its potential disease mechanisms.",
           "bullets": [
-            "The risk of DCM/partial DCM for FDRs of PPCM probands was similar to that for FDRs of DCM probands (hazard ratio, 0.77 [95% CI, 0.47-1.28]).",
-            "Estimated DCM prevalence among the lowest-risk FDRs of non-Hispanic European ancestry probands with PPCM (7.0% [95% CI, 0%-14.1%] females, 9.0% [95% CI, 1.6%-16.",
-            "Estimated prevalences of a pathogenic, likely pathogenic, or uncertain significance variant among African ancestry and European ancestry probands with PPCM were 55.4% (95% CI, 33.1%-77.7%) and 66.0% (95% CI, 38.6%-93."
+            "Skipping of two exons in CCDC32 transcript was identified, consistent with a bi-allelic deletion including exons 3 and 4 of CCDC32.",
+            "This deletion was not detected in previous SNP array analyses and trio exome sequencing focusing on genes related to intellectual disability and congenital malformations, highlighting the complementary value of RNA-seq.",
+            "Furthermore, we review the clinical phenotype of this rare disorder and its potential disease mechanisms."
           ],
-          "authors": "Kransdorf E, Jain R, Mead J, et al.",
-          "journal": "Circulation. Genomic and precision medicine",
-          "year": "2026",
-          "month": "Mar",
-          "doi": "10.1161/CIRCGEN.125.005541",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/41878807/",
-          "ris": "TY  - JOUR\nAU  - Kransdorf E\nAU  - Jain R\nAU  - Mead J\nTI  - Evaluation of Women With Peripartum or Dilated Cardiomyopathy and Their First-Degree Relatives: The DCM Precision Medicine Study.\nJO  - Circulation. Genomic and precision medicine\nPY  - 2026\nDO  - 10.1161/CIRCGEN.125.005541\nAB  - BACKGROUND: Rare variant genetics have been associated with peripartum cardiomyopathy (PPCM), but the role of genetics remains unsettled. The study sought to compare dilated cardiomyopathy (DCM) genetic risk in first-degree relatives (FDRs) of female patients (probands) with DCM or PPCM to gain caus\nUR  - https://pubmed.ncbi.nlm.nih.gov/41878807/\nER  - ",
-          "section": "disease_genetics",
-          "topic": "DCM_Genetics",
-          "type": "Sequencing study",
-          "score": 7
-        },
-        {
-          "pmid": "41882293",
-          "title": "DNA methylation signature and clinical delineation of PACS1-related disorder in 24 unreported individuals.",
-          "abstract": "PACS1-related disorder (PACS1-RD), also known as Schuurs-Hoeijmakers syndrome, is a rare autosomal dominant neurodevelopmental disorder predominantly caused by the recurrent de novo c.607\u2009C\u2009>\u2009T p.(Arg203Trp) gain-of-function variant. Although core clinical features have been delineated, systematic data on developmental milestones, growth parameters, and clinical variability remain limited. We assembled a series of 24 previously unreported, unrelated individuals with PACS1-RD and compared their c\u2026",
-          "abstract_full": "PACS1-related disorder (PACS1-RD), also known as Schuurs-Hoeijmakers syndrome, is a rare autosomal dominant neurodevelopmental disorder predominantly caused by the recurrent de novo c.607\u2009C\u2009>\u2009T p.(Arg203Trp) gain-of-function variant. Although core clinical features have been delineated, systematic data on developmental milestones, growth parameters, and clinical variability remain limited. We assembled a series of 24 previously unreported, unrelated individuals with PACS1-RD and compared their clinical and molecular features with 84 individuals from the literature. Genome-wide DNA methylation profiling was performed on peripheral blood DNA using bisulfite sequencing, interrogating ~860,000 CpG sites. Our study expands the phenotypic spectrum of PACS1-RD by reporting median age at independent walking and first spoken words (both 24 months), cross-sectional growth parameters, and previously undescribed clinical features, including congenital kidney malformations (25%) and feeding difficulties (75%). Compared with the literature, our series showed a higher prevalence of cryptorchidism (77.8%), congenital heart defect (45.8%), and hypotonia (75%). Methylation analysis identified a specific episignature for PACS1-RD, consistently observed in individuals carrying either the canonical p.(Arg203Trp) or the non-recurrent p.(Arg203Gln) variant. This episignature further enabled PACS1-RD diagnosis in one unsolved individual initially suspected of Kabuki syndrome. These findings refine the clinical delineation of PACS1-RD and establish an episignature that will support diagnosis in unresolved neurodevelopmental disorders and guide pathogenicity assessment of non-recurrent PACS1 variants.",
-          "bullets": [
-            "Genome-wide DNA methylation profiling was performed on peripheral blood DNA using bisulfite sequencing, interrogating ~860,000 CpG sites.",
-            "Methylation analysis identified a specific episignature for PACS1-RD, consistently observed in individuals carrying either the canonical p.(Arg203Trp) or the non-recurrent p.(Arg203Gln) variant.",
-            "These findings refine the clinical delineation of PACS1-RD and establish an episignature that will support diagnosis in unresolved neurodevelopmental disorders and guide pathogenicity assessment of non-recurrent PACS1\u2026"
-          ],
-          "authors": "Sabbagh Q, Cenni C, Haghshenas S, et al.",
+          "authors": "Albuainain F, Venema M, Schot R, et al.",
           "journal": "European journal of human genetics : EJHG",
           "year": "2026",
-          "month": "Mar",
-          "doi": "10.1016/j.coi.2008.04.004",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/41882293/",
-          "ris": "TY  - JOUR\nAU  - Sabbagh Q\nAU  - Cenni C\nAU  - Haghshenas S\nTI  - DNA methylation signature and clinical delineation of PACS1-related disorder in 24 unreported individuals.\nJO  - European journal of human genetics : EJHG\nPY  - 2026\nDO  - 10.1016/j.coi.2008.04.004\nAB  - PACS1-related disorder (PACS1-RD), also known as Schuurs-Hoeijmakers syndrome, is a rare autosomal dominant neurodevelopmental disorder predominantly caused by the recurrent de novo c.607\u2009C\u2009>\u2009T p.(Arg203Trp) gain-of-function variant. Although core clinical features have been delineated, systematic d\nUR  - https://pubmed.ncbi.nlm.nih.gov/41882293/\nER  - ",
+          "month": "Apr",
+          "doi": "10.1016/j.pediatrneurol.2010.10.012",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41639596/",
+          "ris": "TY  - JOUR\nAU  - Albuainain F\nAU  - Venema M\nAU  - Schot R\nTI  - Two siblings with CCDC32-related cardiofacioneurodevelopmental syndrome diagnosed by clinical RNA-sequencing and review of literature.\nJO  - European journal of human genetics : EJHG\nPY  - 2026\nDO  - 10.1016/j.pediatrneurol.2010.10.012\nAB  - Cardiofacioneurodevelopmental syndrome (CFNDS, MIM:619123) is a rare genetic disorder caused by bi-allelic pathogenic variants in CCDC32. So far, CFNDS has only been described in four living individuals and one terminated fetus from four families, and the clinical phenotype can include microcephaly,\nUR  - https://pubmed.ncbi.nlm.nih.gov/41639596/\nER  - ",
           "section": "disease_genetics",
           "topic": "CHD_Genetics",
-          "type": "Epigenetics",
-          "score": 5
+          "type": "Review",
+          "score": 4
         },
         {
           "pmid": "41797063",
@@ -72,6 +50,27 @@
           "score": 4
         },
         {
+          "pmid": "41919412",
+          "title": "A novel homozygous PPP1R13L frameshift variant in a child with syndromic dilated cardiomyopathy and fatal arrhythmia.",
+          "abstract": "BACKGROUND: Dilated cardiomyopathy is a rare but severe myocardial disease in the paediatric population, often leading to heart failure, heart transplantation, or sudden cardiac death. Genetic factors are a major contributor to childhood dilated cardiomyopathy. Recently, biallelic variants in the PPP1R13L gene have been implicated in a novel syndromic form of early-onset dilated cardiomyopathy, characterised by cardiac dysfunction alongside variable ectodermal features. CASE PRESENTATION: We rep\u2026",
+          "abstract_full": "BACKGROUND: Dilated cardiomyopathy is a rare but severe myocardial disease in the paediatric population, often leading to heart failure, heart transplantation, or sudden cardiac death. Genetic factors are a major contributor to childhood dilated cardiomyopathy. Recently, biallelic variants in the PPP1R13L gene have been implicated in a novel syndromic form of early-onset dilated cardiomyopathy, characterised by cardiac dysfunction alongside variable ectodermal features. CASE PRESENTATION: We report a 4-year-old boy who presented with decompensated heart failure and echocardiographic findings consistent with dilated cardiomyopathy. Syndromic features included sparse, dry hair, high anterior hairline, broad nasal bridge, and pointed teeth. Genetic analysis revealed a novel homozygous frameshift variant in the PPP1R13L gene (c.2368_2375dup; p. Pro793Glyfs*32), classified as pathogenic. The clinical course was complicated by recurrent ventricular arrhythmias and ultimately sudden cardiac death. CONCLUSION: PPP1R13L-related cardiomyopathy should be considered in children with early-onset dilated cardiomyopathy and syndromic features. Early diagnosis is critical for clinical management, arrhythmia surveillance, and appropriate family counselling.",
+          "bullets": [
+            "PPP1R13L-related cardiomyopathy should be considered in children with early-onset dilated cardiomyopathy and syndromic features.",
+            "Early diagnosis is critical for clinical management, arrhythmia surveillance, and appropriate family counselling."
+          ],
+          "authors": "Kurt H, Ulger Z, Levent E, et al.",
+          "journal": "Cardiology in the young",
+          "year": "2026",
+          "month": "Apr",
+          "doi": "10.1017/S1047951126111883",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41919412/",
+          "ris": "TY  - JOUR\nAU  - Kurt H\nAU  - Ulger Z\nAU  - Levent E\nTI  - A novel homozygous PPP1R13L frameshift variant in a child with syndromic dilated cardiomyopathy and fatal arrhythmia.\nJO  - Cardiology in the young\nPY  - 2026\nDO  - 10.1017/S1047951126111883\nAB  - BACKGROUND: Dilated cardiomyopathy is a rare but severe myocardial disease in the paediatric population, often leading to heart failure, heart transplantation, or sudden cardiac death. Genetic factors are a major contributor to childhood dilated cardiomyopathy. Recently, biallelic variants in the PP\nUR  - https://pubmed.ncbi.nlm.nih.gov/41919412/\nER  - ",
+          "section": "disease_genetics",
+          "topic": "DCM_Genetics",
+          "type": "Research article",
+          "score": 3
+        },
+        {
           "pmid": "41747776",
           "title": "Inflammatory cardiomyopathy: Position paper of the Italian Society of Cardiology Working Group on cardiomyopathies and pericardial diseases in collaboration with the Italian Society of Cardiology Working Group on cardiac magnetic resonance.",
           "abstract": "Inflammatory cardiomyopathy (iCMP) usually represents the chronic, hypokinetic phenotype within the myocarditis spectrum, characterized by persistent myocardial inflammation, systolic ventricular dysfunction, and adverse remodelling. It frequently evolves from prior acute or subacute myocarditis and is associated with significantly worse outcomes, including progression to dilated cardiomyopathy, heart failure, and arrhythmias. The condition arises from heterogeneous causes-infectious, autoimmune\u2026",
@@ -94,26 +93,70 @@
           "score": 2
         },
         {
-          "pmid": "41876776",
-          "title": "Genetic diagnosis of sibling cases initiated by identification of outlier gene expression using transcriptome analysis of urine-derived cells.",
-          "abstract": "Transcriptome analysis can improve the diagnostic yield for neurodevelopmental disorders. We applied RNA-seq using urine-derived cells (UDCs) to a family with two affected brothers with a muscular dystrophy-dystroglycanopathy and dilated cardiomyopathy. Exome sequencing identified a maternally inherited heterozygous B3GALNT2 splice-site variant (NM_152490.5:c.261-2A>G) but no second pathogenic allele. UDCs RNA-seq with OUTRIDER detected markedly decreased expression of B3GALNT2 in the proband an\u2026",
-          "abstract_full": "Transcriptome analysis can improve the diagnostic yield for neurodevelopmental disorders. We applied RNA-seq using urine-derived cells (UDCs) to a family with two affected brothers with a muscular dystrophy-dystroglycanopathy and dilated cardiomyopathy. Exome sequencing identified a maternally inherited heterozygous B3GALNT2 splice-site variant (NM_152490.5:c.261-2A>G) but no second pathogenic allele. UDCs RNA-seq with OUTRIDER detected markedly decreased expression of B3GALNT2 in the proband and a milder decrease in the father, suggesting a paternally inherited non-coding variant. Genome sequencing revealed a 357-bp heterozygous deletion encompassing the B3GALNT2 promoter and transcription start site, which segregated with the phenotype. RNA-seq supported aberrant splicing from the splice-site allele and reduction of transcripts from the deletion allele. These findings provide proof of concept that UDCs RNA-seq-guided outlier-expression analysis can identify non-coding second hits and support genetic diagnosis, and they suggest that cardiac surveillance may be warranted in B3GALNT2-related disorder as they age.",
+          "pmid": "41486098",
+          "title": "Marfan Syndrome Associated With Intellectual Disability and Behavioral Anomalies: Further Evidence for the Effect of Compound Heterozygous Variants in FBN1 on Phenotypic Severity.",
+          "abstract": "Marfan syndrome (MFS) is a rare connective tissue disorder characterized by involvement of the cardiovascular, ocular, and musculoskeletal systems. Pathogenic variants in FBN1 cause most of the MFS cases; however, intellectual disability (ID) is rarely observed. A non-consanguineous Pakistani family with four affected individuals was recruited. Physical examinations, echocardiography, and doppler ultrasound were performed as part of the clinical assessment. Exome sequencing was conducted on the \u2026",
+          "abstract_full": "Marfan syndrome (MFS) is a rare connective tissue disorder characterized by involvement of the cardiovascular, ocular, and musculoskeletal systems. Pathogenic variants in FBN1 cause most of the MFS cases; however, intellectual disability (ID) is rarely observed. A non-consanguineous Pakistani family with four affected individuals was recruited. Physical examinations, echocardiography, and doppler ultrasound were performed as part of the clinical assessment. Exome sequencing was conducted on the index patient, and Sanger sequencing was performed for the entire family. ID was the primary symptom in all the affected individuals. A detailed examination showed that all affected individuals and their affected mother were tall, had long limbs, craniofacial abnormalities, and exhibited low IQ, aggressive, and hyperactive behaviors. Heart defects, such as atrial septal defects and pulmonary hypertension, were observed in one affected individual and her mother. Genetic analysis identified two rare missense variants in FBN1, c.1552G>A (p.Gly518Arg) and c.3046A>G (p.Thr1016Ala), both predicted to be deleterious. The p.Gly518Arg variant is predicted to be likely pathogenic, while the p.Thr1016Ala variant is of uncertain significance. Notably, these variants were found in two affected individuals in a compound heterozygous state, correlating with more severe symptoms. Each variant alone, seen in the two patients, is associated with milder symptoms, indicating incomplete penetrance. In conclusion, this study identified rare heterozygous missense variants in FBN1, suggesting a potential connection between neurodevelopmental outcomes and variants in FBN1. However, further research is needed to clarify the role of FBN1 in ID.",
           "bullets": [
-            "Exome sequencing identified a maternally inherited heterozygous B3GALNT2 splice-site variant (NM_152490.5:c.261-2A>G) but no second pathogenic allele.",
-            "Genome sequencing revealed a 357-bp heterozygous deletion encompassing the B3GALNT2 promoter and transcription start site, which segregated with the phenotype.",
-            "These findings provide proof of concept that UDCs RNA-seq-guided outlier-expression analysis can identify non-coding second hits and support genetic diagnosis, and they suggest that cardiac surveillance may be warranted\u2026"
+            "Genetic analysis identified two rare missense variants in FBN1, c.1552G>A (p.Gly518Arg) and c.3046A>G (p.Thr1016Ala), both predicted to be deleterious.",
+            "Each variant alone, seen in the two patients, is associated with milder symptoms, indicating incomplete penetrance.",
+            "In conclusion, this study identified rare heterozygous missense variants in FBN1, suggesting a potential connection between neurodevelopmental outcomes and variants in FBN1."
           ],
-          "authors": "Takagi T, Miyamoto S, Shimizu K, et al.",
-          "journal": "Journal of human genetics",
+          "authors": "Khan A, Kakar N, Kakar A, et al.",
+          "journal": "American journal of medical genetics. Part A",
           "year": "2026",
-          "month": "Mar",
-          "doi": "10.1016/j.jgg.2024.01.001",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/41876776/",
-          "ris": "TY  - JOUR\nAU  - Takagi T\nAU  - Miyamoto S\nAU  - Shimizu K\nTI  - Genetic diagnosis of sibling cases initiated by identification of outlier gene expression using transcriptome analysis of urine-derived cells.\nJO  - Journal of human genetics\nPY  - 2026\nDO  - 10.1016/j.jgg.2024.01.001\nAB  - Transcriptome analysis can improve the diagnostic yield for neurodevelopmental disorders. We applied RNA-seq using urine-derived cells (UDCs) to a family with two affected brothers with a muscular dystrophy-dystroglycanopathy and dilated cardiomyopathy. Exome sequencing identified a maternally inher\nUR  - https://pubmed.ncbi.nlm.nih.gov/41876776/\nER  - ",
+          "month": "May",
+          "doi": "10.1002/ajmga.70038",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41486098/",
+          "ris": "TY  - JOUR\nAU  - Khan A\nAU  - Kakar N\nAU  - Kakar A\nTI  - Marfan Syndrome Associated With Intellectual Disability and Behavioral Anomalies: Further Evidence for the Effect of Compound Heterozygous Variants in FBN1 on Phenotypic Severity.\nJO  - American journal of medical genetics. Part A\nPY  - 2026\nDO  - 10.1002/ajmga.70038\nAB  - Marfan syndrome (MFS) is a rare connective tissue disorder characterized by involvement of the cardiovascular, ocular, and musculoskeletal systems. Pathogenic variants in FBN1 cause most of the MFS cases; however, intellectual disability (ID) is rarely observed. A non-consanguineous Pakistani family\nUR  - https://pubmed.ncbi.nlm.nih.gov/41486098/\nER  - ",
+          "section": "disease_genetics",
+          "topic": "CHD_Genetics",
+          "type": "Research article",
+          "score": 1
+        },
+        {
+          "pmid": "41508548",
+          "title": "Homozygous MGME1 Variant in Turkish Siblings: First Reported Case With Successful Heart Transplantation, Expanding the Clinical Spectrum of MGME1 -Related Mitochondrial Disease.",
+          "abstract": "We report two siblings harboring a homozygous MGME1 variant, NM_052865.4:c.818\u2009T>A; p.(Val273Glu), both presenting with ptosis, myopathy, scoliosis, and gastrointestinal symptoms. The index patient developed progressive, medically refractory dilated cardiomyopathy and underwent successful orthotopic heart transplantation (OHT). Reanalysis of previously negative WES identified the variant in the index case, and segregation by Sanger sequencing confirmed homozygosity in both siblings. Although sev\u2026",
+          "abstract_full": "We report two siblings harboring a homozygous MGME1 variant, NM_052865.4:c.818\u2009T>A; p.(Val273Glu), both presenting with ptosis, myopathy, scoliosis, and gastrointestinal symptoms. The index patient developed progressive, medically refractory dilated cardiomyopathy and underwent successful orthotopic heart transplantation (OHT). Reanalysis of previously negative WES identified the variant in the index case, and segregation by Sanger sequencing confirmed homozygosity in both siblings. Although several clinical findings overlap with previously described MGME1-related disease, the detected variant remains classified as a variant of uncertain significance (VUS); thus, functional evidence is needed to better understand its potential causal relevance. Additionally, this report underscores the importance of periodic genomic data reanalysis and highlights the variable expressivity that may occur even within the same family.",
+          "bullets": [
+            "We report two siblings harboring a homozygous MGME1 variant, NM_052865.4:c.818\u2009T>A; p.(Val273Glu), both presenting with ptosis, myopathy, scoliosis, and gastrointestinal symptoms.",
+            "Reanalysis of previously negative WES identified the variant in the index case, and segregation by Sanger sequencing confirmed homozygosity in both siblings.",
+            "Additionally, this report underscores the importance of periodic genomic data reanalysis and highlights the variable expressivity that may occur even within the same family."
+          ],
+          "authors": "Acikgoz N, Demir G, Yildiz Y, et al.",
+          "journal": "American journal of medical genetics. Part A",
+          "year": "2026",
+          "month": "May",
+          "doi": "10.1002/ajmga.70049",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41508548/",
+          "ris": "TY  - JOUR\nAU  - Acikgoz N\nAU  - Demir G\nAU  - Yildiz Y\nTI  - Homozygous MGME1 Variant in Turkish Siblings: First Reported Case With Successful Heart Transplantation, Expanding the Clinical Spectrum of MGME1 -Related Mitochondrial Disease.\nJO  - American journal of medical genetics. Part A\nPY  - 2026\nDO  - 10.1002/ajmga.70049\nAB  - We report two siblings harboring a homozygous MGME1 variant, NM_052865.4:c.818\u2009T>A; p.(Val273Glu), both presenting with ptosis, myopathy, scoliosis, and gastrointestinal symptoms. The index patient developed progressive, medically refractory dilated cardiomyopathy and underwent successful orthotopic\nUR  - https://pubmed.ncbi.nlm.nih.gov/41508548/\nER  - ",
           "section": "disease_genetics",
           "topic": "DCM_Genetics",
-          "type": "Research article",
-          "score": 2
+          "type": "Sequencing study",
+          "score": 1
+        },
+        {
+          "pmid": "41930574",
+          "title": "CYP17A1 Locus: Regulatory Mechanisms and Clinical Associations With Cardiovascular Disease and Metabolic Syndrome.",
+          "abstract": "The CYP17A1 gene encodes the P450 17\u03b1-hydroxylase/17,20-lyase protein, a key enzyme in steroidogenesis. In the past, it was associated with disorders such as congenital adrenal hyperplasia, disorders of sex development, and castration resistant prostate cancer. Recently, genome-wide association studies have revealed that the locus harboring the CYP17A1 gene is strongly associated with multiple other traits, including cardiovascular and metabolic characteristics. This review summarizes the curren\u2026",
+          "abstract_full": "The CYP17A1 gene encodes the P450 17\u03b1-hydroxylase/17,20-lyase protein, a key enzyme in steroidogenesis. In the past, it was associated with disorders such as congenital adrenal hyperplasia, disorders of sex development, and castration resistant prostate cancer. Recently, genome-wide association studies have revealed that the locus harboring the CYP17A1 gene is strongly associated with multiple other traits, including cardiovascular and metabolic characteristics. This review summarizes the current knowledge about the regulatory mechanisms and monogenic disease implications of the CYP17A1 gene, then attempts to link the locus to cardiovascular and metabolic diseases, using experimental evidence supporting these relationships. Additionally, the review also speculates that the research focus may have been placed solely on one gene of the locus, which could have obscured the effects of other neighboring ones. In summary, our review aimed to highlight this locus as a complex regulatory region with implications that extend beyond a single gene.",
+          "bullets": [
+            "In the past, it was associated with disorders such as congenital adrenal hyperplasia, disorders of sex development, and castration resistant prostate cancer.",
+            "Recently, genome-wide association studies have revealed that the locus harboring the CYP17A1 gene is strongly associated with multiple other traits, including cardiovascular and metabolic characteristics.",
+            "In summary, our review aimed to highlight this locus as a complex regulatory region with implications that extend beyond a single gene."
+          ],
+          "authors": "Chakkor Y, Aherrahrou R",
+          "journal": "IUBMB life",
+          "year": "2026",
+          "month": "Apr",
+          "doi": "10.1002/iub.70096",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41930574/",
+          "ris": "TY  - JOUR\nAU  - Chakkor Y\nAU  - Aherrahrou R\nTI  - CYP17A1 Locus: Regulatory Mechanisms and Clinical Associations With Cardiovascular Disease and Metabolic Syndrome.\nJO  - IUBMB life\nPY  - 2026\nDO  - 10.1002/iub.70096\nAB  - The CYP17A1 gene encodes the P450 17\u03b1-hydroxylase/17,20-lyase protein, a key enzyme in steroidogenesis. In the past, it was associated with disorders such as congenital adrenal hyperplasia, disorders of sex development, and castration resistant prostate cancer. Recently, genome-wide association stud\nUR  - https://pubmed.ncbi.nlm.nih.gov/41930574/\nER  - ",
+          "section": "disease_genetics",
+          "topic": "CHD_Genetics",
+          "type": "Review",
+          "score": 0
         },
         {
           "pmid": "41236190",
@@ -138,7 +181,7 @@
           "score": 0
         }
       ],
-      "total": 6
+      "total": 8
     },
     "prs_disease": {
       "papers": [],
@@ -147,26 +190,26 @@
     "prs_methods": {
       "papers": [
         {
-          "pmid": "41877227",
-          "title": "Digenic inheritance of mutations in SPG7 and AFG3L2 causes motor neuron and cerebellar disorders.",
-          "abstract": "BACKGROUND: Biallelic SPG7 mutations cause one of the most common forms of hereditary spastic paraplegia (HSP). Several reports have suggested that heterozygous SPG7 variants may also play a role in HSP, but also in amyotrophic lateral sclerosis (ALS). However, it remains controversial whether heterozygous SPG7 mutations are pathogenic on their own, or if other mechanisms are at play. We recently provided evidence for non-Mendelian inheritance in spastic paraplegia 7 (SPG7), as heterozygous carr\u2026",
-          "abstract_full": "BACKGROUND: Biallelic SPG7 mutations cause one of the most common forms of hereditary spastic paraplegia (HSP). Several reports have suggested that heterozygous SPG7 variants may also play a role in HSP, but also in amyotrophic lateral sclerosis (ALS). However, it remains controversial whether heterozygous SPG7 mutations are pathogenic on their own, or if other mechanisms are at play. We recently provided evidence for non-Mendelian inheritance in spastic paraplegia 7 (SPG7), as heterozygous carriers of SPG7 mutations often also carried mutations in other disease-related genes, including AFG3L2, more frequently than expected by chance. Given that SPG7 and AFG3L2 encode interacting subunits of the mitochondrial m-AAA protease complex, we hypothesized that combined heterozygous mutations in these genes may act synergistically to disrupt mitochondrial function and contribute to disease. In this study, we aimed to examine whether digenic heterozygous mutations in SPG7 and AFG3L2 can lead to a spectrum of neurodegenerative disorders. METHODS: We first analyzed genome and exome sequencing data of 6644 unrelated individuals including 4817 motor neuron disorder (MND) and ataxia patients and 1827 controls. We next analyzed an additional 18,748 exome data from rare disease cohorts to further examine the occurrence of variants in SPG7 and AFG3L2. RESULTS: Among the first 4817 MND and ataxia patients, we identified a total of 6 patients, 4 of whom were unrelated, who carried potentially pathogenic variants in both SPG7 and AFG3L2, in contrast to none in 1827 unrelated controls. Further analysis of the 18,748 additional patients with rare disease, as well as a comprehensive literature review, identified 6 more patients, 5 of whom were unrelated, who had digenic mutations in SPG7 and AFG3L2. In the two families we identified, digenic mutations in SPG7 and AFG3L2 perfectly segregated with the disease. The 12 patients reported here exhibited predominant signs of motor neuron and cerebellar involvement. CONCLUSIONS: Our findings demonstrate that digenic inheritance of concurrent heterozygous mutations in SPG7 and AFG3L2 may cause motor neuron and cerebellar disorders. Screening of the entire SPG7 and AFG3L2 genes in genetically undiagnosed cases of MND and spastic ataxia may help to increase the diagnostic yield.",
+          "pmid": "41917433",
+          "title": "Large-scale exome analyses reveal new rare variant contributions in amyotrophic lateral sclerosis.",
+          "abstract": "Amyotrophic lateral sclerosis (ALS) is a heritable disorder where rare variants with low-to-moderate penetrance are thought to dominate genetic risk. To identify such rare variants, we harmonized and analyzed exome data from 22 cohorts, totaling 17,919 individuals with ALS and 200,703 controls across discovery and replication phases. Rare variant analyses identified several new risk genes, with replication confirming association of YKT6 and supporting HTR3C, GBGT1 and KNTC1. We also provide stro\u2026",
+          "abstract_full": "Amyotrophic lateral sclerosis (ALS) is a heritable disorder where rare variants with low-to-moderate penetrance are thought to dominate genetic risk. To identify such rare variants, we harmonized and analyzed exome data from 22 cohorts, totaling 17,919 individuals with ALS and 200,703 controls across discovery and replication phases. Rare variant analyses identified several new risk genes, with replication confirming association of YKT6 and supporting HTR3C, GBGT1 and KNTC1. We also provide strong, independent validation for genes with limited previous evidence: ARPP21, DNAJC7 and CFAP410. Notably, in ARPP21, we identified a new high-effect variant (p.P747L) and confirmed that p.P563L is an ALS-associated variant leading to an aggressive disease course. Beyond new discoveries, our analyses largely recapitulated the known genetic architecture of ALS, identifying risk variants in over 20% of cases and supporting a cumulative oligogenic risk model. These findings highlight new translational targets and show that rare variant analyses capture substantially more genetic risk than common variant genome-wide association studies.",
           "bullets": [
-            "Among the first 4817 MND and ataxia patients, we identified a total of 6 patients, 4 of whom were unrelated, who carried potentially pathogenic variants in both SPG7 and AFG3L2, in contrast to none in 1827 unrelated\u2026",
-            "Further analysis of the 18,748 additional patients with rare disease, as well as a comprehensive literature review, identified 6 more patients, 5 of whom were unrelated, who had digenic mutations in SPG7 and AFG3L2.",
-            "In the two families we identified, digenic mutations in SPG7 and AFG3L2 perfectly segregated with the disease."
+            "Rare variant analyses identified several new risk genes, with replication confirming association of YKT6 and supporting HTR3C, GBGT1 and KNTC1.",
+            "Notably, in ARPP21, we identified a new high-effect variant (p.P747L) and confirmed that p.P563L is an ALS-associated variant leading to an aggressive disease course.",
+            "These findings highlight new translational targets and show that rare variant analyses capture substantially more genetic risk than common variant genome-wide association studies."
           ],
-          "authors": "Estiar M, Yu E, Varghaei P, et al.",
-          "journal": "BMC medicine",
+          "authors": "Hop P, Kooyman M, Kenna B, et al.",
+          "journal": "Nature genetics",
           "year": "2026",
           "month": "Mar",
-          "doi": "10.1186/s12916-026-04805-z",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/41877227/",
-          "ris": "TY  - JOUR\nAU  - Estiar M\nAU  - Yu E\nAU  - Varghaei P\nTI  - Digenic inheritance of mutations in SPG7 and AFG3L2 causes motor neuron and cerebellar disorders.\nJO  - BMC medicine\nPY  - 2026\nDO  - 10.1186/s12916-026-04805-z\nAB  - BACKGROUND: Biallelic SPG7 mutations cause one of the most common forms of hereditary spastic paraplegia (HSP). Several reports have suggested that heterozygous SPG7 variants may also play a role in HSP, but also in amyotrophic lateral sclerosis (ALS). However, it remains controversial whether heter\nUR  - https://pubmed.ncbi.nlm.nih.gov/41877227/\nER  - ",
+          "doi": "10.1093/bioinformatics/btq340",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41917433/",
+          "ris": "TY  - JOUR\nAU  - Hop P\nAU  - Kooyman M\nAU  - Kenna B\nTI  - Large-scale exome analyses reveal new rare variant contributions in amyotrophic lateral sclerosis.\nJO  - Nature genetics\nPY  - 2026\nDO  - 10.1093/bioinformatics/btq340\nAB  - Amyotrophic lateral sclerosis (ALS) is a heritable disorder where rare variants with low-to-moderate penetrance are thought to dominate genetic risk. To identify such rare variants, we harmonized and analyzed exome data from 22 cohorts, totaling 17,919 individuals with ALS and 200,703 controls acros\nUR  - https://pubmed.ncbi.nlm.nih.gov/41917433/\nER  - ",
           "section": "prs_methods",
           "topic": "Oligogenic_Digenic",
-          "type": "Review",
-          "score": 3
+          "type": "GWAS",
+          "score": 6
         }
       ],
       "total": 1
@@ -201,48 +244,48 @@
   },
   "selected_papers": [
     {
-      "pmid": "41878807",
-      "title": "Evaluation of Women With Peripartum or Dilated Cardiomyopathy and Their First-Degree Relatives: The DCM Precision Medicine Study.",
-      "abstract": "BACKGROUND: Rare variant genetics have been associated with peripartum cardiomyopathy (PPCM), but the role of genetics remains unsettled. The study sought to compare dilated cardiomyopathy (DCM) genetic risk in first-degree relatives (FDRs) of female patients (probands) with DCM or PPCM to gain causal inference, and to assess DCM-relevant rare variant prevalence in DCM/PPCM probands and population controls. METHODS: Clinical and genetic data were analyzed from the DCM Precision Medicine Study. R\u2026",
-      "abstract_full": "BACKGROUND: Rare variant genetics have been associated with peripartum cardiomyopathy (PPCM), but the role of genetics remains unsettled. The study sought to compare dilated cardiomyopathy (DCM) genetic risk in first-degree relatives (FDRs) of female patients (probands) with DCM or PPCM to gain causal inference, and to assess DCM-relevant rare variant prevalence in DCM/PPCM probands and population controls. METHODS: Clinical and genetic data were analyzed from the DCM Precision Medicine Study. Risk of DCM or partial DCM, where partial DCM was defined as left ventricular enlargement or a left ventricular ejection fraction of <50%, was estimated in 665 FDRs from 452 female probands, all of whom had been pregnant; 67 had PPCM and 385 had DCM; prevalence of pathogenic, likely pathogenic, or uncertain significance variants was estimated among probands. RESULTS: The risk of DCM/partial DCM for FDRs of PPCM probands was similar to that for FDRs of DCM probands (hazard ratio, 0.77 [95% CI, 0.47-1.28]). Estimated DCM prevalence among the lowest-risk FDRs of non-Hispanic European ancestry probands with PPCM (7.0% [95% CI, 0%-14.1%] females, 9.0% [95% CI, 1.6%-16.3%] males) exceeded population estimates from a UK Biobank study (0.30% females, 0.63% males). Estimated prevalences of a pathogenic, likely pathogenic, or uncertain significance variant among African ancestry and European ancestry probands with PPCM were 55.4% (95% CI, 33.1%-77.7%) and 66.0% (95% CI, 38.6%-93.3%), respectively. The estimated prevalence of pathogenic/likely pathogenic variants among European ancestry PPCM probands (26.6% [95% CI, 12.6%-40.6%]) exceeded a population estimate from a UK Biobank study (0.6%). CONCLUSIONS: The risk of DCM/partial DCM among FDRs was similar regardless of whether their probands had PPCM or DCM. Also, DCM-relevant rare variant findings for females with PPCM or DCM were similar and greater than in population controls, suggesting a similar causal basis for PPCM and DCM. These findings underscore the need for genetic evaluations in all patients with PPCM. REGISTRATION: URL: https://www.clinicaltrials.gov; Unique identifier: NCT03037632.",
+      "pmid": "41917433",
+      "title": "Large-scale exome analyses reveal new rare variant contributions in amyotrophic lateral sclerosis.",
+      "abstract": "Amyotrophic lateral sclerosis (ALS) is a heritable disorder where rare variants with low-to-moderate penetrance are thought to dominate genetic risk. To identify such rare variants, we harmonized and analyzed exome data from 22 cohorts, totaling 17,919 individuals with ALS and 200,703 controls across discovery and replication phases. Rare variant analyses identified several new risk genes, with replication confirming association of YKT6 and supporting HTR3C, GBGT1 and KNTC1. We also provide stro\u2026",
+      "abstract_full": "Amyotrophic lateral sclerosis (ALS) is a heritable disorder where rare variants with low-to-moderate penetrance are thought to dominate genetic risk. To identify such rare variants, we harmonized and analyzed exome data from 22 cohorts, totaling 17,919 individuals with ALS and 200,703 controls across discovery and replication phases. Rare variant analyses identified several new risk genes, with replication confirming association of YKT6 and supporting HTR3C, GBGT1 and KNTC1. We also provide strong, independent validation for genes with limited previous evidence: ARPP21, DNAJC7 and CFAP410. Notably, in ARPP21, we identified a new high-effect variant (p.P747L) and confirmed that p.P563L is an ALS-associated variant leading to an aggressive disease course. Beyond new discoveries, our analyses largely recapitulated the known genetic architecture of ALS, identifying risk variants in over 20% of cases and supporting a cumulative oligogenic risk model. These findings highlight new translational targets and show that rare variant analyses capture substantially more genetic risk than common variant genome-wide association studies.",
       "bullets": [
-        "The risk of DCM/partial DCM for FDRs of PPCM probands was similar to that for FDRs of DCM probands (hazard ratio, 0.77 [95% CI, 0.47-1.28]).",
-        "Estimated DCM prevalence among the lowest-risk FDRs of non-Hispanic European ancestry probands with PPCM (7.0% [95% CI, 0%-14.1%] females, 9.0% [95% CI, 1.6%-16.",
-        "Estimated prevalences of a pathogenic, likely pathogenic, or uncertain significance variant among African ancestry and European ancestry probands with PPCM were 55.4% (95% CI, 33.1%-77.7%) and 66.0% (95% CI, 38.6%-93."
+        "Rare variant analyses identified several new risk genes, with replication confirming association of YKT6 and supporting HTR3C, GBGT1 and KNTC1.",
+        "Notably, in ARPP21, we identified a new high-effect variant (p.P747L) and confirmed that p.P563L is an ALS-associated variant leading to an aggressive disease course.",
+        "These findings highlight new translational targets and show that rare variant analyses capture substantially more genetic risk than common variant genome-wide association studies."
       ],
-      "authors": "Kransdorf E, Jain R, Mead J, et al.",
-      "journal": "Circulation. Genomic and precision medicine",
+      "authors": "Hop P, Kooyman M, Kenna B, et al.",
+      "journal": "Nature genetics",
       "year": "2026",
       "month": "Mar",
-      "doi": "10.1161/CIRCGEN.125.005541",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41878807/",
-      "ris": "TY  - JOUR\nAU  - Kransdorf E\nAU  - Jain R\nAU  - Mead J\nTI  - Evaluation of Women With Peripartum or Dilated Cardiomyopathy and Their First-Degree Relatives: The DCM Precision Medicine Study.\nJO  - Circulation. Genomic and precision medicine\nPY  - 2026\nDO  - 10.1161/CIRCGEN.125.005541\nAB  - BACKGROUND: Rare variant genetics have been associated with peripartum cardiomyopathy (PPCM), but the role of genetics remains unsettled. The study sought to compare dilated cardiomyopathy (DCM) genetic risk in first-degree relatives (FDRs) of female patients (probands) with DCM or PPCM to gain caus\nUR  - https://pubmed.ncbi.nlm.nih.gov/41878807/\nER  - ",
-      "section": "disease_genetics",
-      "topic": "DCM_Genetics",
-      "type": "Sequencing study",
-      "score": 7
+      "doi": "10.1093/bioinformatics/btq340",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41917433/",
+      "ris": "TY  - JOUR\nAU  - Hop P\nAU  - Kooyman M\nAU  - Kenna B\nTI  - Large-scale exome analyses reveal new rare variant contributions in amyotrophic lateral sclerosis.\nJO  - Nature genetics\nPY  - 2026\nDO  - 10.1093/bioinformatics/btq340\nAB  - Amyotrophic lateral sclerosis (ALS) is a heritable disorder where rare variants with low-to-moderate penetrance are thought to dominate genetic risk. To identify such rare variants, we harmonized and analyzed exome data from 22 cohorts, totaling 17,919 individuals with ALS and 200,703 controls acros\nUR  - https://pubmed.ncbi.nlm.nih.gov/41917433/\nER  - ",
+      "section": "prs_methods",
+      "topic": "Oligogenic_Digenic",
+      "type": "GWAS",
+      "score": 6
     },
     {
-      "pmid": "41882293",
-      "title": "DNA methylation signature and clinical delineation of PACS1-related disorder in 24 unreported individuals.",
-      "abstract": "PACS1-related disorder (PACS1-RD), also known as Schuurs-Hoeijmakers syndrome, is a rare autosomal dominant neurodevelopmental disorder predominantly caused by the recurrent de novo c.607\u2009C\u2009>\u2009T p.(Arg203Trp) gain-of-function variant. Although core clinical features have been delineated, systematic data on developmental milestones, growth parameters, and clinical variability remain limited. We assembled a series of 24 previously unreported, unrelated individuals with PACS1-RD and compared their c\u2026",
-      "abstract_full": "PACS1-related disorder (PACS1-RD), also known as Schuurs-Hoeijmakers syndrome, is a rare autosomal dominant neurodevelopmental disorder predominantly caused by the recurrent de novo c.607\u2009C\u2009>\u2009T p.(Arg203Trp) gain-of-function variant. Although core clinical features have been delineated, systematic data on developmental milestones, growth parameters, and clinical variability remain limited. We assembled a series of 24 previously unreported, unrelated individuals with PACS1-RD and compared their clinical and molecular features with 84 individuals from the literature. Genome-wide DNA methylation profiling was performed on peripheral blood DNA using bisulfite sequencing, interrogating ~860,000 CpG sites. Our study expands the phenotypic spectrum of PACS1-RD by reporting median age at independent walking and first spoken words (both 24 months), cross-sectional growth parameters, and previously undescribed clinical features, including congenital kidney malformations (25%) and feeding difficulties (75%). Compared with the literature, our series showed a higher prevalence of cryptorchidism (77.8%), congenital heart defect (45.8%), and hypotonia (75%). Methylation analysis identified a specific episignature for PACS1-RD, consistently observed in individuals carrying either the canonical p.(Arg203Trp) or the non-recurrent p.(Arg203Gln) variant. This episignature further enabled PACS1-RD diagnosis in one unsolved individual initially suspected of Kabuki syndrome. These findings refine the clinical delineation of PACS1-RD and establish an episignature that will support diagnosis in unresolved neurodevelopmental disorders and guide pathogenicity assessment of non-recurrent PACS1 variants.",
+      "pmid": "41639596",
+      "title": "Two siblings with CCDC32-related cardiofacioneurodevelopmental syndrome diagnosed by clinical RNA-sequencing and review of literature.",
+      "abstract": "Cardiofacioneurodevelopmental syndrome (CFNDS, MIM:619123) is a rare genetic disorder caused by bi-allelic pathogenic variants in CCDC32. So far, CFNDS has only been described in four living individuals and one terminated fetus from four families, and the clinical phenotype can include microcephaly, facial malformations, developmental delay, cerebellar hypoplasia, and cardiac anomalies. We present a family with two affected individuals who were diagnosed through clinical RNA sequencing (RNA-seq)\u2026",
+      "abstract_full": "Cardiofacioneurodevelopmental syndrome (CFNDS, MIM:619123) is a rare genetic disorder caused by bi-allelic pathogenic variants in CCDC32. So far, CFNDS has only been described in four living individuals and one terminated fetus from four families, and the clinical phenotype can include microcephaly, facial malformations, developmental delay, cerebellar hypoplasia, and cardiac anomalies. We present a family with two affected individuals who were diagnosed through clinical RNA sequencing (RNA-seq) after conventional DNA diagnostics did not yield a molecular cause. Skipping of two exons in CCDC32 transcript was identified, consistent with a bi-allelic deletion including exons 3 and 4 of CCDC32. This deletion was not detected in previous SNP array analyses and trio exome sequencing focusing on genes related to intellectual disability and congenital malformations, highlighting the complementary value of RNA-seq. Furthermore, we review the clinical phenotype of this rare disorder and its potential disease mechanisms.",
       "bullets": [
-        "Genome-wide DNA methylation profiling was performed on peripheral blood DNA using bisulfite sequencing, interrogating ~860,000 CpG sites.",
-        "Methylation analysis identified a specific episignature for PACS1-RD, consistently observed in individuals carrying either the canonical p.(Arg203Trp) or the non-recurrent p.(Arg203Gln) variant.",
-        "These findings refine the clinical delineation of PACS1-RD and establish an episignature that will support diagnosis in unresolved neurodevelopmental disorders and guide pathogenicity assessment of non-recurrent PACS1\u2026"
+        "Skipping of two exons in CCDC32 transcript was identified, consistent with a bi-allelic deletion including exons 3 and 4 of CCDC32.",
+        "This deletion was not detected in previous SNP array analyses and trio exome sequencing focusing on genes related to intellectual disability and congenital malformations, highlighting the complementary value of RNA-seq.",
+        "Furthermore, we review the clinical phenotype of this rare disorder and its potential disease mechanisms."
       ],
-      "authors": "Sabbagh Q, Cenni C, Haghshenas S, et al.",
+      "authors": "Albuainain F, Venema M, Schot R, et al.",
       "journal": "European journal of human genetics : EJHG",
       "year": "2026",
-      "month": "Mar",
-      "doi": "10.1016/j.coi.2008.04.004",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41882293/",
-      "ris": "TY  - JOUR\nAU  - Sabbagh Q\nAU  - Cenni C\nAU  - Haghshenas S\nTI  - DNA methylation signature and clinical delineation of PACS1-related disorder in 24 unreported individuals.\nJO  - European journal of human genetics : EJHG\nPY  - 2026\nDO  - 10.1016/j.coi.2008.04.004\nAB  - PACS1-related disorder (PACS1-RD), also known as Schuurs-Hoeijmakers syndrome, is a rare autosomal dominant neurodevelopmental disorder predominantly caused by the recurrent de novo c.607\u2009C\u2009>\u2009T p.(Arg203Trp) gain-of-function variant. Although core clinical features have been delineated, systematic d\nUR  - https://pubmed.ncbi.nlm.nih.gov/41882293/\nER  - ",
+      "month": "Apr",
+      "doi": "10.1016/j.pediatrneurol.2010.10.012",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41639596/",
+      "ris": "TY  - JOUR\nAU  - Albuainain F\nAU  - Venema M\nAU  - Schot R\nTI  - Two siblings with CCDC32-related cardiofacioneurodevelopmental syndrome diagnosed by clinical RNA-sequencing and review of literature.\nJO  - European journal of human genetics : EJHG\nPY  - 2026\nDO  - 10.1016/j.pediatrneurol.2010.10.012\nAB  - Cardiofacioneurodevelopmental syndrome (CFNDS, MIM:619123) is a rare genetic disorder caused by bi-allelic pathogenic variants in CCDC32. So far, CFNDS has only been described in four living individuals and one terminated fetus from four families, and the clinical phenotype can include microcephaly,\nUR  - https://pubmed.ncbi.nlm.nih.gov/41639596/\nER  - ",
       "section": "disease_genetics",
       "topic": "CHD_Genetics",
-      "type": "Epigenetics",
-      "score": 5
+      "type": "Review",
+      "score": 4
     },
     {
       "pmid": "41797063",
@@ -267,25 +310,24 @@
       "score": 4
     },
     {
-      "pmid": "41877227",
-      "title": "Digenic inheritance of mutations in SPG7 and AFG3L2 causes motor neuron and cerebellar disorders.",
-      "abstract": "BACKGROUND: Biallelic SPG7 mutations cause one of the most common forms of hereditary spastic paraplegia (HSP). Several reports have suggested that heterozygous SPG7 variants may also play a role in HSP, but also in amyotrophic lateral sclerosis (ALS). However, it remains controversial whether heterozygous SPG7 mutations are pathogenic on their own, or if other mechanisms are at play. We recently provided evidence for non-Mendelian inheritance in spastic paraplegia 7 (SPG7), as heterozygous carr\u2026",
-      "abstract_full": "BACKGROUND: Biallelic SPG7 mutations cause one of the most common forms of hereditary spastic paraplegia (HSP). Several reports have suggested that heterozygous SPG7 variants may also play a role in HSP, but also in amyotrophic lateral sclerosis (ALS). However, it remains controversial whether heterozygous SPG7 mutations are pathogenic on their own, or if other mechanisms are at play. We recently provided evidence for non-Mendelian inheritance in spastic paraplegia 7 (SPG7), as heterozygous carriers of SPG7 mutations often also carried mutations in other disease-related genes, including AFG3L2, more frequently than expected by chance. Given that SPG7 and AFG3L2 encode interacting subunits of the mitochondrial m-AAA protease complex, we hypothesized that combined heterozygous mutations in these genes may act synergistically to disrupt mitochondrial function and contribute to disease. In this study, we aimed to examine whether digenic heterozygous mutations in SPG7 and AFG3L2 can lead to a spectrum of neurodegenerative disorders. METHODS: We first analyzed genome and exome sequencing data of 6644 unrelated individuals including 4817 motor neuron disorder (MND) and ataxia patients and 1827 controls. We next analyzed an additional 18,748 exome data from rare disease cohorts to further examine the occurrence of variants in SPG7 and AFG3L2. RESULTS: Among the first 4817 MND and ataxia patients, we identified a total of 6 patients, 4 of whom were unrelated, who carried potentially pathogenic variants in both SPG7 and AFG3L2, in contrast to none in 1827 unrelated controls. Further analysis of the 18,748 additional patients with rare disease, as well as a comprehensive literature review, identified 6 more patients, 5 of whom were unrelated, who had digenic mutations in SPG7 and AFG3L2. In the two families we identified, digenic mutations in SPG7 and AFG3L2 perfectly segregated with the disease. The 12 patients reported here exhibited predominant signs of motor neuron and cerebellar involvement. CONCLUSIONS: Our findings demonstrate that digenic inheritance of concurrent heterozygous mutations in SPG7 and AFG3L2 may cause motor neuron and cerebellar disorders. Screening of the entire SPG7 and AFG3L2 genes in genetically undiagnosed cases of MND and spastic ataxia may help to increase the diagnostic yield.",
+      "pmid": "41919412",
+      "title": "A novel homozygous PPP1R13L frameshift variant in a child with syndromic dilated cardiomyopathy and fatal arrhythmia.",
+      "abstract": "BACKGROUND: Dilated cardiomyopathy is a rare but severe myocardial disease in the paediatric population, often leading to heart failure, heart transplantation, or sudden cardiac death. Genetic factors are a major contributor to childhood dilated cardiomyopathy. Recently, biallelic variants in the PPP1R13L gene have been implicated in a novel syndromic form of early-onset dilated cardiomyopathy, characterised by cardiac dysfunction alongside variable ectodermal features. CASE PRESENTATION: We rep\u2026",
+      "abstract_full": "BACKGROUND: Dilated cardiomyopathy is a rare but severe myocardial disease in the paediatric population, often leading to heart failure, heart transplantation, or sudden cardiac death. Genetic factors are a major contributor to childhood dilated cardiomyopathy. Recently, biallelic variants in the PPP1R13L gene have been implicated in a novel syndromic form of early-onset dilated cardiomyopathy, characterised by cardiac dysfunction alongside variable ectodermal features. CASE PRESENTATION: We report a 4-year-old boy who presented with decompensated heart failure and echocardiographic findings consistent with dilated cardiomyopathy. Syndromic features included sparse, dry hair, high anterior hairline, broad nasal bridge, and pointed teeth. Genetic analysis revealed a novel homozygous frameshift variant in the PPP1R13L gene (c.2368_2375dup; p. Pro793Glyfs*32), classified as pathogenic. The clinical course was complicated by recurrent ventricular arrhythmias and ultimately sudden cardiac death. CONCLUSION: PPP1R13L-related cardiomyopathy should be considered in children with early-onset dilated cardiomyopathy and syndromic features. Early diagnosis is critical for clinical management, arrhythmia surveillance, and appropriate family counselling.",
       "bullets": [
-        "Among the first 4817 MND and ataxia patients, we identified a total of 6 patients, 4 of whom were unrelated, who carried potentially pathogenic variants in both SPG7 and AFG3L2, in contrast to none in 1827 unrelated\u2026",
-        "Further analysis of the 18,748 additional patients with rare disease, as well as a comprehensive literature review, identified 6 more patients, 5 of whom were unrelated, who had digenic mutations in SPG7 and AFG3L2.",
-        "In the two families we identified, digenic mutations in SPG7 and AFG3L2 perfectly segregated with the disease."
+        "PPP1R13L-related cardiomyopathy should be considered in children with early-onset dilated cardiomyopathy and syndromic features.",
+        "Early diagnosis is critical for clinical management, arrhythmia surveillance, and appropriate family counselling."
       ],
-      "authors": "Estiar M, Yu E, Varghaei P, et al.",
-      "journal": "BMC medicine",
+      "authors": "Kurt H, Ulger Z, Levent E, et al.",
+      "journal": "Cardiology in the young",
       "year": "2026",
-      "month": "Mar",
-      "doi": "10.1186/s12916-026-04805-z",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41877227/",
-      "ris": "TY  - JOUR\nAU  - Estiar M\nAU  - Yu E\nAU  - Varghaei P\nTI  - Digenic inheritance of mutations in SPG7 and AFG3L2 causes motor neuron and cerebellar disorders.\nJO  - BMC medicine\nPY  - 2026\nDO  - 10.1186/s12916-026-04805-z\nAB  - BACKGROUND: Biallelic SPG7 mutations cause one of the most common forms of hereditary spastic paraplegia (HSP). Several reports have suggested that heterozygous SPG7 variants may also play a role in HSP, but also in amyotrophic lateral sclerosis (ALS). However, it remains controversial whether heter\nUR  - https://pubmed.ncbi.nlm.nih.gov/41877227/\nER  - ",
-      "section": "prs_methods",
-      "topic": "Oligogenic_Digenic",
-      "type": "Review",
+      "month": "Apr",
+      "doi": "10.1017/S1047951126111883",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41919412/",
+      "ris": "TY  - JOUR\nAU  - Kurt H\nAU  - Ulger Z\nAU  - Levent E\nTI  - A novel homozygous PPP1R13L frameshift variant in a child with syndromic dilated cardiomyopathy and fatal arrhythmia.\nJO  - Cardiology in the young\nPY  - 2026\nDO  - 10.1017/S1047951126111883\nAB  - BACKGROUND: Dilated cardiomyopathy is a rare but severe myocardial disease in the paediatric population, often leading to heart failure, heart transplantation, or sudden cardiac death. Genetic factors are a major contributor to childhood dilated cardiomyopathy. Recently, biallelic variants in the PP\nUR  - https://pubmed.ncbi.nlm.nih.gov/41919412/\nER  - ",
+      "section": "disease_genetics",
+      "topic": "DCM_Genetics",
+      "type": "Research article",
       "score": 3
     },
     {
@@ -333,26 +375,70 @@
       "score": 2
     },
     {
-      "pmid": "41876776",
-      "title": "Genetic diagnosis of sibling cases initiated by identification of outlier gene expression using transcriptome analysis of urine-derived cells.",
-      "abstract": "Transcriptome analysis can improve the diagnostic yield for neurodevelopmental disorders. We applied RNA-seq using urine-derived cells (UDCs) to a family with two affected brothers with a muscular dystrophy-dystroglycanopathy and dilated cardiomyopathy. Exome sequencing identified a maternally inherited heterozygous B3GALNT2 splice-site variant (NM_152490.5:c.261-2A>G) but no second pathogenic allele. UDCs RNA-seq with OUTRIDER detected markedly decreased expression of B3GALNT2 in the proband an\u2026",
-      "abstract_full": "Transcriptome analysis can improve the diagnostic yield for neurodevelopmental disorders. We applied RNA-seq using urine-derived cells (UDCs) to a family with two affected brothers with a muscular dystrophy-dystroglycanopathy and dilated cardiomyopathy. Exome sequencing identified a maternally inherited heterozygous B3GALNT2 splice-site variant (NM_152490.5:c.261-2A>G) but no second pathogenic allele. UDCs RNA-seq with OUTRIDER detected markedly decreased expression of B3GALNT2 in the proband and a milder decrease in the father, suggesting a paternally inherited non-coding variant. Genome sequencing revealed a 357-bp heterozygous deletion encompassing the B3GALNT2 promoter and transcription start site, which segregated with the phenotype. RNA-seq supported aberrant splicing from the splice-site allele and reduction of transcripts from the deletion allele. These findings provide proof of concept that UDCs RNA-seq-guided outlier-expression analysis can identify non-coding second hits and support genetic diagnosis, and they suggest that cardiac surveillance may be warranted in B3GALNT2-related disorder as they age.",
+      "pmid": "41486098",
+      "title": "Marfan Syndrome Associated With Intellectual Disability and Behavioral Anomalies: Further Evidence for the Effect of Compound Heterozygous Variants in FBN1 on Phenotypic Severity.",
+      "abstract": "Marfan syndrome (MFS) is a rare connective tissue disorder characterized by involvement of the cardiovascular, ocular, and musculoskeletal systems. Pathogenic variants in FBN1 cause most of the MFS cases; however, intellectual disability (ID) is rarely observed. A non-consanguineous Pakistani family with four affected individuals was recruited. Physical examinations, echocardiography, and doppler ultrasound were performed as part of the clinical assessment. Exome sequencing was conducted on the \u2026",
+      "abstract_full": "Marfan syndrome (MFS) is a rare connective tissue disorder characterized by involvement of the cardiovascular, ocular, and musculoskeletal systems. Pathogenic variants in FBN1 cause most of the MFS cases; however, intellectual disability (ID) is rarely observed. A non-consanguineous Pakistani family with four affected individuals was recruited. Physical examinations, echocardiography, and doppler ultrasound were performed as part of the clinical assessment. Exome sequencing was conducted on the index patient, and Sanger sequencing was performed for the entire family. ID was the primary symptom in all the affected individuals. A detailed examination showed that all affected individuals and their affected mother were tall, had long limbs, craniofacial abnormalities, and exhibited low IQ, aggressive, and hyperactive behaviors. Heart defects, such as atrial septal defects and pulmonary hypertension, were observed in one affected individual and her mother. Genetic analysis identified two rare missense variants in FBN1, c.1552G>A (p.Gly518Arg) and c.3046A>G (p.Thr1016Ala), both predicted to be deleterious. The p.Gly518Arg variant is predicted to be likely pathogenic, while the p.Thr1016Ala variant is of uncertain significance. Notably, these variants were found in two affected individuals in a compound heterozygous state, correlating with more severe symptoms. Each variant alone, seen in the two patients, is associated with milder symptoms, indicating incomplete penetrance. In conclusion, this study identified rare heterozygous missense variants in FBN1, suggesting a potential connection between neurodevelopmental outcomes and variants in FBN1. However, further research is needed to clarify the role of FBN1 in ID.",
       "bullets": [
-        "Exome sequencing identified a maternally inherited heterozygous B3GALNT2 splice-site variant (NM_152490.5:c.261-2A>G) but no second pathogenic allele.",
-        "Genome sequencing revealed a 357-bp heterozygous deletion encompassing the B3GALNT2 promoter and transcription start site, which segregated with the phenotype.",
-        "These findings provide proof of concept that UDCs RNA-seq-guided outlier-expression analysis can identify non-coding second hits and support genetic diagnosis, and they suggest that cardiac surveillance may be warranted\u2026"
+        "Genetic analysis identified two rare missense variants in FBN1, c.1552G>A (p.Gly518Arg) and c.3046A>G (p.Thr1016Ala), both predicted to be deleterious.",
+        "Each variant alone, seen in the two patients, is associated with milder symptoms, indicating incomplete penetrance.",
+        "In conclusion, this study identified rare heterozygous missense variants in FBN1, suggesting a potential connection between neurodevelopmental outcomes and variants in FBN1."
       ],
-      "authors": "Takagi T, Miyamoto S, Shimizu K, et al.",
-      "journal": "Journal of human genetics",
+      "authors": "Khan A, Kakar N, Kakar A, et al.",
+      "journal": "American journal of medical genetics. Part A",
       "year": "2026",
-      "month": "Mar",
-      "doi": "10.1016/j.jgg.2024.01.001",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41876776/",
-      "ris": "TY  - JOUR\nAU  - Takagi T\nAU  - Miyamoto S\nAU  - Shimizu K\nTI  - Genetic diagnosis of sibling cases initiated by identification of outlier gene expression using transcriptome analysis of urine-derived cells.\nJO  - Journal of human genetics\nPY  - 2026\nDO  - 10.1016/j.jgg.2024.01.001\nAB  - Transcriptome analysis can improve the diagnostic yield for neurodevelopmental disorders. We applied RNA-seq using urine-derived cells (UDCs) to a family with two affected brothers with a muscular dystrophy-dystroglycanopathy and dilated cardiomyopathy. Exome sequencing identified a maternally inher\nUR  - https://pubmed.ncbi.nlm.nih.gov/41876776/\nER  - ",
+      "month": "May",
+      "doi": "10.1002/ajmga.70038",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41486098/",
+      "ris": "TY  - JOUR\nAU  - Khan A\nAU  - Kakar N\nAU  - Kakar A\nTI  - Marfan Syndrome Associated With Intellectual Disability and Behavioral Anomalies: Further Evidence for the Effect of Compound Heterozygous Variants in FBN1 on Phenotypic Severity.\nJO  - American journal of medical genetics. Part A\nPY  - 2026\nDO  - 10.1002/ajmga.70038\nAB  - Marfan syndrome (MFS) is a rare connective tissue disorder characterized by involvement of the cardiovascular, ocular, and musculoskeletal systems. Pathogenic variants in FBN1 cause most of the MFS cases; however, intellectual disability (ID) is rarely observed. A non-consanguineous Pakistani family\nUR  - https://pubmed.ncbi.nlm.nih.gov/41486098/\nER  - ",
+      "section": "disease_genetics",
+      "topic": "CHD_Genetics",
+      "type": "Research article",
+      "score": 1
+    },
+    {
+      "pmid": "41508548",
+      "title": "Homozygous MGME1 Variant in Turkish Siblings: First Reported Case With Successful Heart Transplantation, Expanding the Clinical Spectrum of MGME1 -Related Mitochondrial Disease.",
+      "abstract": "We report two siblings harboring a homozygous MGME1 variant, NM_052865.4:c.818\u2009T>A; p.(Val273Glu), both presenting with ptosis, myopathy, scoliosis, and gastrointestinal symptoms. The index patient developed progressive, medically refractory dilated cardiomyopathy and underwent successful orthotopic heart transplantation (OHT). Reanalysis of previously negative WES identified the variant in the index case, and segregation by Sanger sequencing confirmed homozygosity in both siblings. Although sev\u2026",
+      "abstract_full": "We report two siblings harboring a homozygous MGME1 variant, NM_052865.4:c.818\u2009T>A; p.(Val273Glu), both presenting with ptosis, myopathy, scoliosis, and gastrointestinal symptoms. The index patient developed progressive, medically refractory dilated cardiomyopathy and underwent successful orthotopic heart transplantation (OHT). Reanalysis of previously negative WES identified the variant in the index case, and segregation by Sanger sequencing confirmed homozygosity in both siblings. Although several clinical findings overlap with previously described MGME1-related disease, the detected variant remains classified as a variant of uncertain significance (VUS); thus, functional evidence is needed to better understand its potential causal relevance. Additionally, this report underscores the importance of periodic genomic data reanalysis and highlights the variable expressivity that may occur even within the same family.",
+      "bullets": [
+        "We report two siblings harboring a homozygous MGME1 variant, NM_052865.4:c.818\u2009T>A; p.(Val273Glu), both presenting with ptosis, myopathy, scoliosis, and gastrointestinal symptoms.",
+        "Reanalysis of previously negative WES identified the variant in the index case, and segregation by Sanger sequencing confirmed homozygosity in both siblings.",
+        "Additionally, this report underscores the importance of periodic genomic data reanalysis and highlights the variable expressivity that may occur even within the same family."
+      ],
+      "authors": "Acikgoz N, Demir G, Yildiz Y, et al.",
+      "journal": "American journal of medical genetics. Part A",
+      "year": "2026",
+      "month": "May",
+      "doi": "10.1002/ajmga.70049",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41508548/",
+      "ris": "TY  - JOUR\nAU  - Acikgoz N\nAU  - Demir G\nAU  - Yildiz Y\nTI  - Homozygous MGME1 Variant in Turkish Siblings: First Reported Case With Successful Heart Transplantation, Expanding the Clinical Spectrum of MGME1 -Related Mitochondrial Disease.\nJO  - American journal of medical genetics. Part A\nPY  - 2026\nDO  - 10.1002/ajmga.70049\nAB  - We report two siblings harboring a homozygous MGME1 variant, NM_052865.4:c.818\u2009T>A; p.(Val273Glu), both presenting with ptosis, myopathy, scoliosis, and gastrointestinal symptoms. The index patient developed progressive, medically refractory dilated cardiomyopathy and underwent successful orthotopic\nUR  - https://pubmed.ncbi.nlm.nih.gov/41508548/\nER  - ",
       "section": "disease_genetics",
       "topic": "DCM_Genetics",
-      "type": "Research article",
-      "score": 2
+      "type": "Sequencing study",
+      "score": 1
+    },
+    {
+      "pmid": "41930574",
+      "title": "CYP17A1 Locus: Regulatory Mechanisms and Clinical Associations With Cardiovascular Disease and Metabolic Syndrome.",
+      "abstract": "The CYP17A1 gene encodes the P450 17\u03b1-hydroxylase/17,20-lyase protein, a key enzyme in steroidogenesis. In the past, it was associated with disorders such as congenital adrenal hyperplasia, disorders of sex development, and castration resistant prostate cancer. Recently, genome-wide association studies have revealed that the locus harboring the CYP17A1 gene is strongly associated with multiple other traits, including cardiovascular and metabolic characteristics. This review summarizes the curren\u2026",
+      "abstract_full": "The CYP17A1 gene encodes the P450 17\u03b1-hydroxylase/17,20-lyase protein, a key enzyme in steroidogenesis. In the past, it was associated with disorders such as congenital adrenal hyperplasia, disorders of sex development, and castration resistant prostate cancer. Recently, genome-wide association studies have revealed that the locus harboring the CYP17A1 gene is strongly associated with multiple other traits, including cardiovascular and metabolic characteristics. This review summarizes the current knowledge about the regulatory mechanisms and monogenic disease implications of the CYP17A1 gene, then attempts to link the locus to cardiovascular and metabolic diseases, using experimental evidence supporting these relationships. Additionally, the review also speculates that the research focus may have been placed solely on one gene of the locus, which could have obscured the effects of other neighboring ones. In summary, our review aimed to highlight this locus as a complex regulatory region with implications that extend beyond a single gene.",
+      "bullets": [
+        "In the past, it was associated with disorders such as congenital adrenal hyperplasia, disorders of sex development, and castration resistant prostate cancer.",
+        "Recently, genome-wide association studies have revealed that the locus harboring the CYP17A1 gene is strongly associated with multiple other traits, including cardiovascular and metabolic characteristics.",
+        "In summary, our review aimed to highlight this locus as a complex regulatory region with implications that extend beyond a single gene."
+      ],
+      "authors": "Chakkor Y, Aherrahrou R",
+      "journal": "IUBMB life",
+      "year": "2026",
+      "month": "Apr",
+      "doi": "10.1002/iub.70096",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41930574/",
+      "ris": "TY  - JOUR\nAU  - Chakkor Y\nAU  - Aherrahrou R\nTI  - CYP17A1 Locus: Regulatory Mechanisms and Clinical Associations With Cardiovascular Disease and Metabolic Syndrome.\nJO  - IUBMB life\nPY  - 2026\nDO  - 10.1002/iub.70096\nAB  - The CYP17A1 gene encodes the P450 17\u03b1-hydroxylase/17,20-lyase protein, a key enzyme in steroidogenesis. In the past, it was associated with disorders such as congenital adrenal hyperplasia, disorders of sex development, and castration resistant prostate cancer. Recently, genome-wide association stud\nUR  - https://pubmed.ncbi.nlm.nih.gov/41930574/\nER  - ",
+      "section": "disease_genetics",
+      "topic": "CHD_Genetics",
+      "type": "Review",
+      "score": 0
     },
     {
       "pmid": "41236190",
@@ -377,13 +463,13 @@
       "score": 0
     }
   ],
-  "summary_text": "8 papers selected from this week's literature:\n  \u2022 6 \u00d7 disease genetics (CHD / DCM / SCAD)\n  \u2022 1 \u00d7 PRS & oligogenic methods\n  \u2022 1 \u00d7 epigenetics / methylation\n\nHighlight: Evaluation of Women With Peripartum or Dilated Cardiomyopathy and Their First-Degree Relatives: The DCM Precision Medicine Study. (Circulation. Genomic and precision medicine, 2026)",
+  "summary_text": "10 papers selected from this week's literature:\n  \u2022 1 \u00d7 PRS & oligogenic methods\n  \u2022 8 \u00d7 disease genetics (CHD / DCM / SCAD)\n  \u2022 1 \u00d7 epigenetics / methylation\n\nHighlight: Large-scale exome analyses reveal new rare variant contributions in amyotrophic lateral sclerosis. (Nature genetics, 2026)",
   "summary": {
-    "total_selected": 8,
-    "total_candidates": 8,
+    "total_selected": 10,
+    "total_candidates": 10,
     "section_counts": {
-      "disease_genetics": 6,
       "prs_methods": 1,
+      "disease_genetics": 8,
       "topic_watch": 1
     }
   }
