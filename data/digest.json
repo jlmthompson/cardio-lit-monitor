@@ -1,74 +1,31 @@
 {
-  "generated": "2026-04-05T21:19:55.777097",
+  "generated": "2026-04-12T21:21:55.632444",
   "lookback_days": 7,
-  "cutoff_date": "2026/03/29",
+  "cutoff_date": "2026/04/05",
   "sections": {
     "disease_genetics": {
       "papers": [
         {
-          "pmid": "41639596",
-          "title": "Two siblings with CCDC32-related cardiofacioneurodevelopmental syndrome diagnosed by clinical RNA-sequencing and review of literature.",
-          "abstract": "Cardiofacioneurodevelopmental syndrome (CFNDS, MIM:619123) is a rare genetic disorder caused by bi-allelic pathogenic variants in CCDC32. So far, CFNDS has only been described in four living individuals and one terminated fetus from four families, and the clinical phenotype can include microcephaly, facial malformations, developmental delay, cerebellar hypoplasia, and cardiac anomalies. We present a family with two affected individuals who were diagnosed through clinical RNA sequencing (RNA-seq)\u2026",
-          "abstract_full": "Cardiofacioneurodevelopmental syndrome (CFNDS, MIM:619123) is a rare genetic disorder caused by bi-allelic pathogenic variants in CCDC32. So far, CFNDS has only been described in four living individuals and one terminated fetus from four families, and the clinical phenotype can include microcephaly, facial malformations, developmental delay, cerebellar hypoplasia, and cardiac anomalies. We present a family with two affected individuals who were diagnosed through clinical RNA sequencing (RNA-seq) after conventional DNA diagnostics did not yield a molecular cause. Skipping of two exons in CCDC32 transcript was identified, consistent with a bi-allelic deletion including exons 3 and 4 of CCDC32. This deletion was not detected in previous SNP array analyses and trio exome sequencing focusing on genes related to intellectual disability and congenital malformations, highlighting the complementary value of RNA-seq. Furthermore, we review the clinical phenotype of this rare disorder and its potential disease mechanisms.",
+          "pmid": "41645906",
+          "title": "Genome and Transcriptome-Wide Analyses Identify Multiple Candidate Genes and a Significant Polygenic Contribution in Bicuspid Aortic Valve.",
+          "abstract": "BACKGROUND: Bicuspid aortic valve (BAV) is a frequent congenital heart defect with a high heritability. Despite this, only a limited number of genes have been associated with the disease, and the molecular mechanisms remain unexplained in most cases. This study aimed to further understand the genetic architecture of BAV. METHODS: A genome-wide association study meta-analysis including 9631 cases among 65\u2009677 participants was performed. Genes were prioritized using transcriptomic analyses based o\u2026",
+          "abstract_full": "BACKGROUND: Bicuspid aortic valve (BAV) is a frequent congenital heart defect with a high heritability. Despite this, only a limited number of genes have been associated with the disease, and the molecular mechanisms remain unexplained in most cases. This study aimed to further understand the genetic architecture of BAV. METHODS: A genome-wide association study meta-analysis including 9631 cases among 65\u2009677 participants was performed. Genes were prioritized using transcriptomic analyses based on RNA sequencing in relevant tissues, including human fetal and adult aortic valves. The impact of the knockdown or knockout of 4 candidate genes on cardiac development was verified in zebrafish. A polygenic risk score was developed, its association with BAV was evaluated in an independent cohort, and its association with a wide range of phenotypes (n=976) was evaluated in UK Biobank (n=355\u2009618 individuals). RESULTS: Thirty-six genomic loci were identified, including 32 that were not described previously. Among the prioritized genes, KANK2 and ERBB4 were identified as potentially causal through transcriptomic analyses, colocalization, and Mendelian randomization based on gene expression in human aortic valves (n=484), whereas PRDM6 and STRN were prioritized using similar analyses from aortic (n=326) and left ventricular tissues (n=326), respectively. Targeting 4 candidate genes (WNT4, LEF1, STRN, and KANK2) in zebrafish led to disruption in cardiac development. A polygenic risk score was associated with an odds ratio of 2.07 (95% CI, 1.90-2.25; P=5.43\u00d710-62) per SD for BAV and significantly associated with thoracic aortic aneurysm and atrial fibrillation in UK Biobank. CONCLUSIONS: This study supports a significant polygenic contribution to BAV, where the combination of multiple common variants in genes involved in heart morphogenesis disrupts aortic valve development.",
           "bullets": [
-            "Skipping of two exons in CCDC32 transcript was identified, consistent with a bi-allelic deletion including exons 3 and 4 of CCDC32.",
-            "This deletion was not detected in previous SNP array analyses and trio exome sequencing focusing on genes related to intellectual disability and congenital malformations, highlighting the complementary value of RNA-seq.",
-            "Furthermore, we review the clinical phenotype of this rare disorder and its potential disease mechanisms."
+            "Thirty-six genomic loci were identified, including 32 that were not described previously.",
+            "Targeting 4 candidate genes (WNT4, LEF1, STRN, and KANK2) in zebrafish led to disruption in cardiac development.",
+            "A polygenic risk score was associated with an odds ratio of 2.07 (95% CI, 1.90-2.25; P=5.43\u00d710-62) per SD for BAV and significantly associated with thoracic aortic aneurysm and atrial fibrillation in UK Biobank."
           ],
-          "authors": "Albuainain F, Venema M, Schot R, et al.",
-          "journal": "European journal of human genetics : EJHG",
+          "authors": "Th\u00e9riault S, Holdcraft J, Sharipova D, et al.",
+          "journal": "Circulation",
           "year": "2026",
           "month": "Apr",
-          "doi": "10.1016/j.pediatrneurol.2010.10.012",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/41639596/",
-          "ris": "TY  - JOUR\nAU  - Albuainain F\nAU  - Venema M\nAU  - Schot R\nTI  - Two siblings with CCDC32-related cardiofacioneurodevelopmental syndrome diagnosed by clinical RNA-sequencing and review of literature.\nJO  - European journal of human genetics : EJHG\nPY  - 2026\nDO  - 10.1016/j.pediatrneurol.2010.10.012\nAB  - Cardiofacioneurodevelopmental syndrome (CFNDS, MIM:619123) is a rare genetic disorder caused by bi-allelic pathogenic variants in CCDC32. So far, CFNDS has only been described in four living individuals and one terminated fetus from four families, and the clinical phenotype can include microcephaly,\nUR  - https://pubmed.ncbi.nlm.nih.gov/41639596/\nER  - ",
+          "doi": "10.1186/1471-2105-12-77",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41645906/",
+          "ris": "TY  - JOUR\nAU  - Th\u00e9riault S\nAU  - Holdcraft J\nAU  - Sharipova D\nTI  - Genome and Transcriptome-Wide Analyses Identify Multiple Candidate Genes and a Significant Polygenic Contribution in Bicuspid Aortic Valve.\nJO  - Circulation\nPY  - 2026\nDO  - 10.1186/1471-2105-12-77\nAB  - BACKGROUND: Bicuspid aortic valve (BAV) is a frequent congenital heart defect with a high heritability. Despite this, only a limited number of genes have been associated with the disease, and the molecular mechanisms remain unexplained in most cases. This study aimed to further understand the geneti\nUR  - https://pubmed.ncbi.nlm.nih.gov/41645906/\nER  - ",
           "section": "disease_genetics",
           "topic": "CHD_Genetics",
           "type": "Review",
-          "score": 4
-        },
-        {
-          "pmid": "41797063",
-          "title": "Generation of the human induced pluripotent stem cell (hiPSC) line AUMCi015-A from a heterozygous carrier of the LMNA p.Q493X rare pathogenic variant.",
-          "abstract": "Dilated cardiomyopathy (DCM) caused by rare pathogenic variants in LMNA is a severe hereditary heart disease characterized by lethal arrythmias and progressive heart failure. Here, we describe a human induced pluripotent stem cell (hiPSC) line reprogrammed by non-integrative Sendai virus from dermal fibroblasts of a female DCM patient carrying the heterozygous LMNA p.Q493X rare pathogenic variant. The obtained hiPSCs have a normal karyotype, show high expression of pluripotency markers at the mR\u2026",
-          "abstract_full": "Dilated cardiomyopathy (DCM) caused by rare pathogenic variants in LMNA is a severe hereditary heart disease characterized by lethal arrythmias and progressive heart failure. Here, we describe a human induced pluripotent stem cell (hiPSC) line reprogrammed by non-integrative Sendai virus from dermal fibroblasts of a female DCM patient carrying the heterozygous LMNA p.Q493X rare pathogenic variant. The obtained hiPSCs have a normal karyotype, show high expression of pluripotency markers at the mRNA and protein level, and are able to differentiate into derivatives of all three germ layers. Therefore, this newly-generated hiPSC line enables modeling of DCM caused by rare pathogenic variants in LMNA.",
-          "bullets": [
-            "Dilated cardiomyopathy (DCM) caused by rare pathogenic variants in LMNA is a severe hereditary heart disease characterized by lethal arrythmias and progressive heart failure.",
-            "Here, we describe a human induced pluripotent stem cell (hiPSC) line reprogrammed by non-integrative Sendai virus from dermal fibroblasts of a female DCM patient carrying the heterozygous LMNA p.",
-            "Therefore, this newly-generated hiPSC line enables modeling of DCM caused by rare pathogenic variants in LMNA."
-          ],
-          "authors": "de Vries D, van den Bout A, de Haan H, et al.",
-          "journal": "Stem cell research",
-          "year": "2026",
-          "month": "Apr",
-          "doi": "10.1016/j.scr.2026.103962",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/41797063/",
-          "ris": "TY  - JOUR\nAU  - de Vries D\nAU  - van den Bout A\nAU  - de Haan H\nTI  - Generation of the human induced pluripotent stem cell (hiPSC) line AUMCi015-A from a heterozygous carrier of the LMNA p.Q493X rare pathogenic variant.\nJO  - Stem cell research\nPY  - 2026\nDO  - 10.1016/j.scr.2026.103962\nAB  - Dilated cardiomyopathy (DCM) caused by rare pathogenic variants in LMNA is a severe hereditary heart disease characterized by lethal arrythmias and progressive heart failure. Here, we describe a human induced pluripotent stem cell (hiPSC) line reprogrammed by non-integrative Sendai virus from dermal\nUR  - https://pubmed.ncbi.nlm.nih.gov/41797063/\nER  - ",
-          "section": "disease_genetics",
-          "topic": "DCM_Genetics",
-          "type": "Research article",
-          "score": 4
-        },
-        {
-          "pmid": "41919412",
-          "title": "A novel homozygous PPP1R13L frameshift variant in a child with syndromic dilated cardiomyopathy and fatal arrhythmia.",
-          "abstract": "BACKGROUND: Dilated cardiomyopathy is a rare but severe myocardial disease in the paediatric population, often leading to heart failure, heart transplantation, or sudden cardiac death. Genetic factors are a major contributor to childhood dilated cardiomyopathy. Recently, biallelic variants in the PPP1R13L gene have been implicated in a novel syndromic form of early-onset dilated cardiomyopathy, characterised by cardiac dysfunction alongside variable ectodermal features. CASE PRESENTATION: We rep\u2026",
-          "abstract_full": "BACKGROUND: Dilated cardiomyopathy is a rare but severe myocardial disease in the paediatric population, often leading to heart failure, heart transplantation, or sudden cardiac death. Genetic factors are a major contributor to childhood dilated cardiomyopathy. Recently, biallelic variants in the PPP1R13L gene have been implicated in a novel syndromic form of early-onset dilated cardiomyopathy, characterised by cardiac dysfunction alongside variable ectodermal features. CASE PRESENTATION: We report a 4-year-old boy who presented with decompensated heart failure and echocardiographic findings consistent with dilated cardiomyopathy. Syndromic features included sparse, dry hair, high anterior hairline, broad nasal bridge, and pointed teeth. Genetic analysis revealed a novel homozygous frameshift variant in the PPP1R13L gene (c.2368_2375dup; p. Pro793Glyfs*32), classified as pathogenic. The clinical course was complicated by recurrent ventricular arrhythmias and ultimately sudden cardiac death. CONCLUSION: PPP1R13L-related cardiomyopathy should be considered in children with early-onset dilated cardiomyopathy and syndromic features. Early diagnosis is critical for clinical management, arrhythmia surveillance, and appropriate family counselling.",
-          "bullets": [
-            "PPP1R13L-related cardiomyopathy should be considered in children with early-onset dilated cardiomyopathy and syndromic features.",
-            "Early diagnosis is critical for clinical management, arrhythmia surveillance, and appropriate family counselling."
-          ],
-          "authors": "Kurt H, Ulger Z, Levent E, et al.",
-          "journal": "Cardiology in the young",
-          "year": "2026",
-          "month": "Apr",
-          "doi": "10.1017/S1047951126111883",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/41919412/",
-          "ris": "TY  - JOUR\nAU  - Kurt H\nAU  - Ulger Z\nAU  - Levent E\nTI  - A novel homozygous PPP1R13L frameshift variant in a child with syndromic dilated cardiomyopathy and fatal arrhythmia.\nJO  - Cardiology in the young\nPY  - 2026\nDO  - 10.1017/S1047951126111883\nAB  - BACKGROUND: Dilated cardiomyopathy is a rare but severe myocardial disease in the paediatric population, often leading to heart failure, heart transplantation, or sudden cardiac death. Genetic factors are a major contributor to childhood dilated cardiomyopathy. Recently, biallelic variants in the PP\nUR  - https://pubmed.ncbi.nlm.nih.gov/41919412/\nER  - ",
-          "section": "disease_genetics",
-          "topic": "DCM_Genetics",
-          "type": "Research article",
-          "score": 3
+          "score": 5
         },
         {
           "pmid": "41747776",
@@ -135,87 +92,64 @@
           "topic": "DCM_Genetics",
           "type": "Sequencing study",
           "score": 1
-        },
-        {
-          "pmid": "41930574",
-          "title": "CYP17A1 Locus: Regulatory Mechanisms and Clinical Associations With Cardiovascular Disease and Metabolic Syndrome.",
-          "abstract": "The CYP17A1 gene encodes the P450 17\u03b1-hydroxylase/17,20-lyase protein, a key enzyme in steroidogenesis. In the past, it was associated with disorders such as congenital adrenal hyperplasia, disorders of sex development, and castration resistant prostate cancer. Recently, genome-wide association studies have revealed that the locus harboring the CYP17A1 gene is strongly associated with multiple other traits, including cardiovascular and metabolic characteristics. This review summarizes the curren\u2026",
-          "abstract_full": "The CYP17A1 gene encodes the P450 17\u03b1-hydroxylase/17,20-lyase protein, a key enzyme in steroidogenesis. In the past, it was associated with disorders such as congenital adrenal hyperplasia, disorders of sex development, and castration resistant prostate cancer. Recently, genome-wide association studies have revealed that the locus harboring the CYP17A1 gene is strongly associated with multiple other traits, including cardiovascular and metabolic characteristics. This review summarizes the current knowledge about the regulatory mechanisms and monogenic disease implications of the CYP17A1 gene, then attempts to link the locus to cardiovascular and metabolic diseases, using experimental evidence supporting these relationships. Additionally, the review also speculates that the research focus may have been placed solely on one gene of the locus, which could have obscured the effects of other neighboring ones. In summary, our review aimed to highlight this locus as a complex regulatory region with implications that extend beyond a single gene.",
-          "bullets": [
-            "In the past, it was associated with disorders such as congenital adrenal hyperplasia, disorders of sex development, and castration resistant prostate cancer.",
-            "Recently, genome-wide association studies have revealed that the locus harboring the CYP17A1 gene is strongly associated with multiple other traits, including cardiovascular and metabolic characteristics.",
-            "In summary, our review aimed to highlight this locus as a complex regulatory region with implications that extend beyond a single gene."
-          ],
-          "authors": "Chakkor Y, Aherrahrou R",
-          "journal": "IUBMB life",
-          "year": "2026",
-          "month": "Apr",
-          "doi": "10.1002/iub.70096",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/41930574/",
-          "ris": "TY  - JOUR\nAU  - Chakkor Y\nAU  - Aherrahrou R\nTI  - CYP17A1 Locus: Regulatory Mechanisms and Clinical Associations With Cardiovascular Disease and Metabolic Syndrome.\nJO  - IUBMB life\nPY  - 2026\nDO  - 10.1002/iub.70096\nAB  - The CYP17A1 gene encodes the P450 17\u03b1-hydroxylase/17,20-lyase protein, a key enzyme in steroidogenesis. In the past, it was associated with disorders such as congenital adrenal hyperplasia, disorders of sex development, and castration resistant prostate cancer. Recently, genome-wide association stud\nUR  - https://pubmed.ncbi.nlm.nih.gov/41930574/\nER  - ",
-          "section": "disease_genetics",
-          "topic": "CHD_Genetics",
-          "type": "Review",
-          "score": 0
-        },
-        {
-          "pmid": "41236190",
-          "title": "Compound genetic burden in oculo-facio-cardio-dental (OFCD) syndrome: surgical risk stratification with co-occurring BCOR and MYLK mutations.",
-          "abstract": "INTRODUCTION: Oculo-facio-cardio-dental (OFCD) syndrome is a rare X-linked dominant disorder caused by pathogenic BCOR variants and characterized by congenital cataracts, microcornea, and secondary glaucoma. Multilocus pathogenic variation (MPV), in which independent variants contribute to disease burden, can further complicate syndromic presentations and alter surgical planning. This case highlights the importance of longitudinal genetic evaluation in complex ophthalmic disease. METHODS: Compre\u2026",
-          "abstract_full": "INTRODUCTION: Oculo-facio-cardio-dental (OFCD) syndrome is a rare X-linked dominant disorder caused by pathogenic BCOR variants and characterized by congenital cataracts, microcornea, and secondary glaucoma. Multilocus pathogenic variation (MPV), in which independent variants contribute to disease burden, can further complicate syndromic presentations and alter surgical planning. This case highlights the importance of longitudinal genetic evaluation in complex ophthalmic disease. METHODS: Comprehensive ophthalmic evaluation, multimodal imaging, and systemic assessment were performed. Trio exome sequencing was used as part of the genetic diagnostic work-up. Standard preoperative cardiovascular imaging was completed before planned glaucoma surgery. RESULTS: A 15-year-old female with OFCD exhibited congenital cataracts, bilateral microcornea, and persistent secondary glaucoma requiring multiple interventions. Trio exome sequencing confirmed a de novo pathogenic BCOR mutation and identified a paternally inherited pathogenic MYLK variant associated with thoracic aortic aneurysm and dissection. Although initially cleared for glaucoma surgery, routine preoperative screening revealed progressive ascending aortic dilation linked to the MYLKM variant, leading to postponement of ocular surgery due to increased anesthetic risk. DISCUSSION: This case demonstrates how MPV can significantly influence ophthalmic surgical decision-making. Genetic findings initially considered secondary became critical as cardiovascular risk evolved. Multidisciplinary coordination between ophthalmology and genetics is essential to integrate evolving genomic insights into perioperative care and ensure optimal patient safety.",
-          "bullets": [
-            "A 15-year-old female with OFCD exhibited congenital cataracts, bilateral microcornea, and persistent secondary glaucoma requiring multiple interventions.",
-            "Trio exome sequencing confirmed a de novo pathogenic BCOR mutation and identified a paternally inherited pathogenic MYLK variant associated with thoracic aortic aneurysm and dissection.",
-            "Although initially cleared for glaucoma surgery, routine preoperative screening revealed progressive ascending aortic dilation linked to the MYLKM variant, leading to postponement of ocular surgery due to increased\u2026"
-          ],
-          "authors": "Kang S, Perez A, Smith C, et al.",
-          "journal": "Ophthalmic genetics",
-          "year": "2026",
-          "month": "Apr",
-          "doi": "10.1080/13816810.2025.2582609",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/41236190/",
-          "ris": "TY  - JOUR\nAU  - Kang S\nAU  - Perez A\nAU  - Smith C\nTI  - Compound genetic burden in oculo-facio-cardio-dental (OFCD) syndrome: surgical risk stratification with co-occurring BCOR and MYLK mutations.\nJO  - Ophthalmic genetics\nPY  - 2026\nDO  - 10.1080/13816810.2025.2582609\nAB  - INTRODUCTION: Oculo-facio-cardio-dental (OFCD) syndrome is a rare X-linked dominant disorder caused by pathogenic BCOR variants and characterized by congenital cataracts, microcornea, and secondary glaucoma. Multilocus pathogenic variation (MPV), in which independent variants contribute to disease b\nUR  - https://pubmed.ncbi.nlm.nih.gov/41236190/\nER  - ",
-          "section": "disease_genetics",
-          "topic": "CHD_Genetics",
-          "type": "Methods",
-          "score": 0
         }
       ],
-      "total": 8
+      "total": 4
     },
     "prs_disease": {
       "papers": [],
       "total": 0
     },
     "prs_methods": {
-      "papers": [
-        {
-          "pmid": "41917433",
-          "title": "Large-scale exome analyses reveal new rare variant contributions in amyotrophic lateral sclerosis.",
-          "abstract": "Amyotrophic lateral sclerosis (ALS) is a heritable disorder where rare variants with low-to-moderate penetrance are thought to dominate genetic risk. To identify such rare variants, we harmonized and analyzed exome data from 22 cohorts, totaling 17,919 individuals with ALS and 200,703 controls across discovery and replication phases. Rare variant analyses identified several new risk genes, with replication confirming association of YKT6 and supporting HTR3C, GBGT1 and KNTC1. We also provide stro\u2026",
-          "abstract_full": "Amyotrophic lateral sclerosis (ALS) is a heritable disorder where rare variants with low-to-moderate penetrance are thought to dominate genetic risk. To identify such rare variants, we harmonized and analyzed exome data from 22 cohorts, totaling 17,919 individuals with ALS and 200,703 controls across discovery and replication phases. Rare variant analyses identified several new risk genes, with replication confirming association of YKT6 and supporting HTR3C, GBGT1 and KNTC1. We also provide strong, independent validation for genes with limited previous evidence: ARPP21, DNAJC7 and CFAP410. Notably, in ARPP21, we identified a new high-effect variant (p.P747L) and confirmed that p.P563L is an ALS-associated variant leading to an aggressive disease course. Beyond new discoveries, our analyses largely recapitulated the known genetic architecture of ALS, identifying risk variants in over 20% of cases and supporting a cumulative oligogenic risk model. These findings highlight new translational targets and show that rare variant analyses capture substantially more genetic risk than common variant genome-wide association studies.",
-          "bullets": [
-            "Rare variant analyses identified several new risk genes, with replication confirming association of YKT6 and supporting HTR3C, GBGT1 and KNTC1.",
-            "Notably, in ARPP21, we identified a new high-effect variant (p.P747L) and confirmed that p.P563L is an ALS-associated variant leading to an aggressive disease course.",
-            "These findings highlight new translational targets and show that rare variant analyses capture substantially more genetic risk than common variant genome-wide association studies."
-          ],
-          "authors": "Hop P, Kooyman M, Kenna B, et al.",
-          "journal": "Nature genetics",
-          "year": "2026",
-          "month": "Mar",
-          "doi": "10.1093/bioinformatics/btq340",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/41917433/",
-          "ris": "TY  - JOUR\nAU  - Hop P\nAU  - Kooyman M\nAU  - Kenna B\nTI  - Large-scale exome analyses reveal new rare variant contributions in amyotrophic lateral sclerosis.\nJO  - Nature genetics\nPY  - 2026\nDO  - 10.1093/bioinformatics/btq340\nAB  - Amyotrophic lateral sclerosis (ALS) is a heritable disorder where rare variants with low-to-moderate penetrance are thought to dominate genetic risk. To identify such rare variants, we harmonized and analyzed exome data from 22 cohorts, totaling 17,919 individuals with ALS and 200,703 controls acros\nUR  - https://pubmed.ncbi.nlm.nih.gov/41917433/\nER  - ",
-          "section": "prs_methods",
-          "topic": "Oligogenic_Digenic",
-          "type": "GWAS",
-          "score": 6
-        }
-      ],
-      "total": 1
+      "papers": [],
+      "total": 0
     },
     "topic_watch": {
       "papers": [
+        {
+          "pmid": "41946911",
+          "title": "Variants in the CxxC domain of the epigenetic regulator KDM2B support its role in developmental eye anomalies.",
+          "abstract": "KDM2B encodes an epigenetic regulator that binds to promoter-associated CpG islands via its CxxC zinc-finger domain, protecting them from DNA methylation. It also helps establish transcriptional programs essential for development by recruiting the non-canonical Polycomb Repressive Complex 1.1 to lineage-specific genes. Heterozygous variants in KDM2B were recently associated with a neurodevelopmental disorder. Notably, some individuals with variants in the CxxC domain also exhibited congenital he\u2026",
+          "abstract_full": "KDM2B encodes an epigenetic regulator that binds to promoter-associated CpG islands via its CxxC zinc-finger domain, protecting them from DNA methylation. It also helps establish transcriptional programs essential for development by recruiting the non-canonical Polycomb Repressive Complex 1.1 to lineage-specific genes. Heterozygous variants in KDM2B were recently associated with a neurodevelopmental disorder. Notably, some individuals with variants in the CxxC domain also exhibited congenital heart, kidney and/or structural eye anomalies. By screening 706 families with developmental eye disorders, we identified two cases with KDM2B-CxxC variants, NM_032590.5:c.1841G>C;p.(Arg614Pro) and NM_032590.5:c.1880G>C;p.(Cys627Ser), both resulting in a characteristic KDM2B DNA episignature. Both individuals exhibited complex structural eye defects, with neurodevelopmental, cardiac and renal anomalies variably present. These cases strengthen the association between KDM2B-CxxC variants and eye, kidney and heart malformations and highlight the importance of testing this gene and its episignature in individuals with structural eye disorders, especially when accompanied by congenital cardiac and/or renal anomalies.",
+          "bullets": [
+            "Heterozygous variants in KDM2B were recently associated with a neurodevelopmental disorder.",
+            "By screening 706 families with developmental eye disorders, we identified two cases with KDM2B-CxxC variants, NM_032590.5:c.1841G>C;p.(Arg614Pro) and NM_032590.5:c.1880G>C;p.",
+            "These cases strengthen the association between KDM2B-CxxC variants and eye, kidney and heart malformations and highlight the importance of testing this gene and its episignature in individuals with structural eye\u2026"
+          ],
+          "authors": "Ceroni F, Reis L, Watkins F, et al.",
+          "journal": "European journal of human genetics : EJHG",
+          "year": "2026",
+          "month": "Apr",
+          "doi": "10.1016/j.mcn.2011.01.001",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41946911/",
+          "ris": "TY  - JOUR\nAU  - Ceroni F\nAU  - Reis L\nAU  - Watkins F\nTI  - Variants in the CxxC domain of the epigenetic regulator KDM2B support its role in developmental eye anomalies.\nJO  - European journal of human genetics : EJHG\nPY  - 2026\nDO  - 10.1016/j.mcn.2011.01.001\nAB  - KDM2B encodes an epigenetic regulator that binds to promoter-associated CpG islands via its CxxC zinc-finger domain, protecting them from DNA methylation. It also helps establish transcriptional programs essential for development by recruiting the non-canonical Polycomb Repressive Complex 1.1 to lin\nUR  - https://pubmed.ncbi.nlm.nih.gov/41946911/\nER  - ",
+          "section": "topic_watch",
+          "topic": "CHD_Methylation",
+          "type": "Epigenetics",
+          "score": 4
+        },
+        {
+          "pmid": "41937210",
+          "title": "An integrative single-nucleus multiomic atlas of the human left ventricle identifies gene regulatory network dynamics across cardiac development, aging, and disease.",
+          "abstract": "BACKGROUND: As the first organ to develop in utero, the human heart undergoes extensive molecular, structural and metabolic remodeling during development and must sustain its function throughout life. RESULTS: We generate an integrated multiomic atlas of human cardiac cells, combining newly generated and publicly available single-nucleus RNA sequencing datasets from 299 donors and single nucleus ATAC-seq datasets from 106 donors. Developmental and disease-associated processes drive far more exte\u2026",
+          "abstract_full": "BACKGROUND: As the first organ to develop in utero, the human heart undergoes extensive molecular, structural and metabolic remodeling during development and must sustain its function throughout life. RESULTS: We generate an integrated multiomic atlas of human cardiac cells, combining newly generated and publicly available single-nucleus RNA sequencing datasets from 299 donors and single nucleus ATAC-seq datasets from 106 donors. Developmental and disease-associated processes drive far more extensive molecular remodeling than sex-associated or aging-dependent effects. Across nearly all cardiac cell types, developmental and disease-driven changes exhibit strong overlap at both the transcriptomic and epigenomic levels, revealing widespread reactivation of fetal-associated gene programs beyond cardiomyocytes. Both cardiac development and disease show convergent shifts in intercellular communication, including increased TGF\u03b2 signaling. Integration of gene expression and chromatin accessibility data reveals putative cell-type-specific transcriptional factors driving fetal reactivation in major cardiac diseases. Spatial transcriptomics data orthogonally identifies localization of this fetal reactivation signature within spatially distinct niches in ischemic and fibrotic zones of acute myocardial infarction. Finally, we construct a cell-type-resolved enhancer-to-gene linkage map that refines the association of dilated and hypertrophic cardiomyopathy genetic risk loci to downstream target genes. CONCLUSIONS: This study presents a comprehensive multimodal, cell-type-resolved atlas of the human heart, providing a foundation for understanding human cardiac gene regulation across the human lifespan and in cardiac diseases.",
+          "bullets": [
+            "We generate an integrated multiomic atlas of human cardiac cells, combining newly generated and publicly available single-nucleus RNA sequencing datasets from 299 donors and single nucleus ATAC-seq datasets from 106\u2026",
+            "Developmental and disease-associated processes drive far more extensive molecular remodeling than sex-associated or aging-dependent effects.",
+            "Across nearly all cardiac cell types, developmental and disease-driven changes exhibit strong overlap at both the transcriptomic and epigenomic levels, revealing widespread reactivation of fetal-associated gene programs\u2026"
+          ],
+          "authors": "Gao W, Hu P, Wick B, et al.",
+          "journal": "Genome biology",
+          "year": "2026",
+          "month": "Apr",
+          "doi": "10.1038/s41588-024-01952-y",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41937210/",
+          "ris": "TY  - JOUR\nAU  - Gao W\nAU  - Hu P\nAU  - Wick B\nTI  - An integrative single-nucleus multiomic atlas of the human left ventricle identifies gene regulatory network dynamics across cardiac development, aging, and disease.\nJO  - Genome biology\nPY  - 2026\nDO  - 10.1038/s41588-024-01952-y\nAB  - BACKGROUND: As the first organ to develop in utero, the human heart undergoes extensive molecular, structural and metabolic remodeling during development and must sustain its function throughout life. RESULTS: We generate an integrated multiomic atlas of human cardiac cells, combining newly generate\nUR  - https://pubmed.ncbi.nlm.nih.gov/41937210/\nER  - ",
+          "section": "topic_watch",
+          "topic": "DCM_Omics",
+          "type": "Epigenetics",
+          "score": 3
+        },
         {
           "pmid": "41855523",
           "title": "Global analyses of genomic and epigenomic influences on gene expression reveal Serpina3n as a major regulator of cardiac gene expression in response to catecholamine challenge during heart failure.",
@@ -239,118 +173,75 @@
           "score": 2
         }
       ],
-      "total": 1
+      "total": 3
     }
   },
   "selected_papers": [
     {
-      "pmid": "41917433",
-      "title": "Large-scale exome analyses reveal new rare variant contributions in amyotrophic lateral sclerosis.",
-      "abstract": "Amyotrophic lateral sclerosis (ALS) is a heritable disorder where rare variants with low-to-moderate penetrance are thought to dominate genetic risk. To identify such rare variants, we harmonized and analyzed exome data from 22 cohorts, totaling 17,919 individuals with ALS and 200,703 controls across discovery and replication phases. Rare variant analyses identified several new risk genes, with replication confirming association of YKT6 and supporting HTR3C, GBGT1 and KNTC1. We also provide stro\u2026",
-      "abstract_full": "Amyotrophic lateral sclerosis (ALS) is a heritable disorder where rare variants with low-to-moderate penetrance are thought to dominate genetic risk. To identify such rare variants, we harmonized and analyzed exome data from 22 cohorts, totaling 17,919 individuals with ALS and 200,703 controls across discovery and replication phases. Rare variant analyses identified several new risk genes, with replication confirming association of YKT6 and supporting HTR3C, GBGT1 and KNTC1. We also provide strong, independent validation for genes with limited previous evidence: ARPP21, DNAJC7 and CFAP410. Notably, in ARPP21, we identified a new high-effect variant (p.P747L) and confirmed that p.P563L is an ALS-associated variant leading to an aggressive disease course. Beyond new discoveries, our analyses largely recapitulated the known genetic architecture of ALS, identifying risk variants in over 20% of cases and supporting a cumulative oligogenic risk model. These findings highlight new translational targets and show that rare variant analyses capture substantially more genetic risk than common variant genome-wide association studies.",
+      "pmid": "41645906",
+      "title": "Genome and Transcriptome-Wide Analyses Identify Multiple Candidate Genes and a Significant Polygenic Contribution in Bicuspid Aortic Valve.",
+      "abstract": "BACKGROUND: Bicuspid aortic valve (BAV) is a frequent congenital heart defect with a high heritability. Despite this, only a limited number of genes have been associated with the disease, and the molecular mechanisms remain unexplained in most cases. This study aimed to further understand the genetic architecture of BAV. METHODS: A genome-wide association study meta-analysis including 9631 cases among 65\u2009677 participants was performed. Genes were prioritized using transcriptomic analyses based o\u2026",
+      "abstract_full": "BACKGROUND: Bicuspid aortic valve (BAV) is a frequent congenital heart defect with a high heritability. Despite this, only a limited number of genes have been associated with the disease, and the molecular mechanisms remain unexplained in most cases. This study aimed to further understand the genetic architecture of BAV. METHODS: A genome-wide association study meta-analysis including 9631 cases among 65\u2009677 participants was performed. Genes were prioritized using transcriptomic analyses based on RNA sequencing in relevant tissues, including human fetal and adult aortic valves. The impact of the knockdown or knockout of 4 candidate genes on cardiac development was verified in zebrafish. A polygenic risk score was developed, its association with BAV was evaluated in an independent cohort, and its association with a wide range of phenotypes (n=976) was evaluated in UK Biobank (n=355\u2009618 individuals). RESULTS: Thirty-six genomic loci were identified, including 32 that were not described previously. Among the prioritized genes, KANK2 and ERBB4 were identified as potentially causal through transcriptomic analyses, colocalization, and Mendelian randomization based on gene expression in human aortic valves (n=484), whereas PRDM6 and STRN were prioritized using similar analyses from aortic (n=326) and left ventricular tissues (n=326), respectively. Targeting 4 candidate genes (WNT4, LEF1, STRN, and KANK2) in zebrafish led to disruption in cardiac development. A polygenic risk score was associated with an odds ratio of 2.07 (95% CI, 1.90-2.25; P=5.43\u00d710-62) per SD for BAV and significantly associated with thoracic aortic aneurysm and atrial fibrillation in UK Biobank. CONCLUSIONS: This study supports a significant polygenic contribution to BAV, where the combination of multiple common variants in genes involved in heart morphogenesis disrupts aortic valve development.",
       "bullets": [
-        "Rare variant analyses identified several new risk genes, with replication confirming association of YKT6 and supporting HTR3C, GBGT1 and KNTC1.",
-        "Notably, in ARPP21, we identified a new high-effect variant (p.P747L) and confirmed that p.P563L is an ALS-associated variant leading to an aggressive disease course.",
-        "These findings highlight new translational targets and show that rare variant analyses capture substantially more genetic risk than common variant genome-wide association studies."
+        "Thirty-six genomic loci were identified, including 32 that were not described previously.",
+        "Targeting 4 candidate genes (WNT4, LEF1, STRN, and KANK2) in zebrafish led to disruption in cardiac development.",
+        "A polygenic risk score was associated with an odds ratio of 2.07 (95% CI, 1.90-2.25; P=5.43\u00d710-62) per SD for BAV and significantly associated with thoracic aortic aneurysm and atrial fibrillation in UK Biobank."
       ],
-      "authors": "Hop P, Kooyman M, Kenna B, et al.",
-      "journal": "Nature genetics",
-      "year": "2026",
-      "month": "Mar",
-      "doi": "10.1093/bioinformatics/btq340",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41917433/",
-      "ris": "TY  - JOUR\nAU  - Hop P\nAU  - Kooyman M\nAU  - Kenna B\nTI  - Large-scale exome analyses reveal new rare variant contributions in amyotrophic lateral sclerosis.\nJO  - Nature genetics\nPY  - 2026\nDO  - 10.1093/bioinformatics/btq340\nAB  - Amyotrophic lateral sclerosis (ALS) is a heritable disorder where rare variants with low-to-moderate penetrance are thought to dominate genetic risk. To identify such rare variants, we harmonized and analyzed exome data from 22 cohorts, totaling 17,919 individuals with ALS and 200,703 controls acros\nUR  - https://pubmed.ncbi.nlm.nih.gov/41917433/\nER  - ",
-      "section": "prs_methods",
-      "topic": "Oligogenic_Digenic",
-      "type": "GWAS",
-      "score": 6
-    },
-    {
-      "pmid": "41639596",
-      "title": "Two siblings with CCDC32-related cardiofacioneurodevelopmental syndrome diagnosed by clinical RNA-sequencing and review of literature.",
-      "abstract": "Cardiofacioneurodevelopmental syndrome (CFNDS, MIM:619123) is a rare genetic disorder caused by bi-allelic pathogenic variants in CCDC32. So far, CFNDS has only been described in four living individuals and one terminated fetus from four families, and the clinical phenotype can include microcephaly, facial malformations, developmental delay, cerebellar hypoplasia, and cardiac anomalies. We present a family with two affected individuals who were diagnosed through clinical RNA sequencing (RNA-seq)\u2026",
-      "abstract_full": "Cardiofacioneurodevelopmental syndrome (CFNDS, MIM:619123) is a rare genetic disorder caused by bi-allelic pathogenic variants in CCDC32. So far, CFNDS has only been described in four living individuals and one terminated fetus from four families, and the clinical phenotype can include microcephaly, facial malformations, developmental delay, cerebellar hypoplasia, and cardiac anomalies. We present a family with two affected individuals who were diagnosed through clinical RNA sequencing (RNA-seq) after conventional DNA diagnostics did not yield a molecular cause. Skipping of two exons in CCDC32 transcript was identified, consistent with a bi-allelic deletion including exons 3 and 4 of CCDC32. This deletion was not detected in previous SNP array analyses and trio exome sequencing focusing on genes related to intellectual disability and congenital malformations, highlighting the complementary value of RNA-seq. Furthermore, we review the clinical phenotype of this rare disorder and its potential disease mechanisms.",
-      "bullets": [
-        "Skipping of two exons in CCDC32 transcript was identified, consistent with a bi-allelic deletion including exons 3 and 4 of CCDC32.",
-        "This deletion was not detected in previous SNP array analyses and trio exome sequencing focusing on genes related to intellectual disability and congenital malformations, highlighting the complementary value of RNA-seq.",
-        "Furthermore, we review the clinical phenotype of this rare disorder and its potential disease mechanisms."
-      ],
-      "authors": "Albuainain F, Venema M, Schot R, et al.",
-      "journal": "European journal of human genetics : EJHG",
+      "authors": "Th\u00e9riault S, Holdcraft J, Sharipova D, et al.",
+      "journal": "Circulation",
       "year": "2026",
       "month": "Apr",
-      "doi": "10.1016/j.pediatrneurol.2010.10.012",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41639596/",
-      "ris": "TY  - JOUR\nAU  - Albuainain F\nAU  - Venema M\nAU  - Schot R\nTI  - Two siblings with CCDC32-related cardiofacioneurodevelopmental syndrome diagnosed by clinical RNA-sequencing and review of literature.\nJO  - European journal of human genetics : EJHG\nPY  - 2026\nDO  - 10.1016/j.pediatrneurol.2010.10.012\nAB  - Cardiofacioneurodevelopmental syndrome (CFNDS, MIM:619123) is a rare genetic disorder caused by bi-allelic pathogenic variants in CCDC32. So far, CFNDS has only been described in four living individuals and one terminated fetus from four families, and the clinical phenotype can include microcephaly,\nUR  - https://pubmed.ncbi.nlm.nih.gov/41639596/\nER  - ",
+      "doi": "10.1186/1471-2105-12-77",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41645906/",
+      "ris": "TY  - JOUR\nAU  - Th\u00e9riault S\nAU  - Holdcraft J\nAU  - Sharipova D\nTI  - Genome and Transcriptome-Wide Analyses Identify Multiple Candidate Genes and a Significant Polygenic Contribution in Bicuspid Aortic Valve.\nJO  - Circulation\nPY  - 2026\nDO  - 10.1186/1471-2105-12-77\nAB  - BACKGROUND: Bicuspid aortic valve (BAV) is a frequent congenital heart defect with a high heritability. Despite this, only a limited number of genes have been associated with the disease, and the molecular mechanisms remain unexplained in most cases. This study aimed to further understand the geneti\nUR  - https://pubmed.ncbi.nlm.nih.gov/41645906/\nER  - ",
       "section": "disease_genetics",
       "topic": "CHD_Genetics",
       "type": "Review",
+      "score": 5
+    },
+    {
+      "pmid": "41946911",
+      "title": "Variants in the CxxC domain of the epigenetic regulator KDM2B support its role in developmental eye anomalies.",
+      "abstract": "KDM2B encodes an epigenetic regulator that binds to promoter-associated CpG islands via its CxxC zinc-finger domain, protecting them from DNA methylation. It also helps establish transcriptional programs essential for development by recruiting the non-canonical Polycomb Repressive Complex 1.1 to lineage-specific genes. Heterozygous variants in KDM2B were recently associated with a neurodevelopmental disorder. Notably, some individuals with variants in the CxxC domain also exhibited congenital he\u2026",
+      "abstract_full": "KDM2B encodes an epigenetic regulator that binds to promoter-associated CpG islands via its CxxC zinc-finger domain, protecting them from DNA methylation. It also helps establish transcriptional programs essential for development by recruiting the non-canonical Polycomb Repressive Complex 1.1 to lineage-specific genes. Heterozygous variants in KDM2B were recently associated with a neurodevelopmental disorder. Notably, some individuals with variants in the CxxC domain also exhibited congenital heart, kidney and/or structural eye anomalies. By screening 706 families with developmental eye disorders, we identified two cases with KDM2B-CxxC variants, NM_032590.5:c.1841G>C;p.(Arg614Pro) and NM_032590.5:c.1880G>C;p.(Cys627Ser), both resulting in a characteristic KDM2B DNA episignature. Both individuals exhibited complex structural eye defects, with neurodevelopmental, cardiac and renal anomalies variably present. These cases strengthen the association between KDM2B-CxxC variants and eye, kidney and heart malformations and highlight the importance of testing this gene and its episignature in individuals with structural eye disorders, especially when accompanied by congenital cardiac and/or renal anomalies.",
+      "bullets": [
+        "Heterozygous variants in KDM2B were recently associated with a neurodevelopmental disorder.",
+        "By screening 706 families with developmental eye disorders, we identified two cases with KDM2B-CxxC variants, NM_032590.5:c.1841G>C;p.(Arg614Pro) and NM_032590.5:c.1880G>C;p.",
+        "These cases strengthen the association between KDM2B-CxxC variants and eye, kidney and heart malformations and highlight the importance of testing this gene and its episignature in individuals with structural eye\u2026"
+      ],
+      "authors": "Ceroni F, Reis L, Watkins F, et al.",
+      "journal": "European journal of human genetics : EJHG",
+      "year": "2026",
+      "month": "Apr",
+      "doi": "10.1016/j.mcn.2011.01.001",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41946911/",
+      "ris": "TY  - JOUR\nAU  - Ceroni F\nAU  - Reis L\nAU  - Watkins F\nTI  - Variants in the CxxC domain of the epigenetic regulator KDM2B support its role in developmental eye anomalies.\nJO  - European journal of human genetics : EJHG\nPY  - 2026\nDO  - 10.1016/j.mcn.2011.01.001\nAB  - KDM2B encodes an epigenetic regulator that binds to promoter-associated CpG islands via its CxxC zinc-finger domain, protecting them from DNA methylation. It also helps establish transcriptional programs essential for development by recruiting the non-canonical Polycomb Repressive Complex 1.1 to lin\nUR  - https://pubmed.ncbi.nlm.nih.gov/41946911/\nER  - ",
+      "section": "topic_watch",
+      "topic": "CHD_Methylation",
+      "type": "Epigenetics",
       "score": 4
     },
     {
-      "pmid": "41797063",
-      "title": "Generation of the human induced pluripotent stem cell (hiPSC) line AUMCi015-A from a heterozygous carrier of the LMNA p.Q493X rare pathogenic variant.",
-      "abstract": "Dilated cardiomyopathy (DCM) caused by rare pathogenic variants in LMNA is a severe hereditary heart disease characterized by lethal arrythmias and progressive heart failure. Here, we describe a human induced pluripotent stem cell (hiPSC) line reprogrammed by non-integrative Sendai virus from dermal fibroblasts of a female DCM patient carrying the heterozygous LMNA p.Q493X rare pathogenic variant. The obtained hiPSCs have a normal karyotype, show high expression of pluripotency markers at the mR\u2026",
-      "abstract_full": "Dilated cardiomyopathy (DCM) caused by rare pathogenic variants in LMNA is a severe hereditary heart disease characterized by lethal arrythmias and progressive heart failure. Here, we describe a human induced pluripotent stem cell (hiPSC) line reprogrammed by non-integrative Sendai virus from dermal fibroblasts of a female DCM patient carrying the heterozygous LMNA p.Q493X rare pathogenic variant. The obtained hiPSCs have a normal karyotype, show high expression of pluripotency markers at the mRNA and protein level, and are able to differentiate into derivatives of all three germ layers. Therefore, this newly-generated hiPSC line enables modeling of DCM caused by rare pathogenic variants in LMNA.",
+      "pmid": "41937210",
+      "title": "An integrative single-nucleus multiomic atlas of the human left ventricle identifies gene regulatory network dynamics across cardiac development, aging, and disease.",
+      "abstract": "BACKGROUND: As the first organ to develop in utero, the human heart undergoes extensive molecular, structural and metabolic remodeling during development and must sustain its function throughout life. RESULTS: We generate an integrated multiomic atlas of human cardiac cells, combining newly generated and publicly available single-nucleus RNA sequencing datasets from 299 donors and single nucleus ATAC-seq datasets from 106 donors. Developmental and disease-associated processes drive far more exte\u2026",
+      "abstract_full": "BACKGROUND: As the first organ to develop in utero, the human heart undergoes extensive molecular, structural and metabolic remodeling during development and must sustain its function throughout life. RESULTS: We generate an integrated multiomic atlas of human cardiac cells, combining newly generated and publicly available single-nucleus RNA sequencing datasets from 299 donors and single nucleus ATAC-seq datasets from 106 donors. Developmental and disease-associated processes drive far more extensive molecular remodeling than sex-associated or aging-dependent effects. Across nearly all cardiac cell types, developmental and disease-driven changes exhibit strong overlap at both the transcriptomic and epigenomic levels, revealing widespread reactivation of fetal-associated gene programs beyond cardiomyocytes. Both cardiac development and disease show convergent shifts in intercellular communication, including increased TGF\u03b2 signaling. Integration of gene expression and chromatin accessibility data reveals putative cell-type-specific transcriptional factors driving fetal reactivation in major cardiac diseases. Spatial transcriptomics data orthogonally identifies localization of this fetal reactivation signature within spatially distinct niches in ischemic and fibrotic zones of acute myocardial infarction. Finally, we construct a cell-type-resolved enhancer-to-gene linkage map that refines the association of dilated and hypertrophic cardiomyopathy genetic risk loci to downstream target genes. CONCLUSIONS: This study presents a comprehensive multimodal, cell-type-resolved atlas of the human heart, providing a foundation for understanding human cardiac gene regulation across the human lifespan and in cardiac diseases.",
       "bullets": [
-        "Dilated cardiomyopathy (DCM) caused by rare pathogenic variants in LMNA is a severe hereditary heart disease characterized by lethal arrythmias and progressive heart failure.",
-        "Here, we describe a human induced pluripotent stem cell (hiPSC) line reprogrammed by non-integrative Sendai virus from dermal fibroblasts of a female DCM patient carrying the heterozygous LMNA p.",
-        "Therefore, this newly-generated hiPSC line enables modeling of DCM caused by rare pathogenic variants in LMNA."
+        "We generate an integrated multiomic atlas of human cardiac cells, combining newly generated and publicly available single-nucleus RNA sequencing datasets from 299 donors and single nucleus ATAC-seq datasets from 106\u2026",
+        "Developmental and disease-associated processes drive far more extensive molecular remodeling than sex-associated or aging-dependent effects.",
+        "Across nearly all cardiac cell types, developmental and disease-driven changes exhibit strong overlap at both the transcriptomic and epigenomic levels, revealing widespread reactivation of fetal-associated gene programs\u2026"
       ],
-      "authors": "de Vries D, van den Bout A, de Haan H, et al.",
-      "journal": "Stem cell research",
+      "authors": "Gao W, Hu P, Wick B, et al.",
+      "journal": "Genome biology",
       "year": "2026",
       "month": "Apr",
-      "doi": "10.1016/j.scr.2026.103962",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41797063/",
-      "ris": "TY  - JOUR\nAU  - de Vries D\nAU  - van den Bout A\nAU  - de Haan H\nTI  - Generation of the human induced pluripotent stem cell (hiPSC) line AUMCi015-A from a heterozygous carrier of the LMNA p.Q493X rare pathogenic variant.\nJO  - Stem cell research\nPY  - 2026\nDO  - 10.1016/j.scr.2026.103962\nAB  - Dilated cardiomyopathy (DCM) caused by rare pathogenic variants in LMNA is a severe hereditary heart disease characterized by lethal arrythmias and progressive heart failure. Here, we describe a human induced pluripotent stem cell (hiPSC) line reprogrammed by non-integrative Sendai virus from dermal\nUR  - https://pubmed.ncbi.nlm.nih.gov/41797063/\nER  - ",
-      "section": "disease_genetics",
-      "topic": "DCM_Genetics",
-      "type": "Research article",
-      "score": 4
-    },
-    {
-      "pmid": "41919412",
-      "title": "A novel homozygous PPP1R13L frameshift variant in a child with syndromic dilated cardiomyopathy and fatal arrhythmia.",
-      "abstract": "BACKGROUND: Dilated cardiomyopathy is a rare but severe myocardial disease in the paediatric population, often leading to heart failure, heart transplantation, or sudden cardiac death. Genetic factors are a major contributor to childhood dilated cardiomyopathy. Recently, biallelic variants in the PPP1R13L gene have been implicated in a novel syndromic form of early-onset dilated cardiomyopathy, characterised by cardiac dysfunction alongside variable ectodermal features. CASE PRESENTATION: We rep\u2026",
-      "abstract_full": "BACKGROUND: Dilated cardiomyopathy is a rare but severe myocardial disease in the paediatric population, often leading to heart failure, heart transplantation, or sudden cardiac death. Genetic factors are a major contributor to childhood dilated cardiomyopathy. Recently, biallelic variants in the PPP1R13L gene have been implicated in a novel syndromic form of early-onset dilated cardiomyopathy, characterised by cardiac dysfunction alongside variable ectodermal features. CASE PRESENTATION: We report a 4-year-old boy who presented with decompensated heart failure and echocardiographic findings consistent with dilated cardiomyopathy. Syndromic features included sparse, dry hair, high anterior hairline, broad nasal bridge, and pointed teeth. Genetic analysis revealed a novel homozygous frameshift variant in the PPP1R13L gene (c.2368_2375dup; p. Pro793Glyfs*32), classified as pathogenic. The clinical course was complicated by recurrent ventricular arrhythmias and ultimately sudden cardiac death. CONCLUSION: PPP1R13L-related cardiomyopathy should be considered in children with early-onset dilated cardiomyopathy and syndromic features. Early diagnosis is critical for clinical management, arrhythmia surveillance, and appropriate family counselling.",
-      "bullets": [
-        "PPP1R13L-related cardiomyopathy should be considered in children with early-onset dilated cardiomyopathy and syndromic features.",
-        "Early diagnosis is critical for clinical management, arrhythmia surveillance, and appropriate family counselling."
-      ],
-      "authors": "Kurt H, Ulger Z, Levent E, et al.",
-      "journal": "Cardiology in the young",
-      "year": "2026",
-      "month": "Apr",
-      "doi": "10.1017/S1047951126111883",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41919412/",
-      "ris": "TY  - JOUR\nAU  - Kurt H\nAU  - Ulger Z\nAU  - Levent E\nTI  - A novel homozygous PPP1R13L frameshift variant in a child with syndromic dilated cardiomyopathy and fatal arrhythmia.\nJO  - Cardiology in the young\nPY  - 2026\nDO  - 10.1017/S1047951126111883\nAB  - BACKGROUND: Dilated cardiomyopathy is a rare but severe myocardial disease in the paediatric population, often leading to heart failure, heart transplantation, or sudden cardiac death. Genetic factors are a major contributor to childhood dilated cardiomyopathy. Recently, biallelic variants in the PP\nUR  - https://pubmed.ncbi.nlm.nih.gov/41919412/\nER  - ",
-      "section": "disease_genetics",
-      "topic": "DCM_Genetics",
-      "type": "Research article",
-      "score": 3
-    },
-    {
-      "pmid": "41855523",
-      "title": "Global analyses of genomic and epigenomic influences on gene expression reveal Serpina3n as a major regulator of cardiac gene expression in response to catecholamine challenge during heart failure.",
-      "abstract": "Heart failure arises from maladaptive remodelling driven by genetic and epigenetic networks. Using a systems genetics framework, we mapped how DNA variants and CpG methylation shape cardiac transcriptomes during beta adrenergic stress in the Hybrid Mouse Diversity Panel, a cohort of over 100 fully inbred mouse strains. Expression QTLs (eQTLs), methylation QTLs (mQTLs) and methylation-driven eQTLs (emQTLs) were generated from over 13k expressed genes and 200k hypervariable CpGs in left ventricles\u2026",
-      "abstract_full": "Heart failure arises from maladaptive remodelling driven by genetic and epigenetic networks. Using a systems genetics framework, we mapped how DNA variants and CpG methylation shape cardiac transcriptomes during beta adrenergic stress in the Hybrid Mouse Diversity Panel, a cohort of over 100 fully inbred mouse strains. Expression QTLs (eQTLs), methylation QTLs (mQTLs) and methylation-driven eQTLs (emQTLs) were generated from over 13k expressed genes and 200k hypervariable CpGs in left ventricles. We discovered hundreds of regulatory 'hotspots' that control large portions of the genome, including several that regulate over 10% of the transcriptome and/or methylome. Approximately 16% of these hotspots overlapped with prior GWAS or EWAS signals. We focus on a hotspot on chromosome 12 and identify the serpine peptidase inhibitor Serpina3n, as the most likely driver gene in this hotspot. Experimental knockdown of Serpina3n in neonatal rat ventricular cardiomyocytes blunted hypertrophy induced by a variety of hypertrophic signals, while altering predicted target expression and modulating the activity of Nppa and Nppb. Together, these findings position Serpina3n as a major regulator of stress-responsive cardiac gene programs, highlighting how integration of genetic and epigenetic signals can pinpoint key drivers of heart failure. Cross-omics hotspot analysis: We identified 286 eQTL, mQTL, and emQTL hotspots in the Hybrid Mouse Diversity Panel, including several hotspots that regulate over 10% of the cardiac transcriptome.Integration with prior GWAS/EWAS: ~16% of hotspots overlapped with previously reported heart failure hotspots, strengthening their biological relevance.Discovery of Serpina3n as heart failure regulator: A hotspot on chromosome 12 linked to Serpina3n controlled 4\u20136% of all gene expression and CpG methylation changes in response to isoproterenol.Functional validation: siRNA knockdown of Serpina3n in cardiomyocytes significantly blunted hypertrophy induced by isoproterenol, angiotensin II, and phenylephrine.Pathway insights: Genes regulated by the Serpina3n hotspot were enriched for mitochondrial function, dilated cardiomyopathy, and hypertrophic signalling pathways, highlighting a mechanistic link to heart failure progression.",
-      "bullets": [
-        "Approximately 16% of these hotspots overlapped with prior GWAS or EWAS signals.",
-        "Together, these findings position Serpina3n as a major regulator of stress-responsive cardiac gene programs, highlighting how integration of genetic and epigenetic signals can pinpoint key drivers of heart failure.",
-        "Cross-omics hotspot analysis: We identified 286 eQTL, mQTL, and emQTL hotspots in the Hybrid Mouse Diversity Panel, including several hotspots that regulate over 10% of the cardiac transcriptome."
-      ],
-      "authors": "Lahue C, Ravindran S, Dalal A, et al.",
-      "journal": "Epigenetics",
-      "year": "2026",
-      "month": "Dec",
-      "doi": "10.1038/s41467-020-19015-1",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41855523/",
-      "ris": "TY  - JOUR\nAU  - Lahue C\nAU  - Ravindran S\nAU  - Dalal A\nTI  - Global analyses of genomic and epigenomic influences on gene expression reveal Serpina3n as a major regulator of cardiac gene expression in response to catecholamine challenge during heart failure.\nJO  - Epigenetics\nPY  - 2026\nDO  - 10.1038/s41467-020-19015-1\nAB  - Heart failure arises from maladaptive remodelling driven by genetic and epigenetic networks. Using a systems genetics framework, we mapped how DNA variants and CpG methylation shape cardiac transcriptomes during beta adrenergic stress in the Hybrid Mouse Diversity Panel, a cohort of over 100 fully i\nUR  - https://pubmed.ncbi.nlm.nih.gov/41855523/\nER  - ",
+      "doi": "10.1038/s41588-024-01952-y",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41937210/",
+      "ris": "TY  - JOUR\nAU  - Gao W\nAU  - Hu P\nAU  - Wick B\nTI  - An integrative single-nucleus multiomic atlas of the human left ventricle identifies gene regulatory network dynamics across cardiac development, aging, and disease.\nJO  - Genome biology\nPY  - 2026\nDO  - 10.1038/s41588-024-01952-y\nAB  - BACKGROUND: As the first organ to develop in utero, the human heart undergoes extensive molecular, structural and metabolic remodeling during development and must sustain its function throughout life. RESULTS: We generate an integrated multiomic atlas of human cardiac cells, combining newly generate\nUR  - https://pubmed.ncbi.nlm.nih.gov/41937210/\nER  - ",
       "section": "topic_watch",
       "topic": "DCM_Omics",
-      "type": "GWAS",
-      "score": 2
+      "type": "Epigenetics",
+      "score": 3
     },
     {
       "pmid": "41747776",
@@ -372,6 +263,28 @@
       "section": "disease_genetics",
       "topic": "DCM_Genetics",
       "type": "Research article",
+      "score": 2
+    },
+    {
+      "pmid": "41855523",
+      "title": "Global analyses of genomic and epigenomic influences on gene expression reveal Serpina3n as a major regulator of cardiac gene expression in response to catecholamine challenge during heart failure.",
+      "abstract": "Heart failure arises from maladaptive remodelling driven by genetic and epigenetic networks. Using a systems genetics framework, we mapped how DNA variants and CpG methylation shape cardiac transcriptomes during beta adrenergic stress in the Hybrid Mouse Diversity Panel, a cohort of over 100 fully inbred mouse strains. Expression QTLs (eQTLs), methylation QTLs (mQTLs) and methylation-driven eQTLs (emQTLs) were generated from over 13k expressed genes and 200k hypervariable CpGs in left ventricles\u2026",
+      "abstract_full": "Heart failure arises from maladaptive remodelling driven by genetic and epigenetic networks. Using a systems genetics framework, we mapped how DNA variants and CpG methylation shape cardiac transcriptomes during beta adrenergic stress in the Hybrid Mouse Diversity Panel, a cohort of over 100 fully inbred mouse strains. Expression QTLs (eQTLs), methylation QTLs (mQTLs) and methylation-driven eQTLs (emQTLs) were generated from over 13k expressed genes and 200k hypervariable CpGs in left ventricles. We discovered hundreds of regulatory 'hotspots' that control large portions of the genome, including several that regulate over 10% of the transcriptome and/or methylome. Approximately 16% of these hotspots overlapped with prior GWAS or EWAS signals. We focus on a hotspot on chromosome 12 and identify the serpine peptidase inhibitor Serpina3n, as the most likely driver gene in this hotspot. Experimental knockdown of Serpina3n in neonatal rat ventricular cardiomyocytes blunted hypertrophy induced by a variety of hypertrophic signals, while altering predicted target expression and modulating the activity of Nppa and Nppb. Together, these findings position Serpina3n as a major regulator of stress-responsive cardiac gene programs, highlighting how integration of genetic and epigenetic signals can pinpoint key drivers of heart failure. Cross-omics hotspot analysis: We identified 286 eQTL, mQTL, and emQTL hotspots in the Hybrid Mouse Diversity Panel, including several hotspots that regulate over 10% of the cardiac transcriptome.Integration with prior GWAS/EWAS: ~16% of hotspots overlapped with previously reported heart failure hotspots, strengthening their biological relevance.Discovery of Serpina3n as heart failure regulator: A hotspot on chromosome 12 linked to Serpina3n controlled 4\u20136% of all gene expression and CpG methylation changes in response to isoproterenol.Functional validation: siRNA knockdown of Serpina3n in cardiomyocytes significantly blunted hypertrophy induced by isoproterenol, angiotensin II, and phenylephrine.Pathway insights: Genes regulated by the Serpina3n hotspot were enriched for mitochondrial function, dilated cardiomyopathy, and hypertrophic signalling pathways, highlighting a mechanistic link to heart failure progression.",
+      "bullets": [
+        "Approximately 16% of these hotspots overlapped with prior GWAS or EWAS signals.",
+        "Together, these findings position Serpina3n as a major regulator of stress-responsive cardiac gene programs, highlighting how integration of genetic and epigenetic signals can pinpoint key drivers of heart failure.",
+        "Cross-omics hotspot analysis: We identified 286 eQTL, mQTL, and emQTL hotspots in the Hybrid Mouse Diversity Panel, including several hotspots that regulate over 10% of the cardiac transcriptome."
+      ],
+      "authors": "Lahue C, Ravindran S, Dalal A, et al.",
+      "journal": "Epigenetics",
+      "year": "2026",
+      "month": "Dec",
+      "doi": "10.1038/s41467-020-19015-1",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41855523/",
+      "ris": "TY  - JOUR\nAU  - Lahue C\nAU  - Ravindran S\nAU  - Dalal A\nTI  - Global analyses of genomic and epigenomic influences on gene expression reveal Serpina3n as a major regulator of cardiac gene expression in response to catecholamine challenge during heart failure.\nJO  - Epigenetics\nPY  - 2026\nDO  - 10.1038/s41467-020-19015-1\nAB  - Heart failure arises from maladaptive remodelling driven by genetic and epigenetic networks. Using a systems genetics framework, we mapped how DNA variants and CpG methylation shape cardiac transcriptomes during beta adrenergic stress in the Hybrid Mouse Diversity Panel, a cohort of over 100 fully i\nUR  - https://pubmed.ncbi.nlm.nih.gov/41855523/\nER  - ",
+      "section": "topic_watch",
+      "topic": "DCM_Omics",
+      "type": "GWAS",
       "score": 2
     },
     {
@@ -417,60 +330,15 @@
       "topic": "DCM_Genetics",
       "type": "Sequencing study",
       "score": 1
-    },
-    {
-      "pmid": "41930574",
-      "title": "CYP17A1 Locus: Regulatory Mechanisms and Clinical Associations With Cardiovascular Disease and Metabolic Syndrome.",
-      "abstract": "The CYP17A1 gene encodes the P450 17\u03b1-hydroxylase/17,20-lyase protein, a key enzyme in steroidogenesis. In the past, it was associated with disorders such as congenital adrenal hyperplasia, disorders of sex development, and castration resistant prostate cancer. Recently, genome-wide association studies have revealed that the locus harboring the CYP17A1 gene is strongly associated with multiple other traits, including cardiovascular and metabolic characteristics. This review summarizes the curren\u2026",
-      "abstract_full": "The CYP17A1 gene encodes the P450 17\u03b1-hydroxylase/17,20-lyase protein, a key enzyme in steroidogenesis. In the past, it was associated with disorders such as congenital adrenal hyperplasia, disorders of sex development, and castration resistant prostate cancer. Recently, genome-wide association studies have revealed that the locus harboring the CYP17A1 gene is strongly associated with multiple other traits, including cardiovascular and metabolic characteristics. This review summarizes the current knowledge about the regulatory mechanisms and monogenic disease implications of the CYP17A1 gene, then attempts to link the locus to cardiovascular and metabolic diseases, using experimental evidence supporting these relationships. Additionally, the review also speculates that the research focus may have been placed solely on one gene of the locus, which could have obscured the effects of other neighboring ones. In summary, our review aimed to highlight this locus as a complex regulatory region with implications that extend beyond a single gene.",
-      "bullets": [
-        "In the past, it was associated with disorders such as congenital adrenal hyperplasia, disorders of sex development, and castration resistant prostate cancer.",
-        "Recently, genome-wide association studies have revealed that the locus harboring the CYP17A1 gene is strongly associated with multiple other traits, including cardiovascular and metabolic characteristics.",
-        "In summary, our review aimed to highlight this locus as a complex regulatory region with implications that extend beyond a single gene."
-      ],
-      "authors": "Chakkor Y, Aherrahrou R",
-      "journal": "IUBMB life",
-      "year": "2026",
-      "month": "Apr",
-      "doi": "10.1002/iub.70096",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41930574/",
-      "ris": "TY  - JOUR\nAU  - Chakkor Y\nAU  - Aherrahrou R\nTI  - CYP17A1 Locus: Regulatory Mechanisms and Clinical Associations With Cardiovascular Disease and Metabolic Syndrome.\nJO  - IUBMB life\nPY  - 2026\nDO  - 10.1002/iub.70096\nAB  - The CYP17A1 gene encodes the P450 17\u03b1-hydroxylase/17,20-lyase protein, a key enzyme in steroidogenesis. In the past, it was associated with disorders such as congenital adrenal hyperplasia, disorders of sex development, and castration resistant prostate cancer. Recently, genome-wide association stud\nUR  - https://pubmed.ncbi.nlm.nih.gov/41930574/\nER  - ",
-      "section": "disease_genetics",
-      "topic": "CHD_Genetics",
-      "type": "Review",
-      "score": 0
-    },
-    {
-      "pmid": "41236190",
-      "title": "Compound genetic burden in oculo-facio-cardio-dental (OFCD) syndrome: surgical risk stratification with co-occurring BCOR and MYLK mutations.",
-      "abstract": "INTRODUCTION: Oculo-facio-cardio-dental (OFCD) syndrome is a rare X-linked dominant disorder caused by pathogenic BCOR variants and characterized by congenital cataracts, microcornea, and secondary glaucoma. Multilocus pathogenic variation (MPV), in which independent variants contribute to disease burden, can further complicate syndromic presentations and alter surgical planning. This case highlights the importance of longitudinal genetic evaluation in complex ophthalmic disease. METHODS: Compre\u2026",
-      "abstract_full": "INTRODUCTION: Oculo-facio-cardio-dental (OFCD) syndrome is a rare X-linked dominant disorder caused by pathogenic BCOR variants and characterized by congenital cataracts, microcornea, and secondary glaucoma. Multilocus pathogenic variation (MPV), in which independent variants contribute to disease burden, can further complicate syndromic presentations and alter surgical planning. This case highlights the importance of longitudinal genetic evaluation in complex ophthalmic disease. METHODS: Comprehensive ophthalmic evaluation, multimodal imaging, and systemic assessment were performed. Trio exome sequencing was used as part of the genetic diagnostic work-up. Standard preoperative cardiovascular imaging was completed before planned glaucoma surgery. RESULTS: A 15-year-old female with OFCD exhibited congenital cataracts, bilateral microcornea, and persistent secondary glaucoma requiring multiple interventions. Trio exome sequencing confirmed a de novo pathogenic BCOR mutation and identified a paternally inherited pathogenic MYLK variant associated with thoracic aortic aneurysm and dissection. Although initially cleared for glaucoma surgery, routine preoperative screening revealed progressive ascending aortic dilation linked to the MYLKM variant, leading to postponement of ocular surgery due to increased anesthetic risk. DISCUSSION: This case demonstrates how MPV can significantly influence ophthalmic surgical decision-making. Genetic findings initially considered secondary became critical as cardiovascular risk evolved. Multidisciplinary coordination between ophthalmology and genetics is essential to integrate evolving genomic insights into perioperative care and ensure optimal patient safety.",
-      "bullets": [
-        "A 15-year-old female with OFCD exhibited congenital cataracts, bilateral microcornea, and persistent secondary glaucoma requiring multiple interventions.",
-        "Trio exome sequencing confirmed a de novo pathogenic BCOR mutation and identified a paternally inherited pathogenic MYLK variant associated with thoracic aortic aneurysm and dissection.",
-        "Although initially cleared for glaucoma surgery, routine preoperative screening revealed progressive ascending aortic dilation linked to the MYLKM variant, leading to postponement of ocular surgery due to increased\u2026"
-      ],
-      "authors": "Kang S, Perez A, Smith C, et al.",
-      "journal": "Ophthalmic genetics",
-      "year": "2026",
-      "month": "Apr",
-      "doi": "10.1080/13816810.2025.2582609",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41236190/",
-      "ris": "TY  - JOUR\nAU  - Kang S\nAU  - Perez A\nAU  - Smith C\nTI  - Compound genetic burden in oculo-facio-cardio-dental (OFCD) syndrome: surgical risk stratification with co-occurring BCOR and MYLK mutations.\nJO  - Ophthalmic genetics\nPY  - 2026\nDO  - 10.1080/13816810.2025.2582609\nAB  - INTRODUCTION: Oculo-facio-cardio-dental (OFCD) syndrome is a rare X-linked dominant disorder caused by pathogenic BCOR variants and characterized by congenital cataracts, microcornea, and secondary glaucoma. Multilocus pathogenic variation (MPV), in which independent variants contribute to disease b\nUR  - https://pubmed.ncbi.nlm.nih.gov/41236190/\nER  - ",
-      "section": "disease_genetics",
-      "topic": "CHD_Genetics",
-      "type": "Methods",
-      "score": 0
     }
   ],
-  "summary_text": "10 papers selected from this week's literature:\n  \u2022 1 \u00d7 PRS & oligogenic methods\n  \u2022 8 \u00d7 disease genetics (CHD / DCM / SCAD)\n  \u2022 1 \u00d7 epigenetics / methylation\n\nHighlight: Large-scale exome analyses reveal new rare variant contributions in amyotrophic lateral sclerosis. (Nature genetics, 2026)",
+  "summary_text": "7 papers selected from this week's literature:\n  \u2022 4 \u00d7 disease genetics (CHD / DCM / SCAD)\n  \u2022 3 \u00d7 epigenetics / methylation\n\nHighlight: Genome and Transcriptome-Wide Analyses Identify Multiple Candidate Genes and a Significant Polygenic Contribution in Bicuspid Aortic Valve. (Circulation, 2026)",
   "summary": {
-    "total_selected": 10,
-    "total_candidates": 10,
+    "total_selected": 7,
+    "total_candidates": 7,
     "section_counts": {
-      "prs_methods": 1,
-      "disease_genetics": 8,
-      "topic_watch": 1
+      "disease_genetics": 4,
+      "topic_watch": 3
     }
   }
 }
