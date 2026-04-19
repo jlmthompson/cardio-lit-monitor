@@ -1,31 +1,75 @@
 {
-  "generated": "2026-04-12T21:21:55.632444",
+  "generated": "2026-04-19T21:23:15.283978",
   "lookback_days": 7,
-  "cutoff_date": "2026/04/05",
+  "cutoff_date": "2026/04/12",
   "sections": {
     "disease_genetics": {
       "papers": [
         {
-          "pmid": "41645906",
-          "title": "Genome and Transcriptome-Wide Analyses Identify Multiple Candidate Genes and a Significant Polygenic Contribution in Bicuspid Aortic Valve.",
-          "abstract": "BACKGROUND: Bicuspid aortic valve (BAV) is a frequent congenital heart defect with a high heritability. Despite this, only a limited number of genes have been associated with the disease, and the molecular mechanisms remain unexplained in most cases. This study aimed to further understand the genetic architecture of BAV. METHODS: A genome-wide association study meta-analysis including 9631 cases among 65\u2009677 participants was performed. Genes were prioritized using transcriptomic analyses based o\u2026",
-          "abstract_full": "BACKGROUND: Bicuspid aortic valve (BAV) is a frequent congenital heart defect with a high heritability. Despite this, only a limited number of genes have been associated with the disease, and the molecular mechanisms remain unexplained in most cases. This study aimed to further understand the genetic architecture of BAV. METHODS: A genome-wide association study meta-analysis including 9631 cases among 65\u2009677 participants was performed. Genes were prioritized using transcriptomic analyses based on RNA sequencing in relevant tissues, including human fetal and adult aortic valves. The impact of the knockdown or knockout of 4 candidate genes on cardiac development was verified in zebrafish. A polygenic risk score was developed, its association with BAV was evaluated in an independent cohort, and its association with a wide range of phenotypes (n=976) was evaluated in UK Biobank (n=355\u2009618 individuals). RESULTS: Thirty-six genomic loci were identified, including 32 that were not described previously. Among the prioritized genes, KANK2 and ERBB4 were identified as potentially causal through transcriptomic analyses, colocalization, and Mendelian randomization based on gene expression in human aortic valves (n=484), whereas PRDM6 and STRN were prioritized using similar analyses from aortic (n=326) and left ventricular tissues (n=326), respectively. Targeting 4 candidate genes (WNT4, LEF1, STRN, and KANK2) in zebrafish led to disruption in cardiac development. A polygenic risk score was associated with an odds ratio of 2.07 (95% CI, 1.90-2.25; P=5.43\u00d710-62) per SD for BAV and significantly associated with thoracic aortic aneurysm and atrial fibrillation in UK Biobank. CONCLUSIONS: This study supports a significant polygenic contribution to BAV, where the combination of multiple common variants in genes involved in heart morphogenesis disrupts aortic valve development.",
+          "pmid": "41997951",
+          "title": "Rare regulatory mutations disrupt mesenchymal molecular programs driving endocardial cushion formation in bicuspid aortic valve.",
+          "abstract": "Bicuspid aortic valve, a prevalent congenital malformation, predisposes individuals to severe complications. Although the condition exhibits substantial heritability, known protein-coding and common regulatory mutations explain a minority of cases. To assess the contribution of rare regulatory variants, here we integrate high-resolution three-dimensional genome organization profiling with matched whole-genome sequencing from eight individuals with bicuspid aortic valves and eight with standard t\u2026",
+          "abstract_full": "Bicuspid aortic valve, a prevalent congenital malformation, predisposes individuals to severe complications. Although the condition exhibits substantial heritability, known protein-coding and common regulatory mutations explain a minority of cases. To assess the contribution of rare regulatory variants, here we integrate high-resolution three-dimensional genome organization profiling with matched whole-genome sequencing from eight individuals with bicuspid aortic valves and eight with standard tricuspid aortic valves. In bicuspid aortic valve patients, mutation-driven chromatin rewiring affected 1.8-fold more valve development genes than in healthy individuals. Genome-wide in silico analyses show that rare regulatory mutations disrupt the transcriptomes of mesenchymal cell populations necessary for endocardial cushion formation. We identify 198 candidate genes associated with bicuspid aortic valve, revealing pronounced heterogeneity and complex interplay between coding and regulatory mutations. Collectively, our findings establish rare regulatory mutations as contributors to the heritability of bicuspid aortic valve and underscore the need to elucidate their mechanistic roles in disease pathogenesis.",
           "bullets": [
-            "Thirty-six genomic loci were identified, including 32 that were not described previously.",
-            "Targeting 4 candidate genes (WNT4, LEF1, STRN, and KANK2) in zebrafish led to disruption in cardiac development.",
-            "A polygenic risk score was associated with an odds ratio of 2.07 (95% CI, 1.90-2.25; P=5.43\u00d710-62) per SD for BAV and significantly associated with thoracic aortic aneurysm and atrial fibrillation in UK Biobank."
+            "Genome-wide in silico analyses show that rare regulatory mutations disrupt the transcriptomes of mesenchymal cell populations necessary for endocardial cushion formation.",
+            "We identify 198 candidate genes associated with bicuspid aortic valve, revealing pronounced heterogeneity and complex interplay between coding and regulatory mutations.",
+            "Collectively, our findings establish rare regulatory mutations as contributors to the heritability of bicuspid aortic valve and underscore the need to elucidate their mechanistic roles in disease pathogenesis."
           ],
-          "authors": "Th\u00e9riault S, Holdcraft J, Sharipova D, et al.",
-          "journal": "Circulation",
+          "authors": "Zhigulev A, Buyan A, L\u00e1z\u00e1r E, et al.",
+          "journal": "Nature communications",
           "year": "2026",
           "month": "Apr",
-          "doi": "10.1186/1471-2105-12-77",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/41645906/",
-          "ris": "TY  - JOUR\nAU  - Th\u00e9riault S\nAU  - Holdcraft J\nAU  - Sharipova D\nTI  - Genome and Transcriptome-Wide Analyses Identify Multiple Candidate Genes and a Significant Polygenic Contribution in Bicuspid Aortic Valve.\nJO  - Circulation\nPY  - 2026\nDO  - 10.1186/1471-2105-12-77\nAB  - BACKGROUND: Bicuspid aortic valve (BAV) is a frequent congenital heart defect with a high heritability. Despite this, only a limited number of genes have been associated with the disease, and the molecular mechanisms remain unexplained in most cases. This study aimed to further understand the geneti\nUR  - https://pubmed.ncbi.nlm.nih.gov/41645906/\nER  - ",
+          "doi": "10.1101/gr.1239303",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41997951/",
+          "ris": "TY  - JOUR\nAU  - Zhigulev A\nAU  - Buyan A\nAU  - L\u00e1z\u00e1r E\nTI  - Rare regulatory mutations disrupt mesenchymal molecular programs driving endocardial cushion formation in bicuspid aortic valve.\nJO  - Nature communications\nPY  - 2026\nDO  - 10.1101/gr.1239303\nAB  - Bicuspid aortic valve, a prevalent congenital malformation, predisposes individuals to severe complications. Although the condition exhibits substantial heritability, known protein-coding and common regulatory mutations explain a minority of cases. To assess the contribution of rare regulatory varia\nUR  - https://pubmed.ncbi.nlm.nih.gov/41997951/\nER  - ",
           "section": "disease_genetics",
           "topic": "CHD_Genetics",
-          "type": "Review",
-          "score": 5
+          "type": "Epigenetics",
+          "score": 4
+        },
+        {
+          "pmid": "40126773",
+          "title": "Rare T-box variants in adult pulmonary arterial hypertension with congenital heart disease.",
+          "abstract": "We report the clinical and genetic features of three adult patients with congenital heart disease-associated pulmonary arterial hypertension (CHD-PAH) carrying rare T-box variants. All three patients had weakness and cyanosis. Two patients had chest tightness, dry cough, and hemoptysis, and one patient had lower limb edema. Besides meeting the diagnostic criteria of CHD-PAH, three patients respectively presented the clinical features of specific syndromes. Specifically, patient 1 presented with \u2026",
+          "abstract_full": "We report the clinical and genetic features of three adult patients with congenital heart disease-associated pulmonary arterial hypertension (CHD-PAH) carrying rare T-box variants. All three patients had weakness and cyanosis. Two patients had chest tightness, dry cough, and hemoptysis, and one patient had lower limb edema. Besides meeting the diagnostic criteria of CHD-PAH, three patients respectively presented the clinical features of specific syndromes. Specifically, patient 1 presented with clinical features consistent with tetralogy of Fallot, patient 2 presented with characteristics associated with small patella syndrome, and the patient 3 exhibited features consistent with Holt-Oram syndrome. Exome sequencing revealed that the TBX1 (c.820\u00a0T\u2009>\u2009C) variant was identified in patient 1, the TBX4 (c.251del) variant was detected in patient 2 and the TBX5 (c.486del) variant was found in patient 3. Our study for the first time found that CHD-PAH patients carry T-box gene variants, which has added new clues to understanding the pathogenesis of CHD-PAH and is expected to provide new targets and ideas for the diagnosis and treatment of CHD-PAH.",
+          "bullets": [
+            "We report the clinical and genetic features of three adult patients with congenital heart disease-associated pulmonary arterial hypertension (CHD-PAH) carrying rare T-box variants.",
+            "Specifically, patient 1 presented with clinical features consistent with tetralogy of Fallot, patient 2 presented with characteristics associated with small patella syndrome, and the patient 3 exhibited features\u2026",
+            "Exome sequencing revealed that the TBX1 (c.820\u00a0T\u2009>\u2009C) variant was identified in patient 1, the TBX4 (c.251del) variant was detected in patient 2 and the TBX5 (c.486del) variant was found in patient 3."
+          ],
+          "authors": "Li L, Chen G, Qiao N, et al.",
+          "journal": "Journal of applied genetics",
+          "year": "2026",
+          "month": "May",
+          "doi": "10.1186/s13073-019-0685-z",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40126773/",
+          "ris": "TY  - JOUR\nAU  - Li L\nAU  - Chen G\nAU  - Qiao N\nTI  - Rare T-box variants in adult pulmonary arterial hypertension with congenital heart disease.\nJO  - Journal of applied genetics\nPY  - 2026\nDO  - 10.1186/s13073-019-0685-z\nAB  - We report the clinical and genetic features of three adult patients with congenital heart disease-associated pulmonary arterial hypertension (CHD-PAH) carrying rare T-box variants. All three patients had weakness and cyanosis. Two patients had chest tightness, dry cough, and hemoptysis, and one pati\nUR  - https://pubmed.ncbi.nlm.nih.gov/40126773/\nER  - ",
+          "section": "disease_genetics",
+          "topic": "CHD_Genetics",
+          "type": "Research article",
+          "score": 4
+        },
+        {
+          "pmid": "41983892",
+          "title": "ZNF827 pleiotropic cardiovascular risk locus involves regulation by Nuclear Factor-1 transcription factors.",
+          "abstract": "Spontaneous coronary artery dissection (SCAD) is a form of myocardial infarction that predominantly affects middle-aged women, caused by the spontaneous onset of an intramural hematoma leading to heart ischemia. SCAD genetic risk loci is ZNF827 locus on chromosome 4 was previously associated with the risk for coronary artery disease, systolic blood pressure and ascending aortic diameter variability, but the molecular processes driving these genetic associations are unknown. In this study, we dem\u2026",
+          "abstract_full": "Spontaneous coronary artery dissection (SCAD) is a form of myocardial infarction that predominantly affects middle-aged women, caused by the spontaneous onset of an intramural hematoma leading to heart ischemia. SCAD genetic risk loci is ZNF827 locus on chromosome 4 was previously associated with the risk for coronary artery disease, systolic blood pressure and ascending aortic diameter variability, but the molecular processes driving these genetic associations are unknown. In this study, we demonstrated that these genetic associations were colocalized and could all be explained by the intronic common variant rs13128814, which overlapped epigenetic regulatory markers specifically active in vascular smooth muscle cells (SMCs) and fibroblasts. Using reporter assay experiments, we found that SCAD-risk allele (rs13128814-A) was associated to increased transcriptional activity in A7r5 SMCs. In silico predictions and reporter assays suggested Nuclear factor-1 (NF1) transcription factors to preferentially bind to SCAD risk allele. We found that SCAD genetic association colocalized with a ZNF827 eQTL association in artery tissues. Knockdown of ZNF827 in human iPSC-derived SMCs and fibroblasts identified a large number of dysregulated genes enriched in relevant pathways such as macroautophagy and insulin signaling. Our findings support NF1-dependent rs13128814 effect on the expression of ZNF827 as a potential molecular mechanism underpinning multiple cardiovascular traits genetic risk locus. ZNF827 may act as a broad regulator of gene expression in vascular SMCs and fibroblasts. Further investigation using multiple cell types organoids and in vivo models may clarify the implications of ZNF827 in arterial fragility observed in SCAD and other arterial diseases.",
+          "bullets": [
+            "In this study, we demonstrated that these genetic associations were colocalized and could all be explained by the intronic common variant rs13128814, which overlapped epigenetic regulatory markers specifically active in\u2026",
+            "Using reporter assay experiments, we found that SCAD-risk allele (rs13128814-A) was associated to increased transcriptional activity in A7r5 SMCs.",
+            "Our findings support NF1-dependent rs13128814 effect on the expression of ZNF827 as a potential molecular mechanism underpinning multiple cardiovascular traits genetic risk locus."
+          ],
+          "authors": "Liu Y, Liu L, Esmael A, et al.",
+          "journal": "Clinical science (London, England : 1979)",
+          "year": "2026",
+          "month": "Apr",
+          "doi": "10.1042/CS20257956",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41983892/",
+          "ris": "TY  - JOUR\nAU  - Liu Y\nAU  - Liu L\nAU  - Esmael A\nTI  - ZNF827 pleiotropic cardiovascular risk locus involves regulation by Nuclear Factor-1 transcription factors.\nJO  - Clinical science (London, England : 1979)\nPY  - 2026\nDO  - 10.1042/CS20257956\nAB  - Spontaneous coronary artery dissection (SCAD) is a form of myocardial infarction that predominantly affects middle-aged women, caused by the spontaneous onset of an intramural hematoma leading to heart ischemia. SCAD genetic risk loci is ZNF827 locus on chromosome 4 was previously associated with th\nUR  - https://pubmed.ncbi.nlm.nih.gov/41983892/\nER  - ",
+          "section": "disease_genetics",
+          "topic": "SCAD_Genetics",
+          "type": "Epigenetics",
+          "score": 4
         },
         {
           "pmid": "41747776",
@@ -92,64 +136,65 @@
           "topic": "DCM_Genetics",
           "type": "Sequencing study",
           "score": 1
+        },
+        {
+          "pmid": "39969775",
+          "title": "Identification of novel biallelic mutations in CFAP53 associated with fetal situs inversus totalis and literature review.",
+          "abstract": "Visceral heterotaxy is a congenital malformation characterized by the abnormal arrangement of left-right axis of visceral organs. To date, several genes implicated in the regulation of laterality patterning have been identified. Notably, CFAP53, also referred to as CCDC11, is involved in the regulation of ciliary motility, and mutations in this gene have been linked to a rare condition of heterotaxy. In this study,\u00a0whole-exome sequencing (WES) was utilized to analyze the genetic causes of a fetu\u2026",
+          "abstract_full": "Visceral heterotaxy is a congenital malformation characterized by the abnormal arrangement of left-right axis of visceral organs. To date, several genes implicated in the regulation of laterality patterning have been identified. Notably, CFAP53, also referred to as CCDC11, is involved in the regulation of ciliary motility, and mutations in this gene have been linked to a rare condition of heterotaxy. In this study,\u00a0whole-exome sequencing (WES) was utilized to analyze the genetic causes of a fetus in a Chinese family, presenting with situs inversus totalis. In silico predictions and functional studies were performed to evaluate the pathogenicity of the identified candidate gene variants. WES revealed two novel compound heterozygous mutations, c.777G\u2009>\u2009T and c.1013A\u2009>\u2009T, in the CFAP53 gene. Minigene experiments demonstrated that c.777G\u2009>\u2009T may result in splicing aberrations, thus leading to the production of truncated CFAP53 proteins. Additionally, in silico analyses indicate that c.1013A\u2009>\u2009T could disrupt the interaction between CFAP53 and its target protein, TTC25. We report the second documented case of fetus with situs inversus totalis due to biallelic loss-of-function variants in CFAP53. According to literature review, our findings provide a basis for the prenatal diagnosis and genetic counseling of CFAP53 mutation-associated visceral heterotaxy.",
+          "bullets": [
+            "Minigene experiments demonstrated that c.777G\u2009>\u2009T may result in splicing aberrations, thus leading to the production of truncated CFAP53 proteins.",
+            "We report the second documented case of fetus with situs inversus totalis due to biallelic loss-of-function variants in CFAP53.",
+            "According to literature review, our findings provide a basis for the prenatal diagnosis and genetic counseling of CFAP53 mutation-associated visceral heterotaxy."
+          ],
+          "authors": "Guo Z, Tan M, Zhu H, et al.",
+          "journal": "Journal of applied genetics",
+          "year": "2026",
+          "month": "May",
+          "doi": "10.1016/j.heliyon.2024.e37355",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39969775/",
+          "ris": "TY  - JOUR\nAU  - Guo Z\nAU  - Tan M\nAU  - Zhu H\nTI  - Identification of novel biallelic mutations in CFAP53 associated with fetal situs inversus totalis and literature review.\nJO  - Journal of applied genetics\nPY  - 2026\nDO  - 10.1016/j.heliyon.2024.e37355\nAB  - Visceral heterotaxy is a congenital malformation characterized by the abnormal arrangement of left-right axis of visceral organs. To date, several genes implicated in the regulation of laterality patterning have been identified. Notably, CFAP53, also referred to as CCDC11, is involved in the regulat\nUR  - https://pubmed.ncbi.nlm.nih.gov/39969775/\nER  - ",
+          "section": "disease_genetics",
+          "topic": "CHD_Genetics",
+          "type": "Review",
+          "score": 0
         }
       ],
-      "total": 4
+      "total": 7
     },
     "prs_disease": {
       "papers": [],
       "total": 0
     },
     "prs_methods": {
-      "papers": [],
-      "total": 0
+      "papers": [
+        {
+          "pmid": "41968586",
+          "title": "Clinical Exome Sequencing in Unexplained Hyperferritinemia Reveals Digenic and Oligogenic Inheritance Beyond Iron Homeostasis.",
+          "abstract": "BACKGROUND AND AIMS: Hyperferritinemia encompasses heterogeneous genetic etiologies beyond HFE-related hemochromatosis. Current guidelines recommend testing for rare hemochromatosis genes, yet no consensus exists on comprehensive genomic approaches. We aimed to characterise the genetic landscape of unexplained hyperferritinemia using clinical exome sequencing (CES) and evaluate genotype-phenotype correlations across functional pathways. METHODS: In this retrospective study (2019-2024), consecuti\u2026",
+          "abstract_full": "BACKGROUND AND AIMS: Hyperferritinemia encompasses heterogeneous genetic etiologies beyond HFE-related hemochromatosis. Current guidelines recommend testing for rare hemochromatosis genes, yet no consensus exists on comprehensive genomic approaches. We aimed to characterise the genetic landscape of unexplained hyperferritinemia using clinical exome sequencing (CES) and evaluate genotype-phenotype correlations across functional pathways. METHODS: In this retrospective study (2019-2024), consecutive patients with unexplained hyperferritinemia after exclusion of secondary causes underwent CES. Patients with known HFE p.Cys282Tyr homozygosity were not referred for CES. Variant filtering was performed using the Genomics England panel for iron metabolism and the French network for rare liver diseases panel, combined with phenotype-driven analysis based on Human Phenotype Ontology annotations for iron-related phenotypes. Genes were categorised into four pathways: systemic iron sensing, iron transport and storage, hepatic metabolism and erythropoiesis. RESULTS: Among 108 patients, CES identified at least one variant in 72 (66.7%), including 44 (40.7%) with likely pathogenic or pathogenic (LP/P) variants. HFE was the most frequently affected gene, followed by SERPINA1, ATP7B, and CP. Among patients without monogenic HFE alterations (n\u2009=\u200957), 21 (36.8%) carried variants, mainly affecting CP, ATP7B, SERPINA1 or GBA. Digenic or oligogenic inheritance was observed in 30.6% (22/72) of patients overall and in 20.5% (9/44) of those carrying LP/P variants, most frequently involving HFE-SERPINA1 and HFE-ATP7B combinations. Cross-pathway combinations occurred in 17 of 22 digenic patients (77.3%). The systemic iron sensing group exhibited significantly higher serum iron (p\u2009=\u20090.009) and transferrin saturation (p\u2009=\u20090.008). CONCLUSIONS: CES reveals genetic heterogeneity beyond the traditional Mendelian framework, with frequent non-HFE gene involvement and digenic inheritance and should be considered after exclusion of HFE p.Cys282Tyr homozygosity. When blood ferritin levels are elevated without a clear explanation, doctors typically test for a single common gene linked to iron overload, but many patients remain without a diagnosis. Using broad genetic testing that examines approximately 6700 genes, this study of 108 patients found that more than 40% carried disease\u2010causing variants, often in genes related to liver metabolism or blood cell production rather than classical iron overload, and that nearly one\u2010third had variants in two or more genes acting together. These results support the use of comprehensive genetic testing after ruling out the most common form of hereditary hemochromatosis, enabling earlier identification of treatable conditions and more personalised patient care.",
+          "bullets": [
+            "Among 108 patients, CES identified at least one variant in 72 (66.7%), including 44 (40.7%) with likely pathogenic or pathogenic (LP/P) variants.",
+            "HFE was the most frequently affected gene, followed by SERPINA1, ATP7B, and CP.",
+            "Among patients without monogenic HFE alterations (n\u2009=\u200957), 21 (36.8%) carried variants, mainly affecting CP, ATP7B, SERPINA1 or GBA."
+          ],
+          "authors": "Morel P, Silva Rodriguez M, Benmouffek C, et al.",
+          "journal": "Liver international : official journal of the International Association for the Study of the Liver",
+          "year": "2026",
+          "month": "May",
+          "doi": "10.1111/liv.70646",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41968586/",
+          "ris": "TY  - JOUR\nAU  - Morel P\nAU  - Silva Rodriguez M\nAU  - Benmouffek C\nTI  - Clinical Exome Sequencing in Unexplained Hyperferritinemia Reveals Digenic and Oligogenic Inheritance Beyond Iron Homeostasis.\nJO  - Liver international : official journal of the International Association for the Study of the Liver\nPY  - 2026\nDO  - 10.1111/liv.70646\nAB  - BACKGROUND AND AIMS: Hyperferritinemia encompasses heterogeneous genetic etiologies beyond HFE-related hemochromatosis. Current guidelines recommend testing for rare hemochromatosis genes, yet no consensus exists on comprehensive genomic approaches. We aimed to characterise the genetic landscape of \nUR  - https://pubmed.ncbi.nlm.nih.gov/41968586/\nER  - ",
+          "section": "prs_methods",
+          "topic": "Oligogenic_Digenic",
+          "type": "Methods",
+          "score": 3
+        }
+      ],
+      "total": 1
     },
     "topic_watch": {
       "papers": [
-        {
-          "pmid": "41946911",
-          "title": "Variants in the CxxC domain of the epigenetic regulator KDM2B support its role in developmental eye anomalies.",
-          "abstract": "KDM2B encodes an epigenetic regulator that binds to promoter-associated CpG islands via its CxxC zinc-finger domain, protecting them from DNA methylation. It also helps establish transcriptional programs essential for development by recruiting the non-canonical Polycomb Repressive Complex 1.1 to lineage-specific genes. Heterozygous variants in KDM2B were recently associated with a neurodevelopmental disorder. Notably, some individuals with variants in the CxxC domain also exhibited congenital he\u2026",
-          "abstract_full": "KDM2B encodes an epigenetic regulator that binds to promoter-associated CpG islands via its CxxC zinc-finger domain, protecting them from DNA methylation. It also helps establish transcriptional programs essential for development by recruiting the non-canonical Polycomb Repressive Complex 1.1 to lineage-specific genes. Heterozygous variants in KDM2B were recently associated with a neurodevelopmental disorder. Notably, some individuals with variants in the CxxC domain also exhibited congenital heart, kidney and/or structural eye anomalies. By screening 706 families with developmental eye disorders, we identified two cases with KDM2B-CxxC variants, NM_032590.5:c.1841G>C;p.(Arg614Pro) and NM_032590.5:c.1880G>C;p.(Cys627Ser), both resulting in a characteristic KDM2B DNA episignature. Both individuals exhibited complex structural eye defects, with neurodevelopmental, cardiac and renal anomalies variably present. These cases strengthen the association between KDM2B-CxxC variants and eye, kidney and heart malformations and highlight the importance of testing this gene and its episignature in individuals with structural eye disorders, especially when accompanied by congenital cardiac and/or renal anomalies.",
-          "bullets": [
-            "Heterozygous variants in KDM2B were recently associated with a neurodevelopmental disorder.",
-            "By screening 706 families with developmental eye disorders, we identified two cases with KDM2B-CxxC variants, NM_032590.5:c.1841G>C;p.(Arg614Pro) and NM_032590.5:c.1880G>C;p.",
-            "These cases strengthen the association between KDM2B-CxxC variants and eye, kidney and heart malformations and highlight the importance of testing this gene and its episignature in individuals with structural eye\u2026"
-          ],
-          "authors": "Ceroni F, Reis L, Watkins F, et al.",
-          "journal": "European journal of human genetics : EJHG",
-          "year": "2026",
-          "month": "Apr",
-          "doi": "10.1016/j.mcn.2011.01.001",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/41946911/",
-          "ris": "TY  - JOUR\nAU  - Ceroni F\nAU  - Reis L\nAU  - Watkins F\nTI  - Variants in the CxxC domain of the epigenetic regulator KDM2B support its role in developmental eye anomalies.\nJO  - European journal of human genetics : EJHG\nPY  - 2026\nDO  - 10.1016/j.mcn.2011.01.001\nAB  - KDM2B encodes an epigenetic regulator that binds to promoter-associated CpG islands via its CxxC zinc-finger domain, protecting them from DNA methylation. It also helps establish transcriptional programs essential for development by recruiting the non-canonical Polycomb Repressive Complex 1.1 to lin\nUR  - https://pubmed.ncbi.nlm.nih.gov/41946911/\nER  - ",
-          "section": "topic_watch",
-          "topic": "CHD_Methylation",
-          "type": "Epigenetics",
-          "score": 4
-        },
-        {
-          "pmid": "41937210",
-          "title": "An integrative single-nucleus multiomic atlas of the human left ventricle identifies gene regulatory network dynamics across cardiac development, aging, and disease.",
-          "abstract": "BACKGROUND: As the first organ to develop in utero, the human heart undergoes extensive molecular, structural and metabolic remodeling during development and must sustain its function throughout life. RESULTS: We generate an integrated multiomic atlas of human cardiac cells, combining newly generated and publicly available single-nucleus RNA sequencing datasets from 299 donors and single nucleus ATAC-seq datasets from 106 donors. Developmental and disease-associated processes drive far more exte\u2026",
-          "abstract_full": "BACKGROUND: As the first organ to develop in utero, the human heart undergoes extensive molecular, structural and metabolic remodeling during development and must sustain its function throughout life. RESULTS: We generate an integrated multiomic atlas of human cardiac cells, combining newly generated and publicly available single-nucleus RNA sequencing datasets from 299 donors and single nucleus ATAC-seq datasets from 106 donors. Developmental and disease-associated processes drive far more extensive molecular remodeling than sex-associated or aging-dependent effects. Across nearly all cardiac cell types, developmental and disease-driven changes exhibit strong overlap at both the transcriptomic and epigenomic levels, revealing widespread reactivation of fetal-associated gene programs beyond cardiomyocytes. Both cardiac development and disease show convergent shifts in intercellular communication, including increased TGF\u03b2 signaling. Integration of gene expression and chromatin accessibility data reveals putative cell-type-specific transcriptional factors driving fetal reactivation in major cardiac diseases. Spatial transcriptomics data orthogonally identifies localization of this fetal reactivation signature within spatially distinct niches in ischemic and fibrotic zones of acute myocardial infarction. Finally, we construct a cell-type-resolved enhancer-to-gene linkage map that refines the association of dilated and hypertrophic cardiomyopathy genetic risk loci to downstream target genes. CONCLUSIONS: This study presents a comprehensive multimodal, cell-type-resolved atlas of the human heart, providing a foundation for understanding human cardiac gene regulation across the human lifespan and in cardiac diseases.",
-          "bullets": [
-            "We generate an integrated multiomic atlas of human cardiac cells, combining newly generated and publicly available single-nucleus RNA sequencing datasets from 299 donors and single nucleus ATAC-seq datasets from 106\u2026",
-            "Developmental and disease-associated processes drive far more extensive molecular remodeling than sex-associated or aging-dependent effects.",
-            "Across nearly all cardiac cell types, developmental and disease-driven changes exhibit strong overlap at both the transcriptomic and epigenomic levels, revealing widespread reactivation of fetal-associated gene programs\u2026"
-          ],
-          "authors": "Gao W, Hu P, Wick B, et al.",
-          "journal": "Genome biology",
-          "year": "2026",
-          "month": "Apr",
-          "doi": "10.1038/s41588-024-01952-y",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/41937210/",
-          "ris": "TY  - JOUR\nAU  - Gao W\nAU  - Hu P\nAU  - Wick B\nTI  - An integrative single-nucleus multiomic atlas of the human left ventricle identifies gene regulatory network dynamics across cardiac development, aging, and disease.\nJO  - Genome biology\nPY  - 2026\nDO  - 10.1038/s41588-024-01952-y\nAB  - BACKGROUND: As the first organ to develop in utero, the human heart undergoes extensive molecular, structural and metabolic remodeling during development and must sustain its function throughout life. RESULTS: We generate an integrated multiomic atlas of human cardiac cells, combining newly generate\nUR  - https://pubmed.ncbi.nlm.nih.gov/41937210/\nER  - ",
-          "section": "topic_watch",
-          "topic": "DCM_Omics",
-          "type": "Epigenetics",
-          "score": 3
-        },
         {
           "pmid": "41855523",
           "title": "Global analyses of genomic and epigenomic influences on gene expression reveal Serpina3n as a major regulator of cardiac gene expression in response to catecholamine challenge during heart failure.",
@@ -173,97 +218,97 @@
           "score": 2
         }
       ],
-      "total": 3
+      "total": 1
     }
   },
   "selected_papers": [
     {
-      "pmid": "41645906",
-      "title": "Genome and Transcriptome-Wide Analyses Identify Multiple Candidate Genes and a Significant Polygenic Contribution in Bicuspid Aortic Valve.",
-      "abstract": "BACKGROUND: Bicuspid aortic valve (BAV) is a frequent congenital heart defect with a high heritability. Despite this, only a limited number of genes have been associated with the disease, and the molecular mechanisms remain unexplained in most cases. This study aimed to further understand the genetic architecture of BAV. METHODS: A genome-wide association study meta-analysis including 9631 cases among 65\u2009677 participants was performed. Genes were prioritized using transcriptomic analyses based o\u2026",
-      "abstract_full": "BACKGROUND: Bicuspid aortic valve (BAV) is a frequent congenital heart defect with a high heritability. Despite this, only a limited number of genes have been associated with the disease, and the molecular mechanisms remain unexplained in most cases. This study aimed to further understand the genetic architecture of BAV. METHODS: A genome-wide association study meta-analysis including 9631 cases among 65\u2009677 participants was performed. Genes were prioritized using transcriptomic analyses based on RNA sequencing in relevant tissues, including human fetal and adult aortic valves. The impact of the knockdown or knockout of 4 candidate genes on cardiac development was verified in zebrafish. A polygenic risk score was developed, its association with BAV was evaluated in an independent cohort, and its association with a wide range of phenotypes (n=976) was evaluated in UK Biobank (n=355\u2009618 individuals). RESULTS: Thirty-six genomic loci were identified, including 32 that were not described previously. Among the prioritized genes, KANK2 and ERBB4 were identified as potentially causal through transcriptomic analyses, colocalization, and Mendelian randomization based on gene expression in human aortic valves (n=484), whereas PRDM6 and STRN were prioritized using similar analyses from aortic (n=326) and left ventricular tissues (n=326), respectively. Targeting 4 candidate genes (WNT4, LEF1, STRN, and KANK2) in zebrafish led to disruption in cardiac development. A polygenic risk score was associated with an odds ratio of 2.07 (95% CI, 1.90-2.25; P=5.43\u00d710-62) per SD for BAV and significantly associated with thoracic aortic aneurysm and atrial fibrillation in UK Biobank. CONCLUSIONS: This study supports a significant polygenic contribution to BAV, where the combination of multiple common variants in genes involved in heart morphogenesis disrupts aortic valve development.",
+      "pmid": "41997951",
+      "title": "Rare regulatory mutations disrupt mesenchymal molecular programs driving endocardial cushion formation in bicuspid aortic valve.",
+      "abstract": "Bicuspid aortic valve, a prevalent congenital malformation, predisposes individuals to severe complications. Although the condition exhibits substantial heritability, known protein-coding and common regulatory mutations explain a minority of cases. To assess the contribution of rare regulatory variants, here we integrate high-resolution three-dimensional genome organization profiling with matched whole-genome sequencing from eight individuals with bicuspid aortic valves and eight with standard t\u2026",
+      "abstract_full": "Bicuspid aortic valve, a prevalent congenital malformation, predisposes individuals to severe complications. Although the condition exhibits substantial heritability, known protein-coding and common regulatory mutations explain a minority of cases. To assess the contribution of rare regulatory variants, here we integrate high-resolution three-dimensional genome organization profiling with matched whole-genome sequencing from eight individuals with bicuspid aortic valves and eight with standard tricuspid aortic valves. In bicuspid aortic valve patients, mutation-driven chromatin rewiring affected 1.8-fold more valve development genes than in healthy individuals. Genome-wide in silico analyses show that rare regulatory mutations disrupt the transcriptomes of mesenchymal cell populations necessary for endocardial cushion formation. We identify 198 candidate genes associated with bicuspid aortic valve, revealing pronounced heterogeneity and complex interplay between coding and regulatory mutations. Collectively, our findings establish rare regulatory mutations as contributors to the heritability of bicuspid aortic valve and underscore the need to elucidate their mechanistic roles in disease pathogenesis.",
       "bullets": [
-        "Thirty-six genomic loci were identified, including 32 that were not described previously.",
-        "Targeting 4 candidate genes (WNT4, LEF1, STRN, and KANK2) in zebrafish led to disruption in cardiac development.",
-        "A polygenic risk score was associated with an odds ratio of 2.07 (95% CI, 1.90-2.25; P=5.43\u00d710-62) per SD for BAV and significantly associated with thoracic aortic aneurysm and atrial fibrillation in UK Biobank."
+        "Genome-wide in silico analyses show that rare regulatory mutations disrupt the transcriptomes of mesenchymal cell populations necessary for endocardial cushion formation.",
+        "We identify 198 candidate genes associated with bicuspid aortic valve, revealing pronounced heterogeneity and complex interplay between coding and regulatory mutations.",
+        "Collectively, our findings establish rare regulatory mutations as contributors to the heritability of bicuspid aortic valve and underscore the need to elucidate their mechanistic roles in disease pathogenesis."
       ],
-      "authors": "Th\u00e9riault S, Holdcraft J, Sharipova D, et al.",
-      "journal": "Circulation",
+      "authors": "Zhigulev A, Buyan A, L\u00e1z\u00e1r E, et al.",
+      "journal": "Nature communications",
       "year": "2026",
       "month": "Apr",
-      "doi": "10.1186/1471-2105-12-77",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41645906/",
-      "ris": "TY  - JOUR\nAU  - Th\u00e9riault S\nAU  - Holdcraft J\nAU  - Sharipova D\nTI  - Genome and Transcriptome-Wide Analyses Identify Multiple Candidate Genes and a Significant Polygenic Contribution in Bicuspid Aortic Valve.\nJO  - Circulation\nPY  - 2026\nDO  - 10.1186/1471-2105-12-77\nAB  - BACKGROUND: Bicuspid aortic valve (BAV) is a frequent congenital heart defect with a high heritability. Despite this, only a limited number of genes have been associated with the disease, and the molecular mechanisms remain unexplained in most cases. This study aimed to further understand the geneti\nUR  - https://pubmed.ncbi.nlm.nih.gov/41645906/\nER  - ",
+      "doi": "10.1101/gr.1239303",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41997951/",
+      "ris": "TY  - JOUR\nAU  - Zhigulev A\nAU  - Buyan A\nAU  - L\u00e1z\u00e1r E\nTI  - Rare regulatory mutations disrupt mesenchymal molecular programs driving endocardial cushion formation in bicuspid aortic valve.\nJO  - Nature communications\nPY  - 2026\nDO  - 10.1101/gr.1239303\nAB  - Bicuspid aortic valve, a prevalent congenital malformation, predisposes individuals to severe complications. Although the condition exhibits substantial heritability, known protein-coding and common regulatory mutations explain a minority of cases. To assess the contribution of rare regulatory varia\nUR  - https://pubmed.ncbi.nlm.nih.gov/41997951/\nER  - ",
       "section": "disease_genetics",
       "topic": "CHD_Genetics",
-      "type": "Review",
-      "score": 5
-    },
-    {
-      "pmid": "41946911",
-      "title": "Variants in the CxxC domain of the epigenetic regulator KDM2B support its role in developmental eye anomalies.",
-      "abstract": "KDM2B encodes an epigenetic regulator that binds to promoter-associated CpG islands via its CxxC zinc-finger domain, protecting them from DNA methylation. It also helps establish transcriptional programs essential for development by recruiting the non-canonical Polycomb Repressive Complex 1.1 to lineage-specific genes. Heterozygous variants in KDM2B were recently associated with a neurodevelopmental disorder. Notably, some individuals with variants in the CxxC domain also exhibited congenital he\u2026",
-      "abstract_full": "KDM2B encodes an epigenetic regulator that binds to promoter-associated CpG islands via its CxxC zinc-finger domain, protecting them from DNA methylation. It also helps establish transcriptional programs essential for development by recruiting the non-canonical Polycomb Repressive Complex 1.1 to lineage-specific genes. Heterozygous variants in KDM2B were recently associated with a neurodevelopmental disorder. Notably, some individuals with variants in the CxxC domain also exhibited congenital heart, kidney and/or structural eye anomalies. By screening 706 families with developmental eye disorders, we identified two cases with KDM2B-CxxC variants, NM_032590.5:c.1841G>C;p.(Arg614Pro) and NM_032590.5:c.1880G>C;p.(Cys627Ser), both resulting in a characteristic KDM2B DNA episignature. Both individuals exhibited complex structural eye defects, with neurodevelopmental, cardiac and renal anomalies variably present. These cases strengthen the association between KDM2B-CxxC variants and eye, kidney and heart malformations and highlight the importance of testing this gene and its episignature in individuals with structural eye disorders, especially when accompanied by congenital cardiac and/or renal anomalies.",
-      "bullets": [
-        "Heterozygous variants in KDM2B were recently associated with a neurodevelopmental disorder.",
-        "By screening 706 families with developmental eye disorders, we identified two cases with KDM2B-CxxC variants, NM_032590.5:c.1841G>C;p.(Arg614Pro) and NM_032590.5:c.1880G>C;p.",
-        "These cases strengthen the association between KDM2B-CxxC variants and eye, kidney and heart malformations and highlight the importance of testing this gene and its episignature in individuals with structural eye\u2026"
-      ],
-      "authors": "Ceroni F, Reis L, Watkins F, et al.",
-      "journal": "European journal of human genetics : EJHG",
-      "year": "2026",
-      "month": "Apr",
-      "doi": "10.1016/j.mcn.2011.01.001",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41946911/",
-      "ris": "TY  - JOUR\nAU  - Ceroni F\nAU  - Reis L\nAU  - Watkins F\nTI  - Variants in the CxxC domain of the epigenetic regulator KDM2B support its role in developmental eye anomalies.\nJO  - European journal of human genetics : EJHG\nPY  - 2026\nDO  - 10.1016/j.mcn.2011.01.001\nAB  - KDM2B encodes an epigenetic regulator that binds to promoter-associated CpG islands via its CxxC zinc-finger domain, protecting them from DNA methylation. It also helps establish transcriptional programs essential for development by recruiting the non-canonical Polycomb Repressive Complex 1.1 to lin\nUR  - https://pubmed.ncbi.nlm.nih.gov/41946911/\nER  - ",
-      "section": "topic_watch",
-      "topic": "CHD_Methylation",
       "type": "Epigenetics",
       "score": 4
     },
     {
-      "pmid": "41937210",
-      "title": "An integrative single-nucleus multiomic atlas of the human left ventricle identifies gene regulatory network dynamics across cardiac development, aging, and disease.",
-      "abstract": "BACKGROUND: As the first organ to develop in utero, the human heart undergoes extensive molecular, structural and metabolic remodeling during development and must sustain its function throughout life. RESULTS: We generate an integrated multiomic atlas of human cardiac cells, combining newly generated and publicly available single-nucleus RNA sequencing datasets from 299 donors and single nucleus ATAC-seq datasets from 106 donors. Developmental and disease-associated processes drive far more exte\u2026",
-      "abstract_full": "BACKGROUND: As the first organ to develop in utero, the human heart undergoes extensive molecular, structural and metabolic remodeling during development and must sustain its function throughout life. RESULTS: We generate an integrated multiomic atlas of human cardiac cells, combining newly generated and publicly available single-nucleus RNA sequencing datasets from 299 donors and single nucleus ATAC-seq datasets from 106 donors. Developmental and disease-associated processes drive far more extensive molecular remodeling than sex-associated or aging-dependent effects. Across nearly all cardiac cell types, developmental and disease-driven changes exhibit strong overlap at both the transcriptomic and epigenomic levels, revealing widespread reactivation of fetal-associated gene programs beyond cardiomyocytes. Both cardiac development and disease show convergent shifts in intercellular communication, including increased TGF\u03b2 signaling. Integration of gene expression and chromatin accessibility data reveals putative cell-type-specific transcriptional factors driving fetal reactivation in major cardiac diseases. Spatial transcriptomics data orthogonally identifies localization of this fetal reactivation signature within spatially distinct niches in ischemic and fibrotic zones of acute myocardial infarction. Finally, we construct a cell-type-resolved enhancer-to-gene linkage map that refines the association of dilated and hypertrophic cardiomyopathy genetic risk loci to downstream target genes. CONCLUSIONS: This study presents a comprehensive multimodal, cell-type-resolved atlas of the human heart, providing a foundation for understanding human cardiac gene regulation across the human lifespan and in cardiac diseases.",
+      "pmid": "40126773",
+      "title": "Rare T-box variants in adult pulmonary arterial hypertension with congenital heart disease.",
+      "abstract": "We report the clinical and genetic features of three adult patients with congenital heart disease-associated pulmonary arterial hypertension (CHD-PAH) carrying rare T-box variants. All three patients had weakness and cyanosis. Two patients had chest tightness, dry cough, and hemoptysis, and one patient had lower limb edema. Besides meeting the diagnostic criteria of CHD-PAH, three patients respectively presented the clinical features of specific syndromes. Specifically, patient 1 presented with \u2026",
+      "abstract_full": "We report the clinical and genetic features of three adult patients with congenital heart disease-associated pulmonary arterial hypertension (CHD-PAH) carrying rare T-box variants. All three patients had weakness and cyanosis. Two patients had chest tightness, dry cough, and hemoptysis, and one patient had lower limb edema. Besides meeting the diagnostic criteria of CHD-PAH, three patients respectively presented the clinical features of specific syndromes. Specifically, patient 1 presented with clinical features consistent with tetralogy of Fallot, patient 2 presented with characteristics associated with small patella syndrome, and the patient 3 exhibited features consistent with Holt-Oram syndrome. Exome sequencing revealed that the TBX1 (c.820\u00a0T\u2009>\u2009C) variant was identified in patient 1, the TBX4 (c.251del) variant was detected in patient 2 and the TBX5 (c.486del) variant was found in patient 3. Our study for the first time found that CHD-PAH patients carry T-box gene variants, which has added new clues to understanding the pathogenesis of CHD-PAH and is expected to provide new targets and ideas for the diagnosis and treatment of CHD-PAH.",
       "bullets": [
-        "We generate an integrated multiomic atlas of human cardiac cells, combining newly generated and publicly available single-nucleus RNA sequencing datasets from 299 donors and single nucleus ATAC-seq datasets from 106\u2026",
-        "Developmental and disease-associated processes drive far more extensive molecular remodeling than sex-associated or aging-dependent effects.",
-        "Across nearly all cardiac cell types, developmental and disease-driven changes exhibit strong overlap at both the transcriptomic and epigenomic levels, revealing widespread reactivation of fetal-associated gene programs\u2026"
+        "We report the clinical and genetic features of three adult patients with congenital heart disease-associated pulmonary arterial hypertension (CHD-PAH) carrying rare T-box variants.",
+        "Specifically, patient 1 presented with clinical features consistent with tetralogy of Fallot, patient 2 presented with characteristics associated with small patella syndrome, and the patient 3 exhibited features\u2026",
+        "Exome sequencing revealed that the TBX1 (c.820\u00a0T\u2009>\u2009C) variant was identified in patient 1, the TBX4 (c.251del) variant was detected in patient 2 and the TBX5 (c.486del) variant was found in patient 3."
       ],
-      "authors": "Gao W, Hu P, Wick B, et al.",
-      "journal": "Genome biology",
-      "year": "2026",
-      "month": "Apr",
-      "doi": "10.1038/s41588-024-01952-y",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41937210/",
-      "ris": "TY  - JOUR\nAU  - Gao W\nAU  - Hu P\nAU  - Wick B\nTI  - An integrative single-nucleus multiomic atlas of the human left ventricle identifies gene regulatory network dynamics across cardiac development, aging, and disease.\nJO  - Genome biology\nPY  - 2026\nDO  - 10.1038/s41588-024-01952-y\nAB  - BACKGROUND: As the first organ to develop in utero, the human heart undergoes extensive molecular, structural and metabolic remodeling during development and must sustain its function throughout life. RESULTS: We generate an integrated multiomic atlas of human cardiac cells, combining newly generate\nUR  - https://pubmed.ncbi.nlm.nih.gov/41937210/\nER  - ",
-      "section": "topic_watch",
-      "topic": "DCM_Omics",
-      "type": "Epigenetics",
-      "score": 3
-    },
-    {
-      "pmid": "41747776",
-      "title": "Inflammatory cardiomyopathy: Position paper of the Italian Society of Cardiology Working Group on cardiomyopathies and pericardial diseases in collaboration with the Italian Society of Cardiology Working Group on cardiac magnetic resonance.",
-      "abstract": "Inflammatory cardiomyopathy (iCMP) usually represents the chronic, hypokinetic phenotype within the myocarditis spectrum, characterized by persistent myocardial inflammation, systolic ventricular dysfunction, and adverse remodelling. It frequently evolves from prior acute or subacute myocarditis and is associated with significantly worse outcomes, including progression to dilated cardiomyopathy, heart failure, and arrhythmias. The condition arises from heterogeneous causes-infectious, autoimmune\u2026",
-      "abstract_full": "Inflammatory cardiomyopathy (iCMP) usually represents the chronic, hypokinetic phenotype within the myocarditis spectrum, characterized by persistent myocardial inflammation, systolic ventricular dysfunction, and adverse remodelling. It frequently evolves from prior acute or subacute myocarditis and is associated with significantly worse outcomes, including progression to dilated cardiomyopathy, heart failure, and arrhythmias. The condition arises from heterogeneous causes-infectious, autoimmune, or idiopathic-and may be influenced by genetic susceptibility, supporting a two-hit model in which environmental triggers interact with pathogenic variants. Diagnosis requires a multimodal approach. While clinical presentation is variable and often non-specific, cardiac magnetic resonance (CMR) provides essential tissue characterization, enabling detection of inflammation and fibrosis. Endomyocardial biopsy (EMB) remains critical for defining histologic subtype, identifying viral genomes, and guiding targeted therapy, especially in intermediate- or high-risk cases. Genetic testing assists in differentiating inherited CMPs and recognizing forms with distinctive inflammatory behavior, such as desmoplakin CMP. Management focuses on guideline-directed medical therapy for heart failure and treatment of underlying aetiologies. In biopsy-proven, virus-negative iCMP, immunosuppressive therapy may improve ventricular function and limit adverse remodelling, while antiviral strategies remain reserved for selected virus-positive cases. Arrhythmia management, including ICD implantation, is essential in patients with substantial fibrotic burden or arrhythmias. Prognosis depends on ventricular function, extent of fibrosis, viral persistence, arrhythmic burden, and recurrence of inflammatory \"hot phases.\" Lifelong follow-up is warranted. This position paper provides a comprehensive framework for the diagnosis, risk stratification, and management of iCMP, highlighting current evidence, guideline alignment, and remaining gaps.",
-      "bullets": [
-        "It frequently evolves from prior acute or subacute myocarditis and is associated with significantly worse outcomes, including progression to dilated cardiomyopathy, heart failure, and arrhythmias.",
-        "Prognosis depends on ventricular function, extent of fibrosis, viral persistence, arrhythmic burden, and recurrence of inflammatory \"hot phases.\" Lifelong follow-up is warranted.",
-        "This position paper provides a comprehensive framework for the diagnosis, risk stratification, and management of iCMP, highlighting current evidence, guideline alignment, and remaining gaps."
-      ],
-      "authors": "Imazio M, Jahnsen V, Merlo M, et al.",
-      "journal": "International journal of cardiology",
+      "authors": "Li L, Chen G, Qiao N, et al.",
+      "journal": "Journal of applied genetics",
       "year": "2026",
       "month": "May",
-      "doi": "10.1016/j.ijcard.2026.134249",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41747776/",
-      "ris": "TY  - JOUR\nAU  - Imazio M\nAU  - Jahnsen V\nAU  - Merlo M\nTI  - Inflammatory cardiomyopathy: Position paper of the Italian Society of Cardiology Working Group on cardiomyopathies and pericardial diseases in collaboration with the Italian Society of Cardiology Working Group on cardiac magnetic resonance.\nJO  - International journal of cardiology\nPY  - 2026\nDO  - 10.1016/j.ijcard.2026.134249\nAB  - Inflammatory cardiomyopathy (iCMP) usually represents the chronic, hypokinetic phenotype within the myocarditis spectrum, characterized by persistent myocardial inflammation, systolic ventricular dysfunction, and adverse remodelling. It frequently evolves from prior acute or subacute myocarditis and\nUR  - https://pubmed.ncbi.nlm.nih.gov/41747776/\nER  - ",
+      "doi": "10.1186/s13073-019-0685-z",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40126773/",
+      "ris": "TY  - JOUR\nAU  - Li L\nAU  - Chen G\nAU  - Qiao N\nTI  - Rare T-box variants in adult pulmonary arterial hypertension with congenital heart disease.\nJO  - Journal of applied genetics\nPY  - 2026\nDO  - 10.1186/s13073-019-0685-z\nAB  - We report the clinical and genetic features of three adult patients with congenital heart disease-associated pulmonary arterial hypertension (CHD-PAH) carrying rare T-box variants. All three patients had weakness and cyanosis. Two patients had chest tightness, dry cough, and hemoptysis, and one pati\nUR  - https://pubmed.ncbi.nlm.nih.gov/40126773/\nER  - ",
       "section": "disease_genetics",
-      "topic": "DCM_Genetics",
+      "topic": "CHD_Genetics",
       "type": "Research article",
-      "score": 2
+      "score": 4
+    },
+    {
+      "pmid": "41983892",
+      "title": "ZNF827 pleiotropic cardiovascular risk locus involves regulation by Nuclear Factor-1 transcription factors.",
+      "abstract": "Spontaneous coronary artery dissection (SCAD) is a form of myocardial infarction that predominantly affects middle-aged women, caused by the spontaneous onset of an intramural hematoma leading to heart ischemia. SCAD genetic risk loci is ZNF827 locus on chromosome 4 was previously associated with the risk for coronary artery disease, systolic blood pressure and ascending aortic diameter variability, but the molecular processes driving these genetic associations are unknown. In this study, we dem\u2026",
+      "abstract_full": "Spontaneous coronary artery dissection (SCAD) is a form of myocardial infarction that predominantly affects middle-aged women, caused by the spontaneous onset of an intramural hematoma leading to heart ischemia. SCAD genetic risk loci is ZNF827 locus on chromosome 4 was previously associated with the risk for coronary artery disease, systolic blood pressure and ascending aortic diameter variability, but the molecular processes driving these genetic associations are unknown. In this study, we demonstrated that these genetic associations were colocalized and could all be explained by the intronic common variant rs13128814, which overlapped epigenetic regulatory markers specifically active in vascular smooth muscle cells (SMCs) and fibroblasts. Using reporter assay experiments, we found that SCAD-risk allele (rs13128814-A) was associated to increased transcriptional activity in A7r5 SMCs. In silico predictions and reporter assays suggested Nuclear factor-1 (NF1) transcription factors to preferentially bind to SCAD risk allele. We found that SCAD genetic association colocalized with a ZNF827 eQTL association in artery tissues. Knockdown of ZNF827 in human iPSC-derived SMCs and fibroblasts identified a large number of dysregulated genes enriched in relevant pathways such as macroautophagy and insulin signaling. Our findings support NF1-dependent rs13128814 effect on the expression of ZNF827 as a potential molecular mechanism underpinning multiple cardiovascular traits genetic risk locus. ZNF827 may act as a broad regulator of gene expression in vascular SMCs and fibroblasts. Further investigation using multiple cell types organoids and in vivo models may clarify the implications of ZNF827 in arterial fragility observed in SCAD and other arterial diseases.",
+      "bullets": [
+        "In this study, we demonstrated that these genetic associations were colocalized and could all be explained by the intronic common variant rs13128814, which overlapped epigenetic regulatory markers specifically active in\u2026",
+        "Using reporter assay experiments, we found that SCAD-risk allele (rs13128814-A) was associated to increased transcriptional activity in A7r5 SMCs.",
+        "Our findings support NF1-dependent rs13128814 effect on the expression of ZNF827 as a potential molecular mechanism underpinning multiple cardiovascular traits genetic risk locus."
+      ],
+      "authors": "Liu Y, Liu L, Esmael A, et al.",
+      "journal": "Clinical science (London, England : 1979)",
+      "year": "2026",
+      "month": "Apr",
+      "doi": "10.1042/CS20257956",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41983892/",
+      "ris": "TY  - JOUR\nAU  - Liu Y\nAU  - Liu L\nAU  - Esmael A\nTI  - ZNF827 pleiotropic cardiovascular risk locus involves regulation by Nuclear Factor-1 transcription factors.\nJO  - Clinical science (London, England : 1979)\nPY  - 2026\nDO  - 10.1042/CS20257956\nAB  - Spontaneous coronary artery dissection (SCAD) is a form of myocardial infarction that predominantly affects middle-aged women, caused by the spontaneous onset of an intramural hematoma leading to heart ischemia. SCAD genetic risk loci is ZNF827 locus on chromosome 4 was previously associated with th\nUR  - https://pubmed.ncbi.nlm.nih.gov/41983892/\nER  - ",
+      "section": "disease_genetics",
+      "topic": "SCAD_Genetics",
+      "type": "Epigenetics",
+      "score": 4
+    },
+    {
+      "pmid": "41968586",
+      "title": "Clinical Exome Sequencing in Unexplained Hyperferritinemia Reveals Digenic and Oligogenic Inheritance Beyond Iron Homeostasis.",
+      "abstract": "BACKGROUND AND AIMS: Hyperferritinemia encompasses heterogeneous genetic etiologies beyond HFE-related hemochromatosis. Current guidelines recommend testing for rare hemochromatosis genes, yet no consensus exists on comprehensive genomic approaches. We aimed to characterise the genetic landscape of unexplained hyperferritinemia using clinical exome sequencing (CES) and evaluate genotype-phenotype correlations across functional pathways. METHODS: In this retrospective study (2019-2024), consecuti\u2026",
+      "abstract_full": "BACKGROUND AND AIMS: Hyperferritinemia encompasses heterogeneous genetic etiologies beyond HFE-related hemochromatosis. Current guidelines recommend testing for rare hemochromatosis genes, yet no consensus exists on comprehensive genomic approaches. We aimed to characterise the genetic landscape of unexplained hyperferritinemia using clinical exome sequencing (CES) and evaluate genotype-phenotype correlations across functional pathways. METHODS: In this retrospective study (2019-2024), consecutive patients with unexplained hyperferritinemia after exclusion of secondary causes underwent CES. Patients with known HFE p.Cys282Tyr homozygosity were not referred for CES. Variant filtering was performed using the Genomics England panel for iron metabolism and the French network for rare liver diseases panel, combined with phenotype-driven analysis based on Human Phenotype Ontology annotations for iron-related phenotypes. Genes were categorised into four pathways: systemic iron sensing, iron transport and storage, hepatic metabolism and erythropoiesis. RESULTS: Among 108 patients, CES identified at least one variant in 72 (66.7%), including 44 (40.7%) with likely pathogenic or pathogenic (LP/P) variants. HFE was the most frequently affected gene, followed by SERPINA1, ATP7B, and CP. Among patients without monogenic HFE alterations (n\u2009=\u200957), 21 (36.8%) carried variants, mainly affecting CP, ATP7B, SERPINA1 or GBA. Digenic or oligogenic inheritance was observed in 30.6% (22/72) of patients overall and in 20.5% (9/44) of those carrying LP/P variants, most frequently involving HFE-SERPINA1 and HFE-ATP7B combinations. Cross-pathway combinations occurred in 17 of 22 digenic patients (77.3%). The systemic iron sensing group exhibited significantly higher serum iron (p\u2009=\u20090.009) and transferrin saturation (p\u2009=\u20090.008). CONCLUSIONS: CES reveals genetic heterogeneity beyond the traditional Mendelian framework, with frequent non-HFE gene involvement and digenic inheritance and should be considered after exclusion of HFE p.Cys282Tyr homozygosity. When blood ferritin levels are elevated without a clear explanation, doctors typically test for a single common gene linked to iron overload, but many patients remain without a diagnosis. Using broad genetic testing that examines approximately 6700 genes, this study of 108 patients found that more than 40% carried disease\u2010causing variants, often in genes related to liver metabolism or blood cell production rather than classical iron overload, and that nearly one\u2010third had variants in two or more genes acting together. These results support the use of comprehensive genetic testing after ruling out the most common form of hereditary hemochromatosis, enabling earlier identification of treatable conditions and more personalised patient care.",
+      "bullets": [
+        "Among 108 patients, CES identified at least one variant in 72 (66.7%), including 44 (40.7%) with likely pathogenic or pathogenic (LP/P) variants.",
+        "HFE was the most frequently affected gene, followed by SERPINA1, ATP7B, and CP.",
+        "Among patients without monogenic HFE alterations (n\u2009=\u200957), 21 (36.8%) carried variants, mainly affecting CP, ATP7B, SERPINA1 or GBA."
+      ],
+      "authors": "Morel P, Silva Rodriguez M, Benmouffek C, et al.",
+      "journal": "Liver international : official journal of the International Association for the Study of the Liver",
+      "year": "2026",
+      "month": "May",
+      "doi": "10.1111/liv.70646",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41968586/",
+      "ris": "TY  - JOUR\nAU  - Morel P\nAU  - Silva Rodriguez M\nAU  - Benmouffek C\nTI  - Clinical Exome Sequencing in Unexplained Hyperferritinemia Reveals Digenic and Oligogenic Inheritance Beyond Iron Homeostasis.\nJO  - Liver international : official journal of the International Association for the Study of the Liver\nPY  - 2026\nDO  - 10.1111/liv.70646\nAB  - BACKGROUND AND AIMS: Hyperferritinemia encompasses heterogeneous genetic etiologies beyond HFE-related hemochromatosis. Current guidelines recommend testing for rare hemochromatosis genes, yet no consensus exists on comprehensive genomic approaches. We aimed to characterise the genetic landscape of \nUR  - https://pubmed.ncbi.nlm.nih.gov/41968586/\nER  - ",
+      "section": "prs_methods",
+      "topic": "Oligogenic_Digenic",
+      "type": "Methods",
+      "score": 3
     },
     {
       "pmid": "41855523",
@@ -285,6 +330,28 @@
       "section": "topic_watch",
       "topic": "DCM_Omics",
       "type": "GWAS",
+      "score": 2
+    },
+    {
+      "pmid": "41747776",
+      "title": "Inflammatory cardiomyopathy: Position paper of the Italian Society of Cardiology Working Group on cardiomyopathies and pericardial diseases in collaboration with the Italian Society of Cardiology Working Group on cardiac magnetic resonance.",
+      "abstract": "Inflammatory cardiomyopathy (iCMP) usually represents the chronic, hypokinetic phenotype within the myocarditis spectrum, characterized by persistent myocardial inflammation, systolic ventricular dysfunction, and adverse remodelling. It frequently evolves from prior acute or subacute myocarditis and is associated with significantly worse outcomes, including progression to dilated cardiomyopathy, heart failure, and arrhythmias. The condition arises from heterogeneous causes-infectious, autoimmune\u2026",
+      "abstract_full": "Inflammatory cardiomyopathy (iCMP) usually represents the chronic, hypokinetic phenotype within the myocarditis spectrum, characterized by persistent myocardial inflammation, systolic ventricular dysfunction, and adverse remodelling. It frequently evolves from prior acute or subacute myocarditis and is associated with significantly worse outcomes, including progression to dilated cardiomyopathy, heart failure, and arrhythmias. The condition arises from heterogeneous causes-infectious, autoimmune, or idiopathic-and may be influenced by genetic susceptibility, supporting a two-hit model in which environmental triggers interact with pathogenic variants. Diagnosis requires a multimodal approach. While clinical presentation is variable and often non-specific, cardiac magnetic resonance (CMR) provides essential tissue characterization, enabling detection of inflammation and fibrosis. Endomyocardial biopsy (EMB) remains critical for defining histologic subtype, identifying viral genomes, and guiding targeted therapy, especially in intermediate- or high-risk cases. Genetic testing assists in differentiating inherited CMPs and recognizing forms with distinctive inflammatory behavior, such as desmoplakin CMP. Management focuses on guideline-directed medical therapy for heart failure and treatment of underlying aetiologies. In biopsy-proven, virus-negative iCMP, immunosuppressive therapy may improve ventricular function and limit adverse remodelling, while antiviral strategies remain reserved for selected virus-positive cases. Arrhythmia management, including ICD implantation, is essential in patients with substantial fibrotic burden or arrhythmias. Prognosis depends on ventricular function, extent of fibrosis, viral persistence, arrhythmic burden, and recurrence of inflammatory \"hot phases.\" Lifelong follow-up is warranted. This position paper provides a comprehensive framework for the diagnosis, risk stratification, and management of iCMP, highlighting current evidence, guideline alignment, and remaining gaps.",
+      "bullets": [
+        "It frequently evolves from prior acute or subacute myocarditis and is associated with significantly worse outcomes, including progression to dilated cardiomyopathy, heart failure, and arrhythmias.",
+        "Prognosis depends on ventricular function, extent of fibrosis, viral persistence, arrhythmic burden, and recurrence of inflammatory \"hot phases.\" Lifelong follow-up is warranted.",
+        "This position paper provides a comprehensive framework for the diagnosis, risk stratification, and management of iCMP, highlighting current evidence, guideline alignment, and remaining gaps."
+      ],
+      "authors": "Imazio M, Jahnsen V, Merlo M, et al.",
+      "journal": "International journal of cardiology",
+      "year": "2026",
+      "month": "May",
+      "doi": "10.1016/j.ijcard.2026.134249",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41747776/",
+      "ris": "TY  - JOUR\nAU  - Imazio M\nAU  - Jahnsen V\nAU  - Merlo M\nTI  - Inflammatory cardiomyopathy: Position paper of the Italian Society of Cardiology Working Group on cardiomyopathies and pericardial diseases in collaboration with the Italian Society of Cardiology Working Group on cardiac magnetic resonance.\nJO  - International journal of cardiology\nPY  - 2026\nDO  - 10.1016/j.ijcard.2026.134249\nAB  - Inflammatory cardiomyopathy (iCMP) usually represents the chronic, hypokinetic phenotype within the myocarditis spectrum, characterized by persistent myocardial inflammation, systolic ventricular dysfunction, and adverse remodelling. It frequently evolves from prior acute or subacute myocarditis and\nUR  - https://pubmed.ncbi.nlm.nih.gov/41747776/\nER  - ",
+      "section": "disease_genetics",
+      "topic": "DCM_Genetics",
+      "type": "Research article",
       "score": 2
     },
     {
@@ -330,15 +397,38 @@
       "topic": "DCM_Genetics",
       "type": "Sequencing study",
       "score": 1
+    },
+    {
+      "pmid": "39969775",
+      "title": "Identification of novel biallelic mutations in CFAP53 associated with fetal situs inversus totalis and literature review.",
+      "abstract": "Visceral heterotaxy is a congenital malformation characterized by the abnormal arrangement of left-right axis of visceral organs. To date, several genes implicated in the regulation of laterality patterning have been identified. Notably, CFAP53, also referred to as CCDC11, is involved in the regulation of ciliary motility, and mutations in this gene have been linked to a rare condition of heterotaxy. In this study,\u00a0whole-exome sequencing (WES) was utilized to analyze the genetic causes of a fetu\u2026",
+      "abstract_full": "Visceral heterotaxy is a congenital malformation characterized by the abnormal arrangement of left-right axis of visceral organs. To date, several genes implicated in the regulation of laterality patterning have been identified. Notably, CFAP53, also referred to as CCDC11, is involved in the regulation of ciliary motility, and mutations in this gene have been linked to a rare condition of heterotaxy. In this study,\u00a0whole-exome sequencing (WES) was utilized to analyze the genetic causes of a fetus in a Chinese family, presenting with situs inversus totalis. In silico predictions and functional studies were performed to evaluate the pathogenicity of the identified candidate gene variants. WES revealed two novel compound heterozygous mutations, c.777G\u2009>\u2009T and c.1013A\u2009>\u2009T, in the CFAP53 gene. Minigene experiments demonstrated that c.777G\u2009>\u2009T may result in splicing aberrations, thus leading to the production of truncated CFAP53 proteins. Additionally, in silico analyses indicate that c.1013A\u2009>\u2009T could disrupt the interaction between CFAP53 and its target protein, TTC25. We report the second documented case of fetus with situs inversus totalis due to biallelic loss-of-function variants in CFAP53. According to literature review, our findings provide a basis for the prenatal diagnosis and genetic counseling of CFAP53 mutation-associated visceral heterotaxy.",
+      "bullets": [
+        "Minigene experiments demonstrated that c.777G\u2009>\u2009T may result in splicing aberrations, thus leading to the production of truncated CFAP53 proteins.",
+        "We report the second documented case of fetus with situs inversus totalis due to biallelic loss-of-function variants in CFAP53.",
+        "According to literature review, our findings provide a basis for the prenatal diagnosis and genetic counseling of CFAP53 mutation-associated visceral heterotaxy."
+      ],
+      "authors": "Guo Z, Tan M, Zhu H, et al.",
+      "journal": "Journal of applied genetics",
+      "year": "2026",
+      "month": "May",
+      "doi": "10.1016/j.heliyon.2024.e37355",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39969775/",
+      "ris": "TY  - JOUR\nAU  - Guo Z\nAU  - Tan M\nAU  - Zhu H\nTI  - Identification of novel biallelic mutations in CFAP53 associated with fetal situs inversus totalis and literature review.\nJO  - Journal of applied genetics\nPY  - 2026\nDO  - 10.1016/j.heliyon.2024.e37355\nAB  - Visceral heterotaxy is a congenital malformation characterized by the abnormal arrangement of left-right axis of visceral organs. To date, several genes implicated in the regulation of laterality patterning have been identified. Notably, CFAP53, also referred to as CCDC11, is involved in the regulat\nUR  - https://pubmed.ncbi.nlm.nih.gov/39969775/\nER  - ",
+      "section": "disease_genetics",
+      "topic": "CHD_Genetics",
+      "type": "Review",
+      "score": 0
     }
   ],
-  "summary_text": "7 papers selected from this week's literature:\n  \u2022 4 \u00d7 disease genetics (CHD / DCM / SCAD)\n  \u2022 3 \u00d7 epigenetics / methylation\n\nHighlight: Genome and Transcriptome-Wide Analyses Identify Multiple Candidate Genes and a Significant Polygenic Contribution in Bicuspid Aortic Valve. (Circulation, 2026)",
+  "summary_text": "9 papers selected from this week's literature:\n  \u2022 7 \u00d7 disease genetics (CHD / DCM / SCAD)\n  \u2022 1 \u00d7 PRS & oligogenic methods\n  \u2022 1 \u00d7 epigenetics / methylation\n\nHighlight: Rare regulatory mutations disrupt mesenchymal molecular programs driving endocardial cushion formation in bicuspid aortic valve. (Nature communications, 2026)",
   "summary": {
-    "total_selected": 7,
-    "total_candidates": 7,
+    "total_selected": 9,
+    "total_candidates": 9,
     "section_counts": {
-      "disease_genetics": 4,
-      "topic_watch": 3
+      "disease_genetics": 7,
+      "prs_methods": 1,
+      "topic_watch": 1
     }
   }
 }
