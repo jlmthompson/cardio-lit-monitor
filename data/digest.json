@@ -1,32 +1,10 @@
 {
-  "generated": "2026-04-19T21:23:15.283978",
+  "generated": "2026-04-26T21:25:54.215777",
   "lookback_days": 7,
-  "cutoff_date": "2026/04/12",
+  "cutoff_date": "2026/04/19",
   "sections": {
     "disease_genetics": {
       "papers": [
-        {
-          "pmid": "41997951",
-          "title": "Rare regulatory mutations disrupt mesenchymal molecular programs driving endocardial cushion formation in bicuspid aortic valve.",
-          "abstract": "Bicuspid aortic valve, a prevalent congenital malformation, predisposes individuals to severe complications. Although the condition exhibits substantial heritability, known protein-coding and common regulatory mutations explain a minority of cases. To assess the contribution of rare regulatory variants, here we integrate high-resolution three-dimensional genome organization profiling with matched whole-genome sequencing from eight individuals with bicuspid aortic valves and eight with standard t\u2026",
-          "abstract_full": "Bicuspid aortic valve, a prevalent congenital malformation, predisposes individuals to severe complications. Although the condition exhibits substantial heritability, known protein-coding and common regulatory mutations explain a minority of cases. To assess the contribution of rare regulatory variants, here we integrate high-resolution three-dimensional genome organization profiling with matched whole-genome sequencing from eight individuals with bicuspid aortic valves and eight with standard tricuspid aortic valves. In bicuspid aortic valve patients, mutation-driven chromatin rewiring affected 1.8-fold more valve development genes than in healthy individuals. Genome-wide in silico analyses show that rare regulatory mutations disrupt the transcriptomes of mesenchymal cell populations necessary for endocardial cushion formation. We identify 198 candidate genes associated with bicuspid aortic valve, revealing pronounced heterogeneity and complex interplay between coding and regulatory mutations. Collectively, our findings establish rare regulatory mutations as contributors to the heritability of bicuspid aortic valve and underscore the need to elucidate their mechanistic roles in disease pathogenesis.",
-          "bullets": [
-            "Genome-wide in silico analyses show that rare regulatory mutations disrupt the transcriptomes of mesenchymal cell populations necessary for endocardial cushion formation.",
-            "We identify 198 candidate genes associated with bicuspid aortic valve, revealing pronounced heterogeneity and complex interplay between coding and regulatory mutations.",
-            "Collectively, our findings establish rare regulatory mutations as contributors to the heritability of bicuspid aortic valve and underscore the need to elucidate their mechanistic roles in disease pathogenesis."
-          ],
-          "authors": "Zhigulev A, Buyan A, L\u00e1z\u00e1r E, et al.",
-          "journal": "Nature communications",
-          "year": "2026",
-          "month": "Apr",
-          "doi": "10.1101/gr.1239303",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/41997951/",
-          "ris": "TY  - JOUR\nAU  - Zhigulev A\nAU  - Buyan A\nAU  - L\u00e1z\u00e1r E\nTI  - Rare regulatory mutations disrupt mesenchymal molecular programs driving endocardial cushion formation in bicuspid aortic valve.\nJO  - Nature communications\nPY  - 2026\nDO  - 10.1101/gr.1239303\nAB  - Bicuspid aortic valve, a prevalent congenital malformation, predisposes individuals to severe complications. Although the condition exhibits substantial heritability, known protein-coding and common regulatory mutations explain a minority of cases. To assess the contribution of rare regulatory varia\nUR  - https://pubmed.ncbi.nlm.nih.gov/41997951/\nER  - ",
-          "section": "disease_genetics",
-          "topic": "CHD_Genetics",
-          "type": "Epigenetics",
-          "score": 4
-        },
         {
           "pmid": "40126773",
           "title": "Rare T-box variants in adult pulmonary arterial hypertension with congenital heart disease.",
@@ -47,28 +25,6 @@
           "section": "disease_genetics",
           "topic": "CHD_Genetics",
           "type": "Research article",
-          "score": 4
-        },
-        {
-          "pmid": "41983892",
-          "title": "ZNF827 pleiotropic cardiovascular risk locus involves regulation by Nuclear Factor-1 transcription factors.",
-          "abstract": "Spontaneous coronary artery dissection (SCAD) is a form of myocardial infarction that predominantly affects middle-aged women, caused by the spontaneous onset of an intramural hematoma leading to heart ischemia. SCAD genetic risk loci is ZNF827 locus on chromosome 4 was previously associated with the risk for coronary artery disease, systolic blood pressure and ascending aortic diameter variability, but the molecular processes driving these genetic associations are unknown. In this study, we dem\u2026",
-          "abstract_full": "Spontaneous coronary artery dissection (SCAD) is a form of myocardial infarction that predominantly affects middle-aged women, caused by the spontaneous onset of an intramural hematoma leading to heart ischemia. SCAD genetic risk loci is ZNF827 locus on chromosome 4 was previously associated with the risk for coronary artery disease, systolic blood pressure and ascending aortic diameter variability, but the molecular processes driving these genetic associations are unknown. In this study, we demonstrated that these genetic associations were colocalized and could all be explained by the intronic common variant rs13128814, which overlapped epigenetic regulatory markers specifically active in vascular smooth muscle cells (SMCs) and fibroblasts. Using reporter assay experiments, we found that SCAD-risk allele (rs13128814-A) was associated to increased transcriptional activity in A7r5 SMCs. In silico predictions and reporter assays suggested Nuclear factor-1 (NF1) transcription factors to preferentially bind to SCAD risk allele. We found that SCAD genetic association colocalized with a ZNF827 eQTL association in artery tissues. Knockdown of ZNF827 in human iPSC-derived SMCs and fibroblasts identified a large number of dysregulated genes enriched in relevant pathways such as macroautophagy and insulin signaling. Our findings support NF1-dependent rs13128814 effect on the expression of ZNF827 as a potential molecular mechanism underpinning multiple cardiovascular traits genetic risk locus. ZNF827 may act as a broad regulator of gene expression in vascular SMCs and fibroblasts. Further investigation using multiple cell types organoids and in vivo models may clarify the implications of ZNF827 in arterial fragility observed in SCAD and other arterial diseases.",
-          "bullets": [
-            "In this study, we demonstrated that these genetic associations were colocalized and could all be explained by the intronic common variant rs13128814, which overlapped epigenetic regulatory markers specifically active in\u2026",
-            "Using reporter assay experiments, we found that SCAD-risk allele (rs13128814-A) was associated to increased transcriptional activity in A7r5 SMCs.",
-            "Our findings support NF1-dependent rs13128814 effect on the expression of ZNF827 as a potential molecular mechanism underpinning multiple cardiovascular traits genetic risk locus."
-          ],
-          "authors": "Liu Y, Liu L, Esmael A, et al.",
-          "journal": "Clinical science (London, England : 1979)",
-          "year": "2026",
-          "month": "Apr",
-          "doi": "10.1042/CS20257956",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/41983892/",
-          "ris": "TY  - JOUR\nAU  - Liu Y\nAU  - Liu L\nAU  - Esmael A\nTI  - ZNF827 pleiotropic cardiovascular risk locus involves regulation by Nuclear Factor-1 transcription factors.\nJO  - Clinical science (London, England : 1979)\nPY  - 2026\nDO  - 10.1042/CS20257956\nAB  - Spontaneous coronary artery dissection (SCAD) is a form of myocardial infarction that predominantly affects middle-aged women, caused by the spontaneous onset of an intramural hematoma leading to heart ischemia. SCAD genetic risk loci is ZNF827 locus on chromosome 4 was previously associated with th\nUR  - https://pubmed.ncbi.nlm.nih.gov/41983892/\nER  - ",
-          "section": "disease_genetics",
-          "topic": "SCAD_Genetics",
-          "type": "Epigenetics",
           "score": 4
         },
         {
@@ -158,9 +114,31 @@
           "topic": "CHD_Genetics",
           "type": "Review",
           "score": 0
+        },
+        {
+          "pmid": "42021732",
+          "title": "Common Coronary Artery Disease Risk Variants in Endothelial Regulatory Elements Modulate Tetraspanin 14 Expression and Notch Signaling.",
+          "abstract": "BACKGROUND: Coronary artery disease (CAD) is a complex condition and remains the leading cause of mortality worldwide. Genome-wide association studies have identified a CAD risk locus on chromosome 10q23 that is independent of traditional risk factors, providing an opportunity to uncover novel molecular mechanisms contributing to CAD pathogenesis. METHODS: Improved fine-mapping approaches were used to prioritize noncoding variants at the 10q23 locus within the intronic region of TSPAN14 (tetrasp\u2026",
+          "abstract_full": "BACKGROUND: Coronary artery disease (CAD) is a complex condition and remains the leading cause of mortality worldwide. Genome-wide association studies have identified a CAD risk locus on chromosome 10q23 that is independent of traditional risk factors, providing an opportunity to uncover novel molecular mechanisms contributing to CAD pathogenesis. METHODS: Improved fine-mapping approaches were used to prioritize noncoding variants at the 10q23 locus within the intronic region of TSPAN14 (tetraspanin 14). Regulatory elements harboring lead variants were functionally interrogated using chromatin accessibility, 3-dimensional chromatin organization, and clustered regularly interspaced short palindromic repeats-mediated deletion approaches in endothelial cells (ECs). Subsequently, TSPAN14 function in ECs was assessed using transcriptomic profiling, Notch signaling activation assays, and EC functional assay using gene knockout (KO) cell lines. RESULTS: Fine-mapping identified 2 lead variants, rs17680741 and rs12260962, located within regulatory elements predicted to affect TSPAN14 expression in monocytes and ECs, respectively. Chromatin accessibility, organization, and enhancer deletion assays demonstrated EC-specific function for the rs12260962-harboring regulatory element in TSPAN14 expression regulation. Loss of TSPAN14 resulted in significant transcriptomic changes related to Notch signaling, heart morphogenesis, cell adhesion, and wound healing. Functionally, TSPAN14 KO ECs exhibited impaired cell-cell junction integrity, reduced repair capacity, and diminished mechanosensitive responses. CONCLUSIONS: Together, these data identify a regulatory element harboring CAD-associated variants at the 10q23 locus that modulates TSPAN14 expression and downstream Notch signaling in ECs, thereby linking genetic risk to endothelial dysfunction relevant to CAD pathogenesis.",
+          "bullets": [
+            "Fine-mapping identified 2 lead variants, rs17680741 and rs12260962, located within regulatory elements predicted to affect TSPAN14 expression in monocytes and ECs, respectively.",
+            "Chromatin accessibility, organization, and enhancer deletion assays demonstrated EC-specific function for the rs12260962-harboring regulatory element in TSPAN14 expression regulation.",
+            "Loss of TSPAN14 resulted in significant transcriptomic changes related to Notch signaling, heart morphogenesis, cell adhesion, and wound healing."
+          ],
+          "authors": "Lee-Kim V, Schnitzler G, Fang S, et al.",
+          "journal": "Arteriosclerosis, thrombosis, and vascular biology",
+          "year": "2026",
+          "month": "Apr",
+          "doi": "10.1161/ATVBAHA.125.323330",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42021732/",
+          "ris": "TY  - JOUR\nAU  - Lee-Kim V\nAU  - Schnitzler G\nAU  - Fang S\nTI  - Common Coronary Artery Disease Risk Variants in Endothelial Regulatory Elements Modulate Tetraspanin 14 Expression and Notch Signaling.\nJO  - Arteriosclerosis, thrombosis, and vascular biology\nPY  - 2026\nDO  - 10.1161/ATVBAHA.125.323330\nAB  - BACKGROUND: Coronary artery disease (CAD) is a complex condition and remains the leading cause of mortality worldwide. Genome-wide association studies have identified a CAD risk locus on chromosome 10q23 that is independent of traditional risk factors, providing an opportunity to uncover novel molec\nUR  - https://pubmed.ncbi.nlm.nih.gov/42021732/\nER  - ",
+          "section": "disease_genetics",
+          "topic": "CHD_Genetics",
+          "type": "GWAS",
+          "score": -2
         }
       ],
-      "total": 7
+      "total": 6
     },
     "prs_disease": {
       "papers": [],
@@ -168,6 +146,28 @@
     },
     "prs_methods": {
       "papers": [
+        {
+          "pmid": "42019957",
+          "title": "Digenic HNF1A and ABCC8 Variants Provide Mechanistic Insight into Early-Onset Diabetes.",
+          "abstract": "CONTEXT: Oligogenic inheritance in maturity-onset diabetes of the young (MODY) remains poorly characterized, and the contribution of multiple candidate variants to disease pathogenesis is incompletely understood. OBJECTIVE: To investigate the pathogenicity and mechanistic contribution of multiple MODY gene variants identified in a MODY-like family and determine their role in early-onset diabetes. METHODS: Comprehensive genetic analysis of known MODY genes was performed in a MODY-like family. Fun\u2026",
+          "abstract_full": "CONTEXT: Oligogenic inheritance in maturity-onset diabetes of the young (MODY) remains poorly characterized, and the contribution of multiple candidate variants to disease pathogenesis is incompletely understood. OBJECTIVE: To investigate the pathogenicity and mechanistic contribution of multiple MODY gene variants identified in a MODY-like family and determine their role in early-onset diabetes. METHODS: Comprehensive genetic analysis of known MODY genes was performed in a MODY-like family. Functional effects of HNF1A and HNF1B variants were assessed using luciferase reporter assays in HEK293T cells. Functional characterization of ABCC8 variants included Kir6.2-dependent thallium (Tl+) flux assays, sulfonylurea responsiveness, and channel stability. RESULTS: Four variants in three MODY genes were identified in the proband: novel p.Ser551Lysfs*2, HNF1B p.Glu102Ala, and ABCC8 p.Arg298Cys and p.Arg521Gln. Functional analysis showed that HNF1A p.Ser551Lysfs*2 retained approximately 5% of wild-type transactivation activity, consistent with loss-of-function, whereas HNF1B p.Glu102Ala and ABCC8 p.Arg521Gln exhibited wild-type-like function. In contrast, ABCC8 p.Arg298Cys reduced channel activity to 77% of wild-type levels while preserving sulfonylurea responsiveness. Segregation analysis identified HNF1A p.Ser551Lysfs*2 and ABCC8 p.Arg298Cys in affected parents. The proband, who inherited both pathogenic variants, developed diabetes earlier than either parent and was exposed to maternal hyperglycemia in utero, which may also have contributed to this early onset. CONCLUSIONS: Functional characterization distinguishes pathogenic from variants of unknown significance and supports digenic inheritance of HNF1A and ABCC8. Their additive effects, together with intrauterine hyperglycemia, likely accelerated disease onset. This study provides mechanistic evidence for oligogenic contributions to MODY and expands the genetic architecture of early-onset diabetes.",
+          "bullets": [
+            "Four variants in three MODY genes were identified in the proband: novel p.Ser551Lysfs*2, HNF1B p.Glu102Ala, and ABCC8 p.Arg298Cys and p.Arg521Gln.",
+            "Functional analysis showed that HNF1A p.Ser551Lysfs*2 retained approximately 5% of wild-type transactivation activity, consistent with loss-of-function, whereas HNF1B p.Glu102Ala and ABCC8 p.",
+            "In contrast, ABCC8 p.Arg298Cys reduced channel activity to 77% of wild-type levels while preserving sulfonylurea responsiveness."
+          ],
+          "authors": "Honda M, Honda R, Nomura T, et al.",
+          "journal": "The Journal of clinical endocrinology and metabolism",
+          "year": "2026",
+          "month": "Apr",
+          "doi": "10.1210/clinem/dgag183",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42019957/",
+          "ris": "TY  - JOUR\nAU  - Honda M\nAU  - Honda R\nAU  - Nomura T\nTI  - Digenic HNF1A and ABCC8 Variants Provide Mechanistic Insight into Early-Onset Diabetes.\nJO  - The Journal of clinical endocrinology and metabolism\nPY  - 2026\nDO  - 10.1210/clinem/dgag183\nAB  - CONTEXT: Oligogenic inheritance in maturity-onset diabetes of the young (MODY) remains poorly characterized, and the contribution of multiple candidate variants to disease pathogenesis is incompletely understood. OBJECTIVE: To investigate the pathogenicity and mechanistic contribution of multiple MO\nUR  - https://pubmed.ncbi.nlm.nih.gov/42019957/\nER  - ",
+          "section": "prs_methods",
+          "topic": "Oligogenic_Digenic",
+          "type": "Methods",
+          "score": 3
+        },
         {
           "pmid": "41968586",
           "title": "Clinical Exome Sequencing in Unexplained Hyperferritinemia Reveals Digenic and Oligogenic Inheritance Beyond Iron Homeostasis.",
@@ -191,7 +191,7 @@
           "score": 3
         }
       ],
-      "total": 1
+      "total": 2
     },
     "topic_watch": {
       "papers": [
@@ -223,28 +223,6 @@
   },
   "selected_papers": [
     {
-      "pmid": "41997951",
-      "title": "Rare regulatory mutations disrupt mesenchymal molecular programs driving endocardial cushion formation in bicuspid aortic valve.",
-      "abstract": "Bicuspid aortic valve, a prevalent congenital malformation, predisposes individuals to severe complications. Although the condition exhibits substantial heritability, known protein-coding and common regulatory mutations explain a minority of cases. To assess the contribution of rare regulatory variants, here we integrate high-resolution three-dimensional genome organization profiling with matched whole-genome sequencing from eight individuals with bicuspid aortic valves and eight with standard t\u2026",
-      "abstract_full": "Bicuspid aortic valve, a prevalent congenital malformation, predisposes individuals to severe complications. Although the condition exhibits substantial heritability, known protein-coding and common regulatory mutations explain a minority of cases. To assess the contribution of rare regulatory variants, here we integrate high-resolution three-dimensional genome organization profiling with matched whole-genome sequencing from eight individuals with bicuspid aortic valves and eight with standard tricuspid aortic valves. In bicuspid aortic valve patients, mutation-driven chromatin rewiring affected 1.8-fold more valve development genes than in healthy individuals. Genome-wide in silico analyses show that rare regulatory mutations disrupt the transcriptomes of mesenchymal cell populations necessary for endocardial cushion formation. We identify 198 candidate genes associated with bicuspid aortic valve, revealing pronounced heterogeneity and complex interplay between coding and regulatory mutations. Collectively, our findings establish rare regulatory mutations as contributors to the heritability of bicuspid aortic valve and underscore the need to elucidate their mechanistic roles in disease pathogenesis.",
-      "bullets": [
-        "Genome-wide in silico analyses show that rare regulatory mutations disrupt the transcriptomes of mesenchymal cell populations necessary for endocardial cushion formation.",
-        "We identify 198 candidate genes associated with bicuspid aortic valve, revealing pronounced heterogeneity and complex interplay between coding and regulatory mutations.",
-        "Collectively, our findings establish rare regulatory mutations as contributors to the heritability of bicuspid aortic valve and underscore the need to elucidate their mechanistic roles in disease pathogenesis."
-      ],
-      "authors": "Zhigulev A, Buyan A, L\u00e1z\u00e1r E, et al.",
-      "journal": "Nature communications",
-      "year": "2026",
-      "month": "Apr",
-      "doi": "10.1101/gr.1239303",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41997951/",
-      "ris": "TY  - JOUR\nAU  - Zhigulev A\nAU  - Buyan A\nAU  - L\u00e1z\u00e1r E\nTI  - Rare regulatory mutations disrupt mesenchymal molecular programs driving endocardial cushion formation in bicuspid aortic valve.\nJO  - Nature communications\nPY  - 2026\nDO  - 10.1101/gr.1239303\nAB  - Bicuspid aortic valve, a prevalent congenital malformation, predisposes individuals to severe complications. Although the condition exhibits substantial heritability, known protein-coding and common regulatory mutations explain a minority of cases. To assess the contribution of rare regulatory varia\nUR  - https://pubmed.ncbi.nlm.nih.gov/41997951/\nER  - ",
-      "section": "disease_genetics",
-      "topic": "CHD_Genetics",
-      "type": "Epigenetics",
-      "score": 4
-    },
-    {
       "pmid": "40126773",
       "title": "Rare T-box variants in adult pulmonary arterial hypertension with congenital heart disease.",
       "abstract": "We report the clinical and genetic features of three adult patients with congenital heart disease-associated pulmonary arterial hypertension (CHD-PAH) carrying rare T-box variants. All three patients had weakness and cyanosis. Two patients had chest tightness, dry cough, and hemoptysis, and one patient had lower limb edema. Besides meeting the diagnostic criteria of CHD-PAH, three patients respectively presented the clinical features of specific syndromes. Specifically, patient 1 presented with \u2026",
@@ -267,26 +245,26 @@
       "score": 4
     },
     {
-      "pmid": "41983892",
-      "title": "ZNF827 pleiotropic cardiovascular risk locus involves regulation by Nuclear Factor-1 transcription factors.",
-      "abstract": "Spontaneous coronary artery dissection (SCAD) is a form of myocardial infarction that predominantly affects middle-aged women, caused by the spontaneous onset of an intramural hematoma leading to heart ischemia. SCAD genetic risk loci is ZNF827 locus on chromosome 4 was previously associated with the risk for coronary artery disease, systolic blood pressure and ascending aortic diameter variability, but the molecular processes driving these genetic associations are unknown. In this study, we dem\u2026",
-      "abstract_full": "Spontaneous coronary artery dissection (SCAD) is a form of myocardial infarction that predominantly affects middle-aged women, caused by the spontaneous onset of an intramural hematoma leading to heart ischemia. SCAD genetic risk loci is ZNF827 locus on chromosome 4 was previously associated with the risk for coronary artery disease, systolic blood pressure and ascending aortic diameter variability, but the molecular processes driving these genetic associations are unknown. In this study, we demonstrated that these genetic associations were colocalized and could all be explained by the intronic common variant rs13128814, which overlapped epigenetic regulatory markers specifically active in vascular smooth muscle cells (SMCs) and fibroblasts. Using reporter assay experiments, we found that SCAD-risk allele (rs13128814-A) was associated to increased transcriptional activity in A7r5 SMCs. In silico predictions and reporter assays suggested Nuclear factor-1 (NF1) transcription factors to preferentially bind to SCAD risk allele. We found that SCAD genetic association colocalized with a ZNF827 eQTL association in artery tissues. Knockdown of ZNF827 in human iPSC-derived SMCs and fibroblasts identified a large number of dysregulated genes enriched in relevant pathways such as macroautophagy and insulin signaling. Our findings support NF1-dependent rs13128814 effect on the expression of ZNF827 as a potential molecular mechanism underpinning multiple cardiovascular traits genetic risk locus. ZNF827 may act as a broad regulator of gene expression in vascular SMCs and fibroblasts. Further investigation using multiple cell types organoids and in vivo models may clarify the implications of ZNF827 in arterial fragility observed in SCAD and other arterial diseases.",
+      "pmid": "42019957",
+      "title": "Digenic HNF1A and ABCC8 Variants Provide Mechanistic Insight into Early-Onset Diabetes.",
+      "abstract": "CONTEXT: Oligogenic inheritance in maturity-onset diabetes of the young (MODY) remains poorly characterized, and the contribution of multiple candidate variants to disease pathogenesis is incompletely understood. OBJECTIVE: To investigate the pathogenicity and mechanistic contribution of multiple MODY gene variants identified in a MODY-like family and determine their role in early-onset diabetes. METHODS: Comprehensive genetic analysis of known MODY genes was performed in a MODY-like family. Fun\u2026",
+      "abstract_full": "CONTEXT: Oligogenic inheritance in maturity-onset diabetes of the young (MODY) remains poorly characterized, and the contribution of multiple candidate variants to disease pathogenesis is incompletely understood. OBJECTIVE: To investigate the pathogenicity and mechanistic contribution of multiple MODY gene variants identified in a MODY-like family and determine their role in early-onset diabetes. METHODS: Comprehensive genetic analysis of known MODY genes was performed in a MODY-like family. Functional effects of HNF1A and HNF1B variants were assessed using luciferase reporter assays in HEK293T cells. Functional characterization of ABCC8 variants included Kir6.2-dependent thallium (Tl+) flux assays, sulfonylurea responsiveness, and channel stability. RESULTS: Four variants in three MODY genes were identified in the proband: novel p.Ser551Lysfs*2, HNF1B p.Glu102Ala, and ABCC8 p.Arg298Cys and p.Arg521Gln. Functional analysis showed that HNF1A p.Ser551Lysfs*2 retained approximately 5% of wild-type transactivation activity, consistent with loss-of-function, whereas HNF1B p.Glu102Ala and ABCC8 p.Arg521Gln exhibited wild-type-like function. In contrast, ABCC8 p.Arg298Cys reduced channel activity to 77% of wild-type levels while preserving sulfonylurea responsiveness. Segregation analysis identified HNF1A p.Ser551Lysfs*2 and ABCC8 p.Arg298Cys in affected parents. The proband, who inherited both pathogenic variants, developed diabetes earlier than either parent and was exposed to maternal hyperglycemia in utero, which may also have contributed to this early onset. CONCLUSIONS: Functional characterization distinguishes pathogenic from variants of unknown significance and supports digenic inheritance of HNF1A and ABCC8. Their additive effects, together with intrauterine hyperglycemia, likely accelerated disease onset. This study provides mechanistic evidence for oligogenic contributions to MODY and expands the genetic architecture of early-onset diabetes.",
       "bullets": [
-        "In this study, we demonstrated that these genetic associations were colocalized and could all be explained by the intronic common variant rs13128814, which overlapped epigenetic regulatory markers specifically active in\u2026",
-        "Using reporter assay experiments, we found that SCAD-risk allele (rs13128814-A) was associated to increased transcriptional activity in A7r5 SMCs.",
-        "Our findings support NF1-dependent rs13128814 effect on the expression of ZNF827 as a potential molecular mechanism underpinning multiple cardiovascular traits genetic risk locus."
+        "Four variants in three MODY genes were identified in the proband: novel p.Ser551Lysfs*2, HNF1B p.Glu102Ala, and ABCC8 p.Arg298Cys and p.Arg521Gln.",
+        "Functional analysis showed that HNF1A p.Ser551Lysfs*2 retained approximately 5% of wild-type transactivation activity, consistent with loss-of-function, whereas HNF1B p.Glu102Ala and ABCC8 p.",
+        "In contrast, ABCC8 p.Arg298Cys reduced channel activity to 77% of wild-type levels while preserving sulfonylurea responsiveness."
       ],
-      "authors": "Liu Y, Liu L, Esmael A, et al.",
-      "journal": "Clinical science (London, England : 1979)",
+      "authors": "Honda M, Honda R, Nomura T, et al.",
+      "journal": "The Journal of clinical endocrinology and metabolism",
       "year": "2026",
       "month": "Apr",
-      "doi": "10.1042/CS20257956",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41983892/",
-      "ris": "TY  - JOUR\nAU  - Liu Y\nAU  - Liu L\nAU  - Esmael A\nTI  - ZNF827 pleiotropic cardiovascular risk locus involves regulation by Nuclear Factor-1 transcription factors.\nJO  - Clinical science (London, England : 1979)\nPY  - 2026\nDO  - 10.1042/CS20257956\nAB  - Spontaneous coronary artery dissection (SCAD) is a form of myocardial infarction that predominantly affects middle-aged women, caused by the spontaneous onset of an intramural hematoma leading to heart ischemia. SCAD genetic risk loci is ZNF827 locus on chromosome 4 was previously associated with th\nUR  - https://pubmed.ncbi.nlm.nih.gov/41983892/\nER  - ",
-      "section": "disease_genetics",
-      "topic": "SCAD_Genetics",
-      "type": "Epigenetics",
-      "score": 4
+      "doi": "10.1210/clinem/dgag183",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42019957/",
+      "ris": "TY  - JOUR\nAU  - Honda M\nAU  - Honda R\nAU  - Nomura T\nTI  - Digenic HNF1A and ABCC8 Variants Provide Mechanistic Insight into Early-Onset Diabetes.\nJO  - The Journal of clinical endocrinology and metabolism\nPY  - 2026\nDO  - 10.1210/clinem/dgag183\nAB  - CONTEXT: Oligogenic inheritance in maturity-onset diabetes of the young (MODY) remains poorly characterized, and the contribution of multiple candidate variants to disease pathogenesis is incompletely understood. OBJECTIVE: To investigate the pathogenicity and mechanistic contribution of multiple MO\nUR  - https://pubmed.ncbi.nlm.nih.gov/42019957/\nER  - ",
+      "section": "prs_methods",
+      "topic": "Oligogenic_Digenic",
+      "type": "Methods",
+      "score": 3
     },
     {
       "pmid": "41968586",
@@ -419,15 +397,37 @@
       "topic": "CHD_Genetics",
       "type": "Review",
       "score": 0
+    },
+    {
+      "pmid": "42021732",
+      "title": "Common Coronary Artery Disease Risk Variants in Endothelial Regulatory Elements Modulate Tetraspanin 14 Expression and Notch Signaling.",
+      "abstract": "BACKGROUND: Coronary artery disease (CAD) is a complex condition and remains the leading cause of mortality worldwide. Genome-wide association studies have identified a CAD risk locus on chromosome 10q23 that is independent of traditional risk factors, providing an opportunity to uncover novel molecular mechanisms contributing to CAD pathogenesis. METHODS: Improved fine-mapping approaches were used to prioritize noncoding variants at the 10q23 locus within the intronic region of TSPAN14 (tetrasp\u2026",
+      "abstract_full": "BACKGROUND: Coronary artery disease (CAD) is a complex condition and remains the leading cause of mortality worldwide. Genome-wide association studies have identified a CAD risk locus on chromosome 10q23 that is independent of traditional risk factors, providing an opportunity to uncover novel molecular mechanisms contributing to CAD pathogenesis. METHODS: Improved fine-mapping approaches were used to prioritize noncoding variants at the 10q23 locus within the intronic region of TSPAN14 (tetraspanin 14). Regulatory elements harboring lead variants were functionally interrogated using chromatin accessibility, 3-dimensional chromatin organization, and clustered regularly interspaced short palindromic repeats-mediated deletion approaches in endothelial cells (ECs). Subsequently, TSPAN14 function in ECs was assessed using transcriptomic profiling, Notch signaling activation assays, and EC functional assay using gene knockout (KO) cell lines. RESULTS: Fine-mapping identified 2 lead variants, rs17680741 and rs12260962, located within regulatory elements predicted to affect TSPAN14 expression in monocytes and ECs, respectively. Chromatin accessibility, organization, and enhancer deletion assays demonstrated EC-specific function for the rs12260962-harboring regulatory element in TSPAN14 expression regulation. Loss of TSPAN14 resulted in significant transcriptomic changes related to Notch signaling, heart morphogenesis, cell adhesion, and wound healing. Functionally, TSPAN14 KO ECs exhibited impaired cell-cell junction integrity, reduced repair capacity, and diminished mechanosensitive responses. CONCLUSIONS: Together, these data identify a regulatory element harboring CAD-associated variants at the 10q23 locus that modulates TSPAN14 expression and downstream Notch signaling in ECs, thereby linking genetic risk to endothelial dysfunction relevant to CAD pathogenesis.",
+      "bullets": [
+        "Fine-mapping identified 2 lead variants, rs17680741 and rs12260962, located within regulatory elements predicted to affect TSPAN14 expression in monocytes and ECs, respectively.",
+        "Chromatin accessibility, organization, and enhancer deletion assays demonstrated EC-specific function for the rs12260962-harboring regulatory element in TSPAN14 expression regulation.",
+        "Loss of TSPAN14 resulted in significant transcriptomic changes related to Notch signaling, heart morphogenesis, cell adhesion, and wound healing."
+      ],
+      "authors": "Lee-Kim V, Schnitzler G, Fang S, et al.",
+      "journal": "Arteriosclerosis, thrombosis, and vascular biology",
+      "year": "2026",
+      "month": "Apr",
+      "doi": "10.1161/ATVBAHA.125.323330",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42021732/",
+      "ris": "TY  - JOUR\nAU  - Lee-Kim V\nAU  - Schnitzler G\nAU  - Fang S\nTI  - Common Coronary Artery Disease Risk Variants in Endothelial Regulatory Elements Modulate Tetraspanin 14 Expression and Notch Signaling.\nJO  - Arteriosclerosis, thrombosis, and vascular biology\nPY  - 2026\nDO  - 10.1161/ATVBAHA.125.323330\nAB  - BACKGROUND: Coronary artery disease (CAD) is a complex condition and remains the leading cause of mortality worldwide. Genome-wide association studies have identified a CAD risk locus on chromosome 10q23 that is independent of traditional risk factors, providing an opportunity to uncover novel molec\nUR  - https://pubmed.ncbi.nlm.nih.gov/42021732/\nER  - ",
+      "section": "disease_genetics",
+      "topic": "CHD_Genetics",
+      "type": "GWAS",
+      "score": -2
     }
   ],
-  "summary_text": "9 papers selected from this week's literature:\n  \u2022 7 \u00d7 disease genetics (CHD / DCM / SCAD)\n  \u2022 1 \u00d7 PRS & oligogenic methods\n  \u2022 1 \u00d7 epigenetics / methylation\n\nHighlight: Rare regulatory mutations disrupt mesenchymal molecular programs driving endocardial cushion formation in bicuspid aortic valve. (Nature communications, 2026)",
+  "summary_text": "9 papers selected from this week's literature:\n  \u2022 6 \u00d7 disease genetics (CHD / DCM / SCAD)\n  \u2022 2 \u00d7 PRS & oligogenic methods\n  \u2022 1 \u00d7 epigenetics / methylation\n\nHighlight: Rare T-box variants in adult pulmonary arterial hypertension with congenital heart disease. (Journal of applied genetics, 2026)",
   "summary": {
     "total_selected": 9,
     "total_candidates": 9,
     "section_counts": {
-      "disease_genetics": 7,
-      "prs_methods": 1,
+      "disease_genetics": 6,
+      "prs_methods": 2,
       "topic_watch": 1
     }
   }
