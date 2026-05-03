@@ -1,10 +1,54 @@
 {
-  "generated": "2026-04-26T21:25:54.215777",
+  "generated": "2026-05-03T21:30:12.588858",
   "lookback_days": 7,
-  "cutoff_date": "2026/04/19",
+  "cutoff_date": "2026/04/26",
   "sections": {
     "disease_genetics": {
       "papers": [
+        {
+          "pmid": "42037320",
+          "title": "Diagnostic Yield of Exome Sequencing in Patients With Congenital Heart Disease From Southern Africa.",
+          "abstract": "BACKGROUND: Congenital heart disease (CHD) is a leading cause of pediatric morbidity and mortality worldwide. The genetics of CHD in African populations is not well understood, although it has been shown in other settings that a genetic diagnosis can have implications for patient management and risk stratification. In this study, we aimed to identify pathogenic and likely pathogenic (P/LP) variants in a cohort of patients with CHD from Southern Africa. METHODS: Exome sequencing was used to scree\u2026",
+          "abstract_full": "BACKGROUND: Congenital heart disease (CHD) is a leading cause of pediatric morbidity and mortality worldwide. The genetics of CHD in African populations is not well understood, although it has been shown in other settings that a genetic diagnosis can have implications for patient management and risk stratification. In this study, we aimed to identify pathogenic and likely pathogenic (P/LP) variants in a cohort of patients with CHD from Southern Africa. METHODS: Exome sequencing was used to screen 356 patients with diverse cardiac phenotypes from South Africa and Namibia. RESULTS: A P/LP variant was identified in 28 patients (7.9%). Analysis of 11 parent-child trios revealed a further LP variant in MYLK in 1 patient, bringing the overall yield to 8.1%. Variants of uncertain significance with high pathogenic potential were found in 30 additional patients. NOTCH1, MYH11, and MYH6 had the most recurrent variants in this cohort. Our data expand on the phenotypic spectrum of many established CHD genes, including the overlap between syndromic CHD genes and nonsyndromic presentation, and a potential link between aortopathy genes and conotruncal anomalies such as Tetralogy of Fallot. Variants were identified across the spectrum of CHD subtypes, with an increased yield in patients with atrioventricular septal defects and syndromic CHD, and a slight enrichment of P/LP variants in patients who died after CHD surgery. There were significantly fewer P/LP variants in patients who were of mixed ancestry. CONCLUSIONS: Together, these data confirm a role for rare deleterious variation in nonsyndromic CHD and demonstrate that a P/LP variant can be identified in 8% of patients from Southern Africa.",
+          "bullets": [
+            "A P/LP variant was identified in 28 patients (7.9%).",
+            "Analysis of 11 parent-child trios revealed a further LP variant in MYLK in 1 patient, bringing the overall yield to 8.1%.",
+            "Variants of uncertain significance with high pathogenic potential were found in 30 additional patients."
+          ],
+          "authors": "Spracklen T, Aldersley T, Lawrenson J, et al.",
+          "journal": "Circulation. Genomic and precision medicine",
+          "year": "2026",
+          "month": "Apr",
+          "doi": "10.1161/CIRCGEN.125.005463",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42037320/",
+          "ris": "TY  - JOUR\nAU  - Spracklen T\nAU  - Aldersley T\nAU  - Lawrenson J\nTI  - Diagnostic Yield of Exome Sequencing in Patients With Congenital Heart Disease From Southern Africa.\nJO  - Circulation. Genomic and precision medicine\nPY  - 2026\nDO  - 10.1161/CIRCGEN.125.005463\nAB  - BACKGROUND: Congenital heart disease (CHD) is a leading cause of pediatric morbidity and mortality worldwide. The genetics of CHD in African populations is not well understood, although it has been shown in other settings that a genetic diagnosis can have implications for patient management and risk\nUR  - https://pubmed.ncbi.nlm.nih.gov/42037320/\nER  - ",
+          "section": "disease_genetics",
+          "topic": "CHD_Genetics",
+          "type": "Research article",
+          "score": 7
+        },
+        {
+          "pmid": "42062469",
+          "title": "Prevalence of deleterious variants in cardiomyopathy genes in early-onset atrial fibrillation.",
+          "abstract": "Atrial fibrillation (AF) is a common cardiac arrhythmia associated with an increased risk of stroke, heart failure, and death. Recent studies suggest that early-onset AF increases the risk of developing heart failure and dilated cardiomyopathy. This study aimed to identify genetic variants in a large set of 34 cardiomyopathy genes among early-onset AF individuals. We conducted targeted sequencing of cardiomyopathy-associated genes in 478 individuals from a Danish cohort with early AF onset. Addi\u2026",
+          "abstract_full": "Atrial fibrillation (AF) is a common cardiac arrhythmia associated with an increased risk of stroke, heart failure, and death. Recent studies suggest that early-onset AF increases the risk of developing heart failure and dilated cardiomyopathy. This study aimed to identify genetic variants in a large set of 34 cardiomyopathy genes among early-onset AF individuals. We conducted targeted sequencing of cardiomyopathy-associated genes in 478 individuals from a Danish cohort with early AF onset. Additionally, we analyzed whole exome sequencing data from 375,869 individuals from the UK Biobank, including 29,267 individuals with AF. Of the Danish individuals with early-onset AF, 8.8% carried pathogenic or likely pathogenic (P/LP) variants in cardiomyopathy-associated genes. The prevalence of rare P/LP variants in the UK Biobank analysis ranged from 3.85% in the group with early AF onset to 1.03% in the group without AF diagnosis. Results were largely consistent when excluding individuals with no prior cardiomyopathy or heart failure diagnosis. This suggests that genetic testing for cardiomyopathy could be relevant in selected individuals with early AF diagnosis.",
+          "bullets": [
+            "Additionally, we analyzed whole exome sequencing data from 375,869 individuals from the UK Biobank, including 29,267 individuals with AF.",
+            "Results were largely consistent when excluding individuals with no prior cardiomyopathy or heart failure diagnosis.",
+            "This suggests that genetic testing for cardiomyopathy could be relevant in selected individuals with early AF diagnosis."
+          ],
+          "authors": "Vad O, Vilaseca Q, Beyer A, et al.",
+          "journal": "European journal of human genetics : EJHG",
+          "year": "2026",
+          "month": "Apr",
+          "doi": "10.1007/s12551-018-0437-0",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42062469/",
+          "ris": "TY  - JOUR\nAU  - Vad O\nAU  - Vilaseca Q\nAU  - Beyer A\nTI  - Prevalence of deleterious variants in cardiomyopathy genes in early-onset atrial fibrillation.\nJO  - European journal of human genetics : EJHG\nPY  - 2026\nDO  - 10.1007/s12551-018-0437-0\nAB  - Atrial fibrillation (AF) is a common cardiac arrhythmia associated with an increased risk of stroke, heart failure, and death. Recent studies suggest that early-onset AF increases the risk of developing heart failure and dilated cardiomyopathy. This study aimed to identify genetic variants in a larg\nUR  - https://pubmed.ncbi.nlm.nih.gov/42062469/\nER  - ",
+          "section": "disease_genetics",
+          "topic": "DCM_Genetics",
+          "type": "Sequencing study",
+          "score": 5
+        },
         {
           "pmid": "40126773",
           "title": "Rare T-box variants in adult pulmonary arterial hypertension with congenital heart disease.",
@@ -48,6 +92,28 @@
           "topic": "DCM_Genetics",
           "type": "Research article",
           "score": 2
+        },
+        {
+          "pmid": "42053849",
+          "title": "A novel de novo frameshift variant in ZMYM2 expands the neuropsychiatric spectrum of NECRC syndrome: a case report.",
+          "abstract": "BACKGROUND: ZMYM2-related neurodevelopmental-craniofacial syndrome with variable renal and cardiac abnormalities (NECRC; OMIM #619522) is an ultra-rare autosomal dominant condition caused by heterozygous loss-of-function (LoF) variants in ZMYM2. Since its initial description in 2020, the phenotypic spectrum has expanded to include Rett-like features and cortical myoclonus, with an increasing number of cases presenting without renal or cardiac involvement. CASE PRESENTATION: We report a 6-year-ol\u2026",
+          "abstract_full": "BACKGROUND: ZMYM2-related neurodevelopmental-craniofacial syndrome with variable renal and cardiac abnormalities (NECRC; OMIM #619522) is an ultra-rare autosomal dominant condition caused by heterozygous loss-of-function (LoF) variants in ZMYM2. Since its initial description in 2020, the phenotypic spectrum has expanded to include Rett-like features and cortical myoclonus, with an increasing number of cases presenting without renal or cardiac involvement. CASE PRESENTATION: We report a 6-year-old Turkish boy presenting with intellectual disability, attention-deficit/hyperactivity disorder (ADHD), motor stereotypies, and short stature. Psychometric evaluation revealed developmental levels of 2-2.5 years across all domains. Dysmorphic features included microcephaly, bilateral epiblepharon, pectus excavatum, bilateral pes planus, and fifth-finger clinodactyly. Renal and cardiac findings were absent. Trio whole-exome sequencing (WES) identified a novel de novo heterozygous frameshift variant in ZMYM2 (NM_001353162.2): c.1293_1296del (p.Thr432ArgfsTer11). Notably, the parents harbored independent skeletal dysplasia variants - NPR2 p.Arg388Ter in the mother (consistent with proportionate short stature) and FGFR3 p.Arg223Cys in the father (consistent with hypochondroplasia phenotype) - neither transmitted to the proband, representing co-occurring independent molecular findings within one family. CONCLUSIONS: This case expands the mutational and phenotypic spectrum of NECRC syndrome, demonstrating that ZMYM2 LoF can present with predominant neuropsychiatric features - including ADHD and motor stereotypies - in the absence of congenital anomalies of the kidney and urinary tract (CAKUT). Trio-WES proved essential in molecularly dissecting a complex multigenic family background. ZMYM2 deficiency should be considered as a potential cause in the differential diagnosis of neurodevelopmental disorders regardless of renal or cardiac involvement.",
+          "bullets": [
+            "This case expands the mutational and phenotypic spectrum of NECRC syndrome, demonstrating that ZMYM2 LoF can present with predominant neuropsychiatric features - including ADHD and motor stereotypies - in the absence of\u2026",
+            "Trio-WES proved essential in molecularly dissecting a complex multigenic family background.",
+            "ZMYM2 deficiency should be considered as a potential cause in the differential diagnosis of neurodevelopmental disorders regardless of renal or cardiac involvement."
+          ],
+          "authors": "Mammadova N, Hatipoglu N, Dundar M",
+          "journal": "Molecular biology reports",
+          "year": "2026",
+          "month": "Apr",
+          "doi": "10.1007/s00737-024-01540-3",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42053849/",
+          "ris": "TY  - JOUR\nAU  - Mammadova N\nAU  - Hatipoglu N\nAU  - Dundar M\nTI  - A novel de novo frameshift variant in ZMYM2 expands the neuropsychiatric spectrum of NECRC syndrome: a case report.\nJO  - Molecular biology reports\nPY  - 2026\nDO  - 10.1007/s00737-024-01540-3\nAB  - BACKGROUND: ZMYM2-related neurodevelopmental-craniofacial syndrome with variable renal and cardiac abnormalities (NECRC; OMIM #619522) is an ultra-rare autosomal dominant condition caused by heterozygous loss-of-function (LoF) variants in ZMYM2. Since its initial description in 2020, the phenotypic \nUR  - https://pubmed.ncbi.nlm.nih.gov/42053849/\nER  - ",
+          "section": "disease_genetics",
+          "topic": "CHD_Genetics",
+          "type": "Sequencing study",
+          "score": 1
         },
         {
           "pmid": "41486098",
@@ -114,31 +180,9 @@
           "topic": "CHD_Genetics",
           "type": "Review",
           "score": 0
-        },
-        {
-          "pmid": "42021732",
-          "title": "Common Coronary Artery Disease Risk Variants in Endothelial Regulatory Elements Modulate Tetraspanin 14 Expression and Notch Signaling.",
-          "abstract": "BACKGROUND: Coronary artery disease (CAD) is a complex condition and remains the leading cause of mortality worldwide. Genome-wide association studies have identified a CAD risk locus on chromosome 10q23 that is independent of traditional risk factors, providing an opportunity to uncover novel molecular mechanisms contributing to CAD pathogenesis. METHODS: Improved fine-mapping approaches were used to prioritize noncoding variants at the 10q23 locus within the intronic region of TSPAN14 (tetrasp\u2026",
-          "abstract_full": "BACKGROUND: Coronary artery disease (CAD) is a complex condition and remains the leading cause of mortality worldwide. Genome-wide association studies have identified a CAD risk locus on chromosome 10q23 that is independent of traditional risk factors, providing an opportunity to uncover novel molecular mechanisms contributing to CAD pathogenesis. METHODS: Improved fine-mapping approaches were used to prioritize noncoding variants at the 10q23 locus within the intronic region of TSPAN14 (tetraspanin 14). Regulatory elements harboring lead variants were functionally interrogated using chromatin accessibility, 3-dimensional chromatin organization, and clustered regularly interspaced short palindromic repeats-mediated deletion approaches in endothelial cells (ECs). Subsequently, TSPAN14 function in ECs was assessed using transcriptomic profiling, Notch signaling activation assays, and EC functional assay using gene knockout (KO) cell lines. RESULTS: Fine-mapping identified 2 lead variants, rs17680741 and rs12260962, located within regulatory elements predicted to affect TSPAN14 expression in monocytes and ECs, respectively. Chromatin accessibility, organization, and enhancer deletion assays demonstrated EC-specific function for the rs12260962-harboring regulatory element in TSPAN14 expression regulation. Loss of TSPAN14 resulted in significant transcriptomic changes related to Notch signaling, heart morphogenesis, cell adhesion, and wound healing. Functionally, TSPAN14 KO ECs exhibited impaired cell-cell junction integrity, reduced repair capacity, and diminished mechanosensitive responses. CONCLUSIONS: Together, these data identify a regulatory element harboring CAD-associated variants at the 10q23 locus that modulates TSPAN14 expression and downstream Notch signaling in ECs, thereby linking genetic risk to endothelial dysfunction relevant to CAD pathogenesis.",
-          "bullets": [
-            "Fine-mapping identified 2 lead variants, rs17680741 and rs12260962, located within regulatory elements predicted to affect TSPAN14 expression in monocytes and ECs, respectively.",
-            "Chromatin accessibility, organization, and enhancer deletion assays demonstrated EC-specific function for the rs12260962-harboring regulatory element in TSPAN14 expression regulation.",
-            "Loss of TSPAN14 resulted in significant transcriptomic changes related to Notch signaling, heart morphogenesis, cell adhesion, and wound healing."
-          ],
-          "authors": "Lee-Kim V, Schnitzler G, Fang S, et al.",
-          "journal": "Arteriosclerosis, thrombosis, and vascular biology",
-          "year": "2026",
-          "month": "Apr",
-          "doi": "10.1161/ATVBAHA.125.323330",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42021732/",
-          "ris": "TY  - JOUR\nAU  - Lee-Kim V\nAU  - Schnitzler G\nAU  - Fang S\nTI  - Common Coronary Artery Disease Risk Variants in Endothelial Regulatory Elements Modulate Tetraspanin 14 Expression and Notch Signaling.\nJO  - Arteriosclerosis, thrombosis, and vascular biology\nPY  - 2026\nDO  - 10.1161/ATVBAHA.125.323330\nAB  - BACKGROUND: Coronary artery disease (CAD) is a complex condition and remains the leading cause of mortality worldwide. Genome-wide association studies have identified a CAD risk locus on chromosome 10q23 that is independent of traditional risk factors, providing an opportunity to uncover novel molec\nUR  - https://pubmed.ncbi.nlm.nih.gov/42021732/\nER  - ",
-          "section": "disease_genetics",
-          "topic": "CHD_Genetics",
-          "type": "GWAS",
-          "score": -2
         }
       ],
-      "total": 6
+      "total": 8
     },
     "prs_disease": {
       "papers": [],
@@ -146,28 +190,6 @@
     },
     "prs_methods": {
       "papers": [
-        {
-          "pmid": "42019957",
-          "title": "Digenic HNF1A and ABCC8 Variants Provide Mechanistic Insight into Early-Onset Diabetes.",
-          "abstract": "CONTEXT: Oligogenic inheritance in maturity-onset diabetes of the young (MODY) remains poorly characterized, and the contribution of multiple candidate variants to disease pathogenesis is incompletely understood. OBJECTIVE: To investigate the pathogenicity and mechanistic contribution of multiple MODY gene variants identified in a MODY-like family and determine their role in early-onset diabetes. METHODS: Comprehensive genetic analysis of known MODY genes was performed in a MODY-like family. Fun\u2026",
-          "abstract_full": "CONTEXT: Oligogenic inheritance in maturity-onset diabetes of the young (MODY) remains poorly characterized, and the contribution of multiple candidate variants to disease pathogenesis is incompletely understood. OBJECTIVE: To investigate the pathogenicity and mechanistic contribution of multiple MODY gene variants identified in a MODY-like family and determine their role in early-onset diabetes. METHODS: Comprehensive genetic analysis of known MODY genes was performed in a MODY-like family. Functional effects of HNF1A and HNF1B variants were assessed using luciferase reporter assays in HEK293T cells. Functional characterization of ABCC8 variants included Kir6.2-dependent thallium (Tl+) flux assays, sulfonylurea responsiveness, and channel stability. RESULTS: Four variants in three MODY genes were identified in the proband: novel p.Ser551Lysfs*2, HNF1B p.Glu102Ala, and ABCC8 p.Arg298Cys and p.Arg521Gln. Functional analysis showed that HNF1A p.Ser551Lysfs*2 retained approximately 5% of wild-type transactivation activity, consistent with loss-of-function, whereas HNF1B p.Glu102Ala and ABCC8 p.Arg521Gln exhibited wild-type-like function. In contrast, ABCC8 p.Arg298Cys reduced channel activity to 77% of wild-type levels while preserving sulfonylurea responsiveness. Segregation analysis identified HNF1A p.Ser551Lysfs*2 and ABCC8 p.Arg298Cys in affected parents. The proband, who inherited both pathogenic variants, developed diabetes earlier than either parent and was exposed to maternal hyperglycemia in utero, which may also have contributed to this early onset. CONCLUSIONS: Functional characterization distinguishes pathogenic from variants of unknown significance and supports digenic inheritance of HNF1A and ABCC8. Their additive effects, together with intrauterine hyperglycemia, likely accelerated disease onset. This study provides mechanistic evidence for oligogenic contributions to MODY and expands the genetic architecture of early-onset diabetes.",
-          "bullets": [
-            "Four variants in three MODY genes were identified in the proband: novel p.Ser551Lysfs*2, HNF1B p.Glu102Ala, and ABCC8 p.Arg298Cys and p.Arg521Gln.",
-            "Functional analysis showed that HNF1A p.Ser551Lysfs*2 retained approximately 5% of wild-type transactivation activity, consistent with loss-of-function, whereas HNF1B p.Glu102Ala and ABCC8 p.",
-            "In contrast, ABCC8 p.Arg298Cys reduced channel activity to 77% of wild-type levels while preserving sulfonylurea responsiveness."
-          ],
-          "authors": "Honda M, Honda R, Nomura T, et al.",
-          "journal": "The Journal of clinical endocrinology and metabolism",
-          "year": "2026",
-          "month": "Apr",
-          "doi": "10.1210/clinem/dgag183",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42019957/",
-          "ris": "TY  - JOUR\nAU  - Honda M\nAU  - Honda R\nAU  - Nomura T\nTI  - Digenic HNF1A and ABCC8 Variants Provide Mechanistic Insight into Early-Onset Diabetes.\nJO  - The Journal of clinical endocrinology and metabolism\nPY  - 2026\nDO  - 10.1210/clinem/dgag183\nAB  - CONTEXT: Oligogenic inheritance in maturity-onset diabetes of the young (MODY) remains poorly characterized, and the contribution of multiple candidate variants to disease pathogenesis is incompletely understood. OBJECTIVE: To investigate the pathogenicity and mechanistic contribution of multiple MO\nUR  - https://pubmed.ncbi.nlm.nih.gov/42019957/\nER  - ",
-          "section": "prs_methods",
-          "topic": "Oligogenic_Digenic",
-          "type": "Methods",
-          "score": 3
-        },
         {
           "pmid": "41968586",
           "title": "Clinical Exome Sequencing in Unexplained Hyperferritinemia Reveals Digenic and Oligogenic Inheritance Beyond Iron Homeostasis.",
@@ -191,7 +213,7 @@
           "score": 3
         }
       ],
-      "total": 2
+      "total": 1
     },
     "topic_watch": {
       "papers": [
@@ -223,6 +245,50 @@
   },
   "selected_papers": [
     {
+      "pmid": "42037320",
+      "title": "Diagnostic Yield of Exome Sequencing in Patients With Congenital Heart Disease From Southern Africa.",
+      "abstract": "BACKGROUND: Congenital heart disease (CHD) is a leading cause of pediatric morbidity and mortality worldwide. The genetics of CHD in African populations is not well understood, although it has been shown in other settings that a genetic diagnosis can have implications for patient management and risk stratification. In this study, we aimed to identify pathogenic and likely pathogenic (P/LP) variants in a cohort of patients with CHD from Southern Africa. METHODS: Exome sequencing was used to scree\u2026",
+      "abstract_full": "BACKGROUND: Congenital heart disease (CHD) is a leading cause of pediatric morbidity and mortality worldwide. The genetics of CHD in African populations is not well understood, although it has been shown in other settings that a genetic diagnosis can have implications for patient management and risk stratification. In this study, we aimed to identify pathogenic and likely pathogenic (P/LP) variants in a cohort of patients with CHD from Southern Africa. METHODS: Exome sequencing was used to screen 356 patients with diverse cardiac phenotypes from South Africa and Namibia. RESULTS: A P/LP variant was identified in 28 patients (7.9%). Analysis of 11 parent-child trios revealed a further LP variant in MYLK in 1 patient, bringing the overall yield to 8.1%. Variants of uncertain significance with high pathogenic potential were found in 30 additional patients. NOTCH1, MYH11, and MYH6 had the most recurrent variants in this cohort. Our data expand on the phenotypic spectrum of many established CHD genes, including the overlap between syndromic CHD genes and nonsyndromic presentation, and a potential link between aortopathy genes and conotruncal anomalies such as Tetralogy of Fallot. Variants were identified across the spectrum of CHD subtypes, with an increased yield in patients with atrioventricular septal defects and syndromic CHD, and a slight enrichment of P/LP variants in patients who died after CHD surgery. There were significantly fewer P/LP variants in patients who were of mixed ancestry. CONCLUSIONS: Together, these data confirm a role for rare deleterious variation in nonsyndromic CHD and demonstrate that a P/LP variant can be identified in 8% of patients from Southern Africa.",
+      "bullets": [
+        "A P/LP variant was identified in 28 patients (7.9%).",
+        "Analysis of 11 parent-child trios revealed a further LP variant in MYLK in 1 patient, bringing the overall yield to 8.1%.",
+        "Variants of uncertain significance with high pathogenic potential were found in 30 additional patients."
+      ],
+      "authors": "Spracklen T, Aldersley T, Lawrenson J, et al.",
+      "journal": "Circulation. Genomic and precision medicine",
+      "year": "2026",
+      "month": "Apr",
+      "doi": "10.1161/CIRCGEN.125.005463",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42037320/",
+      "ris": "TY  - JOUR\nAU  - Spracklen T\nAU  - Aldersley T\nAU  - Lawrenson J\nTI  - Diagnostic Yield of Exome Sequencing in Patients With Congenital Heart Disease From Southern Africa.\nJO  - Circulation. Genomic and precision medicine\nPY  - 2026\nDO  - 10.1161/CIRCGEN.125.005463\nAB  - BACKGROUND: Congenital heart disease (CHD) is a leading cause of pediatric morbidity and mortality worldwide. The genetics of CHD in African populations is not well understood, although it has been shown in other settings that a genetic diagnosis can have implications for patient management and risk\nUR  - https://pubmed.ncbi.nlm.nih.gov/42037320/\nER  - ",
+      "section": "disease_genetics",
+      "topic": "CHD_Genetics",
+      "type": "Research article",
+      "score": 7
+    },
+    {
+      "pmid": "42062469",
+      "title": "Prevalence of deleterious variants in cardiomyopathy genes in early-onset atrial fibrillation.",
+      "abstract": "Atrial fibrillation (AF) is a common cardiac arrhythmia associated with an increased risk of stroke, heart failure, and death. Recent studies suggest that early-onset AF increases the risk of developing heart failure and dilated cardiomyopathy. This study aimed to identify genetic variants in a large set of 34 cardiomyopathy genes among early-onset AF individuals. We conducted targeted sequencing of cardiomyopathy-associated genes in 478 individuals from a Danish cohort with early AF onset. Addi\u2026",
+      "abstract_full": "Atrial fibrillation (AF) is a common cardiac arrhythmia associated with an increased risk of stroke, heart failure, and death. Recent studies suggest that early-onset AF increases the risk of developing heart failure and dilated cardiomyopathy. This study aimed to identify genetic variants in a large set of 34 cardiomyopathy genes among early-onset AF individuals. We conducted targeted sequencing of cardiomyopathy-associated genes in 478 individuals from a Danish cohort with early AF onset. Additionally, we analyzed whole exome sequencing data from 375,869 individuals from the UK Biobank, including 29,267 individuals with AF. Of the Danish individuals with early-onset AF, 8.8% carried pathogenic or likely pathogenic (P/LP) variants in cardiomyopathy-associated genes. The prevalence of rare P/LP variants in the UK Biobank analysis ranged from 3.85% in the group with early AF onset to 1.03% in the group without AF diagnosis. Results were largely consistent when excluding individuals with no prior cardiomyopathy or heart failure diagnosis. This suggests that genetic testing for cardiomyopathy could be relevant in selected individuals with early AF diagnosis.",
+      "bullets": [
+        "Additionally, we analyzed whole exome sequencing data from 375,869 individuals from the UK Biobank, including 29,267 individuals with AF.",
+        "Results were largely consistent when excluding individuals with no prior cardiomyopathy or heart failure diagnosis.",
+        "This suggests that genetic testing for cardiomyopathy could be relevant in selected individuals with early AF diagnosis."
+      ],
+      "authors": "Vad O, Vilaseca Q, Beyer A, et al.",
+      "journal": "European journal of human genetics : EJHG",
+      "year": "2026",
+      "month": "Apr",
+      "doi": "10.1007/s12551-018-0437-0",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42062469/",
+      "ris": "TY  - JOUR\nAU  - Vad O\nAU  - Vilaseca Q\nAU  - Beyer A\nTI  - Prevalence of deleterious variants in cardiomyopathy genes in early-onset atrial fibrillation.\nJO  - European journal of human genetics : EJHG\nPY  - 2026\nDO  - 10.1007/s12551-018-0437-0\nAB  - Atrial fibrillation (AF) is a common cardiac arrhythmia associated with an increased risk of stroke, heart failure, and death. Recent studies suggest that early-onset AF increases the risk of developing heart failure and dilated cardiomyopathy. This study aimed to identify genetic variants in a larg\nUR  - https://pubmed.ncbi.nlm.nih.gov/42062469/\nER  - ",
+      "section": "disease_genetics",
+      "topic": "DCM_Genetics",
+      "type": "Sequencing study",
+      "score": 5
+    },
+    {
       "pmid": "40126773",
       "title": "Rare T-box variants in adult pulmonary arterial hypertension with congenital heart disease.",
       "abstract": "We report the clinical and genetic features of three adult patients with congenital heart disease-associated pulmonary arterial hypertension (CHD-PAH) carrying rare T-box variants. All three patients had weakness and cyanosis. Two patients had chest tightness, dry cough, and hemoptysis, and one patient had lower limb edema. Besides meeting the diagnostic criteria of CHD-PAH, three patients respectively presented the clinical features of specific syndromes. Specifically, patient 1 presented with \u2026",
@@ -243,28 +309,6 @@
       "topic": "CHD_Genetics",
       "type": "Research article",
       "score": 4
-    },
-    {
-      "pmid": "42019957",
-      "title": "Digenic HNF1A and ABCC8 Variants Provide Mechanistic Insight into Early-Onset Diabetes.",
-      "abstract": "CONTEXT: Oligogenic inheritance in maturity-onset diabetes of the young (MODY) remains poorly characterized, and the contribution of multiple candidate variants to disease pathogenesis is incompletely understood. OBJECTIVE: To investigate the pathogenicity and mechanistic contribution of multiple MODY gene variants identified in a MODY-like family and determine their role in early-onset diabetes. METHODS: Comprehensive genetic analysis of known MODY genes was performed in a MODY-like family. Fun\u2026",
-      "abstract_full": "CONTEXT: Oligogenic inheritance in maturity-onset diabetes of the young (MODY) remains poorly characterized, and the contribution of multiple candidate variants to disease pathogenesis is incompletely understood. OBJECTIVE: To investigate the pathogenicity and mechanistic contribution of multiple MODY gene variants identified in a MODY-like family and determine their role in early-onset diabetes. METHODS: Comprehensive genetic analysis of known MODY genes was performed in a MODY-like family. Functional effects of HNF1A and HNF1B variants were assessed using luciferase reporter assays in HEK293T cells. Functional characterization of ABCC8 variants included Kir6.2-dependent thallium (Tl+) flux assays, sulfonylurea responsiveness, and channel stability. RESULTS: Four variants in three MODY genes were identified in the proband: novel p.Ser551Lysfs*2, HNF1B p.Glu102Ala, and ABCC8 p.Arg298Cys and p.Arg521Gln. Functional analysis showed that HNF1A p.Ser551Lysfs*2 retained approximately 5% of wild-type transactivation activity, consistent with loss-of-function, whereas HNF1B p.Glu102Ala and ABCC8 p.Arg521Gln exhibited wild-type-like function. In contrast, ABCC8 p.Arg298Cys reduced channel activity to 77% of wild-type levels while preserving sulfonylurea responsiveness. Segregation analysis identified HNF1A p.Ser551Lysfs*2 and ABCC8 p.Arg298Cys in affected parents. The proband, who inherited both pathogenic variants, developed diabetes earlier than either parent and was exposed to maternal hyperglycemia in utero, which may also have contributed to this early onset. CONCLUSIONS: Functional characterization distinguishes pathogenic from variants of unknown significance and supports digenic inheritance of HNF1A and ABCC8. Their additive effects, together with intrauterine hyperglycemia, likely accelerated disease onset. This study provides mechanistic evidence for oligogenic contributions to MODY and expands the genetic architecture of early-onset diabetes.",
-      "bullets": [
-        "Four variants in three MODY genes were identified in the proband: novel p.Ser551Lysfs*2, HNF1B p.Glu102Ala, and ABCC8 p.Arg298Cys and p.Arg521Gln.",
-        "Functional analysis showed that HNF1A p.Ser551Lysfs*2 retained approximately 5% of wild-type transactivation activity, consistent with loss-of-function, whereas HNF1B p.Glu102Ala and ABCC8 p.",
-        "In contrast, ABCC8 p.Arg298Cys reduced channel activity to 77% of wild-type levels while preserving sulfonylurea responsiveness."
-      ],
-      "authors": "Honda M, Honda R, Nomura T, et al.",
-      "journal": "The Journal of clinical endocrinology and metabolism",
-      "year": "2026",
-      "month": "Apr",
-      "doi": "10.1210/clinem/dgag183",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42019957/",
-      "ris": "TY  - JOUR\nAU  - Honda M\nAU  - Honda R\nAU  - Nomura T\nTI  - Digenic HNF1A and ABCC8 Variants Provide Mechanistic Insight into Early-Onset Diabetes.\nJO  - The Journal of clinical endocrinology and metabolism\nPY  - 2026\nDO  - 10.1210/clinem/dgag183\nAB  - CONTEXT: Oligogenic inheritance in maturity-onset diabetes of the young (MODY) remains poorly characterized, and the contribution of multiple candidate variants to disease pathogenesis is incompletely understood. OBJECTIVE: To investigate the pathogenicity and mechanistic contribution of multiple MO\nUR  - https://pubmed.ncbi.nlm.nih.gov/42019957/\nER  - ",
-      "section": "prs_methods",
-      "topic": "Oligogenic_Digenic",
-      "type": "Methods",
-      "score": 3
     },
     {
       "pmid": "41968586",
@@ -333,6 +377,28 @@
       "score": 2
     },
     {
+      "pmid": "42053849",
+      "title": "A novel de novo frameshift variant in ZMYM2 expands the neuropsychiatric spectrum of NECRC syndrome: a case report.",
+      "abstract": "BACKGROUND: ZMYM2-related neurodevelopmental-craniofacial syndrome with variable renal and cardiac abnormalities (NECRC; OMIM #619522) is an ultra-rare autosomal dominant condition caused by heterozygous loss-of-function (LoF) variants in ZMYM2. Since its initial description in 2020, the phenotypic spectrum has expanded to include Rett-like features and cortical myoclonus, with an increasing number of cases presenting without renal or cardiac involvement. CASE PRESENTATION: We report a 6-year-ol\u2026",
+      "abstract_full": "BACKGROUND: ZMYM2-related neurodevelopmental-craniofacial syndrome with variable renal and cardiac abnormalities (NECRC; OMIM #619522) is an ultra-rare autosomal dominant condition caused by heterozygous loss-of-function (LoF) variants in ZMYM2. Since its initial description in 2020, the phenotypic spectrum has expanded to include Rett-like features and cortical myoclonus, with an increasing number of cases presenting without renal or cardiac involvement. CASE PRESENTATION: We report a 6-year-old Turkish boy presenting with intellectual disability, attention-deficit/hyperactivity disorder (ADHD), motor stereotypies, and short stature. Psychometric evaluation revealed developmental levels of 2-2.5 years across all domains. Dysmorphic features included microcephaly, bilateral epiblepharon, pectus excavatum, bilateral pes planus, and fifth-finger clinodactyly. Renal and cardiac findings were absent. Trio whole-exome sequencing (WES) identified a novel de novo heterozygous frameshift variant in ZMYM2 (NM_001353162.2): c.1293_1296del (p.Thr432ArgfsTer11). Notably, the parents harbored independent skeletal dysplasia variants - NPR2 p.Arg388Ter in the mother (consistent with proportionate short stature) and FGFR3 p.Arg223Cys in the father (consistent with hypochondroplasia phenotype) - neither transmitted to the proband, representing co-occurring independent molecular findings within one family. CONCLUSIONS: This case expands the mutational and phenotypic spectrum of NECRC syndrome, demonstrating that ZMYM2 LoF can present with predominant neuropsychiatric features - including ADHD and motor stereotypies - in the absence of congenital anomalies of the kidney and urinary tract (CAKUT). Trio-WES proved essential in molecularly dissecting a complex multigenic family background. ZMYM2 deficiency should be considered as a potential cause in the differential diagnosis of neurodevelopmental disorders regardless of renal or cardiac involvement.",
+      "bullets": [
+        "This case expands the mutational and phenotypic spectrum of NECRC syndrome, demonstrating that ZMYM2 LoF can present with predominant neuropsychiatric features - including ADHD and motor stereotypies - in the absence of\u2026",
+        "Trio-WES proved essential in molecularly dissecting a complex multigenic family background.",
+        "ZMYM2 deficiency should be considered as a potential cause in the differential diagnosis of neurodevelopmental disorders regardless of renal or cardiac involvement."
+      ],
+      "authors": "Mammadova N, Hatipoglu N, Dundar M",
+      "journal": "Molecular biology reports",
+      "year": "2026",
+      "month": "Apr",
+      "doi": "10.1007/s00737-024-01540-3",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42053849/",
+      "ris": "TY  - JOUR\nAU  - Mammadova N\nAU  - Hatipoglu N\nAU  - Dundar M\nTI  - A novel de novo frameshift variant in ZMYM2 expands the neuropsychiatric spectrum of NECRC syndrome: a case report.\nJO  - Molecular biology reports\nPY  - 2026\nDO  - 10.1007/s00737-024-01540-3\nAB  - BACKGROUND: ZMYM2-related neurodevelopmental-craniofacial syndrome with variable renal and cardiac abnormalities (NECRC; OMIM #619522) is an ultra-rare autosomal dominant condition caused by heterozygous loss-of-function (LoF) variants in ZMYM2. Since its initial description in 2020, the phenotypic \nUR  - https://pubmed.ncbi.nlm.nih.gov/42053849/\nER  - ",
+      "section": "disease_genetics",
+      "topic": "CHD_Genetics",
+      "type": "Sequencing study",
+      "score": 1
+    },
+    {
       "pmid": "41486098",
       "title": "Marfan Syndrome Associated With Intellectual Disability and Behavioral Anomalies: Further Evidence for the Effect of Compound Heterozygous Variants in FBN1 on Phenotypic Severity.",
       "abstract": "Marfan syndrome (MFS) is a rare connective tissue disorder characterized by involvement of the cardiovascular, ocular, and musculoskeletal systems. Pathogenic variants in FBN1 cause most of the MFS cases; however, intellectual disability (ID) is rarely observed. A non-consanguineous Pakistani family with four affected individuals was recruited. Physical examinations, echocardiography, and doppler ultrasound were performed as part of the clinical assessment. Exome sequencing was conducted on the \u2026",
@@ -397,37 +463,15 @@
       "topic": "CHD_Genetics",
       "type": "Review",
       "score": 0
-    },
-    {
-      "pmid": "42021732",
-      "title": "Common Coronary Artery Disease Risk Variants in Endothelial Regulatory Elements Modulate Tetraspanin 14 Expression and Notch Signaling.",
-      "abstract": "BACKGROUND: Coronary artery disease (CAD) is a complex condition and remains the leading cause of mortality worldwide. Genome-wide association studies have identified a CAD risk locus on chromosome 10q23 that is independent of traditional risk factors, providing an opportunity to uncover novel molecular mechanisms contributing to CAD pathogenesis. METHODS: Improved fine-mapping approaches were used to prioritize noncoding variants at the 10q23 locus within the intronic region of TSPAN14 (tetrasp\u2026",
-      "abstract_full": "BACKGROUND: Coronary artery disease (CAD) is a complex condition and remains the leading cause of mortality worldwide. Genome-wide association studies have identified a CAD risk locus on chromosome 10q23 that is independent of traditional risk factors, providing an opportunity to uncover novel molecular mechanisms contributing to CAD pathogenesis. METHODS: Improved fine-mapping approaches were used to prioritize noncoding variants at the 10q23 locus within the intronic region of TSPAN14 (tetraspanin 14). Regulatory elements harboring lead variants were functionally interrogated using chromatin accessibility, 3-dimensional chromatin organization, and clustered regularly interspaced short palindromic repeats-mediated deletion approaches in endothelial cells (ECs). Subsequently, TSPAN14 function in ECs was assessed using transcriptomic profiling, Notch signaling activation assays, and EC functional assay using gene knockout (KO) cell lines. RESULTS: Fine-mapping identified 2 lead variants, rs17680741 and rs12260962, located within regulatory elements predicted to affect TSPAN14 expression in monocytes and ECs, respectively. Chromatin accessibility, organization, and enhancer deletion assays demonstrated EC-specific function for the rs12260962-harboring regulatory element in TSPAN14 expression regulation. Loss of TSPAN14 resulted in significant transcriptomic changes related to Notch signaling, heart morphogenesis, cell adhesion, and wound healing. Functionally, TSPAN14 KO ECs exhibited impaired cell-cell junction integrity, reduced repair capacity, and diminished mechanosensitive responses. CONCLUSIONS: Together, these data identify a regulatory element harboring CAD-associated variants at the 10q23 locus that modulates TSPAN14 expression and downstream Notch signaling in ECs, thereby linking genetic risk to endothelial dysfunction relevant to CAD pathogenesis.",
-      "bullets": [
-        "Fine-mapping identified 2 lead variants, rs17680741 and rs12260962, located within regulatory elements predicted to affect TSPAN14 expression in monocytes and ECs, respectively.",
-        "Chromatin accessibility, organization, and enhancer deletion assays demonstrated EC-specific function for the rs12260962-harboring regulatory element in TSPAN14 expression regulation.",
-        "Loss of TSPAN14 resulted in significant transcriptomic changes related to Notch signaling, heart morphogenesis, cell adhesion, and wound healing."
-      ],
-      "authors": "Lee-Kim V, Schnitzler G, Fang S, et al.",
-      "journal": "Arteriosclerosis, thrombosis, and vascular biology",
-      "year": "2026",
-      "month": "Apr",
-      "doi": "10.1161/ATVBAHA.125.323330",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42021732/",
-      "ris": "TY  - JOUR\nAU  - Lee-Kim V\nAU  - Schnitzler G\nAU  - Fang S\nTI  - Common Coronary Artery Disease Risk Variants in Endothelial Regulatory Elements Modulate Tetraspanin 14 Expression and Notch Signaling.\nJO  - Arteriosclerosis, thrombosis, and vascular biology\nPY  - 2026\nDO  - 10.1161/ATVBAHA.125.323330\nAB  - BACKGROUND: Coronary artery disease (CAD) is a complex condition and remains the leading cause of mortality worldwide. Genome-wide association studies have identified a CAD risk locus on chromosome 10q23 that is independent of traditional risk factors, providing an opportunity to uncover novel molec\nUR  - https://pubmed.ncbi.nlm.nih.gov/42021732/\nER  - ",
-      "section": "disease_genetics",
-      "topic": "CHD_Genetics",
-      "type": "GWAS",
-      "score": -2
     }
   ],
-  "summary_text": "9 papers selected from this week's literature:\n  \u2022 6 \u00d7 disease genetics (CHD / DCM / SCAD)\n  \u2022 2 \u00d7 PRS & oligogenic methods\n  \u2022 1 \u00d7 epigenetics / methylation\n\nHighlight: Rare T-box variants in adult pulmonary arterial hypertension with congenital heart disease. (Journal of applied genetics, 2026)",
+  "summary_text": "10 papers selected from this week's literature:\n  \u2022 8 \u00d7 disease genetics (CHD / DCM / SCAD)\n  \u2022 1 \u00d7 PRS & oligogenic methods\n  \u2022 1 \u00d7 epigenetics / methylation\n\nHighlight: Diagnostic Yield of Exome Sequencing in Patients With Congenital Heart Disease From Southern Africa. (Circulation. Genomic and precision medicine, 2026)",
   "summary": {
-    "total_selected": 9,
-    "total_candidates": 9,
+    "total_selected": 10,
+    "total_candidates": 10,
     "section_counts": {
-      "disease_genetics": 6,
-      "prs_methods": 2,
+      "disease_genetics": 8,
+      "prs_methods": 1,
       "topic_watch": 1
     }
   }
