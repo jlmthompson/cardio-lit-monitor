@@ -1,75 +1,97 @@
 {
-  "generated": "2026-05-03T21:30:12.588858",
+  "generated": "2026-05-10T21:36:00.590558",
   "lookback_days": 7,
-  "cutoff_date": "2026/04/26",
+  "cutoff_date": "2026/05/03",
   "sections": {
     "disease_genetics": {
       "papers": [
         {
-          "pmid": "42037320",
-          "title": "Diagnostic Yield of Exome Sequencing in Patients With Congenital Heart Disease From Southern Africa.",
-          "abstract": "BACKGROUND: Congenital heart disease (CHD) is a leading cause of pediatric morbidity and mortality worldwide. The genetics of CHD in African populations is not well understood, although it has been shown in other settings that a genetic diagnosis can have implications for patient management and risk stratification. In this study, we aimed to identify pathogenic and likely pathogenic (P/LP) variants in a cohort of patients with CHD from Southern Africa. METHODS: Exome sequencing was used to scree\u2026",
-          "abstract_full": "BACKGROUND: Congenital heart disease (CHD) is a leading cause of pediatric morbidity and mortality worldwide. The genetics of CHD in African populations is not well understood, although it has been shown in other settings that a genetic diagnosis can have implications for patient management and risk stratification. In this study, we aimed to identify pathogenic and likely pathogenic (P/LP) variants in a cohort of patients with CHD from Southern Africa. METHODS: Exome sequencing was used to screen 356 patients with diverse cardiac phenotypes from South Africa and Namibia. RESULTS: A P/LP variant was identified in 28 patients (7.9%). Analysis of 11 parent-child trios revealed a further LP variant in MYLK in 1 patient, bringing the overall yield to 8.1%. Variants of uncertain significance with high pathogenic potential were found in 30 additional patients. NOTCH1, MYH11, and MYH6 had the most recurrent variants in this cohort. Our data expand on the phenotypic spectrum of many established CHD genes, including the overlap between syndromic CHD genes and nonsyndromic presentation, and a potential link between aortopathy genes and conotruncal anomalies such as Tetralogy of Fallot. Variants were identified across the spectrum of CHD subtypes, with an increased yield in patients with atrioventricular septal defects and syndromic CHD, and a slight enrichment of P/LP variants in patients who died after CHD surgery. There were significantly fewer P/LP variants in patients who were of mixed ancestry. CONCLUSIONS: Together, these data confirm a role for rare deleterious variation in nonsyndromic CHD and demonstrate that a P/LP variant can be identified in 8% of patients from Southern Africa.",
+          "pmid": "42093019",
+          "title": "Jagged-1 mutation is associated with congenital heart defects: a case report.",
+          "abstract": "BACKGROUND: Congenital heart defects (CHD) refer to a wide range of heart structural abnormalities that exist at birth, ranging from malformations with a good prognosis to more complicated and severe lesions. Congenital heart defects can result from mutations in genes encoding cell signaling transducers such as Jagged-1 (JAG1). Mutations in JAG1 are linked to rare autosomal-dominant disorders, often resulting from haploinsufficiency in the Notch signaling pathway, which affects organ development\u2026",
+          "abstract_full": "BACKGROUND: Congenital heart defects (CHD) refer to a wide range of heart structural abnormalities that exist at birth, ranging from malformations with a good prognosis to more complicated and severe lesions. Congenital heart defects can result from mutations in genes encoding cell signaling transducers such as Jagged-1 (JAG1). Mutations in JAG1 are linked to rare autosomal-dominant disorders, often resulting from haploinsufficiency in the Notch signaling pathway, which affects organ development. Reporting novel mutations and associated phenotypes emphasizes the importance of tailored approaches based on individual phenotypic and genotypic profiles. Next-generation sequencing techniques facilitate the detection of disease-associated mutations, enabling the development of personalized management strategies. CASE PRESENTATION: Here, we present a case of a Saudi Arabian female child who was born extremely preterm. She required intubation and mechanical ventilation immediately after birth. She developed bronchopulmonary dysplasia and pulmonary hypertension. At 8\u00a0months old, her echocardiogram revealed a large atrial septal defect and a patent ductus arteriosus. She underwent successful patent ductus arteriosus closure. She exhibited severe failure to thrive and was frequently admitted for respiratory infections. Tragically, she passed away at 11\u00a0years of age due to pneumonia and pulmonary hypertensive crises. Exome sequencing of the proband, her parents, and her brother identified a previously undescribed likely pathogenic heterozygous missense variant (c.1127A>G) in the JAG1 gene, inherited from her presumed healthy mother, that is associated with an isolated cardiac phenotype. CONCLUSION: Although JAG1 mutations typically manifest as Alagille syndrome, this case underscores their phenotypic variability, specifically presenting as an isolated congenital heart defect. The clinical course demonstrates that pulmonary hypertension is a severe complication of an atrial septal defect (ASD), where persistent left-to-right shunting triggers irreversible vascular remodeling and terminal right heart failure. Ultimately, this report confirms the incomplete penetrance characteristic of JAG1 variants and suggests that extreme prematurity may function as a significant epigenetic or environmental modifier.",
           "bullets": [
-            "A P/LP variant was identified in 28 patients (7.9%).",
-            "Analysis of 11 parent-child trios revealed a further LP variant in MYLK in 1 patient, bringing the overall yield to 8.1%.",
-            "Variants of uncertain significance with high pathogenic potential were found in 30 additional patients."
+            "Although JAG1 mutations typically manifest as Alagille syndrome, this case underscores their phenotypic variability, specifically presenting as an isolated congenital heart defect.",
+            "The clinical course demonstrates that pulmonary hypertension is a severe complication of an atrial septal defect (ASD), where persistent left-to-right shunting triggers irreversible vascular remodeling and terminal\u2026",
+            "Ultimately, this report confirms the incomplete penetrance characteristic of JAG1 variants and suggests that extreme prematurity may function as a significant epigenetic or environmental modifier."
           ],
-          "authors": "Spracklen T, Aldersley T, Lawrenson J, et al.",
-          "journal": "Circulation. Genomic and precision medicine",
-          "year": "2026",
-          "month": "Apr",
-          "doi": "10.1161/CIRCGEN.125.005463",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42037320/",
-          "ris": "TY  - JOUR\nAU  - Spracklen T\nAU  - Aldersley T\nAU  - Lawrenson J\nTI  - Diagnostic Yield of Exome Sequencing in Patients With Congenital Heart Disease From Southern Africa.\nJO  - Circulation. Genomic and precision medicine\nPY  - 2026\nDO  - 10.1161/CIRCGEN.125.005463\nAB  - BACKGROUND: Congenital heart disease (CHD) is a leading cause of pediatric morbidity and mortality worldwide. The genetics of CHD in African populations is not well understood, although it has been shown in other settings that a genetic diagnosis can have implications for patient management and risk\nUR  - https://pubmed.ncbi.nlm.nih.gov/42037320/\nER  - ",
-          "section": "disease_genetics",
-          "topic": "CHD_Genetics",
-          "type": "Research article",
-          "score": 7
-        },
-        {
-          "pmid": "42062469",
-          "title": "Prevalence of deleterious variants in cardiomyopathy genes in early-onset atrial fibrillation.",
-          "abstract": "Atrial fibrillation (AF) is a common cardiac arrhythmia associated with an increased risk of stroke, heart failure, and death. Recent studies suggest that early-onset AF increases the risk of developing heart failure and dilated cardiomyopathy. This study aimed to identify genetic variants in a large set of 34 cardiomyopathy genes among early-onset AF individuals. We conducted targeted sequencing of cardiomyopathy-associated genes in 478 individuals from a Danish cohort with early AF onset. Addi\u2026",
-          "abstract_full": "Atrial fibrillation (AF) is a common cardiac arrhythmia associated with an increased risk of stroke, heart failure, and death. Recent studies suggest that early-onset AF increases the risk of developing heart failure and dilated cardiomyopathy. This study aimed to identify genetic variants in a large set of 34 cardiomyopathy genes among early-onset AF individuals. We conducted targeted sequencing of cardiomyopathy-associated genes in 478 individuals from a Danish cohort with early AF onset. Additionally, we analyzed whole exome sequencing data from 375,869 individuals from the UK Biobank, including 29,267 individuals with AF. Of the Danish individuals with early-onset AF, 8.8% carried pathogenic or likely pathogenic (P/LP) variants in cardiomyopathy-associated genes. The prevalence of rare P/LP variants in the UK Biobank analysis ranged from 3.85% in the group with early AF onset to 1.03% in the group without AF diagnosis. Results were largely consistent when excluding individuals with no prior cardiomyopathy or heart failure diagnosis. This suggests that genetic testing for cardiomyopathy could be relevant in selected individuals with early AF diagnosis.",
-          "bullets": [
-            "Additionally, we analyzed whole exome sequencing data from 375,869 individuals from the UK Biobank, including 29,267 individuals with AF.",
-            "Results were largely consistent when excluding individuals with no prior cardiomyopathy or heart failure diagnosis.",
-            "This suggests that genetic testing for cardiomyopathy could be relevant in selected individuals with early AF diagnosis."
-          ],
-          "authors": "Vad O, Vilaseca Q, Beyer A, et al.",
-          "journal": "European journal of human genetics : EJHG",
-          "year": "2026",
-          "month": "Apr",
-          "doi": "10.1007/s12551-018-0437-0",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42062469/",
-          "ris": "TY  - JOUR\nAU  - Vad O\nAU  - Vilaseca Q\nAU  - Beyer A\nTI  - Prevalence of deleterious variants in cardiomyopathy genes in early-onset atrial fibrillation.\nJO  - European journal of human genetics : EJHG\nPY  - 2026\nDO  - 10.1007/s12551-018-0437-0\nAB  - Atrial fibrillation (AF) is a common cardiac arrhythmia associated with an increased risk of stroke, heart failure, and death. Recent studies suggest that early-onset AF increases the risk of developing heart failure and dilated cardiomyopathy. This study aimed to identify genetic variants in a larg\nUR  - https://pubmed.ncbi.nlm.nih.gov/42062469/\nER  - ",
-          "section": "disease_genetics",
-          "topic": "DCM_Genetics",
-          "type": "Sequencing study",
-          "score": 5
-        },
-        {
-          "pmid": "40126773",
-          "title": "Rare T-box variants in adult pulmonary arterial hypertension with congenital heart disease.",
-          "abstract": "We report the clinical and genetic features of three adult patients with congenital heart disease-associated pulmonary arterial hypertension (CHD-PAH) carrying rare T-box variants. All three patients had weakness and cyanosis. Two patients had chest tightness, dry cough, and hemoptysis, and one patient had lower limb edema. Besides meeting the diagnostic criteria of CHD-PAH, three patients respectively presented the clinical features of specific syndromes. Specifically, patient 1 presented with \u2026",
-          "abstract_full": "We report the clinical and genetic features of three adult patients with congenital heart disease-associated pulmonary arterial hypertension (CHD-PAH) carrying rare T-box variants. All three patients had weakness and cyanosis. Two patients had chest tightness, dry cough, and hemoptysis, and one patient had lower limb edema. Besides meeting the diagnostic criteria of CHD-PAH, three patients respectively presented the clinical features of specific syndromes. Specifically, patient 1 presented with clinical features consistent with tetralogy of Fallot, patient 2 presented with characteristics associated with small patella syndrome, and the patient 3 exhibited features consistent with Holt-Oram syndrome. Exome sequencing revealed that the TBX1 (c.820\u00a0T\u2009>\u2009C) variant was identified in patient 1, the TBX4 (c.251del) variant was detected in patient 2 and the TBX5 (c.486del) variant was found in patient 3. Our study for the first time found that CHD-PAH patients carry T-box gene variants, which has added new clues to understanding the pathogenesis of CHD-PAH and is expected to provide new targets and ideas for the diagnosis and treatment of CHD-PAH.",
-          "bullets": [
-            "We report the clinical and genetic features of three adult patients with congenital heart disease-associated pulmonary arterial hypertension (CHD-PAH) carrying rare T-box variants.",
-            "Specifically, patient 1 presented with clinical features consistent with tetralogy of Fallot, patient 2 presented with characteristics associated with small patella syndrome, and the patient 3 exhibited features\u2026",
-            "Exome sequencing revealed that the TBX1 (c.820\u00a0T\u2009>\u2009C) variant was identified in patient 1, the TBX4 (c.251del) variant was detected in patient 2 and the TBX5 (c.486del) variant was found in patient 3."
-          ],
-          "authors": "Li L, Chen G, Qiao N, et al.",
-          "journal": "Journal of applied genetics",
+          "authors": "Alahmed O, Alaamery M, Alhabshan F, et al.",
+          "journal": "Journal of medical case reports",
           "year": "2026",
           "month": "May",
-          "doi": "10.1186/s13073-019-0685-z",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/40126773/",
-          "ris": "TY  - JOUR\nAU  - Li L\nAU  - Chen G\nAU  - Qiao N\nTI  - Rare T-box variants in adult pulmonary arterial hypertension with congenital heart disease.\nJO  - Journal of applied genetics\nPY  - 2026\nDO  - 10.1186/s13073-019-0685-z\nAB  - We report the clinical and genetic features of three adult patients with congenital heart disease-associated pulmonary arterial hypertension (CHD-PAH) carrying rare T-box variants. All three patients had weakness and cyanosis. Two patients had chest tightness, dry cough, and hemoptysis, and one pati\nUR  - https://pubmed.ncbi.nlm.nih.gov/40126773/\nER  - ",
+          "doi": "10.1186/s13256-026-06096-7",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42093019/",
+          "ris": "TY  - JOUR\nAU  - Alahmed O\nAU  - Alaamery M\nAU  - Alhabshan F\nTI  - Jagged-1 mutation is associated with congenital heart defects: a case report.\nJO  - Journal of medical case reports\nPY  - 2026\nDO  - 10.1186/s13256-026-06096-7\nAB  - BACKGROUND: Congenital heart defects (CHD) refer to a wide range of heart structural abnormalities that exist at birth, ranging from malformations with a good prognosis to more complicated and severe lesions. Congenital heart defects can result from mutations in genes encoding cell signaling transdu\nUR  - https://pubmed.ncbi.nlm.nih.gov/42093019/\nER  - ",
           "section": "disease_genetics",
           "topic": "CHD_Genetics",
-          "type": "Research article",
+          "type": "Epigenetics",
           "score": 4
+        },
+        {
+          "pmid": "42096100",
+          "title": "Spontaneous Coronary Artery Dissection: Advances in Understanding and Management in Women.",
+          "abstract": "PURPOSE OF REVIEW: Spontaneous coronary artery dissection (SCAD) is an increasingly recognized cause of acute myocardial infarction (MI), particularly among young to middle-aged women without traditional cardiovascular risk factors. This review summarizes recent advances in the understanding, diagnosis, and management of SCAD. RECENT FINDINGS: SCAD results from an intramural hematoma (IMH) or intimal tear causing separation of the coronary arterial wall and compression of the true lumen. Fibromu\u2026",
+          "abstract_full": "PURPOSE OF REVIEW: Spontaneous coronary artery dissection (SCAD) is an increasingly recognized cause of acute myocardial infarction (MI), particularly among young to middle-aged women without traditional cardiovascular risk factors. This review summarizes recent advances in the understanding, diagnosis, and management of SCAD. RECENT FINDINGS: SCAD results from an intramural hematoma (IMH) or intimal tear causing separation of the coronary arterial wall and compression of the true lumen. Fibromuscular dysplasia is the most consistently associated arteriopathy, supporting a systemic vascular vulnerability. Genetic studies suggest a predominantly polygenic architecture, with variants such as PHACTR1 implicated in vascular signaling and endothelial regulation. Coronary angiography remains the diagnostic cornerstone, with intracoronary imaging aiding in uncertain cases, while emerging non-invasive modalities such as photon-counting computed tomography may refine non-invasive diagnosis. Conservative management is preferred in most stable patients because spontaneous healing is common and percutaneous coronary intervention carries procedural challenges. Persistent angina, coronary vasospasm, microvascular dysfunction, and psychological distress are increasingly recognized components of recovery. Multidisciplinary follow-up incorporating cardiac rehabilitation and psychological support is essential to address persistent symptoms and recovery after SCAD. SCAD is a distinct non-atherosclerotic cause of MI driven by an underlying arteriopathy and systemic vascular vulnerability, requiring individualized management, vascular screening, and multidisciplinary follow-up. Ongoing randomized trials and genomic studies aim to refine risk stratification, clarify optimal medication strategies, and improve long-term outcomes and recurrences.",
+          "bullets": [
+            "SCAD results from an intramural hematoma (IMH) or intimal tear causing separation of the coronary arterial wall and compression of the true lumen.",
+            "Fibromuscular dysplasia is the most consistently associated arteriopathy, supporting a systemic vascular vulnerability.",
+            "Genetic studies suggest a predominantly polygenic architecture, with variants such as PHACTR1 implicated in vascular signaling and endothelial regulation."
+          ],
+          "authors": "Chai J, Saw J",
+          "journal": "Current atherosclerosis reports",
+          "year": "2026",
+          "month": "May",
+          "doi": "10.1177/1358863X18821816",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42096100/",
+          "ris": "TY  - JOUR\nAU  - Chai J\nAU  - Saw J\nTI  - Spontaneous Coronary Artery Dissection: Advances in Understanding and Management in Women.\nJO  - Current atherosclerosis reports\nPY  - 2026\nDO  - 10.1177/1358863X18821816\nAB  - PURPOSE OF REVIEW: Spontaneous coronary artery dissection (SCAD) is an increasingly recognized cause of acute myocardial infarction (MI), particularly among young to middle-aged women without traditional cardiovascular risk factors. This review summarizes recent advances in the understanding, diagno\nUR  - https://pubmed.ncbi.nlm.nih.gov/42096100/\nER  - ",
+          "section": "disease_genetics",
+          "topic": "SCAD_Genetics",
+          "type": "Review",
+          "score": 4
+        },
+        {
+          "pmid": "41983892",
+          "title": "ZNF827 pleiotropic cardiovascular risk locus involves regulation by nuclear factor-1.",
+          "abstract": "Spontaneous coronary artery dissection (SCAD) is a form of myocardial infarction that predominantly affects middle-aged women, caused by the spontaneous onset of an intramural hematoma leading to heart ischemia. SCAD genetic risk loci, such as the ZNF827 locus on chromosome 4, were previously associated with the risk for coronary artery disease, systolic blood pressure, and ascending aortic diameter variability, but the molecular processes driving these genetic associations are unknown. In the p\u2026",
+          "abstract_full": "Spontaneous coronary artery dissection (SCAD) is a form of myocardial infarction that predominantly affects middle-aged women, caused by the spontaneous onset of an intramural hematoma leading to heart ischemia. SCAD genetic risk loci, such as the ZNF827 locus on chromosome 4, were previously associated with the risk for coronary artery disease, systolic blood pressure, and ascending aortic diameter variability, but the molecular processes driving these genetic associations are unknown. In the present study, we demonstrated that these genetic associations were colocalized and could all be explained by the intronic common variant rs13128814, which overlapped epigenetic regulatory markers specifically active in vascular smooth muscle cells (SMCs) and fibroblasts. Using reporter assay experiments, we found that the SCAD-risk allele (rs13128814-A) was associated with increased transcriptional activity in A7r5 SMCs. In silico predictions and reporter assays suggested nuclear factor-1 (NF1) transcription factors to preferentially bind to SCAD risk allele. We found that SCAD genetic association colocalized with a ZNF827 eQTL association in artery tissues. Knockdown of ZNF827 in human iPSC-derived SMCs and fibroblasts identified a large number of dysregulated genes enriched in relevant pathways such as macroautophagy and insulin signaling. Our findings support the NF1-dependent rs13128814 effect on the expression of ZNF827 as a potential molecular mechanism underpinning multiple cardiovascular trait genetic risk loci. ZNF827 may act as a broad regulator of gene expression in vascular SMCs and fibroblasts. Further investigation using multiple cell types, organoids, and in vivo models may clarify the implications of ZNF827 in arterial fragility observed in SCAD and other arterial diseases.",
+          "bullets": [
+            "In the present study, we demonstrated that these genetic associations were colocalized and could all be explained by the intronic common variant rs13128814, which overlapped epigenetic regulatory markers specifically\u2026",
+            "Using reporter assay experiments, we found that the SCAD-risk allele (rs13128814-A) was associated with increased transcriptional activity in A7r5 SMCs.",
+            "Our findings support the NF1-dependent rs13128814 effect on the expression of ZNF827 as a potential molecular mechanism underpinning multiple cardiovascular trait genetic risk loci."
+          ],
+          "authors": "Liu Y, Liu L, Esmael A, et al.",
+          "journal": "Clinical science (London, England : 1979)",
+          "year": "2026",
+          "month": "May",
+          "doi": "10.1042/CS20257956",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41983892/",
+          "ris": "TY  - JOUR\nAU  - Liu Y\nAU  - Liu L\nAU  - Esmael A\nTI  - ZNF827 pleiotropic cardiovascular risk locus involves regulation by nuclear factor-1.\nJO  - Clinical science (London, England : 1979)\nPY  - 2026\nDO  - 10.1042/CS20257956\nAB  - Spontaneous coronary artery dissection (SCAD) is a form of myocardial infarction that predominantly affects middle-aged women, caused by the spontaneous onset of an intramural hematoma leading to heart ischemia. SCAD genetic risk loci, such as the ZNF827 locus on chromosome 4, were previously associ\nUR  - https://pubmed.ncbi.nlm.nih.gov/41983892/\nER  - ",
+          "section": "disease_genetics",
+          "topic": "SCAD_Genetics",
+          "type": "Epigenetics",
+          "score": 4
+        },
+        {
+          "pmid": "42103847",
+          "title": "A rare mutation (p.Ala264Thr) of GATA4 is responsible for atrial septal defect and pulmonary valve stenosis.",
+          "abstract": "Atrial septal defect (ASD) is a type of congenital heart defect characterized by the absence of atrial septal tissue. Research has shown that genetic factors play a significant role in the development of ASD. Variants in genes such as GATA binding protein 4 (GATA4), NK2 homeobox 5, and T-box transcription factor 5 have been identified in patients with ASD. In this study, we enrolled a Chinese family affected by ASD and PS. Whole exome sequencing and Sanger sequencing were used to investigate the\u2026",
+          "abstract_full": "Atrial septal defect (ASD) is a type of congenital heart defect characterized by the absence of atrial septal tissue. Research has shown that genetic factors play a significant role in the development of ASD. Variants in genes such as GATA binding protein 4 (GATA4), NK2 homeobox 5, and T-box transcription factor 5 have been identified in patients with ASD. In this study, we enrolled a Chinese family affected by ASD and PS. Whole exome sequencing and Sanger sequencing were used to investigate the genetic basis of lesions in this family. The AC16 cell line was used to perform the functional study. After data filtering and co-segregation analysis, we identified a rare mutation (NM_001308093.3: c.790G\u2009>\u2009A, p.Ala264Thr) in the GATA4 gene in the affected family members that was absent in the unaffected individuals. Bioinformatic analysis revealed that the newly identified mutation was deleterious and altered the hydrophobicity, size and polar of the GATA4 protein. Functional studies revealed that this rare mutation disrupted the stability of GATA4 and reduced the ability of GATA4 to activate the downstream target genes. Our findings highlight the importance of the N-terminal zinc finger structure of GATA4 in cardiac development. Additionally, our study contributes to the genetic diagnosis and counseling of families with congenital heart disease.",
+          "bullets": [
+            "After data filtering and co-segregation analysis, we identified a rare mutation (NM_001308093.3: c.790G\u2009>\u2009A, p.Ala264Thr) in the GATA4 gene in the affected family members that was absent in the unaffected individuals.",
+            "Bioinformatic analysis revealed that the newly identified mutation was deleterious and altered the hydrophobicity, size and polar of the GATA4 protein.",
+            "Our findings highlight the importance of the N-terminal zinc finger structure of GATA4 in cardiac development."
+          ],
+          "authors": "Zhang A, Long J, Xue W, et al.",
+          "journal": "Scientific reports",
+          "year": "2026",
+          "month": "May",
+          "doi": "10.1038/s41598-026-52332-x",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42103847/",
+          "ris": "TY  - JOUR\nAU  - Zhang A\nAU  - Long J\nAU  - Xue W\nTI  - A rare mutation (p.Ala264Thr) of GATA4 is responsible for atrial septal defect and pulmonary valve stenosis.\nJO  - Scientific reports\nPY  - 2026\nDO  - 10.1038/s41598-026-52332-x\nAB  - Atrial septal defect (ASD) is a type of congenital heart defect characterized by the absence of atrial septal tissue. Research has shown that genetic factors play a significant role in the development of ASD. Variants in genes such as GATA binding protein 4 (GATA4), NK2 homeobox 5, and T-box transcr\nUR  - https://pubmed.ncbi.nlm.nih.gov/42103847/\nER  - ",
+          "section": "disease_genetics",
+          "topic": "CHD_Genetics",
+          "type": "Sequencing study",
+          "score": 2
         },
         {
           "pmid": "41747776",
@@ -94,126 +116,60 @@
           "score": 2
         },
         {
-          "pmid": "42053849",
-          "title": "A novel de novo frameshift variant in ZMYM2 expands the neuropsychiatric spectrum of NECRC syndrome: a case report.",
-          "abstract": "BACKGROUND: ZMYM2-related neurodevelopmental-craniofacial syndrome with variable renal and cardiac abnormalities (NECRC; OMIM #619522) is an ultra-rare autosomal dominant condition caused by heterozygous loss-of-function (LoF) variants in ZMYM2. Since its initial description in 2020, the phenotypic spectrum has expanded to include Rett-like features and cortical myoclonus, with an increasing number of cases presenting without renal or cardiac involvement. CASE PRESENTATION: We report a 6-year-ol\u2026",
-          "abstract_full": "BACKGROUND: ZMYM2-related neurodevelopmental-craniofacial syndrome with variable renal and cardiac abnormalities (NECRC; OMIM #619522) is an ultra-rare autosomal dominant condition caused by heterozygous loss-of-function (LoF) variants in ZMYM2. Since its initial description in 2020, the phenotypic spectrum has expanded to include Rett-like features and cortical myoclonus, with an increasing number of cases presenting without renal or cardiac involvement. CASE PRESENTATION: We report a 6-year-old Turkish boy presenting with intellectual disability, attention-deficit/hyperactivity disorder (ADHD), motor stereotypies, and short stature. Psychometric evaluation revealed developmental levels of 2-2.5 years across all domains. Dysmorphic features included microcephaly, bilateral epiblepharon, pectus excavatum, bilateral pes planus, and fifth-finger clinodactyly. Renal and cardiac findings were absent. Trio whole-exome sequencing (WES) identified a novel de novo heterozygous frameshift variant in ZMYM2 (NM_001353162.2): c.1293_1296del (p.Thr432ArgfsTer11). Notably, the parents harbored independent skeletal dysplasia variants - NPR2 p.Arg388Ter in the mother (consistent with proportionate short stature) and FGFR3 p.Arg223Cys in the father (consistent with hypochondroplasia phenotype) - neither transmitted to the proband, representing co-occurring independent molecular findings within one family. CONCLUSIONS: This case expands the mutational and phenotypic spectrum of NECRC syndrome, demonstrating that ZMYM2 LoF can present with predominant neuropsychiatric features - including ADHD and motor stereotypies - in the absence of congenital anomalies of the kidney and urinary tract (CAKUT). Trio-WES proved essential in molecularly dissecting a complex multigenic family background. ZMYM2 deficiency should be considered as a potential cause in the differential diagnosis of neurodevelopmental disorders regardless of renal or cardiac involvement.",
+          "pmid": "42102130",
+          "title": "Variants in the DNAH11 gene responsible for primary ciliary dyskinesia or probably atypical primary ciliary dyskinesia presenting left-right asymmetry disorder.",
+          "abstract": "Primary ciliary dyskinesia (PCD) is a rare multi-system cilia-related disorder, and approximately 50% of individuals with PCD exhibit left-right asymmetry disorder. The dynein axonemal heavy chain 11 gene (DNAH11) pathogenic variants are responsible for primary ciliary dyskinesia 7, with or without left-right asymmetry disorder. This study aimed to detect the pathogenic variants in three unrelated patients diagnosed with PCD or left-right asymmetry disorder based on the clinical and imaging exam\u2026",
+          "abstract_full": "Primary ciliary dyskinesia (PCD) is a rare multi-system cilia-related disorder, and approximately 50% of individuals with PCD exhibit left-right asymmetry disorder. The dynein axonemal heavy chain 11 gene (DNAH11) pathogenic variants are responsible for primary ciliary dyskinesia 7, with or without left-right asymmetry disorder. This study aimed to detect the pathogenic variants in three unrelated patients diagnosed with PCD or left-right asymmetry disorder based on the clinical and imaging examinations. Whole exome sequencing, Sanger sequencing, and comprehensive bioinformatics analyses were performed. Seven DNAH11 heterozygous variants, which involved evolutionarily conserved residues and were predicted to exert deleterious effects, reduce protein stability, change protein conformation, and affect non-covalent residue's interactions, were identified as potential pathogenic factors responsible for these patients, respectively. In patient 1, three variants in compound heterozygotes, c.[3541A\u2009>\u2009G];[4334G\u2009>\u2009A;12428T\u2009>\u2009C] (p.[(Ser1181Gly)];[(Arg1445Gln;Met4143Thr)]), were confirmed. In patient 2, two variants in potential compound heterozygotes, c.2912A\u2009>\u2009G(;)7980A\u2009>\u2009T (p.(Asp971Gly)(;)(Gln2660His)), were detected. In patient 3, two variants in compound heterozygotes, c.[845T\u2009>\u2009C];[11402C\u2009>\u2009G] (p.[(Met282Thr)];[(Pro3801Arg)]), were confirmed. The phenotypes observed in these patients are consistent with typical/probably atypical PCD or DNAH11-associated ciliopathy, although functional validation is needed to confirm variant pathogenicity. These findings expand the phenotypic spectrum of DNAH11 variants and may facilitate more accurate genetic diagnosis and counseling.",
           "bullets": [
-            "This case expands the mutational and phenotypic spectrum of NECRC syndrome, demonstrating that ZMYM2 LoF can present with predominant neuropsychiatric features - including ADHD and motor stereotypies - in the absence of\u2026",
-            "Trio-WES proved essential in molecularly dissecting a complex multigenic family background.",
-            "ZMYM2 deficiency should be considered as a potential cause in the differential diagnosis of neurodevelopmental disorders regardless of renal or cardiac involvement."
+            "Seven DNAH11 heterozygous variants, which involved evolutionarily conserved residues and were predicted to exert deleterious effects, reduce protein stability, change protein conformation, and affect non-covalent\u2026",
+            "In patient 1, three variants in compound heterozygotes, c.[3541A\u2009>\u2009G];[4334G\u2009>\u2009A;12428T\u2009>\u2009C] (p.[(Ser1181Gly)];[(Arg1445Gln;Met4143Thr)]), were confirmed.",
+            "In patient 3, two variants in compound heterozygotes, c.[845T\u2009>\u2009C];[11402C\u2009>\u2009G] (p.[(Met282Thr)];[(Pro3801Arg)]), were confirmed."
           ],
-          "authors": "Mammadova N, Hatipoglu N, Dundar M",
-          "journal": "Molecular biology reports",
+          "authors": "Zhao K, Yuan L, Xiong Y, et al.",
+          "journal": "PloS one",
           "year": "2026",
-          "month": "Apr",
-          "doi": "10.1007/s00737-024-01540-3",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42053849/",
-          "ris": "TY  - JOUR\nAU  - Mammadova N\nAU  - Hatipoglu N\nAU  - Dundar M\nTI  - A novel de novo frameshift variant in ZMYM2 expands the neuropsychiatric spectrum of NECRC syndrome: a case report.\nJO  - Molecular biology reports\nPY  - 2026\nDO  - 10.1007/s00737-024-01540-3\nAB  - BACKGROUND: ZMYM2-related neurodevelopmental-craniofacial syndrome with variable renal and cardiac abnormalities (NECRC; OMIM #619522) is an ultra-rare autosomal dominant condition caused by heterozygous loss-of-function (LoF) variants in ZMYM2. Since its initial description in 2020, the phenotypic \nUR  - https://pubmed.ncbi.nlm.nih.gov/42053849/\nER  - ",
+          "month": "",
+          "doi": "10.1038/s41576-021-00409-w",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42102130/",
+          "ris": "TY  - JOUR\nAU  - Zhao K\nAU  - Yuan L\nAU  - Xiong Y\nTI  - Variants in the DNAH11 gene responsible for primary ciliary dyskinesia or probably atypical primary ciliary dyskinesia presenting left-right asymmetry disorder.\nJO  - PloS one\nPY  - 2026\nDO  - 10.1038/s41576-021-00409-w\nAB  - Primary ciliary dyskinesia (PCD) is a rare multi-system cilia-related disorder, and approximately 50% of individuals with PCD exhibit left-right asymmetry disorder. The dynein axonemal heavy chain 11 gene (DNAH11) pathogenic variants are responsible for primary ciliary dyskinesia 7, with or without \nUR  - https://pubmed.ncbi.nlm.nih.gov/42102130/\nER  - ",
           "section": "disease_genetics",
           "topic": "CHD_Genetics",
           "type": "Sequencing study",
           "score": 1
-        },
+        }
+      ],
+      "total": 6
+    },
+    "prs_disease": {
+      "papers": [
         {
-          "pmid": "41486098",
-          "title": "Marfan Syndrome Associated With Intellectual Disability and Behavioral Anomalies: Further Evidence for the Effect of Compound Heterozygous Variants in FBN1 on Phenotypic Severity.",
-          "abstract": "Marfan syndrome (MFS) is a rare connective tissue disorder characterized by involvement of the cardiovascular, ocular, and musculoskeletal systems. Pathogenic variants in FBN1 cause most of the MFS cases; however, intellectual disability (ID) is rarely observed. A non-consanguineous Pakistani family with four affected individuals was recruited. Physical examinations, echocardiography, and doppler ultrasound were performed as part of the clinical assessment. Exome sequencing was conducted on the \u2026",
-          "abstract_full": "Marfan syndrome (MFS) is a rare connective tissue disorder characterized by involvement of the cardiovascular, ocular, and musculoskeletal systems. Pathogenic variants in FBN1 cause most of the MFS cases; however, intellectual disability (ID) is rarely observed. A non-consanguineous Pakistani family with four affected individuals was recruited. Physical examinations, echocardiography, and doppler ultrasound were performed as part of the clinical assessment. Exome sequencing was conducted on the index patient, and Sanger sequencing was performed for the entire family. ID was the primary symptom in all the affected individuals. A detailed examination showed that all affected individuals and their affected mother were tall, had long limbs, craniofacial abnormalities, and exhibited low IQ, aggressive, and hyperactive behaviors. Heart defects, such as atrial septal defects and pulmonary hypertension, were observed in one affected individual and her mother. Genetic analysis identified two rare missense variants in FBN1, c.1552G>A (p.Gly518Arg) and c.3046A>G (p.Thr1016Ala), both predicted to be deleterious. The p.Gly518Arg variant is predicted to be likely pathogenic, while the p.Thr1016Ala variant is of uncertain significance. Notably, these variants were found in two affected individuals in a compound heterozygous state, correlating with more severe symptoms. Each variant alone, seen in the two patients, is associated with milder symptoms, indicating incomplete penetrance. In conclusion, this study identified rare heterozygous missense variants in FBN1, suggesting a potential connection between neurodevelopmental outcomes and variants in FBN1. However, further research is needed to clarify the role of FBN1 in ID.",
+          "pmid": "42102332",
+          "title": "Pearls & Oy-sters: Stroke Recurrence After PFO Closure Uncovers Cerebrotendinous Xanthomatosis.",
+          "abstract": "Cerebrotendinous xanthomatosis (CTX) is a rare autosomal recessive metabolic disorder that can cause premature atherosclerosis and ischemic stroke in young adults. We report a 23-year-old man who had recurrent strokes even after patent foramen ovale (PFO) closure. Initial evaluation for his first cryptogenic stroke revealed a PFO with a high Risk of Paradoxical Embolism (RoPE) score, leading to closure. Three years later, he experienced a recurrent stroke with right M1 segment occlusion. High-re\u2026",
+          "abstract_full": "Cerebrotendinous xanthomatosis (CTX) is a rare autosomal recessive metabolic disorder that can cause premature atherosclerosis and ischemic stroke in young adults. We report a 23-year-old man who had recurrent strokes even after patent foramen ovale (PFO) closure. Initial evaluation for his first cryptogenic stroke revealed a PFO with a high Risk of Paradoxical Embolism (RoPE) score, leading to closure. Three years later, he experienced a recurrent stroke with right M1 segment occlusion. High-resolution magnetic resonance vessel wall imaging demonstrated intracranial atherosclerotic plaque, prompting reconsideration of the etiology. Further history taking revealed chronic diarrhea since infancy and juvenile cataracts. Examination showed borderline intellectual functioning, bilateral ankle clonus, and Achilles tendon xanthomas. Brain MRI exhibited characteristic bilateral dentate nucleus hyperintensities. Genetic testing confirmed CYP27A1 pathogenic variants, consistent with a diagnosis of CTX. Through highlighting CTX underlying premature atherosclerosis and stroke in a young man, this case emphasizes the importance of rare metabolic disorders in stroke, even when a common cause such as PFO is identified. Early recognition enables targeted therapy and improves outcomes.",
           "bullets": [
-            "Genetic analysis identified two rare missense variants in FBN1, c.1552G>A (p.Gly518Arg) and c.3046A>G (p.Thr1016Ala), both predicted to be deleterious.",
-            "Each variant alone, seen in the two patients, is associated with milder symptoms, indicating incomplete penetrance.",
-            "In conclusion, this study identified rare heterozygous missense variants in FBN1, suggesting a potential connection between neurodevelopmental outcomes and variants in FBN1."
+            "Further history taking revealed chronic diarrhea since infancy and juvenile cataracts.",
+            "Genetic testing confirmed CYP27A1 pathogenic variants, consistent with a diagnosis of CTX.",
+            "Through highlighting CTX underlying premature atherosclerosis and stroke in a young man, this case emphasizes the importance of rare metabolic disorders in stroke, even when a common cause such as PFO is identified."
           ],
-          "authors": "Khan A, Kakar N, Kakar A, et al.",
-          "journal": "American journal of medical genetics. Part A",
+          "authors": "Liu L, Wang Y, Chen X, et al.",
+          "journal": "Neurology",
           "year": "2026",
-          "month": "May",
-          "doi": "10.1002/ajmga.70038",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/41486098/",
-          "ris": "TY  - JOUR\nAU  - Khan A\nAU  - Kakar N\nAU  - Kakar A\nTI  - Marfan Syndrome Associated With Intellectual Disability and Behavioral Anomalies: Further Evidence for the Effect of Compound Heterozygous Variants in FBN1 on Phenotypic Severity.\nJO  - American journal of medical genetics. Part A\nPY  - 2026\nDO  - 10.1002/ajmga.70038\nAB  - Marfan syndrome (MFS) is a rare connective tissue disorder characterized by involvement of the cardiovascular, ocular, and musculoskeletal systems. Pathogenic variants in FBN1 cause most of the MFS cases; however, intellectual disability (ID) is rarely observed. A non-consanguineous Pakistani family\nUR  - https://pubmed.ncbi.nlm.nih.gov/41486098/\nER  - ",
-          "section": "disease_genetics",
-          "topic": "CHD_Genetics",
+          "month": "Jun",
+          "doi": "10.1212/WNL.0000000000218061",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42102332/",
+          "ris": "TY  - JOUR\nAU  - Liu L\nAU  - Wang Y\nAU  - Chen X\nTI  - Pearls & Oy-sters: Stroke Recurrence After PFO Closure Uncovers Cerebrotendinous Xanthomatosis.\nJO  - Neurology\nPY  - 2026\nDO  - 10.1212/WNL.0000000000218061\nAB  - Cerebrotendinous xanthomatosis (CTX) is a rare autosomal recessive metabolic disorder that can cause premature atherosclerosis and ischemic stroke in young adults. We report a 23-year-old man who had recurrent strokes even after patent foramen ovale (PFO) closure. Initial evaluation for his first cr\nUR  - https://pubmed.ncbi.nlm.nih.gov/42102332/\nER  - ",
+          "section": "prs_disease",
+          "topic": "CHD_DCM_SCAD_PRS",
           "type": "Research article",
-          "score": 1
-        },
-        {
-          "pmid": "41508548",
-          "title": "Homozygous MGME1 Variant in Turkish Siblings: First Reported Case With Successful Heart Transplantation, Expanding the Clinical Spectrum of MGME1 -Related Mitochondrial Disease.",
-          "abstract": "We report two siblings harboring a homozygous MGME1 variant, NM_052865.4:c.818\u2009T>A; p.(Val273Glu), both presenting with ptosis, myopathy, scoliosis, and gastrointestinal symptoms. The index patient developed progressive, medically refractory dilated cardiomyopathy and underwent successful orthotopic heart transplantation (OHT). Reanalysis of previously negative WES identified the variant in the index case, and segregation by Sanger sequencing confirmed homozygosity in both siblings. Although sev\u2026",
-          "abstract_full": "We report two siblings harboring a homozygous MGME1 variant, NM_052865.4:c.818\u2009T>A; p.(Val273Glu), both presenting with ptosis, myopathy, scoliosis, and gastrointestinal symptoms. The index patient developed progressive, medically refractory dilated cardiomyopathy and underwent successful orthotopic heart transplantation (OHT). Reanalysis of previously negative WES identified the variant in the index case, and segregation by Sanger sequencing confirmed homozygosity in both siblings. Although several clinical findings overlap with previously described MGME1-related disease, the detected variant remains classified as a variant of uncertain significance (VUS); thus, functional evidence is needed to better understand its potential causal relevance. Additionally, this report underscores the importance of periodic genomic data reanalysis and highlights the variable expressivity that may occur even within the same family.",
-          "bullets": [
-            "We report two siblings harboring a homozygous MGME1 variant, NM_052865.4:c.818\u2009T>A; p.(Val273Glu), both presenting with ptosis, myopathy, scoliosis, and gastrointestinal symptoms.",
-            "Reanalysis of previously negative WES identified the variant in the index case, and segregation by Sanger sequencing confirmed homozygosity in both siblings.",
-            "Additionally, this report underscores the importance of periodic genomic data reanalysis and highlights the variable expressivity that may occur even within the same family."
-          ],
-          "authors": "Acikgoz N, Demir G, Yildiz Y, et al.",
-          "journal": "American journal of medical genetics. Part A",
-          "year": "2026",
-          "month": "May",
-          "doi": "10.1002/ajmga.70049",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/41508548/",
-          "ris": "TY  - JOUR\nAU  - Acikgoz N\nAU  - Demir G\nAU  - Yildiz Y\nTI  - Homozygous MGME1 Variant in Turkish Siblings: First Reported Case With Successful Heart Transplantation, Expanding the Clinical Spectrum of MGME1 -Related Mitochondrial Disease.\nJO  - American journal of medical genetics. Part A\nPY  - 2026\nDO  - 10.1002/ajmga.70049\nAB  - We report two siblings harboring a homozygous MGME1 variant, NM_052865.4:c.818\u2009T>A; p.(Val273Glu), both presenting with ptosis, myopathy, scoliosis, and gastrointestinal symptoms. The index patient developed progressive, medically refractory dilated cardiomyopathy and underwent successful orthotopic\nUR  - https://pubmed.ncbi.nlm.nih.gov/41508548/\nER  - ",
-          "section": "disease_genetics",
-          "topic": "DCM_Genetics",
-          "type": "Sequencing study",
-          "score": 1
-        },
-        {
-          "pmid": "39969775",
-          "title": "Identification of novel biallelic mutations in CFAP53 associated with fetal situs inversus totalis and literature review.",
-          "abstract": "Visceral heterotaxy is a congenital malformation characterized by the abnormal arrangement of left-right axis of visceral organs. To date, several genes implicated in the regulation of laterality patterning have been identified. Notably, CFAP53, also referred to as CCDC11, is involved in the regulation of ciliary motility, and mutations in this gene have been linked to a rare condition of heterotaxy. In this study,\u00a0whole-exome sequencing (WES) was utilized to analyze the genetic causes of a fetu\u2026",
-          "abstract_full": "Visceral heterotaxy is a congenital malformation characterized by the abnormal arrangement of left-right axis of visceral organs. To date, several genes implicated in the regulation of laterality patterning have been identified. Notably, CFAP53, also referred to as CCDC11, is involved in the regulation of ciliary motility, and mutations in this gene have been linked to a rare condition of heterotaxy. In this study,\u00a0whole-exome sequencing (WES) was utilized to analyze the genetic causes of a fetus in a Chinese family, presenting with situs inversus totalis. In silico predictions and functional studies were performed to evaluate the pathogenicity of the identified candidate gene variants. WES revealed two novel compound heterozygous mutations, c.777G\u2009>\u2009T and c.1013A\u2009>\u2009T, in the CFAP53 gene. Minigene experiments demonstrated that c.777G\u2009>\u2009T may result in splicing aberrations, thus leading to the production of truncated CFAP53 proteins. Additionally, in silico analyses indicate that c.1013A\u2009>\u2009T could disrupt the interaction between CFAP53 and its target protein, TTC25. We report the second documented case of fetus with situs inversus totalis due to biallelic loss-of-function variants in CFAP53. According to literature review, our findings provide a basis for the prenatal diagnosis and genetic counseling of CFAP53 mutation-associated visceral heterotaxy.",
-          "bullets": [
-            "Minigene experiments demonstrated that c.777G\u2009>\u2009T may result in splicing aberrations, thus leading to the production of truncated CFAP53 proteins.",
-            "We report the second documented case of fetus with situs inversus totalis due to biallelic loss-of-function variants in CFAP53.",
-            "According to literature review, our findings provide a basis for the prenatal diagnosis and genetic counseling of CFAP53 mutation-associated visceral heterotaxy."
-          ],
-          "authors": "Guo Z, Tan M, Zhu H, et al.",
-          "journal": "Journal of applied genetics",
-          "year": "2026",
-          "month": "May",
-          "doi": "10.1016/j.heliyon.2024.e37355",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/39969775/",
-          "ris": "TY  - JOUR\nAU  - Guo Z\nAU  - Tan M\nAU  - Zhu H\nTI  - Identification of novel biallelic mutations in CFAP53 associated with fetal situs inversus totalis and literature review.\nJO  - Journal of applied genetics\nPY  - 2026\nDO  - 10.1016/j.heliyon.2024.e37355\nAB  - Visceral heterotaxy is a congenital malformation characterized by the abnormal arrangement of left-right axis of visceral organs. To date, several genes implicated in the regulation of laterality patterning have been identified. Notably, CFAP53, also referred to as CCDC11, is involved in the regulat\nUR  - https://pubmed.ncbi.nlm.nih.gov/39969775/\nER  - ",
-          "section": "disease_genetics",
-          "topic": "CHD_Genetics",
-          "type": "Review",
           "score": 0
         }
       ],
-      "total": 8
-    },
-    "prs_disease": {
-      "papers": [],
-      "total": 0
+      "total": 1
     },
     "prs_methods": {
-      "papers": [
-        {
-          "pmid": "41968586",
-          "title": "Clinical Exome Sequencing in Unexplained Hyperferritinemia Reveals Digenic and Oligogenic Inheritance Beyond Iron Homeostasis.",
-          "abstract": "BACKGROUND AND AIMS: Hyperferritinemia encompasses heterogeneous genetic etiologies beyond HFE-related hemochromatosis. Current guidelines recommend testing for rare hemochromatosis genes, yet no consensus exists on comprehensive genomic approaches. We aimed to characterise the genetic landscape of unexplained hyperferritinemia using clinical exome sequencing (CES) and evaluate genotype-phenotype correlations across functional pathways. METHODS: In this retrospective study (2019-2024), consecuti\u2026",
-          "abstract_full": "BACKGROUND AND AIMS: Hyperferritinemia encompasses heterogeneous genetic etiologies beyond HFE-related hemochromatosis. Current guidelines recommend testing for rare hemochromatosis genes, yet no consensus exists on comprehensive genomic approaches. We aimed to characterise the genetic landscape of unexplained hyperferritinemia using clinical exome sequencing (CES) and evaluate genotype-phenotype correlations across functional pathways. METHODS: In this retrospective study (2019-2024), consecutive patients with unexplained hyperferritinemia after exclusion of secondary causes underwent CES. Patients with known HFE p.Cys282Tyr homozygosity were not referred for CES. Variant filtering was performed using the Genomics England panel for iron metabolism and the French network for rare liver diseases panel, combined with phenotype-driven analysis based on Human Phenotype Ontology annotations for iron-related phenotypes. Genes were categorised into four pathways: systemic iron sensing, iron transport and storage, hepatic metabolism and erythropoiesis. RESULTS: Among 108 patients, CES identified at least one variant in 72 (66.7%), including 44 (40.7%) with likely pathogenic or pathogenic (LP/P) variants. HFE was the most frequently affected gene, followed by SERPINA1, ATP7B, and CP. Among patients without monogenic HFE alterations (n\u2009=\u200957), 21 (36.8%) carried variants, mainly affecting CP, ATP7B, SERPINA1 or GBA. Digenic or oligogenic inheritance was observed in 30.6% (22/72) of patients overall and in 20.5% (9/44) of those carrying LP/P variants, most frequently involving HFE-SERPINA1 and HFE-ATP7B combinations. Cross-pathway combinations occurred in 17 of 22 digenic patients (77.3%). The systemic iron sensing group exhibited significantly higher serum iron (p\u2009=\u20090.009) and transferrin saturation (p\u2009=\u20090.008). CONCLUSIONS: CES reveals genetic heterogeneity beyond the traditional Mendelian framework, with frequent non-HFE gene involvement and digenic inheritance and should be considered after exclusion of HFE p.Cys282Tyr homozygosity. When blood ferritin levels are elevated without a clear explanation, doctors typically test for a single common gene linked to iron overload, but many patients remain without a diagnosis. Using broad genetic testing that examines approximately 6700 genes, this study of 108 patients found that more than 40% carried disease\u2010causing variants, often in genes related to liver metabolism or blood cell production rather than classical iron overload, and that nearly one\u2010third had variants in two or more genes acting together. These results support the use of comprehensive genetic testing after ruling out the most common form of hereditary hemochromatosis, enabling earlier identification of treatable conditions and more personalised patient care.",
-          "bullets": [
-            "Among 108 patients, CES identified at least one variant in 72 (66.7%), including 44 (40.7%) with likely pathogenic or pathogenic (LP/P) variants.",
-            "HFE was the most frequently affected gene, followed by SERPINA1, ATP7B, and CP.",
-            "Among patients without monogenic HFE alterations (n\u2009=\u200957), 21 (36.8%) carried variants, mainly affecting CP, ATP7B, SERPINA1 or GBA."
-          ],
-          "authors": "Morel P, Silva Rodriguez M, Benmouffek C, et al.",
-          "journal": "Liver international : official journal of the International Association for the Study of the Liver",
-          "year": "2026",
-          "month": "May",
-          "doi": "10.1111/liv.70646",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/41968586/",
-          "ris": "TY  - JOUR\nAU  - Morel P\nAU  - Silva Rodriguez M\nAU  - Benmouffek C\nTI  - Clinical Exome Sequencing in Unexplained Hyperferritinemia Reveals Digenic and Oligogenic Inheritance Beyond Iron Homeostasis.\nJO  - Liver international : official journal of the International Association for the Study of the Liver\nPY  - 2026\nDO  - 10.1111/liv.70646\nAB  - BACKGROUND AND AIMS: Hyperferritinemia encompasses heterogeneous genetic etiologies beyond HFE-related hemochromatosis. Current guidelines recommend testing for rare hemochromatosis genes, yet no consensus exists on comprehensive genomic approaches. We aimed to characterise the genetic landscape of \nUR  - https://pubmed.ncbi.nlm.nih.gov/41968586/\nER  - ",
-          "section": "prs_methods",
-          "topic": "Oligogenic_Digenic",
-          "type": "Methods",
-          "score": 3
-        }
-      ],
-      "total": 1
+      "papers": [],
+      "total": 0
     },
     "topic_watch": {
       "papers": [
@@ -245,92 +201,70 @@
   },
   "selected_papers": [
     {
-      "pmid": "42037320",
-      "title": "Diagnostic Yield of Exome Sequencing in Patients With Congenital Heart Disease From Southern Africa.",
-      "abstract": "BACKGROUND: Congenital heart disease (CHD) is a leading cause of pediatric morbidity and mortality worldwide. The genetics of CHD in African populations is not well understood, although it has been shown in other settings that a genetic diagnosis can have implications for patient management and risk stratification. In this study, we aimed to identify pathogenic and likely pathogenic (P/LP) variants in a cohort of patients with CHD from Southern Africa. METHODS: Exome sequencing was used to scree\u2026",
-      "abstract_full": "BACKGROUND: Congenital heart disease (CHD) is a leading cause of pediatric morbidity and mortality worldwide. The genetics of CHD in African populations is not well understood, although it has been shown in other settings that a genetic diagnosis can have implications for patient management and risk stratification. In this study, we aimed to identify pathogenic and likely pathogenic (P/LP) variants in a cohort of patients with CHD from Southern Africa. METHODS: Exome sequencing was used to screen 356 patients with diverse cardiac phenotypes from South Africa and Namibia. RESULTS: A P/LP variant was identified in 28 patients (7.9%). Analysis of 11 parent-child trios revealed a further LP variant in MYLK in 1 patient, bringing the overall yield to 8.1%. Variants of uncertain significance with high pathogenic potential were found in 30 additional patients. NOTCH1, MYH11, and MYH6 had the most recurrent variants in this cohort. Our data expand on the phenotypic spectrum of many established CHD genes, including the overlap between syndromic CHD genes and nonsyndromic presentation, and a potential link between aortopathy genes and conotruncal anomalies such as Tetralogy of Fallot. Variants were identified across the spectrum of CHD subtypes, with an increased yield in patients with atrioventricular septal defects and syndromic CHD, and a slight enrichment of P/LP variants in patients who died after CHD surgery. There were significantly fewer P/LP variants in patients who were of mixed ancestry. CONCLUSIONS: Together, these data confirm a role for rare deleterious variation in nonsyndromic CHD and demonstrate that a P/LP variant can be identified in 8% of patients from Southern Africa.",
+      "pmid": "42093019",
+      "title": "Jagged-1 mutation is associated with congenital heart defects: a case report.",
+      "abstract": "BACKGROUND: Congenital heart defects (CHD) refer to a wide range of heart structural abnormalities that exist at birth, ranging from malformations with a good prognosis to more complicated and severe lesions. Congenital heart defects can result from mutations in genes encoding cell signaling transducers such as Jagged-1 (JAG1). Mutations in JAG1 are linked to rare autosomal-dominant disorders, often resulting from haploinsufficiency in the Notch signaling pathway, which affects organ development\u2026",
+      "abstract_full": "BACKGROUND: Congenital heart defects (CHD) refer to a wide range of heart structural abnormalities that exist at birth, ranging from malformations with a good prognosis to more complicated and severe lesions. Congenital heart defects can result from mutations in genes encoding cell signaling transducers such as Jagged-1 (JAG1). Mutations in JAG1 are linked to rare autosomal-dominant disorders, often resulting from haploinsufficiency in the Notch signaling pathway, which affects organ development. Reporting novel mutations and associated phenotypes emphasizes the importance of tailored approaches based on individual phenotypic and genotypic profiles. Next-generation sequencing techniques facilitate the detection of disease-associated mutations, enabling the development of personalized management strategies. CASE PRESENTATION: Here, we present a case of a Saudi Arabian female child who was born extremely preterm. She required intubation and mechanical ventilation immediately after birth. She developed bronchopulmonary dysplasia and pulmonary hypertension. At 8\u00a0months old, her echocardiogram revealed a large atrial septal defect and a patent ductus arteriosus. She underwent successful patent ductus arteriosus closure. She exhibited severe failure to thrive and was frequently admitted for respiratory infections. Tragically, she passed away at 11\u00a0years of age due to pneumonia and pulmonary hypertensive crises. Exome sequencing of the proband, her parents, and her brother identified a previously undescribed likely pathogenic heterozygous missense variant (c.1127A>G) in the JAG1 gene, inherited from her presumed healthy mother, that is associated with an isolated cardiac phenotype. CONCLUSION: Although JAG1 mutations typically manifest as Alagille syndrome, this case underscores their phenotypic variability, specifically presenting as an isolated congenital heart defect. The clinical course demonstrates that pulmonary hypertension is a severe complication of an atrial septal defect (ASD), where persistent left-to-right shunting triggers irreversible vascular remodeling and terminal right heart failure. Ultimately, this report confirms the incomplete penetrance characteristic of JAG1 variants and suggests that extreme prematurity may function as a significant epigenetic or environmental modifier.",
       "bullets": [
-        "A P/LP variant was identified in 28 patients (7.9%).",
-        "Analysis of 11 parent-child trios revealed a further LP variant in MYLK in 1 patient, bringing the overall yield to 8.1%.",
-        "Variants of uncertain significance with high pathogenic potential were found in 30 additional patients."
+        "Although JAG1 mutations typically manifest as Alagille syndrome, this case underscores their phenotypic variability, specifically presenting as an isolated congenital heart defect.",
+        "The clinical course demonstrates that pulmonary hypertension is a severe complication of an atrial septal defect (ASD), where persistent left-to-right shunting triggers irreversible vascular remodeling and terminal\u2026",
+        "Ultimately, this report confirms the incomplete penetrance characteristic of JAG1 variants and suggests that extreme prematurity may function as a significant epigenetic or environmental modifier."
       ],
-      "authors": "Spracklen T, Aldersley T, Lawrenson J, et al.",
-      "journal": "Circulation. Genomic and precision medicine",
-      "year": "2026",
-      "month": "Apr",
-      "doi": "10.1161/CIRCGEN.125.005463",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42037320/",
-      "ris": "TY  - JOUR\nAU  - Spracklen T\nAU  - Aldersley T\nAU  - Lawrenson J\nTI  - Diagnostic Yield of Exome Sequencing in Patients With Congenital Heart Disease From Southern Africa.\nJO  - Circulation. Genomic and precision medicine\nPY  - 2026\nDO  - 10.1161/CIRCGEN.125.005463\nAB  - BACKGROUND: Congenital heart disease (CHD) is a leading cause of pediatric morbidity and mortality worldwide. The genetics of CHD in African populations is not well understood, although it has been shown in other settings that a genetic diagnosis can have implications for patient management and risk\nUR  - https://pubmed.ncbi.nlm.nih.gov/42037320/\nER  - ",
-      "section": "disease_genetics",
-      "topic": "CHD_Genetics",
-      "type": "Research article",
-      "score": 7
-    },
-    {
-      "pmid": "42062469",
-      "title": "Prevalence of deleterious variants in cardiomyopathy genes in early-onset atrial fibrillation.",
-      "abstract": "Atrial fibrillation (AF) is a common cardiac arrhythmia associated with an increased risk of stroke, heart failure, and death. Recent studies suggest that early-onset AF increases the risk of developing heart failure and dilated cardiomyopathy. This study aimed to identify genetic variants in a large set of 34 cardiomyopathy genes among early-onset AF individuals. We conducted targeted sequencing of cardiomyopathy-associated genes in 478 individuals from a Danish cohort with early AF onset. Addi\u2026",
-      "abstract_full": "Atrial fibrillation (AF) is a common cardiac arrhythmia associated with an increased risk of stroke, heart failure, and death. Recent studies suggest that early-onset AF increases the risk of developing heart failure and dilated cardiomyopathy. This study aimed to identify genetic variants in a large set of 34 cardiomyopathy genes among early-onset AF individuals. We conducted targeted sequencing of cardiomyopathy-associated genes in 478 individuals from a Danish cohort with early AF onset. Additionally, we analyzed whole exome sequencing data from 375,869 individuals from the UK Biobank, including 29,267 individuals with AF. Of the Danish individuals with early-onset AF, 8.8% carried pathogenic or likely pathogenic (P/LP) variants in cardiomyopathy-associated genes. The prevalence of rare P/LP variants in the UK Biobank analysis ranged from 3.85% in the group with early AF onset to 1.03% in the group without AF diagnosis. Results were largely consistent when excluding individuals with no prior cardiomyopathy or heart failure diagnosis. This suggests that genetic testing for cardiomyopathy could be relevant in selected individuals with early AF diagnosis.",
-      "bullets": [
-        "Additionally, we analyzed whole exome sequencing data from 375,869 individuals from the UK Biobank, including 29,267 individuals with AF.",
-        "Results were largely consistent when excluding individuals with no prior cardiomyopathy or heart failure diagnosis.",
-        "This suggests that genetic testing for cardiomyopathy could be relevant in selected individuals with early AF diagnosis."
-      ],
-      "authors": "Vad O, Vilaseca Q, Beyer A, et al.",
-      "journal": "European journal of human genetics : EJHG",
-      "year": "2026",
-      "month": "Apr",
-      "doi": "10.1007/s12551-018-0437-0",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42062469/",
-      "ris": "TY  - JOUR\nAU  - Vad O\nAU  - Vilaseca Q\nAU  - Beyer A\nTI  - Prevalence of deleterious variants in cardiomyopathy genes in early-onset atrial fibrillation.\nJO  - European journal of human genetics : EJHG\nPY  - 2026\nDO  - 10.1007/s12551-018-0437-0\nAB  - Atrial fibrillation (AF) is a common cardiac arrhythmia associated with an increased risk of stroke, heart failure, and death. Recent studies suggest that early-onset AF increases the risk of developing heart failure and dilated cardiomyopathy. This study aimed to identify genetic variants in a larg\nUR  - https://pubmed.ncbi.nlm.nih.gov/42062469/\nER  - ",
-      "section": "disease_genetics",
-      "topic": "DCM_Genetics",
-      "type": "Sequencing study",
-      "score": 5
-    },
-    {
-      "pmid": "40126773",
-      "title": "Rare T-box variants in adult pulmonary arterial hypertension with congenital heart disease.",
-      "abstract": "We report the clinical and genetic features of three adult patients with congenital heart disease-associated pulmonary arterial hypertension (CHD-PAH) carrying rare T-box variants. All three patients had weakness and cyanosis. Two patients had chest tightness, dry cough, and hemoptysis, and one patient had lower limb edema. Besides meeting the diagnostic criteria of CHD-PAH, three patients respectively presented the clinical features of specific syndromes. Specifically, patient 1 presented with \u2026",
-      "abstract_full": "We report the clinical and genetic features of three adult patients with congenital heart disease-associated pulmonary arterial hypertension (CHD-PAH) carrying rare T-box variants. All three patients had weakness and cyanosis. Two patients had chest tightness, dry cough, and hemoptysis, and one patient had lower limb edema. Besides meeting the diagnostic criteria of CHD-PAH, three patients respectively presented the clinical features of specific syndromes. Specifically, patient 1 presented with clinical features consistent with tetralogy of Fallot, patient 2 presented with characteristics associated with small patella syndrome, and the patient 3 exhibited features consistent with Holt-Oram syndrome. Exome sequencing revealed that the TBX1 (c.820\u00a0T\u2009>\u2009C) variant was identified in patient 1, the TBX4 (c.251del) variant was detected in patient 2 and the TBX5 (c.486del) variant was found in patient 3. Our study for the first time found that CHD-PAH patients carry T-box gene variants, which has added new clues to understanding the pathogenesis of CHD-PAH and is expected to provide new targets and ideas for the diagnosis and treatment of CHD-PAH.",
-      "bullets": [
-        "We report the clinical and genetic features of three adult patients with congenital heart disease-associated pulmonary arterial hypertension (CHD-PAH) carrying rare T-box variants.",
-        "Specifically, patient 1 presented with clinical features consistent with tetralogy of Fallot, patient 2 presented with characteristics associated with small patella syndrome, and the patient 3 exhibited features\u2026",
-        "Exome sequencing revealed that the TBX1 (c.820\u00a0T\u2009>\u2009C) variant was identified in patient 1, the TBX4 (c.251del) variant was detected in patient 2 and the TBX5 (c.486del) variant was found in patient 3."
-      ],
-      "authors": "Li L, Chen G, Qiao N, et al.",
-      "journal": "Journal of applied genetics",
+      "authors": "Alahmed O, Alaamery M, Alhabshan F, et al.",
+      "journal": "Journal of medical case reports",
       "year": "2026",
       "month": "May",
-      "doi": "10.1186/s13073-019-0685-z",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/40126773/",
-      "ris": "TY  - JOUR\nAU  - Li L\nAU  - Chen G\nAU  - Qiao N\nTI  - Rare T-box variants in adult pulmonary arterial hypertension with congenital heart disease.\nJO  - Journal of applied genetics\nPY  - 2026\nDO  - 10.1186/s13073-019-0685-z\nAB  - We report the clinical and genetic features of three adult patients with congenital heart disease-associated pulmonary arterial hypertension (CHD-PAH) carrying rare T-box variants. All three patients had weakness and cyanosis. Two patients had chest tightness, dry cough, and hemoptysis, and one pati\nUR  - https://pubmed.ncbi.nlm.nih.gov/40126773/\nER  - ",
+      "doi": "10.1186/s13256-026-06096-7",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42093019/",
+      "ris": "TY  - JOUR\nAU  - Alahmed O\nAU  - Alaamery M\nAU  - Alhabshan F\nTI  - Jagged-1 mutation is associated with congenital heart defects: a case report.\nJO  - Journal of medical case reports\nPY  - 2026\nDO  - 10.1186/s13256-026-06096-7\nAB  - BACKGROUND: Congenital heart defects (CHD) refer to a wide range of heart structural abnormalities that exist at birth, ranging from malformations with a good prognosis to more complicated and severe lesions. Congenital heart defects can result from mutations in genes encoding cell signaling transdu\nUR  - https://pubmed.ncbi.nlm.nih.gov/42093019/\nER  - ",
       "section": "disease_genetics",
       "topic": "CHD_Genetics",
-      "type": "Research article",
+      "type": "Epigenetics",
       "score": 4
     },
     {
-      "pmid": "41968586",
-      "title": "Clinical Exome Sequencing in Unexplained Hyperferritinemia Reveals Digenic and Oligogenic Inheritance Beyond Iron Homeostasis.",
-      "abstract": "BACKGROUND AND AIMS: Hyperferritinemia encompasses heterogeneous genetic etiologies beyond HFE-related hemochromatosis. Current guidelines recommend testing for rare hemochromatosis genes, yet no consensus exists on comprehensive genomic approaches. We aimed to characterise the genetic landscape of unexplained hyperferritinemia using clinical exome sequencing (CES) and evaluate genotype-phenotype correlations across functional pathways. METHODS: In this retrospective study (2019-2024), consecuti\u2026",
-      "abstract_full": "BACKGROUND AND AIMS: Hyperferritinemia encompasses heterogeneous genetic etiologies beyond HFE-related hemochromatosis. Current guidelines recommend testing for rare hemochromatosis genes, yet no consensus exists on comprehensive genomic approaches. We aimed to characterise the genetic landscape of unexplained hyperferritinemia using clinical exome sequencing (CES) and evaluate genotype-phenotype correlations across functional pathways. METHODS: In this retrospective study (2019-2024), consecutive patients with unexplained hyperferritinemia after exclusion of secondary causes underwent CES. Patients with known HFE p.Cys282Tyr homozygosity were not referred for CES. Variant filtering was performed using the Genomics England panel for iron metabolism and the French network for rare liver diseases panel, combined with phenotype-driven analysis based on Human Phenotype Ontology annotations for iron-related phenotypes. Genes were categorised into four pathways: systemic iron sensing, iron transport and storage, hepatic metabolism and erythropoiesis. RESULTS: Among 108 patients, CES identified at least one variant in 72 (66.7%), including 44 (40.7%) with likely pathogenic or pathogenic (LP/P) variants. HFE was the most frequently affected gene, followed by SERPINA1, ATP7B, and CP. Among patients without monogenic HFE alterations (n\u2009=\u200957), 21 (36.8%) carried variants, mainly affecting CP, ATP7B, SERPINA1 or GBA. Digenic or oligogenic inheritance was observed in 30.6% (22/72) of patients overall and in 20.5% (9/44) of those carrying LP/P variants, most frequently involving HFE-SERPINA1 and HFE-ATP7B combinations. Cross-pathway combinations occurred in 17 of 22 digenic patients (77.3%). The systemic iron sensing group exhibited significantly higher serum iron (p\u2009=\u20090.009) and transferrin saturation (p\u2009=\u20090.008). CONCLUSIONS: CES reveals genetic heterogeneity beyond the traditional Mendelian framework, with frequent non-HFE gene involvement and digenic inheritance and should be considered after exclusion of HFE p.Cys282Tyr homozygosity. When blood ferritin levels are elevated without a clear explanation, doctors typically test for a single common gene linked to iron overload, but many patients remain without a diagnosis. Using broad genetic testing that examines approximately 6700 genes, this study of 108 patients found that more than 40% carried disease\u2010causing variants, often in genes related to liver metabolism or blood cell production rather than classical iron overload, and that nearly one\u2010third had variants in two or more genes acting together. These results support the use of comprehensive genetic testing after ruling out the most common form of hereditary hemochromatosis, enabling earlier identification of treatable conditions and more personalised patient care.",
+      "pmid": "42096100",
+      "title": "Spontaneous Coronary Artery Dissection: Advances in Understanding and Management in Women.",
+      "abstract": "PURPOSE OF REVIEW: Spontaneous coronary artery dissection (SCAD) is an increasingly recognized cause of acute myocardial infarction (MI), particularly among young to middle-aged women without traditional cardiovascular risk factors. This review summarizes recent advances in the understanding, diagnosis, and management of SCAD. RECENT FINDINGS: SCAD results from an intramural hematoma (IMH) or intimal tear causing separation of the coronary arterial wall and compression of the true lumen. Fibromu\u2026",
+      "abstract_full": "PURPOSE OF REVIEW: Spontaneous coronary artery dissection (SCAD) is an increasingly recognized cause of acute myocardial infarction (MI), particularly among young to middle-aged women without traditional cardiovascular risk factors. This review summarizes recent advances in the understanding, diagnosis, and management of SCAD. RECENT FINDINGS: SCAD results from an intramural hematoma (IMH) or intimal tear causing separation of the coronary arterial wall and compression of the true lumen. Fibromuscular dysplasia is the most consistently associated arteriopathy, supporting a systemic vascular vulnerability. Genetic studies suggest a predominantly polygenic architecture, with variants such as PHACTR1 implicated in vascular signaling and endothelial regulation. Coronary angiography remains the diagnostic cornerstone, with intracoronary imaging aiding in uncertain cases, while emerging non-invasive modalities such as photon-counting computed tomography may refine non-invasive diagnosis. Conservative management is preferred in most stable patients because spontaneous healing is common and percutaneous coronary intervention carries procedural challenges. Persistent angina, coronary vasospasm, microvascular dysfunction, and psychological distress are increasingly recognized components of recovery. Multidisciplinary follow-up incorporating cardiac rehabilitation and psychological support is essential to address persistent symptoms and recovery after SCAD. SCAD is a distinct non-atherosclerotic cause of MI driven by an underlying arteriopathy and systemic vascular vulnerability, requiring individualized management, vascular screening, and multidisciplinary follow-up. Ongoing randomized trials and genomic studies aim to refine risk stratification, clarify optimal medication strategies, and improve long-term outcomes and recurrences.",
       "bullets": [
-        "Among 108 patients, CES identified at least one variant in 72 (66.7%), including 44 (40.7%) with likely pathogenic or pathogenic (LP/P) variants.",
-        "HFE was the most frequently affected gene, followed by SERPINA1, ATP7B, and CP.",
-        "Among patients without monogenic HFE alterations (n\u2009=\u200957), 21 (36.8%) carried variants, mainly affecting CP, ATP7B, SERPINA1 or GBA."
+        "SCAD results from an intramural hematoma (IMH) or intimal tear causing separation of the coronary arterial wall and compression of the true lumen.",
+        "Fibromuscular dysplasia is the most consistently associated arteriopathy, supporting a systemic vascular vulnerability.",
+        "Genetic studies suggest a predominantly polygenic architecture, with variants such as PHACTR1 implicated in vascular signaling and endothelial regulation."
       ],
-      "authors": "Morel P, Silva Rodriguez M, Benmouffek C, et al.",
-      "journal": "Liver international : official journal of the International Association for the Study of the Liver",
+      "authors": "Chai J, Saw J",
+      "journal": "Current atherosclerosis reports",
       "year": "2026",
       "month": "May",
-      "doi": "10.1111/liv.70646",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41968586/",
-      "ris": "TY  - JOUR\nAU  - Morel P\nAU  - Silva Rodriguez M\nAU  - Benmouffek C\nTI  - Clinical Exome Sequencing in Unexplained Hyperferritinemia Reveals Digenic and Oligogenic Inheritance Beyond Iron Homeostasis.\nJO  - Liver international : official journal of the International Association for the Study of the Liver\nPY  - 2026\nDO  - 10.1111/liv.70646\nAB  - BACKGROUND AND AIMS: Hyperferritinemia encompasses heterogeneous genetic etiologies beyond HFE-related hemochromatosis. Current guidelines recommend testing for rare hemochromatosis genes, yet no consensus exists on comprehensive genomic approaches. We aimed to characterise the genetic landscape of \nUR  - https://pubmed.ncbi.nlm.nih.gov/41968586/\nER  - ",
-      "section": "prs_methods",
-      "topic": "Oligogenic_Digenic",
-      "type": "Methods",
-      "score": 3
+      "doi": "10.1177/1358863X18821816",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42096100/",
+      "ris": "TY  - JOUR\nAU  - Chai J\nAU  - Saw J\nTI  - Spontaneous Coronary Artery Dissection: Advances in Understanding and Management in Women.\nJO  - Current atherosclerosis reports\nPY  - 2026\nDO  - 10.1177/1358863X18821816\nAB  - PURPOSE OF REVIEW: Spontaneous coronary artery dissection (SCAD) is an increasingly recognized cause of acute myocardial infarction (MI), particularly among young to middle-aged women without traditional cardiovascular risk factors. This review summarizes recent advances in the understanding, diagno\nUR  - https://pubmed.ncbi.nlm.nih.gov/42096100/\nER  - ",
+      "section": "disease_genetics",
+      "topic": "SCAD_Genetics",
+      "type": "Review",
+      "score": 4
+    },
+    {
+      "pmid": "41983892",
+      "title": "ZNF827 pleiotropic cardiovascular risk locus involves regulation by nuclear factor-1.",
+      "abstract": "Spontaneous coronary artery dissection (SCAD) is a form of myocardial infarction that predominantly affects middle-aged women, caused by the spontaneous onset of an intramural hematoma leading to heart ischemia. SCAD genetic risk loci, such as the ZNF827 locus on chromosome 4, were previously associated with the risk for coronary artery disease, systolic blood pressure, and ascending aortic diameter variability, but the molecular processes driving these genetic associations are unknown. In the p\u2026",
+      "abstract_full": "Spontaneous coronary artery dissection (SCAD) is a form of myocardial infarction that predominantly affects middle-aged women, caused by the spontaneous onset of an intramural hematoma leading to heart ischemia. SCAD genetic risk loci, such as the ZNF827 locus on chromosome 4, were previously associated with the risk for coronary artery disease, systolic blood pressure, and ascending aortic diameter variability, but the molecular processes driving these genetic associations are unknown. In the present study, we demonstrated that these genetic associations were colocalized and could all be explained by the intronic common variant rs13128814, which overlapped epigenetic regulatory markers specifically active in vascular smooth muscle cells (SMCs) and fibroblasts. Using reporter assay experiments, we found that the SCAD-risk allele (rs13128814-A) was associated with increased transcriptional activity in A7r5 SMCs. In silico predictions and reporter assays suggested nuclear factor-1 (NF1) transcription factors to preferentially bind to SCAD risk allele. We found that SCAD genetic association colocalized with a ZNF827 eQTL association in artery tissues. Knockdown of ZNF827 in human iPSC-derived SMCs and fibroblasts identified a large number of dysregulated genes enriched in relevant pathways such as macroautophagy and insulin signaling. Our findings support the NF1-dependent rs13128814 effect on the expression of ZNF827 as a potential molecular mechanism underpinning multiple cardiovascular trait genetic risk loci. ZNF827 may act as a broad regulator of gene expression in vascular SMCs and fibroblasts. Further investigation using multiple cell types, organoids, and in vivo models may clarify the implications of ZNF827 in arterial fragility observed in SCAD and other arterial diseases.",
+      "bullets": [
+        "In the present study, we demonstrated that these genetic associations were colocalized and could all be explained by the intronic common variant rs13128814, which overlapped epigenetic regulatory markers specifically\u2026",
+        "Using reporter assay experiments, we found that the SCAD-risk allele (rs13128814-A) was associated with increased transcriptional activity in A7r5 SMCs.",
+        "Our findings support the NF1-dependent rs13128814 effect on the expression of ZNF827 as a potential molecular mechanism underpinning multiple cardiovascular trait genetic risk loci."
+      ],
+      "authors": "Liu Y, Liu L, Esmael A, et al.",
+      "journal": "Clinical science (London, England : 1979)",
+      "year": "2026",
+      "month": "May",
+      "doi": "10.1042/CS20257956",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41983892/",
+      "ris": "TY  - JOUR\nAU  - Liu Y\nAU  - Liu L\nAU  - Esmael A\nTI  - ZNF827 pleiotropic cardiovascular risk locus involves regulation by nuclear factor-1.\nJO  - Clinical science (London, England : 1979)\nPY  - 2026\nDO  - 10.1042/CS20257956\nAB  - Spontaneous coronary artery dissection (SCAD) is a form of myocardial infarction that predominantly affects middle-aged women, caused by the spontaneous onset of an intramural hematoma leading to heart ischemia. SCAD genetic risk loci, such as the ZNF827 locus on chromosome 4, were previously associ\nUR  - https://pubmed.ncbi.nlm.nih.gov/41983892/\nER  - ",
+      "section": "disease_genetics",
+      "topic": "SCAD_Genetics",
+      "type": "Epigenetics",
+      "score": 4
     },
     {
       "pmid": "41855523",
@@ -352,6 +286,28 @@
       "section": "topic_watch",
       "topic": "DCM_Omics",
       "type": "GWAS",
+      "score": 2
+    },
+    {
+      "pmid": "42103847",
+      "title": "A rare mutation (p.Ala264Thr) of GATA4 is responsible for atrial septal defect and pulmonary valve stenosis.",
+      "abstract": "Atrial septal defect (ASD) is a type of congenital heart defect characterized by the absence of atrial septal tissue. Research has shown that genetic factors play a significant role in the development of ASD. Variants in genes such as GATA binding protein 4 (GATA4), NK2 homeobox 5, and T-box transcription factor 5 have been identified in patients with ASD. In this study, we enrolled a Chinese family affected by ASD and PS. Whole exome sequencing and Sanger sequencing were used to investigate the\u2026",
+      "abstract_full": "Atrial septal defect (ASD) is a type of congenital heart defect characterized by the absence of atrial septal tissue. Research has shown that genetic factors play a significant role in the development of ASD. Variants in genes such as GATA binding protein 4 (GATA4), NK2 homeobox 5, and T-box transcription factor 5 have been identified in patients with ASD. In this study, we enrolled a Chinese family affected by ASD and PS. Whole exome sequencing and Sanger sequencing were used to investigate the genetic basis of lesions in this family. The AC16 cell line was used to perform the functional study. After data filtering and co-segregation analysis, we identified a rare mutation (NM_001308093.3: c.790G\u2009>\u2009A, p.Ala264Thr) in the GATA4 gene in the affected family members that was absent in the unaffected individuals. Bioinformatic analysis revealed that the newly identified mutation was deleterious and altered the hydrophobicity, size and polar of the GATA4 protein. Functional studies revealed that this rare mutation disrupted the stability of GATA4 and reduced the ability of GATA4 to activate the downstream target genes. Our findings highlight the importance of the N-terminal zinc finger structure of GATA4 in cardiac development. Additionally, our study contributes to the genetic diagnosis and counseling of families with congenital heart disease.",
+      "bullets": [
+        "After data filtering and co-segregation analysis, we identified a rare mutation (NM_001308093.3: c.790G\u2009>\u2009A, p.Ala264Thr) in the GATA4 gene in the affected family members that was absent in the unaffected individuals.",
+        "Bioinformatic analysis revealed that the newly identified mutation was deleterious and altered the hydrophobicity, size and polar of the GATA4 protein.",
+        "Our findings highlight the importance of the N-terminal zinc finger structure of GATA4 in cardiac development."
+      ],
+      "authors": "Zhang A, Long J, Xue W, et al.",
+      "journal": "Scientific reports",
+      "year": "2026",
+      "month": "May",
+      "doi": "10.1038/s41598-026-52332-x",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42103847/",
+      "ris": "TY  - JOUR\nAU  - Zhang A\nAU  - Long J\nAU  - Xue W\nTI  - A rare mutation (p.Ala264Thr) of GATA4 is responsible for atrial septal defect and pulmonary valve stenosis.\nJO  - Scientific reports\nPY  - 2026\nDO  - 10.1038/s41598-026-52332-x\nAB  - Atrial septal defect (ASD) is a type of congenital heart defect characterized by the absence of atrial septal tissue. Research has shown that genetic factors play a significant role in the development of ASD. Variants in genes such as GATA binding protein 4 (GATA4), NK2 homeobox 5, and T-box transcr\nUR  - https://pubmed.ncbi.nlm.nih.gov/42103847/\nER  - ",
+      "section": "disease_genetics",
+      "topic": "CHD_Genetics",
+      "type": "Sequencing study",
       "score": 2
     },
     {
@@ -377,102 +333,58 @@
       "score": 2
     },
     {
-      "pmid": "42053849",
-      "title": "A novel de novo frameshift variant in ZMYM2 expands the neuropsychiatric spectrum of NECRC syndrome: a case report.",
-      "abstract": "BACKGROUND: ZMYM2-related neurodevelopmental-craniofacial syndrome with variable renal and cardiac abnormalities (NECRC; OMIM #619522) is an ultra-rare autosomal dominant condition caused by heterozygous loss-of-function (LoF) variants in ZMYM2. Since its initial description in 2020, the phenotypic spectrum has expanded to include Rett-like features and cortical myoclonus, with an increasing number of cases presenting without renal or cardiac involvement. CASE PRESENTATION: We report a 6-year-ol\u2026",
-      "abstract_full": "BACKGROUND: ZMYM2-related neurodevelopmental-craniofacial syndrome with variable renal and cardiac abnormalities (NECRC; OMIM #619522) is an ultra-rare autosomal dominant condition caused by heterozygous loss-of-function (LoF) variants in ZMYM2. Since its initial description in 2020, the phenotypic spectrum has expanded to include Rett-like features and cortical myoclonus, with an increasing number of cases presenting without renal or cardiac involvement. CASE PRESENTATION: We report a 6-year-old Turkish boy presenting with intellectual disability, attention-deficit/hyperactivity disorder (ADHD), motor stereotypies, and short stature. Psychometric evaluation revealed developmental levels of 2-2.5 years across all domains. Dysmorphic features included microcephaly, bilateral epiblepharon, pectus excavatum, bilateral pes planus, and fifth-finger clinodactyly. Renal and cardiac findings were absent. Trio whole-exome sequencing (WES) identified a novel de novo heterozygous frameshift variant in ZMYM2 (NM_001353162.2): c.1293_1296del (p.Thr432ArgfsTer11). Notably, the parents harbored independent skeletal dysplasia variants - NPR2 p.Arg388Ter in the mother (consistent with proportionate short stature) and FGFR3 p.Arg223Cys in the father (consistent with hypochondroplasia phenotype) - neither transmitted to the proband, representing co-occurring independent molecular findings within one family. CONCLUSIONS: This case expands the mutational and phenotypic spectrum of NECRC syndrome, demonstrating that ZMYM2 LoF can present with predominant neuropsychiatric features - including ADHD and motor stereotypies - in the absence of congenital anomalies of the kidney and urinary tract (CAKUT). Trio-WES proved essential in molecularly dissecting a complex multigenic family background. ZMYM2 deficiency should be considered as a potential cause in the differential diagnosis of neurodevelopmental disorders regardless of renal or cardiac involvement.",
+      "pmid": "42102130",
+      "title": "Variants in the DNAH11 gene responsible for primary ciliary dyskinesia or probably atypical primary ciliary dyskinesia presenting left-right asymmetry disorder.",
+      "abstract": "Primary ciliary dyskinesia (PCD) is a rare multi-system cilia-related disorder, and approximately 50% of individuals with PCD exhibit left-right asymmetry disorder. The dynein axonemal heavy chain 11 gene (DNAH11) pathogenic variants are responsible for primary ciliary dyskinesia 7, with or without left-right asymmetry disorder. This study aimed to detect the pathogenic variants in three unrelated patients diagnosed with PCD or left-right asymmetry disorder based on the clinical and imaging exam\u2026",
+      "abstract_full": "Primary ciliary dyskinesia (PCD) is a rare multi-system cilia-related disorder, and approximately 50% of individuals with PCD exhibit left-right asymmetry disorder. The dynein axonemal heavy chain 11 gene (DNAH11) pathogenic variants are responsible for primary ciliary dyskinesia 7, with or without left-right asymmetry disorder. This study aimed to detect the pathogenic variants in three unrelated patients diagnosed with PCD or left-right asymmetry disorder based on the clinical and imaging examinations. Whole exome sequencing, Sanger sequencing, and comprehensive bioinformatics analyses were performed. Seven DNAH11 heterozygous variants, which involved evolutionarily conserved residues and were predicted to exert deleterious effects, reduce protein stability, change protein conformation, and affect non-covalent residue's interactions, were identified as potential pathogenic factors responsible for these patients, respectively. In patient 1, three variants in compound heterozygotes, c.[3541A\u2009>\u2009G];[4334G\u2009>\u2009A;12428T\u2009>\u2009C] (p.[(Ser1181Gly)];[(Arg1445Gln;Met4143Thr)]), were confirmed. In patient 2, two variants in potential compound heterozygotes, c.2912A\u2009>\u2009G(;)7980A\u2009>\u2009T (p.(Asp971Gly)(;)(Gln2660His)), were detected. In patient 3, two variants in compound heterozygotes, c.[845T\u2009>\u2009C];[11402C\u2009>\u2009G] (p.[(Met282Thr)];[(Pro3801Arg)]), were confirmed. The phenotypes observed in these patients are consistent with typical/probably atypical PCD or DNAH11-associated ciliopathy, although functional validation is needed to confirm variant pathogenicity. These findings expand the phenotypic spectrum of DNAH11 variants and may facilitate more accurate genetic diagnosis and counseling.",
       "bullets": [
-        "This case expands the mutational and phenotypic spectrum of NECRC syndrome, demonstrating that ZMYM2 LoF can present with predominant neuropsychiatric features - including ADHD and motor stereotypies - in the absence of\u2026",
-        "Trio-WES proved essential in molecularly dissecting a complex multigenic family background.",
-        "ZMYM2 deficiency should be considered as a potential cause in the differential diagnosis of neurodevelopmental disorders regardless of renal or cardiac involvement."
+        "Seven DNAH11 heterozygous variants, which involved evolutionarily conserved residues and were predicted to exert deleterious effects, reduce protein stability, change protein conformation, and affect non-covalent\u2026",
+        "In patient 1, three variants in compound heterozygotes, c.[3541A\u2009>\u2009G];[4334G\u2009>\u2009A;12428T\u2009>\u2009C] (p.[(Ser1181Gly)];[(Arg1445Gln;Met4143Thr)]), were confirmed.",
+        "In patient 3, two variants in compound heterozygotes, c.[845T\u2009>\u2009C];[11402C\u2009>\u2009G] (p.[(Met282Thr)];[(Pro3801Arg)]), were confirmed."
       ],
-      "authors": "Mammadova N, Hatipoglu N, Dundar M",
-      "journal": "Molecular biology reports",
+      "authors": "Zhao K, Yuan L, Xiong Y, et al.",
+      "journal": "PloS one",
       "year": "2026",
-      "month": "Apr",
-      "doi": "10.1007/s00737-024-01540-3",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42053849/",
-      "ris": "TY  - JOUR\nAU  - Mammadova N\nAU  - Hatipoglu N\nAU  - Dundar M\nTI  - A novel de novo frameshift variant in ZMYM2 expands the neuropsychiatric spectrum of NECRC syndrome: a case report.\nJO  - Molecular biology reports\nPY  - 2026\nDO  - 10.1007/s00737-024-01540-3\nAB  - BACKGROUND: ZMYM2-related neurodevelopmental-craniofacial syndrome with variable renal and cardiac abnormalities (NECRC; OMIM #619522) is an ultra-rare autosomal dominant condition caused by heterozygous loss-of-function (LoF) variants in ZMYM2. Since its initial description in 2020, the phenotypic \nUR  - https://pubmed.ncbi.nlm.nih.gov/42053849/\nER  - ",
+      "month": "",
+      "doi": "10.1038/s41576-021-00409-w",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42102130/",
+      "ris": "TY  - JOUR\nAU  - Zhao K\nAU  - Yuan L\nAU  - Xiong Y\nTI  - Variants in the DNAH11 gene responsible for primary ciliary dyskinesia or probably atypical primary ciliary dyskinesia presenting left-right asymmetry disorder.\nJO  - PloS one\nPY  - 2026\nDO  - 10.1038/s41576-021-00409-w\nAB  - Primary ciliary dyskinesia (PCD) is a rare multi-system cilia-related disorder, and approximately 50% of individuals with PCD exhibit left-right asymmetry disorder. The dynein axonemal heavy chain 11 gene (DNAH11) pathogenic variants are responsible for primary ciliary dyskinesia 7, with or without \nUR  - https://pubmed.ncbi.nlm.nih.gov/42102130/\nER  - ",
       "section": "disease_genetics",
       "topic": "CHD_Genetics",
       "type": "Sequencing study",
       "score": 1
     },
     {
-      "pmid": "41486098",
-      "title": "Marfan Syndrome Associated With Intellectual Disability and Behavioral Anomalies: Further Evidence for the Effect of Compound Heterozygous Variants in FBN1 on Phenotypic Severity.",
-      "abstract": "Marfan syndrome (MFS) is a rare connective tissue disorder characterized by involvement of the cardiovascular, ocular, and musculoskeletal systems. Pathogenic variants in FBN1 cause most of the MFS cases; however, intellectual disability (ID) is rarely observed. A non-consanguineous Pakistani family with four affected individuals was recruited. Physical examinations, echocardiography, and doppler ultrasound were performed as part of the clinical assessment. Exome sequencing was conducted on the \u2026",
-      "abstract_full": "Marfan syndrome (MFS) is a rare connective tissue disorder characterized by involvement of the cardiovascular, ocular, and musculoskeletal systems. Pathogenic variants in FBN1 cause most of the MFS cases; however, intellectual disability (ID) is rarely observed. A non-consanguineous Pakistani family with four affected individuals was recruited. Physical examinations, echocardiography, and doppler ultrasound were performed as part of the clinical assessment. Exome sequencing was conducted on the index patient, and Sanger sequencing was performed for the entire family. ID was the primary symptom in all the affected individuals. A detailed examination showed that all affected individuals and their affected mother were tall, had long limbs, craniofacial abnormalities, and exhibited low IQ, aggressive, and hyperactive behaviors. Heart defects, such as atrial septal defects and pulmonary hypertension, were observed in one affected individual and her mother. Genetic analysis identified two rare missense variants in FBN1, c.1552G>A (p.Gly518Arg) and c.3046A>G (p.Thr1016Ala), both predicted to be deleterious. The p.Gly518Arg variant is predicted to be likely pathogenic, while the p.Thr1016Ala variant is of uncertain significance. Notably, these variants were found in two affected individuals in a compound heterozygous state, correlating with more severe symptoms. Each variant alone, seen in the two patients, is associated with milder symptoms, indicating incomplete penetrance. In conclusion, this study identified rare heterozygous missense variants in FBN1, suggesting a potential connection between neurodevelopmental outcomes and variants in FBN1. However, further research is needed to clarify the role of FBN1 in ID.",
+      "pmid": "42102332",
+      "title": "Pearls & Oy-sters: Stroke Recurrence After PFO Closure Uncovers Cerebrotendinous Xanthomatosis.",
+      "abstract": "Cerebrotendinous xanthomatosis (CTX) is a rare autosomal recessive metabolic disorder that can cause premature atherosclerosis and ischemic stroke in young adults. We report a 23-year-old man who had recurrent strokes even after patent foramen ovale (PFO) closure. Initial evaluation for his first cryptogenic stroke revealed a PFO with a high Risk of Paradoxical Embolism (RoPE) score, leading to closure. Three years later, he experienced a recurrent stroke with right M1 segment occlusion. High-re\u2026",
+      "abstract_full": "Cerebrotendinous xanthomatosis (CTX) is a rare autosomal recessive metabolic disorder that can cause premature atherosclerosis and ischemic stroke in young adults. We report a 23-year-old man who had recurrent strokes even after patent foramen ovale (PFO) closure. Initial evaluation for his first cryptogenic stroke revealed a PFO with a high Risk of Paradoxical Embolism (RoPE) score, leading to closure. Three years later, he experienced a recurrent stroke with right M1 segment occlusion. High-resolution magnetic resonance vessel wall imaging demonstrated intracranial atherosclerotic plaque, prompting reconsideration of the etiology. Further history taking revealed chronic diarrhea since infancy and juvenile cataracts. Examination showed borderline intellectual functioning, bilateral ankle clonus, and Achilles tendon xanthomas. Brain MRI exhibited characteristic bilateral dentate nucleus hyperintensities. Genetic testing confirmed CYP27A1 pathogenic variants, consistent with a diagnosis of CTX. Through highlighting CTX underlying premature atherosclerosis and stroke in a young man, this case emphasizes the importance of rare metabolic disorders in stroke, even when a common cause such as PFO is identified. Early recognition enables targeted therapy and improves outcomes.",
       "bullets": [
-        "Genetic analysis identified two rare missense variants in FBN1, c.1552G>A (p.Gly518Arg) and c.3046A>G (p.Thr1016Ala), both predicted to be deleterious.",
-        "Each variant alone, seen in the two patients, is associated with milder symptoms, indicating incomplete penetrance.",
-        "In conclusion, this study identified rare heterozygous missense variants in FBN1, suggesting a potential connection between neurodevelopmental outcomes and variants in FBN1."
+        "Further history taking revealed chronic diarrhea since infancy and juvenile cataracts.",
+        "Genetic testing confirmed CYP27A1 pathogenic variants, consistent with a diagnosis of CTX.",
+        "Through highlighting CTX underlying premature atherosclerosis and stroke in a young man, this case emphasizes the importance of rare metabolic disorders in stroke, even when a common cause such as PFO is identified."
       ],
-      "authors": "Khan A, Kakar N, Kakar A, et al.",
-      "journal": "American journal of medical genetics. Part A",
+      "authors": "Liu L, Wang Y, Chen X, et al.",
+      "journal": "Neurology",
       "year": "2026",
-      "month": "May",
-      "doi": "10.1002/ajmga.70038",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41486098/",
-      "ris": "TY  - JOUR\nAU  - Khan A\nAU  - Kakar N\nAU  - Kakar A\nTI  - Marfan Syndrome Associated With Intellectual Disability and Behavioral Anomalies: Further Evidence for the Effect of Compound Heterozygous Variants in FBN1 on Phenotypic Severity.\nJO  - American journal of medical genetics. Part A\nPY  - 2026\nDO  - 10.1002/ajmga.70038\nAB  - Marfan syndrome (MFS) is a rare connective tissue disorder characterized by involvement of the cardiovascular, ocular, and musculoskeletal systems. Pathogenic variants in FBN1 cause most of the MFS cases; however, intellectual disability (ID) is rarely observed. A non-consanguineous Pakistani family\nUR  - https://pubmed.ncbi.nlm.nih.gov/41486098/\nER  - ",
-      "section": "disease_genetics",
-      "topic": "CHD_Genetics",
+      "month": "Jun",
+      "doi": "10.1212/WNL.0000000000218061",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42102332/",
+      "ris": "TY  - JOUR\nAU  - Liu L\nAU  - Wang Y\nAU  - Chen X\nTI  - Pearls & Oy-sters: Stroke Recurrence After PFO Closure Uncovers Cerebrotendinous Xanthomatosis.\nJO  - Neurology\nPY  - 2026\nDO  - 10.1212/WNL.0000000000218061\nAB  - Cerebrotendinous xanthomatosis (CTX) is a rare autosomal recessive metabolic disorder that can cause premature atherosclerosis and ischemic stroke in young adults. We report a 23-year-old man who had recurrent strokes even after patent foramen ovale (PFO) closure. Initial evaluation for his first cr\nUR  - https://pubmed.ncbi.nlm.nih.gov/42102332/\nER  - ",
+      "section": "prs_disease",
+      "topic": "CHD_DCM_SCAD_PRS",
       "type": "Research article",
-      "score": 1
-    },
-    {
-      "pmid": "41508548",
-      "title": "Homozygous MGME1 Variant in Turkish Siblings: First Reported Case With Successful Heart Transplantation, Expanding the Clinical Spectrum of MGME1 -Related Mitochondrial Disease.",
-      "abstract": "We report two siblings harboring a homozygous MGME1 variant, NM_052865.4:c.818\u2009T>A; p.(Val273Glu), both presenting with ptosis, myopathy, scoliosis, and gastrointestinal symptoms. The index patient developed progressive, medically refractory dilated cardiomyopathy and underwent successful orthotopic heart transplantation (OHT). Reanalysis of previously negative WES identified the variant in the index case, and segregation by Sanger sequencing confirmed homozygosity in both siblings. Although sev\u2026",
-      "abstract_full": "We report two siblings harboring a homozygous MGME1 variant, NM_052865.4:c.818\u2009T>A; p.(Val273Glu), both presenting with ptosis, myopathy, scoliosis, and gastrointestinal symptoms. The index patient developed progressive, medically refractory dilated cardiomyopathy and underwent successful orthotopic heart transplantation (OHT). Reanalysis of previously negative WES identified the variant in the index case, and segregation by Sanger sequencing confirmed homozygosity in both siblings. Although several clinical findings overlap with previously described MGME1-related disease, the detected variant remains classified as a variant of uncertain significance (VUS); thus, functional evidence is needed to better understand its potential causal relevance. Additionally, this report underscores the importance of periodic genomic data reanalysis and highlights the variable expressivity that may occur even within the same family.",
-      "bullets": [
-        "We report two siblings harboring a homozygous MGME1 variant, NM_052865.4:c.818\u2009T>A; p.(Val273Glu), both presenting with ptosis, myopathy, scoliosis, and gastrointestinal symptoms.",
-        "Reanalysis of previously negative WES identified the variant in the index case, and segregation by Sanger sequencing confirmed homozygosity in both siblings.",
-        "Additionally, this report underscores the importance of periodic genomic data reanalysis and highlights the variable expressivity that may occur even within the same family."
-      ],
-      "authors": "Acikgoz N, Demir G, Yildiz Y, et al.",
-      "journal": "American journal of medical genetics. Part A",
-      "year": "2026",
-      "month": "May",
-      "doi": "10.1002/ajmga.70049",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41508548/",
-      "ris": "TY  - JOUR\nAU  - Acikgoz N\nAU  - Demir G\nAU  - Yildiz Y\nTI  - Homozygous MGME1 Variant in Turkish Siblings: First Reported Case With Successful Heart Transplantation, Expanding the Clinical Spectrum of MGME1 -Related Mitochondrial Disease.\nJO  - American journal of medical genetics. Part A\nPY  - 2026\nDO  - 10.1002/ajmga.70049\nAB  - We report two siblings harboring a homozygous MGME1 variant, NM_052865.4:c.818\u2009T>A; p.(Val273Glu), both presenting with ptosis, myopathy, scoliosis, and gastrointestinal symptoms. The index patient developed progressive, medically refractory dilated cardiomyopathy and underwent successful orthotopic\nUR  - https://pubmed.ncbi.nlm.nih.gov/41508548/\nER  - ",
-      "section": "disease_genetics",
-      "topic": "DCM_Genetics",
-      "type": "Sequencing study",
-      "score": 1
-    },
-    {
-      "pmid": "39969775",
-      "title": "Identification of novel biallelic mutations in CFAP53 associated with fetal situs inversus totalis and literature review.",
-      "abstract": "Visceral heterotaxy is a congenital malformation characterized by the abnormal arrangement of left-right axis of visceral organs. To date, several genes implicated in the regulation of laterality patterning have been identified. Notably, CFAP53, also referred to as CCDC11, is involved in the regulation of ciliary motility, and mutations in this gene have been linked to a rare condition of heterotaxy. In this study,\u00a0whole-exome sequencing (WES) was utilized to analyze the genetic causes of a fetu\u2026",
-      "abstract_full": "Visceral heterotaxy is a congenital malformation characterized by the abnormal arrangement of left-right axis of visceral organs. To date, several genes implicated in the regulation of laterality patterning have been identified. Notably, CFAP53, also referred to as CCDC11, is involved in the regulation of ciliary motility, and mutations in this gene have been linked to a rare condition of heterotaxy. In this study,\u00a0whole-exome sequencing (WES) was utilized to analyze the genetic causes of a fetus in a Chinese family, presenting with situs inversus totalis. In silico predictions and functional studies were performed to evaluate the pathogenicity of the identified candidate gene variants. WES revealed two novel compound heterozygous mutations, c.777G\u2009>\u2009T and c.1013A\u2009>\u2009T, in the CFAP53 gene. Minigene experiments demonstrated that c.777G\u2009>\u2009T may result in splicing aberrations, thus leading to the production of truncated CFAP53 proteins. Additionally, in silico analyses indicate that c.1013A\u2009>\u2009T could disrupt the interaction between CFAP53 and its target protein, TTC25. We report the second documented case of fetus with situs inversus totalis due to biallelic loss-of-function variants in CFAP53. According to literature review, our findings provide a basis for the prenatal diagnosis and genetic counseling of CFAP53 mutation-associated visceral heterotaxy.",
-      "bullets": [
-        "Minigene experiments demonstrated that c.777G\u2009>\u2009T may result in splicing aberrations, thus leading to the production of truncated CFAP53 proteins.",
-        "We report the second documented case of fetus with situs inversus totalis due to biallelic loss-of-function variants in CFAP53.",
-        "According to literature review, our findings provide a basis for the prenatal diagnosis and genetic counseling of CFAP53 mutation-associated visceral heterotaxy."
-      ],
-      "authors": "Guo Z, Tan M, Zhu H, et al.",
-      "journal": "Journal of applied genetics",
-      "year": "2026",
-      "month": "May",
-      "doi": "10.1016/j.heliyon.2024.e37355",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/39969775/",
-      "ris": "TY  - JOUR\nAU  - Guo Z\nAU  - Tan M\nAU  - Zhu H\nTI  - Identification of novel biallelic mutations in CFAP53 associated with fetal situs inversus totalis and literature review.\nJO  - Journal of applied genetics\nPY  - 2026\nDO  - 10.1016/j.heliyon.2024.e37355\nAB  - Visceral heterotaxy is a congenital malformation characterized by the abnormal arrangement of left-right axis of visceral organs. To date, several genes implicated in the regulation of laterality patterning have been identified. Notably, CFAP53, also referred to as CCDC11, is involved in the regulat\nUR  - https://pubmed.ncbi.nlm.nih.gov/39969775/\nER  - ",
-      "section": "disease_genetics",
-      "topic": "CHD_Genetics",
-      "type": "Review",
       "score": 0
     }
   ],
-  "summary_text": "10 papers selected from this week's literature:\n  \u2022 8 \u00d7 disease genetics (CHD / DCM / SCAD)\n  \u2022 1 \u00d7 PRS & oligogenic methods\n  \u2022 1 \u00d7 epigenetics / methylation\n\nHighlight: Diagnostic Yield of Exome Sequencing in Patients With Congenital Heart Disease From Southern Africa. (Circulation. Genomic and precision medicine, 2026)",
+  "summary_text": "8 papers selected from this week's literature:\n  \u2022 6 \u00d7 disease genetics (CHD / DCM / SCAD)\n  \u2022 1 \u00d7 epigenetics / methylation\n  \u2022 1 \u00d7 PRS in CHD/DCM/SCAD\n\nHighlight: Jagged-1 mutation is associated with congenital heart defects: a case report. (Journal of medical case reports, 2026)",
   "summary": {
-    "total_selected": 10,
-    "total_candidates": 10,
+    "total_selected": 8,
+    "total_candidates": 8,
     "section_counts": {
-      "disease_genetics": 8,
-      "prs_methods": 1,
-      "topic_watch": 1
+      "disease_genetics": 6,
+      "topic_watch": 1,
+      "prs_disease": 1
     }
   }
 }
