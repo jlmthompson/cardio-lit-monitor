@@ -1,54 +1,10 @@
 {
-  "generated": "2026-05-10T21:36:00.590558",
+  "generated": "2026-05-17T21:41:55.241105",
   "lookback_days": 7,
-  "cutoff_date": "2026/05/03",
+  "cutoff_date": "2026/05/10",
   "sections": {
     "disease_genetics": {
       "papers": [
-        {
-          "pmid": "42093019",
-          "title": "Jagged-1 mutation is associated with congenital heart defects: a case report.",
-          "abstract": "BACKGROUND: Congenital heart defects (CHD) refer to a wide range of heart structural abnormalities that exist at birth, ranging from malformations with a good prognosis to more complicated and severe lesions. Congenital heart defects can result from mutations in genes encoding cell signaling transducers such as Jagged-1 (JAG1). Mutations in JAG1 are linked to rare autosomal-dominant disorders, often resulting from haploinsufficiency in the Notch signaling pathway, which affects organ development\u2026",
-          "abstract_full": "BACKGROUND: Congenital heart defects (CHD) refer to a wide range of heart structural abnormalities that exist at birth, ranging from malformations with a good prognosis to more complicated and severe lesions. Congenital heart defects can result from mutations in genes encoding cell signaling transducers such as Jagged-1 (JAG1). Mutations in JAG1 are linked to rare autosomal-dominant disorders, often resulting from haploinsufficiency in the Notch signaling pathway, which affects organ development. Reporting novel mutations and associated phenotypes emphasizes the importance of tailored approaches based on individual phenotypic and genotypic profiles. Next-generation sequencing techniques facilitate the detection of disease-associated mutations, enabling the development of personalized management strategies. CASE PRESENTATION: Here, we present a case of a Saudi Arabian female child who was born extremely preterm. She required intubation and mechanical ventilation immediately after birth. She developed bronchopulmonary dysplasia and pulmonary hypertension. At 8\u00a0months old, her echocardiogram revealed a large atrial septal defect and a patent ductus arteriosus. She underwent successful patent ductus arteriosus closure. She exhibited severe failure to thrive and was frequently admitted for respiratory infections. Tragically, she passed away at 11\u00a0years of age due to pneumonia and pulmonary hypertensive crises. Exome sequencing of the proband, her parents, and her brother identified a previously undescribed likely pathogenic heterozygous missense variant (c.1127A>G) in the JAG1 gene, inherited from her presumed healthy mother, that is associated with an isolated cardiac phenotype. CONCLUSION: Although JAG1 mutations typically manifest as Alagille syndrome, this case underscores their phenotypic variability, specifically presenting as an isolated congenital heart defect. The clinical course demonstrates that pulmonary hypertension is a severe complication of an atrial septal defect (ASD), where persistent left-to-right shunting triggers irreversible vascular remodeling and terminal right heart failure. Ultimately, this report confirms the incomplete penetrance characteristic of JAG1 variants and suggests that extreme prematurity may function as a significant epigenetic or environmental modifier.",
-          "bullets": [
-            "Although JAG1 mutations typically manifest as Alagille syndrome, this case underscores their phenotypic variability, specifically presenting as an isolated congenital heart defect.",
-            "The clinical course demonstrates that pulmonary hypertension is a severe complication of an atrial septal defect (ASD), where persistent left-to-right shunting triggers irreversible vascular remodeling and terminal\u2026",
-            "Ultimately, this report confirms the incomplete penetrance characteristic of JAG1 variants and suggests that extreme prematurity may function as a significant epigenetic or environmental modifier."
-          ],
-          "authors": "Alahmed O, Alaamery M, Alhabshan F, et al.",
-          "journal": "Journal of medical case reports",
-          "year": "2026",
-          "month": "May",
-          "doi": "10.1186/s13256-026-06096-7",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42093019/",
-          "ris": "TY  - JOUR\nAU  - Alahmed O\nAU  - Alaamery M\nAU  - Alhabshan F\nTI  - Jagged-1 mutation is associated with congenital heart defects: a case report.\nJO  - Journal of medical case reports\nPY  - 2026\nDO  - 10.1186/s13256-026-06096-7\nAB  - BACKGROUND: Congenital heart defects (CHD) refer to a wide range of heart structural abnormalities that exist at birth, ranging from malformations with a good prognosis to more complicated and severe lesions. Congenital heart defects can result from mutations in genes encoding cell signaling transdu\nUR  - https://pubmed.ncbi.nlm.nih.gov/42093019/\nER  - ",
-          "section": "disease_genetics",
-          "topic": "CHD_Genetics",
-          "type": "Epigenetics",
-          "score": 4
-        },
-        {
-          "pmid": "42096100",
-          "title": "Spontaneous Coronary Artery Dissection: Advances in Understanding and Management in Women.",
-          "abstract": "PURPOSE OF REVIEW: Spontaneous coronary artery dissection (SCAD) is an increasingly recognized cause of acute myocardial infarction (MI), particularly among young to middle-aged women without traditional cardiovascular risk factors. This review summarizes recent advances in the understanding, diagnosis, and management of SCAD. RECENT FINDINGS: SCAD results from an intramural hematoma (IMH) or intimal tear causing separation of the coronary arterial wall and compression of the true lumen. Fibromu\u2026",
-          "abstract_full": "PURPOSE OF REVIEW: Spontaneous coronary artery dissection (SCAD) is an increasingly recognized cause of acute myocardial infarction (MI), particularly among young to middle-aged women without traditional cardiovascular risk factors. This review summarizes recent advances in the understanding, diagnosis, and management of SCAD. RECENT FINDINGS: SCAD results from an intramural hematoma (IMH) or intimal tear causing separation of the coronary arterial wall and compression of the true lumen. Fibromuscular dysplasia is the most consistently associated arteriopathy, supporting a systemic vascular vulnerability. Genetic studies suggest a predominantly polygenic architecture, with variants such as PHACTR1 implicated in vascular signaling and endothelial regulation. Coronary angiography remains the diagnostic cornerstone, with intracoronary imaging aiding in uncertain cases, while emerging non-invasive modalities such as photon-counting computed tomography may refine non-invasive diagnosis. Conservative management is preferred in most stable patients because spontaneous healing is common and percutaneous coronary intervention carries procedural challenges. Persistent angina, coronary vasospasm, microvascular dysfunction, and psychological distress are increasingly recognized components of recovery. Multidisciplinary follow-up incorporating cardiac rehabilitation and psychological support is essential to address persistent symptoms and recovery after SCAD. SCAD is a distinct non-atherosclerotic cause of MI driven by an underlying arteriopathy and systemic vascular vulnerability, requiring individualized management, vascular screening, and multidisciplinary follow-up. Ongoing randomized trials and genomic studies aim to refine risk stratification, clarify optimal medication strategies, and improve long-term outcomes and recurrences.",
-          "bullets": [
-            "SCAD results from an intramural hematoma (IMH) or intimal tear causing separation of the coronary arterial wall and compression of the true lumen.",
-            "Fibromuscular dysplasia is the most consistently associated arteriopathy, supporting a systemic vascular vulnerability.",
-            "Genetic studies suggest a predominantly polygenic architecture, with variants such as PHACTR1 implicated in vascular signaling and endothelial regulation."
-          ],
-          "authors": "Chai J, Saw J",
-          "journal": "Current atherosclerosis reports",
-          "year": "2026",
-          "month": "May",
-          "doi": "10.1177/1358863X18821816",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42096100/",
-          "ris": "TY  - JOUR\nAU  - Chai J\nAU  - Saw J\nTI  - Spontaneous Coronary Artery Dissection: Advances in Understanding and Management in Women.\nJO  - Current atherosclerosis reports\nPY  - 2026\nDO  - 10.1177/1358863X18821816\nAB  - PURPOSE OF REVIEW: Spontaneous coronary artery dissection (SCAD) is an increasingly recognized cause of acute myocardial infarction (MI), particularly among young to middle-aged women without traditional cardiovascular risk factors. This review summarizes recent advances in the understanding, diagno\nUR  - https://pubmed.ncbi.nlm.nih.gov/42096100/\nER  - ",
-          "section": "disease_genetics",
-          "topic": "SCAD_Genetics",
-          "type": "Review",
-          "score": 4
-        },
         {
           "pmid": "41983892",
           "title": "ZNF827 pleiotropic cardiovascular risk locus involves regulation by nuclear factor-1.",
@@ -63,34 +19,34 @@
           "journal": "Clinical science (London, England : 1979)",
           "year": "2026",
           "month": "May",
-          "doi": "10.1042/CS20257956",
+          "doi": "10.1186/1748-7188-2-15",
           "url": "https://pubmed.ncbi.nlm.nih.gov/41983892/",
-          "ris": "TY  - JOUR\nAU  - Liu Y\nAU  - Liu L\nAU  - Esmael A\nTI  - ZNF827 pleiotropic cardiovascular risk locus involves regulation by nuclear factor-1.\nJO  - Clinical science (London, England : 1979)\nPY  - 2026\nDO  - 10.1042/CS20257956\nAB  - Spontaneous coronary artery dissection (SCAD) is a form of myocardial infarction that predominantly affects middle-aged women, caused by the spontaneous onset of an intramural hematoma leading to heart ischemia. SCAD genetic risk loci, such as the ZNF827 locus on chromosome 4, were previously associ\nUR  - https://pubmed.ncbi.nlm.nih.gov/41983892/\nER  - ",
+          "ris": "TY  - JOUR\nAU  - Liu Y\nAU  - Liu L\nAU  - Esmael A\nTI  - ZNF827 pleiotropic cardiovascular risk locus involves regulation by nuclear factor-1.\nJO  - Clinical science (London, England : 1979)\nPY  - 2026\nDO  - 10.1186/1748-7188-2-15\nAB  - Spontaneous coronary artery dissection (SCAD) is a form of myocardial infarction that predominantly affects middle-aged women, caused by the spontaneous onset of an intramural hematoma leading to heart ischemia. SCAD genetic risk loci, such as the ZNF827 locus on chromosome 4, were previously associ\nUR  - https://pubmed.ncbi.nlm.nih.gov/41983892/\nER  - ",
           "section": "disease_genetics",
           "topic": "SCAD_Genetics",
           "type": "Epigenetics",
           "score": 4
         },
         {
-          "pmid": "42103847",
-          "title": "A rare mutation (p.Ala264Thr) of GATA4 is responsible for atrial septal defect and pulmonary valve stenosis.",
-          "abstract": "Atrial septal defect (ASD) is a type of congenital heart defect characterized by the absence of atrial septal tissue. Research has shown that genetic factors play a significant role in the development of ASD. Variants in genes such as GATA binding protein 4 (GATA4), NK2 homeobox 5, and T-box transcription factor 5 have been identified in patients with ASD. In this study, we enrolled a Chinese family affected by ASD and PS. Whole exome sequencing and Sanger sequencing were used to investigate the\u2026",
-          "abstract_full": "Atrial septal defect (ASD) is a type of congenital heart defect characterized by the absence of atrial septal tissue. Research has shown that genetic factors play a significant role in the development of ASD. Variants in genes such as GATA binding protein 4 (GATA4), NK2 homeobox 5, and T-box transcription factor 5 have been identified in patients with ASD. In this study, we enrolled a Chinese family affected by ASD and PS. Whole exome sequencing and Sanger sequencing were used to investigate the genetic basis of lesions in this family. The AC16 cell line was used to perform the functional study. After data filtering and co-segregation analysis, we identified a rare mutation (NM_001308093.3: c.790G\u2009>\u2009A, p.Ala264Thr) in the GATA4 gene in the affected family members that was absent in the unaffected individuals. Bioinformatic analysis revealed that the newly identified mutation was deleterious and altered the hydrophobicity, size and polar of the GATA4 protein. Functional studies revealed that this rare mutation disrupted the stability of GATA4 and reduced the ability of GATA4 to activate the downstream target genes. Our findings highlight the importance of the N-terminal zinc finger structure of GATA4 in cardiac development. Additionally, our study contributes to the genetic diagnosis and counseling of families with congenital heart disease.",
+          "pmid": "41771111",
+          "title": "Clinical characteristics and outcomes of cardiomyopathies related to immune-mediated diseases.",
+          "abstract": "AIMS: Dilated cardiomyopathy (DCM) encompasses genetic and acquired aetiologies, yet the impact of immune-mediated mechanisms remains unclear. This study investigates the clinical characteristics and outcomes of immune-mediated DCM (ID-CMP). METHODS: From the Maastricht Cardiomyopathy registry, 194 patients with ID-CMP were compared with 678 non-immune DCM controls over a median follow-up of 5.2 (3.7-10.7) years. ID-CMP was categorized into autoimmune-mediated (adaptive immunity dysfunction), au\u2026",
+          "abstract_full": "AIMS: Dilated cardiomyopathy (DCM) encompasses genetic and acquired aetiologies, yet the impact of immune-mediated mechanisms remains unclear. This study investigates the clinical characteristics and outcomes of immune-mediated DCM (ID-CMP). METHODS: From the Maastricht Cardiomyopathy registry, 194 patients with ID-CMP were compared with 678 non-immune DCM controls over a median follow-up of 5.2 (3.7-10.7) years. ID-CMP was categorized into autoimmune-mediated (adaptive immunity dysfunction), autoinflammatory-driven (innate immunity dysfunction), and mixed-pattern (MHC Class I associations and autoinflammatory components). Patients with features of >1 category were classified as overlapping-CMP. Echocardiographic and genetic data were collected. Cox regression assessed major adverse cardiovascular events (MACE: cardiac mortality, heart failure hospitalization, life-threatening arrhythmias). Left ventricular ejection fraction (LVEF) trajectories were analysed using linear mixed-effects models. Findings were validated in an independent cohort of 201 ID-CMP patients. RESULTS: ID-CMP was associated with a higher risk of MACE [HR: 1.68 (1.1-2.5), P = .012] after adjustment for age, sex, and baseline LVEF, confirmed in an external validation cohort [HR:2.40 (1.6-3.5), P < .001]. LVEF was lower in ID-CMP during the first year but converged with non-immune DCM thereafter (P0-1year = .018; P>1year = ns). Outcomes did not differ among ID-CMP subtypes. Inflammation on EMB was related to worse clinical outcome [HR:2.0 (1.1-3.6), P = .017]. Pathogenic DCM gene variants were equally frequent in ID-CMP and non-ID-CMP patients (22% vs 20%, P = ns). CONCLUSION: ID-CMP patients have a higher risk of MACE despite similar LVEF trajectories, as confirmed in a validation cohort. Cardiac immune cell infiltration suggests an inflammatory substrate independent of genetics.",
           "bullets": [
-            "After data filtering and co-segregation analysis, we identified a rare mutation (NM_001308093.3: c.790G\u2009>\u2009A, p.Ala264Thr) in the GATA4 gene in the affected family members that was absent in the unaffected individuals.",
-            "Bioinformatic analysis revealed that the newly identified mutation was deleterious and altered the hydrophobicity, size and polar of the GATA4 protein.",
-            "Our findings highlight the importance of the N-terminal zinc finger structure of GATA4 in cardiac development."
+            "ID-CMP was associated with a higher risk of MACE [HR: 1.68 (1.1-2.5), P = .012] after adjustment for age, sex, and baseline LVEF, confirmed in an external validation cohort [HR:2.40 (1.6-3.5), P < .001].",
+            "LVEF was lower in ID-CMP during the first year but converged with non-immune DCM thereafter (P0-1year = .018; P>1year = ns).",
+            "Outcomes did not differ among ID-CMP subtypes."
           ],
-          "authors": "Zhang A, Long J, Xue W, et al.",
-          "journal": "Scientific reports",
+          "authors": "Rossi V, Sikking M, Folgheraiter A, et al.",
+          "journal": "European journal of heart failure",
           "year": "2026",
           "month": "May",
-          "doi": "10.1038/s41598-026-52332-x",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42103847/",
-          "ris": "TY  - JOUR\nAU  - Zhang A\nAU  - Long J\nAU  - Xue W\nTI  - A rare mutation (p.Ala264Thr) of GATA4 is responsible for atrial septal defect and pulmonary valve stenosis.\nJO  - Scientific reports\nPY  - 2026\nDO  - 10.1038/s41598-026-52332-x\nAB  - Atrial septal defect (ASD) is a type of congenital heart defect characterized by the absence of atrial septal tissue. Research has shown that genetic factors play a significant role in the development of ASD. Variants in genes such as GATA binding protein 4 (GATA4), NK2 homeobox 5, and T-box transcr\nUR  - https://pubmed.ncbi.nlm.nih.gov/42103847/\nER  - ",
+          "doi": "10.1093/ejhf/xuaf030",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41771111/",
+          "ris": "TY  - JOUR\nAU  - Rossi V\nAU  - Sikking M\nAU  - Folgheraiter A\nTI  - Clinical characteristics and outcomes of cardiomyopathies related to immune-mediated diseases.\nJO  - European journal of heart failure\nPY  - 2026\nDO  - 10.1093/ejhf/xuaf030\nAB  - AIMS: Dilated cardiomyopathy (DCM) encompasses genetic and acquired aetiologies, yet the impact of immune-mediated mechanisms remains unclear. This study investigates the clinical characteristics and outcomes of immune-mediated DCM (ID-CMP). METHODS: From the Maastricht Cardiomyopathy registry, 194 \nUR  - https://pubmed.ncbi.nlm.nih.gov/41771111/\nER  - ",
           "section": "disease_genetics",
-          "topic": "CHD_Genetics",
-          "type": "Sequencing study",
+          "topic": "DCM_Genetics",
+          "type": "Research article",
           "score": 2
         },
         {
@@ -116,29 +72,29 @@
           "score": 2
         },
         {
-          "pmid": "42102130",
-          "title": "Variants in the DNAH11 gene responsible for primary ciliary dyskinesia or probably atypical primary ciliary dyskinesia presenting left-right asymmetry disorder.",
-          "abstract": "Primary ciliary dyskinesia (PCD) is a rare multi-system cilia-related disorder, and approximately 50% of individuals with PCD exhibit left-right asymmetry disorder. The dynein axonemal heavy chain 11 gene (DNAH11) pathogenic variants are responsible for primary ciliary dyskinesia 7, with or without left-right asymmetry disorder. This study aimed to detect the pathogenic variants in three unrelated patients diagnosed with PCD or left-right asymmetry disorder based on the clinical and imaging exam\u2026",
-          "abstract_full": "Primary ciliary dyskinesia (PCD) is a rare multi-system cilia-related disorder, and approximately 50% of individuals with PCD exhibit left-right asymmetry disorder. The dynein axonemal heavy chain 11 gene (DNAH11) pathogenic variants are responsible for primary ciliary dyskinesia 7, with or without left-right asymmetry disorder. This study aimed to detect the pathogenic variants in three unrelated patients diagnosed with PCD or left-right asymmetry disorder based on the clinical and imaging examinations. Whole exome sequencing, Sanger sequencing, and comprehensive bioinformatics analyses were performed. Seven DNAH11 heterozygous variants, which involved evolutionarily conserved residues and were predicted to exert deleterious effects, reduce protein stability, change protein conformation, and affect non-covalent residue's interactions, were identified as potential pathogenic factors responsible for these patients, respectively. In patient 1, three variants in compound heterozygotes, c.[3541A\u2009>\u2009G];[4334G\u2009>\u2009A;12428T\u2009>\u2009C] (p.[(Ser1181Gly)];[(Arg1445Gln;Met4143Thr)]), were confirmed. In patient 2, two variants in potential compound heterozygotes, c.2912A\u2009>\u2009G(;)7980A\u2009>\u2009T (p.(Asp971Gly)(;)(Gln2660His)), were detected. In patient 3, two variants in compound heterozygotes, c.[845T\u2009>\u2009C];[11402C\u2009>\u2009G] (p.[(Met282Thr)];[(Pro3801Arg)]), were confirmed. The phenotypes observed in these patients are consistent with typical/probably atypical PCD or DNAH11-associated ciliopathy, although functional validation is needed to confirm variant pathogenicity. These findings expand the phenotypic spectrum of DNAH11 variants and may facilitate more accurate genetic diagnosis and counseling.",
+          "pmid": "42108647",
+          "title": "Familial Turner Syndrome With Distinct Karyotypes in Two Cousins: Phenotypic Convergence and Genotypic Heterogeneity.",
+          "abstract": "BACKGROUND Familial Turner syndrome (TS) is an uncommon sex chromosome abnormality, typically characterized by the transmission of identical X-chromosomal aberrations (eg, partial or complete deletions) within a lineage. The occurrence of familial TS involving distinct karyotypes within the same generation is exceptionally rare and presents unique challenges for genetic counseling and mechanistic understanding. CASE REPORT Two cousins (aged 20 and 28) from a nonconsanguineous family presented wi\u2026",
+          "abstract_full": "BACKGROUND Familial Turner syndrome (TS) is an uncommon sex chromosome abnormality, typically characterized by the transmission of identical X-chromosomal aberrations (eg, partial or complete deletions) within a lineage. The occurrence of familial TS involving distinct karyotypes within the same generation is exceptionally rare and presents unique challenges for genetic counseling and mechanistic understanding. CASE REPORT Two cousins (aged 20 and 28) from a nonconsanguineous family presented with primary amenorrhea, hypergonadotropic hypogonadism, and short stature. Despite striking phenotypic convergence, karyotyping demonstrated 46,X,i(X)(q10) in the proband (III-17) and 45,X in the cousin (III-13). Pelvic ultrasonography showed absent or underdeveloped internal genital organs and gonadal dysgenesis in both patients. Systematic cardiac and renal screening revealed no structural abnormalities. Whole-exome sequencing and copy number variation analysis performed on 11 relatives (including both patients) ruled out pathogenic variants in known TS-associated loci under American College of Medical Genetics and Genomics 2015/2019 criteria; low-level or tissue-restricted mosaicism could not be definitively excluded. A structured literature review was conducted to compare previously reported familial TS patterns. CONCLUSIONS This report documents a rare instance of intrafamilial phenotypic uniformity despite genotypic heterogeneity. The findings support the hypothesis that functional haploinsufficiency of the X-chromosome short arm (Xp) acts as the convergent pathogenic mechanism for the core TS phenotype, regardless of the specific chromosomal error. Clinicians should recognize that familial clustering can occur via distinct cytogenetic mechanisms, requiring broad prenatal screening rather than targeted testing for recurrence, along with careful counseling regarding the uncertainties of heritability versus coincidental de novo events.",
           "bullets": [
-            "Seven DNAH11 heterozygous variants, which involved evolutionarily conserved residues and were predicted to exert deleterious effects, reduce protein stability, change protein conformation, and affect non-covalent\u2026",
-            "In patient 1, three variants in compound heterozygotes, c.[3541A\u2009>\u2009G];[4334G\u2009>\u2009A;12428T\u2009>\u2009C] (p.[(Ser1181Gly)];[(Arg1445Gln;Met4143Thr)]), were confirmed.",
-            "In patient 3, two variants in compound heterozygotes, c.[845T\u2009>\u2009C];[11402C\u2009>\u2009G] (p.[(Met282Thr)];[(Pro3801Arg)]), were confirmed."
+            "Systematic cardiac and renal screening revealed no structural abnormalities.",
+            "Whole-exome sequencing and copy number variation analysis performed on 11 relatives (including both patients) ruled out pathogenic variants in known TS-associated loci under American College of Medical Genetics and\u2026",
+            "Clinicians should recognize that familial clustering can occur via distinct cytogenetic mechanisms, requiring broad prenatal screening rather than targeted testing for recurrence, along with careful counseling regarding\u2026"
           ],
-          "authors": "Zhao K, Yuan L, Xiong Y, et al.",
-          "journal": "PloS one",
+          "authors": "Zeng W, Lin S, Zheng J, et al.",
+          "journal": "The American journal of case reports",
           "year": "2026",
-          "month": "",
-          "doi": "10.1038/s41576-021-00409-w",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42102130/",
-          "ris": "TY  - JOUR\nAU  - Zhao K\nAU  - Yuan L\nAU  - Xiong Y\nTI  - Variants in the DNAH11 gene responsible for primary ciliary dyskinesia or probably atypical primary ciliary dyskinesia presenting left-right asymmetry disorder.\nJO  - PloS one\nPY  - 2026\nDO  - 10.1038/s41576-021-00409-w\nAB  - Primary ciliary dyskinesia (PCD) is a rare multi-system cilia-related disorder, and approximately 50% of individuals with PCD exhibit left-right asymmetry disorder. The dynein axonemal heavy chain 11 gene (DNAH11) pathogenic variants are responsible for primary ciliary dyskinesia 7, with or without \nUR  - https://pubmed.ncbi.nlm.nih.gov/42102130/\nER  - ",
+          "month": "May",
+          "doi": "10.12659/AJCR.951645",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42108647/",
+          "ris": "TY  - JOUR\nAU  - Zeng W\nAU  - Lin S\nAU  - Zheng J\nTI  - Familial Turner Syndrome With Distinct Karyotypes in Two Cousins: Phenotypic Convergence and Genotypic Heterogeneity.\nJO  - The American journal of case reports\nPY  - 2026\nDO  - 10.12659/AJCR.951645\nAB  - BACKGROUND Familial Turner syndrome (TS) is an uncommon sex chromosome abnormality, typically characterized by the transmission of identical X-chromosomal aberrations (eg, partial or complete deletions) within a lineage. The occurrence of familial TS involving distinct karyotypes within the same gen\nUR  - https://pubmed.ncbi.nlm.nih.gov/42108647/\nER  - ",
           "section": "disease_genetics",
           "topic": "CHD_Genetics",
-          "type": "Sequencing study",
+          "type": "Review",
           "score": 1
         }
       ],
-      "total": 6
+      "total": 4
     },
     "prs_disease": {
       "papers": [
@@ -168,8 +124,31 @@
       "total": 1
     },
     "prs_methods": {
-      "papers": [],
-      "total": 0
+      "papers": [
+        {
+          "pmid": "42135902",
+          "title": "Early Clinical, Imaging, and Pathological Characteristics of SRPK3/TTN-Digenic Myopathy.",
+          "abstract": "OBJECTIVE: SRPK3/TTN-digenic myopathy was recently established as a skeletal muscle myopathy caused by digenic inheritance. This study characterizes the early clinical presentation of SRPK3/TTN-digenic myopathy in one previously reported and seven newly identified pediatric patients. METHODS: Next generation sequencing and deep clinical phenotyping provide detailed genetic, clinical, imaging, and histopathological characterization of SRPK3/TTN-digenic myopathy. RESULTS: From the cohort of eight \u2026",
+          "abstract_full": "OBJECTIVE: SRPK3/TTN-digenic myopathy was recently established as a skeletal muscle myopathy caused by digenic inheritance. This study characterizes the early clinical presentation of SRPK3/TTN-digenic myopathy in one previously reported and seven newly identified pediatric patients. METHODS: Next generation sequencing and deep clinical phenotyping provide detailed genetic, clinical, imaging, and histopathological characterization of SRPK3/TTN-digenic myopathy. RESULTS: From the cohort of eight male patients (5-19\u2009years at last evaluation), five presented prenatally with reduced fetal movements. At the time of birth, five had hypotonia, two had contractures, and two had respiratory distress. All patients demonstrated motor delay and muscle weakness within the first 15\u2009months of life. Independent ambulation was achieved in six patients (ages 1.5-4\u2009years); three could run. Variable respiratory compromise was documented as early as 5\u2009years of age, with one patient requiring non-invasive nocturnal ventilation support. Cardiac evaluation was normal in all except one patient who had left ventricular non-compaction cardiomyopathy. Muscle MRI demonstrated mild, slowly progressive fibroadipose replacement of muscle with striking early selective involvement of the semitendinosus muscle. Histopathologic and ultrastructural features mimicked TTN-related myopathy (titinopathy), showing abnormal fiber size variation, increased internally placed nuclei, type 1 fiber predominance, and cores/minicores. INTERPRETATION: This work highlights the early clinical manifestations of SRPK3/TTN-digenic myopathy and demonstrates early muscle imaging patterns and histopathological features that are indistinct from those observed in monogenic biallelic titinopathy cases. These features could help with the potentially challenging interpretation of digenic SRPK3 and TTN variants to allow for a confident clinical diagnosis of this novel congenital myopathy.",
+          "bullets": [
+            "From the cohort of eight male patients (5-19\u2009years at last evaluation), five presented prenatally with reduced fetal movements.",
+            "At the time of birth, five had hypotonia, two had contractures, and two had respiratory distress.",
+            "All patients demonstrated motor delay and muscle weakness within the first 15\u2009months of life."
+          ],
+          "authors": "Orbach R, Donkervoort S, Hedberg-Oldfors C, et al.",
+          "journal": "Annals of clinical and translational neurology",
+          "year": "2026",
+          "month": "May",
+          "doi": "10.1002/acn3.70401",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42135902/",
+          "ris": "TY  - JOUR\nAU  - Orbach R\nAU  - Donkervoort S\nAU  - Hedberg-Oldfors C\nTI  - Early Clinical, Imaging, and Pathological Characteristics of SRPK3/TTN-Digenic Myopathy.\nJO  - Annals of clinical and translational neurology\nPY  - 2026\nDO  - 10.1002/acn3.70401\nAB  - OBJECTIVE: SRPK3/TTN-digenic myopathy was recently established as a skeletal muscle myopathy caused by digenic inheritance. This study characterizes the early clinical presentation of SRPK3/TTN-digenic myopathy in one previously reported and seven newly identified pediatric patients. METHODS: Next g\nUR  - https://pubmed.ncbi.nlm.nih.gov/42135902/\nER  - ",
+          "section": "prs_methods",
+          "topic": "Oligogenic_Digenic",
+          "type": "Methods",
+          "score": 3
+        }
+      ],
+      "total": 1
     },
     "topic_watch": {
       "papers": [
@@ -201,50 +180,6 @@
   },
   "selected_papers": [
     {
-      "pmid": "42093019",
-      "title": "Jagged-1 mutation is associated with congenital heart defects: a case report.",
-      "abstract": "BACKGROUND: Congenital heart defects (CHD) refer to a wide range of heart structural abnormalities that exist at birth, ranging from malformations with a good prognosis to more complicated and severe lesions. Congenital heart defects can result from mutations in genes encoding cell signaling transducers such as Jagged-1 (JAG1). Mutations in JAG1 are linked to rare autosomal-dominant disorders, often resulting from haploinsufficiency in the Notch signaling pathway, which affects organ development\u2026",
-      "abstract_full": "BACKGROUND: Congenital heart defects (CHD) refer to a wide range of heart structural abnormalities that exist at birth, ranging from malformations with a good prognosis to more complicated and severe lesions. Congenital heart defects can result from mutations in genes encoding cell signaling transducers such as Jagged-1 (JAG1). Mutations in JAG1 are linked to rare autosomal-dominant disorders, often resulting from haploinsufficiency in the Notch signaling pathway, which affects organ development. Reporting novel mutations and associated phenotypes emphasizes the importance of tailored approaches based on individual phenotypic and genotypic profiles. Next-generation sequencing techniques facilitate the detection of disease-associated mutations, enabling the development of personalized management strategies. CASE PRESENTATION: Here, we present a case of a Saudi Arabian female child who was born extremely preterm. She required intubation and mechanical ventilation immediately after birth. She developed bronchopulmonary dysplasia and pulmonary hypertension. At 8\u00a0months old, her echocardiogram revealed a large atrial septal defect and a patent ductus arteriosus. She underwent successful patent ductus arteriosus closure. She exhibited severe failure to thrive and was frequently admitted for respiratory infections. Tragically, she passed away at 11\u00a0years of age due to pneumonia and pulmonary hypertensive crises. Exome sequencing of the proband, her parents, and her brother identified a previously undescribed likely pathogenic heterozygous missense variant (c.1127A>G) in the JAG1 gene, inherited from her presumed healthy mother, that is associated with an isolated cardiac phenotype. CONCLUSION: Although JAG1 mutations typically manifest as Alagille syndrome, this case underscores their phenotypic variability, specifically presenting as an isolated congenital heart defect. The clinical course demonstrates that pulmonary hypertension is a severe complication of an atrial septal defect (ASD), where persistent left-to-right shunting triggers irreversible vascular remodeling and terminal right heart failure. Ultimately, this report confirms the incomplete penetrance characteristic of JAG1 variants and suggests that extreme prematurity may function as a significant epigenetic or environmental modifier.",
-      "bullets": [
-        "Although JAG1 mutations typically manifest as Alagille syndrome, this case underscores their phenotypic variability, specifically presenting as an isolated congenital heart defect.",
-        "The clinical course demonstrates that pulmonary hypertension is a severe complication of an atrial septal defect (ASD), where persistent left-to-right shunting triggers irreversible vascular remodeling and terminal\u2026",
-        "Ultimately, this report confirms the incomplete penetrance characteristic of JAG1 variants and suggests that extreme prematurity may function as a significant epigenetic or environmental modifier."
-      ],
-      "authors": "Alahmed O, Alaamery M, Alhabshan F, et al.",
-      "journal": "Journal of medical case reports",
-      "year": "2026",
-      "month": "May",
-      "doi": "10.1186/s13256-026-06096-7",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42093019/",
-      "ris": "TY  - JOUR\nAU  - Alahmed O\nAU  - Alaamery M\nAU  - Alhabshan F\nTI  - Jagged-1 mutation is associated with congenital heart defects: a case report.\nJO  - Journal of medical case reports\nPY  - 2026\nDO  - 10.1186/s13256-026-06096-7\nAB  - BACKGROUND: Congenital heart defects (CHD) refer to a wide range of heart structural abnormalities that exist at birth, ranging from malformations with a good prognosis to more complicated and severe lesions. Congenital heart defects can result from mutations in genes encoding cell signaling transdu\nUR  - https://pubmed.ncbi.nlm.nih.gov/42093019/\nER  - ",
-      "section": "disease_genetics",
-      "topic": "CHD_Genetics",
-      "type": "Epigenetics",
-      "score": 4
-    },
-    {
-      "pmid": "42096100",
-      "title": "Spontaneous Coronary Artery Dissection: Advances in Understanding and Management in Women.",
-      "abstract": "PURPOSE OF REVIEW: Spontaneous coronary artery dissection (SCAD) is an increasingly recognized cause of acute myocardial infarction (MI), particularly among young to middle-aged women without traditional cardiovascular risk factors. This review summarizes recent advances in the understanding, diagnosis, and management of SCAD. RECENT FINDINGS: SCAD results from an intramural hematoma (IMH) or intimal tear causing separation of the coronary arterial wall and compression of the true lumen. Fibromu\u2026",
-      "abstract_full": "PURPOSE OF REVIEW: Spontaneous coronary artery dissection (SCAD) is an increasingly recognized cause of acute myocardial infarction (MI), particularly among young to middle-aged women without traditional cardiovascular risk factors. This review summarizes recent advances in the understanding, diagnosis, and management of SCAD. RECENT FINDINGS: SCAD results from an intramural hematoma (IMH) or intimal tear causing separation of the coronary arterial wall and compression of the true lumen. Fibromuscular dysplasia is the most consistently associated arteriopathy, supporting a systemic vascular vulnerability. Genetic studies suggest a predominantly polygenic architecture, with variants such as PHACTR1 implicated in vascular signaling and endothelial regulation. Coronary angiography remains the diagnostic cornerstone, with intracoronary imaging aiding in uncertain cases, while emerging non-invasive modalities such as photon-counting computed tomography may refine non-invasive diagnosis. Conservative management is preferred in most stable patients because spontaneous healing is common and percutaneous coronary intervention carries procedural challenges. Persistent angina, coronary vasospasm, microvascular dysfunction, and psychological distress are increasingly recognized components of recovery. Multidisciplinary follow-up incorporating cardiac rehabilitation and psychological support is essential to address persistent symptoms and recovery after SCAD. SCAD is a distinct non-atherosclerotic cause of MI driven by an underlying arteriopathy and systemic vascular vulnerability, requiring individualized management, vascular screening, and multidisciplinary follow-up. Ongoing randomized trials and genomic studies aim to refine risk stratification, clarify optimal medication strategies, and improve long-term outcomes and recurrences.",
-      "bullets": [
-        "SCAD results from an intramural hematoma (IMH) or intimal tear causing separation of the coronary arterial wall and compression of the true lumen.",
-        "Fibromuscular dysplasia is the most consistently associated arteriopathy, supporting a systemic vascular vulnerability.",
-        "Genetic studies suggest a predominantly polygenic architecture, with variants such as PHACTR1 implicated in vascular signaling and endothelial regulation."
-      ],
-      "authors": "Chai J, Saw J",
-      "journal": "Current atherosclerosis reports",
-      "year": "2026",
-      "month": "May",
-      "doi": "10.1177/1358863X18821816",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42096100/",
-      "ris": "TY  - JOUR\nAU  - Chai J\nAU  - Saw J\nTI  - Spontaneous Coronary Artery Dissection: Advances in Understanding and Management in Women.\nJO  - Current atherosclerosis reports\nPY  - 2026\nDO  - 10.1177/1358863X18821816\nAB  - PURPOSE OF REVIEW: Spontaneous coronary artery dissection (SCAD) is an increasingly recognized cause of acute myocardial infarction (MI), particularly among young to middle-aged women without traditional cardiovascular risk factors. This review summarizes recent advances in the understanding, diagno\nUR  - https://pubmed.ncbi.nlm.nih.gov/42096100/\nER  - ",
-      "section": "disease_genetics",
-      "topic": "SCAD_Genetics",
-      "type": "Review",
-      "score": 4
-    },
-    {
       "pmid": "41983892",
       "title": "ZNF827 pleiotropic cardiovascular risk locus involves regulation by nuclear factor-1.",
       "abstract": "Spontaneous coronary artery dissection (SCAD) is a form of myocardial infarction that predominantly affects middle-aged women, caused by the spontaneous onset of an intramural hematoma leading to heart ischemia. SCAD genetic risk loci, such as the ZNF827 locus on chromosome 4, were previously associated with the risk for coronary artery disease, systolic blood pressure, and ascending aortic diameter variability, but the molecular processes driving these genetic associations are unknown. In the p\u2026",
@@ -258,13 +193,35 @@
       "journal": "Clinical science (London, England : 1979)",
       "year": "2026",
       "month": "May",
-      "doi": "10.1042/CS20257956",
+      "doi": "10.1186/1748-7188-2-15",
       "url": "https://pubmed.ncbi.nlm.nih.gov/41983892/",
-      "ris": "TY  - JOUR\nAU  - Liu Y\nAU  - Liu L\nAU  - Esmael A\nTI  - ZNF827 pleiotropic cardiovascular risk locus involves regulation by nuclear factor-1.\nJO  - Clinical science (London, England : 1979)\nPY  - 2026\nDO  - 10.1042/CS20257956\nAB  - Spontaneous coronary artery dissection (SCAD) is a form of myocardial infarction that predominantly affects middle-aged women, caused by the spontaneous onset of an intramural hematoma leading to heart ischemia. SCAD genetic risk loci, such as the ZNF827 locus on chromosome 4, were previously associ\nUR  - https://pubmed.ncbi.nlm.nih.gov/41983892/\nER  - ",
+      "ris": "TY  - JOUR\nAU  - Liu Y\nAU  - Liu L\nAU  - Esmael A\nTI  - ZNF827 pleiotropic cardiovascular risk locus involves regulation by nuclear factor-1.\nJO  - Clinical science (London, England : 1979)\nPY  - 2026\nDO  - 10.1186/1748-7188-2-15\nAB  - Spontaneous coronary artery dissection (SCAD) is a form of myocardial infarction that predominantly affects middle-aged women, caused by the spontaneous onset of an intramural hematoma leading to heart ischemia. SCAD genetic risk loci, such as the ZNF827 locus on chromosome 4, were previously associ\nUR  - https://pubmed.ncbi.nlm.nih.gov/41983892/\nER  - ",
       "section": "disease_genetics",
       "topic": "SCAD_Genetics",
       "type": "Epigenetics",
       "score": 4
+    },
+    {
+      "pmid": "42135902",
+      "title": "Early Clinical, Imaging, and Pathological Characteristics of SRPK3/TTN-Digenic Myopathy.",
+      "abstract": "OBJECTIVE: SRPK3/TTN-digenic myopathy was recently established as a skeletal muscle myopathy caused by digenic inheritance. This study characterizes the early clinical presentation of SRPK3/TTN-digenic myopathy in one previously reported and seven newly identified pediatric patients. METHODS: Next generation sequencing and deep clinical phenotyping provide detailed genetic, clinical, imaging, and histopathological characterization of SRPK3/TTN-digenic myopathy. RESULTS: From the cohort of eight \u2026",
+      "abstract_full": "OBJECTIVE: SRPK3/TTN-digenic myopathy was recently established as a skeletal muscle myopathy caused by digenic inheritance. This study characterizes the early clinical presentation of SRPK3/TTN-digenic myopathy in one previously reported and seven newly identified pediatric patients. METHODS: Next generation sequencing and deep clinical phenotyping provide detailed genetic, clinical, imaging, and histopathological characterization of SRPK3/TTN-digenic myopathy. RESULTS: From the cohort of eight male patients (5-19\u2009years at last evaluation), five presented prenatally with reduced fetal movements. At the time of birth, five had hypotonia, two had contractures, and two had respiratory distress. All patients demonstrated motor delay and muscle weakness within the first 15\u2009months of life. Independent ambulation was achieved in six patients (ages 1.5-4\u2009years); three could run. Variable respiratory compromise was documented as early as 5\u2009years of age, with one patient requiring non-invasive nocturnal ventilation support. Cardiac evaluation was normal in all except one patient who had left ventricular non-compaction cardiomyopathy. Muscle MRI demonstrated mild, slowly progressive fibroadipose replacement of muscle with striking early selective involvement of the semitendinosus muscle. Histopathologic and ultrastructural features mimicked TTN-related myopathy (titinopathy), showing abnormal fiber size variation, increased internally placed nuclei, type 1 fiber predominance, and cores/minicores. INTERPRETATION: This work highlights the early clinical manifestations of SRPK3/TTN-digenic myopathy and demonstrates early muscle imaging patterns and histopathological features that are indistinct from those observed in monogenic biallelic titinopathy cases. These features could help with the potentially challenging interpretation of digenic SRPK3 and TTN variants to allow for a confident clinical diagnosis of this novel congenital myopathy.",
+      "bullets": [
+        "From the cohort of eight male patients (5-19\u2009years at last evaluation), five presented prenatally with reduced fetal movements.",
+        "At the time of birth, five had hypotonia, two had contractures, and two had respiratory distress.",
+        "All patients demonstrated motor delay and muscle weakness within the first 15\u2009months of life."
+      ],
+      "authors": "Orbach R, Donkervoort S, Hedberg-Oldfors C, et al.",
+      "journal": "Annals of clinical and translational neurology",
+      "year": "2026",
+      "month": "May",
+      "doi": "10.1002/acn3.70401",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42135902/",
+      "ris": "TY  - JOUR\nAU  - Orbach R\nAU  - Donkervoort S\nAU  - Hedberg-Oldfors C\nTI  - Early Clinical, Imaging, and Pathological Characteristics of SRPK3/TTN-Digenic Myopathy.\nJO  - Annals of clinical and translational neurology\nPY  - 2026\nDO  - 10.1002/acn3.70401\nAB  - OBJECTIVE: SRPK3/TTN-digenic myopathy was recently established as a skeletal muscle myopathy caused by digenic inheritance. This study characterizes the early clinical presentation of SRPK3/TTN-digenic myopathy in one previously reported and seven newly identified pediatric patients. METHODS: Next g\nUR  - https://pubmed.ncbi.nlm.nih.gov/42135902/\nER  - ",
+      "section": "prs_methods",
+      "topic": "Oligogenic_Digenic",
+      "type": "Methods",
+      "score": 3
     },
     {
       "pmid": "41855523",
@@ -289,25 +246,25 @@
       "score": 2
     },
     {
-      "pmid": "42103847",
-      "title": "A rare mutation (p.Ala264Thr) of GATA4 is responsible for atrial septal defect and pulmonary valve stenosis.",
-      "abstract": "Atrial septal defect (ASD) is a type of congenital heart defect characterized by the absence of atrial septal tissue. Research has shown that genetic factors play a significant role in the development of ASD. Variants in genes such as GATA binding protein 4 (GATA4), NK2 homeobox 5, and T-box transcription factor 5 have been identified in patients with ASD. In this study, we enrolled a Chinese family affected by ASD and PS. Whole exome sequencing and Sanger sequencing were used to investigate the\u2026",
-      "abstract_full": "Atrial septal defect (ASD) is a type of congenital heart defect characterized by the absence of atrial septal tissue. Research has shown that genetic factors play a significant role in the development of ASD. Variants in genes such as GATA binding protein 4 (GATA4), NK2 homeobox 5, and T-box transcription factor 5 have been identified in patients with ASD. In this study, we enrolled a Chinese family affected by ASD and PS. Whole exome sequencing and Sanger sequencing were used to investigate the genetic basis of lesions in this family. The AC16 cell line was used to perform the functional study. After data filtering and co-segregation analysis, we identified a rare mutation (NM_001308093.3: c.790G\u2009>\u2009A, p.Ala264Thr) in the GATA4 gene in the affected family members that was absent in the unaffected individuals. Bioinformatic analysis revealed that the newly identified mutation was deleterious and altered the hydrophobicity, size and polar of the GATA4 protein. Functional studies revealed that this rare mutation disrupted the stability of GATA4 and reduced the ability of GATA4 to activate the downstream target genes. Our findings highlight the importance of the N-terminal zinc finger structure of GATA4 in cardiac development. Additionally, our study contributes to the genetic diagnosis and counseling of families with congenital heart disease.",
+      "pmid": "41771111",
+      "title": "Clinical characteristics and outcomes of cardiomyopathies related to immune-mediated diseases.",
+      "abstract": "AIMS: Dilated cardiomyopathy (DCM) encompasses genetic and acquired aetiologies, yet the impact of immune-mediated mechanisms remains unclear. This study investigates the clinical characteristics and outcomes of immune-mediated DCM (ID-CMP). METHODS: From the Maastricht Cardiomyopathy registry, 194 patients with ID-CMP were compared with 678 non-immune DCM controls over a median follow-up of 5.2 (3.7-10.7) years. ID-CMP was categorized into autoimmune-mediated (adaptive immunity dysfunction), au\u2026",
+      "abstract_full": "AIMS: Dilated cardiomyopathy (DCM) encompasses genetic and acquired aetiologies, yet the impact of immune-mediated mechanisms remains unclear. This study investigates the clinical characteristics and outcomes of immune-mediated DCM (ID-CMP). METHODS: From the Maastricht Cardiomyopathy registry, 194 patients with ID-CMP were compared with 678 non-immune DCM controls over a median follow-up of 5.2 (3.7-10.7) years. ID-CMP was categorized into autoimmune-mediated (adaptive immunity dysfunction), autoinflammatory-driven (innate immunity dysfunction), and mixed-pattern (MHC Class I associations and autoinflammatory components). Patients with features of >1 category were classified as overlapping-CMP. Echocardiographic and genetic data were collected. Cox regression assessed major adverse cardiovascular events (MACE: cardiac mortality, heart failure hospitalization, life-threatening arrhythmias). Left ventricular ejection fraction (LVEF) trajectories were analysed using linear mixed-effects models. Findings were validated in an independent cohort of 201 ID-CMP patients. RESULTS: ID-CMP was associated with a higher risk of MACE [HR: 1.68 (1.1-2.5), P = .012] after adjustment for age, sex, and baseline LVEF, confirmed in an external validation cohort [HR:2.40 (1.6-3.5), P < .001]. LVEF was lower in ID-CMP during the first year but converged with non-immune DCM thereafter (P0-1year = .018; P>1year = ns). Outcomes did not differ among ID-CMP subtypes. Inflammation on EMB was related to worse clinical outcome [HR:2.0 (1.1-3.6), P = .017]. Pathogenic DCM gene variants were equally frequent in ID-CMP and non-ID-CMP patients (22% vs 20%, P = ns). CONCLUSION: ID-CMP patients have a higher risk of MACE despite similar LVEF trajectories, as confirmed in a validation cohort. Cardiac immune cell infiltration suggests an inflammatory substrate independent of genetics.",
       "bullets": [
-        "After data filtering and co-segregation analysis, we identified a rare mutation (NM_001308093.3: c.790G\u2009>\u2009A, p.Ala264Thr) in the GATA4 gene in the affected family members that was absent in the unaffected individuals.",
-        "Bioinformatic analysis revealed that the newly identified mutation was deleterious and altered the hydrophobicity, size and polar of the GATA4 protein.",
-        "Our findings highlight the importance of the N-terminal zinc finger structure of GATA4 in cardiac development."
+        "ID-CMP was associated with a higher risk of MACE [HR: 1.68 (1.1-2.5), P = .012] after adjustment for age, sex, and baseline LVEF, confirmed in an external validation cohort [HR:2.40 (1.6-3.5), P < .001].",
+        "LVEF was lower in ID-CMP during the first year but converged with non-immune DCM thereafter (P0-1year = .018; P>1year = ns).",
+        "Outcomes did not differ among ID-CMP subtypes."
       ],
-      "authors": "Zhang A, Long J, Xue W, et al.",
-      "journal": "Scientific reports",
+      "authors": "Rossi V, Sikking M, Folgheraiter A, et al.",
+      "journal": "European journal of heart failure",
       "year": "2026",
       "month": "May",
-      "doi": "10.1038/s41598-026-52332-x",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42103847/",
-      "ris": "TY  - JOUR\nAU  - Zhang A\nAU  - Long J\nAU  - Xue W\nTI  - A rare mutation (p.Ala264Thr) of GATA4 is responsible for atrial septal defect and pulmonary valve stenosis.\nJO  - Scientific reports\nPY  - 2026\nDO  - 10.1038/s41598-026-52332-x\nAB  - Atrial septal defect (ASD) is a type of congenital heart defect characterized by the absence of atrial septal tissue. Research has shown that genetic factors play a significant role in the development of ASD. Variants in genes such as GATA binding protein 4 (GATA4), NK2 homeobox 5, and T-box transcr\nUR  - https://pubmed.ncbi.nlm.nih.gov/42103847/\nER  - ",
+      "doi": "10.1093/ejhf/xuaf030",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41771111/",
+      "ris": "TY  - JOUR\nAU  - Rossi V\nAU  - Sikking M\nAU  - Folgheraiter A\nTI  - Clinical characteristics and outcomes of cardiomyopathies related to immune-mediated diseases.\nJO  - European journal of heart failure\nPY  - 2026\nDO  - 10.1093/ejhf/xuaf030\nAB  - AIMS: Dilated cardiomyopathy (DCM) encompasses genetic and acquired aetiologies, yet the impact of immune-mediated mechanisms remains unclear. This study investigates the clinical characteristics and outcomes of immune-mediated DCM (ID-CMP). METHODS: From the Maastricht Cardiomyopathy registry, 194 \nUR  - https://pubmed.ncbi.nlm.nih.gov/41771111/\nER  - ",
       "section": "disease_genetics",
-      "topic": "CHD_Genetics",
-      "type": "Sequencing study",
+      "topic": "DCM_Genetics",
+      "type": "Research article",
       "score": 2
     },
     {
@@ -333,25 +290,25 @@
       "score": 2
     },
     {
-      "pmid": "42102130",
-      "title": "Variants in the DNAH11 gene responsible for primary ciliary dyskinesia or probably atypical primary ciliary dyskinesia presenting left-right asymmetry disorder.",
-      "abstract": "Primary ciliary dyskinesia (PCD) is a rare multi-system cilia-related disorder, and approximately 50% of individuals with PCD exhibit left-right asymmetry disorder. The dynein axonemal heavy chain 11 gene (DNAH11) pathogenic variants are responsible for primary ciliary dyskinesia 7, with or without left-right asymmetry disorder. This study aimed to detect the pathogenic variants in three unrelated patients diagnosed with PCD or left-right asymmetry disorder based on the clinical and imaging exam\u2026",
-      "abstract_full": "Primary ciliary dyskinesia (PCD) is a rare multi-system cilia-related disorder, and approximately 50% of individuals with PCD exhibit left-right asymmetry disorder. The dynein axonemal heavy chain 11 gene (DNAH11) pathogenic variants are responsible for primary ciliary dyskinesia 7, with or without left-right asymmetry disorder. This study aimed to detect the pathogenic variants in three unrelated patients diagnosed with PCD or left-right asymmetry disorder based on the clinical and imaging examinations. Whole exome sequencing, Sanger sequencing, and comprehensive bioinformatics analyses were performed. Seven DNAH11 heterozygous variants, which involved evolutionarily conserved residues and were predicted to exert deleterious effects, reduce protein stability, change protein conformation, and affect non-covalent residue's interactions, were identified as potential pathogenic factors responsible for these patients, respectively. In patient 1, three variants in compound heterozygotes, c.[3541A\u2009>\u2009G];[4334G\u2009>\u2009A;12428T\u2009>\u2009C] (p.[(Ser1181Gly)];[(Arg1445Gln;Met4143Thr)]), were confirmed. In patient 2, two variants in potential compound heterozygotes, c.2912A\u2009>\u2009G(;)7980A\u2009>\u2009T (p.(Asp971Gly)(;)(Gln2660His)), were detected. In patient 3, two variants in compound heterozygotes, c.[845T\u2009>\u2009C];[11402C\u2009>\u2009G] (p.[(Met282Thr)];[(Pro3801Arg)]), were confirmed. The phenotypes observed in these patients are consistent with typical/probably atypical PCD or DNAH11-associated ciliopathy, although functional validation is needed to confirm variant pathogenicity. These findings expand the phenotypic spectrum of DNAH11 variants and may facilitate more accurate genetic diagnosis and counseling.",
+      "pmid": "42108647",
+      "title": "Familial Turner Syndrome With Distinct Karyotypes in Two Cousins: Phenotypic Convergence and Genotypic Heterogeneity.",
+      "abstract": "BACKGROUND Familial Turner syndrome (TS) is an uncommon sex chromosome abnormality, typically characterized by the transmission of identical X-chromosomal aberrations (eg, partial or complete deletions) within a lineage. The occurrence of familial TS involving distinct karyotypes within the same generation is exceptionally rare and presents unique challenges for genetic counseling and mechanistic understanding. CASE REPORT Two cousins (aged 20 and 28) from a nonconsanguineous family presented wi\u2026",
+      "abstract_full": "BACKGROUND Familial Turner syndrome (TS) is an uncommon sex chromosome abnormality, typically characterized by the transmission of identical X-chromosomal aberrations (eg, partial or complete deletions) within a lineage. The occurrence of familial TS involving distinct karyotypes within the same generation is exceptionally rare and presents unique challenges for genetic counseling and mechanistic understanding. CASE REPORT Two cousins (aged 20 and 28) from a nonconsanguineous family presented with primary amenorrhea, hypergonadotropic hypogonadism, and short stature. Despite striking phenotypic convergence, karyotyping demonstrated 46,X,i(X)(q10) in the proband (III-17) and 45,X in the cousin (III-13). Pelvic ultrasonography showed absent or underdeveloped internal genital organs and gonadal dysgenesis in both patients. Systematic cardiac and renal screening revealed no structural abnormalities. Whole-exome sequencing and copy number variation analysis performed on 11 relatives (including both patients) ruled out pathogenic variants in known TS-associated loci under American College of Medical Genetics and Genomics 2015/2019 criteria; low-level or tissue-restricted mosaicism could not be definitively excluded. A structured literature review was conducted to compare previously reported familial TS patterns. CONCLUSIONS This report documents a rare instance of intrafamilial phenotypic uniformity despite genotypic heterogeneity. The findings support the hypothesis that functional haploinsufficiency of the X-chromosome short arm (Xp) acts as the convergent pathogenic mechanism for the core TS phenotype, regardless of the specific chromosomal error. Clinicians should recognize that familial clustering can occur via distinct cytogenetic mechanisms, requiring broad prenatal screening rather than targeted testing for recurrence, along with careful counseling regarding the uncertainties of heritability versus coincidental de novo events.",
       "bullets": [
-        "Seven DNAH11 heterozygous variants, which involved evolutionarily conserved residues and were predicted to exert deleterious effects, reduce protein stability, change protein conformation, and affect non-covalent\u2026",
-        "In patient 1, three variants in compound heterozygotes, c.[3541A\u2009>\u2009G];[4334G\u2009>\u2009A;12428T\u2009>\u2009C] (p.[(Ser1181Gly)];[(Arg1445Gln;Met4143Thr)]), were confirmed.",
-        "In patient 3, two variants in compound heterozygotes, c.[845T\u2009>\u2009C];[11402C\u2009>\u2009G] (p.[(Met282Thr)];[(Pro3801Arg)]), were confirmed."
+        "Systematic cardiac and renal screening revealed no structural abnormalities.",
+        "Whole-exome sequencing and copy number variation analysis performed on 11 relatives (including both patients) ruled out pathogenic variants in known TS-associated loci under American College of Medical Genetics and\u2026",
+        "Clinicians should recognize that familial clustering can occur via distinct cytogenetic mechanisms, requiring broad prenatal screening rather than targeted testing for recurrence, along with careful counseling regarding\u2026"
       ],
-      "authors": "Zhao K, Yuan L, Xiong Y, et al.",
-      "journal": "PloS one",
+      "authors": "Zeng W, Lin S, Zheng J, et al.",
+      "journal": "The American journal of case reports",
       "year": "2026",
-      "month": "",
-      "doi": "10.1038/s41576-021-00409-w",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42102130/",
-      "ris": "TY  - JOUR\nAU  - Zhao K\nAU  - Yuan L\nAU  - Xiong Y\nTI  - Variants in the DNAH11 gene responsible for primary ciliary dyskinesia or probably atypical primary ciliary dyskinesia presenting left-right asymmetry disorder.\nJO  - PloS one\nPY  - 2026\nDO  - 10.1038/s41576-021-00409-w\nAB  - Primary ciliary dyskinesia (PCD) is a rare multi-system cilia-related disorder, and approximately 50% of individuals with PCD exhibit left-right asymmetry disorder. The dynein axonemal heavy chain 11 gene (DNAH11) pathogenic variants are responsible for primary ciliary dyskinesia 7, with or without \nUR  - https://pubmed.ncbi.nlm.nih.gov/42102130/\nER  - ",
+      "month": "May",
+      "doi": "10.12659/AJCR.951645",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42108647/",
+      "ris": "TY  - JOUR\nAU  - Zeng W\nAU  - Lin S\nAU  - Zheng J\nTI  - Familial Turner Syndrome With Distinct Karyotypes in Two Cousins: Phenotypic Convergence and Genotypic Heterogeneity.\nJO  - The American journal of case reports\nPY  - 2026\nDO  - 10.12659/AJCR.951645\nAB  - BACKGROUND Familial Turner syndrome (TS) is an uncommon sex chromosome abnormality, typically characterized by the transmission of identical X-chromosomal aberrations (eg, partial or complete deletions) within a lineage. The occurrence of familial TS involving distinct karyotypes within the same gen\nUR  - https://pubmed.ncbi.nlm.nih.gov/42108647/\nER  - ",
       "section": "disease_genetics",
       "topic": "CHD_Genetics",
-      "type": "Sequencing study",
+      "type": "Review",
       "score": 1
     },
     {
@@ -377,12 +334,13 @@
       "score": 0
     }
   ],
-  "summary_text": "8 papers selected from this week's literature:\n  \u2022 6 \u00d7 disease genetics (CHD / DCM / SCAD)\n  \u2022 1 \u00d7 epigenetics / methylation\n  \u2022 1 \u00d7 PRS in CHD/DCM/SCAD\n\nHighlight: Jagged-1 mutation is associated with congenital heart defects: a case report. (Journal of medical case reports, 2026)",
+  "summary_text": "7 papers selected from this week's literature:\n  \u2022 4 \u00d7 disease genetics (CHD / DCM / SCAD)\n  \u2022 1 \u00d7 PRS & oligogenic methods\n  \u2022 1 \u00d7 epigenetics / methylation\n  \u2022 1 \u00d7 PRS in CHD/DCM/SCAD\n\nHighlight: ZNF827 pleiotropic cardiovascular risk locus involves regulation by nuclear factor-1. (Clinical science (London, England : 1979), 2026)",
   "summary": {
-    "total_selected": 8,
-    "total_candidates": 8,
+    "total_selected": 7,
+    "total_candidates": 7,
     "section_counts": {
-      "disease_genetics": 6,
+      "disease_genetics": 4,
+      "prs_methods": 1,
       "topic_watch": 1,
       "prs_disease": 1
     }
