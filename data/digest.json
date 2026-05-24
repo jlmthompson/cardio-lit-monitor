@@ -1,10 +1,32 @@
 {
-  "generated": "2026-05-17T21:41:55.241105",
+  "generated": "2026-05-24T21:42:41.264630",
   "lookback_days": 7,
-  "cutoff_date": "2026/05/10",
+  "cutoff_date": "2026/05/17",
   "sections": {
     "disease_genetics": {
       "papers": [
+        {
+          "pmid": "42151586",
+          "title": "Epidemiology of non-ischaemic dilated cardiomyopathy.",
+          "abstract": "Dilated cardiomyopathy, defined by left ventricular dilatation and systolic dysfunction, is a major cause of heart failure, heart transplantation and sudden cardiac death, especially in young and middle-aged adults. Dilated cardiomyopathy of non-ischaemic aetiology is more common than once thought, with current prevalence estimated at around 1 in 220 based on cardiac magnetic resonance imaging studies, and the prevalence is twice as high in men than in women. However, the true prevalence could b\u2026",
+          "abstract_full": "Dilated cardiomyopathy, defined by left ventricular dilatation and systolic dysfunction, is a major cause of heart failure, heart transplantation and sudden cardiac death, especially in young and middle-aged adults. Dilated cardiomyopathy of non-ischaemic aetiology is more common than once thought, with current prevalence estimated at around 1 in 220 based on cardiac magnetic resonance imaging studies, and the prevalence is twice as high in men than in women. However, the true prevalence could be even higher when early or subclinical forms of the disease are considered. Advances in genetic technologies over the past three decades have led to improved understanding of the genetic basis of non-ischaemic dilated cardiomyopathy and the identification of pathogenic variants in 30-40% of patients. The genetic architecture of this disease is complex and heterogeneous. Rather than being a strictly monogenic disorder, dilated cardiomyopathy results from a combination of monogenic and polygenic factors, along with gene-environment interactions as critical modifiers of disease penetrance and phenotype. A deeper understanding of the genetic factors and epidemiological landscape of dilated cardiomyopathy is crucial for improving clinical management and optimizing screening protocols and public health strategies.",
+          "bullets": [
+            "Advances in genetic technologies over the past three decades have led to improved understanding of the genetic basis of non-ischaemic dilated cardiomyopathy and the identification of pathogenic variants in 30-40% of\u2026",
+            "Rather than being a strictly monogenic disorder, dilated cardiomyopathy results from a combination of monogenic and polygenic factors, along with gene-environment interactions as critical modifiers of disease penetrance\u2026",
+            "A deeper understanding of the genetic factors and epidemiological landscape of dilated cardiomyopathy is crucial for improving clinical management and optimizing screening protocols and public health strategies."
+          ],
+          "authors": "Ramos-L\u00f3pez N, Dom\u00ednguez F, Ochoa J, et al.",
+          "journal": "Nature reviews. Cardiology",
+          "year": "2026",
+          "month": "May",
+          "doi": "10.1016/j.jchf.2023.09.015",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42151586/",
+          "ris": "TY  - JOUR\nAU  - Ramos-L\u00f3pez N\nAU  - Dom\u00ednguez F\nAU  - Ochoa J\nTI  - Epidemiology of non-ischaemic dilated cardiomyopathy.\nJO  - Nature reviews. Cardiology\nPY  - 2026\nDO  - 10.1016/j.jchf.2023.09.015\nAB  - Dilated cardiomyopathy, defined by left ventricular dilatation and systolic dysfunction, is a major cause of heart failure, heart transplantation and sudden cardiac death, especially in young and middle-aged adults. Dilated cardiomyopathy of non-ischaemic aetiology is more common than once thought, \nUR  - https://pubmed.ncbi.nlm.nih.gov/42151586/\nER  - ",
+          "section": "disease_genetics",
+          "topic": "DCM_Genetics",
+          "type": "Research article",
+          "score": 7
+        },
         {
           "pmid": "41983892",
           "title": "ZNF827 pleiotropic cardiovascular risk locus involves regulation by nuclear factor-1.",
@@ -26,75 +48,9 @@
           "topic": "SCAD_Genetics",
           "type": "Epigenetics",
           "score": 4
-        },
-        {
-          "pmid": "41771111",
-          "title": "Clinical characteristics and outcomes of cardiomyopathies related to immune-mediated diseases.",
-          "abstract": "AIMS: Dilated cardiomyopathy (DCM) encompasses genetic and acquired aetiologies, yet the impact of immune-mediated mechanisms remains unclear. This study investigates the clinical characteristics and outcomes of immune-mediated DCM (ID-CMP). METHODS: From the Maastricht Cardiomyopathy registry, 194 patients with ID-CMP were compared with 678 non-immune DCM controls over a median follow-up of 5.2 (3.7-10.7) years. ID-CMP was categorized into autoimmune-mediated (adaptive immunity dysfunction), au\u2026",
-          "abstract_full": "AIMS: Dilated cardiomyopathy (DCM) encompasses genetic and acquired aetiologies, yet the impact of immune-mediated mechanisms remains unclear. This study investigates the clinical characteristics and outcomes of immune-mediated DCM (ID-CMP). METHODS: From the Maastricht Cardiomyopathy registry, 194 patients with ID-CMP were compared with 678 non-immune DCM controls over a median follow-up of 5.2 (3.7-10.7) years. ID-CMP was categorized into autoimmune-mediated (adaptive immunity dysfunction), autoinflammatory-driven (innate immunity dysfunction), and mixed-pattern (MHC Class I associations and autoinflammatory components). Patients with features of >1 category were classified as overlapping-CMP. Echocardiographic and genetic data were collected. Cox regression assessed major adverse cardiovascular events (MACE: cardiac mortality, heart failure hospitalization, life-threatening arrhythmias). Left ventricular ejection fraction (LVEF) trajectories were analysed using linear mixed-effects models. Findings were validated in an independent cohort of 201 ID-CMP patients. RESULTS: ID-CMP was associated with a higher risk of MACE [HR: 1.68 (1.1-2.5), P = .012] after adjustment for age, sex, and baseline LVEF, confirmed in an external validation cohort [HR:2.40 (1.6-3.5), P < .001]. LVEF was lower in ID-CMP during the first year but converged with non-immune DCM thereafter (P0-1year = .018; P>1year = ns). Outcomes did not differ among ID-CMP subtypes. Inflammation on EMB was related to worse clinical outcome [HR:2.0 (1.1-3.6), P = .017]. Pathogenic DCM gene variants were equally frequent in ID-CMP and non-ID-CMP patients (22% vs 20%, P = ns). CONCLUSION: ID-CMP patients have a higher risk of MACE despite similar LVEF trajectories, as confirmed in a validation cohort. Cardiac immune cell infiltration suggests an inflammatory substrate independent of genetics.",
-          "bullets": [
-            "ID-CMP was associated with a higher risk of MACE [HR: 1.68 (1.1-2.5), P = .012] after adjustment for age, sex, and baseline LVEF, confirmed in an external validation cohort [HR:2.40 (1.6-3.5), P < .001].",
-            "LVEF was lower in ID-CMP during the first year but converged with non-immune DCM thereafter (P0-1year = .018; P>1year = ns).",
-            "Outcomes did not differ among ID-CMP subtypes."
-          ],
-          "authors": "Rossi V, Sikking M, Folgheraiter A, et al.",
-          "journal": "European journal of heart failure",
-          "year": "2026",
-          "month": "May",
-          "doi": "10.1093/ejhf/xuaf030",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/41771111/",
-          "ris": "TY  - JOUR\nAU  - Rossi V\nAU  - Sikking M\nAU  - Folgheraiter A\nTI  - Clinical characteristics and outcomes of cardiomyopathies related to immune-mediated diseases.\nJO  - European journal of heart failure\nPY  - 2026\nDO  - 10.1093/ejhf/xuaf030\nAB  - AIMS: Dilated cardiomyopathy (DCM) encompasses genetic and acquired aetiologies, yet the impact of immune-mediated mechanisms remains unclear. This study investigates the clinical characteristics and outcomes of immune-mediated DCM (ID-CMP). METHODS: From the Maastricht Cardiomyopathy registry, 194 \nUR  - https://pubmed.ncbi.nlm.nih.gov/41771111/\nER  - ",
-          "section": "disease_genetics",
-          "topic": "DCM_Genetics",
-          "type": "Research article",
-          "score": 2
-        },
-        {
-          "pmid": "41747776",
-          "title": "Inflammatory cardiomyopathy: Position paper of the Italian Society of Cardiology Working Group on cardiomyopathies and pericardial diseases in collaboration with the Italian Society of Cardiology Working Group on cardiac magnetic resonance.",
-          "abstract": "Inflammatory cardiomyopathy (iCMP) usually represents the chronic, hypokinetic phenotype within the myocarditis spectrum, characterized by persistent myocardial inflammation, systolic ventricular dysfunction, and adverse remodelling. It frequently evolves from prior acute or subacute myocarditis and is associated with significantly worse outcomes, including progression to dilated cardiomyopathy, heart failure, and arrhythmias. The condition arises from heterogeneous causes-infectious, autoimmune\u2026",
-          "abstract_full": "Inflammatory cardiomyopathy (iCMP) usually represents the chronic, hypokinetic phenotype within the myocarditis spectrum, characterized by persistent myocardial inflammation, systolic ventricular dysfunction, and adverse remodelling. It frequently evolves from prior acute or subacute myocarditis and is associated with significantly worse outcomes, including progression to dilated cardiomyopathy, heart failure, and arrhythmias. The condition arises from heterogeneous causes-infectious, autoimmune, or idiopathic-and may be influenced by genetic susceptibility, supporting a two-hit model in which environmental triggers interact with pathogenic variants. Diagnosis requires a multimodal approach. While clinical presentation is variable and often non-specific, cardiac magnetic resonance (CMR) provides essential tissue characterization, enabling detection of inflammation and fibrosis. Endomyocardial biopsy (EMB) remains critical for defining histologic subtype, identifying viral genomes, and guiding targeted therapy, especially in intermediate- or high-risk cases. Genetic testing assists in differentiating inherited CMPs and recognizing forms with distinctive inflammatory behavior, such as desmoplakin CMP. Management focuses on guideline-directed medical therapy for heart failure and treatment of underlying aetiologies. In biopsy-proven, virus-negative iCMP, immunosuppressive therapy may improve ventricular function and limit adverse remodelling, while antiviral strategies remain reserved for selected virus-positive cases. Arrhythmia management, including ICD implantation, is essential in patients with substantial fibrotic burden or arrhythmias. Prognosis depends on ventricular function, extent of fibrosis, viral persistence, arrhythmic burden, and recurrence of inflammatory \"hot phases.\" Lifelong follow-up is warranted. This position paper provides a comprehensive framework for the diagnosis, risk stratification, and management of iCMP, highlighting current evidence, guideline alignment, and remaining gaps.",
-          "bullets": [
-            "It frequently evolves from prior acute or subacute myocarditis and is associated with significantly worse outcomes, including progression to dilated cardiomyopathy, heart failure, and arrhythmias.",
-            "Prognosis depends on ventricular function, extent of fibrosis, viral persistence, arrhythmic burden, and recurrence of inflammatory \"hot phases.\" Lifelong follow-up is warranted.",
-            "This position paper provides a comprehensive framework for the diagnosis, risk stratification, and management of iCMP, highlighting current evidence, guideline alignment, and remaining gaps."
-          ],
-          "authors": "Imazio M, Jahnsen V, Merlo M, et al.",
-          "journal": "International journal of cardiology",
-          "year": "2026",
-          "month": "May",
-          "doi": "10.1016/j.ijcard.2026.134249",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/41747776/",
-          "ris": "TY  - JOUR\nAU  - Imazio M\nAU  - Jahnsen V\nAU  - Merlo M\nTI  - Inflammatory cardiomyopathy: Position paper of the Italian Society of Cardiology Working Group on cardiomyopathies and pericardial diseases in collaboration with the Italian Society of Cardiology Working Group on cardiac magnetic resonance.\nJO  - International journal of cardiology\nPY  - 2026\nDO  - 10.1016/j.ijcard.2026.134249\nAB  - Inflammatory cardiomyopathy (iCMP) usually represents the chronic, hypokinetic phenotype within the myocarditis spectrum, characterized by persistent myocardial inflammation, systolic ventricular dysfunction, and adverse remodelling. It frequently evolves from prior acute or subacute myocarditis and\nUR  - https://pubmed.ncbi.nlm.nih.gov/41747776/\nER  - ",
-          "section": "disease_genetics",
-          "topic": "DCM_Genetics",
-          "type": "Research article",
-          "score": 2
-        },
-        {
-          "pmid": "42108647",
-          "title": "Familial Turner Syndrome With Distinct Karyotypes in Two Cousins: Phenotypic Convergence and Genotypic Heterogeneity.",
-          "abstract": "BACKGROUND Familial Turner syndrome (TS) is an uncommon sex chromosome abnormality, typically characterized by the transmission of identical X-chromosomal aberrations (eg, partial or complete deletions) within a lineage. The occurrence of familial TS involving distinct karyotypes within the same generation is exceptionally rare and presents unique challenges for genetic counseling and mechanistic understanding. CASE REPORT Two cousins (aged 20 and 28) from a nonconsanguineous family presented wi\u2026",
-          "abstract_full": "BACKGROUND Familial Turner syndrome (TS) is an uncommon sex chromosome abnormality, typically characterized by the transmission of identical X-chromosomal aberrations (eg, partial or complete deletions) within a lineage. The occurrence of familial TS involving distinct karyotypes within the same generation is exceptionally rare and presents unique challenges for genetic counseling and mechanistic understanding. CASE REPORT Two cousins (aged 20 and 28) from a nonconsanguineous family presented with primary amenorrhea, hypergonadotropic hypogonadism, and short stature. Despite striking phenotypic convergence, karyotyping demonstrated 46,X,i(X)(q10) in the proband (III-17) and 45,X in the cousin (III-13). Pelvic ultrasonography showed absent or underdeveloped internal genital organs and gonadal dysgenesis in both patients. Systematic cardiac and renal screening revealed no structural abnormalities. Whole-exome sequencing and copy number variation analysis performed on 11 relatives (including both patients) ruled out pathogenic variants in known TS-associated loci under American College of Medical Genetics and Genomics 2015/2019 criteria; low-level or tissue-restricted mosaicism could not be definitively excluded. A structured literature review was conducted to compare previously reported familial TS patterns. CONCLUSIONS This report documents a rare instance of intrafamilial phenotypic uniformity despite genotypic heterogeneity. The findings support the hypothesis that functional haploinsufficiency of the X-chromosome short arm (Xp) acts as the convergent pathogenic mechanism for the core TS phenotype, regardless of the specific chromosomal error. Clinicians should recognize that familial clustering can occur via distinct cytogenetic mechanisms, requiring broad prenatal screening rather than targeted testing for recurrence, along with careful counseling regarding the uncertainties of heritability versus coincidental de novo events.",
-          "bullets": [
-            "Systematic cardiac and renal screening revealed no structural abnormalities.",
-            "Whole-exome sequencing and copy number variation analysis performed on 11 relatives (including both patients) ruled out pathogenic variants in known TS-associated loci under American College of Medical Genetics and\u2026",
-            "Clinicians should recognize that familial clustering can occur via distinct cytogenetic mechanisms, requiring broad prenatal screening rather than targeted testing for recurrence, along with careful counseling regarding\u2026"
-          ],
-          "authors": "Zeng W, Lin S, Zheng J, et al.",
-          "journal": "The American journal of case reports",
-          "year": "2026",
-          "month": "May",
-          "doi": "10.12659/AJCR.951645",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42108647/",
-          "ris": "TY  - JOUR\nAU  - Zeng W\nAU  - Lin S\nAU  - Zheng J\nTI  - Familial Turner Syndrome With Distinct Karyotypes in Two Cousins: Phenotypic Convergence and Genotypic Heterogeneity.\nJO  - The American journal of case reports\nPY  - 2026\nDO  - 10.12659/AJCR.951645\nAB  - BACKGROUND Familial Turner syndrome (TS) is an uncommon sex chromosome abnormality, typically characterized by the transmission of identical X-chromosomal aberrations (eg, partial or complete deletions) within a lineage. The occurrence of familial TS involving distinct karyotypes within the same gen\nUR  - https://pubmed.ncbi.nlm.nih.gov/42108647/\nER  - ",
-          "section": "disease_genetics",
-          "topic": "CHD_Genetics",
-          "type": "Review",
-          "score": 1
         }
       ],
-      "total": 4
+      "total": 2
     },
     "prs_disease": {
       "papers": [
@@ -124,31 +80,8 @@
       "total": 1
     },
     "prs_methods": {
-      "papers": [
-        {
-          "pmid": "42135902",
-          "title": "Early Clinical, Imaging, and Pathological Characteristics of SRPK3/TTN-Digenic Myopathy.",
-          "abstract": "OBJECTIVE: SRPK3/TTN-digenic myopathy was recently established as a skeletal muscle myopathy caused by digenic inheritance. This study characterizes the early clinical presentation of SRPK3/TTN-digenic myopathy in one previously reported and seven newly identified pediatric patients. METHODS: Next generation sequencing and deep clinical phenotyping provide detailed genetic, clinical, imaging, and histopathological characterization of SRPK3/TTN-digenic myopathy. RESULTS: From the cohort of eight \u2026",
-          "abstract_full": "OBJECTIVE: SRPK3/TTN-digenic myopathy was recently established as a skeletal muscle myopathy caused by digenic inheritance. This study characterizes the early clinical presentation of SRPK3/TTN-digenic myopathy in one previously reported and seven newly identified pediatric patients. METHODS: Next generation sequencing and deep clinical phenotyping provide detailed genetic, clinical, imaging, and histopathological characterization of SRPK3/TTN-digenic myopathy. RESULTS: From the cohort of eight male patients (5-19\u2009years at last evaluation), five presented prenatally with reduced fetal movements. At the time of birth, five had hypotonia, two had contractures, and two had respiratory distress. All patients demonstrated motor delay and muscle weakness within the first 15\u2009months of life. Independent ambulation was achieved in six patients (ages 1.5-4\u2009years); three could run. Variable respiratory compromise was documented as early as 5\u2009years of age, with one patient requiring non-invasive nocturnal ventilation support. Cardiac evaluation was normal in all except one patient who had left ventricular non-compaction cardiomyopathy. Muscle MRI demonstrated mild, slowly progressive fibroadipose replacement of muscle with striking early selective involvement of the semitendinosus muscle. Histopathologic and ultrastructural features mimicked TTN-related myopathy (titinopathy), showing abnormal fiber size variation, increased internally placed nuclei, type 1 fiber predominance, and cores/minicores. INTERPRETATION: This work highlights the early clinical manifestations of SRPK3/TTN-digenic myopathy and demonstrates early muscle imaging patterns and histopathological features that are indistinct from those observed in monogenic biallelic titinopathy cases. These features could help with the potentially challenging interpretation of digenic SRPK3 and TTN variants to allow for a confident clinical diagnosis of this novel congenital myopathy.",
-          "bullets": [
-            "From the cohort of eight male patients (5-19\u2009years at last evaluation), five presented prenatally with reduced fetal movements.",
-            "At the time of birth, five had hypotonia, two had contractures, and two had respiratory distress.",
-            "All patients demonstrated motor delay and muscle weakness within the first 15\u2009months of life."
-          ],
-          "authors": "Orbach R, Donkervoort S, Hedberg-Oldfors C, et al.",
-          "journal": "Annals of clinical and translational neurology",
-          "year": "2026",
-          "month": "May",
-          "doi": "10.1002/acn3.70401",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42135902/",
-          "ris": "TY  - JOUR\nAU  - Orbach R\nAU  - Donkervoort S\nAU  - Hedberg-Oldfors C\nTI  - Early Clinical, Imaging, and Pathological Characteristics of SRPK3/TTN-Digenic Myopathy.\nJO  - Annals of clinical and translational neurology\nPY  - 2026\nDO  - 10.1002/acn3.70401\nAB  - OBJECTIVE: SRPK3/TTN-digenic myopathy was recently established as a skeletal muscle myopathy caused by digenic inheritance. This study characterizes the early clinical presentation of SRPK3/TTN-digenic myopathy in one previously reported and seven newly identified pediatric patients. METHODS: Next g\nUR  - https://pubmed.ncbi.nlm.nih.gov/42135902/\nER  - ",
-          "section": "prs_methods",
-          "topic": "Oligogenic_Digenic",
-          "type": "Methods",
-          "score": 3
-        }
-      ],
-      "total": 1
+      "papers": [],
+      "total": 0
     },
     "topic_watch": {
       "papers": [
@@ -180,6 +113,28 @@
   },
   "selected_papers": [
     {
+      "pmid": "42151586",
+      "title": "Epidemiology of non-ischaemic dilated cardiomyopathy.",
+      "abstract": "Dilated cardiomyopathy, defined by left ventricular dilatation and systolic dysfunction, is a major cause of heart failure, heart transplantation and sudden cardiac death, especially in young and middle-aged adults. Dilated cardiomyopathy of non-ischaemic aetiology is more common than once thought, with current prevalence estimated at around 1 in 220 based on cardiac magnetic resonance imaging studies, and the prevalence is twice as high in men than in women. However, the true prevalence could b\u2026",
+      "abstract_full": "Dilated cardiomyopathy, defined by left ventricular dilatation and systolic dysfunction, is a major cause of heart failure, heart transplantation and sudden cardiac death, especially in young and middle-aged adults. Dilated cardiomyopathy of non-ischaemic aetiology is more common than once thought, with current prevalence estimated at around 1 in 220 based on cardiac magnetic resonance imaging studies, and the prevalence is twice as high in men than in women. However, the true prevalence could be even higher when early or subclinical forms of the disease are considered. Advances in genetic technologies over the past three decades have led to improved understanding of the genetic basis of non-ischaemic dilated cardiomyopathy and the identification of pathogenic variants in 30-40% of patients. The genetic architecture of this disease is complex and heterogeneous. Rather than being a strictly monogenic disorder, dilated cardiomyopathy results from a combination of monogenic and polygenic factors, along with gene-environment interactions as critical modifiers of disease penetrance and phenotype. A deeper understanding of the genetic factors and epidemiological landscape of dilated cardiomyopathy is crucial for improving clinical management and optimizing screening protocols and public health strategies.",
+      "bullets": [
+        "Advances in genetic technologies over the past three decades have led to improved understanding of the genetic basis of non-ischaemic dilated cardiomyopathy and the identification of pathogenic variants in 30-40% of\u2026",
+        "Rather than being a strictly monogenic disorder, dilated cardiomyopathy results from a combination of monogenic and polygenic factors, along with gene-environment interactions as critical modifiers of disease penetrance\u2026",
+        "A deeper understanding of the genetic factors and epidemiological landscape of dilated cardiomyopathy is crucial for improving clinical management and optimizing screening protocols and public health strategies."
+      ],
+      "authors": "Ramos-L\u00f3pez N, Dom\u00ednguez F, Ochoa J, et al.",
+      "journal": "Nature reviews. Cardiology",
+      "year": "2026",
+      "month": "May",
+      "doi": "10.1016/j.jchf.2023.09.015",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42151586/",
+      "ris": "TY  - JOUR\nAU  - Ramos-L\u00f3pez N\nAU  - Dom\u00ednguez F\nAU  - Ochoa J\nTI  - Epidemiology of non-ischaemic dilated cardiomyopathy.\nJO  - Nature reviews. Cardiology\nPY  - 2026\nDO  - 10.1016/j.jchf.2023.09.015\nAB  - Dilated cardiomyopathy, defined by left ventricular dilatation and systolic dysfunction, is a major cause of heart failure, heart transplantation and sudden cardiac death, especially in young and middle-aged adults. Dilated cardiomyopathy of non-ischaemic aetiology is more common than once thought, \nUR  - https://pubmed.ncbi.nlm.nih.gov/42151586/\nER  - ",
+      "section": "disease_genetics",
+      "topic": "DCM_Genetics",
+      "type": "Research article",
+      "score": 7
+    },
+    {
       "pmid": "41983892",
       "title": "ZNF827 pleiotropic cardiovascular risk locus involves regulation by nuclear factor-1.",
       "abstract": "Spontaneous coronary artery dissection (SCAD) is a form of myocardial infarction that predominantly affects middle-aged women, caused by the spontaneous onset of an intramural hematoma leading to heart ischemia. SCAD genetic risk loci, such as the ZNF827 locus on chromosome 4, were previously associated with the risk for coronary artery disease, systolic blood pressure, and ascending aortic diameter variability, but the molecular processes driving these genetic associations are unknown. In the p\u2026",
@@ -200,28 +155,6 @@
       "topic": "SCAD_Genetics",
       "type": "Epigenetics",
       "score": 4
-    },
-    {
-      "pmid": "42135902",
-      "title": "Early Clinical, Imaging, and Pathological Characteristics of SRPK3/TTN-Digenic Myopathy.",
-      "abstract": "OBJECTIVE: SRPK3/TTN-digenic myopathy was recently established as a skeletal muscle myopathy caused by digenic inheritance. This study characterizes the early clinical presentation of SRPK3/TTN-digenic myopathy in one previously reported and seven newly identified pediatric patients. METHODS: Next generation sequencing and deep clinical phenotyping provide detailed genetic, clinical, imaging, and histopathological characterization of SRPK3/TTN-digenic myopathy. RESULTS: From the cohort of eight \u2026",
-      "abstract_full": "OBJECTIVE: SRPK3/TTN-digenic myopathy was recently established as a skeletal muscle myopathy caused by digenic inheritance. This study characterizes the early clinical presentation of SRPK3/TTN-digenic myopathy in one previously reported and seven newly identified pediatric patients. METHODS: Next generation sequencing and deep clinical phenotyping provide detailed genetic, clinical, imaging, and histopathological characterization of SRPK3/TTN-digenic myopathy. RESULTS: From the cohort of eight male patients (5-19\u2009years at last evaluation), five presented prenatally with reduced fetal movements. At the time of birth, five had hypotonia, two had contractures, and two had respiratory distress. All patients demonstrated motor delay and muscle weakness within the first 15\u2009months of life. Independent ambulation was achieved in six patients (ages 1.5-4\u2009years); three could run. Variable respiratory compromise was documented as early as 5\u2009years of age, with one patient requiring non-invasive nocturnal ventilation support. Cardiac evaluation was normal in all except one patient who had left ventricular non-compaction cardiomyopathy. Muscle MRI demonstrated mild, slowly progressive fibroadipose replacement of muscle with striking early selective involvement of the semitendinosus muscle. Histopathologic and ultrastructural features mimicked TTN-related myopathy (titinopathy), showing abnormal fiber size variation, increased internally placed nuclei, type 1 fiber predominance, and cores/minicores. INTERPRETATION: This work highlights the early clinical manifestations of SRPK3/TTN-digenic myopathy and demonstrates early muscle imaging patterns and histopathological features that are indistinct from those observed in monogenic biallelic titinopathy cases. These features could help with the potentially challenging interpretation of digenic SRPK3 and TTN variants to allow for a confident clinical diagnosis of this novel congenital myopathy.",
-      "bullets": [
-        "From the cohort of eight male patients (5-19\u2009years at last evaluation), five presented prenatally with reduced fetal movements.",
-        "At the time of birth, five had hypotonia, two had contractures, and two had respiratory distress.",
-        "All patients demonstrated motor delay and muscle weakness within the first 15\u2009months of life."
-      ],
-      "authors": "Orbach R, Donkervoort S, Hedberg-Oldfors C, et al.",
-      "journal": "Annals of clinical and translational neurology",
-      "year": "2026",
-      "month": "May",
-      "doi": "10.1002/acn3.70401",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42135902/",
-      "ris": "TY  - JOUR\nAU  - Orbach R\nAU  - Donkervoort S\nAU  - Hedberg-Oldfors C\nTI  - Early Clinical, Imaging, and Pathological Characteristics of SRPK3/TTN-Digenic Myopathy.\nJO  - Annals of clinical and translational neurology\nPY  - 2026\nDO  - 10.1002/acn3.70401\nAB  - OBJECTIVE: SRPK3/TTN-digenic myopathy was recently established as a skeletal muscle myopathy caused by digenic inheritance. This study characterizes the early clinical presentation of SRPK3/TTN-digenic myopathy in one previously reported and seven newly identified pediatric patients. METHODS: Next g\nUR  - https://pubmed.ncbi.nlm.nih.gov/42135902/\nER  - ",
-      "section": "prs_methods",
-      "topic": "Oligogenic_Digenic",
-      "type": "Methods",
-      "score": 3
     },
     {
       "pmid": "41855523",
@@ -246,72 +179,6 @@
       "score": 2
     },
     {
-      "pmid": "41771111",
-      "title": "Clinical characteristics and outcomes of cardiomyopathies related to immune-mediated diseases.",
-      "abstract": "AIMS: Dilated cardiomyopathy (DCM) encompasses genetic and acquired aetiologies, yet the impact of immune-mediated mechanisms remains unclear. This study investigates the clinical characteristics and outcomes of immune-mediated DCM (ID-CMP). METHODS: From the Maastricht Cardiomyopathy registry, 194 patients with ID-CMP were compared with 678 non-immune DCM controls over a median follow-up of 5.2 (3.7-10.7) years. ID-CMP was categorized into autoimmune-mediated (adaptive immunity dysfunction), au\u2026",
-      "abstract_full": "AIMS: Dilated cardiomyopathy (DCM) encompasses genetic and acquired aetiologies, yet the impact of immune-mediated mechanisms remains unclear. This study investigates the clinical characteristics and outcomes of immune-mediated DCM (ID-CMP). METHODS: From the Maastricht Cardiomyopathy registry, 194 patients with ID-CMP were compared with 678 non-immune DCM controls over a median follow-up of 5.2 (3.7-10.7) years. ID-CMP was categorized into autoimmune-mediated (adaptive immunity dysfunction), autoinflammatory-driven (innate immunity dysfunction), and mixed-pattern (MHC Class I associations and autoinflammatory components). Patients with features of >1 category were classified as overlapping-CMP. Echocardiographic and genetic data were collected. Cox regression assessed major adverse cardiovascular events (MACE: cardiac mortality, heart failure hospitalization, life-threatening arrhythmias). Left ventricular ejection fraction (LVEF) trajectories were analysed using linear mixed-effects models. Findings were validated in an independent cohort of 201 ID-CMP patients. RESULTS: ID-CMP was associated with a higher risk of MACE [HR: 1.68 (1.1-2.5), P = .012] after adjustment for age, sex, and baseline LVEF, confirmed in an external validation cohort [HR:2.40 (1.6-3.5), P < .001]. LVEF was lower in ID-CMP during the first year but converged with non-immune DCM thereafter (P0-1year = .018; P>1year = ns). Outcomes did not differ among ID-CMP subtypes. Inflammation on EMB was related to worse clinical outcome [HR:2.0 (1.1-3.6), P = .017]. Pathogenic DCM gene variants were equally frequent in ID-CMP and non-ID-CMP patients (22% vs 20%, P = ns). CONCLUSION: ID-CMP patients have a higher risk of MACE despite similar LVEF trajectories, as confirmed in a validation cohort. Cardiac immune cell infiltration suggests an inflammatory substrate independent of genetics.",
-      "bullets": [
-        "ID-CMP was associated with a higher risk of MACE [HR: 1.68 (1.1-2.5), P = .012] after adjustment for age, sex, and baseline LVEF, confirmed in an external validation cohort [HR:2.40 (1.6-3.5), P < .001].",
-        "LVEF was lower in ID-CMP during the first year but converged with non-immune DCM thereafter (P0-1year = .018; P>1year = ns).",
-        "Outcomes did not differ among ID-CMP subtypes."
-      ],
-      "authors": "Rossi V, Sikking M, Folgheraiter A, et al.",
-      "journal": "European journal of heart failure",
-      "year": "2026",
-      "month": "May",
-      "doi": "10.1093/ejhf/xuaf030",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41771111/",
-      "ris": "TY  - JOUR\nAU  - Rossi V\nAU  - Sikking M\nAU  - Folgheraiter A\nTI  - Clinical characteristics and outcomes of cardiomyopathies related to immune-mediated diseases.\nJO  - European journal of heart failure\nPY  - 2026\nDO  - 10.1093/ejhf/xuaf030\nAB  - AIMS: Dilated cardiomyopathy (DCM) encompasses genetic and acquired aetiologies, yet the impact of immune-mediated mechanisms remains unclear. This study investigates the clinical characteristics and outcomes of immune-mediated DCM (ID-CMP). METHODS: From the Maastricht Cardiomyopathy registry, 194 \nUR  - https://pubmed.ncbi.nlm.nih.gov/41771111/\nER  - ",
-      "section": "disease_genetics",
-      "topic": "DCM_Genetics",
-      "type": "Research article",
-      "score": 2
-    },
-    {
-      "pmid": "41747776",
-      "title": "Inflammatory cardiomyopathy: Position paper of the Italian Society of Cardiology Working Group on cardiomyopathies and pericardial diseases in collaboration with the Italian Society of Cardiology Working Group on cardiac magnetic resonance.",
-      "abstract": "Inflammatory cardiomyopathy (iCMP) usually represents the chronic, hypokinetic phenotype within the myocarditis spectrum, characterized by persistent myocardial inflammation, systolic ventricular dysfunction, and adverse remodelling. It frequently evolves from prior acute or subacute myocarditis and is associated with significantly worse outcomes, including progression to dilated cardiomyopathy, heart failure, and arrhythmias. The condition arises from heterogeneous causes-infectious, autoimmune\u2026",
-      "abstract_full": "Inflammatory cardiomyopathy (iCMP) usually represents the chronic, hypokinetic phenotype within the myocarditis spectrum, characterized by persistent myocardial inflammation, systolic ventricular dysfunction, and adverse remodelling. It frequently evolves from prior acute or subacute myocarditis and is associated with significantly worse outcomes, including progression to dilated cardiomyopathy, heart failure, and arrhythmias. The condition arises from heterogeneous causes-infectious, autoimmune, or idiopathic-and may be influenced by genetic susceptibility, supporting a two-hit model in which environmental triggers interact with pathogenic variants. Diagnosis requires a multimodal approach. While clinical presentation is variable and often non-specific, cardiac magnetic resonance (CMR) provides essential tissue characterization, enabling detection of inflammation and fibrosis. Endomyocardial biopsy (EMB) remains critical for defining histologic subtype, identifying viral genomes, and guiding targeted therapy, especially in intermediate- or high-risk cases. Genetic testing assists in differentiating inherited CMPs and recognizing forms with distinctive inflammatory behavior, such as desmoplakin CMP. Management focuses on guideline-directed medical therapy for heart failure and treatment of underlying aetiologies. In biopsy-proven, virus-negative iCMP, immunosuppressive therapy may improve ventricular function and limit adverse remodelling, while antiviral strategies remain reserved for selected virus-positive cases. Arrhythmia management, including ICD implantation, is essential in patients with substantial fibrotic burden or arrhythmias. Prognosis depends on ventricular function, extent of fibrosis, viral persistence, arrhythmic burden, and recurrence of inflammatory \"hot phases.\" Lifelong follow-up is warranted. This position paper provides a comprehensive framework for the diagnosis, risk stratification, and management of iCMP, highlighting current evidence, guideline alignment, and remaining gaps.",
-      "bullets": [
-        "It frequently evolves from prior acute or subacute myocarditis and is associated with significantly worse outcomes, including progression to dilated cardiomyopathy, heart failure, and arrhythmias.",
-        "Prognosis depends on ventricular function, extent of fibrosis, viral persistence, arrhythmic burden, and recurrence of inflammatory \"hot phases.\" Lifelong follow-up is warranted.",
-        "This position paper provides a comprehensive framework for the diagnosis, risk stratification, and management of iCMP, highlighting current evidence, guideline alignment, and remaining gaps."
-      ],
-      "authors": "Imazio M, Jahnsen V, Merlo M, et al.",
-      "journal": "International journal of cardiology",
-      "year": "2026",
-      "month": "May",
-      "doi": "10.1016/j.ijcard.2026.134249",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41747776/",
-      "ris": "TY  - JOUR\nAU  - Imazio M\nAU  - Jahnsen V\nAU  - Merlo M\nTI  - Inflammatory cardiomyopathy: Position paper of the Italian Society of Cardiology Working Group on cardiomyopathies and pericardial diseases in collaboration with the Italian Society of Cardiology Working Group on cardiac magnetic resonance.\nJO  - International journal of cardiology\nPY  - 2026\nDO  - 10.1016/j.ijcard.2026.134249\nAB  - Inflammatory cardiomyopathy (iCMP) usually represents the chronic, hypokinetic phenotype within the myocarditis spectrum, characterized by persistent myocardial inflammation, systolic ventricular dysfunction, and adverse remodelling. It frequently evolves from prior acute or subacute myocarditis and\nUR  - https://pubmed.ncbi.nlm.nih.gov/41747776/\nER  - ",
-      "section": "disease_genetics",
-      "topic": "DCM_Genetics",
-      "type": "Research article",
-      "score": 2
-    },
-    {
-      "pmid": "42108647",
-      "title": "Familial Turner Syndrome With Distinct Karyotypes in Two Cousins: Phenotypic Convergence and Genotypic Heterogeneity.",
-      "abstract": "BACKGROUND Familial Turner syndrome (TS) is an uncommon sex chromosome abnormality, typically characterized by the transmission of identical X-chromosomal aberrations (eg, partial or complete deletions) within a lineage. The occurrence of familial TS involving distinct karyotypes within the same generation is exceptionally rare and presents unique challenges for genetic counseling and mechanistic understanding. CASE REPORT Two cousins (aged 20 and 28) from a nonconsanguineous family presented wi\u2026",
-      "abstract_full": "BACKGROUND Familial Turner syndrome (TS) is an uncommon sex chromosome abnormality, typically characterized by the transmission of identical X-chromosomal aberrations (eg, partial or complete deletions) within a lineage. The occurrence of familial TS involving distinct karyotypes within the same generation is exceptionally rare and presents unique challenges for genetic counseling and mechanistic understanding. CASE REPORT Two cousins (aged 20 and 28) from a nonconsanguineous family presented with primary amenorrhea, hypergonadotropic hypogonadism, and short stature. Despite striking phenotypic convergence, karyotyping demonstrated 46,X,i(X)(q10) in the proband (III-17) and 45,X in the cousin (III-13). Pelvic ultrasonography showed absent or underdeveloped internal genital organs and gonadal dysgenesis in both patients. Systematic cardiac and renal screening revealed no structural abnormalities. Whole-exome sequencing and copy number variation analysis performed on 11 relatives (including both patients) ruled out pathogenic variants in known TS-associated loci under American College of Medical Genetics and Genomics 2015/2019 criteria; low-level or tissue-restricted mosaicism could not be definitively excluded. A structured literature review was conducted to compare previously reported familial TS patterns. CONCLUSIONS This report documents a rare instance of intrafamilial phenotypic uniformity despite genotypic heterogeneity. The findings support the hypothesis that functional haploinsufficiency of the X-chromosome short arm (Xp) acts as the convergent pathogenic mechanism for the core TS phenotype, regardless of the specific chromosomal error. Clinicians should recognize that familial clustering can occur via distinct cytogenetic mechanisms, requiring broad prenatal screening rather than targeted testing for recurrence, along with careful counseling regarding the uncertainties of heritability versus coincidental de novo events.",
-      "bullets": [
-        "Systematic cardiac and renal screening revealed no structural abnormalities.",
-        "Whole-exome sequencing and copy number variation analysis performed on 11 relatives (including both patients) ruled out pathogenic variants in known TS-associated loci under American College of Medical Genetics and\u2026",
-        "Clinicians should recognize that familial clustering can occur via distinct cytogenetic mechanisms, requiring broad prenatal screening rather than targeted testing for recurrence, along with careful counseling regarding\u2026"
-      ],
-      "authors": "Zeng W, Lin S, Zheng J, et al.",
-      "journal": "The American journal of case reports",
-      "year": "2026",
-      "month": "May",
-      "doi": "10.12659/AJCR.951645",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42108647/",
-      "ris": "TY  - JOUR\nAU  - Zeng W\nAU  - Lin S\nAU  - Zheng J\nTI  - Familial Turner Syndrome With Distinct Karyotypes in Two Cousins: Phenotypic Convergence and Genotypic Heterogeneity.\nJO  - The American journal of case reports\nPY  - 2026\nDO  - 10.12659/AJCR.951645\nAB  - BACKGROUND Familial Turner syndrome (TS) is an uncommon sex chromosome abnormality, typically characterized by the transmission of identical X-chromosomal aberrations (eg, partial or complete deletions) within a lineage. The occurrence of familial TS involving distinct karyotypes within the same gen\nUR  - https://pubmed.ncbi.nlm.nih.gov/42108647/\nER  - ",
-      "section": "disease_genetics",
-      "topic": "CHD_Genetics",
-      "type": "Review",
-      "score": 1
-    },
-    {
       "pmid": "42102332",
       "title": "Pearls & Oy-sters: Stroke Recurrence After PFO Closure Uncovers Cerebrotendinous Xanthomatosis.",
       "abstract": "Cerebrotendinous xanthomatosis (CTX) is a rare autosomal recessive metabolic disorder that can cause premature atherosclerosis and ischemic stroke in young adults. We report a 23-year-old man who had recurrent strokes even after patent foramen ovale (PFO) closure. Initial evaluation for his first cryptogenic stroke revealed a PFO with a high Risk of Paradoxical Embolism (RoPE) score, leading to closure. Three years later, he experienced a recurrent stroke with right M1 segment occlusion. High-re\u2026",
@@ -334,13 +201,12 @@
       "score": 0
     }
   ],
-  "summary_text": "7 papers selected from this week's literature:\n  \u2022 4 \u00d7 disease genetics (CHD / DCM / SCAD)\n  \u2022 1 \u00d7 PRS & oligogenic methods\n  \u2022 1 \u00d7 epigenetics / methylation\n  \u2022 1 \u00d7 PRS in CHD/DCM/SCAD\n\nHighlight: ZNF827 pleiotropic cardiovascular risk locus involves regulation by nuclear factor-1. (Clinical science (London, England : 1979), 2026)",
+  "summary_text": "4 papers selected from this week's literature:\n  \u2022 2 \u00d7 disease genetics (CHD / DCM / SCAD)\n  \u2022 1 \u00d7 epigenetics / methylation\n  \u2022 1 \u00d7 PRS in CHD/DCM/SCAD\n\nHighlight: Epidemiology of non-ischaemic dilated cardiomyopathy. (Nature reviews. Cardiology, 2026)",
   "summary": {
-    "total_selected": 7,
-    "total_candidates": 7,
+    "total_selected": 4,
+    "total_candidates": 4,
     "section_counts": {
-      "disease_genetics": 4,
-      "prs_methods": 1,
+      "disease_genetics": 2,
       "topic_watch": 1,
       "prs_disease": 1
     }
