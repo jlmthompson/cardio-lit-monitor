@@ -1,56 +1,78 @@
 {
-  "generated": "2026-05-24T21:42:41.264630",
+  "generated": "2026-05-31T21:44:28.908211",
   "lookback_days": 7,
-  "cutoff_date": "2026/05/17",
+  "cutoff_date": "2026/05/24",
   "sections": {
     "disease_genetics": {
       "papers": [
         {
-          "pmid": "42151586",
-          "title": "Epidemiology of non-ischaemic dilated cardiomyopathy.",
-          "abstract": "Dilated cardiomyopathy, defined by left ventricular dilatation and systolic dysfunction, is a major cause of heart failure, heart transplantation and sudden cardiac death, especially in young and middle-aged adults. Dilated cardiomyopathy of non-ischaemic aetiology is more common than once thought, with current prevalence estimated at around 1 in 220 based on cardiac magnetic resonance imaging studies, and the prevalence is twice as high in men than in women. However, the true prevalence could b\u2026",
-          "abstract_full": "Dilated cardiomyopathy, defined by left ventricular dilatation and systolic dysfunction, is a major cause of heart failure, heart transplantation and sudden cardiac death, especially in young and middle-aged adults. Dilated cardiomyopathy of non-ischaemic aetiology is more common than once thought, with current prevalence estimated at around 1 in 220 based on cardiac magnetic resonance imaging studies, and the prevalence is twice as high in men than in women. However, the true prevalence could be even higher when early or subclinical forms of the disease are considered. Advances in genetic technologies over the past three decades have led to improved understanding of the genetic basis of non-ischaemic dilated cardiomyopathy and the identification of pathogenic variants in 30-40% of patients. The genetic architecture of this disease is complex and heterogeneous. Rather than being a strictly monogenic disorder, dilated cardiomyopathy results from a combination of monogenic and polygenic factors, along with gene-environment interactions as critical modifiers of disease penetrance and phenotype. A deeper understanding of the genetic factors and epidemiological landscape of dilated cardiomyopathy is crucial for improving clinical management and optimizing screening protocols and public health strategies.",
+          "pmid": "42215426",
+          "title": "GATA4 Single-Amino Acid Deletion in a Male Patient With Congenital Heart Defects, Differences of Sex Development, and Diaphragmatic Hernia.",
+          "abstract": "Monoallelic loss-of-function variants of GATA4 have been implicated in congenital heart defects, 46,XY differences of sex development, and congenital diaphragmatic hernia (CDH). However, there is no report of GATA4-variant positive patients who concomitantly exhibited these three features. Furthermore, the genotype-phenotype correlation of GATA4 abnormality remains unclear. Here, we report a 2-year-old boy who exhibited pulmonary valve stenosis, multiple atrial septal defects, hypospadias, bifid\u2026",
+          "abstract_full": "Monoallelic loss-of-function variants of GATA4 have been implicated in congenital heart defects, 46,XY differences of sex development, and congenital diaphragmatic hernia (CDH). However, there is no report of GATA4-variant positive patients who concomitantly exhibited these three features. Furthermore, the genotype-phenotype correlation of GATA4 abnormality remains unclear. Here, we report a 2-year-old boy who exhibited pulmonary valve stenosis, multiple atrial septal defects, hypospadias, bifid scrotum, bilateral inguinal hernia, and CDH. Endocrine evaluations of the patient were indicative of partial testicular dysgenesis. Exome sequencing identified a de novo 3-bp deletion in GATA4 that has not been reported previously. The variant eliminated one amino acid from the highly conserved five-threonine repeat in the second zinc finger domain (c.829_831del, p.T277del). The variant was assessed as deleterious by in silico analyses and was scored as \"likely pathogenic\" by the American College of Medical Genetics and Genomics guidelines. Our findings indicate that the five-threonine repeat in the second zinc finger domain contributes to GATA4 function. These results broaden the spectrum of GATA4 pathogenic variants and highlight the phenotypic diversity resulting from GATA4 abnormalities.",
           "bullets": [
-            "Advances in genetic technologies over the past three decades have led to improved understanding of the genetic basis of non-ischaemic dilated cardiomyopathy and the identification of pathogenic variants in 30-40% of\u2026",
-            "Rather than being a strictly monogenic disorder, dilated cardiomyopathy results from a combination of monogenic and polygenic factors, along with gene-environment interactions as critical modifiers of disease penetrance\u2026",
-            "A deeper understanding of the genetic factors and epidemiological landscape of dilated cardiomyopathy is crucial for improving clinical management and optimizing screening protocols and public health strategies."
+            "Exome sequencing identified a de novo 3-bp deletion in GATA4 that has not been reported previously.",
+            "Our findings indicate that the five-threonine repeat in the second zinc finger domain contributes to GATA4 function.",
+            "These results broaden the spectrum of GATA4 pathogenic variants and highlight the phenotypic diversity resulting from GATA4 abnormalities."
           ],
-          "authors": "Ramos-L\u00f3pez N, Dom\u00ednguez F, Ochoa J, et al.",
-          "journal": "Nature reviews. Cardiology",
+          "authors": "Koga N, Katoh-Fukui Y, Fukui S, et al.",
+          "journal": "Clinical genetics",
           "year": "2026",
           "month": "May",
-          "doi": "10.1016/j.jchf.2023.09.015",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42151586/",
-          "ris": "TY  - JOUR\nAU  - Ramos-L\u00f3pez N\nAU  - Dom\u00ednguez F\nAU  - Ochoa J\nTI  - Epidemiology of non-ischaemic dilated cardiomyopathy.\nJO  - Nature reviews. Cardiology\nPY  - 2026\nDO  - 10.1016/j.jchf.2023.09.015\nAB  - Dilated cardiomyopathy, defined by left ventricular dilatation and systolic dysfunction, is a major cause of heart failure, heart transplantation and sudden cardiac death, especially in young and middle-aged adults. Dilated cardiomyopathy of non-ischaemic aetiology is more common than once thought, \nUR  - https://pubmed.ncbi.nlm.nih.gov/42151586/\nER  - ",
+          "doi": "10.1111/cge.70189",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42215426/",
+          "ris": "TY  - JOUR\nAU  - Koga N\nAU  - Katoh-Fukui Y\nAU  - Fukui S\nTI  - GATA4 Single-Amino Acid Deletion in a Male Patient With Congenital Heart Defects, Differences of Sex Development, and Diaphragmatic Hernia.\nJO  - Clinical genetics\nPY  - 2026\nDO  - 10.1111/cge.70189\nAB  - Monoallelic loss-of-function variants of GATA4 have been implicated in congenital heart defects, 46,XY differences of sex development, and congenital diaphragmatic hernia (CDH). However, there is no report of GATA4-variant positive patients who concomitantly exhibited these three features. Furthermo\nUR  - https://pubmed.ncbi.nlm.nih.gov/42215426/\nER  - ",
+          "section": "disease_genetics",
+          "topic": "CHD_Genetics",
+          "type": "Research article",
+          "score": 4
+        },
+        {
+          "pmid": "41672210",
+          "title": "Hypertrophic cardiomyopathy caused by filamin-C variants has restrictive and extracardiac features and a distinctive ECG.",
+          "abstract": "BACKGROUND: Filamin-C (FLNC) gene variants are associated with cardiac and skeletal muscle diseases including a clear role of loss-of-function variants in dilated cardiomyopathy. OBJECTIVE: This study aimed to assess the contribution of rare FLNC variants to hypertrophic cardiomyopathy (HCM)/restrictive cardiomyopathy (RCM). METHODS: Family-based studies in 2 specialist services and statistical modeling of rare FLNC missense variants were conducted, using a cohort of 3289 sarcomere-negative HCM \u2026",
+          "abstract_full": "BACKGROUND: Filamin-C (FLNC) gene variants are associated with cardiac and skeletal muscle diseases including a clear role of loss-of-function variants in dilated cardiomyopathy. OBJECTIVE: This study aimed to assess the contribution of rare FLNC variants to hypertrophic cardiomyopathy (HCM)/restrictive cardiomyopathy (RCM). METHODS: Family-based studies in 2 specialist services and statistical modeling of rare FLNC missense variants were conducted, using a cohort of 3289 sarcomere-negative HCM cases and 122,348 genome aggregation database controls. RESULTS: Clinical evaluation of patients with HCM/RCM and a rare FLNC variant identified a distinct electrocardiographic (ECG) repolarization phenotype in 37% (19 of 51 individuals, from 12 families), which was observed in only 1.0% of a control HCM cohort (2 of 197). FLNC variant carriers with the characteristic ECG had smaller left ventricular cavity size, lower contractility, and more severe diastolic dysfunction and were more likely to have a restrictive phenotype. Heart failure death, transplant, or cardiac arrest occurred in at least 1 individual in 7 of the 12 families (58%) in the \"ECG-positive\" group, and musculoskeletal abnormalities were present in 4 families (33%). 5 of 12 variants (41.7%) in the \"ECG-positive\" group cosegregated, and 2 were apparently de novo. 11 variants were missense, and 1 splice site. Rare FLNC missense variant burden indicated a low case excess among all HCM cases (etiologic fraction, 0.45; 95% confidence interval, 0.36-0.54), but in \"ECG-positive\" cases the etiologic fraction was substantially higher (0.98; 95% confidence interval, 0.97-0.99). CONCLUSION: Pathogenic FLNC variants in patients with HCM/RCM are nontruncating and cause a discrete phenotype comprising a characteristic ECG, hypertrophic and restrictive features without hypercontractility, and extracardiac abnormalities.",
+          "bullets": [
+            "Clinical evaluation of patients with HCM/RCM and a rare FLNC variant identified a distinct electrocardiographic (ECG) repolarization phenotype in 37% (19 of 51 individuals, from 12 families), which was observed in only\u2026",
+            "FLNC variant carriers with the characteristic ECG had smaller left ventricular cavity size, lower contractility, and more severe diastolic dysfunction and were more likely to have a restrictive phenotype.",
+            "Rare FLNC missense variant burden indicated a low case excess among all HCM cases (etiologic fraction, 0.45; 95% confidence interval, 0.36-0."
+          ],
+          "authors": "de Villiers C, Ormondroyd E, Thomson K, et al.",
+          "journal": "Heart rhythm",
+          "year": "2026",
+          "month": "Jun",
+          "doi": "10.1016/j.hrthm.2026.01.054",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41672210/",
+          "ris": "TY  - JOUR\nAU  - de Villiers C\nAU  - Ormondroyd E\nAU  - Thomson K\nTI  - Hypertrophic cardiomyopathy caused by filamin-C variants has restrictive and extracardiac features and a distinctive ECG.\nJO  - Heart rhythm\nPY  - 2026\nDO  - 10.1016/j.hrthm.2026.01.054\nAB  - BACKGROUND: Filamin-C (FLNC) gene variants are associated with cardiac and skeletal muscle diseases including a clear role of loss-of-function variants in dilated cardiomyopathy. OBJECTIVE: This study aimed to assess the contribution of rare FLNC variants to hypertrophic cardiomyopathy (HCM)/restric\nUR  - https://pubmed.ncbi.nlm.nih.gov/41672210/\nER  - ",
           "section": "disease_genetics",
           "topic": "DCM_Genetics",
           "type": "Research article",
-          "score": 7
+          "score": 2
         },
         {
-          "pmid": "41983892",
-          "title": "ZNF827 pleiotropic cardiovascular risk locus involves regulation by nuclear factor-1.",
-          "abstract": "Spontaneous coronary artery dissection (SCAD) is a form of myocardial infarction that predominantly affects middle-aged women, caused by the spontaneous onset of an intramural hematoma leading to heart ischemia. SCAD genetic risk loci, such as the ZNF827 locus on chromosome 4, were previously associated with the risk for coronary artery disease, systolic blood pressure, and ascending aortic diameter variability, but the molecular processes driving these genetic associations are unknown. In the p\u2026",
-          "abstract_full": "Spontaneous coronary artery dissection (SCAD) is a form of myocardial infarction that predominantly affects middle-aged women, caused by the spontaneous onset of an intramural hematoma leading to heart ischemia. SCAD genetic risk loci, such as the ZNF827 locus on chromosome 4, were previously associated with the risk for coronary artery disease, systolic blood pressure, and ascending aortic diameter variability, but the molecular processes driving these genetic associations are unknown. In the present study, we demonstrated that these genetic associations were colocalized and could all be explained by the intronic common variant rs13128814, which overlapped epigenetic regulatory markers specifically active in vascular smooth muscle cells (SMCs) and fibroblasts. Using reporter assay experiments, we found that the SCAD-risk allele (rs13128814-A) was associated with increased transcriptional activity in A7r5 SMCs. In silico predictions and reporter assays suggested nuclear factor-1 (NF1) transcription factors to preferentially bind to SCAD risk allele. We found that SCAD genetic association colocalized with a ZNF827 eQTL association in artery tissues. Knockdown of ZNF827 in human iPSC-derived SMCs and fibroblasts identified a large number of dysregulated genes enriched in relevant pathways such as macroautophagy and insulin signaling. Our findings support the NF1-dependent rs13128814 effect on the expression of ZNF827 as a potential molecular mechanism underpinning multiple cardiovascular trait genetic risk loci. ZNF827 may act as a broad regulator of gene expression in vascular SMCs and fibroblasts. Further investigation using multiple cell types, organoids, and in vivo models may clarify the implications of ZNF827 in arterial fragility observed in SCAD and other arterial diseases.",
+          "pmid": "41781207",
+          "title": "MGRN1 is linked to recessive heart and laterality defects: the first genotype-phenotype report in humans.",
+          "abstract": "Recurrent idiopathic severe fetal structural anomalies present major challenges for reproductive decision-making and genetic counselling. A non-consanguineous healthy Estonian couple had experienced two electively terminated pregnancies at 12-13 weeks' gestation due to unexplained major fetal malformations and one early miscarriage. Their three pregnancies had resulted in unaffected newborns. Exome sequencing of fetal tissues from both terminated pregnancies identified a homozygous rare missense\u2026",
+          "abstract_full": "Recurrent idiopathic severe fetal structural anomalies present major challenges for reproductive decision-making and genetic counselling. A non-consanguineous healthy Estonian couple had experienced two electively terminated pregnancies at 12-13 weeks' gestation due to unexplained major fetal malformations and one early miscarriage. Their three pregnancies had resulted in unaffected newborns. Exome sequencing of fetal tissues from both terminated pregnancies identified a homozygous rare missense variant in MGRN1 (mahogunin ring finger 1), c.881G>A, p.(Arg294His) (Genome Aggregation Database V.4.1.0 allele frequency<8\u00d710\u207b\u2075; no homozygotes reported in any population database). MGRN1 functions as an E3 ubiquitin ligase critical for protein homeostasis and developmental signalling. The detected substitution compromises a conserved residue within the RING (Really Interesting New Gene) finger domain. Cascade testing revealed that the parents and one unaffected child were heterozygous carriers, while two healthy siblings were homozygous for the reference allele. Both affected fetuses displayed congenital malformations closely mirroring prenatal phenotypes reported in Mgrn1 homozygous mutant mice, including cardiac malformations (ventricular septal defect, outflow tract malposition, pulmonary artery hypoplasia) and abnormal left-right axis patterning. These findings provide the first evidence implicating MGRN1 in human congenital disease and support its role in early embryonic patterning.",
           "bullets": [
-            "In the present study, we demonstrated that these genetic associations were colocalized and could all be explained by the intronic common variant rs13128814, which overlapped epigenetic regulatory markers specifically\u2026",
-            "Using reporter assay experiments, we found that the SCAD-risk allele (rs13128814-A) was associated with increased transcriptional activity in A7r5 SMCs.",
-            "Our findings support the NF1-dependent rs13128814 effect on the expression of ZNF827 as a potential molecular mechanism underpinning multiple cardiovascular trait genetic risk loci."
+            "Exome sequencing of fetal tissues from both terminated pregnancies identified a homozygous rare missense variant in MGRN1 (mahogunin ring finger 1), c.881G>A, p.(Arg294His) (Genome Aggregation Database V.4.1.",
+            "Cascade testing revealed that the parents and one unaffected child were heterozygous carriers, while two healthy siblings were homozygous for the reference allele.",
+            "These findings provide the first evidence implicating MGRN1 in human congenital disease and support its role in early embryonic patterning."
           ],
-          "authors": "Liu Y, Liu L, Esmael A, et al.",
-          "journal": "Clinical science (London, England : 1979)",
+          "authors": "Kasak L, Rull K, Valkna A, et al.",
+          "journal": "Journal of medical genetics",
           "year": "2026",
           "month": "May",
-          "doi": "10.1186/1748-7188-2-15",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/41983892/",
-          "ris": "TY  - JOUR\nAU  - Liu Y\nAU  - Liu L\nAU  - Esmael A\nTI  - ZNF827 pleiotropic cardiovascular risk locus involves regulation by nuclear factor-1.\nJO  - Clinical science (London, England : 1979)\nPY  - 2026\nDO  - 10.1186/1748-7188-2-15\nAB  - Spontaneous coronary artery dissection (SCAD) is a form of myocardial infarction that predominantly affects middle-aged women, caused by the spontaneous onset of an intramural hematoma leading to heart ischemia. SCAD genetic risk loci, such as the ZNF827 locus on chromosome 4, were previously associ\nUR  - https://pubmed.ncbi.nlm.nih.gov/41983892/\nER  - ",
+          "doi": "10.1016/j.semperi.2025.152058",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41781207/",
+          "ris": "TY  - JOUR\nAU  - Kasak L\nAU  - Rull K\nAU  - Valkna A\nTI  - MGRN1 is linked to recessive heart and laterality defects: the first genotype-phenotype report in humans.\nJO  - Journal of medical genetics\nPY  - 2026\nDO  - 10.1016/j.semperi.2025.152058\nAB  - Recurrent idiopathic severe fetal structural anomalies present major challenges for reproductive decision-making and genetic counselling. A non-consanguineous healthy Estonian couple had experienced two electively terminated pregnancies at 12-13 weeks' gestation due to unexplained major fetal malfor\nUR  - https://pubmed.ncbi.nlm.nih.gov/41781207/\nER  - ",
           "section": "disease_genetics",
-          "topic": "SCAD_Genetics",
-          "type": "Epigenetics",
-          "score": 4
+          "topic": "CHD_Genetics",
+          "type": "Research article",
+          "score": 1
         }
       ],
-      "total": 2
+      "total": 3
     },
     "prs_disease": {
       "papers": [
@@ -106,54 +128,54 @@
           "topic": "DCM_Omics",
           "type": "GWAS",
           "score": 2
+        },
+        {
+          "pmid": "42205458",
+          "title": "Genetic etiology and phenotypic characteristics of fetuses with 11q deletion syndrome (11q23.3-q25).",
+          "abstract": "The 11q deletion (11q-) syndrome is a rare consecutive polygenic deletion disorder. Characterization of the clinical features, genetic etiology and diagnostic strategies associated with 11q deletion syndrome in the prenatal setting is important to understand this syndrome in its entirety. A retrospective review at Longgang District Maternity & Child Healthcare Hospital of Shenzhen City (Shenzhen, China) involving four fetuses diagnosed with 11q- syndrome was conducted to examine the clinical fea\u2026",
+          "abstract_full": "The 11q deletion (11q-) syndrome is a rare consecutive polygenic deletion disorder. Characterization of the clinical features, genetic etiology and diagnostic strategies associated with 11q deletion syndrome in the prenatal setting is important to understand this syndrome in its entirety. A retrospective review at Longgang District Maternity & Child Healthcare Hospital of Shenzhen City (Shenzhen, China) involving four fetuses diagnosed with 11q- syndrome was conducted to examine the clinical features of this syndrome. The cases were identified through prenatal screening, including maternal serum biochemistry, non-invasive prenatal screening (NIPS), chromosomal microarray analysis (CMA) and karyotyping. Pregnant women with high-risk results from NIPS or prenatal serological screening received early interventional prenatal diagnosis and genetic counseling. Of the two cases that showed a high-risk of 11q- by NIPS, invasive diagnostic procedures confirmed the presence of large terminal deletions on chromosome 11q, encompassing telomeric regions. CMA identified the deletions while karyotyping revealed underlying structural rearrangements, including balanced translocations in both cases. Prenatal ultrasound identified cardiac anomalies, such as ventricular septal defects and truncus arteriosus. The variability and incomplete penetrance of these malformations suggest the influence of polygenic (e.g., modifier genes, genetic background, copy number variations), epigenetic (e.g., DNA methylation, histone modification) and environmental factors (e.g., diet, lifestyle, exposure to toxins). The results demonstrated that the phenotypic expression of 11q- syndrome varies according to the size and gene content of the deleted region. The integration of CMA and karyotyping improves diagnostic accuracy and elucidates the origin of chromosomal alterations. In the single case present in the current study that involved a parental chromosomal translocation, karyotyping was essential for determining the risk of recurrence. These findings contribute to a more precise understanding of genotype-phenotype associations and support the provision of informed prenatal counseling and the clinical management of 11q- syndrome.",
+          "bullets": [
+            "CMA identified the deletions while karyotyping revealed underlying structural rearrangements, including balanced translocations in both cases.",
+            "Prenatal ultrasound identified cardiac anomalies, such as ventricular septal defects and truncus arteriosus.",
+            "The results demonstrated that the phenotypic expression of 11q- syndrome varies according to the size and gene content of the deleted region."
+          ],
+          "authors": "Zhang T, Cong X, Li Z, et al.",
+          "journal": "Experimental and therapeutic medicine",
+          "year": "2026",
+          "month": "Jul",
+          "doi": "10.3324/haematol.2022.282513",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42205458/",
+          "ris": "TY  - JOUR\nAU  - Zhang T\nAU  - Cong X\nAU  - Li Z\nTI  - Genetic etiology and phenotypic characteristics of fetuses with 11q deletion syndrome (11q23.3-q25).\nJO  - Experimental and therapeutic medicine\nPY  - 2026\nDO  - 10.3324/haematol.2022.282513\nAB  - The 11q deletion (11q-) syndrome is a rare consecutive polygenic deletion disorder. Characterization of the clinical features, genetic etiology and diagnostic strategies associated with 11q deletion syndrome in the prenatal setting is important to understand this syndrome in its entirety. A retrospe\nUR  - https://pubmed.ncbi.nlm.nih.gov/42205458/\nER  - ",
+          "section": "topic_watch",
+          "topic": "CHD_Methylation",
+          "type": "Review",
+          "score": 0
         }
       ],
-      "total": 1
+      "total": 2
     }
   },
   "selected_papers": [
     {
-      "pmid": "42151586",
-      "title": "Epidemiology of non-ischaemic dilated cardiomyopathy.",
-      "abstract": "Dilated cardiomyopathy, defined by left ventricular dilatation and systolic dysfunction, is a major cause of heart failure, heart transplantation and sudden cardiac death, especially in young and middle-aged adults. Dilated cardiomyopathy of non-ischaemic aetiology is more common than once thought, with current prevalence estimated at around 1 in 220 based on cardiac magnetic resonance imaging studies, and the prevalence is twice as high in men than in women. However, the true prevalence could b\u2026",
-      "abstract_full": "Dilated cardiomyopathy, defined by left ventricular dilatation and systolic dysfunction, is a major cause of heart failure, heart transplantation and sudden cardiac death, especially in young and middle-aged adults. Dilated cardiomyopathy of non-ischaemic aetiology is more common than once thought, with current prevalence estimated at around 1 in 220 based on cardiac magnetic resonance imaging studies, and the prevalence is twice as high in men than in women. However, the true prevalence could be even higher when early or subclinical forms of the disease are considered. Advances in genetic technologies over the past three decades have led to improved understanding of the genetic basis of non-ischaemic dilated cardiomyopathy and the identification of pathogenic variants in 30-40% of patients. The genetic architecture of this disease is complex and heterogeneous. Rather than being a strictly monogenic disorder, dilated cardiomyopathy results from a combination of monogenic and polygenic factors, along with gene-environment interactions as critical modifiers of disease penetrance and phenotype. A deeper understanding of the genetic factors and epidemiological landscape of dilated cardiomyopathy is crucial for improving clinical management and optimizing screening protocols and public health strategies.",
+      "pmid": "42215426",
+      "title": "GATA4 Single-Amino Acid Deletion in a Male Patient With Congenital Heart Defects, Differences of Sex Development, and Diaphragmatic Hernia.",
+      "abstract": "Monoallelic loss-of-function variants of GATA4 have been implicated in congenital heart defects, 46,XY differences of sex development, and congenital diaphragmatic hernia (CDH). However, there is no report of GATA4-variant positive patients who concomitantly exhibited these three features. Furthermore, the genotype-phenotype correlation of GATA4 abnormality remains unclear. Here, we report a 2-year-old boy who exhibited pulmonary valve stenosis, multiple atrial septal defects, hypospadias, bifid\u2026",
+      "abstract_full": "Monoallelic loss-of-function variants of GATA4 have been implicated in congenital heart defects, 46,XY differences of sex development, and congenital diaphragmatic hernia (CDH). However, there is no report of GATA4-variant positive patients who concomitantly exhibited these three features. Furthermore, the genotype-phenotype correlation of GATA4 abnormality remains unclear. Here, we report a 2-year-old boy who exhibited pulmonary valve stenosis, multiple atrial septal defects, hypospadias, bifid scrotum, bilateral inguinal hernia, and CDH. Endocrine evaluations of the patient were indicative of partial testicular dysgenesis. Exome sequencing identified a de novo 3-bp deletion in GATA4 that has not been reported previously. The variant eliminated one amino acid from the highly conserved five-threonine repeat in the second zinc finger domain (c.829_831del, p.T277del). The variant was assessed as deleterious by in silico analyses and was scored as \"likely pathogenic\" by the American College of Medical Genetics and Genomics guidelines. Our findings indicate that the five-threonine repeat in the second zinc finger domain contributes to GATA4 function. These results broaden the spectrum of GATA4 pathogenic variants and highlight the phenotypic diversity resulting from GATA4 abnormalities.",
       "bullets": [
-        "Advances in genetic technologies over the past three decades have led to improved understanding of the genetic basis of non-ischaemic dilated cardiomyopathy and the identification of pathogenic variants in 30-40% of\u2026",
-        "Rather than being a strictly monogenic disorder, dilated cardiomyopathy results from a combination of monogenic and polygenic factors, along with gene-environment interactions as critical modifiers of disease penetrance\u2026",
-        "A deeper understanding of the genetic factors and epidemiological landscape of dilated cardiomyopathy is crucial for improving clinical management and optimizing screening protocols and public health strategies."
+        "Exome sequencing identified a de novo 3-bp deletion in GATA4 that has not been reported previously.",
+        "Our findings indicate that the five-threonine repeat in the second zinc finger domain contributes to GATA4 function.",
+        "These results broaden the spectrum of GATA4 pathogenic variants and highlight the phenotypic diversity resulting from GATA4 abnormalities."
       ],
-      "authors": "Ramos-L\u00f3pez N, Dom\u00ednguez F, Ochoa J, et al.",
-      "journal": "Nature reviews. Cardiology",
+      "authors": "Koga N, Katoh-Fukui Y, Fukui S, et al.",
+      "journal": "Clinical genetics",
       "year": "2026",
       "month": "May",
-      "doi": "10.1016/j.jchf.2023.09.015",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42151586/",
-      "ris": "TY  - JOUR\nAU  - Ramos-L\u00f3pez N\nAU  - Dom\u00ednguez F\nAU  - Ochoa J\nTI  - Epidemiology of non-ischaemic dilated cardiomyopathy.\nJO  - Nature reviews. Cardiology\nPY  - 2026\nDO  - 10.1016/j.jchf.2023.09.015\nAB  - Dilated cardiomyopathy, defined by left ventricular dilatation and systolic dysfunction, is a major cause of heart failure, heart transplantation and sudden cardiac death, especially in young and middle-aged adults. Dilated cardiomyopathy of non-ischaemic aetiology is more common than once thought, \nUR  - https://pubmed.ncbi.nlm.nih.gov/42151586/\nER  - ",
+      "doi": "10.1111/cge.70189",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42215426/",
+      "ris": "TY  - JOUR\nAU  - Koga N\nAU  - Katoh-Fukui Y\nAU  - Fukui S\nTI  - GATA4 Single-Amino Acid Deletion in a Male Patient With Congenital Heart Defects, Differences of Sex Development, and Diaphragmatic Hernia.\nJO  - Clinical genetics\nPY  - 2026\nDO  - 10.1111/cge.70189\nAB  - Monoallelic loss-of-function variants of GATA4 have been implicated in congenital heart defects, 46,XY differences of sex development, and congenital diaphragmatic hernia (CDH). However, there is no report of GATA4-variant positive patients who concomitantly exhibited these three features. Furthermo\nUR  - https://pubmed.ncbi.nlm.nih.gov/42215426/\nER  - ",
       "section": "disease_genetics",
-      "topic": "DCM_Genetics",
+      "topic": "CHD_Genetics",
       "type": "Research article",
-      "score": 7
-    },
-    {
-      "pmid": "41983892",
-      "title": "ZNF827 pleiotropic cardiovascular risk locus involves regulation by nuclear factor-1.",
-      "abstract": "Spontaneous coronary artery dissection (SCAD) is a form of myocardial infarction that predominantly affects middle-aged women, caused by the spontaneous onset of an intramural hematoma leading to heart ischemia. SCAD genetic risk loci, such as the ZNF827 locus on chromosome 4, were previously associated with the risk for coronary artery disease, systolic blood pressure, and ascending aortic diameter variability, but the molecular processes driving these genetic associations are unknown. In the p\u2026",
-      "abstract_full": "Spontaneous coronary artery dissection (SCAD) is a form of myocardial infarction that predominantly affects middle-aged women, caused by the spontaneous onset of an intramural hematoma leading to heart ischemia. SCAD genetic risk loci, such as the ZNF827 locus on chromosome 4, were previously associated with the risk for coronary artery disease, systolic blood pressure, and ascending aortic diameter variability, but the molecular processes driving these genetic associations are unknown. In the present study, we demonstrated that these genetic associations were colocalized and could all be explained by the intronic common variant rs13128814, which overlapped epigenetic regulatory markers specifically active in vascular smooth muscle cells (SMCs) and fibroblasts. Using reporter assay experiments, we found that the SCAD-risk allele (rs13128814-A) was associated with increased transcriptional activity in A7r5 SMCs. In silico predictions and reporter assays suggested nuclear factor-1 (NF1) transcription factors to preferentially bind to SCAD risk allele. We found that SCAD genetic association colocalized with a ZNF827 eQTL association in artery tissues. Knockdown of ZNF827 in human iPSC-derived SMCs and fibroblasts identified a large number of dysregulated genes enriched in relevant pathways such as macroautophagy and insulin signaling. Our findings support the NF1-dependent rs13128814 effect on the expression of ZNF827 as a potential molecular mechanism underpinning multiple cardiovascular trait genetic risk loci. ZNF827 may act as a broad regulator of gene expression in vascular SMCs and fibroblasts. Further investigation using multiple cell types, organoids, and in vivo models may clarify the implications of ZNF827 in arterial fragility observed in SCAD and other arterial diseases.",
-      "bullets": [
-        "In the present study, we demonstrated that these genetic associations were colocalized and could all be explained by the intronic common variant rs13128814, which overlapped epigenetic regulatory markers specifically\u2026",
-        "Using reporter assay experiments, we found that the SCAD-risk allele (rs13128814-A) was associated with increased transcriptional activity in A7r5 SMCs.",
-        "Our findings support the NF1-dependent rs13128814 effect on the expression of ZNF827 as a potential molecular mechanism underpinning multiple cardiovascular trait genetic risk loci."
-      ],
-      "authors": "Liu Y, Liu L, Esmael A, et al.",
-      "journal": "Clinical science (London, England : 1979)",
-      "year": "2026",
-      "month": "May",
-      "doi": "10.1186/1748-7188-2-15",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41983892/",
-      "ris": "TY  - JOUR\nAU  - Liu Y\nAU  - Liu L\nAU  - Esmael A\nTI  - ZNF827 pleiotropic cardiovascular risk locus involves regulation by nuclear factor-1.\nJO  - Clinical science (London, England : 1979)\nPY  - 2026\nDO  - 10.1186/1748-7188-2-15\nAB  - Spontaneous coronary artery dissection (SCAD) is a form of myocardial infarction that predominantly affects middle-aged women, caused by the spontaneous onset of an intramural hematoma leading to heart ischemia. SCAD genetic risk loci, such as the ZNF827 locus on chromosome 4, were previously associ\nUR  - https://pubmed.ncbi.nlm.nih.gov/41983892/\nER  - ",
-      "section": "disease_genetics",
-      "topic": "SCAD_Genetics",
-      "type": "Epigenetics",
       "score": 4
     },
     {
@@ -179,6 +201,50 @@
       "score": 2
     },
     {
+      "pmid": "41672210",
+      "title": "Hypertrophic cardiomyopathy caused by filamin-C variants has restrictive and extracardiac features and a distinctive ECG.",
+      "abstract": "BACKGROUND: Filamin-C (FLNC) gene variants are associated with cardiac and skeletal muscle diseases including a clear role of loss-of-function variants in dilated cardiomyopathy. OBJECTIVE: This study aimed to assess the contribution of rare FLNC variants to hypertrophic cardiomyopathy (HCM)/restrictive cardiomyopathy (RCM). METHODS: Family-based studies in 2 specialist services and statistical modeling of rare FLNC missense variants were conducted, using a cohort of 3289 sarcomere-negative HCM \u2026",
+      "abstract_full": "BACKGROUND: Filamin-C (FLNC) gene variants are associated with cardiac and skeletal muscle diseases including a clear role of loss-of-function variants in dilated cardiomyopathy. OBJECTIVE: This study aimed to assess the contribution of rare FLNC variants to hypertrophic cardiomyopathy (HCM)/restrictive cardiomyopathy (RCM). METHODS: Family-based studies in 2 specialist services and statistical modeling of rare FLNC missense variants were conducted, using a cohort of 3289 sarcomere-negative HCM cases and 122,348 genome aggregation database controls. RESULTS: Clinical evaluation of patients with HCM/RCM and a rare FLNC variant identified a distinct electrocardiographic (ECG) repolarization phenotype in 37% (19 of 51 individuals, from 12 families), which was observed in only 1.0% of a control HCM cohort (2 of 197). FLNC variant carriers with the characteristic ECG had smaller left ventricular cavity size, lower contractility, and more severe diastolic dysfunction and were more likely to have a restrictive phenotype. Heart failure death, transplant, or cardiac arrest occurred in at least 1 individual in 7 of the 12 families (58%) in the \"ECG-positive\" group, and musculoskeletal abnormalities were present in 4 families (33%). 5 of 12 variants (41.7%) in the \"ECG-positive\" group cosegregated, and 2 were apparently de novo. 11 variants were missense, and 1 splice site. Rare FLNC missense variant burden indicated a low case excess among all HCM cases (etiologic fraction, 0.45; 95% confidence interval, 0.36-0.54), but in \"ECG-positive\" cases the etiologic fraction was substantially higher (0.98; 95% confidence interval, 0.97-0.99). CONCLUSION: Pathogenic FLNC variants in patients with HCM/RCM are nontruncating and cause a discrete phenotype comprising a characteristic ECG, hypertrophic and restrictive features without hypercontractility, and extracardiac abnormalities.",
+      "bullets": [
+        "Clinical evaluation of patients with HCM/RCM and a rare FLNC variant identified a distinct electrocardiographic (ECG) repolarization phenotype in 37% (19 of 51 individuals, from 12 families), which was observed in only\u2026",
+        "FLNC variant carriers with the characteristic ECG had smaller left ventricular cavity size, lower contractility, and more severe diastolic dysfunction and were more likely to have a restrictive phenotype.",
+        "Rare FLNC missense variant burden indicated a low case excess among all HCM cases (etiologic fraction, 0.45; 95% confidence interval, 0.36-0."
+      ],
+      "authors": "de Villiers C, Ormondroyd E, Thomson K, et al.",
+      "journal": "Heart rhythm",
+      "year": "2026",
+      "month": "Jun",
+      "doi": "10.1016/j.hrthm.2026.01.054",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41672210/",
+      "ris": "TY  - JOUR\nAU  - de Villiers C\nAU  - Ormondroyd E\nAU  - Thomson K\nTI  - Hypertrophic cardiomyopathy caused by filamin-C variants has restrictive and extracardiac features and a distinctive ECG.\nJO  - Heart rhythm\nPY  - 2026\nDO  - 10.1016/j.hrthm.2026.01.054\nAB  - BACKGROUND: Filamin-C (FLNC) gene variants are associated with cardiac and skeletal muscle diseases including a clear role of loss-of-function variants in dilated cardiomyopathy. OBJECTIVE: This study aimed to assess the contribution of rare FLNC variants to hypertrophic cardiomyopathy (HCM)/restric\nUR  - https://pubmed.ncbi.nlm.nih.gov/41672210/\nER  - ",
+      "section": "disease_genetics",
+      "topic": "DCM_Genetics",
+      "type": "Research article",
+      "score": 2
+    },
+    {
+      "pmid": "41781207",
+      "title": "MGRN1 is linked to recessive heart and laterality defects: the first genotype-phenotype report in humans.",
+      "abstract": "Recurrent idiopathic severe fetal structural anomalies present major challenges for reproductive decision-making and genetic counselling. A non-consanguineous healthy Estonian couple had experienced two electively terminated pregnancies at 12-13 weeks' gestation due to unexplained major fetal malformations and one early miscarriage. Their three pregnancies had resulted in unaffected newborns. Exome sequencing of fetal tissues from both terminated pregnancies identified a homozygous rare missense\u2026",
+      "abstract_full": "Recurrent idiopathic severe fetal structural anomalies present major challenges for reproductive decision-making and genetic counselling. A non-consanguineous healthy Estonian couple had experienced two electively terminated pregnancies at 12-13 weeks' gestation due to unexplained major fetal malformations and one early miscarriage. Their three pregnancies had resulted in unaffected newborns. Exome sequencing of fetal tissues from both terminated pregnancies identified a homozygous rare missense variant in MGRN1 (mahogunin ring finger 1), c.881G>A, p.(Arg294His) (Genome Aggregation Database V.4.1.0 allele frequency<8\u00d710\u207b\u2075; no homozygotes reported in any population database). MGRN1 functions as an E3 ubiquitin ligase critical for protein homeostasis and developmental signalling. The detected substitution compromises a conserved residue within the RING (Really Interesting New Gene) finger domain. Cascade testing revealed that the parents and one unaffected child were heterozygous carriers, while two healthy siblings were homozygous for the reference allele. Both affected fetuses displayed congenital malformations closely mirroring prenatal phenotypes reported in Mgrn1 homozygous mutant mice, including cardiac malformations (ventricular septal defect, outflow tract malposition, pulmonary artery hypoplasia) and abnormal left-right axis patterning. These findings provide the first evidence implicating MGRN1 in human congenital disease and support its role in early embryonic patterning.",
+      "bullets": [
+        "Exome sequencing of fetal tissues from both terminated pregnancies identified a homozygous rare missense variant in MGRN1 (mahogunin ring finger 1), c.881G>A, p.(Arg294His) (Genome Aggregation Database V.4.1.",
+        "Cascade testing revealed that the parents and one unaffected child were heterozygous carriers, while two healthy siblings were homozygous for the reference allele.",
+        "These findings provide the first evidence implicating MGRN1 in human congenital disease and support its role in early embryonic patterning."
+      ],
+      "authors": "Kasak L, Rull K, Valkna A, et al.",
+      "journal": "Journal of medical genetics",
+      "year": "2026",
+      "month": "May",
+      "doi": "10.1016/j.semperi.2025.152058",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41781207/",
+      "ris": "TY  - JOUR\nAU  - Kasak L\nAU  - Rull K\nAU  - Valkna A\nTI  - MGRN1 is linked to recessive heart and laterality defects: the first genotype-phenotype report in humans.\nJO  - Journal of medical genetics\nPY  - 2026\nDO  - 10.1016/j.semperi.2025.152058\nAB  - Recurrent idiopathic severe fetal structural anomalies present major challenges for reproductive decision-making and genetic counselling. A non-consanguineous healthy Estonian couple had experienced two electively terminated pregnancies at 12-13 weeks' gestation due to unexplained major fetal malfor\nUR  - https://pubmed.ncbi.nlm.nih.gov/41781207/\nER  - ",
+      "section": "disease_genetics",
+      "topic": "CHD_Genetics",
+      "type": "Research article",
+      "score": 1
+    },
+    {
       "pmid": "42102332",
       "title": "Pearls & Oy-sters: Stroke Recurrence After PFO Closure Uncovers Cerebrotendinous Xanthomatosis.",
       "abstract": "Cerebrotendinous xanthomatosis (CTX) is a rare autosomal recessive metabolic disorder that can cause premature atherosclerosis and ischemic stroke in young adults. We report a 23-year-old man who had recurrent strokes even after patent foramen ovale (PFO) closure. Initial evaluation for his first cryptogenic stroke revealed a PFO with a high Risk of Paradoxical Embolism (RoPE) score, leading to closure. Three years later, he experienced a recurrent stroke with right M1 segment occlusion. High-re\u2026",
@@ -199,15 +265,37 @@
       "topic": "CHD_DCM_SCAD_PRS",
       "type": "Research article",
       "score": 0
+    },
+    {
+      "pmid": "42205458",
+      "title": "Genetic etiology and phenotypic characteristics of fetuses with 11q deletion syndrome (11q23.3-q25).",
+      "abstract": "The 11q deletion (11q-) syndrome is a rare consecutive polygenic deletion disorder. Characterization of the clinical features, genetic etiology and diagnostic strategies associated with 11q deletion syndrome in the prenatal setting is important to understand this syndrome in its entirety. A retrospective review at Longgang District Maternity & Child Healthcare Hospital of Shenzhen City (Shenzhen, China) involving four fetuses diagnosed with 11q- syndrome was conducted to examine the clinical fea\u2026",
+      "abstract_full": "The 11q deletion (11q-) syndrome is a rare consecutive polygenic deletion disorder. Characterization of the clinical features, genetic etiology and diagnostic strategies associated with 11q deletion syndrome in the prenatal setting is important to understand this syndrome in its entirety. A retrospective review at Longgang District Maternity & Child Healthcare Hospital of Shenzhen City (Shenzhen, China) involving four fetuses diagnosed with 11q- syndrome was conducted to examine the clinical features of this syndrome. The cases were identified through prenatal screening, including maternal serum biochemistry, non-invasive prenatal screening (NIPS), chromosomal microarray analysis (CMA) and karyotyping. Pregnant women with high-risk results from NIPS or prenatal serological screening received early interventional prenatal diagnosis and genetic counseling. Of the two cases that showed a high-risk of 11q- by NIPS, invasive diagnostic procedures confirmed the presence of large terminal deletions on chromosome 11q, encompassing telomeric regions. CMA identified the deletions while karyotyping revealed underlying structural rearrangements, including balanced translocations in both cases. Prenatal ultrasound identified cardiac anomalies, such as ventricular septal defects and truncus arteriosus. The variability and incomplete penetrance of these malformations suggest the influence of polygenic (e.g., modifier genes, genetic background, copy number variations), epigenetic (e.g., DNA methylation, histone modification) and environmental factors (e.g., diet, lifestyle, exposure to toxins). The results demonstrated that the phenotypic expression of 11q- syndrome varies according to the size and gene content of the deleted region. The integration of CMA and karyotyping improves diagnostic accuracy and elucidates the origin of chromosomal alterations. In the single case present in the current study that involved a parental chromosomal translocation, karyotyping was essential for determining the risk of recurrence. These findings contribute to a more precise understanding of genotype-phenotype associations and support the provision of informed prenatal counseling and the clinical management of 11q- syndrome.",
+      "bullets": [
+        "CMA identified the deletions while karyotyping revealed underlying structural rearrangements, including balanced translocations in both cases.",
+        "Prenatal ultrasound identified cardiac anomalies, such as ventricular septal defects and truncus arteriosus.",
+        "The results demonstrated that the phenotypic expression of 11q- syndrome varies according to the size and gene content of the deleted region."
+      ],
+      "authors": "Zhang T, Cong X, Li Z, et al.",
+      "journal": "Experimental and therapeutic medicine",
+      "year": "2026",
+      "month": "Jul",
+      "doi": "10.3324/haematol.2022.282513",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42205458/",
+      "ris": "TY  - JOUR\nAU  - Zhang T\nAU  - Cong X\nAU  - Li Z\nTI  - Genetic etiology and phenotypic characteristics of fetuses with 11q deletion syndrome (11q23.3-q25).\nJO  - Experimental and therapeutic medicine\nPY  - 2026\nDO  - 10.3324/haematol.2022.282513\nAB  - The 11q deletion (11q-) syndrome is a rare consecutive polygenic deletion disorder. Characterization of the clinical features, genetic etiology and diagnostic strategies associated with 11q deletion syndrome in the prenatal setting is important to understand this syndrome in its entirety. A retrospe\nUR  - https://pubmed.ncbi.nlm.nih.gov/42205458/\nER  - ",
+      "section": "topic_watch",
+      "topic": "CHD_Methylation",
+      "type": "Review",
+      "score": 0
     }
   ],
-  "summary_text": "4 papers selected from this week's literature:\n  \u2022 2 \u00d7 disease genetics (CHD / DCM / SCAD)\n  \u2022 1 \u00d7 epigenetics / methylation\n  \u2022 1 \u00d7 PRS in CHD/DCM/SCAD\n\nHighlight: Epidemiology of non-ischaemic dilated cardiomyopathy. (Nature reviews. Cardiology, 2026)",
+  "summary_text": "6 papers selected from this week's literature:\n  \u2022 3 \u00d7 disease genetics (CHD / DCM / SCAD)\n  \u2022 2 \u00d7 epigenetics / methylation\n  \u2022 1 \u00d7 PRS in CHD/DCM/SCAD\n\nHighlight: GATA4 Single-Amino Acid Deletion in a Male Patient With Congenital Heart Defects, Differences of Sex Development, and Diaphragmatic Hernia. (Clinical genetics, 2026)",
   "summary": {
-    "total_selected": 4,
-    "total_candidates": 4,
+    "total_selected": 6,
+    "total_candidates": 6,
     "section_counts": {
-      "disease_genetics": 2,
-      "topic_watch": 1,
+      "disease_genetics": 3,
+      "topic_watch": 2,
       "prs_disease": 1
     }
   }
