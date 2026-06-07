@@ -1,31 +1,75 @@
 {
-  "generated": "2026-05-31T21:44:28.908211",
+  "generated": "2026-06-07T21:55:48.865633",
   "lookback_days": 7,
-  "cutoff_date": "2026/05/24",
+  "cutoff_date": "2026/05/31",
   "sections": {
     "disease_genetics": {
       "papers": [
         {
-          "pmid": "42215426",
-          "title": "GATA4 Single-Amino Acid Deletion in a Male Patient With Congenital Heart Defects, Differences of Sex Development, and Diaphragmatic Hernia.",
-          "abstract": "Monoallelic loss-of-function variants of GATA4 have been implicated in congenital heart defects, 46,XY differences of sex development, and congenital diaphragmatic hernia (CDH). However, there is no report of GATA4-variant positive patients who concomitantly exhibited these three features. Furthermore, the genotype-phenotype correlation of GATA4 abnormality remains unclear. Here, we report a 2-year-old boy who exhibited pulmonary valve stenosis, multiple atrial septal defects, hypospadias, bifid\u2026",
-          "abstract_full": "Monoallelic loss-of-function variants of GATA4 have been implicated in congenital heart defects, 46,XY differences of sex development, and congenital diaphragmatic hernia (CDH). However, there is no report of GATA4-variant positive patients who concomitantly exhibited these three features. Furthermore, the genotype-phenotype correlation of GATA4 abnormality remains unclear. Here, we report a 2-year-old boy who exhibited pulmonary valve stenosis, multiple atrial septal defects, hypospadias, bifid scrotum, bilateral inguinal hernia, and CDH. Endocrine evaluations of the patient were indicative of partial testicular dysgenesis. Exome sequencing identified a de novo 3-bp deletion in GATA4 that has not been reported previously. The variant eliminated one amino acid from the highly conserved five-threonine repeat in the second zinc finger domain (c.829_831del, p.T277del). The variant was assessed as deleterious by in silico analyses and was scored as \"likely pathogenic\" by the American College of Medical Genetics and Genomics guidelines. Our findings indicate that the five-threonine repeat in the second zinc finger domain contributes to GATA4 function. These results broaden the spectrum of GATA4 pathogenic variants and highlight the phenotypic diversity resulting from GATA4 abnormalities.",
+          "pmid": "42230622",
+          "title": "Assessing the contribution of rare variants to congenital heart disease through a large-scale case-control exome study.",
+          "abstract": "Several studies have demonstrated the value of large-scale human exome and genome data analysis to maximise gene discovery in rare diseases. Using this approach, we have analysed the exomes of 4747 cases and 52,881 controls to identify genes which confer a substantial risk of congenital heart disease (CHD). We identified both rare loss-of-function and missense coding variants in 14 genes, which reached genome-wide significance at FDR 5%. Ten genes have been associated with CHD, whereas four gene\u2026",
+          "abstract_full": "Several studies have demonstrated the value of large-scale human exome and genome data analysis to maximise gene discovery in rare diseases. Using this approach, we have analysed the exomes of 4747 cases and 52,881 controls to identify genes which confer a substantial risk of congenital heart disease (CHD). We identified both rare loss-of-function and missense coding variants in 14 genes, which reached genome-wide significance at FDR 5%. Ten genes have been associated with CHD, whereas four genes (PBX1, KAT6B, SHOX2, HCAR1) have not been reported as genome-wide significant so far. We highlight distinct genetic contributions to syndromic and non-syndromic CHD by independently analysing probands from these two groups. In addition, by integrative analysis of exome data with single-cell transcriptomics data from human embryonic hearts, we identified cardiac-specific cells, such as neural crest cells and endothelial cells, as well as putative biological processes underlying the pathogenesis of CHD. In summary, our findings strengthen the association of known CHD genes and have identified additional novel disease genes contributing to the aetiology of CHD.",
           "bullets": [
-            "Exome sequencing identified a de novo 3-bp deletion in GATA4 that has not been reported previously.",
-            "Our findings indicate that the five-threonine repeat in the second zinc finger domain contributes to GATA4 function.",
-            "These results broaden the spectrum of GATA4 pathogenic variants and highlight the phenotypic diversity resulting from GATA4 abnormalities."
+            "We identified both rare loss-of-function and missense coding variants in 14 genes, which reached genome-wide significance at FDR 5%.",
+            "In addition, by integrative analysis of exome data with single-cell transcriptomics data from human embryonic hearts, we identified cardiac-specific cells, such as neural crest cells and endothelial cells, as well as\u2026",
+            "In summary, our findings strengthen the association of known CHD genes and have identified additional novel disease genes contributing to the aetiology of CHD."
           ],
-          "authors": "Koga N, Katoh-Fukui Y, Fukui S, et al.",
-          "journal": "Clinical genetics",
+          "authors": "Audain E, Wilsdon A, Dombrowsky G, et al.",
+          "journal": "NPJ genomic medicine",
           "year": "2026",
-          "month": "May",
-          "doi": "10.1111/cge.70189",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42215426/",
-          "ris": "TY  - JOUR\nAU  - Koga N\nAU  - Katoh-Fukui Y\nAU  - Fukui S\nTI  - GATA4 Single-Amino Acid Deletion in a Male Patient With Congenital Heart Defects, Differences of Sex Development, and Diaphragmatic Hernia.\nJO  - Clinical genetics\nPY  - 2026\nDO  - 10.1111/cge.70189\nAB  - Monoallelic loss-of-function variants of GATA4 have been implicated in congenital heart defects, 46,XY differences of sex development, and congenital diaphragmatic hernia (CDH). However, there is no report of GATA4-variant positive patients who concomitantly exhibited these three features. Furthermo\nUR  - https://pubmed.ncbi.nlm.nih.gov/42215426/\nER  - ",
+          "month": "Jun",
+          "doi": "10.1038/s41586-020-2832-5",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42230622/",
+          "ris": "TY  - JOUR\nAU  - Audain E\nAU  - Wilsdon A\nAU  - Dombrowsky G\nTI  - Assessing the contribution of rare variants to congenital heart disease through a large-scale case-control exome study.\nJO  - NPJ genomic medicine\nPY  - 2026\nDO  - 10.1038/s41586-020-2832-5\nAB  - Several studies have demonstrated the value of large-scale human exome and genome data analysis to maximise gene discovery in rare diseases. Using this approach, we have analysed the exomes of 4747 cases and 52,881 controls to identify genes which confer a substantial risk of congenital heart diseas\nUR  - https://pubmed.ncbi.nlm.nih.gov/42230622/\nER  - ",
           "section": "disease_genetics",
           "topic": "CHD_Genetics",
           "type": "Research article",
-          "score": 4
+          "score": 7
+        },
+        {
+          "pmid": "42250864",
+          "title": "Genomic and proteogenomic insights into Spontaneous Coronary Artery Dissection (SCAD): A systematic review of emerging multi-omic evidence.",
+          "abstract": "BACKGROUND: Spontaneous coronary artery dissection (SCAD) is a major cause of myocardial infarction in young women without traditional cardiovascular risk factors (Hayes et al., 2018; Adlam et al., 2018 [1, 2]). Despite growing awareness, its biological underpinnings remain incompletely understood, and clinical management is largely based on observational evidence rather than mechanistic insight (Saw et al., 2014; Lettieri et al., 2015; Steg et al., 2024 [3-5]). OBJECTIVES: To systematically int\u2026",
+          "abstract_full": "BACKGROUND: Spontaneous coronary artery dissection (SCAD) is a major cause of myocardial infarction in young women without traditional cardiovascular risk factors (Hayes et al., 2018; Adlam et al., 2018 [1, 2]). Despite growing awareness, its biological underpinnings remain incompletely understood, and clinical management is largely based on observational evidence rather than mechanistic insight (Saw et al., 2014; Lettieri et al., 2015; Steg et al., 2024 [3-5]). OBJECTIVES: To systematically integrate genomic, epitranscriptomic, proteomic, and metabolomic data in order to characterize the multi-omic architecture of SCAD and identify potential biomarkers and therapeutic targets. METHODS: A systematic review was conducted in accordance with the PRISMA 2020 statement (Arbelo et al., 2023 [6]). PubMed/MEDLINE was searched for original studies investigating genomic and multi-omic features of SCAD. Data were extracted on study design, patient characteristics, identified variants, circulating biomarkers, and implicated biological pathways. Functional enrichment analysis was performed using the DAVID bioinformatics resource (Page et al., 2021 [7]). RESULTS: A total of 16 studies were included. Genome-wide association studies consistently identified susceptibility loci related to arterial structure and extracellular matrix integrity, including ADAMTSL4, PHACTR1/EDN1, LRP1, and FBN1 (Huang et al., 2009; Saw et al., 2020; Turley et al., 2020 [8-10]). Rare variant analyses further supported the role of genes involved in extracellular matrix remodeling and vascular smooth muscle cell function, including COL3A1, COL4A1/2, SMAD3, and TLN1 (Adlam et al., 2023; Turley et al., 2021, 2019; Carss et al., 2020; Zekavat et al., 2022; Wang et al., 2022 [11-16]), while ancestry-specific signals such as TSR1 variants were observed in distinct populations (Turley et al., 2023 [17]). Proteogenomic approaches linked genetic susceptibility loci to circulating proteins involved in matrix remodeling and inflammation, including cathepsin B and ECM1 (Maioli et al., 2010 [18]). Epitranscriptomic analyses identified differential microRNA expression profiles associated with vascular injury and repair pathways (Sun et al., 2019 [19]). CONCLUSIONS: SCAD is characterized by a complex, multi-layered biological architecture involving genetic susceptibility, extracellular matrix dysregulation, and vascular signaling pathways. Integration of multi-omic data provides novel insights into disease mechanisms and highlights potential biomarkers and targets for precision medicine approaches in SCAD.",
+          "bullets": [
+            "Genome-wide association studies consistently identified susceptibility loci related to arterial structure and extracellular matrix integrity, including ADAMTSL4, PHACTR1/EDN1, LRP1, and FBN1 (Huang et al.",
+            "Proteogenomic approaches linked genetic susceptibility loci to circulating proteins involved in matrix remodeling and inflammation, including cathepsin B and ECM1 (Maioli et al., 2010 [18]).",
+            "Epitranscriptomic analyses identified differential microRNA expression profiles associated with vascular injury and repair pathways (Sun et al., 2019 [19])."
+          ],
+          "authors": "Russo A, Alberti M, Biondi F, et al.",
+          "journal": "Vascular pharmacology",
+          "year": "2026",
+          "month": "Jun",
+          "doi": "10.1016/j.vph.2026.107657",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42250864/",
+          "ris": "TY  - JOUR\nAU  - Russo A\nAU  - Alberti M\nAU  - Biondi F\nTI  - Genomic and proteogenomic insights into Spontaneous Coronary Artery Dissection (SCAD): A systematic review of emerging multi-omic evidence.\nJO  - Vascular pharmacology\nPY  - 2026\nDO  - 10.1016/j.vph.2026.107657\nAB  - BACKGROUND: Spontaneous coronary artery dissection (SCAD) is a major cause of myocardial infarction in young women without traditional cardiovascular risk factors (Hayes et al., 2018; Adlam et al., 2018 [1, 2]). Despite growing awareness, its biological underpinnings remain incompletely understood, \nUR  - https://pubmed.ncbi.nlm.nih.gov/42250864/\nER  - ",
+          "section": "disease_genetics",
+          "topic": "SCAD_Genetics",
+          "type": "Review",
+          "score": 3
+        },
+        {
+          "pmid": "41813603",
+          "title": "Optimizing Diagnostic Accuracy of Clinical Red Flags in RASopathies.",
+          "abstract": "RASopathies are a group of genetic disorders caused by pathogenic variants in the RAS-mitogen-activated protein kinase (RAS-MAPK) signaling pathway, often presenting with congenital heart defects, craniofacial dysmorphisms, and developmental delays. To assess the diagnostic yield of genetic testing in patients with suspected RASopathies and to identify predictive clinical \"red flags\" using machine learning (ML). This retrospective study included patients evaluated at our institution between 2020\u2026",
+          "abstract_full": "RASopathies are a group of genetic disorders caused by pathogenic variants in the RAS-mitogen-activated protein kinase (RAS-MAPK) signaling pathway, often presenting with congenital heart defects, craniofacial dysmorphisms, and developmental delays. To assess the diagnostic yield of genetic testing in patients with suspected RASopathies and to identify predictive clinical \"red flags\" using machine learning (ML). This retrospective study included patients evaluated at our institution between 2020 and 2023. All patients underwent cardiovascular evaluation, and a subset of individuals with suspected RASopathies underwent genetic assessment including exome sequencing. Thirteen clinical \"red flags\" were analyzed as predictors of a molecular diagnosis within the subgroup of patients with suspected RASopathies. Diagnostic performance was assessed via sensitivity, specificity, and area under the curve (AUC). A random forest classifier identified the most predictive clinical features. Among 669 patients, 34 were clinically suspected of RASopathy, with a confirmed diagnosis in 24 cases (71%). Noonan syndrome was most frequent (18/24), and PTPN11 was the most commonly mutated gene (n\u2009=\u200913). Pulmonary valve stenosis (PVS) and facial dysmorphisms were the strongest individual predictors of a positive genetic test result. A threshold of \u2265\u20092 red flags balanced sensitivity (92%) and accuracy (73.5%). ML analysis identified PVS and facial dysmorphisms as the top predictors. A model including only these features achieved an AUC of 0.86 in the derivation cohort. PVS and facial dysmorphisms are key diagnostic indicators for RASopathies and should prompt early genetic testing. While the ML model showed high performance in this derivation cohort, external validation is needed to confirm its generalizability.",
+          "bullets": [
+            "Among 669 patients, 34 were clinically suspected of RASopathy, with a confirmed diagnosis in 24 cases (71%).",
+            "ML analysis identified PVS and facial dysmorphisms as the top predictors.",
+            "While the ML model showed high performance in this derivation cohort, external validation is needed to confirm its generalizability."
+          ],
+          "authors": "Bobbio E, Caiazza M, Monda E, et al.",
+          "journal": "American journal of medical genetics. Part A",
+          "year": "2026",
+          "month": "Jul",
+          "doi": "10.1002/ajmg.a.70119",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41813603/",
+          "ris": "TY  - JOUR\nAU  - Bobbio E\nAU  - Caiazza M\nAU  - Monda E\nTI  - Optimizing Diagnostic Accuracy of Clinical Red Flags in RASopathies.\nJO  - American journal of medical genetics. Part A\nPY  - 2026\nDO  - 10.1002/ajmg.a.70119\nAB  - RASopathies are a group of genetic disorders caused by pathogenic variants in the RAS-mitogen-activated protein kinase (RAS-MAPK) signaling pathway, often presenting with congenital heart defects, craniofacial dysmorphisms, and developmental delays. To assess the diagnostic yield of genetic testing \nUR  - https://pubmed.ncbi.nlm.nih.gov/41813603/\nER  - ",
+          "section": "disease_genetics",
+          "topic": "CHD_Genetics",
+          "type": "Research article",
+          "score": 2
         },
         {
           "pmid": "41672210",
@@ -48,31 +92,9 @@
           "topic": "DCM_Genetics",
           "type": "Research article",
           "score": 2
-        },
-        {
-          "pmid": "41781207",
-          "title": "MGRN1 is linked to recessive heart and laterality defects: the first genotype-phenotype report in humans.",
-          "abstract": "Recurrent idiopathic severe fetal structural anomalies present major challenges for reproductive decision-making and genetic counselling. A non-consanguineous healthy Estonian couple had experienced two electively terminated pregnancies at 12-13 weeks' gestation due to unexplained major fetal malformations and one early miscarriage. Their three pregnancies had resulted in unaffected newborns. Exome sequencing of fetal tissues from both terminated pregnancies identified a homozygous rare missense\u2026",
-          "abstract_full": "Recurrent idiopathic severe fetal structural anomalies present major challenges for reproductive decision-making and genetic counselling. A non-consanguineous healthy Estonian couple had experienced two electively terminated pregnancies at 12-13 weeks' gestation due to unexplained major fetal malformations and one early miscarriage. Their three pregnancies had resulted in unaffected newborns. Exome sequencing of fetal tissues from both terminated pregnancies identified a homozygous rare missense variant in MGRN1 (mahogunin ring finger 1), c.881G>A, p.(Arg294His) (Genome Aggregation Database V.4.1.0 allele frequency<8\u00d710\u207b\u2075; no homozygotes reported in any population database). MGRN1 functions as an E3 ubiquitin ligase critical for protein homeostasis and developmental signalling. The detected substitution compromises a conserved residue within the RING (Really Interesting New Gene) finger domain. Cascade testing revealed that the parents and one unaffected child were heterozygous carriers, while two healthy siblings were homozygous for the reference allele. Both affected fetuses displayed congenital malformations closely mirroring prenatal phenotypes reported in Mgrn1 homozygous mutant mice, including cardiac malformations (ventricular septal defect, outflow tract malposition, pulmonary artery hypoplasia) and abnormal left-right axis patterning. These findings provide the first evidence implicating MGRN1 in human congenital disease and support its role in early embryonic patterning.",
-          "bullets": [
-            "Exome sequencing of fetal tissues from both terminated pregnancies identified a homozygous rare missense variant in MGRN1 (mahogunin ring finger 1), c.881G>A, p.(Arg294His) (Genome Aggregation Database V.4.1.",
-            "Cascade testing revealed that the parents and one unaffected child were heterozygous carriers, while two healthy siblings were homozygous for the reference allele.",
-            "These findings provide the first evidence implicating MGRN1 in human congenital disease and support its role in early embryonic patterning."
-          ],
-          "authors": "Kasak L, Rull K, Valkna A, et al.",
-          "journal": "Journal of medical genetics",
-          "year": "2026",
-          "month": "May",
-          "doi": "10.1016/j.semperi.2025.152058",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/41781207/",
-          "ris": "TY  - JOUR\nAU  - Kasak L\nAU  - Rull K\nAU  - Valkna A\nTI  - MGRN1 is linked to recessive heart and laterality defects: the first genotype-phenotype report in humans.\nJO  - Journal of medical genetics\nPY  - 2026\nDO  - 10.1016/j.semperi.2025.152058\nAB  - Recurrent idiopathic severe fetal structural anomalies present major challenges for reproductive decision-making and genetic counselling. A non-consanguineous healthy Estonian couple had experienced two electively terminated pregnancies at 12-13 weeks' gestation due to unexplained major fetal malfor\nUR  - https://pubmed.ncbi.nlm.nih.gov/41781207/\nER  - ",
-          "section": "disease_genetics",
-          "topic": "CHD_Genetics",
-          "type": "Research article",
-          "score": 1
         }
       ],
-      "total": 3
+      "total": 4
     },
     "prs_disease": {
       "papers": [
@@ -130,6 +152,28 @@
           "score": 2
         },
         {
+          "pmid": "42234061",
+          "title": "Endocrine Disruption and Male Fertility.",
+          "abstract": "PURPOSE OF REVIEW: Endocrine-disrupting chemicals affect nearly every human on the planet and are known to interfere with reproduction. Most studies have focused on gestational exposure effects in females. Emerging evidence indicates that preconception exposures in males can also impact pregnancy outcomes and offspring health. This review describes how several major endocrine disruptors impair key male fertility endpoints and their subsequent effects on downstream processes, including fertilizat\u2026",
+          "abstract_full": "PURPOSE OF REVIEW: Endocrine-disrupting chemicals affect nearly every human on the planet and are known to interfere with reproduction. Most studies have focused on gestational exposure effects in females. Emerging evidence indicates that preconception exposures in males can also impact pregnancy outcomes and offspring health. This review describes how several major endocrine disruptors impair key male fertility endpoints and their subsequent effects on downstream processes, including fertilization and the health of the next generation(s). RECENT FINDINGS: Endocrine disrupting chemicals such as polychlorinated biphenyls, polybrominated diphenyl ethers, per- and polyfluoroalkyl substances, bisphenols, phthalates, and parabens can have widespread effects on male fertility by interfering with the hypothalamic-pituitary-gonadal axis and through direct effects on the male reproductive system. These effects include impaired semen quality (sperm count, morphology, motility), changes in the spermatogenic process, mitochondrial disruption, reactive oxygen species generation, skewed energy metabolism, germ cell apoptosis, and changes in the sperm epigenome (DNA methylation, histone modifications, noncoding RNAs). Studies continue to demonstrate that paternal endocrine disruptor exposure impacts the next generation and in some cases beyond, with studies in animal models showing disruption of fertility in the F1 and F2 generations, and studies of occupational exposures in humans showing increased risks of low birth weight and congenital heart disease for children born to exposed fathers. The hypothesis that preconception paternal exposures are consequential to future generations has slowly been gaining traction, but more research is needed to better understand the intergenerational and transgenerational health consequences of endocrine disruptor exposures, the underlying mechanisms, and, given the growing ubiquity of these chemicals in our food and environment, to develop and implement strategies for mitigation of these effects.",
+          "bullets": [
+            "Endocrine disrupting chemicals such as polychlorinated biphenyls, polybrominated diphenyl ethers, per- and polyfluoroalkyl substances, bisphenols, phthalates, and parabens can have widespread effects on male fertility\u2026",
+            "These effects include impaired semen quality (sperm count, morphology, motility), changes in the spermatogenic process, mitochondrial disruption, reactive oxygen species generation, skewed energy metabolism, germ cell\u2026",
+            "Studies continue to demonstrate that paternal endocrine disruptor exposure impacts the next generation and in some cases beyond, with studies in animal models showing disruption of fertility in the F1 and F2\u2026"
+          ],
+          "authors": "Ulaganathan G, Murphy S",
+          "journal": "Current environmental health reports",
+          "year": "2026",
+          "month": "Jun",
+          "doi": "10.1016/j.fertnstert.2023.02.034",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42234061/",
+          "ris": "TY  - JOUR\nAU  - Ulaganathan G\nAU  - Murphy S\nTI  - Endocrine Disruption and Male Fertility.\nJO  - Current environmental health reports\nPY  - 2026\nDO  - 10.1016/j.fertnstert.2023.02.034\nAB  - PURPOSE OF REVIEW: Endocrine-disrupting chemicals affect nearly every human on the planet and are known to interfere with reproduction. Most studies have focused on gestational exposure effects in females. Emerging evidence indicates that preconception exposures in males can also impact pregnancy ou\nUR  - https://pubmed.ncbi.nlm.nih.gov/42234061/\nER  - ",
+          "section": "topic_watch",
+          "topic": "CHD_Methylation",
+          "type": "Review",
+          "score": 1
+        },
+        {
           "pmid": "42205458",
           "title": "Genetic etiology and phenotypic characteristics of fetuses with 11q deletion syndrome (11q23.3-q25).",
           "abstract": "The 11q deletion (11q-) syndrome is a rare consecutive polygenic deletion disorder. Characterization of the clinical features, genetic etiology and diagnostic strategies associated with 11q deletion syndrome in the prenatal setting is important to understand this syndrome in its entirety. A retrospective review at Longgang District Maternity & Child Healthcare Hospital of Shenzhen City (Shenzhen, China) involving four fetuses diagnosed with 11q- syndrome was conducted to examine the clinical fea\u2026",
@@ -152,31 +196,53 @@
           "score": 0
         }
       ],
-      "total": 2
+      "total": 3
     }
   },
   "selected_papers": [
     {
-      "pmid": "42215426",
-      "title": "GATA4 Single-Amino Acid Deletion in a Male Patient With Congenital Heart Defects, Differences of Sex Development, and Diaphragmatic Hernia.",
-      "abstract": "Monoallelic loss-of-function variants of GATA4 have been implicated in congenital heart defects, 46,XY differences of sex development, and congenital diaphragmatic hernia (CDH). However, there is no report of GATA4-variant positive patients who concomitantly exhibited these three features. Furthermore, the genotype-phenotype correlation of GATA4 abnormality remains unclear. Here, we report a 2-year-old boy who exhibited pulmonary valve stenosis, multiple atrial septal defects, hypospadias, bifid\u2026",
-      "abstract_full": "Monoallelic loss-of-function variants of GATA4 have been implicated in congenital heart defects, 46,XY differences of sex development, and congenital diaphragmatic hernia (CDH). However, there is no report of GATA4-variant positive patients who concomitantly exhibited these three features. Furthermore, the genotype-phenotype correlation of GATA4 abnormality remains unclear. Here, we report a 2-year-old boy who exhibited pulmonary valve stenosis, multiple atrial septal defects, hypospadias, bifid scrotum, bilateral inguinal hernia, and CDH. Endocrine evaluations of the patient were indicative of partial testicular dysgenesis. Exome sequencing identified a de novo 3-bp deletion in GATA4 that has not been reported previously. The variant eliminated one amino acid from the highly conserved five-threonine repeat in the second zinc finger domain (c.829_831del, p.T277del). The variant was assessed as deleterious by in silico analyses and was scored as \"likely pathogenic\" by the American College of Medical Genetics and Genomics guidelines. Our findings indicate that the five-threonine repeat in the second zinc finger domain contributes to GATA4 function. These results broaden the spectrum of GATA4 pathogenic variants and highlight the phenotypic diversity resulting from GATA4 abnormalities.",
+      "pmid": "42230622",
+      "title": "Assessing the contribution of rare variants to congenital heart disease through a large-scale case-control exome study.",
+      "abstract": "Several studies have demonstrated the value of large-scale human exome and genome data analysis to maximise gene discovery in rare diseases. Using this approach, we have analysed the exomes of 4747 cases and 52,881 controls to identify genes which confer a substantial risk of congenital heart disease (CHD). We identified both rare loss-of-function and missense coding variants in 14 genes, which reached genome-wide significance at FDR 5%. Ten genes have been associated with CHD, whereas four gene\u2026",
+      "abstract_full": "Several studies have demonstrated the value of large-scale human exome and genome data analysis to maximise gene discovery in rare diseases. Using this approach, we have analysed the exomes of 4747 cases and 52,881 controls to identify genes which confer a substantial risk of congenital heart disease (CHD). We identified both rare loss-of-function and missense coding variants in 14 genes, which reached genome-wide significance at FDR 5%. Ten genes have been associated with CHD, whereas four genes (PBX1, KAT6B, SHOX2, HCAR1) have not been reported as genome-wide significant so far. We highlight distinct genetic contributions to syndromic and non-syndromic CHD by independently analysing probands from these two groups. In addition, by integrative analysis of exome data with single-cell transcriptomics data from human embryonic hearts, we identified cardiac-specific cells, such as neural crest cells and endothelial cells, as well as putative biological processes underlying the pathogenesis of CHD. In summary, our findings strengthen the association of known CHD genes and have identified additional novel disease genes contributing to the aetiology of CHD.",
       "bullets": [
-        "Exome sequencing identified a de novo 3-bp deletion in GATA4 that has not been reported previously.",
-        "Our findings indicate that the five-threonine repeat in the second zinc finger domain contributes to GATA4 function.",
-        "These results broaden the spectrum of GATA4 pathogenic variants and highlight the phenotypic diversity resulting from GATA4 abnormalities."
+        "We identified both rare loss-of-function and missense coding variants in 14 genes, which reached genome-wide significance at FDR 5%.",
+        "In addition, by integrative analysis of exome data with single-cell transcriptomics data from human embryonic hearts, we identified cardiac-specific cells, such as neural crest cells and endothelial cells, as well as\u2026",
+        "In summary, our findings strengthen the association of known CHD genes and have identified additional novel disease genes contributing to the aetiology of CHD."
       ],
-      "authors": "Koga N, Katoh-Fukui Y, Fukui S, et al.",
-      "journal": "Clinical genetics",
+      "authors": "Audain E, Wilsdon A, Dombrowsky G, et al.",
+      "journal": "NPJ genomic medicine",
       "year": "2026",
-      "month": "May",
-      "doi": "10.1111/cge.70189",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42215426/",
-      "ris": "TY  - JOUR\nAU  - Koga N\nAU  - Katoh-Fukui Y\nAU  - Fukui S\nTI  - GATA4 Single-Amino Acid Deletion in a Male Patient With Congenital Heart Defects, Differences of Sex Development, and Diaphragmatic Hernia.\nJO  - Clinical genetics\nPY  - 2026\nDO  - 10.1111/cge.70189\nAB  - Monoallelic loss-of-function variants of GATA4 have been implicated in congenital heart defects, 46,XY differences of sex development, and congenital diaphragmatic hernia (CDH). However, there is no report of GATA4-variant positive patients who concomitantly exhibited these three features. Furthermo\nUR  - https://pubmed.ncbi.nlm.nih.gov/42215426/\nER  - ",
+      "month": "Jun",
+      "doi": "10.1038/s41586-020-2832-5",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42230622/",
+      "ris": "TY  - JOUR\nAU  - Audain E\nAU  - Wilsdon A\nAU  - Dombrowsky G\nTI  - Assessing the contribution of rare variants to congenital heart disease through a large-scale case-control exome study.\nJO  - NPJ genomic medicine\nPY  - 2026\nDO  - 10.1038/s41586-020-2832-5\nAB  - Several studies have demonstrated the value of large-scale human exome and genome data analysis to maximise gene discovery in rare diseases. Using this approach, we have analysed the exomes of 4747 cases and 52,881 controls to identify genes which confer a substantial risk of congenital heart diseas\nUR  - https://pubmed.ncbi.nlm.nih.gov/42230622/\nER  - ",
       "section": "disease_genetics",
       "topic": "CHD_Genetics",
       "type": "Research article",
-      "score": 4
+      "score": 7
+    },
+    {
+      "pmid": "42250864",
+      "title": "Genomic and proteogenomic insights into Spontaneous Coronary Artery Dissection (SCAD): A systematic review of emerging multi-omic evidence.",
+      "abstract": "BACKGROUND: Spontaneous coronary artery dissection (SCAD) is a major cause of myocardial infarction in young women without traditional cardiovascular risk factors (Hayes et al., 2018; Adlam et al., 2018 [1, 2]). Despite growing awareness, its biological underpinnings remain incompletely understood, and clinical management is largely based on observational evidence rather than mechanistic insight (Saw et al., 2014; Lettieri et al., 2015; Steg et al., 2024 [3-5]). OBJECTIVES: To systematically int\u2026",
+      "abstract_full": "BACKGROUND: Spontaneous coronary artery dissection (SCAD) is a major cause of myocardial infarction in young women without traditional cardiovascular risk factors (Hayes et al., 2018; Adlam et al., 2018 [1, 2]). Despite growing awareness, its biological underpinnings remain incompletely understood, and clinical management is largely based on observational evidence rather than mechanistic insight (Saw et al., 2014; Lettieri et al., 2015; Steg et al., 2024 [3-5]). OBJECTIVES: To systematically integrate genomic, epitranscriptomic, proteomic, and metabolomic data in order to characterize the multi-omic architecture of SCAD and identify potential biomarkers and therapeutic targets. METHODS: A systematic review was conducted in accordance with the PRISMA 2020 statement (Arbelo et al., 2023 [6]). PubMed/MEDLINE was searched for original studies investigating genomic and multi-omic features of SCAD. Data were extracted on study design, patient characteristics, identified variants, circulating biomarkers, and implicated biological pathways. Functional enrichment analysis was performed using the DAVID bioinformatics resource (Page et al., 2021 [7]). RESULTS: A total of 16 studies were included. Genome-wide association studies consistently identified susceptibility loci related to arterial structure and extracellular matrix integrity, including ADAMTSL4, PHACTR1/EDN1, LRP1, and FBN1 (Huang et al., 2009; Saw et al., 2020; Turley et al., 2020 [8-10]). Rare variant analyses further supported the role of genes involved in extracellular matrix remodeling and vascular smooth muscle cell function, including COL3A1, COL4A1/2, SMAD3, and TLN1 (Adlam et al., 2023; Turley et al., 2021, 2019; Carss et al., 2020; Zekavat et al., 2022; Wang et al., 2022 [11-16]), while ancestry-specific signals such as TSR1 variants were observed in distinct populations (Turley et al., 2023 [17]). Proteogenomic approaches linked genetic susceptibility loci to circulating proteins involved in matrix remodeling and inflammation, including cathepsin B and ECM1 (Maioli et al., 2010 [18]). Epitranscriptomic analyses identified differential microRNA expression profiles associated with vascular injury and repair pathways (Sun et al., 2019 [19]). CONCLUSIONS: SCAD is characterized by a complex, multi-layered biological architecture involving genetic susceptibility, extracellular matrix dysregulation, and vascular signaling pathways. Integration of multi-omic data provides novel insights into disease mechanisms and highlights potential biomarkers and targets for precision medicine approaches in SCAD.",
+      "bullets": [
+        "Genome-wide association studies consistently identified susceptibility loci related to arterial structure and extracellular matrix integrity, including ADAMTSL4, PHACTR1/EDN1, LRP1, and FBN1 (Huang et al.",
+        "Proteogenomic approaches linked genetic susceptibility loci to circulating proteins involved in matrix remodeling and inflammation, including cathepsin B and ECM1 (Maioli et al., 2010 [18]).",
+        "Epitranscriptomic analyses identified differential microRNA expression profiles associated with vascular injury and repair pathways (Sun et al., 2019 [19])."
+      ],
+      "authors": "Russo A, Alberti M, Biondi F, et al.",
+      "journal": "Vascular pharmacology",
+      "year": "2026",
+      "month": "Jun",
+      "doi": "10.1016/j.vph.2026.107657",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42250864/",
+      "ris": "TY  - JOUR\nAU  - Russo A\nAU  - Alberti M\nAU  - Biondi F\nTI  - Genomic and proteogenomic insights into Spontaneous Coronary Artery Dissection (SCAD): A systematic review of emerging multi-omic evidence.\nJO  - Vascular pharmacology\nPY  - 2026\nDO  - 10.1016/j.vph.2026.107657\nAB  - BACKGROUND: Spontaneous coronary artery dissection (SCAD) is a major cause of myocardial infarction in young women without traditional cardiovascular risk factors (Hayes et al., 2018; Adlam et al., 2018 [1, 2]). Despite growing awareness, its biological underpinnings remain incompletely understood, \nUR  - https://pubmed.ncbi.nlm.nih.gov/42250864/\nER  - ",
+      "section": "disease_genetics",
+      "topic": "SCAD_Genetics",
+      "type": "Review",
+      "score": 3
     },
     {
       "pmid": "41855523",
@@ -198,6 +264,28 @@
       "section": "topic_watch",
       "topic": "DCM_Omics",
       "type": "GWAS",
+      "score": 2
+    },
+    {
+      "pmid": "41813603",
+      "title": "Optimizing Diagnostic Accuracy of Clinical Red Flags in RASopathies.",
+      "abstract": "RASopathies are a group of genetic disorders caused by pathogenic variants in the RAS-mitogen-activated protein kinase (RAS-MAPK) signaling pathway, often presenting with congenital heart defects, craniofacial dysmorphisms, and developmental delays. To assess the diagnostic yield of genetic testing in patients with suspected RASopathies and to identify predictive clinical \"red flags\" using machine learning (ML). This retrospective study included patients evaluated at our institution between 2020\u2026",
+      "abstract_full": "RASopathies are a group of genetic disorders caused by pathogenic variants in the RAS-mitogen-activated protein kinase (RAS-MAPK) signaling pathway, often presenting with congenital heart defects, craniofacial dysmorphisms, and developmental delays. To assess the diagnostic yield of genetic testing in patients with suspected RASopathies and to identify predictive clinical \"red flags\" using machine learning (ML). This retrospective study included patients evaluated at our institution between 2020 and 2023. All patients underwent cardiovascular evaluation, and a subset of individuals with suspected RASopathies underwent genetic assessment including exome sequencing. Thirteen clinical \"red flags\" were analyzed as predictors of a molecular diagnosis within the subgroup of patients with suspected RASopathies. Diagnostic performance was assessed via sensitivity, specificity, and area under the curve (AUC). A random forest classifier identified the most predictive clinical features. Among 669 patients, 34 were clinically suspected of RASopathy, with a confirmed diagnosis in 24 cases (71%). Noonan syndrome was most frequent (18/24), and PTPN11 was the most commonly mutated gene (n\u2009=\u200913). Pulmonary valve stenosis (PVS) and facial dysmorphisms were the strongest individual predictors of a positive genetic test result. A threshold of \u2265\u20092 red flags balanced sensitivity (92%) and accuracy (73.5%). ML analysis identified PVS and facial dysmorphisms as the top predictors. A model including only these features achieved an AUC of 0.86 in the derivation cohort. PVS and facial dysmorphisms are key diagnostic indicators for RASopathies and should prompt early genetic testing. While the ML model showed high performance in this derivation cohort, external validation is needed to confirm its generalizability.",
+      "bullets": [
+        "Among 669 patients, 34 were clinically suspected of RASopathy, with a confirmed diagnosis in 24 cases (71%).",
+        "ML analysis identified PVS and facial dysmorphisms as the top predictors.",
+        "While the ML model showed high performance in this derivation cohort, external validation is needed to confirm its generalizability."
+      ],
+      "authors": "Bobbio E, Caiazza M, Monda E, et al.",
+      "journal": "American journal of medical genetics. Part A",
+      "year": "2026",
+      "month": "Jul",
+      "doi": "10.1002/ajmg.a.70119",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41813603/",
+      "ris": "TY  - JOUR\nAU  - Bobbio E\nAU  - Caiazza M\nAU  - Monda E\nTI  - Optimizing Diagnostic Accuracy of Clinical Red Flags in RASopathies.\nJO  - American journal of medical genetics. Part A\nPY  - 2026\nDO  - 10.1002/ajmg.a.70119\nAB  - RASopathies are a group of genetic disorders caused by pathogenic variants in the RAS-mitogen-activated protein kinase (RAS-MAPK) signaling pathway, often presenting with congenital heart defects, craniofacial dysmorphisms, and developmental delays. To assess the diagnostic yield of genetic testing \nUR  - https://pubmed.ncbi.nlm.nih.gov/41813603/\nER  - ",
+      "section": "disease_genetics",
+      "topic": "CHD_Genetics",
+      "type": "Research article",
       "score": 2
     },
     {
@@ -223,25 +311,25 @@
       "score": 2
     },
     {
-      "pmid": "41781207",
-      "title": "MGRN1 is linked to recessive heart and laterality defects: the first genotype-phenotype report in humans.",
-      "abstract": "Recurrent idiopathic severe fetal structural anomalies present major challenges for reproductive decision-making and genetic counselling. A non-consanguineous healthy Estonian couple had experienced two electively terminated pregnancies at 12-13 weeks' gestation due to unexplained major fetal malformations and one early miscarriage. Their three pregnancies had resulted in unaffected newborns. Exome sequencing of fetal tissues from both terminated pregnancies identified a homozygous rare missense\u2026",
-      "abstract_full": "Recurrent idiopathic severe fetal structural anomalies present major challenges for reproductive decision-making and genetic counselling. A non-consanguineous healthy Estonian couple had experienced two electively terminated pregnancies at 12-13 weeks' gestation due to unexplained major fetal malformations and one early miscarriage. Their three pregnancies had resulted in unaffected newborns. Exome sequencing of fetal tissues from both terminated pregnancies identified a homozygous rare missense variant in MGRN1 (mahogunin ring finger 1), c.881G>A, p.(Arg294His) (Genome Aggregation Database V.4.1.0 allele frequency<8\u00d710\u207b\u2075; no homozygotes reported in any population database). MGRN1 functions as an E3 ubiquitin ligase critical for protein homeostasis and developmental signalling. The detected substitution compromises a conserved residue within the RING (Really Interesting New Gene) finger domain. Cascade testing revealed that the parents and one unaffected child were heterozygous carriers, while two healthy siblings were homozygous for the reference allele. Both affected fetuses displayed congenital malformations closely mirroring prenatal phenotypes reported in Mgrn1 homozygous mutant mice, including cardiac malformations (ventricular septal defect, outflow tract malposition, pulmonary artery hypoplasia) and abnormal left-right axis patterning. These findings provide the first evidence implicating MGRN1 in human congenital disease and support its role in early embryonic patterning.",
+      "pmid": "42234061",
+      "title": "Endocrine Disruption and Male Fertility.",
+      "abstract": "PURPOSE OF REVIEW: Endocrine-disrupting chemicals affect nearly every human on the planet and are known to interfere with reproduction. Most studies have focused on gestational exposure effects in females. Emerging evidence indicates that preconception exposures in males can also impact pregnancy outcomes and offspring health. This review describes how several major endocrine disruptors impair key male fertility endpoints and their subsequent effects on downstream processes, including fertilizat\u2026",
+      "abstract_full": "PURPOSE OF REVIEW: Endocrine-disrupting chemicals affect nearly every human on the planet and are known to interfere with reproduction. Most studies have focused on gestational exposure effects in females. Emerging evidence indicates that preconception exposures in males can also impact pregnancy outcomes and offspring health. This review describes how several major endocrine disruptors impair key male fertility endpoints and their subsequent effects on downstream processes, including fertilization and the health of the next generation(s). RECENT FINDINGS: Endocrine disrupting chemicals such as polychlorinated biphenyls, polybrominated diphenyl ethers, per- and polyfluoroalkyl substances, bisphenols, phthalates, and parabens can have widespread effects on male fertility by interfering with the hypothalamic-pituitary-gonadal axis and through direct effects on the male reproductive system. These effects include impaired semen quality (sperm count, morphology, motility), changes in the spermatogenic process, mitochondrial disruption, reactive oxygen species generation, skewed energy metabolism, germ cell apoptosis, and changes in the sperm epigenome (DNA methylation, histone modifications, noncoding RNAs). Studies continue to demonstrate that paternal endocrine disruptor exposure impacts the next generation and in some cases beyond, with studies in animal models showing disruption of fertility in the F1 and F2 generations, and studies of occupational exposures in humans showing increased risks of low birth weight and congenital heart disease for children born to exposed fathers. The hypothesis that preconception paternal exposures are consequential to future generations has slowly been gaining traction, but more research is needed to better understand the intergenerational and transgenerational health consequences of endocrine disruptor exposures, the underlying mechanisms, and, given the growing ubiquity of these chemicals in our food and environment, to develop and implement strategies for mitigation of these effects.",
       "bullets": [
-        "Exome sequencing of fetal tissues from both terminated pregnancies identified a homozygous rare missense variant in MGRN1 (mahogunin ring finger 1), c.881G>A, p.(Arg294His) (Genome Aggregation Database V.4.1.",
-        "Cascade testing revealed that the parents and one unaffected child were heterozygous carriers, while two healthy siblings were homozygous for the reference allele.",
-        "These findings provide the first evidence implicating MGRN1 in human congenital disease and support its role in early embryonic patterning."
+        "Endocrine disrupting chemicals such as polychlorinated biphenyls, polybrominated diphenyl ethers, per- and polyfluoroalkyl substances, bisphenols, phthalates, and parabens can have widespread effects on male fertility\u2026",
+        "These effects include impaired semen quality (sperm count, morphology, motility), changes in the spermatogenic process, mitochondrial disruption, reactive oxygen species generation, skewed energy metabolism, germ cell\u2026",
+        "Studies continue to demonstrate that paternal endocrine disruptor exposure impacts the next generation and in some cases beyond, with studies in animal models showing disruption of fertility in the F1 and F2\u2026"
       ],
-      "authors": "Kasak L, Rull K, Valkna A, et al.",
-      "journal": "Journal of medical genetics",
+      "authors": "Ulaganathan G, Murphy S",
+      "journal": "Current environmental health reports",
       "year": "2026",
-      "month": "May",
-      "doi": "10.1016/j.semperi.2025.152058",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41781207/",
-      "ris": "TY  - JOUR\nAU  - Kasak L\nAU  - Rull K\nAU  - Valkna A\nTI  - MGRN1 is linked to recessive heart and laterality defects: the first genotype-phenotype report in humans.\nJO  - Journal of medical genetics\nPY  - 2026\nDO  - 10.1016/j.semperi.2025.152058\nAB  - Recurrent idiopathic severe fetal structural anomalies present major challenges for reproductive decision-making and genetic counselling. A non-consanguineous healthy Estonian couple had experienced two electively terminated pregnancies at 12-13 weeks' gestation due to unexplained major fetal malfor\nUR  - https://pubmed.ncbi.nlm.nih.gov/41781207/\nER  - ",
-      "section": "disease_genetics",
-      "topic": "CHD_Genetics",
-      "type": "Research article",
+      "month": "Jun",
+      "doi": "10.1016/j.fertnstert.2023.02.034",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42234061/",
+      "ris": "TY  - JOUR\nAU  - Ulaganathan G\nAU  - Murphy S\nTI  - Endocrine Disruption and Male Fertility.\nJO  - Current environmental health reports\nPY  - 2026\nDO  - 10.1016/j.fertnstert.2023.02.034\nAB  - PURPOSE OF REVIEW: Endocrine-disrupting chemicals affect nearly every human on the planet and are known to interfere with reproduction. Most studies have focused on gestational exposure effects in females. Emerging evidence indicates that preconception exposures in males can also impact pregnancy ou\nUR  - https://pubmed.ncbi.nlm.nih.gov/42234061/\nER  - ",
+      "section": "topic_watch",
+      "topic": "CHD_Methylation",
+      "type": "Review",
       "score": 1
     },
     {
@@ -289,13 +377,13 @@
       "score": 0
     }
   ],
-  "summary_text": "6 papers selected from this week's literature:\n  \u2022 3 \u00d7 disease genetics (CHD / DCM / SCAD)\n  \u2022 2 \u00d7 epigenetics / methylation\n  \u2022 1 \u00d7 PRS in CHD/DCM/SCAD\n\nHighlight: GATA4 Single-Amino Acid Deletion in a Male Patient With Congenital Heart Defects, Differences of Sex Development, and Diaphragmatic Hernia. (Clinical genetics, 2026)",
+  "summary_text": "8 papers selected from this week's literature:\n  \u2022 4 \u00d7 disease genetics (CHD / DCM / SCAD)\n  \u2022 3 \u00d7 epigenetics / methylation\n  \u2022 1 \u00d7 PRS in CHD/DCM/SCAD\n\nHighlight: Assessing the contribution of rare variants to congenital heart disease through a large-scale case-control exome study. (NPJ genomic medicine, 2026)",
   "summary": {
-    "total_selected": 6,
-    "total_candidates": 6,
+    "total_selected": 8,
+    "total_candidates": 8,
     "section_counts": {
-      "disease_genetics": 3,
-      "topic_watch": 2,
+      "disease_genetics": 4,
+      "topic_watch": 3,
       "prs_disease": 1
     }
   }
