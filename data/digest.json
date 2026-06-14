@@ -1,53 +1,31 @@
 {
-  "generated": "2026-06-07T21:55:48.865633",
+  "generated": "2026-06-14T22:00:36.743142",
   "lookback_days": 7,
-  "cutoff_date": "2026/05/31",
+  "cutoff_date": "2026/06/07",
   "sections": {
     "disease_genetics": {
       "papers": [
         {
-          "pmid": "42230622",
-          "title": "Assessing the contribution of rare variants to congenital heart disease through a large-scale case-control exome study.",
-          "abstract": "Several studies have demonstrated the value of large-scale human exome and genome data analysis to maximise gene discovery in rare diseases. Using this approach, we have analysed the exomes of 4747 cases and 52,881 controls to identify genes which confer a substantial risk of congenital heart disease (CHD). We identified both rare loss-of-function and missense coding variants in 14 genes, which reached genome-wide significance at FDR 5%. Ten genes have been associated with CHD, whereas four gene\u2026",
-          "abstract_full": "Several studies have demonstrated the value of large-scale human exome and genome data analysis to maximise gene discovery in rare diseases. Using this approach, we have analysed the exomes of 4747 cases and 52,881 controls to identify genes which confer a substantial risk of congenital heart disease (CHD). We identified both rare loss-of-function and missense coding variants in 14 genes, which reached genome-wide significance at FDR 5%. Ten genes have been associated with CHD, whereas four genes (PBX1, KAT6B, SHOX2, HCAR1) have not been reported as genome-wide significant so far. We highlight distinct genetic contributions to syndromic and non-syndromic CHD by independently analysing probands from these two groups. In addition, by integrative analysis of exome data with single-cell transcriptomics data from human embryonic hearts, we identified cardiac-specific cells, such as neural crest cells and endothelial cells, as well as putative biological processes underlying the pathogenesis of CHD. In summary, our findings strengthen the association of known CHD genes and have identified additional novel disease genes contributing to the aetiology of CHD.",
+          "pmid": "42260102",
+          "title": "Effects of SGLT2 inhibition on incident heart failure in carriers of cardiomyopathy-associated genetic variants.",
+          "abstract": "Although the beneficial effects of sodium-glucose cotransporter 2 (SGLT2) inhibition in heart failure (HF) have been well established, it is unknown whether SGLT2 inhibition confers benefit in carriers of rare variants in cardiomyopathy-associated genes. Here we evaluated whole-exome sequencing data from the randomized DECLARE-TIMI 58 trial, in which adults with type 2 diabetes and increased cardiovascular risk were randomized to dapagliflozin or placebo treatment. Pathogenic or likely pathogeni\u2026",
+          "abstract_full": "Although the beneficial effects of sodium-glucose cotransporter 2 (SGLT2) inhibition in heart failure (HF) have been well established, it is unknown whether SGLT2 inhibition confers benefit in carriers of rare variants in cardiomyopathy-associated genes. Here we evaluated whole-exome sequencing data from the randomized DECLARE-TIMI 58 trial, in which adults with type 2 diabetes and increased cardiovascular risk were randomized to dapagliflozin or placebo treatment. Pathogenic or likely pathogenic variants (P/LP) in high-confidence cardiomyopathy genes were identified, and treatment effects on hospitalization for HF (HHF) were compared between carriers of such variants and noncarriers. Among 12,685 patients for whom sequence data were obtained, 121 carried a cardiomyopathy variant (76 dilated cardiomyopathy, 25 hypertrophic cardiomyopathy and 25 arrhythmogenic cardiomyopathy). Over a median follow-up of 4.2\u2009years, dapagliflozin lowered the risk of HHF more strongly in carriers (hazard ratio 0.18, 95% confidence interval 0.04-0.86) than in noncarriers (hazard ratio 0.70, 95% confidence interval 0.57-0.86; P interaction 0.03). Absolute risk reduction was 13.0% in carriers and 1.0% in noncarriers (P interaction 0.03). Most carriers (82%) had no prior HF, and in carriers without prior HF, treatment with dapagliflozin reduced the absolute risk of HHF by 12.8%, compared with a reduction of 0.6% in noncarriers (P interaction 0.01). The findings from this cohort of older and high-risk patients raise the possibility that SGLT2 inhibitor treatment should be started early to prevent HF in individuals who carry P/LP cardiomyopathy variants. These results need to be confirmed in a prospective, dedicated trial of preventive HF treatments in carriers of P/LP cardiomyopathy-associated variants.",
           "bullets": [
-            "We identified both rare loss-of-function and missense coding variants in 14 genes, which reached genome-wide significance at FDR 5%.",
-            "In addition, by integrative analysis of exome data with single-cell transcriptomics data from human embryonic hearts, we identified cardiac-specific cells, such as neural crest cells and endothelial cells, as well as\u2026",
-            "In summary, our findings strengthen the association of known CHD genes and have identified additional novel disease genes contributing to the aetiology of CHD."
+            "Although the beneficial effects of sodium-glucose cotransporter 2 (SGLT2) inhibition in heart failure (HF) have been well established, it is unknown whether SGLT2 inhibition confers benefit in carriers of rare variants\u2026",
+            "Pathogenic or likely pathogenic variants (P/LP) in high-confidence cardiomyopathy genes were identified, and treatment effects on hospitalization for HF (HHF) were compared between carriers of such variants and\u2026",
+            "These results need to be confirmed in a prospective, dedicated trial of preventive HF treatments in carriers of P/LP cardiomyopathy-associated variants."
           ],
-          "authors": "Audain E, Wilsdon A, Dombrowsky G, et al.",
-          "journal": "NPJ genomic medicine",
+          "authors": "Marston N, Kany S, Melloni G, et al.",
+          "journal": "Nature medicine",
           "year": "2026",
           "month": "Jun",
-          "doi": "10.1038/s41586-020-2832-5",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42230622/",
-          "ris": "TY  - JOUR\nAU  - Audain E\nAU  - Wilsdon A\nAU  - Dombrowsky G\nTI  - Assessing the contribution of rare variants to congenital heart disease through a large-scale case-control exome study.\nJO  - NPJ genomic medicine\nPY  - 2026\nDO  - 10.1038/s41586-020-2832-5\nAB  - Several studies have demonstrated the value of large-scale human exome and genome data analysis to maximise gene discovery in rare diseases. Using this approach, we have analysed the exomes of 4747 cases and 52,881 controls to identify genes which confer a substantial risk of congenital heart diseas\nUR  - https://pubmed.ncbi.nlm.nih.gov/42230622/\nER  - ",
+          "doi": "10.1161/CIRCULATIONAHA.119.040130",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42260102/",
+          "ris": "TY  - JOUR\nAU  - Marston N\nAU  - Kany S\nAU  - Melloni G\nTI  - Effects of SGLT2 inhibition on incident heart failure in carriers of cardiomyopathy-associated genetic variants.\nJO  - Nature medicine\nPY  - 2026\nDO  - 10.1161/CIRCULATIONAHA.119.040130\nAB  - Although the beneficial effects of sodium-glucose cotransporter 2 (SGLT2) inhibition in heart failure (HF) have been well established, it is unknown whether SGLT2 inhibition confers benefit in carriers of rare variants in cardiomyopathy-associated genes. Here we evaluated whole-exome sequencing data\nUR  - https://pubmed.ncbi.nlm.nih.gov/42260102/\nER  - ",
           "section": "disease_genetics",
-          "topic": "CHD_Genetics",
+          "topic": "DCM_Genetics",
           "type": "Research article",
-          "score": 7
-        },
-        {
-          "pmid": "42250864",
-          "title": "Genomic and proteogenomic insights into Spontaneous Coronary Artery Dissection (SCAD): A systematic review of emerging multi-omic evidence.",
-          "abstract": "BACKGROUND: Spontaneous coronary artery dissection (SCAD) is a major cause of myocardial infarction in young women without traditional cardiovascular risk factors (Hayes et al., 2018; Adlam et al., 2018 [1, 2]). Despite growing awareness, its biological underpinnings remain incompletely understood, and clinical management is largely based on observational evidence rather than mechanistic insight (Saw et al., 2014; Lettieri et al., 2015; Steg et al., 2024 [3-5]). OBJECTIVES: To systematically int\u2026",
-          "abstract_full": "BACKGROUND: Spontaneous coronary artery dissection (SCAD) is a major cause of myocardial infarction in young women without traditional cardiovascular risk factors (Hayes et al., 2018; Adlam et al., 2018 [1, 2]). Despite growing awareness, its biological underpinnings remain incompletely understood, and clinical management is largely based on observational evidence rather than mechanistic insight (Saw et al., 2014; Lettieri et al., 2015; Steg et al., 2024 [3-5]). OBJECTIVES: To systematically integrate genomic, epitranscriptomic, proteomic, and metabolomic data in order to characterize the multi-omic architecture of SCAD and identify potential biomarkers and therapeutic targets. METHODS: A systematic review was conducted in accordance with the PRISMA 2020 statement (Arbelo et al., 2023 [6]). PubMed/MEDLINE was searched for original studies investigating genomic and multi-omic features of SCAD. Data were extracted on study design, patient characteristics, identified variants, circulating biomarkers, and implicated biological pathways. Functional enrichment analysis was performed using the DAVID bioinformatics resource (Page et al., 2021 [7]). RESULTS: A total of 16 studies were included. Genome-wide association studies consistently identified susceptibility loci related to arterial structure and extracellular matrix integrity, including ADAMTSL4, PHACTR1/EDN1, LRP1, and FBN1 (Huang et al., 2009; Saw et al., 2020; Turley et al., 2020 [8-10]). Rare variant analyses further supported the role of genes involved in extracellular matrix remodeling and vascular smooth muscle cell function, including COL3A1, COL4A1/2, SMAD3, and TLN1 (Adlam et al., 2023; Turley et al., 2021, 2019; Carss et al., 2020; Zekavat et al., 2022; Wang et al., 2022 [11-16]), while ancestry-specific signals such as TSR1 variants were observed in distinct populations (Turley et al., 2023 [17]). Proteogenomic approaches linked genetic susceptibility loci to circulating proteins involved in matrix remodeling and inflammation, including cathepsin B and ECM1 (Maioli et al., 2010 [18]). Epitranscriptomic analyses identified differential microRNA expression profiles associated with vascular injury and repair pathways (Sun et al., 2019 [19]). CONCLUSIONS: SCAD is characterized by a complex, multi-layered biological architecture involving genetic susceptibility, extracellular matrix dysregulation, and vascular signaling pathways. Integration of multi-omic data provides novel insights into disease mechanisms and highlights potential biomarkers and targets for precision medicine approaches in SCAD.",
-          "bullets": [
-            "Genome-wide association studies consistently identified susceptibility loci related to arterial structure and extracellular matrix integrity, including ADAMTSL4, PHACTR1/EDN1, LRP1, and FBN1 (Huang et al.",
-            "Proteogenomic approaches linked genetic susceptibility loci to circulating proteins involved in matrix remodeling and inflammation, including cathepsin B and ECM1 (Maioli et al., 2010 [18]).",
-            "Epitranscriptomic analyses identified differential microRNA expression profiles associated with vascular injury and repair pathways (Sun et al., 2019 [19])."
-          ],
-          "authors": "Russo A, Alberti M, Biondi F, et al.",
-          "journal": "Vascular pharmacology",
-          "year": "2026",
-          "month": "Jun",
-          "doi": "10.1016/j.vph.2026.107657",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42250864/",
-          "ris": "TY  - JOUR\nAU  - Russo A\nAU  - Alberti M\nAU  - Biondi F\nTI  - Genomic and proteogenomic insights into Spontaneous Coronary Artery Dissection (SCAD): A systematic review of emerging multi-omic evidence.\nJO  - Vascular pharmacology\nPY  - 2026\nDO  - 10.1016/j.vph.2026.107657\nAB  - BACKGROUND: Spontaneous coronary artery dissection (SCAD) is a major cause of myocardial infarction in young women without traditional cardiovascular risk factors (Hayes et al., 2018; Adlam et al., 2018 [1, 2]). Despite growing awareness, its biological underpinnings remain incompletely understood, \nUR  - https://pubmed.ncbi.nlm.nih.gov/42250864/\nER  - ",
-          "section": "disease_genetics",
-          "topic": "SCAD_Genetics",
-          "type": "Review",
-          "score": 3
+          "score": 5
         },
         {
           "pmid": "41813603",
@@ -70,34 +48,34 @@
           "topic": "CHD_Genetics",
           "type": "Research article",
           "score": 2
-        },
-        {
-          "pmid": "41672210",
-          "title": "Hypertrophic cardiomyopathy caused by filamin-C variants has restrictive and extracardiac features and a distinctive ECG.",
-          "abstract": "BACKGROUND: Filamin-C (FLNC) gene variants are associated with cardiac and skeletal muscle diseases including a clear role of loss-of-function variants in dilated cardiomyopathy. OBJECTIVE: This study aimed to assess the contribution of rare FLNC variants to hypertrophic cardiomyopathy (HCM)/restrictive cardiomyopathy (RCM). METHODS: Family-based studies in 2 specialist services and statistical modeling of rare FLNC missense variants were conducted, using a cohort of 3289 sarcomere-negative HCM \u2026",
-          "abstract_full": "BACKGROUND: Filamin-C (FLNC) gene variants are associated with cardiac and skeletal muscle diseases including a clear role of loss-of-function variants in dilated cardiomyopathy. OBJECTIVE: This study aimed to assess the contribution of rare FLNC variants to hypertrophic cardiomyopathy (HCM)/restrictive cardiomyopathy (RCM). METHODS: Family-based studies in 2 specialist services and statistical modeling of rare FLNC missense variants were conducted, using a cohort of 3289 sarcomere-negative HCM cases and 122,348 genome aggregation database controls. RESULTS: Clinical evaluation of patients with HCM/RCM and a rare FLNC variant identified a distinct electrocardiographic (ECG) repolarization phenotype in 37% (19 of 51 individuals, from 12 families), which was observed in only 1.0% of a control HCM cohort (2 of 197). FLNC variant carriers with the characteristic ECG had smaller left ventricular cavity size, lower contractility, and more severe diastolic dysfunction and were more likely to have a restrictive phenotype. Heart failure death, transplant, or cardiac arrest occurred in at least 1 individual in 7 of the 12 families (58%) in the \"ECG-positive\" group, and musculoskeletal abnormalities were present in 4 families (33%). 5 of 12 variants (41.7%) in the \"ECG-positive\" group cosegregated, and 2 were apparently de novo. 11 variants were missense, and 1 splice site. Rare FLNC missense variant burden indicated a low case excess among all HCM cases (etiologic fraction, 0.45; 95% confidence interval, 0.36-0.54), but in \"ECG-positive\" cases the etiologic fraction was substantially higher (0.98; 95% confidence interval, 0.97-0.99). CONCLUSION: Pathogenic FLNC variants in patients with HCM/RCM are nontruncating and cause a discrete phenotype comprising a characteristic ECG, hypertrophic and restrictive features without hypercontractility, and extracardiac abnormalities.",
-          "bullets": [
-            "Clinical evaluation of patients with HCM/RCM and a rare FLNC variant identified a distinct electrocardiographic (ECG) repolarization phenotype in 37% (19 of 51 individuals, from 12 families), which was observed in only\u2026",
-            "FLNC variant carriers with the characteristic ECG had smaller left ventricular cavity size, lower contractility, and more severe diastolic dysfunction and were more likely to have a restrictive phenotype.",
-            "Rare FLNC missense variant burden indicated a low case excess among all HCM cases (etiologic fraction, 0.45; 95% confidence interval, 0.36-0."
-          ],
-          "authors": "de Villiers C, Ormondroyd E, Thomson K, et al.",
-          "journal": "Heart rhythm",
-          "year": "2026",
-          "month": "Jun",
-          "doi": "10.1016/j.hrthm.2026.01.054",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/41672210/",
-          "ris": "TY  - JOUR\nAU  - de Villiers C\nAU  - Ormondroyd E\nAU  - Thomson K\nTI  - Hypertrophic cardiomyopathy caused by filamin-C variants has restrictive and extracardiac features and a distinctive ECG.\nJO  - Heart rhythm\nPY  - 2026\nDO  - 10.1016/j.hrthm.2026.01.054\nAB  - BACKGROUND: Filamin-C (FLNC) gene variants are associated with cardiac and skeletal muscle diseases including a clear role of loss-of-function variants in dilated cardiomyopathy. OBJECTIVE: This study aimed to assess the contribution of rare FLNC variants to hypertrophic cardiomyopathy (HCM)/restric\nUR  - https://pubmed.ncbi.nlm.nih.gov/41672210/\nER  - ",
-          "section": "disease_genetics",
-          "topic": "DCM_Genetics",
-          "type": "Research article",
-          "score": 2
         }
       ],
-      "total": 4
+      "total": 2
     },
     "prs_disease": {
       "papers": [
+        {
+          "pmid": "41610206",
+          "title": "Influence of Technical Performance Score on Outcomes After Tetralogy of Fallot Repair in a Low-Middle-Income Country.",
+          "abstract": "ObjectivesTetralogy of Fallot (TOF) repair is associated with low mortality in high-performance centers, but outcomes are worse in low- and middle-income countries (LMICs). Prior studies have not demonstrated a strong link between Technical Performance Score (TPS) and mortality. The aim of this was to evaluate risk factors for mortality and complications after TOF repair in a high-volume LMIC heart center with a focus on surgical performance.MethodsWe retrospectively reviewed children undergoing\u2026",
+          "abstract_full": "ObjectivesTetralogy of Fallot (TOF) repair is associated with low mortality in high-performance centers, but outcomes are worse in low- and middle-income countries (LMICs). Prior studies have not demonstrated a strong link between Technical Performance Score (TPS) and mortality. The aim of this was to evaluate risk factors for mortality and complications after TOF repair in a high-volume LMIC heart center with a focus on surgical performance.MethodsWe retrospectively reviewed children undergoing TOF repair between 2015 and 2022. Patients over two years of age or with complex defects beyond atrial septal defect and persistent ductus arteriosus were excluded. Preoperative factors included age, weight, genetic syndromes, urgency, and pulmonary artery z-scores. Intraoperative variables included transannular patch use, cardiopulmonary bypass and cross-clamp times, surgeon, and TPS classification. Postoperative variables included delayed sternal closure (DSC), extracorporeal membrane oxygenation (ECMO), and Vasoactive Inotropic Score (VIS) during the first 24\u2005h. Outcomes included mortality, complications, and length of stay (LOS). Analyses included logistic regression and Kaplan-Meier estimates.ResultsAmong 255 patients, in-hospital mortality was 7.5% (n\u2009=\u200919). Technical Performance Score class 3 was an independent predictor of mortality (P\u2009=\u2009.027), along with VIS 24\u2005h and ECMO. Cardiopulmonary bypass time, ECMO, and DSC were associated with major complications. Technical Performance Score class 3 correlated with longer LOS, but multivariable analysis identified low weight and ECMO as independent LOS predictors. Five-year survival was worse in TPS class 3 (P\u2009=\u2009.007).ConclusionsInadequate TPS is an independent predictor of mortality after TOF repair in an LMIC context. Class 3 TPS also relates to longer hospitalization and worse medium-term survival. Surgical quality remains essential for better outcomes.",
+          "bullets": [
+            "Cardiopulmonary bypass time, ECMO, and DSC were associated with major complications.",
+            "Technical Performance Score class 3 correlated with longer LOS, but multivariable analysis identified low weight and ECMO as independent LOS predictors.",
+            "Surgical quality remains essential for better outcomes."
+          ],
+          "authors": "Miana L, Nathan M, Manuel V, et al.",
+          "journal": "World journal for pediatric & congenital heart surgery",
+          "year": "2026",
+          "month": "Jul",
+          "doi": "10.1177/21501351251386433",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41610206/",
+          "ris": "TY  - JOUR\nAU  - Miana L\nAU  - Nathan M\nAU  - Manuel V\nTI  - Influence of Technical Performance Score on Outcomes After Tetralogy of Fallot Repair in a Low-Middle-Income Country.\nJO  - World journal for pediatric & congenital heart surgery\nPY  - 2026\nDO  - 10.1177/21501351251386433\nAB  - ObjectivesTetralogy of Fallot (TOF) repair is associated with low mortality in high-performance centers, but outcomes are worse in low- and middle-income countries (LMICs). Prior studies have not demonstrated a strong link between Technical Performance Score (TPS) and mortality. The aim of this was \nUR  - https://pubmed.ncbi.nlm.nih.gov/41610206/\nER  - ",
+          "section": "prs_disease",
+          "topic": "CHD_DCM_SCAD_PRS",
+          "type": "Review",
+          "score": 1
+        },
         {
           "pmid": "42102332",
           "title": "Pearls & Oy-sters: Stroke Recurrence After PFO Closure Uncovers Cerebrotendinous Xanthomatosis.",
@@ -121,7 +99,7 @@
           "score": 0
         }
       ],
-      "total": 1
+      "total": 2
     },
     "prs_methods": {
       "papers": [],
@@ -129,6 +107,28 @@
     },
     "topic_watch": {
       "papers": [
+        {
+          "pmid": "42272162",
+          "title": "Accelerated epigenetic ageing in congenital heart disease: the AccelerAGE study.",
+          "abstract": "BACKGROUND AND AIMS: Adults with congenital heart disease tend to develop both cardiac and noncardiac age-related comorbidities earlier in life than the general population, suggesting accelerated biological ageing. Epigenetic clocks estimate biological age based on DNA methylation profiles. This study investigated whether adults with congenital heart disease display accelerated epigenetic ageing and whether the degree of age acceleration relates to disease complexity. METHODS: A total of 120 pat\u2026",
+          "abstract_full": "BACKGROUND AND AIMS: Adults with congenital heart disease tend to develop both cardiac and noncardiac age-related comorbidities earlier in life than the general population, suggesting accelerated biological ageing. Epigenetic clocks estimate biological age based on DNA methylation profiles. This study investigated whether adults with congenital heart disease display accelerated epigenetic ageing and whether the degree of age acceleration relates to disease complexity. METHODS: A total of 120 patients with congenital heart disease (age 29-50 years, 58 females) and 120 age- and sex-matched healthy controls were included. Patients were divided into simple, moderate, and complex disease complexity groups (n = 40 per group). Epigenetic age was estimated using the Horvath, Hannum, Zhang, GrimAge2, and PhenoAge clocks, whereas the pace of ageing was assessed using DunedinPACE. RESULTS: Compared to healthy controls, patients with moderate and complex congenital heart disease exhibit significant age acceleration with PhenoAge (+3.0 years, P = .019; +5.5 years, P < .001) and GrimAge2 (+2.1 years, P = .045; +2.3 years, P = .022) and a higher pace of ageing (P = .008 and P = .016, respectively). No significant differences were detected between healthy controls and patients with simple disease. CONCLUSIONS: Accelerated epigenetic ageing is observed in adults with moderate and complex congenital heart disease, while individuals with simple disease show ageing patterns comparable to healthy peers. These findings provide biological evidence of premature ageing in congenital heart disease and suggest a lifelong systemic vulnerability. Integrating biological ageing metrics into follow-up strategies may enable earlier detection of age-related complications and support interventions to preserve long-term healthspan.",
+          "bullets": [
+            "Compared to healthy controls, patients with moderate and complex congenital heart disease exhibit significant age acceleration with PhenoAge (+3.0 years, P = .019; +5.5 years, P < .001) and GrimAge2 (+2.1 years, P = .",
+            "No significant differences were detected between healthy controls and patients with simple disease.",
+            "Accelerated epigenetic ageing is observed in adults with moderate and complex congenital heart disease, while individuals with simple disease show ageing patterns comparable to healthy peers."
+          ],
+          "authors": "Tournoy T, Daelman B, Demulier L, et al.",
+          "journal": "European heart journal",
+          "year": "2026",
+          "month": "Jun",
+          "doi": "10.1093/eurheartj/ehag455",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42272162/",
+          "ris": "TY  - JOUR\nAU  - Tournoy T\nAU  - Daelman B\nAU  - Demulier L\nTI  - Accelerated epigenetic ageing in congenital heart disease: the AccelerAGE study.\nJO  - European heart journal\nPY  - 2026\nDO  - 10.1093/eurheartj/ehag455\nAB  - BACKGROUND AND AIMS: Adults with congenital heart disease tend to develop both cardiac and noncardiac age-related comorbidities earlier in life than the general population, suggesting accelerated biological ageing. Epigenetic clocks estimate biological age based on DNA methylation profiles. This stu\nUR  - https://pubmed.ncbi.nlm.nih.gov/42272162/\nER  - ",
+          "section": "topic_watch",
+          "topic": "CHD_Methylation",
+          "type": "Epigenetics",
+          "score": 7
+        },
         {
           "pmid": "41855523",
           "title": "Global analyses of genomic and epigenomic influences on gene expression reveal Serpina3n as a major regulator of cardiac gene expression in response to catecholamine challenge during heart failure.",
@@ -152,24 +152,24 @@
           "score": 2
         },
         {
-          "pmid": "42234061",
-          "title": "Endocrine Disruption and Male Fertility.",
-          "abstract": "PURPOSE OF REVIEW: Endocrine-disrupting chemicals affect nearly every human on the planet and are known to interfere with reproduction. Most studies have focused on gestational exposure effects in females. Emerging evidence indicates that preconception exposures in males can also impact pregnancy outcomes and offspring health. This review describes how several major endocrine disruptors impair key male fertility endpoints and their subsequent effects on downstream processes, including fertilizat\u2026",
-          "abstract_full": "PURPOSE OF REVIEW: Endocrine-disrupting chemicals affect nearly every human on the planet and are known to interfere with reproduction. Most studies have focused on gestational exposure effects in females. Emerging evidence indicates that preconception exposures in males can also impact pregnancy outcomes and offspring health. This review describes how several major endocrine disruptors impair key male fertility endpoints and their subsequent effects on downstream processes, including fertilization and the health of the next generation(s). RECENT FINDINGS: Endocrine disrupting chemicals such as polychlorinated biphenyls, polybrominated diphenyl ethers, per- and polyfluoroalkyl substances, bisphenols, phthalates, and parabens can have widespread effects on male fertility by interfering with the hypothalamic-pituitary-gonadal axis and through direct effects on the male reproductive system. These effects include impaired semen quality (sperm count, morphology, motility), changes in the spermatogenic process, mitochondrial disruption, reactive oxygen species generation, skewed energy metabolism, germ cell apoptosis, and changes in the sperm epigenome (DNA methylation, histone modifications, noncoding RNAs). Studies continue to demonstrate that paternal endocrine disruptor exposure impacts the next generation and in some cases beyond, with studies in animal models showing disruption of fertility in the F1 and F2 generations, and studies of occupational exposures in humans showing increased risks of low birth weight and congenital heart disease for children born to exposed fathers. The hypothesis that preconception paternal exposures are consequential to future generations has slowly been gaining traction, but more research is needed to better understand the intergenerational and transgenerational health consequences of endocrine disruptor exposures, the underlying mechanisms, and, given the growing ubiquity of these chemicals in our food and environment, to develop and implement strategies for mitigation of these effects.",
+          "pmid": "42277826",
+          "title": "Multi-omics analysis of genetic drivers linking aortic stenosis and left ventricular diastolic dysfunction in heart failure.",
+          "abstract": "BACKGROUND: Aortic stenosis (AS) and left ventricular diastolic dysfunction (LVDD) often coexist in heart failure (HF), but the mechanisms linking them remain unclear. While AS increases afterload and promotes myocardial stiffening, emerging AI-based evidence suggests LVDD can precede the development of AS or progress simultaneously, indicating shared upstream mechanobiological and inflammatory drivers. This study explores the genetic contributors connecting AS and LVDD to identify early molecul\u2026",
+          "abstract_full": "BACKGROUND: Aortic stenosis (AS) and left ventricular diastolic dysfunction (LVDD) often coexist in heart failure (HF), but the mechanisms linking them remain unclear. While AS increases afterload and promotes myocardial stiffening, emerging AI-based evidence suggests LVDD can precede the development of AS or progress simultaneously, indicating shared upstream mechanobiological and inflammatory drivers. This study explores the genetic contributors connecting AS and LVDD to identify early molecular markers and convergent pathways in HF. METHOD: We analyzed Whole Genome Sequence (WGS) and RNA-seq data of the HF patients, generated using their Peripheral Blood Mononuclear Cells (PBMCs) samples. Overall bioinformatics analysis was divided into two modules, 1) gene variant and annotation analysis, and 2) gene expression and enrichment analysis. We utilized our peer review published and open source WGS and RNA-seq pipelines to process Next-Generation Sequence (NGS) data. Furthermore, we performed bioinformatics and statistical analysis to identify genetic variations, expressions, regulation, enrichments, and disease annotations. RESULTS: We identified genetic markers uniquely associated with AS, LVDD, and shared between them. Furthermore, we report genes with significant expression, and functional variations, and discuss their relationship with other cardiovascular diseases (e.g. Vascular and Cardiac Stiffness, Aortic Dissection, Left Atrial Enlargement, Left Ventricular Hypertrophy, Outflow Tract Obstructive Defects, Non-Compaction Coronary Artery Disease, Arrhythmia, Congestive Heart Failure, and Hypertrophic, Dilated, and Ischemic Cardiomyopathy) and non-cardiovascular diseases (non-CVDs) (e.g. Type 1 Diabetes, Diabetic Nephropathy, Skeletal Anomalies, Rheumatoid Arthritis, Atypical Femoral Fractures, Chronic Kidney Disease, Dehydrated Hereditary Stomatocytosis, Schizophrenia, Varicose Veins, High-Altitude Pulmonary Edema, Periodontitis, and Respiratory Disorder) including multiple cancer types (e.g. Breast, Lung, Colorectal, Pancreatic, Hypopharyngeal, Acute Lymphoblastic, and Oral Squamous Cell Carcinomas) and rare genetic disorders (e.g. Hypophosphatasia, Multiple Sclerosis, Campomelic Dysplasia, Lymphatic Malformation). We validated our results through state of science literature, gene-disease annotation databases, and electronic health records. CONCLUSIONS: AS and LVDD share both clinical and genomic associations, with overlapping genetic drivers that are enriched in pathways related to inflammation, extracellular matrix remodeling, and vascular stress responses. This work supports the potential of blood-based multi-omics profiling to uncover early, systemic molecular signals of cardiac dysfunction and lays the groundwork for future tissue-specific studies to guide precision diagnosis, risk stratification, and targeted therapeutics in HF.",
           "bullets": [
-            "Endocrine disrupting chemicals such as polychlorinated biphenyls, polybrominated diphenyl ethers, per- and polyfluoroalkyl substances, bisphenols, phthalates, and parabens can have widespread effects on male fertility\u2026",
-            "These effects include impaired semen quality (sperm count, morphology, motility), changes in the spermatogenic process, mitochondrial disruption, reactive oxygen species generation, skewed energy metabolism, germ cell\u2026",
-            "Studies continue to demonstrate that paternal endocrine disruptor exposure impacts the next generation and in some cases beyond, with studies in animal models showing disruption of fertility in the F1 and F2\u2026"
+            "We identified genetic markers uniquely associated with AS, LVDD, and shared between them.",
+            "Furthermore, we report genes with significant expression, and functional variations, and discuss their relationship with other cardiovascular diseases (e.g.",
+            "Vascular and Cardiac Stiffness, Aortic Dissection, Left Atrial Enlargement, Left Ventricular Hypertrophy, Outflow Tract Obstructive Defects, Non-Compaction Coronary Artery Disease, Arrhythmia, Congestive Heart Failure,\u2026"
           ],
-          "authors": "Ulaganathan G, Murphy S",
-          "journal": "Current environmental health reports",
+          "authors": "Ahmed Z, Govindareddy P, Mathew J, et al.",
+          "journal": "BioData mining",
           "year": "2026",
           "month": "Jun",
-          "doi": "10.1016/j.fertnstert.2023.02.034",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42234061/",
-          "ris": "TY  - JOUR\nAU  - Ulaganathan G\nAU  - Murphy S\nTI  - Endocrine Disruption and Male Fertility.\nJO  - Current environmental health reports\nPY  - 2026\nDO  - 10.1016/j.fertnstert.2023.02.034\nAB  - PURPOSE OF REVIEW: Endocrine-disrupting chemicals affect nearly every human on the planet and are known to interfere with reproduction. Most studies have focused on gestational exposure effects in females. Emerging evidence indicates that preconception exposures in males can also impact pregnancy ou\nUR  - https://pubmed.ncbi.nlm.nih.gov/42234061/\nER  - ",
+          "doi": "10.1186/s13040-026-00564-y",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42277826/",
+          "ris": "TY  - JOUR\nAU  - Ahmed Z\nAU  - Govindareddy P\nAU  - Mathew J\nTI  - Multi-omics analysis of genetic drivers linking aortic stenosis and left ventricular diastolic dysfunction in heart failure.\nJO  - BioData mining\nPY  - 2026\nDO  - 10.1186/s13040-026-00564-y\nAB  - BACKGROUND: Aortic stenosis (AS) and left ventricular diastolic dysfunction (LVDD) often coexist in heart failure (HF), but the mechanisms linking them remain unclear. While AS increases afterload and promotes myocardial stiffening, emerging AI-based evidence suggests LVDD can precede the developmen\nUR  - https://pubmed.ncbi.nlm.nih.gov/42277826/\nER  - ",
           "section": "topic_watch",
-          "topic": "CHD_Methylation",
+          "topic": "DCM_Omics",
           "type": "Review",
           "score": 1
         },
@@ -196,75 +196,53 @@
           "score": 0
         }
       ],
-      "total": 3
+      "total": 4
     }
   },
   "selected_papers": [
     {
-      "pmid": "42230622",
-      "title": "Assessing the contribution of rare variants to congenital heart disease through a large-scale case-control exome study.",
-      "abstract": "Several studies have demonstrated the value of large-scale human exome and genome data analysis to maximise gene discovery in rare diseases. Using this approach, we have analysed the exomes of 4747 cases and 52,881 controls to identify genes which confer a substantial risk of congenital heart disease (CHD). We identified both rare loss-of-function and missense coding variants in 14 genes, which reached genome-wide significance at FDR 5%. Ten genes have been associated with CHD, whereas four gene\u2026",
-      "abstract_full": "Several studies have demonstrated the value of large-scale human exome and genome data analysis to maximise gene discovery in rare diseases. Using this approach, we have analysed the exomes of 4747 cases and 52,881 controls to identify genes which confer a substantial risk of congenital heart disease (CHD). We identified both rare loss-of-function and missense coding variants in 14 genes, which reached genome-wide significance at FDR 5%. Ten genes have been associated with CHD, whereas four genes (PBX1, KAT6B, SHOX2, HCAR1) have not been reported as genome-wide significant so far. We highlight distinct genetic contributions to syndromic and non-syndromic CHD by independently analysing probands from these two groups. In addition, by integrative analysis of exome data with single-cell transcriptomics data from human embryonic hearts, we identified cardiac-specific cells, such as neural crest cells and endothelial cells, as well as putative biological processes underlying the pathogenesis of CHD. In summary, our findings strengthen the association of known CHD genes and have identified additional novel disease genes contributing to the aetiology of CHD.",
+      "pmid": "42272162",
+      "title": "Accelerated epigenetic ageing in congenital heart disease: the AccelerAGE study.",
+      "abstract": "BACKGROUND AND AIMS: Adults with congenital heart disease tend to develop both cardiac and noncardiac age-related comorbidities earlier in life than the general population, suggesting accelerated biological ageing. Epigenetic clocks estimate biological age based on DNA methylation profiles. This study investigated whether adults with congenital heart disease display accelerated epigenetic ageing and whether the degree of age acceleration relates to disease complexity. METHODS: A total of 120 pat\u2026",
+      "abstract_full": "BACKGROUND AND AIMS: Adults with congenital heart disease tend to develop both cardiac and noncardiac age-related comorbidities earlier in life than the general population, suggesting accelerated biological ageing. Epigenetic clocks estimate biological age based on DNA methylation profiles. This study investigated whether adults with congenital heart disease display accelerated epigenetic ageing and whether the degree of age acceleration relates to disease complexity. METHODS: A total of 120 patients with congenital heart disease (age 29-50 years, 58 females) and 120 age- and sex-matched healthy controls were included. Patients were divided into simple, moderate, and complex disease complexity groups (n = 40 per group). Epigenetic age was estimated using the Horvath, Hannum, Zhang, GrimAge2, and PhenoAge clocks, whereas the pace of ageing was assessed using DunedinPACE. RESULTS: Compared to healthy controls, patients with moderate and complex congenital heart disease exhibit significant age acceleration with PhenoAge (+3.0 years, P = .019; +5.5 years, P < .001) and GrimAge2 (+2.1 years, P = .045; +2.3 years, P = .022) and a higher pace of ageing (P = .008 and P = .016, respectively). No significant differences were detected between healthy controls and patients with simple disease. CONCLUSIONS: Accelerated epigenetic ageing is observed in adults with moderate and complex congenital heart disease, while individuals with simple disease show ageing patterns comparable to healthy peers. These findings provide biological evidence of premature ageing in congenital heart disease and suggest a lifelong systemic vulnerability. Integrating biological ageing metrics into follow-up strategies may enable earlier detection of age-related complications and support interventions to preserve long-term healthspan.",
       "bullets": [
-        "We identified both rare loss-of-function and missense coding variants in 14 genes, which reached genome-wide significance at FDR 5%.",
-        "In addition, by integrative analysis of exome data with single-cell transcriptomics data from human embryonic hearts, we identified cardiac-specific cells, such as neural crest cells and endothelial cells, as well as\u2026",
-        "In summary, our findings strengthen the association of known CHD genes and have identified additional novel disease genes contributing to the aetiology of CHD."
+        "Compared to healthy controls, patients with moderate and complex congenital heart disease exhibit significant age acceleration with PhenoAge (+3.0 years, P = .019; +5.5 years, P < .001) and GrimAge2 (+2.1 years, P = .",
+        "No significant differences were detected between healthy controls and patients with simple disease.",
+        "Accelerated epigenetic ageing is observed in adults with moderate and complex congenital heart disease, while individuals with simple disease show ageing patterns comparable to healthy peers."
       ],
-      "authors": "Audain E, Wilsdon A, Dombrowsky G, et al.",
-      "journal": "NPJ genomic medicine",
+      "authors": "Tournoy T, Daelman B, Demulier L, et al.",
+      "journal": "European heart journal",
       "year": "2026",
       "month": "Jun",
-      "doi": "10.1038/s41586-020-2832-5",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42230622/",
-      "ris": "TY  - JOUR\nAU  - Audain E\nAU  - Wilsdon A\nAU  - Dombrowsky G\nTI  - Assessing the contribution of rare variants to congenital heart disease through a large-scale case-control exome study.\nJO  - NPJ genomic medicine\nPY  - 2026\nDO  - 10.1038/s41586-020-2832-5\nAB  - Several studies have demonstrated the value of large-scale human exome and genome data analysis to maximise gene discovery in rare diseases. Using this approach, we have analysed the exomes of 4747 cases and 52,881 controls to identify genes which confer a substantial risk of congenital heart diseas\nUR  - https://pubmed.ncbi.nlm.nih.gov/42230622/\nER  - ",
-      "section": "disease_genetics",
-      "topic": "CHD_Genetics",
-      "type": "Research article",
+      "doi": "10.1093/eurheartj/ehag455",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42272162/",
+      "ris": "TY  - JOUR\nAU  - Tournoy T\nAU  - Daelman B\nAU  - Demulier L\nTI  - Accelerated epigenetic ageing in congenital heart disease: the AccelerAGE study.\nJO  - European heart journal\nPY  - 2026\nDO  - 10.1093/eurheartj/ehag455\nAB  - BACKGROUND AND AIMS: Adults with congenital heart disease tend to develop both cardiac and noncardiac age-related comorbidities earlier in life than the general population, suggesting accelerated biological ageing. Epigenetic clocks estimate biological age based on DNA methylation profiles. This stu\nUR  - https://pubmed.ncbi.nlm.nih.gov/42272162/\nER  - ",
+      "section": "topic_watch",
+      "topic": "CHD_Methylation",
+      "type": "Epigenetics",
       "score": 7
     },
     {
-      "pmid": "42250864",
-      "title": "Genomic and proteogenomic insights into Spontaneous Coronary Artery Dissection (SCAD): A systematic review of emerging multi-omic evidence.",
-      "abstract": "BACKGROUND: Spontaneous coronary artery dissection (SCAD) is a major cause of myocardial infarction in young women without traditional cardiovascular risk factors (Hayes et al., 2018; Adlam et al., 2018 [1, 2]). Despite growing awareness, its biological underpinnings remain incompletely understood, and clinical management is largely based on observational evidence rather than mechanistic insight (Saw et al., 2014; Lettieri et al., 2015; Steg et al., 2024 [3-5]). OBJECTIVES: To systematically int\u2026",
-      "abstract_full": "BACKGROUND: Spontaneous coronary artery dissection (SCAD) is a major cause of myocardial infarction in young women without traditional cardiovascular risk factors (Hayes et al., 2018; Adlam et al., 2018 [1, 2]). Despite growing awareness, its biological underpinnings remain incompletely understood, and clinical management is largely based on observational evidence rather than mechanistic insight (Saw et al., 2014; Lettieri et al., 2015; Steg et al., 2024 [3-5]). OBJECTIVES: To systematically integrate genomic, epitranscriptomic, proteomic, and metabolomic data in order to characterize the multi-omic architecture of SCAD and identify potential biomarkers and therapeutic targets. METHODS: A systematic review was conducted in accordance with the PRISMA 2020 statement (Arbelo et al., 2023 [6]). PubMed/MEDLINE was searched for original studies investigating genomic and multi-omic features of SCAD. Data were extracted on study design, patient characteristics, identified variants, circulating biomarkers, and implicated biological pathways. Functional enrichment analysis was performed using the DAVID bioinformatics resource (Page et al., 2021 [7]). RESULTS: A total of 16 studies were included. Genome-wide association studies consistently identified susceptibility loci related to arterial structure and extracellular matrix integrity, including ADAMTSL4, PHACTR1/EDN1, LRP1, and FBN1 (Huang et al., 2009; Saw et al., 2020; Turley et al., 2020 [8-10]). Rare variant analyses further supported the role of genes involved in extracellular matrix remodeling and vascular smooth muscle cell function, including COL3A1, COL4A1/2, SMAD3, and TLN1 (Adlam et al., 2023; Turley et al., 2021, 2019; Carss et al., 2020; Zekavat et al., 2022; Wang et al., 2022 [11-16]), while ancestry-specific signals such as TSR1 variants were observed in distinct populations (Turley et al., 2023 [17]). Proteogenomic approaches linked genetic susceptibility loci to circulating proteins involved in matrix remodeling and inflammation, including cathepsin B and ECM1 (Maioli et al., 2010 [18]). Epitranscriptomic analyses identified differential microRNA expression profiles associated with vascular injury and repair pathways (Sun et al., 2019 [19]). CONCLUSIONS: SCAD is characterized by a complex, multi-layered biological architecture involving genetic susceptibility, extracellular matrix dysregulation, and vascular signaling pathways. Integration of multi-omic data provides novel insights into disease mechanisms and highlights potential biomarkers and targets for precision medicine approaches in SCAD.",
+      "pmid": "42260102",
+      "title": "Effects of SGLT2 inhibition on incident heart failure in carriers of cardiomyopathy-associated genetic variants.",
+      "abstract": "Although the beneficial effects of sodium-glucose cotransporter 2 (SGLT2) inhibition in heart failure (HF) have been well established, it is unknown whether SGLT2 inhibition confers benefit in carriers of rare variants in cardiomyopathy-associated genes. Here we evaluated whole-exome sequencing data from the randomized DECLARE-TIMI 58 trial, in which adults with type 2 diabetes and increased cardiovascular risk were randomized to dapagliflozin or placebo treatment. Pathogenic or likely pathogeni\u2026",
+      "abstract_full": "Although the beneficial effects of sodium-glucose cotransporter 2 (SGLT2) inhibition in heart failure (HF) have been well established, it is unknown whether SGLT2 inhibition confers benefit in carriers of rare variants in cardiomyopathy-associated genes. Here we evaluated whole-exome sequencing data from the randomized DECLARE-TIMI 58 trial, in which adults with type 2 diabetes and increased cardiovascular risk were randomized to dapagliflozin or placebo treatment. Pathogenic or likely pathogenic variants (P/LP) in high-confidence cardiomyopathy genes were identified, and treatment effects on hospitalization for HF (HHF) were compared between carriers of such variants and noncarriers. Among 12,685 patients for whom sequence data were obtained, 121 carried a cardiomyopathy variant (76 dilated cardiomyopathy, 25 hypertrophic cardiomyopathy and 25 arrhythmogenic cardiomyopathy). Over a median follow-up of 4.2\u2009years, dapagliflozin lowered the risk of HHF more strongly in carriers (hazard ratio 0.18, 95% confidence interval 0.04-0.86) than in noncarriers (hazard ratio 0.70, 95% confidence interval 0.57-0.86; P interaction 0.03). Absolute risk reduction was 13.0% in carriers and 1.0% in noncarriers (P interaction 0.03). Most carriers (82%) had no prior HF, and in carriers without prior HF, treatment with dapagliflozin reduced the absolute risk of HHF by 12.8%, compared with a reduction of 0.6% in noncarriers (P interaction 0.01). The findings from this cohort of older and high-risk patients raise the possibility that SGLT2 inhibitor treatment should be started early to prevent HF in individuals who carry P/LP cardiomyopathy variants. These results need to be confirmed in a prospective, dedicated trial of preventive HF treatments in carriers of P/LP cardiomyopathy-associated variants.",
       "bullets": [
-        "Genome-wide association studies consistently identified susceptibility loci related to arterial structure and extracellular matrix integrity, including ADAMTSL4, PHACTR1/EDN1, LRP1, and FBN1 (Huang et al.",
-        "Proteogenomic approaches linked genetic susceptibility loci to circulating proteins involved in matrix remodeling and inflammation, including cathepsin B and ECM1 (Maioli et al., 2010 [18]).",
-        "Epitranscriptomic analyses identified differential microRNA expression profiles associated with vascular injury and repair pathways (Sun et al., 2019 [19])."
+        "Although the beneficial effects of sodium-glucose cotransporter 2 (SGLT2) inhibition in heart failure (HF) have been well established, it is unknown whether SGLT2 inhibition confers benefit in carriers of rare variants\u2026",
+        "Pathogenic or likely pathogenic variants (P/LP) in high-confidence cardiomyopathy genes were identified, and treatment effects on hospitalization for HF (HHF) were compared between carriers of such variants and\u2026",
+        "These results need to be confirmed in a prospective, dedicated trial of preventive HF treatments in carriers of P/LP cardiomyopathy-associated variants."
       ],
-      "authors": "Russo A, Alberti M, Biondi F, et al.",
-      "journal": "Vascular pharmacology",
+      "authors": "Marston N, Kany S, Melloni G, et al.",
+      "journal": "Nature medicine",
       "year": "2026",
       "month": "Jun",
-      "doi": "10.1016/j.vph.2026.107657",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42250864/",
-      "ris": "TY  - JOUR\nAU  - Russo A\nAU  - Alberti M\nAU  - Biondi F\nTI  - Genomic and proteogenomic insights into Spontaneous Coronary Artery Dissection (SCAD): A systematic review of emerging multi-omic evidence.\nJO  - Vascular pharmacology\nPY  - 2026\nDO  - 10.1016/j.vph.2026.107657\nAB  - BACKGROUND: Spontaneous coronary artery dissection (SCAD) is a major cause of myocardial infarction in young women without traditional cardiovascular risk factors (Hayes et al., 2018; Adlam et al., 2018 [1, 2]). Despite growing awareness, its biological underpinnings remain incompletely understood, \nUR  - https://pubmed.ncbi.nlm.nih.gov/42250864/\nER  - ",
+      "doi": "10.1161/CIRCULATIONAHA.119.040130",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42260102/",
+      "ris": "TY  - JOUR\nAU  - Marston N\nAU  - Kany S\nAU  - Melloni G\nTI  - Effects of SGLT2 inhibition on incident heart failure in carriers of cardiomyopathy-associated genetic variants.\nJO  - Nature medicine\nPY  - 2026\nDO  - 10.1161/CIRCULATIONAHA.119.040130\nAB  - Although the beneficial effects of sodium-glucose cotransporter 2 (SGLT2) inhibition in heart failure (HF) have been well established, it is unknown whether SGLT2 inhibition confers benefit in carriers of rare variants in cardiomyopathy-associated genes. Here we evaluated whole-exome sequencing data\nUR  - https://pubmed.ncbi.nlm.nih.gov/42260102/\nER  - ",
       "section": "disease_genetics",
-      "topic": "SCAD_Genetics",
-      "type": "Review",
-      "score": 3
-    },
-    {
-      "pmid": "41855523",
-      "title": "Global analyses of genomic and epigenomic influences on gene expression reveal Serpina3n as a major regulator of cardiac gene expression in response to catecholamine challenge during heart failure.",
-      "abstract": "Heart failure arises from maladaptive remodelling driven by genetic and epigenetic networks. Using a systems genetics framework, we mapped how DNA variants and CpG methylation shape cardiac transcriptomes during beta adrenergic stress in the Hybrid Mouse Diversity Panel, a cohort of over 100 fully inbred mouse strains. Expression QTLs (eQTLs), methylation QTLs (mQTLs) and methylation-driven eQTLs (emQTLs) were generated from over 13k expressed genes and 200k hypervariable CpGs in left ventricles\u2026",
-      "abstract_full": "Heart failure arises from maladaptive remodelling driven by genetic and epigenetic networks. Using a systems genetics framework, we mapped how DNA variants and CpG methylation shape cardiac transcriptomes during beta adrenergic stress in the Hybrid Mouse Diversity Panel, a cohort of over 100 fully inbred mouse strains. Expression QTLs (eQTLs), methylation QTLs (mQTLs) and methylation-driven eQTLs (emQTLs) were generated from over 13k expressed genes and 200k hypervariable CpGs in left ventricles. We discovered hundreds of regulatory 'hotspots' that control large portions of the genome, including several that regulate over 10% of the transcriptome and/or methylome. Approximately 16% of these hotspots overlapped with prior GWAS or EWAS signals. We focus on a hotspot on chromosome 12 and identify the serpine peptidase inhibitor Serpina3n, as the most likely driver gene in this hotspot. Experimental knockdown of Serpina3n in neonatal rat ventricular cardiomyocytes blunted hypertrophy induced by a variety of hypertrophic signals, while altering predicted target expression and modulating the activity of Nppa and Nppb. Together, these findings position Serpina3n as a major regulator of stress-responsive cardiac gene programs, highlighting how integration of genetic and epigenetic signals can pinpoint key drivers of heart failure. Cross-omics hotspot analysis: We identified 286 eQTL, mQTL, and emQTL hotspots in the Hybrid Mouse Diversity Panel, including several hotspots that regulate over 10% of the cardiac transcriptome.Integration with prior GWAS/EWAS: ~16% of hotspots overlapped with previously reported heart failure hotspots, strengthening their biological relevance.Discovery of Serpina3n as heart failure regulator: A hotspot on chromosome 12 linked to Serpina3n controlled 4\u20136% of all gene expression and CpG methylation changes in response to isoproterenol.Functional validation: siRNA knockdown of Serpina3n in cardiomyocytes significantly blunted hypertrophy induced by isoproterenol, angiotensin II, and phenylephrine.Pathway insights: Genes regulated by the Serpina3n hotspot were enriched for mitochondrial function, dilated cardiomyopathy, and hypertrophic signalling pathways, highlighting a mechanistic link to heart failure progression.",
-      "bullets": [
-        "Approximately 16% of these hotspots overlapped with prior GWAS or EWAS signals.",
-        "Together, these findings position Serpina3n as a major regulator of stress-responsive cardiac gene programs, highlighting how integration of genetic and epigenetic signals can pinpoint key drivers of heart failure.",
-        "Cross-omics hotspot analysis: We identified 286 eQTL, mQTL, and emQTL hotspots in the Hybrid Mouse Diversity Panel, including several hotspots that regulate over 10% of the cardiac transcriptome."
-      ],
-      "authors": "Lahue C, Ravindran S, Dalal A, et al.",
-      "journal": "Epigenetics",
-      "year": "2026",
-      "month": "Dec",
-      "doi": "10.1038/s41467-020-19015-1",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41855523/",
-      "ris": "TY  - JOUR\nAU  - Lahue C\nAU  - Ravindran S\nAU  - Dalal A\nTI  - Global analyses of genomic and epigenomic influences on gene expression reveal Serpina3n as a major regulator of cardiac gene expression in response to catecholamine challenge during heart failure.\nJO  - Epigenetics\nPY  - 2026\nDO  - 10.1038/s41467-020-19015-1\nAB  - Heart failure arises from maladaptive remodelling driven by genetic and epigenetic networks. Using a systems genetics framework, we mapped how DNA variants and CpG methylation shape cardiac transcriptomes during beta adrenergic stress in the Hybrid Mouse Diversity Panel, a cohort of over 100 fully i\nUR  - https://pubmed.ncbi.nlm.nih.gov/41855523/\nER  - ",
-      "section": "topic_watch",
-      "topic": "DCM_Omics",
-      "type": "GWAS",
-      "score": 2
+      "topic": "DCM_Genetics",
+      "type": "Research article",
+      "score": 5
     },
     {
       "pmid": "41813603",
@@ -289,46 +267,68 @@
       "score": 2
     },
     {
-      "pmid": "41672210",
-      "title": "Hypertrophic cardiomyopathy caused by filamin-C variants has restrictive and extracardiac features and a distinctive ECG.",
-      "abstract": "BACKGROUND: Filamin-C (FLNC) gene variants are associated with cardiac and skeletal muscle diseases including a clear role of loss-of-function variants in dilated cardiomyopathy. OBJECTIVE: This study aimed to assess the contribution of rare FLNC variants to hypertrophic cardiomyopathy (HCM)/restrictive cardiomyopathy (RCM). METHODS: Family-based studies in 2 specialist services and statistical modeling of rare FLNC missense variants were conducted, using a cohort of 3289 sarcomere-negative HCM \u2026",
-      "abstract_full": "BACKGROUND: Filamin-C (FLNC) gene variants are associated with cardiac and skeletal muscle diseases including a clear role of loss-of-function variants in dilated cardiomyopathy. OBJECTIVE: This study aimed to assess the contribution of rare FLNC variants to hypertrophic cardiomyopathy (HCM)/restrictive cardiomyopathy (RCM). METHODS: Family-based studies in 2 specialist services and statistical modeling of rare FLNC missense variants were conducted, using a cohort of 3289 sarcomere-negative HCM cases and 122,348 genome aggregation database controls. RESULTS: Clinical evaluation of patients with HCM/RCM and a rare FLNC variant identified a distinct electrocardiographic (ECG) repolarization phenotype in 37% (19 of 51 individuals, from 12 families), which was observed in only 1.0% of a control HCM cohort (2 of 197). FLNC variant carriers with the characteristic ECG had smaller left ventricular cavity size, lower contractility, and more severe diastolic dysfunction and were more likely to have a restrictive phenotype. Heart failure death, transplant, or cardiac arrest occurred in at least 1 individual in 7 of the 12 families (58%) in the \"ECG-positive\" group, and musculoskeletal abnormalities were present in 4 families (33%). 5 of 12 variants (41.7%) in the \"ECG-positive\" group cosegregated, and 2 were apparently de novo. 11 variants were missense, and 1 splice site. Rare FLNC missense variant burden indicated a low case excess among all HCM cases (etiologic fraction, 0.45; 95% confidence interval, 0.36-0.54), but in \"ECG-positive\" cases the etiologic fraction was substantially higher (0.98; 95% confidence interval, 0.97-0.99). CONCLUSION: Pathogenic FLNC variants in patients with HCM/RCM are nontruncating and cause a discrete phenotype comprising a characteristic ECG, hypertrophic and restrictive features without hypercontractility, and extracardiac abnormalities.",
+      "pmid": "41855523",
+      "title": "Global analyses of genomic and epigenomic influences on gene expression reveal Serpina3n as a major regulator of cardiac gene expression in response to catecholamine challenge during heart failure.",
+      "abstract": "Heart failure arises from maladaptive remodelling driven by genetic and epigenetic networks. Using a systems genetics framework, we mapped how DNA variants and CpG methylation shape cardiac transcriptomes during beta adrenergic stress in the Hybrid Mouse Diversity Panel, a cohort of over 100 fully inbred mouse strains. Expression QTLs (eQTLs), methylation QTLs (mQTLs) and methylation-driven eQTLs (emQTLs) were generated from over 13k expressed genes and 200k hypervariable CpGs in left ventricles\u2026",
+      "abstract_full": "Heart failure arises from maladaptive remodelling driven by genetic and epigenetic networks. Using a systems genetics framework, we mapped how DNA variants and CpG methylation shape cardiac transcriptomes during beta adrenergic stress in the Hybrid Mouse Diversity Panel, a cohort of over 100 fully inbred mouse strains. Expression QTLs (eQTLs), methylation QTLs (mQTLs) and methylation-driven eQTLs (emQTLs) were generated from over 13k expressed genes and 200k hypervariable CpGs in left ventricles. We discovered hundreds of regulatory 'hotspots' that control large portions of the genome, including several that regulate over 10% of the transcriptome and/or methylome. Approximately 16% of these hotspots overlapped with prior GWAS or EWAS signals. We focus on a hotspot on chromosome 12 and identify the serpine peptidase inhibitor Serpina3n, as the most likely driver gene in this hotspot. Experimental knockdown of Serpina3n in neonatal rat ventricular cardiomyocytes blunted hypertrophy induced by a variety of hypertrophic signals, while altering predicted target expression and modulating the activity of Nppa and Nppb. Together, these findings position Serpina3n as a major regulator of stress-responsive cardiac gene programs, highlighting how integration of genetic and epigenetic signals can pinpoint key drivers of heart failure. Cross-omics hotspot analysis: We identified 286 eQTL, mQTL, and emQTL hotspots in the Hybrid Mouse Diversity Panel, including several hotspots that regulate over 10% of the cardiac transcriptome.Integration with prior GWAS/EWAS: ~16% of hotspots overlapped with previously reported heart failure hotspots, strengthening their biological relevance.Discovery of Serpina3n as heart failure regulator: A hotspot on chromosome 12 linked to Serpina3n controlled 4\u20136% of all gene expression and CpG methylation changes in response to isoproterenol.Functional validation: siRNA knockdown of Serpina3n in cardiomyocytes significantly blunted hypertrophy induced by isoproterenol, angiotensin II, and phenylephrine.Pathway insights: Genes regulated by the Serpina3n hotspot were enriched for mitochondrial function, dilated cardiomyopathy, and hypertrophic signalling pathways, highlighting a mechanistic link to heart failure progression.",
       "bullets": [
-        "Clinical evaluation of patients with HCM/RCM and a rare FLNC variant identified a distinct electrocardiographic (ECG) repolarization phenotype in 37% (19 of 51 individuals, from 12 families), which was observed in only\u2026",
-        "FLNC variant carriers with the characteristic ECG had smaller left ventricular cavity size, lower contractility, and more severe diastolic dysfunction and were more likely to have a restrictive phenotype.",
-        "Rare FLNC missense variant burden indicated a low case excess among all HCM cases (etiologic fraction, 0.45; 95% confidence interval, 0.36-0."
+        "Approximately 16% of these hotspots overlapped with prior GWAS or EWAS signals.",
+        "Together, these findings position Serpina3n as a major regulator of stress-responsive cardiac gene programs, highlighting how integration of genetic and epigenetic signals can pinpoint key drivers of heart failure.",
+        "Cross-omics hotspot analysis: We identified 286 eQTL, mQTL, and emQTL hotspots in the Hybrid Mouse Diversity Panel, including several hotspots that regulate over 10% of the cardiac transcriptome."
       ],
-      "authors": "de Villiers C, Ormondroyd E, Thomson K, et al.",
-      "journal": "Heart rhythm",
+      "authors": "Lahue C, Ravindran S, Dalal A, et al.",
+      "journal": "Epigenetics",
       "year": "2026",
-      "month": "Jun",
-      "doi": "10.1016/j.hrthm.2026.01.054",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41672210/",
-      "ris": "TY  - JOUR\nAU  - de Villiers C\nAU  - Ormondroyd E\nAU  - Thomson K\nTI  - Hypertrophic cardiomyopathy caused by filamin-C variants has restrictive and extracardiac features and a distinctive ECG.\nJO  - Heart rhythm\nPY  - 2026\nDO  - 10.1016/j.hrthm.2026.01.054\nAB  - BACKGROUND: Filamin-C (FLNC) gene variants are associated with cardiac and skeletal muscle diseases including a clear role of loss-of-function variants in dilated cardiomyopathy. OBJECTIVE: This study aimed to assess the contribution of rare FLNC variants to hypertrophic cardiomyopathy (HCM)/restric\nUR  - https://pubmed.ncbi.nlm.nih.gov/41672210/\nER  - ",
-      "section": "disease_genetics",
-      "topic": "DCM_Genetics",
-      "type": "Research article",
+      "month": "Dec",
+      "doi": "10.1038/s41467-020-19015-1",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41855523/",
+      "ris": "TY  - JOUR\nAU  - Lahue C\nAU  - Ravindran S\nAU  - Dalal A\nTI  - Global analyses of genomic and epigenomic influences on gene expression reveal Serpina3n as a major regulator of cardiac gene expression in response to catecholamine challenge during heart failure.\nJO  - Epigenetics\nPY  - 2026\nDO  - 10.1038/s41467-020-19015-1\nAB  - Heart failure arises from maladaptive remodelling driven by genetic and epigenetic networks. Using a systems genetics framework, we mapped how DNA variants and CpG methylation shape cardiac transcriptomes during beta adrenergic stress in the Hybrid Mouse Diversity Panel, a cohort of over 100 fully i\nUR  - https://pubmed.ncbi.nlm.nih.gov/41855523/\nER  - ",
+      "section": "topic_watch",
+      "topic": "DCM_Omics",
+      "type": "GWAS",
       "score": 2
     },
     {
-      "pmid": "42234061",
-      "title": "Endocrine Disruption and Male Fertility.",
-      "abstract": "PURPOSE OF REVIEW: Endocrine-disrupting chemicals affect nearly every human on the planet and are known to interfere with reproduction. Most studies have focused on gestational exposure effects in females. Emerging evidence indicates that preconception exposures in males can also impact pregnancy outcomes and offspring health. This review describes how several major endocrine disruptors impair key male fertility endpoints and their subsequent effects on downstream processes, including fertilizat\u2026",
-      "abstract_full": "PURPOSE OF REVIEW: Endocrine-disrupting chemicals affect nearly every human on the planet and are known to interfere with reproduction. Most studies have focused on gestational exposure effects in females. Emerging evidence indicates that preconception exposures in males can also impact pregnancy outcomes and offspring health. This review describes how several major endocrine disruptors impair key male fertility endpoints and their subsequent effects on downstream processes, including fertilization and the health of the next generation(s). RECENT FINDINGS: Endocrine disrupting chemicals such as polychlorinated biphenyls, polybrominated diphenyl ethers, per- and polyfluoroalkyl substances, bisphenols, phthalates, and parabens can have widespread effects on male fertility by interfering with the hypothalamic-pituitary-gonadal axis and through direct effects on the male reproductive system. These effects include impaired semen quality (sperm count, morphology, motility), changes in the spermatogenic process, mitochondrial disruption, reactive oxygen species generation, skewed energy metabolism, germ cell apoptosis, and changes in the sperm epigenome (DNA methylation, histone modifications, noncoding RNAs). Studies continue to demonstrate that paternal endocrine disruptor exposure impacts the next generation and in some cases beyond, with studies in animal models showing disruption of fertility in the F1 and F2 generations, and studies of occupational exposures in humans showing increased risks of low birth weight and congenital heart disease for children born to exposed fathers. The hypothesis that preconception paternal exposures are consequential to future generations has slowly been gaining traction, but more research is needed to better understand the intergenerational and transgenerational health consequences of endocrine disruptor exposures, the underlying mechanisms, and, given the growing ubiquity of these chemicals in our food and environment, to develop and implement strategies for mitigation of these effects.",
+      "pmid": "41610206",
+      "title": "Influence of Technical Performance Score on Outcomes After Tetralogy of Fallot Repair in a Low-Middle-Income Country.",
+      "abstract": "ObjectivesTetralogy of Fallot (TOF) repair is associated with low mortality in high-performance centers, but outcomes are worse in low- and middle-income countries (LMICs). Prior studies have not demonstrated a strong link between Technical Performance Score (TPS) and mortality. The aim of this was to evaluate risk factors for mortality and complications after TOF repair in a high-volume LMIC heart center with a focus on surgical performance.MethodsWe retrospectively reviewed children undergoing\u2026",
+      "abstract_full": "ObjectivesTetralogy of Fallot (TOF) repair is associated with low mortality in high-performance centers, but outcomes are worse in low- and middle-income countries (LMICs). Prior studies have not demonstrated a strong link between Technical Performance Score (TPS) and mortality. The aim of this was to evaluate risk factors for mortality and complications after TOF repair in a high-volume LMIC heart center with a focus on surgical performance.MethodsWe retrospectively reviewed children undergoing TOF repair between 2015 and 2022. Patients over two years of age or with complex defects beyond atrial septal defect and persistent ductus arteriosus were excluded. Preoperative factors included age, weight, genetic syndromes, urgency, and pulmonary artery z-scores. Intraoperative variables included transannular patch use, cardiopulmonary bypass and cross-clamp times, surgeon, and TPS classification. Postoperative variables included delayed sternal closure (DSC), extracorporeal membrane oxygenation (ECMO), and Vasoactive Inotropic Score (VIS) during the first 24\u2005h. Outcomes included mortality, complications, and length of stay (LOS). Analyses included logistic regression and Kaplan-Meier estimates.ResultsAmong 255 patients, in-hospital mortality was 7.5% (n\u2009=\u200919). Technical Performance Score class 3 was an independent predictor of mortality (P\u2009=\u2009.027), along with VIS 24\u2005h and ECMO. Cardiopulmonary bypass time, ECMO, and DSC were associated with major complications. Technical Performance Score class 3 correlated with longer LOS, but multivariable analysis identified low weight and ECMO as independent LOS predictors. Five-year survival was worse in TPS class 3 (P\u2009=\u2009.007).ConclusionsInadequate TPS is an independent predictor of mortality after TOF repair in an LMIC context. Class 3 TPS also relates to longer hospitalization and worse medium-term survival. Surgical quality remains essential for better outcomes.",
       "bullets": [
-        "Endocrine disrupting chemicals such as polychlorinated biphenyls, polybrominated diphenyl ethers, per- and polyfluoroalkyl substances, bisphenols, phthalates, and parabens can have widespread effects on male fertility\u2026",
-        "These effects include impaired semen quality (sperm count, morphology, motility), changes in the spermatogenic process, mitochondrial disruption, reactive oxygen species generation, skewed energy metabolism, germ cell\u2026",
-        "Studies continue to demonstrate that paternal endocrine disruptor exposure impacts the next generation and in some cases beyond, with studies in animal models showing disruption of fertility in the F1 and F2\u2026"
+        "Cardiopulmonary bypass time, ECMO, and DSC were associated with major complications.",
+        "Technical Performance Score class 3 correlated with longer LOS, but multivariable analysis identified low weight and ECMO as independent LOS predictors.",
+        "Surgical quality remains essential for better outcomes."
       ],
-      "authors": "Ulaganathan G, Murphy S",
-      "journal": "Current environmental health reports",
+      "authors": "Miana L, Nathan M, Manuel V, et al.",
+      "journal": "World journal for pediatric & congenital heart surgery",
+      "year": "2026",
+      "month": "Jul",
+      "doi": "10.1177/21501351251386433",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41610206/",
+      "ris": "TY  - JOUR\nAU  - Miana L\nAU  - Nathan M\nAU  - Manuel V\nTI  - Influence of Technical Performance Score on Outcomes After Tetralogy of Fallot Repair in a Low-Middle-Income Country.\nJO  - World journal for pediatric & congenital heart surgery\nPY  - 2026\nDO  - 10.1177/21501351251386433\nAB  - ObjectivesTetralogy of Fallot (TOF) repair is associated with low mortality in high-performance centers, but outcomes are worse in low- and middle-income countries (LMICs). Prior studies have not demonstrated a strong link between Technical Performance Score (TPS) and mortality. The aim of this was \nUR  - https://pubmed.ncbi.nlm.nih.gov/41610206/\nER  - ",
+      "section": "prs_disease",
+      "topic": "CHD_DCM_SCAD_PRS",
+      "type": "Review",
+      "score": 1
+    },
+    {
+      "pmid": "42277826",
+      "title": "Multi-omics analysis of genetic drivers linking aortic stenosis and left ventricular diastolic dysfunction in heart failure.",
+      "abstract": "BACKGROUND: Aortic stenosis (AS) and left ventricular diastolic dysfunction (LVDD) often coexist in heart failure (HF), but the mechanisms linking them remain unclear. While AS increases afterload and promotes myocardial stiffening, emerging AI-based evidence suggests LVDD can precede the development of AS or progress simultaneously, indicating shared upstream mechanobiological and inflammatory drivers. This study explores the genetic contributors connecting AS and LVDD to identify early molecul\u2026",
+      "abstract_full": "BACKGROUND: Aortic stenosis (AS) and left ventricular diastolic dysfunction (LVDD) often coexist in heart failure (HF), but the mechanisms linking them remain unclear. While AS increases afterload and promotes myocardial stiffening, emerging AI-based evidence suggests LVDD can precede the development of AS or progress simultaneously, indicating shared upstream mechanobiological and inflammatory drivers. This study explores the genetic contributors connecting AS and LVDD to identify early molecular markers and convergent pathways in HF. METHOD: We analyzed Whole Genome Sequence (WGS) and RNA-seq data of the HF patients, generated using their Peripheral Blood Mononuclear Cells (PBMCs) samples. Overall bioinformatics analysis was divided into two modules, 1) gene variant and annotation analysis, and 2) gene expression and enrichment analysis. We utilized our peer review published and open source WGS and RNA-seq pipelines to process Next-Generation Sequence (NGS) data. Furthermore, we performed bioinformatics and statistical analysis to identify genetic variations, expressions, regulation, enrichments, and disease annotations. RESULTS: We identified genetic markers uniquely associated with AS, LVDD, and shared between them. Furthermore, we report genes with significant expression, and functional variations, and discuss their relationship with other cardiovascular diseases (e.g. Vascular and Cardiac Stiffness, Aortic Dissection, Left Atrial Enlargement, Left Ventricular Hypertrophy, Outflow Tract Obstructive Defects, Non-Compaction Coronary Artery Disease, Arrhythmia, Congestive Heart Failure, and Hypertrophic, Dilated, and Ischemic Cardiomyopathy) and non-cardiovascular diseases (non-CVDs) (e.g. Type 1 Diabetes, Diabetic Nephropathy, Skeletal Anomalies, Rheumatoid Arthritis, Atypical Femoral Fractures, Chronic Kidney Disease, Dehydrated Hereditary Stomatocytosis, Schizophrenia, Varicose Veins, High-Altitude Pulmonary Edema, Periodontitis, and Respiratory Disorder) including multiple cancer types (e.g. Breast, Lung, Colorectal, Pancreatic, Hypopharyngeal, Acute Lymphoblastic, and Oral Squamous Cell Carcinomas) and rare genetic disorders (e.g. Hypophosphatasia, Multiple Sclerosis, Campomelic Dysplasia, Lymphatic Malformation). We validated our results through state of science literature, gene-disease annotation databases, and electronic health records. CONCLUSIONS: AS and LVDD share both clinical and genomic associations, with overlapping genetic drivers that are enriched in pathways related to inflammation, extracellular matrix remodeling, and vascular stress responses. This work supports the potential of blood-based multi-omics profiling to uncover early, systemic molecular signals of cardiac dysfunction and lays the groundwork for future tissue-specific studies to guide precision diagnosis, risk stratification, and targeted therapeutics in HF.",
+      "bullets": [
+        "We identified genetic markers uniquely associated with AS, LVDD, and shared between them.",
+        "Furthermore, we report genes with significant expression, and functional variations, and discuss their relationship with other cardiovascular diseases (e.g.",
+        "Vascular and Cardiac Stiffness, Aortic Dissection, Left Atrial Enlargement, Left Ventricular Hypertrophy, Outflow Tract Obstructive Defects, Non-Compaction Coronary Artery Disease, Arrhythmia, Congestive Heart Failure,\u2026"
+      ],
+      "authors": "Ahmed Z, Govindareddy P, Mathew J, et al.",
+      "journal": "BioData mining",
       "year": "2026",
       "month": "Jun",
-      "doi": "10.1016/j.fertnstert.2023.02.034",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42234061/",
-      "ris": "TY  - JOUR\nAU  - Ulaganathan G\nAU  - Murphy S\nTI  - Endocrine Disruption and Male Fertility.\nJO  - Current environmental health reports\nPY  - 2026\nDO  - 10.1016/j.fertnstert.2023.02.034\nAB  - PURPOSE OF REVIEW: Endocrine-disrupting chemicals affect nearly every human on the planet and are known to interfere with reproduction. Most studies have focused on gestational exposure effects in females. Emerging evidence indicates that preconception exposures in males can also impact pregnancy ou\nUR  - https://pubmed.ncbi.nlm.nih.gov/42234061/\nER  - ",
+      "doi": "10.1186/s13040-026-00564-y",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42277826/",
+      "ris": "TY  - JOUR\nAU  - Ahmed Z\nAU  - Govindareddy P\nAU  - Mathew J\nTI  - Multi-omics analysis of genetic drivers linking aortic stenosis and left ventricular diastolic dysfunction in heart failure.\nJO  - BioData mining\nPY  - 2026\nDO  - 10.1186/s13040-026-00564-y\nAB  - BACKGROUND: Aortic stenosis (AS) and left ventricular diastolic dysfunction (LVDD) often coexist in heart failure (HF), but the mechanisms linking them remain unclear. While AS increases afterload and promotes myocardial stiffening, emerging AI-based evidence suggests LVDD can precede the developmen\nUR  - https://pubmed.ncbi.nlm.nih.gov/42277826/\nER  - ",
       "section": "topic_watch",
-      "topic": "CHD_Methylation",
+      "topic": "DCM_Omics",
       "type": "Review",
       "score": 1
     },
@@ -377,14 +377,14 @@
       "score": 0
     }
   ],
-  "summary_text": "8 papers selected from this week's literature:\n  \u2022 4 \u00d7 disease genetics (CHD / DCM / SCAD)\n  \u2022 3 \u00d7 epigenetics / methylation\n  \u2022 1 \u00d7 PRS in CHD/DCM/SCAD\n\nHighlight: Assessing the contribution of rare variants to congenital heart disease through a large-scale case-control exome study. (NPJ genomic medicine, 2026)",
+  "summary_text": "8 papers selected from this week's literature:\n  \u2022 4 \u00d7 epigenetics / methylation\n  \u2022 2 \u00d7 disease genetics (CHD / DCM / SCAD)\n  \u2022 2 \u00d7 PRS in CHD/DCM/SCAD\n\nHighlight: Accelerated epigenetic ageing in congenital heart disease: the AccelerAGE study. (European heart journal, 2026)",
   "summary": {
     "total_selected": 8,
     "total_candidates": 8,
     "section_counts": {
-      "disease_genetics": 4,
-      "topic_watch": 3,
-      "prs_disease": 1
+      "topic_watch": 4,
+      "disease_genetics": 2,
+      "prs_disease": 2
     }
   }
 }
