@@ -1,32 +1,10 @@
 {
-  "generated": "2026-06-14T22:00:36.743142",
+  "generated": "2026-06-21T22:06:20.726667",
   "lookback_days": 7,
-  "cutoff_date": "2026/06/07",
+  "cutoff_date": "2026/06/14",
   "sections": {
     "disease_genetics": {
       "papers": [
-        {
-          "pmid": "42260102",
-          "title": "Effects of SGLT2 inhibition on incident heart failure in carriers of cardiomyopathy-associated genetic variants.",
-          "abstract": "Although the beneficial effects of sodium-glucose cotransporter 2 (SGLT2) inhibition in heart failure (HF) have been well established, it is unknown whether SGLT2 inhibition confers benefit in carriers of rare variants in cardiomyopathy-associated genes. Here we evaluated whole-exome sequencing data from the randomized DECLARE-TIMI 58 trial, in which adults with type 2 diabetes and increased cardiovascular risk were randomized to dapagliflozin or placebo treatment. Pathogenic or likely pathogeni\u2026",
-          "abstract_full": "Although the beneficial effects of sodium-glucose cotransporter 2 (SGLT2) inhibition in heart failure (HF) have been well established, it is unknown whether SGLT2 inhibition confers benefit in carriers of rare variants in cardiomyopathy-associated genes. Here we evaluated whole-exome sequencing data from the randomized DECLARE-TIMI 58 trial, in which adults with type 2 diabetes and increased cardiovascular risk were randomized to dapagliflozin or placebo treatment. Pathogenic or likely pathogenic variants (P/LP) in high-confidence cardiomyopathy genes were identified, and treatment effects on hospitalization for HF (HHF) were compared between carriers of such variants and noncarriers. Among 12,685 patients for whom sequence data were obtained, 121 carried a cardiomyopathy variant (76 dilated cardiomyopathy, 25 hypertrophic cardiomyopathy and 25 arrhythmogenic cardiomyopathy). Over a median follow-up of 4.2\u2009years, dapagliflozin lowered the risk of HHF more strongly in carriers (hazard ratio 0.18, 95% confidence interval 0.04-0.86) than in noncarriers (hazard ratio 0.70, 95% confidence interval 0.57-0.86; P interaction 0.03). Absolute risk reduction was 13.0% in carriers and 1.0% in noncarriers (P interaction 0.03). Most carriers (82%) had no prior HF, and in carriers without prior HF, treatment with dapagliflozin reduced the absolute risk of HHF by 12.8%, compared with a reduction of 0.6% in noncarriers (P interaction 0.01). The findings from this cohort of older and high-risk patients raise the possibility that SGLT2 inhibitor treatment should be started early to prevent HF in individuals who carry P/LP cardiomyopathy variants. These results need to be confirmed in a prospective, dedicated trial of preventive HF treatments in carriers of P/LP cardiomyopathy-associated variants.",
-          "bullets": [
-            "Although the beneficial effects of sodium-glucose cotransporter 2 (SGLT2) inhibition in heart failure (HF) have been well established, it is unknown whether SGLT2 inhibition confers benefit in carriers of rare variants\u2026",
-            "Pathogenic or likely pathogenic variants (P/LP) in high-confidence cardiomyopathy genes were identified, and treatment effects on hospitalization for HF (HHF) were compared between carriers of such variants and\u2026",
-            "These results need to be confirmed in a prospective, dedicated trial of preventive HF treatments in carriers of P/LP cardiomyopathy-associated variants."
-          ],
-          "authors": "Marston N, Kany S, Melloni G, et al.",
-          "journal": "Nature medicine",
-          "year": "2026",
-          "month": "Jun",
-          "doi": "10.1161/CIRCULATIONAHA.119.040130",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42260102/",
-          "ris": "TY  - JOUR\nAU  - Marston N\nAU  - Kany S\nAU  - Melloni G\nTI  - Effects of SGLT2 inhibition on incident heart failure in carriers of cardiomyopathy-associated genetic variants.\nJO  - Nature medicine\nPY  - 2026\nDO  - 10.1161/CIRCULATIONAHA.119.040130\nAB  - Although the beneficial effects of sodium-glucose cotransporter 2 (SGLT2) inhibition in heart failure (HF) have been well established, it is unknown whether SGLT2 inhibition confers benefit in carriers of rare variants in cardiomyopathy-associated genes. Here we evaluated whole-exome sequencing data\nUR  - https://pubmed.ncbi.nlm.nih.gov/42260102/\nER  - ",
-          "section": "disease_genetics",
-          "topic": "DCM_Genetics",
-          "type": "Research article",
-          "score": 5
-        },
         {
           "pmid": "41813603",
           "title": "Optimizing Diagnostic Accuracy of Clinical Red Flags in RASopathies.",
@@ -48,6 +26,28 @@
           "topic": "CHD_Genetics",
           "type": "Research article",
           "score": 2
+        },
+        {
+          "pmid": "42261952",
+          "title": "Genetic Investigation of Corrected QT Interval Sensitivity to Oral Bepridil Hydrochloride Hydrate in Patients With Atrial Fibrillation.",
+          "abstract": "BACKGROUND: Bepridil is an antiarrhythmic drug used to treat paroxysmal atrial fibrillation; however, its use is limited by corrected QT interval (QTc) prolongation and the risk of ventricular arrhythmias. This study aimed to identify genetic variants associated with bepridil-associated QTc prolongation after catheter ablation for paroxysmal atrial fibrillation. METHODS: A total of 523 patients who initiated bepridil therapy after catheter ablation at Hiroshima University between November 2013 a\u2026",
+          "abstract_full": "BACKGROUND: Bepridil is an antiarrhythmic drug used to treat paroxysmal atrial fibrillation; however, its use is limited by corrected QT interval (QTc) prolongation and the risk of ventricular arrhythmias. This study aimed to identify genetic variants associated with bepridil-associated QTc prolongation after catheter ablation for paroxysmal atrial fibrillation. METHODS: A total of 523 patients who initiated bepridil therapy after catheter ablation at Hiroshima University between November 2013 and March 2023 were enrolled. Of these, 445 patients were included in a genome-wide association study, and 78 were used as an independent replication cohort. QTc was measured 1 month after treatment initiation, with QTc prolongation defined as \u2265450\u2009ms in men and \u2265460\u2009ms in women. Logistic regression analyses were conducted using additive, dominant, and recessive genetic models. Variants showing suggestive associations in the genome-wide association study (P<1.00\u00d710-6) were evaluated in the replication cohort, followed by random-effects meta-analyses, with genome-wide significance defined as P<5.00\u00d710-8. Linear regression analyses were conducted for QTc prolongation. RESULTS: After quality control, 443 patients were analyzed in the genome-wide association study. Of these, 122 (28%) exhibited QTc prolongation. Under the recessive model, rs12622919, an intronic variant in the FSHR (follicle-stimulating hormone receptor) gene, showed a suggestive association. In the random-effects meta-analysis combining the discovery and replication cohorts, rs12622919 reached genome-wide significance. Exploratory sex-stratified analyses suggested a potential association in women (P=0.026), although no statistically significant genotype-by-sex interaction was observed. Inclusion of rs12622919 improved discrimination for QTc prolongation (area under the curve, 0.77 [95% CI, 0.70-0.84]; Welch's t test, P<0.001), with the improvement remaining significant by DeLong's test (area under the curve, 0.78 [95% CI, 0.74-0.84]; P=0.0078). CONCLUSION: The FSHR variant rs12622919 is associated with bepridil-associated QTc prolongation and may serve as a genetic biomarker for individual risk assessment. Because the findings are based on meta-analysis, independent validation is required.",
+          "bullets": [
+            "After quality control, 443 patients were analyzed in the genome-wide association study.",
+            "Of these, 122 (28%) exhibited QTc prolongation.",
+            "Under the recessive model, rs12622919, an intronic variant in the FSHR (follicle-stimulating hormone receptor) gene, showed a suggestive association."
+          ],
+          "authors": "Ishibashi N, Furutani M, Nakashima M, et al.",
+          "journal": "Journal of the American Heart Association",
+          "year": "2026",
+          "month": "Jun",
+          "doi": "10.1161/JAHA.125.047046",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42261952/",
+          "ris": "TY  - JOUR\nAU  - Ishibashi N\nAU  - Furutani M\nAU  - Nakashima M\nTI  - Genetic Investigation of Corrected QT Interval Sensitivity to Oral Bepridil Hydrochloride Hydrate in Patients With Atrial Fibrillation.\nJO  - Journal of the American Heart Association\nPY  - 2026\nDO  - 10.1161/JAHA.125.047046\nAB  - BACKGROUND: Bepridil is an antiarrhythmic drug used to treat paroxysmal atrial fibrillation; however, its use is limited by corrected QT interval (QTc) prolongation and the risk of ventricular arrhythmias. This study aimed to identify genetic variants associated with bepridil-associated QTc prolonga\nUR  - https://pubmed.ncbi.nlm.nih.gov/42261952/\nER  - ",
+          "section": "disease_genetics",
+          "topic": "CHD_Genetics",
+          "type": "Review",
+          "score": 1
         }
       ],
       "total": 2
@@ -75,31 +75,9 @@
           "topic": "CHD_DCM_SCAD_PRS",
           "type": "Review",
           "score": 1
-        },
-        {
-          "pmid": "42102332",
-          "title": "Pearls & Oy-sters: Stroke Recurrence After PFO Closure Uncovers Cerebrotendinous Xanthomatosis.",
-          "abstract": "Cerebrotendinous xanthomatosis (CTX) is a rare autosomal recessive metabolic disorder that can cause premature atherosclerosis and ischemic stroke in young adults. We report a 23-year-old man who had recurrent strokes even after patent foramen ovale (PFO) closure. Initial evaluation for his first cryptogenic stroke revealed a PFO with a high Risk of Paradoxical Embolism (RoPE) score, leading to closure. Three years later, he experienced a recurrent stroke with right M1 segment occlusion. High-re\u2026",
-          "abstract_full": "Cerebrotendinous xanthomatosis (CTX) is a rare autosomal recessive metabolic disorder that can cause premature atherosclerosis and ischemic stroke in young adults. We report a 23-year-old man who had recurrent strokes even after patent foramen ovale (PFO) closure. Initial evaluation for his first cryptogenic stroke revealed a PFO with a high Risk of Paradoxical Embolism (RoPE) score, leading to closure. Three years later, he experienced a recurrent stroke with right M1 segment occlusion. High-resolution magnetic resonance vessel wall imaging demonstrated intracranial atherosclerotic plaque, prompting reconsideration of the etiology. Further history taking revealed chronic diarrhea since infancy and juvenile cataracts. Examination showed borderline intellectual functioning, bilateral ankle clonus, and Achilles tendon xanthomas. Brain MRI exhibited characteristic bilateral dentate nucleus hyperintensities. Genetic testing confirmed CYP27A1 pathogenic variants, consistent with a diagnosis of CTX. Through highlighting CTX underlying premature atherosclerosis and stroke in a young man, this case emphasizes the importance of rare metabolic disorders in stroke, even when a common cause such as PFO is identified. Early recognition enables targeted therapy and improves outcomes.",
-          "bullets": [
-            "Further history taking revealed chronic diarrhea since infancy and juvenile cataracts.",
-            "Genetic testing confirmed CYP27A1 pathogenic variants, consistent with a diagnosis of CTX.",
-            "Through highlighting CTX underlying premature atherosclerosis and stroke in a young man, this case emphasizes the importance of rare metabolic disorders in stroke, even when a common cause such as PFO is identified."
-          ],
-          "authors": "Liu L, Wang Y, Chen X, et al.",
-          "journal": "Neurology",
-          "year": "2026",
-          "month": "Jun",
-          "doi": "10.1212/WNL.0000000000218061",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42102332/",
-          "ris": "TY  - JOUR\nAU  - Liu L\nAU  - Wang Y\nAU  - Chen X\nTI  - Pearls & Oy-sters: Stroke Recurrence After PFO Closure Uncovers Cerebrotendinous Xanthomatosis.\nJO  - Neurology\nPY  - 2026\nDO  - 10.1212/WNL.0000000000218061\nAB  - Cerebrotendinous xanthomatosis (CTX) is a rare autosomal recessive metabolic disorder that can cause premature atherosclerosis and ischemic stroke in young adults. We report a 23-year-old man who had recurrent strokes even after patent foramen ovale (PFO) closure. Initial evaluation for his first cr\nUR  - https://pubmed.ncbi.nlm.nih.gov/42102332/\nER  - ",
-          "section": "prs_disease",
-          "topic": "CHD_DCM_SCAD_PRS",
-          "type": "Research article",
-          "score": 0
         }
       ],
-      "total": 2
+      "total": 1
     },
     "prs_methods": {
       "papers": [],
@@ -107,28 +85,6 @@
     },
     "topic_watch": {
       "papers": [
-        {
-          "pmid": "42272162",
-          "title": "Accelerated epigenetic ageing in congenital heart disease: the AccelerAGE study.",
-          "abstract": "BACKGROUND AND AIMS: Adults with congenital heart disease tend to develop both cardiac and noncardiac age-related comorbidities earlier in life than the general population, suggesting accelerated biological ageing. Epigenetic clocks estimate biological age based on DNA methylation profiles. This study investigated whether adults with congenital heart disease display accelerated epigenetic ageing and whether the degree of age acceleration relates to disease complexity. METHODS: A total of 120 pat\u2026",
-          "abstract_full": "BACKGROUND AND AIMS: Adults with congenital heart disease tend to develop both cardiac and noncardiac age-related comorbidities earlier in life than the general population, suggesting accelerated biological ageing. Epigenetic clocks estimate biological age based on DNA methylation profiles. This study investigated whether adults with congenital heart disease display accelerated epigenetic ageing and whether the degree of age acceleration relates to disease complexity. METHODS: A total of 120 patients with congenital heart disease (age 29-50 years, 58 females) and 120 age- and sex-matched healthy controls were included. Patients were divided into simple, moderate, and complex disease complexity groups (n = 40 per group). Epigenetic age was estimated using the Horvath, Hannum, Zhang, GrimAge2, and PhenoAge clocks, whereas the pace of ageing was assessed using DunedinPACE. RESULTS: Compared to healthy controls, patients with moderate and complex congenital heart disease exhibit significant age acceleration with PhenoAge (+3.0 years, P = .019; +5.5 years, P < .001) and GrimAge2 (+2.1 years, P = .045; +2.3 years, P = .022) and a higher pace of ageing (P = .008 and P = .016, respectively). No significant differences were detected between healthy controls and patients with simple disease. CONCLUSIONS: Accelerated epigenetic ageing is observed in adults with moderate and complex congenital heart disease, while individuals with simple disease show ageing patterns comparable to healthy peers. These findings provide biological evidence of premature ageing in congenital heart disease and suggest a lifelong systemic vulnerability. Integrating biological ageing metrics into follow-up strategies may enable earlier detection of age-related complications and support interventions to preserve long-term healthspan.",
-          "bullets": [
-            "Compared to healthy controls, patients with moderate and complex congenital heart disease exhibit significant age acceleration with PhenoAge (+3.0 years, P = .019; +5.5 years, P < .001) and GrimAge2 (+2.1 years, P = .",
-            "No significant differences were detected between healthy controls and patients with simple disease.",
-            "Accelerated epigenetic ageing is observed in adults with moderate and complex congenital heart disease, while individuals with simple disease show ageing patterns comparable to healthy peers."
-          ],
-          "authors": "Tournoy T, Daelman B, Demulier L, et al.",
-          "journal": "European heart journal",
-          "year": "2026",
-          "month": "Jun",
-          "doi": "10.1093/eurheartj/ehag455",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42272162/",
-          "ris": "TY  - JOUR\nAU  - Tournoy T\nAU  - Daelman B\nAU  - Demulier L\nTI  - Accelerated epigenetic ageing in congenital heart disease: the AccelerAGE study.\nJO  - European heart journal\nPY  - 2026\nDO  - 10.1093/eurheartj/ehag455\nAB  - BACKGROUND AND AIMS: Adults with congenital heart disease tend to develop both cardiac and noncardiac age-related comorbidities earlier in life than the general population, suggesting accelerated biological ageing. Epigenetic clocks estimate biological age based on DNA methylation profiles. This stu\nUR  - https://pubmed.ncbi.nlm.nih.gov/42272162/\nER  - ",
-          "section": "topic_watch",
-          "topic": "CHD_Methylation",
-          "type": "Epigenetics",
-          "score": 7
-        },
         {
           "pmid": "41855523",
           "title": "Global analyses of genomic and epigenomic influences on gene expression reveal Serpina3n as a major regulator of cardiac gene expression in response to catecholamine challenge during heart failure.",
@@ -150,28 +106,6 @@
           "topic": "DCM_Omics",
           "type": "GWAS",
           "score": 2
-        },
-        {
-          "pmid": "42277826",
-          "title": "Multi-omics analysis of genetic drivers linking aortic stenosis and left ventricular diastolic dysfunction in heart failure.",
-          "abstract": "BACKGROUND: Aortic stenosis (AS) and left ventricular diastolic dysfunction (LVDD) often coexist in heart failure (HF), but the mechanisms linking them remain unclear. While AS increases afterload and promotes myocardial stiffening, emerging AI-based evidence suggests LVDD can precede the development of AS or progress simultaneously, indicating shared upstream mechanobiological and inflammatory drivers. This study explores the genetic contributors connecting AS and LVDD to identify early molecul\u2026",
-          "abstract_full": "BACKGROUND: Aortic stenosis (AS) and left ventricular diastolic dysfunction (LVDD) often coexist in heart failure (HF), but the mechanisms linking them remain unclear. While AS increases afterload and promotes myocardial stiffening, emerging AI-based evidence suggests LVDD can precede the development of AS or progress simultaneously, indicating shared upstream mechanobiological and inflammatory drivers. This study explores the genetic contributors connecting AS and LVDD to identify early molecular markers and convergent pathways in HF. METHOD: We analyzed Whole Genome Sequence (WGS) and RNA-seq data of the HF patients, generated using their Peripheral Blood Mononuclear Cells (PBMCs) samples. Overall bioinformatics analysis was divided into two modules, 1) gene variant and annotation analysis, and 2) gene expression and enrichment analysis. We utilized our peer review published and open source WGS and RNA-seq pipelines to process Next-Generation Sequence (NGS) data. Furthermore, we performed bioinformatics and statistical analysis to identify genetic variations, expressions, regulation, enrichments, and disease annotations. RESULTS: We identified genetic markers uniquely associated with AS, LVDD, and shared between them. Furthermore, we report genes with significant expression, and functional variations, and discuss their relationship with other cardiovascular diseases (e.g. Vascular and Cardiac Stiffness, Aortic Dissection, Left Atrial Enlargement, Left Ventricular Hypertrophy, Outflow Tract Obstructive Defects, Non-Compaction Coronary Artery Disease, Arrhythmia, Congestive Heart Failure, and Hypertrophic, Dilated, and Ischemic Cardiomyopathy) and non-cardiovascular diseases (non-CVDs) (e.g. Type 1 Diabetes, Diabetic Nephropathy, Skeletal Anomalies, Rheumatoid Arthritis, Atypical Femoral Fractures, Chronic Kidney Disease, Dehydrated Hereditary Stomatocytosis, Schizophrenia, Varicose Veins, High-Altitude Pulmonary Edema, Periodontitis, and Respiratory Disorder) including multiple cancer types (e.g. Breast, Lung, Colorectal, Pancreatic, Hypopharyngeal, Acute Lymphoblastic, and Oral Squamous Cell Carcinomas) and rare genetic disorders (e.g. Hypophosphatasia, Multiple Sclerosis, Campomelic Dysplasia, Lymphatic Malformation). We validated our results through state of science literature, gene-disease annotation databases, and electronic health records. CONCLUSIONS: AS and LVDD share both clinical and genomic associations, with overlapping genetic drivers that are enriched in pathways related to inflammation, extracellular matrix remodeling, and vascular stress responses. This work supports the potential of blood-based multi-omics profiling to uncover early, systemic molecular signals of cardiac dysfunction and lays the groundwork for future tissue-specific studies to guide precision diagnosis, risk stratification, and targeted therapeutics in HF.",
-          "bullets": [
-            "We identified genetic markers uniquely associated with AS, LVDD, and shared between them.",
-            "Furthermore, we report genes with significant expression, and functional variations, and discuss their relationship with other cardiovascular diseases (e.g.",
-            "Vascular and Cardiac Stiffness, Aortic Dissection, Left Atrial Enlargement, Left Ventricular Hypertrophy, Outflow Tract Obstructive Defects, Non-Compaction Coronary Artery Disease, Arrhythmia, Congestive Heart Failure,\u2026"
-          ],
-          "authors": "Ahmed Z, Govindareddy P, Mathew J, et al.",
-          "journal": "BioData mining",
-          "year": "2026",
-          "month": "Jun",
-          "doi": "10.1186/s13040-026-00564-y",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42277826/",
-          "ris": "TY  - JOUR\nAU  - Ahmed Z\nAU  - Govindareddy P\nAU  - Mathew J\nTI  - Multi-omics analysis of genetic drivers linking aortic stenosis and left ventricular diastolic dysfunction in heart failure.\nJO  - BioData mining\nPY  - 2026\nDO  - 10.1186/s13040-026-00564-y\nAB  - BACKGROUND: Aortic stenosis (AS) and left ventricular diastolic dysfunction (LVDD) often coexist in heart failure (HF), but the mechanisms linking them remain unclear. While AS increases afterload and promotes myocardial stiffening, emerging AI-based evidence suggests LVDD can precede the developmen\nUR  - https://pubmed.ncbi.nlm.nih.gov/42277826/\nER  - ",
-          "section": "topic_watch",
-          "topic": "DCM_Omics",
-          "type": "Review",
-          "score": 1
         },
         {
           "pmid": "42205458",
@@ -196,54 +130,10 @@
           "score": 0
         }
       ],
-      "total": 4
+      "total": 2
     }
   },
   "selected_papers": [
-    {
-      "pmid": "42272162",
-      "title": "Accelerated epigenetic ageing in congenital heart disease: the AccelerAGE study.",
-      "abstract": "BACKGROUND AND AIMS: Adults with congenital heart disease tend to develop both cardiac and noncardiac age-related comorbidities earlier in life than the general population, suggesting accelerated biological ageing. Epigenetic clocks estimate biological age based on DNA methylation profiles. This study investigated whether adults with congenital heart disease display accelerated epigenetic ageing and whether the degree of age acceleration relates to disease complexity. METHODS: A total of 120 pat\u2026",
-      "abstract_full": "BACKGROUND AND AIMS: Adults with congenital heart disease tend to develop both cardiac and noncardiac age-related comorbidities earlier in life than the general population, suggesting accelerated biological ageing. Epigenetic clocks estimate biological age based on DNA methylation profiles. This study investigated whether adults with congenital heart disease display accelerated epigenetic ageing and whether the degree of age acceleration relates to disease complexity. METHODS: A total of 120 patients with congenital heart disease (age 29-50 years, 58 females) and 120 age- and sex-matched healthy controls were included. Patients were divided into simple, moderate, and complex disease complexity groups (n = 40 per group). Epigenetic age was estimated using the Horvath, Hannum, Zhang, GrimAge2, and PhenoAge clocks, whereas the pace of ageing was assessed using DunedinPACE. RESULTS: Compared to healthy controls, patients with moderate and complex congenital heart disease exhibit significant age acceleration with PhenoAge (+3.0 years, P = .019; +5.5 years, P < .001) and GrimAge2 (+2.1 years, P = .045; +2.3 years, P = .022) and a higher pace of ageing (P = .008 and P = .016, respectively). No significant differences were detected between healthy controls and patients with simple disease. CONCLUSIONS: Accelerated epigenetic ageing is observed in adults with moderate and complex congenital heart disease, while individuals with simple disease show ageing patterns comparable to healthy peers. These findings provide biological evidence of premature ageing in congenital heart disease and suggest a lifelong systemic vulnerability. Integrating biological ageing metrics into follow-up strategies may enable earlier detection of age-related complications and support interventions to preserve long-term healthspan.",
-      "bullets": [
-        "Compared to healthy controls, patients with moderate and complex congenital heart disease exhibit significant age acceleration with PhenoAge (+3.0 years, P = .019; +5.5 years, P < .001) and GrimAge2 (+2.1 years, P = .",
-        "No significant differences were detected between healthy controls and patients with simple disease.",
-        "Accelerated epigenetic ageing is observed in adults with moderate and complex congenital heart disease, while individuals with simple disease show ageing patterns comparable to healthy peers."
-      ],
-      "authors": "Tournoy T, Daelman B, Demulier L, et al.",
-      "journal": "European heart journal",
-      "year": "2026",
-      "month": "Jun",
-      "doi": "10.1093/eurheartj/ehag455",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42272162/",
-      "ris": "TY  - JOUR\nAU  - Tournoy T\nAU  - Daelman B\nAU  - Demulier L\nTI  - Accelerated epigenetic ageing in congenital heart disease: the AccelerAGE study.\nJO  - European heart journal\nPY  - 2026\nDO  - 10.1093/eurheartj/ehag455\nAB  - BACKGROUND AND AIMS: Adults with congenital heart disease tend to develop both cardiac and noncardiac age-related comorbidities earlier in life than the general population, suggesting accelerated biological ageing. Epigenetic clocks estimate biological age based on DNA methylation profiles. This stu\nUR  - https://pubmed.ncbi.nlm.nih.gov/42272162/\nER  - ",
-      "section": "topic_watch",
-      "topic": "CHD_Methylation",
-      "type": "Epigenetics",
-      "score": 7
-    },
-    {
-      "pmid": "42260102",
-      "title": "Effects of SGLT2 inhibition on incident heart failure in carriers of cardiomyopathy-associated genetic variants.",
-      "abstract": "Although the beneficial effects of sodium-glucose cotransporter 2 (SGLT2) inhibition in heart failure (HF) have been well established, it is unknown whether SGLT2 inhibition confers benefit in carriers of rare variants in cardiomyopathy-associated genes. Here we evaluated whole-exome sequencing data from the randomized DECLARE-TIMI 58 trial, in which adults with type 2 diabetes and increased cardiovascular risk were randomized to dapagliflozin or placebo treatment. Pathogenic or likely pathogeni\u2026",
-      "abstract_full": "Although the beneficial effects of sodium-glucose cotransporter 2 (SGLT2) inhibition in heart failure (HF) have been well established, it is unknown whether SGLT2 inhibition confers benefit in carriers of rare variants in cardiomyopathy-associated genes. Here we evaluated whole-exome sequencing data from the randomized DECLARE-TIMI 58 trial, in which adults with type 2 diabetes and increased cardiovascular risk were randomized to dapagliflozin or placebo treatment. Pathogenic or likely pathogenic variants (P/LP) in high-confidence cardiomyopathy genes were identified, and treatment effects on hospitalization for HF (HHF) were compared between carriers of such variants and noncarriers. Among 12,685 patients for whom sequence data were obtained, 121 carried a cardiomyopathy variant (76 dilated cardiomyopathy, 25 hypertrophic cardiomyopathy and 25 arrhythmogenic cardiomyopathy). Over a median follow-up of 4.2\u2009years, dapagliflozin lowered the risk of HHF more strongly in carriers (hazard ratio 0.18, 95% confidence interval 0.04-0.86) than in noncarriers (hazard ratio 0.70, 95% confidence interval 0.57-0.86; P interaction 0.03). Absolute risk reduction was 13.0% in carriers and 1.0% in noncarriers (P interaction 0.03). Most carriers (82%) had no prior HF, and in carriers without prior HF, treatment with dapagliflozin reduced the absolute risk of HHF by 12.8%, compared with a reduction of 0.6% in noncarriers (P interaction 0.01). The findings from this cohort of older and high-risk patients raise the possibility that SGLT2 inhibitor treatment should be started early to prevent HF in individuals who carry P/LP cardiomyopathy variants. These results need to be confirmed in a prospective, dedicated trial of preventive HF treatments in carriers of P/LP cardiomyopathy-associated variants.",
-      "bullets": [
-        "Although the beneficial effects of sodium-glucose cotransporter 2 (SGLT2) inhibition in heart failure (HF) have been well established, it is unknown whether SGLT2 inhibition confers benefit in carriers of rare variants\u2026",
-        "Pathogenic or likely pathogenic variants (P/LP) in high-confidence cardiomyopathy genes were identified, and treatment effects on hospitalization for HF (HHF) were compared between carriers of such variants and\u2026",
-        "These results need to be confirmed in a prospective, dedicated trial of preventive HF treatments in carriers of P/LP cardiomyopathy-associated variants."
-      ],
-      "authors": "Marston N, Kany S, Melloni G, et al.",
-      "journal": "Nature medicine",
-      "year": "2026",
-      "month": "Jun",
-      "doi": "10.1161/CIRCULATIONAHA.119.040130",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42260102/",
-      "ris": "TY  - JOUR\nAU  - Marston N\nAU  - Kany S\nAU  - Melloni G\nTI  - Effects of SGLT2 inhibition on incident heart failure in carriers of cardiomyopathy-associated genetic variants.\nJO  - Nature medicine\nPY  - 2026\nDO  - 10.1161/CIRCULATIONAHA.119.040130\nAB  - Although the beneficial effects of sodium-glucose cotransporter 2 (SGLT2) inhibition in heart failure (HF) have been well established, it is unknown whether SGLT2 inhibition confers benefit in carriers of rare variants in cardiomyopathy-associated genes. Here we evaluated whole-exome sequencing data\nUR  - https://pubmed.ncbi.nlm.nih.gov/42260102/\nER  - ",
-      "section": "disease_genetics",
-      "topic": "DCM_Genetics",
-      "type": "Research article",
-      "score": 5
-    },
     {
       "pmid": "41813603",
       "title": "Optimizing Diagnostic Accuracy of Clinical Red Flags in RASopathies.",
@@ -311,48 +201,26 @@
       "score": 1
     },
     {
-      "pmid": "42277826",
-      "title": "Multi-omics analysis of genetic drivers linking aortic stenosis and left ventricular diastolic dysfunction in heart failure.",
-      "abstract": "BACKGROUND: Aortic stenosis (AS) and left ventricular diastolic dysfunction (LVDD) often coexist in heart failure (HF), but the mechanisms linking them remain unclear. While AS increases afterload and promotes myocardial stiffening, emerging AI-based evidence suggests LVDD can precede the development of AS or progress simultaneously, indicating shared upstream mechanobiological and inflammatory drivers. This study explores the genetic contributors connecting AS and LVDD to identify early molecul\u2026",
-      "abstract_full": "BACKGROUND: Aortic stenosis (AS) and left ventricular diastolic dysfunction (LVDD) often coexist in heart failure (HF), but the mechanisms linking them remain unclear. While AS increases afterload and promotes myocardial stiffening, emerging AI-based evidence suggests LVDD can precede the development of AS or progress simultaneously, indicating shared upstream mechanobiological and inflammatory drivers. This study explores the genetic contributors connecting AS and LVDD to identify early molecular markers and convergent pathways in HF. METHOD: We analyzed Whole Genome Sequence (WGS) and RNA-seq data of the HF patients, generated using their Peripheral Blood Mononuclear Cells (PBMCs) samples. Overall bioinformatics analysis was divided into two modules, 1) gene variant and annotation analysis, and 2) gene expression and enrichment analysis. We utilized our peer review published and open source WGS and RNA-seq pipelines to process Next-Generation Sequence (NGS) data. Furthermore, we performed bioinformatics and statistical analysis to identify genetic variations, expressions, regulation, enrichments, and disease annotations. RESULTS: We identified genetic markers uniquely associated with AS, LVDD, and shared between them. Furthermore, we report genes with significant expression, and functional variations, and discuss their relationship with other cardiovascular diseases (e.g. Vascular and Cardiac Stiffness, Aortic Dissection, Left Atrial Enlargement, Left Ventricular Hypertrophy, Outflow Tract Obstructive Defects, Non-Compaction Coronary Artery Disease, Arrhythmia, Congestive Heart Failure, and Hypertrophic, Dilated, and Ischemic Cardiomyopathy) and non-cardiovascular diseases (non-CVDs) (e.g. Type 1 Diabetes, Diabetic Nephropathy, Skeletal Anomalies, Rheumatoid Arthritis, Atypical Femoral Fractures, Chronic Kidney Disease, Dehydrated Hereditary Stomatocytosis, Schizophrenia, Varicose Veins, High-Altitude Pulmonary Edema, Periodontitis, and Respiratory Disorder) including multiple cancer types (e.g. Breast, Lung, Colorectal, Pancreatic, Hypopharyngeal, Acute Lymphoblastic, and Oral Squamous Cell Carcinomas) and rare genetic disorders (e.g. Hypophosphatasia, Multiple Sclerosis, Campomelic Dysplasia, Lymphatic Malformation). We validated our results through state of science literature, gene-disease annotation databases, and electronic health records. CONCLUSIONS: AS and LVDD share both clinical and genomic associations, with overlapping genetic drivers that are enriched in pathways related to inflammation, extracellular matrix remodeling, and vascular stress responses. This work supports the potential of blood-based multi-omics profiling to uncover early, systemic molecular signals of cardiac dysfunction and lays the groundwork for future tissue-specific studies to guide precision diagnosis, risk stratification, and targeted therapeutics in HF.",
+      "pmid": "42261952",
+      "title": "Genetic Investigation of Corrected QT Interval Sensitivity to Oral Bepridil Hydrochloride Hydrate in Patients With Atrial Fibrillation.",
+      "abstract": "BACKGROUND: Bepridil is an antiarrhythmic drug used to treat paroxysmal atrial fibrillation; however, its use is limited by corrected QT interval (QTc) prolongation and the risk of ventricular arrhythmias. This study aimed to identify genetic variants associated with bepridil-associated QTc prolongation after catheter ablation for paroxysmal atrial fibrillation. METHODS: A total of 523 patients who initiated bepridil therapy after catheter ablation at Hiroshima University between November 2013 a\u2026",
+      "abstract_full": "BACKGROUND: Bepridil is an antiarrhythmic drug used to treat paroxysmal atrial fibrillation; however, its use is limited by corrected QT interval (QTc) prolongation and the risk of ventricular arrhythmias. This study aimed to identify genetic variants associated with bepridil-associated QTc prolongation after catheter ablation for paroxysmal atrial fibrillation. METHODS: A total of 523 patients who initiated bepridil therapy after catheter ablation at Hiroshima University between November 2013 and March 2023 were enrolled. Of these, 445 patients were included in a genome-wide association study, and 78 were used as an independent replication cohort. QTc was measured 1 month after treatment initiation, with QTc prolongation defined as \u2265450\u2009ms in men and \u2265460\u2009ms in women. Logistic regression analyses were conducted using additive, dominant, and recessive genetic models. Variants showing suggestive associations in the genome-wide association study (P<1.00\u00d710-6) were evaluated in the replication cohort, followed by random-effects meta-analyses, with genome-wide significance defined as P<5.00\u00d710-8. Linear regression analyses were conducted for QTc prolongation. RESULTS: After quality control, 443 patients were analyzed in the genome-wide association study. Of these, 122 (28%) exhibited QTc prolongation. Under the recessive model, rs12622919, an intronic variant in the FSHR (follicle-stimulating hormone receptor) gene, showed a suggestive association. In the random-effects meta-analysis combining the discovery and replication cohorts, rs12622919 reached genome-wide significance. Exploratory sex-stratified analyses suggested a potential association in women (P=0.026), although no statistically significant genotype-by-sex interaction was observed. Inclusion of rs12622919 improved discrimination for QTc prolongation (area under the curve, 0.77 [95% CI, 0.70-0.84]; Welch's t test, P<0.001), with the improvement remaining significant by DeLong's test (area under the curve, 0.78 [95% CI, 0.74-0.84]; P=0.0078). CONCLUSION: The FSHR variant rs12622919 is associated with bepridil-associated QTc prolongation and may serve as a genetic biomarker for individual risk assessment. Because the findings are based on meta-analysis, independent validation is required.",
       "bullets": [
-        "We identified genetic markers uniquely associated with AS, LVDD, and shared between them.",
-        "Furthermore, we report genes with significant expression, and functional variations, and discuss their relationship with other cardiovascular diseases (e.g.",
-        "Vascular and Cardiac Stiffness, Aortic Dissection, Left Atrial Enlargement, Left Ventricular Hypertrophy, Outflow Tract Obstructive Defects, Non-Compaction Coronary Artery Disease, Arrhythmia, Congestive Heart Failure,\u2026"
+        "After quality control, 443 patients were analyzed in the genome-wide association study.",
+        "Of these, 122 (28%) exhibited QTc prolongation.",
+        "Under the recessive model, rs12622919, an intronic variant in the FSHR (follicle-stimulating hormone receptor) gene, showed a suggestive association."
       ],
-      "authors": "Ahmed Z, Govindareddy P, Mathew J, et al.",
-      "journal": "BioData mining",
+      "authors": "Ishibashi N, Furutani M, Nakashima M, et al.",
+      "journal": "Journal of the American Heart Association",
       "year": "2026",
       "month": "Jun",
-      "doi": "10.1186/s13040-026-00564-y",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42277826/",
-      "ris": "TY  - JOUR\nAU  - Ahmed Z\nAU  - Govindareddy P\nAU  - Mathew J\nTI  - Multi-omics analysis of genetic drivers linking aortic stenosis and left ventricular diastolic dysfunction in heart failure.\nJO  - BioData mining\nPY  - 2026\nDO  - 10.1186/s13040-026-00564-y\nAB  - BACKGROUND: Aortic stenosis (AS) and left ventricular diastolic dysfunction (LVDD) often coexist in heart failure (HF), but the mechanisms linking them remain unclear. While AS increases afterload and promotes myocardial stiffening, emerging AI-based evidence suggests LVDD can precede the developmen\nUR  - https://pubmed.ncbi.nlm.nih.gov/42277826/\nER  - ",
-      "section": "topic_watch",
-      "topic": "DCM_Omics",
+      "doi": "10.1161/JAHA.125.047046",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42261952/",
+      "ris": "TY  - JOUR\nAU  - Ishibashi N\nAU  - Furutani M\nAU  - Nakashima M\nTI  - Genetic Investigation of Corrected QT Interval Sensitivity to Oral Bepridil Hydrochloride Hydrate in Patients With Atrial Fibrillation.\nJO  - Journal of the American Heart Association\nPY  - 2026\nDO  - 10.1161/JAHA.125.047046\nAB  - BACKGROUND: Bepridil is an antiarrhythmic drug used to treat paroxysmal atrial fibrillation; however, its use is limited by corrected QT interval (QTc) prolongation and the risk of ventricular arrhythmias. This study aimed to identify genetic variants associated with bepridil-associated QTc prolonga\nUR  - https://pubmed.ncbi.nlm.nih.gov/42261952/\nER  - ",
+      "section": "disease_genetics",
+      "topic": "CHD_Genetics",
       "type": "Review",
       "score": 1
-    },
-    {
-      "pmid": "42102332",
-      "title": "Pearls & Oy-sters: Stroke Recurrence After PFO Closure Uncovers Cerebrotendinous Xanthomatosis.",
-      "abstract": "Cerebrotendinous xanthomatosis (CTX) is a rare autosomal recessive metabolic disorder that can cause premature atherosclerosis and ischemic stroke in young adults. We report a 23-year-old man who had recurrent strokes even after patent foramen ovale (PFO) closure. Initial evaluation for his first cryptogenic stroke revealed a PFO with a high Risk of Paradoxical Embolism (RoPE) score, leading to closure. Three years later, he experienced a recurrent stroke with right M1 segment occlusion. High-re\u2026",
-      "abstract_full": "Cerebrotendinous xanthomatosis (CTX) is a rare autosomal recessive metabolic disorder that can cause premature atherosclerosis and ischemic stroke in young adults. We report a 23-year-old man who had recurrent strokes even after patent foramen ovale (PFO) closure. Initial evaluation for his first cryptogenic stroke revealed a PFO with a high Risk of Paradoxical Embolism (RoPE) score, leading to closure. Three years later, he experienced a recurrent stroke with right M1 segment occlusion. High-resolution magnetic resonance vessel wall imaging demonstrated intracranial atherosclerotic plaque, prompting reconsideration of the etiology. Further history taking revealed chronic diarrhea since infancy and juvenile cataracts. Examination showed borderline intellectual functioning, bilateral ankle clonus, and Achilles tendon xanthomas. Brain MRI exhibited characteristic bilateral dentate nucleus hyperintensities. Genetic testing confirmed CYP27A1 pathogenic variants, consistent with a diagnosis of CTX. Through highlighting CTX underlying premature atherosclerosis and stroke in a young man, this case emphasizes the importance of rare metabolic disorders in stroke, even when a common cause such as PFO is identified. Early recognition enables targeted therapy and improves outcomes.",
-      "bullets": [
-        "Further history taking revealed chronic diarrhea since infancy and juvenile cataracts.",
-        "Genetic testing confirmed CYP27A1 pathogenic variants, consistent with a diagnosis of CTX.",
-        "Through highlighting CTX underlying premature atherosclerosis and stroke in a young man, this case emphasizes the importance of rare metabolic disorders in stroke, even when a common cause such as PFO is identified."
-      ],
-      "authors": "Liu L, Wang Y, Chen X, et al.",
-      "journal": "Neurology",
-      "year": "2026",
-      "month": "Jun",
-      "doi": "10.1212/WNL.0000000000218061",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42102332/",
-      "ris": "TY  - JOUR\nAU  - Liu L\nAU  - Wang Y\nAU  - Chen X\nTI  - Pearls & Oy-sters: Stroke Recurrence After PFO Closure Uncovers Cerebrotendinous Xanthomatosis.\nJO  - Neurology\nPY  - 2026\nDO  - 10.1212/WNL.0000000000218061\nAB  - Cerebrotendinous xanthomatosis (CTX) is a rare autosomal recessive metabolic disorder that can cause premature atherosclerosis and ischemic stroke in young adults. We report a 23-year-old man who had recurrent strokes even after patent foramen ovale (PFO) closure. Initial evaluation for his first cr\nUR  - https://pubmed.ncbi.nlm.nih.gov/42102332/\nER  - ",
-      "section": "prs_disease",
-      "topic": "CHD_DCM_SCAD_PRS",
-      "type": "Research article",
-      "score": 0
     },
     {
       "pmid": "42205458",
@@ -377,14 +245,14 @@
       "score": 0
     }
   ],
-  "summary_text": "8 papers selected from this week's literature:\n  \u2022 4 \u00d7 epigenetics / methylation\n  \u2022 2 \u00d7 disease genetics (CHD / DCM / SCAD)\n  \u2022 2 \u00d7 PRS in CHD/DCM/SCAD\n\nHighlight: Accelerated epigenetic ageing in congenital heart disease: the AccelerAGE study. (European heart journal, 2026)",
+  "summary_text": "5 papers selected from this week's literature:\n  \u2022 2 \u00d7 disease genetics (CHD / DCM / SCAD)\n  \u2022 2 \u00d7 epigenetics / methylation\n  \u2022 1 \u00d7 PRS in CHD/DCM/SCAD\n\nHighlight: Optimizing Diagnostic Accuracy of Clinical Red Flags in RASopathies. (American journal of medical genetics. Part A, 2026)",
   "summary": {
-    "total_selected": 8,
-    "total_candidates": 8,
+    "total_selected": 5,
+    "total_candidates": 5,
     "section_counts": {
-      "topic_watch": 4,
       "disease_genetics": 2,
-      "prs_disease": 2
+      "topic_watch": 2,
+      "prs_disease": 1
     }
   }
 }
