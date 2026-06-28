@@ -1,10 +1,54 @@
 {
-  "generated": "2026-06-21T22:06:20.726667",
+  "generated": "2026-06-28T21:50:41.616556",
   "lookback_days": 7,
-  "cutoff_date": "2026/06/14",
+  "cutoff_date": "2026/06/21",
   "sections": {
     "disease_genetics": {
       "papers": [
+        {
+          "pmid": "41858107",
+          "title": "Genetic counselling implementation in dilated cardiomyopathy.",
+          "abstract": "Genetic testing has become an integral part of the diagnostic workup of patients with dilated cardiomyopathy (DCM). While the initial goal of genetic testing was to identify family members at risk, recent advances have now extended their relevance to clinical decision-making. Our knowledge of the genetic architecture of DCM has expanded significantly, promoting a shift from the monogenic dogma towards a broader polygenic spectrum. However, current genetic testing strategies still primarily rely \u2026",
+          "abstract_full": "Genetic testing has become an integral part of the diagnostic workup of patients with dilated cardiomyopathy (DCM). While the initial goal of genetic testing was to identify family members at risk, recent advances have now extended their relevance to clinical decision-making. Our knowledge of the genetic architecture of DCM has expanded significantly, promoting a shift from the monogenic dogma towards a broader polygenic spectrum. However, current genetic testing strategies still primarily rely on the model of monogenic inheritance with an incomplete penetrance. Large studies have shown a yield varying from 8% to 36% of genetic testing in patients with DCM, depending on aetiology or family history. Genetic testing is generally warranted for every patient with DCM where genetic results could have an impact on risk stratification, the prognosis or the treatment of the patient, or its family members with an opportunity for reassurance or early disease detection. There are various strategies for genetic testing including broad multigene panels, or more targeted panels limited to specific disease-associated genes. Identified variants are classified by genetic laboratories, where pathogenic or likely pathogenic variants often have actionable clinical implications. It is crucial to interpret these variants in the context of the individual patient considering the phenotype and other contributing factors. When the genetic results are consistent with the patients' broader phenotype, potential clinical implications may include decision for device therapy, recommendations for family screening, and reproductive options. A comprehensive approach to integrate genetic testing in the clinical care of patients with DCM is proposed.",
+          "bullets": [
+            "Identified variants are classified by genetic laboratories, where pathogenic or likely pathogenic variants often have actionable clinical implications.",
+            "When the genetic results are consistent with the patients' broader phenotype, potential clinical implications may include decision for device therapy, recommendations for family screening, and reproductive options.",
+            "A comprehensive approach to integrate genetic testing in the clinical care of patients with DCM is proposed."
+          ],
+          "authors": "Verdonschot J, van Spaendonck-Zwarts K, Hellebrekers D, et al.",
+          "journal": "European heart journal",
+          "year": "2026",
+          "month": "Jun",
+          "doi": "10.1093/eurheartj/ehaf502",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41858107/",
+          "ris": "TY  - JOUR\nAU  - Verdonschot J\nAU  - van Spaendonck-Zwarts K\nAU  - Hellebrekers D\nTI  - Genetic counselling implementation in dilated cardiomyopathy.\nJO  - European heart journal\nPY  - 2026\nDO  - 10.1093/eurheartj/ehaf502\nAB  - Genetic testing has become an integral part of the diagnostic workup of patients with dilated cardiomyopathy (DCM). While the initial goal of genetic testing was to identify family members at risk, recent advances have now extended their relevance to clinical decision-making. Our knowledge of the ge\nUR  - https://pubmed.ncbi.nlm.nih.gov/41858107/\nER  - ",
+          "section": "disease_genetics",
+          "topic": "DCM_Genetics",
+          "type": "Research article",
+          "score": 7
+        },
+        {
+          "pmid": "42345332",
+          "title": "Expansion of the Phenotypic and Genotypic Spectrum of MED13L-Associated Neurodevelopmental Disorder: A Case Report and Literature Review.",
+          "abstract": "BACKGROUND: Pathogenic variants in MED13L, including copy-number changes and sequence variants, cause MED13L syndrome. This rare neurodevelopmental disorder is characterized by global developmental delay, intellectual disability (ID), distinctive facial dysmorphism, hypotonia, and variable congenital heart defects. The phenotypic heterogeneity of MED13L syndrome underscores the significance of genotype-phenotype correlation analysis for improving clinical diagnosis and precise phenotypic charact\u2026",
+          "abstract_full": "BACKGROUND: Pathogenic variants in MED13L, including copy-number changes and sequence variants, cause MED13L syndrome. This rare neurodevelopmental disorder is characterized by global developmental delay, intellectual disability (ID), distinctive facial dysmorphism, hypotonia, and variable congenital heart defects. The phenotypic heterogeneity of MED13L syndrome underscores the significance of genotype-phenotype correlation analysis for improving clinical diagnosis and precise phenotypic characterization of affected individuals. METHODS: Venous blood samples anticoagulated with EDTA were collected from the patient and family members, followed by whole-exome sequencing analysis and subsequent validation using fluorescent quantitative PCR. Concurrently, a systematic search of the PubMed database was performed to summarize previously reported cases harboring MED13L copy number Variations (CNVs). RESULTS: Whole-exome sequencing revealed a de novo heterozygous single-copy duplication of a ~19-kb region within the MED13L gene (exons 8-16) in the proband. The patient presents phenotypic features consistent with MED13L syndrome and represents the first reported case exhibiting cleft lip. A literature review indicates that vision impairment, developmental delay, and congenital heart disease are widely observed phenotypes, while other less frequent manifestations vary between patients with duplications and deletions. CONCLUSION: This study, integrating a case report and a literature review, provides important reference evidence for the clinical genetic counseling of MED13L syndrome.",
+          "bullets": [
+            "Whole-exome sequencing revealed a de novo heterozygous single-copy duplication of a ~19-kb region within the MED13L gene (exons 8-16) in the proband.",
+            "The patient presents phenotypic features consistent with MED13L syndrome and represents the first reported case exhibiting cleft lip.",
+            "A literature review indicates that vision impairment, developmental delay, and congenital heart disease are widely observed phenotypes, while other less frequent manifestations vary between patients with duplications\u2026"
+          ],
+          "authors": "Wang Z, Chen X, Cui Z, et al.",
+          "journal": "Molecular genetics & genomic medicine",
+          "year": "2026",
+          "month": "Jul",
+          "doi": "10.1002/mgg3.70254",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42345332/",
+          "ris": "TY  - JOUR\nAU  - Wang Z\nAU  - Chen X\nAU  - Cui Z\nTI  - Expansion of the Phenotypic and Genotypic Spectrum of MED13L-Associated Neurodevelopmental Disorder: A Case Report and Literature Review.\nJO  - Molecular genetics & genomic medicine\nPY  - 2026\nDO  - 10.1002/mgg3.70254\nAB  - BACKGROUND: Pathogenic variants in MED13L, including copy-number changes and sequence variants, cause MED13L syndrome. This rare neurodevelopmental disorder is characterized by global developmental delay, intellectual disability (ID), distinctive facial dysmorphism, hypotonia, and variable congenita\nUR  - https://pubmed.ncbi.nlm.nih.gov/42345332/\nER  - ",
+          "section": "disease_genetics",
+          "topic": "CHD_Genetics",
+          "type": "Review",
+          "score": 2
+        },
         {
           "pmid": "41813603",
           "title": "Optimizing Diagnostic Accuracy of Clinical Red Flags in RASopathies.",
@@ -28,32 +72,98 @@
           "score": 2
         },
         {
-          "pmid": "42261952",
-          "title": "Genetic Investigation of Corrected QT Interval Sensitivity to Oral Bepridil Hydrochloride Hydrate in Patients With Atrial Fibrillation.",
-          "abstract": "BACKGROUND: Bepridil is an antiarrhythmic drug used to treat paroxysmal atrial fibrillation; however, its use is limited by corrected QT interval (QTc) prolongation and the risk of ventricular arrhythmias. This study aimed to identify genetic variants associated with bepridil-associated QTc prolongation after catheter ablation for paroxysmal atrial fibrillation. METHODS: A total of 523 patients who initiated bepridil therapy after catheter ablation at Hiroshima University between November 2013 a\u2026",
-          "abstract_full": "BACKGROUND: Bepridil is an antiarrhythmic drug used to treat paroxysmal atrial fibrillation; however, its use is limited by corrected QT interval (QTc) prolongation and the risk of ventricular arrhythmias. This study aimed to identify genetic variants associated with bepridil-associated QTc prolongation after catheter ablation for paroxysmal atrial fibrillation. METHODS: A total of 523 patients who initiated bepridil therapy after catheter ablation at Hiroshima University between November 2013 and March 2023 were enrolled. Of these, 445 patients were included in a genome-wide association study, and 78 were used as an independent replication cohort. QTc was measured 1 month after treatment initiation, with QTc prolongation defined as \u2265450\u2009ms in men and \u2265460\u2009ms in women. Logistic regression analyses were conducted using additive, dominant, and recessive genetic models. Variants showing suggestive associations in the genome-wide association study (P<1.00\u00d710-6) were evaluated in the replication cohort, followed by random-effects meta-analyses, with genome-wide significance defined as P<5.00\u00d710-8. Linear regression analyses were conducted for QTc prolongation. RESULTS: After quality control, 443 patients were analyzed in the genome-wide association study. Of these, 122 (28%) exhibited QTc prolongation. Under the recessive model, rs12622919, an intronic variant in the FSHR (follicle-stimulating hormone receptor) gene, showed a suggestive association. In the random-effects meta-analysis combining the discovery and replication cohorts, rs12622919 reached genome-wide significance. Exploratory sex-stratified analyses suggested a potential association in women (P=0.026), although no statistically significant genotype-by-sex interaction was observed. Inclusion of rs12622919 improved discrimination for QTc prolongation (area under the curve, 0.77 [95% CI, 0.70-0.84]; Welch's t test, P<0.001), with the improvement remaining significant by DeLong's test (area under the curve, 0.78 [95% CI, 0.74-0.84]; P=0.0078). CONCLUSION: The FSHR variant rs12622919 is associated with bepridil-associated QTc prolongation and may serve as a genetic biomarker for individual risk assessment. Because the findings are based on meta-analysis, independent validation is required.",
+          "pmid": "42360425",
+          "title": "Incidence, Genetic Characteristics, and Outcomes of Paediatric Cardiomyopathy in a National Cohort (2003-2025).",
+          "abstract": "Paediatric cardiomyopathy is a rare, serious inherited cardiac condition and a leading indication for paediatric heart transplantation. Population-based data describing paediatric cardiomyopathy within a single healthcare system complements multinational registry studies by providing important local epidemiological context.\u00a0To describe the incidence, temporal trends, phenotypic characteristics, genetic findings, and clinical outcomes of paediatric cardiomyopathy in Northern Ireland over a 22-yea\u2026",
+          "abstract_full": "Paediatric cardiomyopathy is a rare, serious inherited cardiac condition and a leading indication for paediatric heart transplantation. Population-based data describing paediatric cardiomyopathy within a single healthcare system complements multinational registry studies by providing important local epidemiological context.\u00a0To describe the incidence, temporal trends, phenotypic characteristics, genetic findings, and clinical outcomes of paediatric cardiomyopathy in Northern Ireland over a 22-year period.\u00a0A national retrospective cohort study of children diagnosed with cardiomyopathy in Northern Ireland between 2003 and 2025 was conducted. Population-based incidence rates were calculated for children aged 0-15 years affected by Dilated and Hypertrophic Cardiomyopathy using annual population denominators (2003-2023), with exact Poisson 95% confidence intervals. Temporal trends were assessed using quasi-Poisson and negative binomial regression models with population offsets. Clinical characteristics, genetics and outcomes (implantable cardioverter-defibrillator implantation, transplantation, and death) were analysed descriptively. Kaplan-Meier survival analysis and Cox regression were performed using a composite outcome of death or transplantation.\u00a0Eighty-four children were diagnosed during the study period, corresponding to a mean annual incidence of 0.9 per 100,000 children. Annual incidence varied from 0.26 to 3.11 per 100,000. There was no statistically significant temporal increase in incidence (p\u2009=\u20090.058), although higher incidence values were observed in more recent years. HCM (n\u2009=\u200938, 45%) and DCM (n\u2009=\u200924, 29%) were the most common subtypes. Overall, 61% of patients had a pathogenic or likely pathogenic genetic variant or phenocopy condition identified. There were seven deaths, six cardiac transplants, and eighteen implantable cardioverter-defibrillator insertions. Children diagnosed before one year of age accounted for 65% of deaths or transplants. Compared with HCM, DCM was associated with a significantly increased risk of death or transplantation (hazard ratio 6.25, 95% CI 1.30-33.33, p\u2009=\u20090.0094).\u00a0Paediatric cardiomyopathy remains rare in Northern Ireland with a similar incidence to previous international reports but is associated with substantial morbidity and mortality, particularly among infants and those with DCM. Although higher annual estimates were observed in more recent years, no statistically significant temporal increase was identified. Ongoing population-based surveillance and integration with international registries are essential to improve understanding and outcomes in these rare conditions.",
           "bullets": [
-            "After quality control, 443 patients were analyzed in the genome-wide association study.",
-            "Of these, 122 (28%) exhibited QTc prolongation.",
-            "Under the recessive model, rs12622919, an intronic variant in the FSHR (follicle-stimulating hormone receptor) gene, showed a suggestive association."
+            "Compared with HCM, DCM was associated with a significantly increased risk of death or transplantation (hazard ratio 6.25, 95% CI 1.30-33.33, p\u2009=\u20090.0094).",
+            "Paediatric cardiomyopathy remains rare in Northern Ireland with a similar incidence to previous international reports but is associated with substantial morbidity and mortality, particularly among infants and those with\u2026",
+            "Although higher annual estimates were observed in more recent years, no statistically significant temporal increase was identified."
           ],
-          "authors": "Ishibashi N, Furutani M, Nakashima M, et al.",
-          "journal": "Journal of the American Heart Association",
+          "authors": "Kendall S, Scott S, McClung P, et al.",
+          "journal": "Pediatric cardiology",
           "year": "2026",
           "month": "Jun",
-          "doi": "10.1161/JAHA.125.047046",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42261952/",
-          "ris": "TY  - JOUR\nAU  - Ishibashi N\nAU  - Furutani M\nAU  - Nakashima M\nTI  - Genetic Investigation of Corrected QT Interval Sensitivity to Oral Bepridil Hydrochloride Hydrate in Patients With Atrial Fibrillation.\nJO  - Journal of the American Heart Association\nPY  - 2026\nDO  - 10.1161/JAHA.125.047046\nAB  - BACKGROUND: Bepridil is an antiarrhythmic drug used to treat paroxysmal atrial fibrillation; however, its use is limited by corrected QT interval (QTc) prolongation and the risk of ventricular arrhythmias. This study aimed to identify genetic variants associated with bepridil-associated QTc prolonga\nUR  - https://pubmed.ncbi.nlm.nih.gov/42261952/\nER  - ",
+          "doi": "10.1093/eurjpc/zwab181",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42360425/",
+          "ris": "TY  - JOUR\nAU  - Kendall S\nAU  - Scott S\nAU  - McClung P\nTI  - Incidence, Genetic Characteristics, and Outcomes of Paediatric Cardiomyopathy in a National Cohort (2003-2025).\nJO  - Pediatric cardiology\nPY  - 2026\nDO  - 10.1093/eurjpc/zwab181\nAB  - Paediatric cardiomyopathy is a rare, serious inherited cardiac condition and a leading indication for paediatric heart transplantation. Population-based data describing paediatric cardiomyopathy within a single healthcare system complements multinational registry studies by providing important local\nUR  - https://pubmed.ncbi.nlm.nih.gov/42360425/\nER  - ",
           "section": "disease_genetics",
-          "topic": "CHD_Genetics",
-          "type": "Review",
+          "topic": "DCM_Genetics",
+          "type": "Research article",
+          "score": 2
+        },
+        {
+          "pmid": "41793471",
+          "title": "SCN5A c.4720G> A: a rare genetic variant associated with familial sick sinus syndrome and sudden cardiac death.",
+          "abstract": "BACKGROUND: The cardiac voltage-gated sodium channel Nav1.5, encoded by SCN5A, plays a critical role in cardiac electrophysiology. SCN5A variants represent a series of frequently identified genetic findings in molecular autopsies, with established associations across multiple arrhythmia syndromes including long QT syndrome type 3, Brugada syndrome, progressive cardiac conduction disease, sinus node dysfunction, atrial fibrillation, atrial standstill, and dilated cardiomyopathy. Recently, an incr\u2026",
+          "abstract_full": "BACKGROUND: The cardiac voltage-gated sodium channel Nav1.5, encoded by SCN5A, plays a critical role in cardiac electrophysiology. SCN5A variants represent a series of frequently identified genetic findings in molecular autopsies, with established associations across multiple arrhythmia syndromes including long QT syndrome type 3, Brugada syndrome, progressive cardiac conduction disease, sinus node dysfunction, atrial fibrillation, atrial standstill, and dilated cardiomyopathy. Recently, an increasing number of familial cases with early-onset sick sinus syndrome (SSS) were reported, bringing more challenges in forensic genetic diagnosis. METHODS: We investigated a four-generation family with SSS, characterized by a history of pacemaker implantation and sudden cardiac death (SCD). Genetic analyses were performed to identify the underlying pathogenic variant, and electrophysiological properties were evaluated using patch-clamp recordings. RESULTS: We identified a rare SCN5A missense variant, NM_198056.3(SCN5A,rs199473620): c.4720G>A (p.E1574K), in this family. Subsequent analyses demonstrated that the mutated site is highly conserved in the voltage-gated sodium channel family, as well as across species. Electrophysiological experiments showed that this mutation significantly attenuated the function of Nav1.5 channel, potentially revealing the pathogenic mechanism of SCN5A c.4720G>A variant. CONCLUSIONS: Our study identified a rare SCN5A missense variant and classified it as likely pathogenic following the ACMG framework, thereby expanding the phenotypic spectrum of SCN5A-associated SSS and providing a potential forensic diagnostic molecular target for unexplained deaths with negative morphological alterations.",
+          "bullets": [
+            "We identified a rare SCN5A missense variant, NM_198056.3(SCN5A,rs199473620): c.4720G>A (p.E1574K), in this family.",
+            "Subsequent analyses demonstrated that the mutated site is highly conserved in the voltage-gated sodium channel family, as well as across species.",
+            "Electrophysiological experiments showed that this mutation significantly attenuated the function of Nav1.5 channel, potentially revealing the pathogenic mechanism of SCN5A c.4720G>A variant."
+          ],
+          "authors": "Sheng M, Zheng H, Zhang L, et al.",
+          "journal": "International journal of legal medicine",
+          "year": "2026",
+          "month": "Jul",
+          "doi": "10.21542/gcsp.2023.8",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41793471/",
+          "ris": "TY  - JOUR\nAU  - Sheng M\nAU  - Zheng H\nAU  - Zhang L\nTI  - SCN5A c.4720G> A: a rare genetic variant associated with familial sick sinus syndrome and sudden cardiac death.\nJO  - International journal of legal medicine\nPY  - 2026\nDO  - 10.21542/gcsp.2023.8\nAB  - BACKGROUND: The cardiac voltage-gated sodium channel Nav1.5, encoded by SCN5A, plays a critical role in cardiac electrophysiology. SCN5A variants represent a series of frequently identified genetic findings in molecular autopsies, with established associations across multiple arrhythmia syndromes in\nUR  - https://pubmed.ncbi.nlm.nih.gov/41793471/\nER  - ",
+          "section": "disease_genetics",
+          "topic": "DCM_Genetics",
+          "type": "Research article",
           "score": 1
         }
       ],
-      "total": 2
+      "total": 5
     },
     "prs_disease": {
       "papers": [
+        {
+          "pmid": "41790128",
+          "title": "Laminopathies: natural history and risk prediction of heart failure.",
+          "abstract": "BACKGROUND AND AIMS: Patients with LMNA gene variants are at high risk for dilated cardiomyopathy and heart failure (HF), but no prediction model for severe HF events exists. This study aimed to describe the incidence of severe HF events and develop a prediction model in a large cohort of patients with adult-onset laminopathies. METHODS: From a population of 660 patients enrolled in the French LMNA nationwide registry, 470 adults were included in the derivation cohort. An independent internation\u2026",
+          "abstract_full": "BACKGROUND AND AIMS: Patients with LMNA gene variants are at high risk for dilated cardiomyopathy and heart failure (HF), but no prediction model for severe HF events exists. This study aimed to describe the incidence of severe HF events and develop a prediction model in a large cohort of patients with adult-onset laminopathies. METHODS: From a population of 660 patients enrolled in the French LMNA nationwide registry, 470 adults were included in the derivation cohort. An independent international validation cohort included 245 additional patients. Baseline characteristics at genetic testing were assessed and the cumulative incidence of the primary endpoint HF-major adverse cardiac events (HF-MACE) was calculated, defined as HF hospitalization, HF-related death, mechanical circulatory support, or heart transplantation. Predictors of HF-MACE were studied after excluding patients with left ventricular ejection fraction (LVEF) <30% at baseline using a Fine-Gray competing risk model, adjusted hazard ratio (aHR) with 95% confidence interval (CI), and Harrell's concordance (C-) index. A secondary composite endpoint, without hospitalization, was also studied. RESULTS: Among 470 patients of the derivation cohort, HF-MACE occurred in 65 over a median follow-up of 7.1 years (interquartile range: 3.4-12.1). Four independent predictors of HF-MACE were identified: male sex (aHR 1.86; 95% CI 1.060-3.290), LVEF <50% (aHR 2.18; 95% CI 1.080-4.400), missense variants in head and rod domains (aHR 2.91; 95% CI 1.110-7.630), and complete left bundle branch block (aHR 2.99; 95% CI 1.400-6.400). The C-index of the model was 0.750 (95% CI 0.720-0.780) in the derivation cohort and 0.758 (95% CI 0.720-0.800) in the validation cohort. The 5-year cumulative incidence of HF-MACE was 1.5% (95% CI 0.6-3.6), 5.0% (95% CI 1.8-8.2), and 22.0% (95% CI 15.6-28.4) among patients with 0, 1, and \u22652 risk factors, respectively. In patients with LVEF <30% at baseline, the 1-year incidence of HF-MACE was 50%, and those patients were excluded from the risk score. CONCLUSIONS: The first prediction model for severe HF events in adult laminopathies was developed, which may facilitate early and optimal preventive management. CLINICAL TRIAL REGISTRATION: URL: https://www.clinicaltrials.gov Unique identifier: NCT03058185.",
+          "bullets": [
+            "Among 470 patients of the derivation cohort, HF-MACE occurred in 65 over a median follow-up of 7.1 years (interquartile range: 3.4-12.1).",
+            "Four independent predictors of HF-MACE were identified: male sex (aHR 1.86; 95% CI 1.060-3.290), LVEF <50% (aHR 2.18; 95% CI 1.080-4.400), missense variants in head and rod domains (aHR 2.91; 95% CI 1.110-7.",
+            "The C-index of the model was 0.750 (95% CI 0.720-0.780) in the derivation cohort and 0.758 (95% CI 0.720-0.800) in the validation cohort."
+          ],
+          "authors": "Charron P, Proukhnitzky J, Ben Yaou R, et al.",
+          "journal": "European heart journal",
+          "year": "2026",
+          "month": "Jun",
+          "doi": "10.1093/eurheartj/ehag104",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41790128/",
+          "ris": "TY  - JOUR\nAU  - Charron P\nAU  - Proukhnitzky J\nAU  - Ben Yaou R\nTI  - Laminopathies: natural history and risk prediction of heart failure.\nJO  - European heart journal\nPY  - 2026\nDO  - 10.1093/eurheartj/ehag104\nAB  - BACKGROUND AND AIMS: Patients with LMNA gene variants are at high risk for dilated cardiomyopathy and heart failure (HF), but no prediction model for severe HF events exists. This study aimed to describe the incidence of severe HF events and develop a prediction model in a large cohort of patients w\nUR  - https://pubmed.ncbi.nlm.nih.gov/41790128/\nER  - ",
+          "section": "prs_disease",
+          "topic": "CHD_DCM_SCAD_PRS",
+          "type": "Research article",
+          "score": 5
+        },
+        {
+          "pmid": "42336625",
+          "title": "Cardiac and extracardiac outcomes after heart transplantation in laminopathies.",
+          "abstract": "BACKGROUND: LMNA gene-related dilated cardiomyopathy (DCM), or laminopathy, leads to severe heart failure, neuromuscular involvement and ventricular arrhythmia and has been described as the most frequent DCM genetic cause requiring heart transplantation (HTx). However, no study has specifically evaluated outcomes of HTx in patients with laminopathy. We aimed to describe and evaluate the clinical outcomes of this specific population. METHODS: Data from all consecutive patients with laminopathy wh\u2026",
+          "abstract_full": "BACKGROUND: LMNA gene-related dilated cardiomyopathy (DCM), or laminopathy, leads to severe heart failure, neuromuscular involvement and ventricular arrhythmia and has been described as the most frequent DCM genetic cause requiring heart transplantation (HTx). However, no study has specifically evaluated outcomes of HTx in patients with laminopathy. We aimed to describe and evaluate the clinical outcomes of this specific population. METHODS: Data from all consecutive patients with laminopathy who underwent HTx (LMNA-HTx) between 2003 and 2024 in three French centres were retrospectively extracted. Patients in the LMNA-HTx group were compared with patients with matched non-ischaemic DCM who underwent HTx (DCM-HTx) using propensity score matching. The primary endpoints were 1\u2009year and long-term post-HTx survival. Secondary objectives were to describe mortality risk factors and assess the progression and impact of neuromuscular symptoms after HTx. RESULTS: 40 patients with laminopathy underwent HTx (median age 45.4 years, 57.5% males). HTx followed electrical storm (ES) in 33% of cases. Post-HTx survival at 3 months, 1 year and 5 years was 90%, 74% and 70%, respectively, comparable to 160 matched patients in the DCM-HTx group (Kaplan-Meier survival analysis: HR: 1.01; 95%\u2009CI 0.52 to 1.95; p=0.98). The occurrence of ES in the days preceding HTx emerged as the only factor associated with mortality (Kaplan-Meier survival analysis: HR: 8.46; 95%\u2009CI 1.66 to 43.17; p=0.002). Neuromuscular and extracardiac involvement was not associated with mortality and did not worsen after HTx. CONCLUSIONS: In this first systematic evaluation of HTx in patients with laminopathy, we show that post-transplant survival was comparable between LMNA-HTx and matched DCM-HTx patients and was not associated with neuromuscular involvement. In contrast, ES occurred in one-third of patients prior to HTx and was associated with mortality. These findings support considering HTx early in the disease course, particularly in the setting of arrhythmogenic instability, while mild neuromuscular involvement should not be viewed as a contraindication.",
+          "bullets": [
+            "40 patients with laminopathy underwent HTx (median age 45.4 years, 57.5% males).",
+            "HTx followed electrical storm (ES) in 33% of cases.",
+            "Post-HTx survival at 3 months, 1 year and 5 years was 90%, 74% and 70%, respectively, comparable to 160 matched patients in the DCM-HTx group (Kaplan-Meier survival analysis: HR: 1.01; 95%\u2009CI 0.52 to 1.95; p=0.98)."
+          ],
+          "authors": "Giordano G, Coutance G, Wahbi K, et al.",
+          "journal": "Heart (British Cardiac Society)",
+          "year": "2026",
+          "month": "Jun",
+          "doi": "10.1136/heartjnl-2026-327844",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42336625/",
+          "ris": "TY  - JOUR\nAU  - Giordano G\nAU  - Coutance G\nAU  - Wahbi K\nTI  - Cardiac and extracardiac outcomes after heart transplantation in laminopathies.\nJO  - Heart (British Cardiac Society)\nPY  - 2026\nDO  - 10.1136/heartjnl-2026-327844\nAB  - BACKGROUND: LMNA gene-related dilated cardiomyopathy (DCM), or laminopathy, leads to severe heart failure, neuromuscular involvement and ventricular arrhythmia and has been described as the most frequent DCM genetic cause requiring heart transplantation (HTx). However, no study has specifically eval\nUR  - https://pubmed.ncbi.nlm.nih.gov/42336625/\nER  - ",
+          "section": "prs_disease",
+          "topic": "CHD_DCM_SCAD_PRS",
+          "type": "Research article",
+          "score": 2
+        },
         {
           "pmid": "41610206",
           "title": "Influence of Technical Performance Score on Outcomes After Tetralogy of Fallot Repair in a Low-Middle-Income Country.",
@@ -77,7 +187,7 @@
           "score": 1
         }
       ],
-      "total": 1
+      "total": 3
     },
     "prs_methods": {
       "papers": [],
@@ -135,26 +245,48 @@
   },
   "selected_papers": [
     {
-      "pmid": "41813603",
-      "title": "Optimizing Diagnostic Accuracy of Clinical Red Flags in RASopathies.",
-      "abstract": "RASopathies are a group of genetic disorders caused by pathogenic variants in the RAS-mitogen-activated protein kinase (RAS-MAPK) signaling pathway, often presenting with congenital heart defects, craniofacial dysmorphisms, and developmental delays. To assess the diagnostic yield of genetic testing in patients with suspected RASopathies and to identify predictive clinical \"red flags\" using machine learning (ML). This retrospective study included patients evaluated at our institution between 2020\u2026",
-      "abstract_full": "RASopathies are a group of genetic disorders caused by pathogenic variants in the RAS-mitogen-activated protein kinase (RAS-MAPK) signaling pathway, often presenting with congenital heart defects, craniofacial dysmorphisms, and developmental delays. To assess the diagnostic yield of genetic testing in patients with suspected RASopathies and to identify predictive clinical \"red flags\" using machine learning (ML). This retrospective study included patients evaluated at our institution between 2020 and 2023. All patients underwent cardiovascular evaluation, and a subset of individuals with suspected RASopathies underwent genetic assessment including exome sequencing. Thirteen clinical \"red flags\" were analyzed as predictors of a molecular diagnosis within the subgroup of patients with suspected RASopathies. Diagnostic performance was assessed via sensitivity, specificity, and area under the curve (AUC). A random forest classifier identified the most predictive clinical features. Among 669 patients, 34 were clinically suspected of RASopathy, with a confirmed diagnosis in 24 cases (71%). Noonan syndrome was most frequent (18/24), and PTPN11 was the most commonly mutated gene (n\u2009=\u200913). Pulmonary valve stenosis (PVS) and facial dysmorphisms were the strongest individual predictors of a positive genetic test result. A threshold of \u2265\u20092 red flags balanced sensitivity (92%) and accuracy (73.5%). ML analysis identified PVS and facial dysmorphisms as the top predictors. A model including only these features achieved an AUC of 0.86 in the derivation cohort. PVS and facial dysmorphisms are key diagnostic indicators for RASopathies and should prompt early genetic testing. While the ML model showed high performance in this derivation cohort, external validation is needed to confirm its generalizability.",
+      "pmid": "41858107",
+      "title": "Genetic counselling implementation in dilated cardiomyopathy.",
+      "abstract": "Genetic testing has become an integral part of the diagnostic workup of patients with dilated cardiomyopathy (DCM). While the initial goal of genetic testing was to identify family members at risk, recent advances have now extended their relevance to clinical decision-making. Our knowledge of the genetic architecture of DCM has expanded significantly, promoting a shift from the monogenic dogma towards a broader polygenic spectrum. However, current genetic testing strategies still primarily rely \u2026",
+      "abstract_full": "Genetic testing has become an integral part of the diagnostic workup of patients with dilated cardiomyopathy (DCM). While the initial goal of genetic testing was to identify family members at risk, recent advances have now extended their relevance to clinical decision-making. Our knowledge of the genetic architecture of DCM has expanded significantly, promoting a shift from the monogenic dogma towards a broader polygenic spectrum. However, current genetic testing strategies still primarily rely on the model of monogenic inheritance with an incomplete penetrance. Large studies have shown a yield varying from 8% to 36% of genetic testing in patients with DCM, depending on aetiology or family history. Genetic testing is generally warranted for every patient with DCM where genetic results could have an impact on risk stratification, the prognosis or the treatment of the patient, or its family members with an opportunity for reassurance or early disease detection. There are various strategies for genetic testing including broad multigene panels, or more targeted panels limited to specific disease-associated genes. Identified variants are classified by genetic laboratories, where pathogenic or likely pathogenic variants often have actionable clinical implications. It is crucial to interpret these variants in the context of the individual patient considering the phenotype and other contributing factors. When the genetic results are consistent with the patients' broader phenotype, potential clinical implications may include decision for device therapy, recommendations for family screening, and reproductive options. A comprehensive approach to integrate genetic testing in the clinical care of patients with DCM is proposed.",
       "bullets": [
-        "Among 669 patients, 34 were clinically suspected of RASopathy, with a confirmed diagnosis in 24 cases (71%).",
-        "ML analysis identified PVS and facial dysmorphisms as the top predictors.",
-        "While the ML model showed high performance in this derivation cohort, external validation is needed to confirm its generalizability."
+        "Identified variants are classified by genetic laboratories, where pathogenic or likely pathogenic variants often have actionable clinical implications.",
+        "When the genetic results are consistent with the patients' broader phenotype, potential clinical implications may include decision for device therapy, recommendations for family screening, and reproductive options.",
+        "A comprehensive approach to integrate genetic testing in the clinical care of patients with DCM is proposed."
       ],
-      "authors": "Bobbio E, Caiazza M, Monda E, et al.",
-      "journal": "American journal of medical genetics. Part A",
+      "authors": "Verdonschot J, van Spaendonck-Zwarts K, Hellebrekers D, et al.",
+      "journal": "European heart journal",
       "year": "2026",
-      "month": "Jul",
-      "doi": "10.1002/ajmg.a.70119",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41813603/",
-      "ris": "TY  - JOUR\nAU  - Bobbio E\nAU  - Caiazza M\nAU  - Monda E\nTI  - Optimizing Diagnostic Accuracy of Clinical Red Flags in RASopathies.\nJO  - American journal of medical genetics. Part A\nPY  - 2026\nDO  - 10.1002/ajmg.a.70119\nAB  - RASopathies are a group of genetic disorders caused by pathogenic variants in the RAS-mitogen-activated protein kinase (RAS-MAPK) signaling pathway, often presenting with congenital heart defects, craniofacial dysmorphisms, and developmental delays. To assess the diagnostic yield of genetic testing \nUR  - https://pubmed.ncbi.nlm.nih.gov/41813603/\nER  - ",
+      "month": "Jun",
+      "doi": "10.1093/eurheartj/ehaf502",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41858107/",
+      "ris": "TY  - JOUR\nAU  - Verdonschot J\nAU  - van Spaendonck-Zwarts K\nAU  - Hellebrekers D\nTI  - Genetic counselling implementation in dilated cardiomyopathy.\nJO  - European heart journal\nPY  - 2026\nDO  - 10.1093/eurheartj/ehaf502\nAB  - Genetic testing has become an integral part of the diagnostic workup of patients with dilated cardiomyopathy (DCM). While the initial goal of genetic testing was to identify family members at risk, recent advances have now extended their relevance to clinical decision-making. Our knowledge of the ge\nUR  - https://pubmed.ncbi.nlm.nih.gov/41858107/\nER  - ",
       "section": "disease_genetics",
-      "topic": "CHD_Genetics",
+      "topic": "DCM_Genetics",
       "type": "Research article",
-      "score": 2
+      "score": 7
+    },
+    {
+      "pmid": "41790128",
+      "title": "Laminopathies: natural history and risk prediction of heart failure.",
+      "abstract": "BACKGROUND AND AIMS: Patients with LMNA gene variants are at high risk for dilated cardiomyopathy and heart failure (HF), but no prediction model for severe HF events exists. This study aimed to describe the incidence of severe HF events and develop a prediction model in a large cohort of patients with adult-onset laminopathies. METHODS: From a population of 660 patients enrolled in the French LMNA nationwide registry, 470 adults were included in the derivation cohort. An independent internation\u2026",
+      "abstract_full": "BACKGROUND AND AIMS: Patients with LMNA gene variants are at high risk for dilated cardiomyopathy and heart failure (HF), but no prediction model for severe HF events exists. This study aimed to describe the incidence of severe HF events and develop a prediction model in a large cohort of patients with adult-onset laminopathies. METHODS: From a population of 660 patients enrolled in the French LMNA nationwide registry, 470 adults were included in the derivation cohort. An independent international validation cohort included 245 additional patients. Baseline characteristics at genetic testing were assessed and the cumulative incidence of the primary endpoint HF-major adverse cardiac events (HF-MACE) was calculated, defined as HF hospitalization, HF-related death, mechanical circulatory support, or heart transplantation. Predictors of HF-MACE were studied after excluding patients with left ventricular ejection fraction (LVEF) <30% at baseline using a Fine-Gray competing risk model, adjusted hazard ratio (aHR) with 95% confidence interval (CI), and Harrell's concordance (C-) index. A secondary composite endpoint, without hospitalization, was also studied. RESULTS: Among 470 patients of the derivation cohort, HF-MACE occurred in 65 over a median follow-up of 7.1 years (interquartile range: 3.4-12.1). Four independent predictors of HF-MACE were identified: male sex (aHR 1.86; 95% CI 1.060-3.290), LVEF <50% (aHR 2.18; 95% CI 1.080-4.400), missense variants in head and rod domains (aHR 2.91; 95% CI 1.110-7.630), and complete left bundle branch block (aHR 2.99; 95% CI 1.400-6.400). The C-index of the model was 0.750 (95% CI 0.720-0.780) in the derivation cohort and 0.758 (95% CI 0.720-0.800) in the validation cohort. The 5-year cumulative incidence of HF-MACE was 1.5% (95% CI 0.6-3.6), 5.0% (95% CI 1.8-8.2), and 22.0% (95% CI 15.6-28.4) among patients with 0, 1, and \u22652 risk factors, respectively. In patients with LVEF <30% at baseline, the 1-year incidence of HF-MACE was 50%, and those patients were excluded from the risk score. CONCLUSIONS: The first prediction model for severe HF events in adult laminopathies was developed, which may facilitate early and optimal preventive management. CLINICAL TRIAL REGISTRATION: URL: https://www.clinicaltrials.gov Unique identifier: NCT03058185.",
+      "bullets": [
+        "Among 470 patients of the derivation cohort, HF-MACE occurred in 65 over a median follow-up of 7.1 years (interquartile range: 3.4-12.1).",
+        "Four independent predictors of HF-MACE were identified: male sex (aHR 1.86; 95% CI 1.060-3.290), LVEF <50% (aHR 2.18; 95% CI 1.080-4.400), missense variants in head and rod domains (aHR 2.91; 95% CI 1.110-7.",
+        "The C-index of the model was 0.750 (95% CI 0.720-0.780) in the derivation cohort and 0.758 (95% CI 0.720-0.800) in the validation cohort."
+      ],
+      "authors": "Charron P, Proukhnitzky J, Ben Yaou R, et al.",
+      "journal": "European heart journal",
+      "year": "2026",
+      "month": "Jun",
+      "doi": "10.1093/eurheartj/ehag104",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41790128/",
+      "ris": "TY  - JOUR\nAU  - Charron P\nAU  - Proukhnitzky J\nAU  - Ben Yaou R\nTI  - Laminopathies: natural history and risk prediction of heart failure.\nJO  - European heart journal\nPY  - 2026\nDO  - 10.1093/eurheartj/ehag104\nAB  - BACKGROUND AND AIMS: Patients with LMNA gene variants are at high risk for dilated cardiomyopathy and heart failure (HF), but no prediction model for severe HF events exists. This study aimed to describe the incidence of severe HF events and develop a prediction model in a large cohort of patients w\nUR  - https://pubmed.ncbi.nlm.nih.gov/41790128/\nER  - ",
+      "section": "prs_disease",
+      "topic": "CHD_DCM_SCAD_PRS",
+      "type": "Research article",
+      "score": 5
     },
     {
       "pmid": "41855523",
@@ -179,6 +311,116 @@
       "score": 2
     },
     {
+      "pmid": "42345332",
+      "title": "Expansion of the Phenotypic and Genotypic Spectrum of MED13L-Associated Neurodevelopmental Disorder: A Case Report and Literature Review.",
+      "abstract": "BACKGROUND: Pathogenic variants in MED13L, including copy-number changes and sequence variants, cause MED13L syndrome. This rare neurodevelopmental disorder is characterized by global developmental delay, intellectual disability (ID), distinctive facial dysmorphism, hypotonia, and variable congenital heart defects. The phenotypic heterogeneity of MED13L syndrome underscores the significance of genotype-phenotype correlation analysis for improving clinical diagnosis and precise phenotypic charact\u2026",
+      "abstract_full": "BACKGROUND: Pathogenic variants in MED13L, including copy-number changes and sequence variants, cause MED13L syndrome. This rare neurodevelopmental disorder is characterized by global developmental delay, intellectual disability (ID), distinctive facial dysmorphism, hypotonia, and variable congenital heart defects. The phenotypic heterogeneity of MED13L syndrome underscores the significance of genotype-phenotype correlation analysis for improving clinical diagnosis and precise phenotypic characterization of affected individuals. METHODS: Venous blood samples anticoagulated with EDTA were collected from the patient and family members, followed by whole-exome sequencing analysis and subsequent validation using fluorescent quantitative PCR. Concurrently, a systematic search of the PubMed database was performed to summarize previously reported cases harboring MED13L copy number Variations (CNVs). RESULTS: Whole-exome sequencing revealed a de novo heterozygous single-copy duplication of a ~19-kb region within the MED13L gene (exons 8-16) in the proband. The patient presents phenotypic features consistent with MED13L syndrome and represents the first reported case exhibiting cleft lip. A literature review indicates that vision impairment, developmental delay, and congenital heart disease are widely observed phenotypes, while other less frequent manifestations vary between patients with duplications and deletions. CONCLUSION: This study, integrating a case report and a literature review, provides important reference evidence for the clinical genetic counseling of MED13L syndrome.",
+      "bullets": [
+        "Whole-exome sequencing revealed a de novo heterozygous single-copy duplication of a ~19-kb region within the MED13L gene (exons 8-16) in the proband.",
+        "The patient presents phenotypic features consistent with MED13L syndrome and represents the first reported case exhibiting cleft lip.",
+        "A literature review indicates that vision impairment, developmental delay, and congenital heart disease are widely observed phenotypes, while other less frequent manifestations vary between patients with duplications\u2026"
+      ],
+      "authors": "Wang Z, Chen X, Cui Z, et al.",
+      "journal": "Molecular genetics & genomic medicine",
+      "year": "2026",
+      "month": "Jul",
+      "doi": "10.1002/mgg3.70254",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42345332/",
+      "ris": "TY  - JOUR\nAU  - Wang Z\nAU  - Chen X\nAU  - Cui Z\nTI  - Expansion of the Phenotypic and Genotypic Spectrum of MED13L-Associated Neurodevelopmental Disorder: A Case Report and Literature Review.\nJO  - Molecular genetics & genomic medicine\nPY  - 2026\nDO  - 10.1002/mgg3.70254\nAB  - BACKGROUND: Pathogenic variants in MED13L, including copy-number changes and sequence variants, cause MED13L syndrome. This rare neurodevelopmental disorder is characterized by global developmental delay, intellectual disability (ID), distinctive facial dysmorphism, hypotonia, and variable congenita\nUR  - https://pubmed.ncbi.nlm.nih.gov/42345332/\nER  - ",
+      "section": "disease_genetics",
+      "topic": "CHD_Genetics",
+      "type": "Review",
+      "score": 2
+    },
+    {
+      "pmid": "41813603",
+      "title": "Optimizing Diagnostic Accuracy of Clinical Red Flags in RASopathies.",
+      "abstract": "RASopathies are a group of genetic disorders caused by pathogenic variants in the RAS-mitogen-activated protein kinase (RAS-MAPK) signaling pathway, often presenting with congenital heart defects, craniofacial dysmorphisms, and developmental delays. To assess the diagnostic yield of genetic testing in patients with suspected RASopathies and to identify predictive clinical \"red flags\" using machine learning (ML). This retrospective study included patients evaluated at our institution between 2020\u2026",
+      "abstract_full": "RASopathies are a group of genetic disorders caused by pathogenic variants in the RAS-mitogen-activated protein kinase (RAS-MAPK) signaling pathway, often presenting with congenital heart defects, craniofacial dysmorphisms, and developmental delays. To assess the diagnostic yield of genetic testing in patients with suspected RASopathies and to identify predictive clinical \"red flags\" using machine learning (ML). This retrospective study included patients evaluated at our institution between 2020 and 2023. All patients underwent cardiovascular evaluation, and a subset of individuals with suspected RASopathies underwent genetic assessment including exome sequencing. Thirteen clinical \"red flags\" were analyzed as predictors of a molecular diagnosis within the subgroup of patients with suspected RASopathies. Diagnostic performance was assessed via sensitivity, specificity, and area under the curve (AUC). A random forest classifier identified the most predictive clinical features. Among 669 patients, 34 were clinically suspected of RASopathy, with a confirmed diagnosis in 24 cases (71%). Noonan syndrome was most frequent (18/24), and PTPN11 was the most commonly mutated gene (n\u2009=\u200913). Pulmonary valve stenosis (PVS) and facial dysmorphisms were the strongest individual predictors of a positive genetic test result. A threshold of \u2265\u20092 red flags balanced sensitivity (92%) and accuracy (73.5%). ML analysis identified PVS and facial dysmorphisms as the top predictors. A model including only these features achieved an AUC of 0.86 in the derivation cohort. PVS and facial dysmorphisms are key diagnostic indicators for RASopathies and should prompt early genetic testing. While the ML model showed high performance in this derivation cohort, external validation is needed to confirm its generalizability.",
+      "bullets": [
+        "Among 669 patients, 34 were clinically suspected of RASopathy, with a confirmed diagnosis in 24 cases (71%).",
+        "ML analysis identified PVS and facial dysmorphisms as the top predictors.",
+        "While the ML model showed high performance in this derivation cohort, external validation is needed to confirm its generalizability."
+      ],
+      "authors": "Bobbio E, Caiazza M, Monda E, et al.",
+      "journal": "American journal of medical genetics. Part A",
+      "year": "2026",
+      "month": "Jul",
+      "doi": "10.1002/ajmg.a.70119",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41813603/",
+      "ris": "TY  - JOUR\nAU  - Bobbio E\nAU  - Caiazza M\nAU  - Monda E\nTI  - Optimizing Diagnostic Accuracy of Clinical Red Flags in RASopathies.\nJO  - American journal of medical genetics. Part A\nPY  - 2026\nDO  - 10.1002/ajmg.a.70119\nAB  - RASopathies are a group of genetic disorders caused by pathogenic variants in the RAS-mitogen-activated protein kinase (RAS-MAPK) signaling pathway, often presenting with congenital heart defects, craniofacial dysmorphisms, and developmental delays. To assess the diagnostic yield of genetic testing \nUR  - https://pubmed.ncbi.nlm.nih.gov/41813603/\nER  - ",
+      "section": "disease_genetics",
+      "topic": "CHD_Genetics",
+      "type": "Research article",
+      "score": 2
+    },
+    {
+      "pmid": "42360425",
+      "title": "Incidence, Genetic Characteristics, and Outcomes of Paediatric Cardiomyopathy in a National Cohort (2003-2025).",
+      "abstract": "Paediatric cardiomyopathy is a rare, serious inherited cardiac condition and a leading indication for paediatric heart transplantation. Population-based data describing paediatric cardiomyopathy within a single healthcare system complements multinational registry studies by providing important local epidemiological context.\u00a0To describe the incidence, temporal trends, phenotypic characteristics, genetic findings, and clinical outcomes of paediatric cardiomyopathy in Northern Ireland over a 22-yea\u2026",
+      "abstract_full": "Paediatric cardiomyopathy is a rare, serious inherited cardiac condition and a leading indication for paediatric heart transplantation. Population-based data describing paediatric cardiomyopathy within a single healthcare system complements multinational registry studies by providing important local epidemiological context.\u00a0To describe the incidence, temporal trends, phenotypic characteristics, genetic findings, and clinical outcomes of paediatric cardiomyopathy in Northern Ireland over a 22-year period.\u00a0A national retrospective cohort study of children diagnosed with cardiomyopathy in Northern Ireland between 2003 and 2025 was conducted. Population-based incidence rates were calculated for children aged 0-15 years affected by Dilated and Hypertrophic Cardiomyopathy using annual population denominators (2003-2023), with exact Poisson 95% confidence intervals. Temporal trends were assessed using quasi-Poisson and negative binomial regression models with population offsets. Clinical characteristics, genetics and outcomes (implantable cardioverter-defibrillator implantation, transplantation, and death) were analysed descriptively. Kaplan-Meier survival analysis and Cox regression were performed using a composite outcome of death or transplantation.\u00a0Eighty-four children were diagnosed during the study period, corresponding to a mean annual incidence of 0.9 per 100,000 children. Annual incidence varied from 0.26 to 3.11 per 100,000. There was no statistically significant temporal increase in incidence (p\u2009=\u20090.058), although higher incidence values were observed in more recent years. HCM (n\u2009=\u200938, 45%) and DCM (n\u2009=\u200924, 29%) were the most common subtypes. Overall, 61% of patients had a pathogenic or likely pathogenic genetic variant or phenocopy condition identified. There were seven deaths, six cardiac transplants, and eighteen implantable cardioverter-defibrillator insertions. Children diagnosed before one year of age accounted for 65% of deaths or transplants. Compared with HCM, DCM was associated with a significantly increased risk of death or transplantation (hazard ratio 6.25, 95% CI 1.30-33.33, p\u2009=\u20090.0094).\u00a0Paediatric cardiomyopathy remains rare in Northern Ireland with a similar incidence to previous international reports but is associated with substantial morbidity and mortality, particularly among infants and those with DCM. Although higher annual estimates were observed in more recent years, no statistically significant temporal increase was identified. Ongoing population-based surveillance and integration with international registries are essential to improve understanding and outcomes in these rare conditions.",
+      "bullets": [
+        "Compared with HCM, DCM was associated with a significantly increased risk of death or transplantation (hazard ratio 6.25, 95% CI 1.30-33.33, p\u2009=\u20090.0094).",
+        "Paediatric cardiomyopathy remains rare in Northern Ireland with a similar incidence to previous international reports but is associated with substantial morbidity and mortality, particularly among infants and those with\u2026",
+        "Although higher annual estimates were observed in more recent years, no statistically significant temporal increase was identified."
+      ],
+      "authors": "Kendall S, Scott S, McClung P, et al.",
+      "journal": "Pediatric cardiology",
+      "year": "2026",
+      "month": "Jun",
+      "doi": "10.1093/eurjpc/zwab181",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42360425/",
+      "ris": "TY  - JOUR\nAU  - Kendall S\nAU  - Scott S\nAU  - McClung P\nTI  - Incidence, Genetic Characteristics, and Outcomes of Paediatric Cardiomyopathy in a National Cohort (2003-2025).\nJO  - Pediatric cardiology\nPY  - 2026\nDO  - 10.1093/eurjpc/zwab181\nAB  - Paediatric cardiomyopathy is a rare, serious inherited cardiac condition and a leading indication for paediatric heart transplantation. Population-based data describing paediatric cardiomyopathy within a single healthcare system complements multinational registry studies by providing important local\nUR  - https://pubmed.ncbi.nlm.nih.gov/42360425/\nER  - ",
+      "section": "disease_genetics",
+      "topic": "DCM_Genetics",
+      "type": "Research article",
+      "score": 2
+    },
+    {
+      "pmid": "42336625",
+      "title": "Cardiac and extracardiac outcomes after heart transplantation in laminopathies.",
+      "abstract": "BACKGROUND: LMNA gene-related dilated cardiomyopathy (DCM), or laminopathy, leads to severe heart failure, neuromuscular involvement and ventricular arrhythmia and has been described as the most frequent DCM genetic cause requiring heart transplantation (HTx). However, no study has specifically evaluated outcomes of HTx in patients with laminopathy. We aimed to describe and evaluate the clinical outcomes of this specific population. METHODS: Data from all consecutive patients with laminopathy wh\u2026",
+      "abstract_full": "BACKGROUND: LMNA gene-related dilated cardiomyopathy (DCM), or laminopathy, leads to severe heart failure, neuromuscular involvement and ventricular arrhythmia and has been described as the most frequent DCM genetic cause requiring heart transplantation (HTx). However, no study has specifically evaluated outcomes of HTx in patients with laminopathy. We aimed to describe and evaluate the clinical outcomes of this specific population. METHODS: Data from all consecutive patients with laminopathy who underwent HTx (LMNA-HTx) between 2003 and 2024 in three French centres were retrospectively extracted. Patients in the LMNA-HTx group were compared with patients with matched non-ischaemic DCM who underwent HTx (DCM-HTx) using propensity score matching. The primary endpoints were 1\u2009year and long-term post-HTx survival. Secondary objectives were to describe mortality risk factors and assess the progression and impact of neuromuscular symptoms after HTx. RESULTS: 40 patients with laminopathy underwent HTx (median age 45.4 years, 57.5% males). HTx followed electrical storm (ES) in 33% of cases. Post-HTx survival at 3 months, 1 year and 5 years was 90%, 74% and 70%, respectively, comparable to 160 matched patients in the DCM-HTx group (Kaplan-Meier survival analysis: HR: 1.01; 95%\u2009CI 0.52 to 1.95; p=0.98). The occurrence of ES in the days preceding HTx emerged as the only factor associated with mortality (Kaplan-Meier survival analysis: HR: 8.46; 95%\u2009CI 1.66 to 43.17; p=0.002). Neuromuscular and extracardiac involvement was not associated with mortality and did not worsen after HTx. CONCLUSIONS: In this first systematic evaluation of HTx in patients with laminopathy, we show that post-transplant survival was comparable between LMNA-HTx and matched DCM-HTx patients and was not associated with neuromuscular involvement. In contrast, ES occurred in one-third of patients prior to HTx and was associated with mortality. These findings support considering HTx early in the disease course, particularly in the setting of arrhythmogenic instability, while mild neuromuscular involvement should not be viewed as a contraindication.",
+      "bullets": [
+        "40 patients with laminopathy underwent HTx (median age 45.4 years, 57.5% males).",
+        "HTx followed electrical storm (ES) in 33% of cases.",
+        "Post-HTx survival at 3 months, 1 year and 5 years was 90%, 74% and 70%, respectively, comparable to 160 matched patients in the DCM-HTx group (Kaplan-Meier survival analysis: HR: 1.01; 95%\u2009CI 0.52 to 1.95; p=0.98)."
+      ],
+      "authors": "Giordano G, Coutance G, Wahbi K, et al.",
+      "journal": "Heart (British Cardiac Society)",
+      "year": "2026",
+      "month": "Jun",
+      "doi": "10.1136/heartjnl-2026-327844",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42336625/",
+      "ris": "TY  - JOUR\nAU  - Giordano G\nAU  - Coutance G\nAU  - Wahbi K\nTI  - Cardiac and extracardiac outcomes after heart transplantation in laminopathies.\nJO  - Heart (British Cardiac Society)\nPY  - 2026\nDO  - 10.1136/heartjnl-2026-327844\nAB  - BACKGROUND: LMNA gene-related dilated cardiomyopathy (DCM), or laminopathy, leads to severe heart failure, neuromuscular involvement and ventricular arrhythmia and has been described as the most frequent DCM genetic cause requiring heart transplantation (HTx). However, no study has specifically eval\nUR  - https://pubmed.ncbi.nlm.nih.gov/42336625/\nER  - ",
+      "section": "prs_disease",
+      "topic": "CHD_DCM_SCAD_PRS",
+      "type": "Research article",
+      "score": 2
+    },
+    {
+      "pmid": "41793471",
+      "title": "SCN5A c.4720G> A: a rare genetic variant associated with familial sick sinus syndrome and sudden cardiac death.",
+      "abstract": "BACKGROUND: The cardiac voltage-gated sodium channel Nav1.5, encoded by SCN5A, plays a critical role in cardiac electrophysiology. SCN5A variants represent a series of frequently identified genetic findings in molecular autopsies, with established associations across multiple arrhythmia syndromes including long QT syndrome type 3, Brugada syndrome, progressive cardiac conduction disease, sinus node dysfunction, atrial fibrillation, atrial standstill, and dilated cardiomyopathy. Recently, an incr\u2026",
+      "abstract_full": "BACKGROUND: The cardiac voltage-gated sodium channel Nav1.5, encoded by SCN5A, plays a critical role in cardiac electrophysiology. SCN5A variants represent a series of frequently identified genetic findings in molecular autopsies, with established associations across multiple arrhythmia syndromes including long QT syndrome type 3, Brugada syndrome, progressive cardiac conduction disease, sinus node dysfunction, atrial fibrillation, atrial standstill, and dilated cardiomyopathy. Recently, an increasing number of familial cases with early-onset sick sinus syndrome (SSS) were reported, bringing more challenges in forensic genetic diagnosis. METHODS: We investigated a four-generation family with SSS, characterized by a history of pacemaker implantation and sudden cardiac death (SCD). Genetic analyses were performed to identify the underlying pathogenic variant, and electrophysiological properties were evaluated using patch-clamp recordings. RESULTS: We identified a rare SCN5A missense variant, NM_198056.3(SCN5A,rs199473620): c.4720G>A (p.E1574K), in this family. Subsequent analyses demonstrated that the mutated site is highly conserved in the voltage-gated sodium channel family, as well as across species. Electrophysiological experiments showed that this mutation significantly attenuated the function of Nav1.5 channel, potentially revealing the pathogenic mechanism of SCN5A c.4720G>A variant. CONCLUSIONS: Our study identified a rare SCN5A missense variant and classified it as likely pathogenic following the ACMG framework, thereby expanding the phenotypic spectrum of SCN5A-associated SSS and providing a potential forensic diagnostic molecular target for unexplained deaths with negative morphological alterations.",
+      "bullets": [
+        "We identified a rare SCN5A missense variant, NM_198056.3(SCN5A,rs199473620): c.4720G>A (p.E1574K), in this family.",
+        "Subsequent analyses demonstrated that the mutated site is highly conserved in the voltage-gated sodium channel family, as well as across species.",
+        "Electrophysiological experiments showed that this mutation significantly attenuated the function of Nav1.5 channel, potentially revealing the pathogenic mechanism of SCN5A c.4720G>A variant."
+      ],
+      "authors": "Sheng M, Zheng H, Zhang L, et al.",
+      "journal": "International journal of legal medicine",
+      "year": "2026",
+      "month": "Jul",
+      "doi": "10.21542/gcsp.2023.8",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41793471/",
+      "ris": "TY  - JOUR\nAU  - Sheng M\nAU  - Zheng H\nAU  - Zhang L\nTI  - SCN5A c.4720G> A: a rare genetic variant associated with familial sick sinus syndrome and sudden cardiac death.\nJO  - International journal of legal medicine\nPY  - 2026\nDO  - 10.21542/gcsp.2023.8\nAB  - BACKGROUND: The cardiac voltage-gated sodium channel Nav1.5, encoded by SCN5A, plays a critical role in cardiac electrophysiology. SCN5A variants represent a series of frequently identified genetic findings in molecular autopsies, with established associations across multiple arrhythmia syndromes in\nUR  - https://pubmed.ncbi.nlm.nih.gov/41793471/\nER  - ",
+      "section": "disease_genetics",
+      "topic": "DCM_Genetics",
+      "type": "Research article",
+      "score": 1
+    },
+    {
       "pmid": "41610206",
       "title": "Influence of Technical Performance Score on Outcomes After Tetralogy of Fallot Repair in a Low-Middle-Income Country.",
       "abstract": "ObjectivesTetralogy of Fallot (TOF) repair is associated with low mortality in high-performance centers, but outcomes are worse in low- and middle-income countries (LMICs). Prior studies have not demonstrated a strong link between Technical Performance Score (TPS) and mortality. The aim of this was to evaluate risk factors for mortality and complications after TOF repair in a high-volume LMIC heart center with a focus on surgical performance.MethodsWe retrospectively reviewed children undergoing\u2026",
@@ -197,28 +439,6 @@
       "ris": "TY  - JOUR\nAU  - Miana L\nAU  - Nathan M\nAU  - Manuel V\nTI  - Influence of Technical Performance Score on Outcomes After Tetralogy of Fallot Repair in a Low-Middle-Income Country.\nJO  - World journal for pediatric & congenital heart surgery\nPY  - 2026\nDO  - 10.1177/21501351251386433\nAB  - ObjectivesTetralogy of Fallot (TOF) repair is associated with low mortality in high-performance centers, but outcomes are worse in low- and middle-income countries (LMICs). Prior studies have not demonstrated a strong link between Technical Performance Score (TPS) and mortality. The aim of this was \nUR  - https://pubmed.ncbi.nlm.nih.gov/41610206/\nER  - ",
       "section": "prs_disease",
       "topic": "CHD_DCM_SCAD_PRS",
-      "type": "Review",
-      "score": 1
-    },
-    {
-      "pmid": "42261952",
-      "title": "Genetic Investigation of Corrected QT Interval Sensitivity to Oral Bepridil Hydrochloride Hydrate in Patients With Atrial Fibrillation.",
-      "abstract": "BACKGROUND: Bepridil is an antiarrhythmic drug used to treat paroxysmal atrial fibrillation; however, its use is limited by corrected QT interval (QTc) prolongation and the risk of ventricular arrhythmias. This study aimed to identify genetic variants associated with bepridil-associated QTc prolongation after catheter ablation for paroxysmal atrial fibrillation. METHODS: A total of 523 patients who initiated bepridil therapy after catheter ablation at Hiroshima University between November 2013 a\u2026",
-      "abstract_full": "BACKGROUND: Bepridil is an antiarrhythmic drug used to treat paroxysmal atrial fibrillation; however, its use is limited by corrected QT interval (QTc) prolongation and the risk of ventricular arrhythmias. This study aimed to identify genetic variants associated with bepridil-associated QTc prolongation after catheter ablation for paroxysmal atrial fibrillation. METHODS: A total of 523 patients who initiated bepridil therapy after catheter ablation at Hiroshima University between November 2013 and March 2023 were enrolled. Of these, 445 patients were included in a genome-wide association study, and 78 were used as an independent replication cohort. QTc was measured 1 month after treatment initiation, with QTc prolongation defined as \u2265450\u2009ms in men and \u2265460\u2009ms in women. Logistic regression analyses were conducted using additive, dominant, and recessive genetic models. Variants showing suggestive associations in the genome-wide association study (P<1.00\u00d710-6) were evaluated in the replication cohort, followed by random-effects meta-analyses, with genome-wide significance defined as P<5.00\u00d710-8. Linear regression analyses were conducted for QTc prolongation. RESULTS: After quality control, 443 patients were analyzed in the genome-wide association study. Of these, 122 (28%) exhibited QTc prolongation. Under the recessive model, rs12622919, an intronic variant in the FSHR (follicle-stimulating hormone receptor) gene, showed a suggestive association. In the random-effects meta-analysis combining the discovery and replication cohorts, rs12622919 reached genome-wide significance. Exploratory sex-stratified analyses suggested a potential association in women (P=0.026), although no statistically significant genotype-by-sex interaction was observed. Inclusion of rs12622919 improved discrimination for QTc prolongation (area under the curve, 0.77 [95% CI, 0.70-0.84]; Welch's t test, P<0.001), with the improvement remaining significant by DeLong's test (area under the curve, 0.78 [95% CI, 0.74-0.84]; P=0.0078). CONCLUSION: The FSHR variant rs12622919 is associated with bepridil-associated QTc prolongation and may serve as a genetic biomarker for individual risk assessment. Because the findings are based on meta-analysis, independent validation is required.",
-      "bullets": [
-        "After quality control, 443 patients were analyzed in the genome-wide association study.",
-        "Of these, 122 (28%) exhibited QTc prolongation.",
-        "Under the recessive model, rs12622919, an intronic variant in the FSHR (follicle-stimulating hormone receptor) gene, showed a suggestive association."
-      ],
-      "authors": "Ishibashi N, Furutani M, Nakashima M, et al.",
-      "journal": "Journal of the American Heart Association",
-      "year": "2026",
-      "month": "Jun",
-      "doi": "10.1161/JAHA.125.047046",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42261952/",
-      "ris": "TY  - JOUR\nAU  - Ishibashi N\nAU  - Furutani M\nAU  - Nakashima M\nTI  - Genetic Investigation of Corrected QT Interval Sensitivity to Oral Bepridil Hydrochloride Hydrate in Patients With Atrial Fibrillation.\nJO  - Journal of the American Heart Association\nPY  - 2026\nDO  - 10.1161/JAHA.125.047046\nAB  - BACKGROUND: Bepridil is an antiarrhythmic drug used to treat paroxysmal atrial fibrillation; however, its use is limited by corrected QT interval (QTc) prolongation and the risk of ventricular arrhythmias. This study aimed to identify genetic variants associated with bepridil-associated QTc prolonga\nUR  - https://pubmed.ncbi.nlm.nih.gov/42261952/\nER  - ",
-      "section": "disease_genetics",
-      "topic": "CHD_Genetics",
       "type": "Review",
       "score": 1
     },
@@ -245,14 +465,14 @@
       "score": 0
     }
   ],
-  "summary_text": "5 papers selected from this week's literature:\n  \u2022 2 \u00d7 disease genetics (CHD / DCM / SCAD)\n  \u2022 2 \u00d7 epigenetics / methylation\n  \u2022 1 \u00d7 PRS in CHD/DCM/SCAD\n\nHighlight: Optimizing Diagnostic Accuracy of Clinical Red Flags in RASopathies. (American journal of medical genetics. Part A, 2026)",
+  "summary_text": "10 papers selected from this week's literature:\n  \u2022 5 \u00d7 disease genetics (CHD / DCM / SCAD)\n  \u2022 3 \u00d7 PRS in CHD/DCM/SCAD\n  \u2022 2 \u00d7 epigenetics / methylation\n\nHighlight: Genetic counselling implementation in dilated cardiomyopathy. (European heart journal, 2026)",
   "summary": {
-    "total_selected": 5,
-    "total_candidates": 5,
+    "total_selected": 10,
+    "total_candidates": 10,
     "section_counts": {
-      "disease_genetics": 2,
-      "topic_watch": 2,
-      "prs_disease": 1
+      "disease_genetics": 5,
+      "prs_disease": 3,
+      "topic_watch": 2
     }
   }
 }
