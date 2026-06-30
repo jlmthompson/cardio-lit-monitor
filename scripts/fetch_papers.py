@@ -45,6 +45,8 @@ incl_pre  = SETTINGS.get("include_preprints", True)
 use_llm   = SETTINGS.get("use_llm", True)
 llm_model = SETTINGS.get("llm_model", "claude-haiku-4-5-20251001")
 PROFILE   = cfg.get("interest_profile", "")
+# Titles containing any of these are dropped outright (user-editable noise filter)
+EXCLUDE   = [t.lower() for t in SETTINGS.get("exclude_terms", [])]
 
 # Optional NCBI API key (raises rate limit 3 -> 10 req/s). Set NCBI_API_KEY secret.
 NCBI_KEY  = os.environ.get("NCBI_API_KEY", "").strip()
@@ -60,16 +62,26 @@ HIGH_IMPACT = {
     "human molecular genetics", "genetics in medicine", "npj genomic medicine",
     "european journal of human genetics"
 }
-DISEASE_KEYWORDS = [
-    "congenital heart disease", "congenital heart defect", "chd", "hlhs",
-    "dilated cardiomyopathy", "dcm",
-    "spontaneous coronary artery dissection", "scad"
+CARDIO_KEYWORDS = [
+    "congenital heart disease", "congenital heart defect", "heart defect",
+    "hypoplastic left heart", "hlhs", "tetralogy", "dilated cardiomyopathy", "dcm",
 ]
 METHODS_KEYWORDS = [
-    "oligogenic", "digenic", "multilocus", "multi-locus",
-    "genetic architecture", "polygenic", "rare variant burden",
-    "whole exome sequencing", "whole genome sequencing", "gwas",
-    "genome-wide association"
+    "rare variant", "burden test", "gene-based", "collapsing", "skat",
+    "polygenic risk score", "polygenic score", "polygenic", " prs ", " pgs ",
+    "gwas", "genome-wide association", "mtag", "multi-trait", "cross-trait",
+    "genetic correlation", "fine-mapping", "fine mapping", "colocali",
+    "heritability", "mixed model", "ld score", "mendelian randomization",
+    "oligogenic", "digenic", "multi-locus", "genetic architecture",
+]
+AI_KEYWORDS = [
+    "machine learning", "deep learning", "artificial intelligence",
+    "neural network", "transformer", "foundation model", "large language model",
+    " llm ", "convolutional", "variant effect predict", "deep neural",
+]
+GENOMICS_KEYWORDS = [
+    "genetic", "genom", "variant", "exome", "sequencing", "mutation", "gwas",
+    "polygenic", "methylation", "epigenetic", "transcriptom", "omics", "rna-seq",
 ]
 
 
@@ -253,7 +265,10 @@ def make_ris(pmid, title, authors, journal, year, doi, abstract, url):
 
 def classify_paper(title, abstract, is_preprint=False):
     text = (title + " " + abstract).lower()
-    if any(w in text for w in ["review", "meta-analysis", "systematic review"]):
+    if any(w in text for w in ["machine learning", "deep learning", "artificial intelligence",
+                               "neural network", "foundation model", "large language model"]):
+        base = "AI / ML"
+    elif any(w in text for w in ["review", "meta-analysis", "systematic review"]):
         base = "Review"
     elif any(w in text for w in ["genome-wide association", "gwas"]):
         base = "GWAS"
@@ -360,29 +375,37 @@ def summarise_abstract(abstract):
 def heuristic_score(paper):
     """0-5 relevance score (primary path when use_llm is false).
 
-    Built so an on-target cardiac-genetics paper reliably clears the default
-    threshold (3), while cross-disease methods papers and off-topic items
-    (no cardiac anchor, animal-only, imaging/surgery-only) fall below it.
+    Three on-topic streams: CHD/DCM genomics, genomic-study methods, and AI/ML
+    applied to genomics/cardiovascular. Built so on-target papers clear the
+    default threshold (3), while off-topic items fall below it:
+      - cardiac papers with no genomic angle (surgery/imaging/clinical) are capped,
+      - generic AI with no genomics/cardiovascular link is dropped,
+      - animal-only work is penalised.
     """
-    text = (paper["title"] + " " + paper.get("abstract_full", "")).lower()
-    title_lower = paper["title"].lower()
-    has_cardiac = any(kw in text for kw in DISEASE_KEYWORDS)
-    has_methods = any(kw in text for kw in METHODS_KEYWORDS)
-    has_genetics = any(w in text for w in [
-        "genetic", "genom", "variant", "exome", "sequencing", "mutation",
-        "gwas", "polygenic", "methylation", "epigenetic", "transcriptom", "omics",
-    ])
+    text = (" " + paper["title"] + " " + paper.get("abstract_full", "") + " ").lower()
+    title_lower = " " + paper["title"].lower() + " "
+    # User-defined exclusions (title match) -> drop outright
+    if any(t in title_lower for t in EXCLUDE):
+        return 0
+    has_cardiac  = any(kw in text for kw in CARDIO_KEYWORDS)
+    has_methods  = any(kw in text for kw in METHODS_KEYWORDS)
+    has_ai       = any(kw in text for kw in AI_KEYWORDS)
+    has_genomics = any(kw in text for kw in GENOMICS_KEYWORDS)
+
     score = 0
-    # Cardiac disease anchor (the dominant relevance signal)
-    if any(kw in title_lower for kw in DISEASE_KEYWORDS):
+    # Cardiac disease anchor (CHD / DCM)
+    if any(kw in title_lower for kw in CARDIO_KEYWORDS):
         score += 3
     elif has_cardiac:
         score += 2
-    # Genuine architecture/methods paper (relevant even without a cardiac anchor)
+    # Genomic-study methods (wanted across diseases)
     if has_methods:
         score += 2
-    # Genetics/genomics framing
-    if has_genetics:
+    # AI/ML, credited only when tied to genomics / cardiovascular / methods
+    if has_ai and (has_genomics or has_cardiac or has_methods):
+        score += 2
+    # Genomics framing
+    if has_genomics:
         score += 1
     # Human-study signal vs animal-only
     if any(w in text for w in ["patients", "cohort", "participants", "individuals", "proband", "families"]):
@@ -390,16 +413,17 @@ def heuristic_score(paper):
     if any(w in text for w in ["mouse model", "zebrafish", "in vitro", "cell line"]) and \
        not any(w in text for w in ["patients", "cohort", "participants"]):
         score -= 3
-    # Off-topic guard: no cardiac anchor AND not a methods paper -> not for us
-    if not has_cardiac and not has_methods:
+
+    # ── Guards ──
+    # Generic AI with no genomics/cardiovascular/methods link -> not for us
+    if has_ai and not (has_genomics or has_cardiac or has_methods):
         return 0
-    # Cardiac but no genetics/methods angle (surgery, imaging, environmental
-    # exposure, drug trials...) -> in-domain but not what we watch; cap low.
-    if has_cardiac and not has_genetics and not has_methods:
+    # Must intersect at least one core stream
+    if not (has_cardiac or has_methods or has_ai):
+        return 0
+    # Cardiac but no genomic/methods/AI angle (surgery, imaging, clinical only) -> cap
+    if has_cardiac and not (has_genomics or has_methods or has_ai):
         return min(score, 2)
-    # A paper with neither cardiac anchor nor genetics framing isn't relevant
-    if not has_cardiac and not has_genetics:
-        score -= 2
     return max(0, min(5, score))
 
 
@@ -470,10 +494,9 @@ def fetch_all(seen):
     """Run every query across PubMed (+ preprints), de-dup against seen, and
     return a flat list of candidate papers tagged with section/topic."""
     section_groups = [
-        ("disease_genetics", cfg.get("disease_genetics", {})),
-        ("prs_disease",      cfg.get("prs_disease", {})),
-        ("prs_methods",      cfg.get("prs_methods", {})),
-        ("topic_watch",      cfg.get("topic_watch", {})),
+        ("cardio_genomics", cfg.get("cardio_genomics", {})),
+        ("genomic_methods", cfg.get("genomic_methods", {})),
+        ("ai_genomics",     cfg.get("ai_genomics", {})),
     ]
     candidates = {}  # uid -> paper (first section wins)
     for section_key, section_cfg in section_groups:
@@ -518,10 +541,9 @@ def generate_summary(selected, section_counts):
     lines = [f"{n} paper{'s' if n != 1 else ''} selected this period"
              + (f" ({n_pre} preprint{'s' if n_pre != 1 else ''})" if n_pre else "") + ":"]
     label_map = {
-        "disease_genetics": "disease genetics (CHD / DCM / SCAD)",
-        "prs_disease": "PRS in CHD/DCM/SCAD",
-        "prs_methods": "PRS & oligogenic methods",
-        "topic_watch": "epigenetics / methylation / omics",
+        "cardio_genomics": "cardiovascular genomics (CHD / DCM)",
+        "genomic_methods": "genomic methods",
+        "ai_genomics": "AI & machine learning",
     }
     for section, count in section_counts.items():
         if count > 0:
@@ -549,7 +571,7 @@ def main():
                 p["score"] = heuristic_score(p)
 
     # ── Select: threshold + global cap; ties broken by section priority ──
-    section_priority = {"disease_genetics": 4, "prs_disease": 3, "prs_methods": 3, "topic_watch": 2}
+    section_priority = {"cardio_genomics": 4, "genomic_methods": 3, "ai_genomics": 3}
     kept = [p for p in candidates if p.get("score", 0) >= threshold]
     kept.sort(key=lambda p: (p.get("score", 0), section_priority.get(p["section"], 1)), reverse=True)
     selected = kept[:max_total]

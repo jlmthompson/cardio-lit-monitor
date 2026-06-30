@@ -26,10 +26,9 @@ scoring      = digest.get("scoring", "heuristic")
 
 # Section label + muted editorial accent colour
 SECTION_META = {
-    "disease_genetics": ("Disease Genetics",      "#7c2d3a"),  # oxblood
-    "prs_disease":      ("PRS in Disease",        "#3f4a6b"),  # indigo ink
-    "prs_methods":      ("PRS & Architecture",    "#8a5a23"),  # ochre
-    "topic_watch":      ("Epigenetics & Omics",   "#46695e"),  # pine
+    "cardio_genomics": ("Cardiovascular Genomics", "#7c2d3a"),  # oxblood
+    "genomic_methods": ("Genomic Methods",         "#3f4a6b"),  # indigo ink
+    "ai_genomics":     ("AI & Machine Learning",   "#2f6157"),  # deep teal
 }
 
 
@@ -116,7 +115,7 @@ OUT.write_text(f"""<!DOCTYPE html>
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>The Cardio Lit Review · {week}</title>
+  <title>The Cardiovascular Genomics Review · {week}</title>
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23faf7f2'/%3E%3Ctext x='16' y='23' font-family='Georgia,serif' font-size='22' font-style='italic' text-anchor='middle' fill='%237c2d3a'%3ER%3C/text%3E%3C/svg%3E">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -311,8 +310,8 @@ OUT.write_text(f"""<!DOCTYPE html>
 <div class="wrap">
 
   <header class="masthead">
-    <div class="eyebrow">Cardiovascular Genomics — Weekly Surveillance</div>
-    <h1>The Cardio Lit <em>Review</em></h1>
+    <div class="eyebrow">Weekly Surveillance — CHD · DCM · Methods · AI</div>
+    <h1>The Cardiovascular Genomics <em>Review</em></h1>
     <hr class="rule">
     <hr class="rule thin">
     <div class="dateline">
@@ -340,7 +339,7 @@ OUT.write_text(f"""<!DOCTYPE html>
   </main>
 
   <footer>
-    The Cardio Lit Review · {scoring_label} · Refreshed every Monday<br>
+    The Cardiovascular Genomics Review · {scoring_label} · Refreshed every Monday<br>
     <a href="https://github.com/jlmthompson/cardio-lit-monitor" target="_blank" rel="noopener">Source on GitHub</a>
   </footer>
 

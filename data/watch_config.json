@@ -1,59 +1,55 @@
 {
-  "_readme": "Queries use PubMed field tags ([tiab]=title/abstract, [mh]=MeSH). For preprints (Europe PMC) the field tags are stripped automatically and the Boolean structure is reused. The LLM relevance filter is the real precision step: edit `interest_profile` in plain English to tune what gets kept. Tune recall with the queries; tune precision with the profile + relevance_threshold.",
+  "_readme": "Three streams: cardio_genomics (CHD+DCM), genomic_methods (disease-agnostic methodology), ai_genomics (AI/ML in genomics & cardiovascular). Queries use PubMed field tags ([tiab], [mh]); preprints (Europe PMC) reuse the same Boolean with tags stripped. Tune recall with `queries`, precision with `relevance_threshold`. `interest_profile` is only used if you opt into the LLM pass (use_llm:true).",
 
-  "interest_profile": "I am a computational genomics researcher focused on the GENETICS and GENOMICS of structural/inherited heart disease. I care most about: (1) congenital heart disease (CHD) gene discovery, de novo and rare variant analysis, exome/genome sequencing in CHD cohorts, and CHD-neurodevelopmental overlap; (2) dilated cardiomyopathy (DCM) genetics and PRS; (3) spontaneous coronary artery dissection (SCAD) genetics; (4) polygenic risk scores and oligogenic/digenic/multi-locus genetic architecture as METHODS, especially integrating rare and common variation; (5) DNA methylation, episignatures, and multi-omics in CHD/DCM. I want primary human genetics/genomics research and methods papers. I am NOT interested in: pure surgical/clinical outcome studies with no genetics, animal-only studies with no human relevance, drug trials, imaging-only studies, case reports of a single non-genetic patient, or papers where genetics is mentioned only in passing.",
+  "interest_profile": "I am a cardiovascular genomics researcher. Core interests: (1) the genetics/genomics of congenital heart disease (CHD) and dilated cardiomyopathy (DCM) - gene discovery, rare and de novo variants, exome/genome sequencing, burden, and multi-omics in these conditions; (2) statistical and computational METHODS for genomic studies regardless of disease - rare-variant association and burden testing, polygenic risk scores (PRS/PGS), GWAS methodology, multi-trait methods (e.g. MTAG), fine-mapping, genetic correlation, heritability, Mendelian randomization and related tools; (3) advances in artificial intelligence / machine learning applied to genomics and cardiovascular disease - deep learning for variant-effect/pathogenicity prediction, foundation and large language models for genomics, and ML for genomic prediction. I want primary research and methods papers. NOT interested in: purely clinical/surgical-outcome or imaging studies with no genomics, animal-only work with no human relevance, drug trials, or generic AI with no genomics/cardiovascular link.",
 
-  "disease_genetics": {
-    "CHD_Genetics": {
-      "description": "Genetic / genomic studies in congenital heart disease",
+  "cardio_genomics": {
+    "CHD_Genomics": {
+      "description": "Genetics / genomics of congenital heart disease",
       "queries": [
-        "(\"congenital heart disease\"[tiab] OR \"congenital heart defect\"[tiab] OR \"congenital heart defects\"[tiab] OR \"Heart Defects, Congenital\"[mh]) AND (genetic*[tiab] OR genom*[tiab] OR exome[tiab] OR \"whole genome\"[tiab] OR \"de novo\"[tiab] OR \"rare variant\"[tiab] OR \"rare variants\"[tiab] OR mutation*[tiab] OR \"copy number\"[tiab] OR GWAS[tiab] OR \"genome-wide\"[tiab] OR sequencing[tiab])"
+        "(\"congenital heart disease\"[tiab] OR \"congenital heart defect\"[tiab] OR \"congenital heart defects\"[tiab] OR \"Heart Defects, Congenital\"[mh]) AND (genetic*[tiab] OR genom*[tiab] OR exome[tiab] OR \"whole genome\"[tiab] OR \"de novo\"[tiab] OR \"rare variant\"[tiab] OR \"rare variants\"[tiab] OR mutation*[tiab] OR \"copy number\"[tiab] OR GWAS[tiab] OR \"genome-wide\"[tiab] OR sequencing[tiab] OR methylation[tiab] OR transcriptom*[tiab] OR multi-omics[tiab])"
       ]
     },
-    "DCM_Genetics": {
-      "description": "Dilated cardiomyopathy genetics",
+    "DCM_Genomics": {
+      "description": "Genetics / genomics of dilated cardiomyopathy",
       "queries": [
-        "(\"dilated cardiomyopathy\"[tiab] OR \"Cardiomyopathy, Dilated\"[mh]) AND (genetic*[tiab] OR genom*[tiab] OR exome[tiab] OR \"rare variant\"[tiab] OR \"rare variants\"[tiab] OR \"truncating variant\"[tiab] OR titin[tiab] OR TTN[tiab] OR mutation*[tiab] OR GWAS[tiab] OR \"genome-wide\"[tiab] OR sequencing[tiab])"
-      ]
-    },
-    "SCAD_Genetics": {
-      "description": "Spontaneous coronary artery dissection genetics",
-      "queries": [
-        "(\"spontaneous coronary artery dissection\"[tiab] OR \"coronary artery dissection\"[tiab]) AND (genetic*[tiab] OR genom*[tiab] OR variant*[tiab] OR GWAS[tiab] OR \"genome-wide\"[tiab] OR heritab*[tiab] OR familial[tiab] OR polygenic[tiab])"
+        "(\"dilated cardiomyopathy\"[tiab] OR \"Cardiomyopathy, Dilated\"[mh]) AND (genetic*[tiab] OR genom*[tiab] OR exome[tiab] OR \"rare variant\"[tiab] OR \"rare variants\"[tiab] OR \"truncating variant\"[tiab] OR titin[tiab] OR TTN[tiab] OR mutation*[tiab] OR GWAS[tiab] OR \"genome-wide\"[tiab] OR sequencing[tiab] OR \"polygenic\"[tiab] OR methylation[tiab] OR transcriptom*[tiab] OR multi-omics[tiab])"
       ]
     }
   },
 
-  "prs_disease": {
-    "CHD_DCM_SCAD_PRS": {
-      "description": "Polygenic risk scores in CHD, DCM, or SCAD specifically",
+  "genomic_methods": {
+    "RareVariant_Burden": {
+      "description": "Rare-variant association, burden / gene-based testing methods",
       "queries": [
-        "(\"polygenic risk score\"[tiab] OR \"polygenic score\"[tiab] OR \"polygenic risk\"[tiab] OR PRS[tiab]) AND (\"congenital heart\"[tiab] OR \"dilated cardiomyopathy\"[tiab] OR \"coronary artery dissection\"[tiab] OR cardiomyopathy[tiab])"
-      ]
-    }
-  },
-
-  "prs_methods": {
-    "Architecture_Methods": {
-      "description": "PRS / genetic-architecture methodology: oligogenic, digenic, multi-locus, rare+common integration",
-      "queries": [
-        "(oligogenic[tiab] OR digenic[tiab] OR \"multi-locus\"[tiab] OR multilocus[tiab] OR \"genetic architecture\"[tiab] OR \"rare variant burden\"[tiab]) AND (genetic*[tiab] OR genom*[tiab] OR inheritance[tiab] OR \"risk score\"[tiab] OR polygenic[tiab])",
-        "(polygenic[tiab] AND (\"rare variant\"[tiab] OR \"rare variants\"[tiab] OR monogenic[tiab] OR Mendelian[tiab]) AND (integrat*[tiab] OR combin*[tiab] OR joint[tiab] OR omnigenic[tiab]))"
-      ]
-    }
-  },
-
-  "topic_watch": {
-    "CHD_Methylation": {
-      "description": "DNA methylation / episignatures / epigenetics in CHD",
-      "queries": [
-        "(\"DNA methylation\"[tiab] OR episignature*[tiab] OR epigenetic*[tiab] OR epigenome[tiab]) AND (\"congenital heart\"[tiab] OR \"Heart Defects, Congenital\"[mh])"
+        "(\"rare variant\"[tiab] OR \"rare variants\"[tiab]) AND (burden[tiab] OR \"gene-based\"[tiab] OR collapsing[tiab] OR aggregation[tiab] OR SKAT[tiab] OR \"association test\"[tiab] OR \"association testing\"[tiab]) AND (method*[tiab] OR test[tiab] OR framework[tiab] OR statistic*[tiab] OR genome[tiab] OR exome[tiab])"
       ]
     },
-    "DCM_Omics": {
-      "description": "Multi-omics / methylation / transcriptomics in DCM",
+    "PRS_Methods": {
+      "description": "Polygenic score methodology, portability, construction",
       "queries": [
-        "(\"dilated cardiomyopathy\"[tiab] OR \"Cardiomyopathy, Dilated\"[mh]) AND (\"RNA-seq\"[tiab] OR transcriptom*[tiab] OR \"multi-omics\"[tiab] OR multiomic*[tiab] OR \"DNA methylation\"[tiab] OR epigenom*[tiab] OR proteom*[tiab])"
+        "(\"polygenic risk score\"[tiab] OR \"polygenic score\"[tiab] OR \"polygenic scores\"[tiab] OR PRS[tiab] OR PGS[tiab]) AND (method*[tiab] OR model*[tiab] OR construct*[tiab] OR develop*[tiab] OR portab*[tiab] OR transferab*[tiab] OR \"cross-ancestry\"[tiab] OR \"cross-population\"[tiab] OR calibrat*[tiab] OR benchmark*[tiab])"
+      ]
+    },
+    "GWAS_MultiTrait_FineMapping": {
+      "description": "GWAS methodology, multi-trait (MTAG), fine-mapping, genetic correlation",
+      "queries": [
+        "(MTAG[tiab] OR \"multi-trait\"[tiab] OR \"cross-trait\"[tiab] OR \"genetic correlation\"[tiab] OR \"fine-mapping\"[tiab] OR \"fine mapping\"[tiab] OR colocali*[tiab] OR \"LD score\"[tiab] OR heritability[tiab] OR \"mixed model\"[tiab]) AND (GWAS[tiab] OR \"genome-wide association\"[tiab] OR genom*[tiab] OR polygenic[tiab] OR method*[tiab])"
+      ]
+    }
+  },
+
+  "ai_genomics": {
+    "AI_in_Genomics": {
+      "description": "Machine learning / AI applied to genomics",
+      "queries": [
+        "(\"machine learning\"[tiab] OR \"deep learning\"[tiab] OR \"artificial intelligence\"[tiab] OR \"neural network\"[tiab] OR \"neural networks\"[tiab] OR transformer*[tiab] OR \"foundation model\"[tiab] OR \"foundation models\"[tiab] OR \"large language model\"[tiab]) AND (genom*[tiab] OR \"rare variant\"[tiab] OR \"variant effect\"[tiab] OR \"variant classification\"[tiab] OR pathogenicity[tiab] OR \"polygenic\"[tiab] OR sequencing[tiab] OR regulatory[tiab] OR splicing[tiab])"
+      ]
+    },
+    "AI_in_Cardiovascular_Genetics": {
+      "description": "Machine learning / AI at the intersection of cardiovascular disease and genetics",
+      "queries": [
+        "(\"machine learning\"[tiab] OR \"deep learning\"[tiab] OR \"artificial intelligence\"[tiab] OR \"neural network\"[tiab]) AND (\"congenital heart\"[tiab] OR cardiomyopathy[tiab] OR cardiovascular[tiab] OR cardiac[tiab]) AND (genetic*[tiab] OR genom*[tiab] OR variant*[tiab] OR \"polygenic\"[tiab])"
       ]
     }
   },
@@ -64,10 +60,11 @@
     "max_results_per_query": 40,
     "max_papers_total": 25,
     "relevance_threshold": 3,
+    "exclude_terms": ["obstetric", "mania", "bipolar", "schizophren", "inflammatory bowel", "periodont", "retinopath"],
     "include_preprints": true,
     "use_llm": false,
     "llm_model": "claude-haiku-4-5-20251001",
     "email_to": "jamielee.thompson9@gmail.com",
-    "email_from_name": "Cardio Lit Monitor"
+    "email_from_name": "Cardiovascular Genomics Review"
   }
 }
