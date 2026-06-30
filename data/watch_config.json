@@ -65,7 +65,7 @@
     "max_papers_total": 25,
     "relevance_threshold": 3,
     "include_preprints": true,
-    "use_llm": true,
+    "use_llm": false,
     "llm_model": "claude-haiku-4-5-20251001",
     "email_to": "jamielee.thompson9@gmail.com",
     "email_from_name": "Cardio Lit Monitor"

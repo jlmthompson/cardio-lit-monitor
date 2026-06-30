@@ -1,8 +1,10 @@
 #!/usr/bin/env python3
 """
 Generates docs/index.html from the current digest.json.
-Theme: slate blue background, white cards, teal accent — matching the
-Epigenetic Clock Selector site style.
+
+Theme: "The Cardio Lit Review" — an editorial / science-journal aesthetic.
+Warm paper background, Newsreader serif masthead, oxblood accent, numbered
+entries separated by hairline rules (no generic cards).
 """
 
 import json
@@ -14,396 +16,354 @@ OUT    = Path(__file__).parent.parent / "docs" / "index.html"
 OUT.parent.mkdir(exist_ok=True)
 
 digest = json.loads(DIGEST.read_text())
-week   = datetime.fromisoformat(digest["generated"]).strftime("%d %B %Y")
+gen_dt = datetime.fromisoformat(digest["generated"])
+week   = gen_dt.strftime("%d %B %Y")
 summary_text = digest.get("summary_text", "")
 selected     = digest.get("selected_papers", [])
 total_sel    = digest["summary"].get("total_selected", len(selected))
 total_cand   = digest["summary"].get("total_candidates", 0)
+scoring      = digest.get("scoring", "heuristic")
 
+# Section label + muted editorial accent colour
 SECTION_META = {
-    "disease_genetics": ("CHD / DCM / SCAD Genetics",  "#0d9488"),
-    "prs_disease":      ("PRS in CHD · DCM · SCAD",    "#6366f1"),
-    "prs_methods":      ("PRS & Oligogenic Methods",    "#f59e0b"),
-    "topic_watch":      ("Epigenetics & Methylation",   "#64748b"),
+    "disease_genetics": ("Disease Genetics",      "#7c2d3a"),  # oxblood
+    "prs_disease":      ("PRS in Disease",        "#3f4a6b"),  # indigo ink
+    "prs_methods":      ("PRS & Architecture",    "#8a5a23"),  # ochre
+    "topic_watch":      ("Epigenetics & Omics",   "#46695e"),  # pine
 }
 
 
-def paper_card(p):
+def esc(s):
+    return (str(s).replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;"))
+
+
+def entry(p, idx):
     section = p.get("section", "")
-    _, accent = SECTION_META.get(section, ("Other", "#64748b"))
-    doi_link = f'<a class="ext" href="https://doi.org/{p["doi"]}" target="_blank">DOI ↗</a>' if p.get("doi") else ""
-    ris_safe = p["ris"].replace(chr(10), "|").replace(chr(13), "").replace('"', "&quot;")
-    topic_badge = f'<span class="badge topic" style="background:{accent}20;color:{accent}">{p.get("topic","").replace("_"," ")}</span>'
-    type_badge  = f'<span class="badge btype">{p.get("type","")}</span>'
+    label, accent = SECTION_META.get(section, ("Research", "#4a4540"))
+    num = f"{idx:02d}"
+
+    is_pre = p.get("is_preprint")
+    ptype = p.get("type", "")
+    # type already carries "Preprint · X"; show server name as the preprint flag
+    pre_flag = (f'<span class="flag-pre">{esc(p.get("journal",""))}</span>'
+                if is_pre else "")
 
     bullets = p.get("bullets", [])
     if bullets:
-        bullet_items = "".join(f"<li>{b}</li>" for b in bullets)
-        content_html = f'<ul class="card-bullets">{bullet_items}</ul>'
+        findings = "".join(f"<li>{esc(b)}</li>" for b in bullets)
+        content = f'<ul class="findings">{findings}</ul>'
     else:
-        # Fallback to plain abstract if no bullets
-        content_html = f'<p class="card-abstract">{p.get("abstract","")}</p>'
+        content = f'<p class="abstract">{esc(p.get("abstract",""))}</p>'
 
     note = p.get("relevance_note", "")
-    note_html = f'<div class="relevance-note">Why: {note}</div>' if note else ""
-    content_html += note_html
+    if note:
+        content += f'<p class="note">{esc(note)}</p>'
 
+    doi_link = (f'<a class="link" href="https://doi.org/{esc(p["doi"])}" '
+                f'target="_blank" rel="noopener">DOI</a>' if p.get("doi") else "")
+    ris_safe = p.get("ris", "").replace(chr(10), "|").replace(chr(13), "").replace('"', "&quot;")
+
+    delay = round(idx * 0.035, 3)
     return f"""
-<div class="card" data-section="{section}">
-  <div class="card-accent" style="background:{accent}"></div>
-  <div class="card-body">
-    <div class="card-meta">{type_badge}{topic_badge}</div>
-    <a class="card-title" href="{p['url']}" target="_blank">{p['title'] or '(No title)'}</a>
-    <div class="card-authors">{p.get('authors','')} &mdash; <em>{p.get('journal','')}</em> {p.get('year','')}</div>
-    {content_html}
-    <div class="card-links">
-      <a class="ext" href="{p['url']}" target="_blank">PubMed ↗</a>
+<article class="entry" data-section="{section}" style="animation-delay:{delay}s">
+  <div class="entry-rail">
+    <span class="entry-num">{num}</span>
+    <span class="entry-section" style="--accent:{accent}">{esc(label)}</span>
+  </div>
+  <div class="entry-body">
+    <div class="entry-kicker">
+      <span class="ptype">{esc(ptype)}</span>{pre_flag}
+    </div>
+    <a class="entry-title" href="{esc(p['url'])}" target="_blank" rel="noopener">{esc(p['title']) or '(Untitled)'}</a>
+    <div class="byline">{esc(p.get('authors',''))} &middot; <em>{esc(p.get('journal',''))}</em> &middot; {esc(p.get('year',''))}</div>
+    {content}
+    <div class="entry-links">
+      <a class="link" href="{esc(p['url'])}" target="_blank" rel="noopener">PubMed</a>
       {doi_link}
-      <button class="ris-btn" onclick="downloadRIS(this)" data-ris="{ris_safe}" data-title="{p['pmid']}">⬇ RIS</button>
+      <button class="link ris" onclick="downloadRIS(this)" data-ris="{ris_safe}" data-id="{esc(p.get('pmid') or num)}">Cite ↓</button>
     </div>
   </div>
-</div>"""
+</article>"""
 
 
-# Build section legend items
+# ── Legend (sections present in the selection) ──
 legend_html = ""
 for sk, (label, accent) in SECTION_META.items():
     count = sum(1 for p in selected if p.get("section") == sk)
-    if count > 0:
-        legend_html += f'<span class="legend-item"><span class="legend-dot" style="background:{accent}"></span>{label} ({count})</span>'
+    if count:
+        legend_html += (f'<span class="leg"><span class="leg-dot" style="background:{accent}"></span>'
+                        f'{label}<span class="leg-n">{count}</span></span>')
 
-# Build summary lines for display
-summary_lines = [ln for ln in summary_text.split("\n") if ln.strip()]
-summary_header = summary_lines[0] if summary_lines else ""
-summary_bullets = summary_lines[1:] if len(summary_lines) > 1 else []
-highlight = next((ln for ln in summary_bullets if ln.strip().startswith("Highlight")), "")
-bullets   = [ln for ln in summary_bullets if not ln.strip().startswith("Highlight")]
+# ── Standfirst (parse the summary text) ──
+summary_lines  = [ln.strip() for ln in summary_text.split("\n") if ln.strip()]
+summary_header = summary_lines[0] if summary_lines else f"{total_sel} papers this week"
+highlight      = next((ln for ln in summary_lines if ln.startswith("Highlight")), "")
+bullets        = [ln.lstrip("• ").strip() for ln in summary_lines[1:]
+                  if ln and not ln.startswith("Highlight")]
+stand_bullets  = "".join(f"<li>{esc(b)}</li>" for b in bullets)
+highlight_html = (f'<p class="highlight"><span>Editor’s pick</span>{esc(highlight.replace("Highlight:", "").strip())}</p>'
+                  if highlight else "")
 
-bullets_html = "".join(f"<li>{b.strip().lstrip('• ')}</li>" for b in bullets if b.strip())
-highlight_html = f'<div class="highlight-line">{highlight.strip()}</div>' if highlight else ""
-
-cards_html = "".join(paper_card(p) for p in selected)
+entries_html = "".join(entry(p, i + 1) for i, p in enumerate(selected))
 if not selected:
-    cards_html = '<div class="no-papers">No new papers matched your focus areas this week. Check back next Monday.</div>'
+    entries_html = ('<div class="empty"><em>No new papers matched your focus areas this period.</em>'
+                    '<br>The press rests until next Monday.</div>')
+
+scoring_label = "AI-ranked" if scoring == "llm" else "keyword-screened"
 
 OUT.write_text(f"""<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Cardio Lit Monitor</title>
+  <title>The Cardio Lit Review · {week}</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23faf7f2'/%3E%3Ctext x='16' y='23' font-family='Georgia,serif' font-size='22' font-style='italic' text-anchor='middle' fill='%237c2d3a'%3ER%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,400;0,500;0,600;1,400;1,500&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
   <style>
-    *, *::before, *::after {{ box-sizing: border-box; margin: 0; padding: 0; }}
+    :root {{
+      --paper:#faf7f2; --paper-warm:#f3ede1; --ink:#1c1a17; --ink-soft:#4a4540;
+      --ink-faint:#8a8175; --hairline:#e3dacd; --hairline-soft:#ece4d6;
+      --oxblood:#7c2d3a; --oxblood-deep:#5e1f29;
+    }}
+    *,*::before,*::after {{ box-sizing:border-box; margin:0; padding:0; }}
 
+    html {{ scroll-behavior:smooth; }}
     body {{
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-      background: #1e2d3e;
-      color: #334155;
-      min-height: 100vh;
+      background:
+        radial-gradient(120% 80% at 50% -10%, #fffdf9 0%, var(--paper) 55%) fixed,
+        var(--paper);
+      color:var(--ink);
+      font-family:'IBM Plex Sans', system-ui, sans-serif;
+      line-height:1.6;
+      -webkit-font-smoothing:antialiased;
+      padding:0 22px;
+    }}
+    /* subtle paper grain */
+    body::before {{
+      content:""; position:fixed; inset:0; pointer-events:none; z-index:0;
+      opacity:0.035;
+      background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+    }}
+    .wrap {{ max-width:780px; margin:0 auto; position:relative; z-index:1; }}
+
+    /* ── Masthead ── */
+    .masthead {{ text-align:center; padding:54px 0 26px; }}
+    .eyebrow {{
+      font-family:'IBM Plex Mono', monospace; font-size:0.66rem; letter-spacing:0.32em;
+      text-transform:uppercase; color:var(--oxblood); margin-bottom:18px;
+    }}
+    .masthead h1 {{
+      font-family:'Newsreader', serif; font-weight:500; font-size:clamp(2.6rem,7vw,4rem);
+      letter-spacing:-0.015em; line-height:0.98; color:var(--ink);
+    }}
+    .masthead h1 em {{ font-style:italic; color:var(--oxblood); }}
+    .rule {{ border:none; border-top:1.5px solid var(--ink); margin:22px 0 5px; }}
+    .rule.thin {{ border-top:0.5px solid var(--ink); margin:0 0 0; }}
+    .dateline {{
+      display:flex; justify-content:space-between; align-items:center;
+      font-family:'IBM Plex Mono', monospace; font-size:0.7rem; letter-spacing:0.08em;
+      text-transform:uppercase; color:var(--ink-soft); padding:9px 2px 0;
+    }}
+    .dateline .mid {{ color:var(--ink-faint); }}
+
+    /* ── Standfirst ── */
+    .standfirst {{
+      margin:34px 0 10px; padding:4px 0 4px 22px; border-left:2px solid var(--oxblood);
+    }}
+    .standfirst h2 {{
+      font-family:'Newsreader', serif; font-weight:500; font-size:1.32rem;
+      line-height:1.35; color:var(--ink); margin-bottom:12px;
+    }}
+    .standfirst ul {{ list-style:none; display:flex; flex-wrap:wrap; gap:6px 20px; }}
+    .standfirst li {{
+      font-size:0.86rem; color:var(--ink-soft); position:relative; padding-left:14px;
+    }}
+    .standfirst li::before {{ content:"—"; position:absolute; left:0; color:var(--oxblood); }}
+    .highlight {{
+      margin-top:16px; font-family:'Newsreader', serif; font-style:italic;
+      font-size:0.98rem; color:var(--ink-soft); line-height:1.5;
+    }}
+    .highlight span {{
+      display:inline-block; font-family:'IBM Plex Mono', monospace; font-style:normal;
+      font-size:0.6rem; letter-spacing:0.18em; text-transform:uppercase;
+      color:var(--oxblood); margin-right:9px; vertical-align:middle;
     }}
 
-    /* ── Header ── */
-    .site-header {{
-      background: #162333;
-      border-bottom: 3px solid #0d9488;
-      padding: 28px 24px 20px;
-      text-align: center;
+    /* ── Controls / legend ── */
+    .meta-bar {{
+      display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between;
+      gap:14px; margin:30px 0 8px; padding-bottom:14px;
+      border-bottom:0.5px solid var(--ink);
     }}
-    .site-header h1 {{
-      font-size: 1.7rem;
-      font-weight: 700;
-      color: #ffffff;
-      letter-spacing: -0.02em;
-      margin-bottom: 4px;
+    .legend {{ display:flex; flex-wrap:wrap; gap:5px 16px; }}
+    .leg {{
+      display:inline-flex; align-items:center; gap:7px;
+      font-size:0.74rem; color:var(--ink-soft);
     }}
-    .site-header .subtitle {{
-      font-size: 0.85rem;
-      color: #94a3b8;
-    }}
-    .site-header a {{ color: #0d9488; text-decoration: none; }}
-    .site-header a:hover {{ text-decoration: underline; }}
-
-    /* ── Summary card ── */
-    .summary-wrap {{
-      max-width: 820px;
-      margin: 28px auto 0;
-      padding: 0 20px;
-    }}
-    .summary-card {{
-      background: #ffffff;
-      border-radius: 12px;
-      padding: 20px 24px;
-      box-shadow: 0 2px 12px rgba(0,0,0,0.18);
-      border-top: 4px solid #0d9488;
-    }}
-    .summary-card h2 {{
-      font-size: 0.95rem;
-      font-weight: 700;
-      color: #0d9488;
-      margin-bottom: 10px;
-      text-transform: uppercase;
-      letter-spacing: 0.04em;
-    }}
-    .summary-header {{
-      font-size: 0.95rem;
-      font-weight: 600;
-      color: #1e293b;
-      margin-bottom: 8px;
-    }}
-    .summary-card ul {{
-      list-style: none;
-      margin-bottom: 10px;
-    }}
-    .summary-card ul li {{
-      font-size: 0.85rem;
-      color: #475569;
-      padding: 3px 0;
-    }}
-    .summary-card ul li::before {{
-      content: "→ ";
-      color: #0d9488;
-    }}
-    .highlight-line {{
-      font-size: 0.82rem;
-      color: #64748b;
-      border-top: 1px solid #e2e8f0;
-      padding-top: 10px;
-      margin-top: 6px;
-      font-style: italic;
-    }}
-    .legend {{
-      display: flex;
-      flex-wrap: wrap;
-      gap: 10px;
-      margin-top: 14px;
-      padding-top: 14px;
-      border-top: 1px solid #e2e8f0;
-    }}
-    .legend-item {{
-      display: flex;
-      align-items: center;
-      gap: 6px;
-      font-size: 0.78rem;
-      color: #475569;
-    }}
-    .legend-dot {{
-      width: 10px;
-      height: 10px;
-      border-radius: 50%;
-      flex-shrink: 0;
-    }}
-
-    /* ── Controls ── */
-    .controls {{
-      max-width: 820px;
-      margin: 16px auto 0;
-      padding: 0 20px;
-      display: flex;
-      gap: 10px;
-      align-items: center;
-    }}
+    .leg-dot {{ width:8px; height:8px; border-radius:50%; }}
+    .leg-n {{ font-family:'IBM Plex Mono', monospace; font-size:0.66rem; color:var(--ink-faint); }}
+    .search-wrap {{ position:relative; }}
     #search {{
-      flex: 1;
-      max-width: 320px;
-      background: #ffffff;
-      border: 1px solid #cbd5e1;
-      border-radius: 8px;
-      padding: 8px 14px;
-      font-size: 0.85rem;
-      color: #1e293b;
+      font-family:'IBM Plex Sans', sans-serif; font-size:0.8rem; color:var(--ink);
+      background:transparent; border:none; border-bottom:1px solid var(--hairline);
+      padding:5px 4px 5px 20px; width:170px; transition:border-color .2s, width .2s;
     }}
-    #search:focus {{ outline: none; border-color: #0d9488; box-shadow: 0 0 0 2px #0d948820; }}
-    #search::placeholder {{ color: #94a3b8; }}
-    .count-badge {{
-      font-size: 0.8rem;
-      color: #94a3b8;
+    #search:focus {{ outline:none; border-color:var(--oxblood); width:210px; }}
+    #search::placeholder {{ color:var(--ink-faint); }}
+    .search-wrap::before {{
+      content:"⌕"; position:absolute; left:0; top:3px; color:var(--ink-faint); font-size:1rem;
     }}
 
-    /* ── Cards ── */
-    .cards-wrap {{
-      max-width: 820px;
-      margin: 16px auto 40px;
-      padding: 0 20px;
-      display: flex;
-      flex-direction: column;
-      gap: 14px;
+    /* ── Entries ── */
+    .entries {{ margin:8px 0 0; }}
+    .entry {{
+      display:grid; grid-template-columns:108px 1fr; gap:24px;
+      padding:30px 0; border-bottom:0.5px solid var(--hairline);
+      opacity:0; transform:translateY(14px);
+      animation:rise .6s cubic-bezier(.2,.7,.2,1) forwards;
     }}
-    .card {{
-      background: #ffffff;
-      border-radius: 10px;
-      box-shadow: 0 1px 8px rgba(0,0,0,0.12);
-      display: flex;
-      overflow: hidden;
-      transition: box-shadow 0.15s;
+    @keyframes rise {{ to {{ opacity:1; transform:none; }} }}
+    .entry-rail {{ text-align:right; padding-top:3px; }}
+    .entry-num {{
+      display:block; font-family:'Newsreader', serif; font-size:1.6rem;
+      color:var(--ink-faint); line-height:1; font-weight:400;
     }}
-    .card:hover {{ box-shadow: 0 4px 16px rgba(0,0,0,0.18); }}
-    .card-accent {{
-      width: 5px;
-      flex-shrink: 0;
+    .entry-section {{
+      display:inline-block; margin-top:10px;
+      font-family:'IBM Plex Mono', monospace; font-size:0.6rem; letter-spacing:0.13em;
+      text-transform:uppercase; color:var(--accent);
+      border-top:2px solid var(--accent); padding-top:6px;
     }}
-    .card-body {{
-      padding: 16px 18px;
-      flex: 1;
-      min-width: 0;
+    .entry-kicker {{
+      display:flex; flex-wrap:wrap; align-items:center; gap:10px; margin-bottom:9px;
+      font-family:'IBM Plex Mono', monospace; font-size:0.62rem; letter-spacing:0.1em;
+      text-transform:uppercase; color:var(--ink-faint);
     }}
-    .card-meta {{
-      margin-bottom: 7px;
-      display: flex;
-      flex-wrap: wrap;
-      gap: 5px;
+    .flag-pre {{
+      color:var(--oxblood); border:0.5px solid var(--oxblood); border-radius:2px;
+      padding:1px 6px; letter-spacing:0.08em;
     }}
-    .badge {{
-      display: inline-block;
-      padding: 2px 9px;
-      border-radius: 20px;
-      font-size: 0.68rem;
-      font-weight: 600;
-      letter-spacing: 0.02em;
+    .entry-title {{
+      display:block; font-family:'Newsreader', serif; font-weight:500;
+      font-size:1.42rem; line-height:1.24; color:var(--ink); text-decoration:none;
+      letter-spacing:-0.01em; transition:color .15s;
     }}
-    .btype {{
-      background: #f1f5f9;
-      color: #64748b;
+    .entry-title:hover {{ color:var(--oxblood); }}
+    .byline {{
+      font-size:0.78rem; color:var(--ink-faint); margin:8px 0 12px; font-style:normal;
     }}
-    .topic {{
-      /* colour injected inline */
+    .byline em {{ color:var(--ink-soft); font-style:italic; }}
+    .findings {{ list-style:none; margin-bottom:13px; }}
+    .findings li {{
+      font-size:0.9rem; color:var(--ink-soft); line-height:1.62;
+      padding:2px 0 2px 18px; position:relative;
     }}
-    .card-title {{
-      font-size: 0.92rem;
-      font-weight: 600;
-      color: #0f172a;
-      text-decoration: none;
-      line-height: 1.45;
-      display: block;
-      margin-bottom: 5px;
+    .findings li::before {{
+      content:""; position:absolute; left:0; top:12px; width:7px; height:1px;
+      background:var(--oxblood);
     }}
-    .card-title:hover {{ color: #0d9488; }}
-    .card-authors {{
-      font-size: 0.75rem;
-      color: #64748b;
-      margin-bottom: 8px;
+    .abstract {{ font-size:0.88rem; color:var(--ink-soft); margin-bottom:13px; }}
+    .note {{
+      font-family:'Newsreader', serif; font-style:italic; font-size:0.85rem;
+      color:var(--ink-faint); margin-bottom:13px;
     }}
-    .card-abstract {{
-      font-size: 0.8rem;
-      color: #475569;
-      line-height: 1.6;
-      margin-bottom: 10px;
+    .entry-links {{ display:flex; gap:18px; align-items:center; }}
+    .link {{
+      font-family:'IBM Plex Mono', monospace; font-size:0.68rem; letter-spacing:0.05em;
+      text-transform:uppercase; color:var(--ink-soft); text-decoration:none;
+      background:none; border:none; cursor:pointer; padding:0; position:relative;
     }}
-    .card-bullets {{
-      list-style: none;
-      margin: 0 0 10px;
-      padding: 0;
+    .link::after {{
+      content:""; position:absolute; left:0; bottom:-3px; width:100%; height:1px;
+      background:var(--oxblood); transform:scaleX(0); transform-origin:left;
+      transition:transform .22s;
     }}
-    .card-bullets li {{
-      font-size: 0.8rem;
-      color: #334155;
-      line-height: 1.55;
-      padding: 3px 0 3px 14px;
-      position: relative;
-    }}
-    .card-bullets li::before {{
-      content: "▸";
-      position: absolute;
-      left: 0;
-      color: #0d9488;
-      font-size: 0.7rem;
-      top: 4px;
-    }}
-    .relevance-note {{
-      font-size: 0.72rem;
-      color: #0d9488;
-      background: #0d948810;
-      border-radius: 6px;
-      padding: 5px 9px;
-      margin-bottom: 10px;
-      font-style: italic;
-    }}
-    .card-links {{
-      display: flex;
-      gap: 12px;
-      align-items: center;
-      font-size: 0.75rem;
-    }}
-    .ext {{
-      color: #0d9488;
-      text-decoration: none;
-      font-weight: 500;
-    }}
-    .ext:hover {{ text-decoration: underline; }}
-    .ris-btn {{
-      background: #f8fafc;
-      border: 1px solid #e2e8f0;
-      color: #475569;
-      padding: 3px 9px;
-      border-radius: 4px;
-      font-size: 0.7rem;
-      cursor: pointer;
-      font-weight: 500;
-    }}
-    .ris-btn:hover {{ background: #e2e8f0; }}
+    .link:hover {{ color:var(--oxblood); }}
+    .link:hover::after {{ transform:scaleX(1); }}
 
-    .no-papers {{
-      background: #ffffff;
-      border-radius: 10px;
-      padding: 28px 24px;
-      text-align: center;
-      color: #64748b;
-      font-size: 0.9rem;
+    .empty {{
+      text-align:center; padding:70px 20px; color:var(--ink-faint);
+      font-family:'Newsreader', serif; font-size:1.1rem; line-height:1.8;
     }}
-    .hidden {{ display: none !important; }}
+    .hidden {{ display:none !important; }}
+
+    /* ── Footer ── */
+    footer {{
+      margin:30px 0 60px; padding-top:20px; border-top:1.5px solid var(--ink);
+      text-align:center;
+      font-family:'IBM Plex Mono', monospace; font-size:0.66rem; letter-spacing:0.08em;
+      text-transform:uppercase; color:var(--ink-faint); line-height:2;
+    }}
+    footer a {{ color:var(--oxblood); text-decoration:none; }}
+    footer a:hover {{ text-decoration:underline; }}
+
+    @media (max-width:560px) {{
+      .entry {{ grid-template-columns:1fr; gap:10px; }}
+      .entry-rail {{ text-align:left; display:flex; align-items:baseline; gap:14px; }}
+      .entry-section {{ margin-top:0; border-top:none; padding-top:0; }}
+      .dateline {{ font-size:0.6rem; }}
+    }}
   </style>
 </head>
 <body>
+<div class="wrap">
 
-<header class="site-header">
-  <h1>🫀 Cardio Lit Monitor</h1>
-  <p class="subtitle">Weekly digest &middot; {week} &middot;
-    <a href="https://github.com/jlmthompson/cardio-lit-monitor" target="_blank">GitHub ↗</a>
-  </p>
-</header>
+  <header class="masthead">
+    <div class="eyebrow">Cardiovascular Genomics — Weekly Surveillance</div>
+    <h1>The Cardio Lit <em>Review</em></h1>
+    <hr class="rule">
+    <hr class="rule thin">
+    <div class="dateline">
+      <span>{week}</span>
+      <span class="mid">Curated from PubMed &amp; preprints</span>
+      <span>{total_sel} of {total_cand} screened</span>
+    </div>
+  </header>
 
-<div class="summary-wrap">
-  <div class="summary-card">
-    <h2>This Week</h2>
-    <p class="summary-header">{summary_header}</p>
-    <ul>{bullets_html}</ul>
+  <section class="standfirst">
+    <h2>{esc(summary_header)}</h2>
+    <ul>{stand_bullets}</ul>
     {highlight_html}
+  </section>
+
+  <div class="meta-bar">
     <div class="legend">{legend_html}</div>
+    <div class="search-wrap">
+      <input id="search" type="text" placeholder="Search the issue…" oninput="filterEntries(this.value)">
+    </div>
   </div>
-</div>
 
-<div class="controls">
-  <input id="search" type="text" placeholder="Filter papers…" oninput="filterCards(this.value)">
-  <span class="count-badge" id="count-label">{total_sel} of {total_cand} candidate papers selected</span>
-</div>
+  <main class="entries" id="entries">
+    {entries_html}
+  </main>
 
-<div class="cards-wrap" id="cards">
-{cards_html}
+  <footer>
+    The Cardio Lit Review · {scoring_label} · Refreshed every Monday<br>
+    <a href="https://github.com/jlmthompson/cardio-lit-monitor" target="_blank" rel="noopener">Source on GitHub</a>
+  </footer>
+
 </div>
 
 <script>
-function filterCards(q) {{
-  q = q.toLowerCase();
-  let shown = 0;
-  document.querySelectorAll('.card').forEach(c => {{
-    const hide = q.length > 1 && !c.textContent.toLowerCase().includes(q);
-    c.classList.toggle('hidden', hide);
-    if (!hide) shown++;
+function filterEntries(q) {{
+  q = q.toLowerCase().trim();
+  document.querySelectorAll('.entry').forEach(e => {{
+    const hide = q.length > 1 && !e.textContent.toLowerCase().includes(q);
+    e.classList.toggle('hidden', hide);
   }});
-  const total = document.querySelectorAll('.card').length;
-  document.getElementById('count-label').textContent =
-    q.length > 1 ? `${{shown}} of ${{total}} papers shown` : `{total_sel} of {total_cand} candidate papers selected`;
 }}
 function downloadRIS(btn) {{
   const ris   = btn.dataset.ris.replace(/\\|/g, '\\n');
-  const fname = 'paper_' + btn.dataset.title + '.ris';
-  const blob  = new Blob([ris], {{type: 'application/x-research-info-systems'}});
-  const a     = Object.assign(document.createElement('a'), {{
-    href: URL.createObjectURL(blob), download: fname
+  const fname = 'cardio_lit_' + btn.dataset.id + '.ris';
+  const blob  = new Blob([ris], {{type:'application/x-research-info-systems'}});
+  const a = Object.assign(document.createElement('a'), {{
+    href:URL.createObjectURL(blob), download:fname
   }});
   a.click();
 }}
 </script>
-
 </body>
 </html>""")
 

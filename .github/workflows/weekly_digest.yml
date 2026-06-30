@@ -22,15 +22,9 @@ jobs:
           python-version: '3.11'
 
       - name: Install dependencies
-        run: pip install requests anthropic
+        run: pip install requests
 
       - name: Fetch papers from PubMed + Europe PMC (preprints)
-        env:
-          # LLM relevance scoring. If this secret is absent the script falls
-          # back to the keyword heuristic, so the workflow still succeeds.
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          # Optional: raises NCBI rate limit (3 -> 10 req/s). Safe to omit.
-          NCBI_API_KEY: ${{ secrets.NCBI_API_KEY }}
         run: python scripts/fetch_papers.py
 
       - name: Build website

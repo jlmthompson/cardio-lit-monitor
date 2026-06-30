@@ -358,25 +358,49 @@ def summarise_abstract(abstract):
 # ── Relevance: LLM primary, heuristic fallback ────────────────────────────────
 
 def heuristic_score(paper):
-    """Fallback 0-5 score when no LLM is available."""
+    """0-5 relevance score (primary path when use_llm is false).
+
+    Built so an on-target cardiac-genetics paper reliably clears the default
+    threshold (3), while cross-disease methods papers and off-topic items
+    (no cardiac anchor, animal-only, imaging/surgery-only) fall below it.
+    """
     text = (paper["title"] + " " + paper.get("abstract_full", "")).lower()
     title_lower = paper["title"].lower()
+    has_cardiac = any(kw in text for kw in DISEASE_KEYWORDS)
+    has_methods = any(kw in text for kw in METHODS_KEYWORDS)
+    has_genetics = any(w in text for w in [
+        "genetic", "genom", "variant", "exome", "sequencing", "mutation",
+        "gwas", "polygenic", "methylation", "epigenetic", "transcriptom", "omics",
+    ])
     score = 0
-    if any(j in paper.get("journal", "").lower() for j in HIGH_IMPACT):
-        score += 3
+    # Cardiac disease anchor (the dominant relevance signal)
     if any(kw in title_lower for kw in DISEASE_KEYWORDS):
         score += 3
-    elif any(kw in text for kw in DISEASE_KEYWORDS):
+    elif has_cardiac:
+        score += 2
+    # Genuine architecture/methods paper (relevant even without a cardiac anchor)
+    if has_methods:
+        score += 2
+    # Genetics/genomics framing
+    if has_genetics:
         score += 1
-    if any(kw in text for kw in METHODS_KEYWORDS):
-        score += 1
+    # Human-study signal vs animal-only
     if any(w in text for w in ["patients", "cohort", "participants", "individuals", "proband", "families"]):
         score += 1
     if any(w in text for w in ["mouse model", "zebrafish", "in vitro", "cell line"]) and \
        not any(w in text for w in ["patients", "cohort", "participants"]):
         score -= 3
-    # Map heuristic onto the 0-5 LLM scale (clamp)
-    return max(0, min(5, round(score / 2)))
+    # Off-topic guard: no cardiac anchor AND not a methods paper -> not for us
+    if not has_cardiac and not has_methods:
+        return 0
+    # Cardiac but no genetics/methods angle (surgery, imaging, environmental
+    # exposure, drug trials...) -> in-domain but not what we watch; cap low.
+    if has_cardiac and not has_genetics and not has_methods:
+        return min(score, 2)
+    # A paper with neither cardiac anchor nor genetics framing isn't relevant
+    if not has_cardiac and not has_genetics:
+        score -= 2
+    return max(0, min(5, score))
 
 
 def llm_score(papers):
