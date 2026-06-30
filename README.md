@@ -1,4 +1,4 @@
-# The Cardiovascular Genomics Review 🫀
+# The Cardiovascular Genomics Review
 
 Automated weekly literature monitor for **cardiovascular genomics**, across three
 streams: the genetics/genomics of **congenital heart disease (CHD) and dilated
@@ -7,7 +7,6 @@ PRS/PGS, GWAS, MTAG, fine-mapping, …); and **AI/ML** applied to genomics and
 cardiovascular disease.
 
 **Live dashboard:** https://jlmthompson.github.io/cardio-lit-monitor/
-(repo name kept as `cardio-lit-monitor` so the URL is stable.)
 
 ## How it works
 1. **Search** — PubMed (NCBI eutils) using field-tagged Boolean queries, dated by
@@ -22,10 +21,6 @@ cardiovascular disease.
    genomics) with off-topic guards, and keeps those at or above `relevance_threshold`.
    Titles matching `exclude_terms` are dropped outright. No API key, no secrets — the
    workflow runs entirely on public APIs.
-
-> Optional: an LLM relevance pass (scoring abstracts against the plain-English
-> `interest_profile`) is wired in but **off by default**. Set `use_llm: true` and
-> provide an `ANTHROPIC_API_KEY` only if you want it. It's not needed.
 
 Output is a static dashboard (GitHub Pages). No email — check or refresh the site
 whenever you want.
@@ -45,8 +40,6 @@ Edit `data/watch_config.json`:
   of these is dropped (e.g. add `"cardiac surgery"` or `"pulmonary hypertension"` if
   those keep slipping in).
 - **`settings`** — `reldate_days`, `max_papers_total`, `include_preprints`.
-- **`interest_profile`** — only used if you opt into the LLM pass (`use_llm: true`).
 
 ## Schedule
 Runs every Monday 07:00 Sydney time (GitHub Actions), and on manual dispatch.
-No secrets required.
