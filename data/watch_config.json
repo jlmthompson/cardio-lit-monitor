@@ -1,74 +1,73 @@
 {
+  "_readme": "Queries use PubMed field tags ([tiab]=title/abstract, [mh]=MeSH). For preprints (Europe PMC) the field tags are stripped automatically and the Boolean structure is reused. The LLM relevance filter is the real precision step: edit `interest_profile` in plain English to tune what gets kept. Tune recall with the queries; tune precision with the profile + relevance_threshold.",
+
+  "interest_profile": "I am a computational genomics researcher focused on the GENETICS and GENOMICS of structural/inherited heart disease. I care most about: (1) congenital heart disease (CHD) gene discovery, de novo and rare variant analysis, exome/genome sequencing in CHD cohorts, and CHD-neurodevelopmental overlap; (2) dilated cardiomyopathy (DCM) genetics and PRS; (3) spontaneous coronary artery dissection (SCAD) genetics; (4) polygenic risk scores and oligogenic/digenic/multi-locus genetic architecture as METHODS, especially integrating rare and common variation; (5) DNA methylation, episignatures, and multi-omics in CHD/DCM. I want primary human genetics/genomics research and methods papers. I am NOT interested in: pure surgical/clinical outcome studies with no genetics, animal-only studies with no human relevance, drug trials, imaging-only studies, case reports of a single non-genetic patient, or papers where genetics is mentioned only in passing.",
+
   "disease_genetics": {
     "CHD_Genetics": {
-      "description": "Genetic studies in congenital heart disease",
+      "description": "Genetic / genomic studies in congenital heart disease",
       "queries": [
-        "congenital heart disease genetics genome-wide association",
-        "congenital heart defect rare variant exome sequencing",
-        "congenital heart disease de novo variant pathogenic",
-        "structural congenital heart disease genomics multi-omics"
+        "(\"congenital heart disease\"[tiab] OR \"congenital heart defect\"[tiab] OR \"congenital heart defects\"[tiab] OR \"Heart Defects, Congenital\"[mh]) AND (genetic*[tiab] OR genom*[tiab] OR exome[tiab] OR \"whole genome\"[tiab] OR \"de novo\"[tiab] OR \"rare variant\"[tiab] OR \"rare variants\"[tiab] OR mutation*[tiab] OR \"copy number\"[tiab] OR GWAS[tiab] OR \"genome-wide\"[tiab] OR sequencing[tiab])"
       ]
     },
     "DCM_Genetics": {
       "description": "Dilated cardiomyopathy genetics",
       "queries": [
-        "dilated cardiomyopathy genetics rare variant pathogenic",
-        "dilated cardiomyopathy whole exome sequencing genome",
-        "dilated cardiomyopathy GWAS association multi-omics"
+        "(\"dilated cardiomyopathy\"[tiab] OR \"Cardiomyopathy, Dilated\"[mh]) AND (genetic*[tiab] OR genom*[tiab] OR exome[tiab] OR \"rare variant\"[tiab] OR \"rare variants\"[tiab] OR \"truncating variant\"[tiab] OR titin[tiab] OR TTN[tiab] OR mutation*[tiab] OR GWAS[tiab] OR \"genome-wide\"[tiab] OR sequencing[tiab])"
       ]
     },
     "SCAD_Genetics": {
       "description": "Spontaneous coronary artery dissection genetics",
       "queries": [
-        "spontaneous coronary artery dissection genetics genomics",
-        "SCAD spontaneous coronary artery dissection GWAS variant",
-        "spontaneous coronary artery dissection heritable familial"
+        "(\"spontaneous coronary artery dissection\"[tiab] OR \"coronary artery dissection\"[tiab]) AND (genetic*[tiab] OR genom*[tiab] OR variant*[tiab] OR GWAS[tiab] OR \"genome-wide\"[tiab] OR heritab*[tiab] OR familial[tiab] OR polygenic[tiab])"
       ]
     }
   },
+
   "prs_disease": {
     "CHD_DCM_SCAD_PRS": {
-      "description": "PRS specifically in CHD, DCM, or SCAD",
+      "description": "Polygenic risk scores in CHD, DCM, or SCAD specifically",
       "queries": [
-        "polygenic risk score congenital heart disease",
-        "polygenic risk score dilated cardiomyopathy",
-        "polygenic risk score spontaneous coronary artery dissection"
+        "(\"polygenic risk score\"[tiab] OR \"polygenic score\"[tiab] OR \"polygenic risk\"[tiab] OR PRS[tiab]) AND (\"congenital heart\"[tiab] OR \"dilated cardiomyopathy\"[tiab] OR \"coronary artery dissection\"[tiab] OR cardiomyopathy[tiab])"
       ]
     }
   },
+
   "prs_methods": {
-    "Oligogenic_Digenic": {
-      "description": "PRS and genetic architecture methodology: oligogenic, digenic, multi-locus models",
+    "Architecture_Methods": {
+      "description": "PRS / genetic-architecture methodology: oligogenic, digenic, multi-locus, rare+common integration",
       "queries": [
-        "oligogenic model genetic disease architecture",
-        "digenic inheritance disease genetics genomics",
-        "multilocus polygenic risk score rare variant integration",
-        "beyond polygenic scores oligogenic burden rare variant",
-        "genetic architecture complex disease oligogenic digenic"
+        "(oligogenic[tiab] OR digenic[tiab] OR \"multi-locus\"[tiab] OR multilocus[tiab] OR \"genetic architecture\"[tiab] OR \"rare variant burden\"[tiab]) AND (genetic*[tiab] OR genom*[tiab] OR inheritance[tiab] OR \"risk score\"[tiab] OR polygenic[tiab])",
+        "(polygenic[tiab] AND (\"rare variant\"[tiab] OR \"rare variants\"[tiab] OR monogenic[tiab] OR Mendelian[tiab]) AND (integrat*[tiab] OR combin*[tiab] OR joint[tiab] OR omnigenic[tiab]))"
       ]
     }
   },
+
   "topic_watch": {
     "CHD_Methylation": {
-      "description": "DNA methylation and epigenetics in CHD",
+      "description": "DNA methylation / episignatures / epigenetics in CHD",
       "queries": [
-        "DNA methylation congenital heart disease epigenetic",
-        "epigenetic congenital heart defect methylation array"
+        "(\"DNA methylation\"[tiab] OR episignature*[tiab] OR epigenetic*[tiab] OR epigenome[tiab]) AND (\"congenital heart\"[tiab] OR \"Heart Defects, Congenital\"[mh])"
       ]
     },
     "DCM_Omics": {
-      "description": "Multi-omics in dilated cardiomyopathy",
+      "description": "Multi-omics / methylation / transcriptomics in DCM",
       "queries": [
-        "dilated cardiomyopathy transcriptome RNA-seq multi-omics",
-        "dilated cardiomyopathy methylation epigenome"
+        "(\"dilated cardiomyopathy\"[tiab] OR \"Cardiomyopathy, Dilated\"[mh]) AND (\"RNA-seq\"[tiab] OR transcriptom*[tiab] OR \"multi-omics\"[tiab] OR multiomic*[tiab] OR \"DNA methylation\"[tiab] OR epigenom*[tiab] OR proteom*[tiab])"
       ]
     }
   },
+
   "settings": {
-    "lookback_days": 7,
-    "max_results_per_query": 15,
-    "max_papers_total": 10,
-    "email_to": "j.thompson@victorchang.edu.au",
+    "reldate_days": 8,
+    "datetype": "edat",
+    "max_results_per_query": 40,
+    "max_papers_total": 25,
+    "relevance_threshold": 3,
+    "include_preprints": true,
+    "use_llm": true,
+    "llm_model": "claude-haiku-4-5-20251001",
+    "email_to": "jamielee.thompson9@gmail.com",
     "email_from_name": "Cardio Lit Monitor"
   }
 }

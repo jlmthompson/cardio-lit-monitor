@@ -44,6 +44,10 @@ def paper_card(p):
         # Fallback to plain abstract if no bullets
         content_html = f'<p class="card-abstract">{p.get("abstract","")}</p>'
 
+    note = p.get("relevance_note", "")
+    note_html = f'<div class="relevance-note">Why: {note}</div>' if note else ""
+    content_html += note_html
+
     return f"""
 <div class="card" data-section="{section}">
   <div class="card-accent" style="background:{accent}"></div>
@@ -303,6 +307,15 @@ OUT.write_text(f"""<!DOCTYPE html>
       color: #0d9488;
       font-size: 0.7rem;
       top: 4px;
+    }}
+    .relevance-note {{
+      font-size: 0.72rem;
+      color: #0d9488;
+      background: #0d948810;
+      border-radius: 6px;
+      padding: 5px 9px;
+      margin-bottom: 10px;
+      font-style: italic;
     }}
     .card-links {{
       display: flex;

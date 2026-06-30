@@ -22,24 +22,24 @@ jobs:
           python-version: '3.11'
 
       - name: Install dependencies
-        run: pip install requests
+        run: pip install requests anthropic
 
-      - name: Fetch papers from PubMed + PGS Catalog
+      - name: Fetch papers from PubMed + Europe PMC (preprints)
+        env:
+          # LLM relevance scoring. If this secret is absent the script falls
+          # back to the keyword heuristic, so the workflow still succeeds.
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          # Optional: raises NCBI rate limit (3 -> 10 req/s). Safe to omit.
+          NCBI_API_KEY: ${{ secrets.NCBI_API_KEY }}
         run: python scripts/fetch_papers.py
 
       - name: Build website
         run: python scripts/build_site.py
 
-      - name: Send email digest
-        env:
-          GMAIL_ADDRESS:     ${{ secrets.GMAIL_ADDRESS }}
-          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
-        run: python scripts/send_email.py
-
       - name: Commit and push updated digest
         run: |
           git config user.name  "cardio-lit-monitor[bot]"
           git config user.email "actions@github.com"
-          git add data/digest.json docs/
+          git add data/digest.json data/seen.json docs/
           git diff --staged --quiet || git commit -m "Weekly digest $(date +'%Y-%m-%d')"
           git push
